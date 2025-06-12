@@ -481,12 +481,14 @@ CB_VERSION="0.0.1" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
        "snapshots": $snapshots,
        "trusted": "true"
      }' | jq . > "${BUILD_DIR}/BUILD_TMP/${PROG}.json"
-     #Copy?
+     #Copy
        if jq -r '.pkg' "${BUILD_DIR}/BUILD_TMP/${PROG}.json" | grep -iv 'null' | tr -d '[:space:]' | grep -Eiq "^${PKG_NAME}$"; then
          mv -fv "${BUILD_DIR}/BUILD_TMP/${PROG}.json" "${C_ARTIFACT_DIR}/${PROG}.json"
          cp -fv "${C_ARTIFACT_DIR}/BUILD.log" "${C_ARTIFACT_DIR}/${PROG}.log"
          echo "${PKG_VERSION}" | tr -d '[:space:]' > "${C_ARTIFACT_DIR}/${PROG}.version"
          PKG_JSON="${C_ARTIFACT_DIR}/${PROG}.json"
+         METADATA_FILE="${METADATA_DIR}/$(echo "${GHCRPKG_URL}" | sed 's/[^a-zA-Z0-9]/_/g' | tr -d '"'\''[:space:]')-${PKG_NAME}.json"
+         cp -fv "${PKG_JSON}" "${METADATA_FILE}"
          export PKG_JSON
        else
           echo -e "\n[✗] FATAL: Failed to generate Metadata\n"
@@ -556,7 +558,6 @@ CB_VERSION="0.0.1" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
            echo -e "[+] ==> ${MANIFEST_URL:-${DOWNLOAD_URL}} \n"
            export PUSH_SUCCESSFUL="YES"
            #rm -rf "${GHCR_PKG}" "${PKG_JSON}" 2>/dev/null
-           echo "export PUSH_SUCCESSFUL=YES" >> "${OCWD}/ENVPATH"
            [[ "${GHA_MODE}" == "MATRIX" ]] && echo "PKG_VERSION_UPSTREAM=${PKG_VERSION_UPSTREAM}" >> "${GITHUB_ENV}"
            [[ "${GHA_MODE}" == "MATRIX" ]] && echo "GHCRPKG_URL=${GHCRPKG_URL}" >> "${GITHUB_ENV}"
            [[ "${GHA_MODE}" == "MATRIX" ]] && echo "PUSH_SUCCESSFUL=${PUSH_SUCCESSFUL}" >> "${GITHUB_ENV}"
@@ -580,7 +581,6 @@ CB_VERSION="0.0.1" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
              oras manifest fetch "${GHCRPKG_URL}:${GHCRPKG_TAG}" | jq .
              echo -e "\n[✗] Failed to Push Artifact to ${GHCRPKG_URL}:${GHCRPKG_TAG}\n"
              export PUSH_SUCCESSFUL="NO"
-             echo "export PUSH_SUCCESSFUL=NO" >> "${OCWD}/ENVPATH"
              [[ "${GHA_MODE}" == "MATRIX" ]] && echo "PUSH_SUCCESSFUL=${PUSH_SUCCESSFUL}" >> "${GITHUB_ENV}"
              return 1 || exit 1
            fi

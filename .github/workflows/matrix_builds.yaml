@@ -48,11 +48,11 @@ jobs:
           #-------------#
           echo '[' > "./MATRIX.json.tmp"
            if [[ "${{ github.event.inputs.target }}" == "ALL" ]]; then
-             echo '{"host": "aarch64-Linux", "target": "aarch64-unknown-linux-musl", "runner": "ubuntu-24.04-arm", "crate-name": "${{ inputs.crate-name }}"},' >> "./MATRIX.json.tmp"
+             echo '{"host": "aarch64-Linux", "target": "aarch64-unknown-linux-musl", "runner": "ubuntu-latest", "crate-name": "${{ inputs.crate-name }}"},' >> "./MATRIX.json.tmp"
              echo '{"host": "riscv64-Linux", "target": "riscv64gc-unknown-linux-musl", "runner": "ubuntu-latest", "crate-name": "${{ inputs.crate-name }}"},' >> "./MATRIX.json.tmp"
              echo '{"host": "x86_64-Linux", "target": "x86_64-unknown-linux-musl", "runner": "ubuntu-latest", "crate-name": "${{ inputs.crate-name }}"}' >> "./MATRIX.json.tmp"
            elif [[ "${{ github.event.inputs.target }}" == "aarch64-unknown-linux-musl" ]]; then
-             echo '{"host": "aarch64-Linux", "target": "aarch64-unknown-linux-musl", "runner": "ubuntu-24.04-arm", "crate-name": "${{ inputs.crate-name }}"}' >> "./MATRIX.json.tmp"
+             echo '{"host": "aarch64-Linux", "target": "aarch64-unknown-linux-musl", "runner": "ubuntu-latest", "crate-name": "${{ inputs.crate-name }}"}' >> "./MATRIX.json.tmp"
            elif [[ "${{ github.event.inputs.target }}" == "riscv64gc-unknown-linux-musl" ]]; then
              echo '{"host": "riscv64-Linux", "target": "riscv64gc-unknown-linux-musl", "runner": "ubuntu-latest", "crate-name": "${{ inputs.crate-name }}"}' >> "./MATRIX.json.tmp"
            elif [[ "${{ github.event.inputs.target }}" == "x86_64-unknown-linux-musl" ]]; then
@@ -543,6 +543,7 @@ jobs:
           #-------------#
           if [[ "${GHA_BUILD_FAILED}" == "YES" || "${BUILD_SUCCESSFUL}" == "NO" ]]; then
             echo -e "\n[-] FATAL: Failed to Successfully Build ${{ matrix.package.ghcr_pkg }}"
+            echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
            exit 1
           fi
         continue-on-error: false
@@ -561,6 +562,13 @@ jobs:
           if [[ "${PUSH_SUCCESSFUL}" == "NO" ]]; then
             echo -e "\n[-] FATAL: Failed to Successfully Push ==> ${{ matrix.package.ghcr_pkg }}"
            exit 1
+          else
+           #Upload Metadata
+            pushd "${METADATA_DIR}" &>/dev/null &&\
+              find "${METADATA_DIR}" -maxdepth 1 -type f -iname "*.json" -size +3c -print0 | xargs -0 -P "$(($(nproc)+1))" -I '{}' gh release upload "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" '{}' --clobber
+              sleep 5 ; gh release view "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" 2>/dev/null || true
+              echo -e "\n[+] Metadata: ${METADATA_TAG_URL}\n"
+            popd &>/dev/null
           fi
         continue-on-error: false
 
