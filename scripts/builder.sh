@@ -490,6 +490,7 @@ CB_VERSION="0.0.1" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
          METADATA_FILE="${METADATA_DIR}/$(echo "${GHCRPKG_URL}" | sed 's/[^a-zA-Z0-9]/_/g' | tr -d '"'\''[:space:]')-${PKG_NAME}.json"
          cp -fv "${PKG_JSON}" "${METADATA_FILE}"
          export PKG_JSON
+         echo -e "\n[+] Metadata: \n" && jq . "${PKG_JSON}" ; echo -e "\n"
        else
           echo -e "\n[✗] FATAL: Failed to generate Metadata\n"
           build_fail_gh
