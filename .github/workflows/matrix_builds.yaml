@@ -34,6 +34,13 @@ on:
           - "true"
           - "false"
 
+      rebuild:
+        description: Force Rebuild this Package? [Default ==> True]
+        type: choice
+        options:
+          - "true"
+          - "false"
+
 jobs:
   preprocess:
     runs-on: ubuntu-latest
@@ -157,6 +164,12 @@ jobs:
            echo "KEEP_LOGS=${KEEP_LOGS}" >> "${GITHUB_ENV}"
            echo "GITHUB_TEST_BUILD=${GITHUB_TEST_BUILD}" >> "${GITHUB_ENV}"
            echo "SKIP_SRCBUILD_UPLOAD=${SKIP_SRCBUILD_UPLOAD}" >> "${GITHUB_ENV}"
+          ##Rebuild
+           if [[ "${{ github.event.inputs.rebuild }}" == "false" ]] ; then
+             export CRATE_REBUILD="false"
+           else
+             export CRATE_REBUILD="true"
+           fi
           ##Crate
            CRATE_NAME="$(echo "${{ github.event.inputs.crate-name }}" | tr -d '"'\''[:space:]')"
            CRATE_META_RAW="$(mktemp)"
@@ -411,7 +424,7 @@ jobs:
           popd >/dev/null 2>&1
         continue-on-error: true
 
-      - name: Push Artifacts (${{ github.event.inputs.crate-name }}-${{ env.CRATE_VERSION }}) [${{ matrix.package.target }}<==>${{ matrix.package.runner }}]
+      - name: Push Artifacts [https://${{ env.GHCRPKG_URL }}-srcbuild-${{ env.BUILD_ID }}]
         if: env.CONTINUE_GHRUN != 'FALSE'
         run: |
           ##Presets
@@ -490,7 +503,7 @@ jobs:
         continue-on-error: true
         
     ##Logs & Artifacts
-      - name: Get DateTime [${{ github.event.inputs.crate-name }}-${{ env.CRATE_VERSION }}<==>${{ matrix.package.target }}]
+      - name: Get DateTime [https://${{ env.GHCRPKG_URL }}]
         if: env.CONTINUE_GHRUN != 'FALSE'
         run: |
           ##Presets
@@ -505,7 +518,7 @@ jobs:
           echo "UTC_TIME=${UTC_TIME}" >> "${GITHUB_ENV}"
         continue-on-error: true
 
-      - name: Upload (LOG) Artifacts [${{ github.event.inputs.crate-name }}-${{ env.CRATE_VERSION }}<==>${{ matrix.package.target }}]
+      - name: Upload (LOG) Artifacts [https://${{ env.GHCRPKG_URL }}]
         if: env.CONTINUE_GHRUN != 'FALSE'
         uses: actions/upload-artifact@v4
         with:
@@ -518,7 +531,7 @@ jobs:
             overwrite: true
         continue-on-error: true
 
-      - name: Attest Build Provenance [${{ github.event.inputs.crate-name }}-${{ env.CRATE_VERSION }}<==>${{ matrix.package.target }}]
+      - name: Attest Build Provenance [https://${{ env.GHCRPKG_URL }}]
         if: env.CONTINUE_GHRUN != 'FALSE'
         uses: actions/attest-build-provenance@v2.3.0
         with:
@@ -530,7 +543,7 @@ jobs:
           show-summary: true
         continue-on-error: true
 
-      - name: Check Build [${{ matrix.package.ghcr_pkg }}]
+      - name: Check Build [https://${{ env.GHCRPKG_URL }}]
         if: env.CONTINUE_GHRUN != 'FALSE'
         run: |
           ##Presets
@@ -548,7 +561,7 @@ jobs:
           fi
         continue-on-error: false
 
-      - name: Check Push [${{ matrix.package.ghcr_pkg }}]
+      - name: Check Push [https://${{ env.GHCRPKG_URL }}]
         if: env.CONTINUE_GHRUN != 'FALSE'
         env:
           GH_TOKEN: "${{ github.token }}"
