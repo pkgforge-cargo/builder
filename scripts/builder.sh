@@ -183,7 +183,6 @@ CB_VERSION="0.0.1" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
     cross +nightly build --target "${RUST_TARGET}" -Z unstable-options \
      --all-features \
      --artifact-dir="${C_ARTIFACT_DIR}" \
-     --bins \
      --jobs="$(($(nproc)+1))" \
      --release \
      --keep-going \
