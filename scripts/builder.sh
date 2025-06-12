@@ -487,7 +487,7 @@ CB_VERSION="0.0.1" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
          cp -fv "${C_ARTIFACT_DIR}/BUILD.log" "${C_ARTIFACT_DIR}/${PROG}.log"
          echo "${PKG_VERSION}" | tr -d '[:space:]' > "${C_ARTIFACT_DIR}/${PROG}.version"
          PKG_JSON="${C_ARTIFACT_DIR}/${PROG}.json"
-         METADATA_FILE="${METADATA_DIR}/$(echo "${GHCRPKG_URL}" | sed 's/[^a-zA-Z0-9]/_/g' | tr -d '"'\''[:space:]')-${PKG_NAME}.json"
+         METADATA_FILE="${METADATA_DIR}/$(echo "${GHCRPKG_URL}" | sed 's/[^a-zA-Z0-9]/_/g' | tr -d '"'\''[:space:]')-${HOST_TRIPLET}.json"
          cp -fv "${PKG_JSON}" "${METADATA_FILE}"
          export PKG_JSON
          echo -e "\n[+] Metadata: \n" && jq . "${PKG_JSON}" ; echo -e "\n"
