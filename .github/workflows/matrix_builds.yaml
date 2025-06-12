@@ -92,16 +92,16 @@ jobs:
           set +x ; set +e
           #-------------#
           if [[ "$(uname -m | tr -d '[:space:]')" == "aarch64" ]]; then
-            if [[ "${{ github.event.inputs.host }}" != "ALL" ]] && [[ "${{ github.event.inputs.host }}" != "aarch64-Linux" ]]; then
+            if [[ "${{ github.event.inputs.target }}" != "ALL" ]] && [[ "${{ github.event.inputs.target }}" != "aarch64-unknown-linux-musl" ]]; then
               echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
             fi
           elif [[ "$(uname -m | tr -d '[:space:]')" == "riscv64" ]]; then
-            if [[ "${{ github.event.inputs.host }}" != "ALL" ]] && [[ "${{ github.event.inputs.host }}" != "riscv64-Linux" ]]; then
+            if [[ "${{ github.event.inputs.target }}" != "ALL" ]] && [[ "${{ github.event.inputs.target }}" != "riscv64gc-unknown-linux-musl" ]]; then
               echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
             fi
           elif [[ "$(uname -m | tr -d '[:space:]')" == "x86_64" ]]; then
-            if [[ "${{ github.event.inputs.host }}" != "ALL" ]] && [[ "${{ github.event.inputs.host }}" != "x86_64-Linux" ]]; then
-               if [[ "${{ github.event.inputs.host }}" == "riscv64-Linux" ]]; then
+            if [[ "${{ github.event.inputs.target }}" != "ALL" ]] && [[ "${{ github.event.inputs.target }}" != "x86_64-unknown-linux-musl" ]]; then
+               if [[ "${{ github.event.inputs.target }}" == "riscv64gc-unknown-linux-musl" ]]; then
                  echo "CONTINUE_GHRUN=TRUE" >> "${GITHUB_ENV}"
                else
                  echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
