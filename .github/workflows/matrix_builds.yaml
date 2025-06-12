@@ -119,9 +119,9 @@ jobs:
           set +x ; set +e
           #-------------#
           # Check if any of the required secrets are missing
-          if [ -z "${RO_GHTOKEN##*[[:space:]]}" ] || [ -z "${HF_TOKEN##*[[:space:]]}" ]; then
+          if [[ -z "${RO_GHTOKEN##*[[:space:]]}" ]]; then
             echo "::error::One or more required secrets are missing:"
-            [ -z "${RO_GHTOKEN##*[[:space:]]}" ] && echo "- RO_GHTOKEN is missing"
+            [[ -z "${RO_GHTOKEN##*[[:space:]]}" ]] && echo "- RO_GHTOKEN is missing"
             exit 1
           fi
         continue-on-error: false
