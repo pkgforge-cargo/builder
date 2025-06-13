@@ -170,7 +170,7 @@ jobs:
            else
              export CRATE_REBUILD="true"
            fi
-          ##Crate
+          ##Crate [Exists?]
            CRATE_NAME="$(echo "${{ github.event.inputs.crate-name }}" | tr -d '"'\''[:space:]')"
            CRATE_META_RAW="$(mktemp)"
            CRATE_META="${CRATE_META_RAW}.json"
@@ -542,6 +542,20 @@ jobs:
             ${{ env.C_ARTIFACT_DIR }}/**
           show-summary: true
         continue-on-error: true
+
+      - name: Check Crate Type [${{ env.CRATE_TYPE }}]
+        if: env.CRATE_TYPE == 'library'
+        run: |
+          ##Presets
+          set +x ; set +e
+          #-------------#
+          ##Debug?
+          if [[ "${DEBUG}" = "1" ]] || [[ "${DEBUG}" = "ON" ]]; then
+            set -x
+          fi
+          #-------------#
+          echo "::warning:: ${{ env.CRATE_NAME }} is likely of Type '${{ env.CRATE_TYPE }}'"
+        continue-on-error: false
 
       - name: Check Build [https://${{ env.GHCRPKG_URL }}]
         if: env.CONTINUE_GHRUN != 'FALSE'
