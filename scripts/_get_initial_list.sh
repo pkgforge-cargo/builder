@@ -7,7 +7,10 @@
 #Get inside a TEMP Dir
 pushd "$(mktemp -d)" &>/dev/null
 export TEMP_DIR="$(realpath .)"
-echo -e "\n[+] Using dir: ${TEMP_DIR}\n"
+export OUT_DIR="/tmp/crates"
+rm -rf "${OUT_DIR}" 2>/dev/null ; mkdir -p "${OUT_DIR}/TEMP"
+echo -e "\n[+] Using TEMP dir: ${TEMP_DIR}"
+echo -e "[+] Using OUT dir: ${OUT_DIR}\n"
 #Get Most Downloaded (Of All Time)
  echo -e "\n[+] Scraping Crates (most-downloads)\n"
  for i in {1..1000}; do
@@ -74,16 +77,14 @@ echo -e "\n[+] Using dir: ${TEMP_DIR}\n"
  wait &>/dev/null
 #Merge
  echo -e "\n[+] Merging JSON ...\n"
- rm -rf "/tmp/crates" 2>/dev/null
- mkdir -p "/tmp/crates"
  find "${TEMP_DIR}" -type f -size -3c -delete
  find "${TEMP_DIR}" -type f -iname "*.json" -exec cat "{}" + > "${TEMP_DIR}/RAW.json.tmp"
  awk '/^\s*{\s*$/{flag=1; buffer="{\n"; next} /^\s*}\s*$/{if(flag){buffer=buffer"}\n"; print buffer}; flag=0; next} flag{buffer=buffer$0"\n"}' "${TEMP_DIR}/RAW.json.tmp" | jq -c '. as $line | (fromjson? | .message) // $line' >> "${TEMP_DIR}/RAW.json.raw"
  jq -s '[.[] | select(type == "object" and has("name"))] 
        | unique_by(.name | ascii_downcase) 
-       | sort_by(.name | ascii_downcase)' "${TEMP_DIR}/RAW.json.raw" > "/tmp/crates/RAW.json"
+       | sort_by(.name | ascii_downcase)' "${TEMP_DIR}/RAW.json.raw" > "${OUT_DIR}/RAW.json"
 #Process
- echo -e "\n[+] Processing Crates [$(jq -r '.[] | .name' '/tmp/crates/RAW.json' | wc -l)] ...\n"
+ echo -e "\n[+] Processing Crates [$(jq -r '.[] | .name' "${OUT_DIR}/RAW.json" | wc -l)] ...\n"
  process_crate() {
      local pkg="$1"
      local retries=0
@@ -116,19 +117,19 @@ echo -e "\n[+] Using dir: ${TEMP_DIR}\n"
      #Add new fields
      jq --arg pkg "$pkg" --arg has_bins "$has_bins" --arg bin_names "$bin_names" --arg version "$version" \
        '.[] | select(.name == $pkg) | . + {has_bins: ($has_bins == "true"), version: $version, bin_names: ($bin_names | split(",") | map(gsub("^\\s+|\\s+$"; "")) | map(select(length > 0)) | unique | sort)}' \
-       "${TEMP_DIR}/RAW.json" > "/tmp/crates/${pkg}.json"
+       "${OUT_DIR}/RAW.json" > "${OUT_DIR}/TEMP/${pkg}.json"
      
-     echo "Processed: $pkg (has_bins: $has_bins) (bin_names: $bin_names) (version: $version) [/tmp/crates/${pkg}.json]"
+     echo "Processed: $pkg (has_bins: $has_bins) (bin_names: $bin_names) (version: $version) [${OUT_DIR}/TEMP/${pkg}.json]"
  }
  export -f process_crate
  #too many will ratelimit us
- jq -r '.[] | .name' "${TEMP_DIR}/RAW.json" | xargs -P 5 -I {} bash -c 'process_crate "{}"'
+ jq -r '.[] | .name' "${OUT_DIR}/RAW.json" | xargs -P "${PARALLEL_LIMIT:-$(($(nproc)+1))}" -I {} bash -c 'process_crate "{}"'
 #Merge Again
- find "/tmp/crates" -type f -size -3c -delete
- find "/tmp/crates" -type f -iname "*.json" -exec cat "{}" + > "/tmp/crates/RAW.json.tmp"
- awk '/^\s*{\s*$/{flag=1; buffer="{\n"; next} /^\s*}\s*$/{if(flag){buffer=buffer"}\n"; print buffer}; flag=0; next} flag{buffer=buffer$0"\n"}' "/tmp/crates/RAW.json.tmp" | jq -c '. as $line | (fromjson? | .message) // $line' >> "/tmp/crates/RAW.json.raw"
+ find "${OUT_DIR}/TEMP" -type f -size -3c -delete
+ find "${OUT_DIR}/TEMP" -type f -iname "*.json" -exec cat "{}" + > "${OUT_DIR}/RAW.json.tmp"
+ awk '/^\s*{\s*$/{flag=1; buffer="{\n"; next} /^\s*}\s*$/{if(flag){buffer=buffer"}\n"; print buffer}; flag=0; next} flag{buffer=buffer$0"\n"}' "${OUT_DIR}/RAW.json.tmp" | jq -c '. as $line | (fromjson? | .message) // $line' >> "${OUT_DIR}/RAW.json.raw"
  jq -s '[.[] | select(type == "object" and has("name"))] | unique_by(.name | ascii_downcase) | sort_by(.name | ascii_downcase) | walk(if type == "object" then with_entries(select(.value != null and .value != "" and .value != "null")) elif type == "boolean" or type == "number" then tostring else . end) | map(to_entries | sort_by(.key) | from_entries)' \
- "/tmp/crates/RAW.json.raw" | jq \
+ "${OUT_DIR}/RAW.json.raw" | jq \
  '
   sort_by([
     -(if .downloads then (.downloads | tonumber) else -1 end),
@@ -136,20 +137,22 @@ echo -e "\n[+] Using dir: ${TEMP_DIR}\n"
   ]) |
   to_entries |
   map(.value + { rank: (.key + 1 | tostring) })
- ' > "/tmp/crates/CRATES_DUMP.json"
+ ' > "${OUT_DIR}/CRATES_DUMP.json"
 #Compute Ranks & Finalize
- jq 'map(select(.has_bins == "true"))' "/tmp/crates/CRATES_DUMP.json" |\
+ jq 'map(select(.has_bins == "true"))' "${OUT_DIR}/CRATES_DUMP.json" |\
  jq 'walk(if type == "boolean" or type == "number" then tostring else . end)' |\
  jq 'map(select(
     .name != null and .name != "" and
     .has_bins != null and .has_bins != "" and
     .version != null and .version != ""
- ))' | jq 'unique_by(.name) | sort_by(.rank | tonumber) | [range(length)] as $indices | [., $indices] | transpose | map(.[0] + {rank: (.[1] + 1 | tostring)})' > "/tmp/crates/CRATES_BIN_ONLY.json"
+ ))' | jq 'unique_by(.name) | sort_by(.rank | tonumber) | [range(length)] as $indices | [., $indices] | transpose | map(.[0] + {rank: (.[1] + 1 | tostring)})' > "${OUT_DIR}/CRATES_BIN_ONLY.json"
 #Print stats
- du -bh "/tmp/crates/CRATES_DUMP.json"
- du -bh "/tmp/crates/CRATES_BIN_ONLY.json"
- echo -e "\n[+] Total Packages: $(jq -r '.[] | .name' '/tmp/crates/CRATES_DUMP.json' | wc -l)"
- echo -e "[+] Binary Packages: $(jq -r '.[] | .name' '/tmp/crates/CRATES_BIN_ONLY.json' | wc -l)\n"
+ du -bh "${OUT_DIR}/CRATES_DUMP.json"
+ du -bh "${OUT_DIR}/CRATES_BIN_ONLY.json"
+ echo -e "\n[+] Total Packages: $(jq -r '.[] | .name' "${OUT_DIR}/CRATES_DUMP.json" | wc -l)"
+ echo -e "[+] Binary Packages: $(jq -r '.[] | .name' "${OUT_DIR}/CRATES_BIN_ONLY.json" | wc -l)"
+ echo -e "[+] Used TEMP dir: ${TEMP_DIR}"
+ echo -e "[+] Used OUT dir: ${OUT_DIR}\n"
 #Cleanup
 popd &>/dev/null
 #-------------------------------------------------------#

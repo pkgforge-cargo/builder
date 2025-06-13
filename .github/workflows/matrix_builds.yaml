@@ -190,6 +190,7 @@ jobs:
              #Check if Lib Only
               if jq -r 'any(.. | objects | select(has("bin_names")) | .bin_names | select(. != null and . != [] and . != "" and . != "null") | map(select(. != null and . != "" and . != "null")) | length > 0)' "${CRATE_META_RAW}" | grep -qi 'false'; then
                   echo -e "\n[✗] FATAL: ${CRATE_NAME} is a Library (No Executables) <== ${CRATE_URL}\n"
+                  echo -e "\n" ; jq . "${CRATE_META_RAW}" ; echo -e "\n"
                  echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
                 exit 1
               fi
