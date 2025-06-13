@@ -188,7 +188,7 @@ jobs:
            ' 2>/dev/null 1>"${CRATE_META}"
            if jq --arg "C_N" "${CRATE_NAME}" '.pkg == $C_N and .version and .version != ""' "${CRATE_META}" | grep -qi 'true'; then
              #Check if Lib Only
-              if jq -r 'any(.. | objects | select(has("bin_names")) | .bin_names | length > 0)' "${CRATE_META_RAW}" | grep -qi 'false'; then
+              if jq -r 'any(.. | objects | select(has("bin_names")) | .bin_names | select(. != null and . != [] and . != "" and . != "null") | map(select(. != null and . != "" and . != "null")) | length > 0)' "${CRATE_META_RAW}" | grep -qi 'false'; then
                   echo -e "\n[✗] FATAL: ${CRATE_NAME} is a Library (No Executables) <== ${CRATE_URL}\n"
                  echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
                 exit 1
@@ -201,6 +201,10 @@ jobs:
               echo "CRATE_NAME=${CRATE_NAME}" >> "${GITHUB_ENV}"
               echo "CRATE_VERSION=${CRATE_VERSION}" >> "${GITHUB_ENV}"
            else
+               du -bh "${CRATE_META_RAW}"
+               echo -e "\n" ; jq . "${CRATE_META_RAW}" ; echo -e "\n"
+               du -bh "${CRATE_META}"
+               echo -e "\n" ; jq . "${CRATE_META}" ; echo -e "\n"
                echo -e "\n[✗] FATAL: Failed to Fetch ${CRATE_NAME} <== ${CRATE_URL}\n"
                echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
               exit 1
