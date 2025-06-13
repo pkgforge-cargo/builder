@@ -242,7 +242,16 @@ CB_VERSION="0.0.1" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
   #Build
    echo "[+] Artifacts: ${C_ARTIFACT_DIR}\n"
    {
+     echo '\\\\============================ Package Forge ============================////'
+     echo '|--- Repository: https://github.com/pkgforge-cargo/builder                 ---|'
+     echo '|--- Contact: https://docs.pkgforge.dev/contact/chat                       ---|'
+     echo '|--- Discord: https://discord.gg/djJUs48Zbu                                ---|'  
+     echo '|--- Docs: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo  ---|'
+     echo '|--- Bugs/Issues: https://github.com/pkgforge-cargo/builder/issues         ---|'
+     echo '|-----------------------------------------------------------------------------|'
+     echo -e "\n==> [+] Started Building at :: $(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC\n"
      set_rustflags && cross_build
+     echo -e "\n==> [+] Finished Building at :: $(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC\n"
    } |& ts -s '[%H:%M:%S]➜ ' | tee "${C_ARTIFACT_DIR}/BUILD.log"
   #Check Dir
    if [[ "$(du -s --exclude='*.log' "${C_ARTIFACT_DIR}" | cut -f1)" -lt 10 ]]; then
