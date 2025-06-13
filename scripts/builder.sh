@@ -222,6 +222,12 @@ CB_VERSION="0.0.1" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
       build_fail_gh
      exit 1
    else
+     #Crate [Is Lib?]
+      if cargo metadata --format-version 1 --no-deps 2>/dev/null | grep -m 1 -qoiE '"kind"[[:space:]]*:[[:space:]]*\[[^]]*"lib"[^]]*\]'; then
+         echo -e "\n[-] WARNING: ${CRATE_NAME} is likely a Library\n"
+         export CRATE_TYPE="library"
+         [[ "${GHA_MODE}" == "MATRIX" ]] && echo "CRATE_TYPE=library" >> "${GITHUB_ENV}"
+      fi
      #Meta (Raw)
       if [[ -s "${CRATE_META_RAW}" ]]; then
         cp -fv "${CRATE_META_RAW}" "${BUILD_DIR}/CRATE_META_RAW.json"

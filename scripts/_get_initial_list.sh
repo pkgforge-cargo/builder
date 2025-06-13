@@ -34,7 +34,7 @@ echo -e "\n[+] Using dir: ${TEMP_DIR}\n"
        [[ $retry -lt 3 ]] && sleep 1
      done
    ) &>/dev/null &
-   if (( i % 10 == 0 )); then
+   if (( i % 20 == 0 )); then
        wait &>/dev/null
        sleep "$(shuf -i 500-1500 -n 1)e-3"
    fi
@@ -66,7 +66,7 @@ echo -e "\n[+] Using dir: ${TEMP_DIR}\n"
        [[ $retry -lt 3 ]] && sleep 1
      done
    ) &>/dev/null &
-   if (( i % 10 == 0 )); then
+   if (( i % 20 == 0 )); then
        wait &>/dev/null
        sleep "$(shuf -i 500-1500 -n 1)e-3"
    fi
@@ -74,36 +74,51 @@ echo -e "\n[+] Using dir: ${TEMP_DIR}\n"
  wait &>/dev/null
 #Merge
  echo -e "\n[+] Merging JSON ...\n"
+ rm -rf "/tmp/crates" 2>/dev/null
+ mkdir -p "/tmp/crates"
  find "${TEMP_DIR}" -type f -size -3c -delete
  find "${TEMP_DIR}" -type f -iname "*.json" -exec cat "{}" + > "${TEMP_DIR}/RAW.json.tmp"
  awk '/^\s*{\s*$/{flag=1; buffer="{\n"; next} /^\s*}\s*$/{if(flag){buffer=buffer"}\n"; print buffer}; flag=0; next} flag{buffer=buffer$0"\n"}' "${TEMP_DIR}/RAW.json.tmp" | jq -c '. as $line | (fromjson? | .message) // $line' >> "${TEMP_DIR}/RAW.json.raw"
  jq -s '[.[] | select(type == "object" and has("name"))] 
        | unique_by(.name | ascii_downcase) 
-       | sort_by(.name | ascii_downcase)' "${TEMP_DIR}/RAW.json.raw" > "${TEMP_DIR}/RAW.json"
+       | sort_by(.name | ascii_downcase)' "${TEMP_DIR}/RAW.json.raw" > "/tmp/crates/RAW.json"
 #Process
  echo -e "\n[+] Processing Crates [$(jq -r '.[] | .name' '/tmp/crates/RAW.json' | wc -l)] ...\n"
- rm -rf "/tmp/crates" 2>/dev/null
- mkdir -p "/tmp/crates"
  process_crate() {
      local pkg="$1"
      local retries=0
      local max_retries=2
      local has_bins="false"
+     local bin_names=""
+     local version=""
      
      while [ $retries -le $max_retries ]; do
          if api_response=$(curl -qfsSL "https://crates.io/api/v1/crates/${pkg}" 2>/dev/null); then
-             has_bins=$(echo "$api_response" | jq -r 'any(.. | objects | select(has("bin_names")) | .bin_names | length > 0)')
+             has_bins="$(echo "$api_response" | jq -r 'any(.. | objects | select(has("bin_names")) | .bin_names | select(. != null and . != [] and . != "" and . != "null") | map(select(. != null and . != "" and . != "null")) | length > 0)')"
+             bin_names="$(echo "$api_response" | jq -r \
+              '
+                [.. | objects | select(has("bin_names")) | .bin_names | 
+                 if type == "array" then .[] else . end] | 
+                map(select(. != null and . != "" and type == "string")) | 
+                unique | sort | join(",")
+              ' | sed 's/^,\+//; s/,\+$//; s/,\+/,/g; s/,/, /g')"
+             #bin_names="$(echo "$api_response" | jq -r '.. | objects | select(has("bin_names")) | .bin_names' | \
+             #  jq -r 'if type == "array" then .[] else . end' | tr -d '[]' |\
+             #  sort -u | grep -v '^null$' | grep -v '^$' | sort -u | paste -sd, - |\
+             #  tr -d '[:space:]' | sed 's/^,\+//; s/,\+$//; s/,\+/,/g; s/,/, /g')"
+             version="$(echo "$api_response" | jq -r '.. | objects | (.newest_version // .max_version // .version) | select(. != null) | tostring' | grep -iv 'null' | head -1)"
              break
          fi
          ((retries++))
          [ $retries -le $max_retries ] && sleep 1
      done
-     #Add has_bins field
-     jq --arg pkg "$pkg" --arg has_bins "$has_bins" \
-         '.[] | select(.name == $pkg) | . + {has_bins: ($has_bins == "true")}' \
-         RAW.json > "/tmp/crates/${pkg}.json"
      
-     echo "Processed: $pkg (has_bins: $has_bins)"
+     #Add new fields
+     jq --arg pkg "$pkg" --arg has_bins "$has_bins" --arg bin_names "$bin_names" --arg version "$version" \
+       '.[] | select(.name == $pkg) | . + {has_bins: ($has_bins == "true"), version: $version, bin_names: ($bin_names | split(",") | map(gsub("^\\s+|\\s+$"; "")) | map(select(length > 0)) | unique | sort)}' \
+       "${TEMP_DIR}/RAW.json" > "/tmp/crates/${pkg}.json"
+     
+     echo "Processed: $pkg (has_bins: $has_bins) (bin_names: $bin_names) (version: $version) [/tmp/crates/${pkg}.json]"
  }
  export -f process_crate
  #too many will ratelimit us
@@ -112,23 +127,24 @@ echo -e "\n[+] Using dir: ${TEMP_DIR}\n"
  find "/tmp/crates" -type f -size -3c -delete
  find "/tmp/crates" -type f -iname "*.json" -exec cat "{}" + > "/tmp/crates/RAW.json.tmp"
  awk '/^\s*{\s*$/{flag=1; buffer="{\n"; next} /^\s*}\s*$/{if(flag){buffer=buffer"}\n"; print buffer}; flag=0; next} flag{buffer=buffer$0"\n"}' "/tmp/crates/RAW.json.tmp" | jq -c '. as $line | (fromjson? | .message) // $line' >> "/tmp/crates/RAW.json.raw"
- jq -s '[.[] | select(type == "object" and has("name"))] | unique_by(.name | ascii_downcase) | sort_by(.name | ascii_downcase) | walk(if type == "object" then with_entries(select(.value != null and .value != "" and .value != "null")) elif type == "boolean" or type == "number" then tostring else . end) | map(to_entries | sort_by(.key) | from_entries)' "/tmp/crates/RAW.json.raw" |\
- jq '
+ jq -s '[.[] | select(type == "object" and has("name"))] | unique_by(.name | ascii_downcase) | sort_by(.name | ascii_downcase) | walk(if type == "object" then with_entries(select(.value != null and .value != "" and .value != "null")) elif type == "boolean" or type == "number" then tostring else . end) | map(to_entries | sort_by(.key) | from_entries)' \
+ "/tmp/crates/RAW.json.raw" | jq \
+ '
   sort_by([
     -(if .downloads then (.downloads | tonumber) else -1 end),
     .name
   ]) |
   to_entries |
   map(.value + { rank: (.key + 1 | tostring) })
-' > "/tmp/crates/CRATES_DUMP.json"
+ ' > "/tmp/crates/CRATES_DUMP.json"
 #Compute Ranks & Finalize
-  jq 'map(select(.has_bins == "true"))' "/tmp/crates/CRATES_DUMP.json" |\
-  jq 'walk(if type == "boolean" or type == "number" then tostring else . end)' |\
-  jq 'map(select(
-     .name != null and .name != "" and
-     .has_bins != null and .has_bins != "" and
-     .version != null and .version != ""
-  ))' | jq 'unique_by(.name) | sort_by(.rank | tonumber) | [range(length)] as $indices | [., $indices] | transpose | map(.[0] + {rank: (.[1] + 1 | tostring)})' > "/tmp/crates/CRATES_BIN_ONLY.json"
+ jq 'map(select(.has_bins == "true"))' "/tmp/crates/CRATES_DUMP.json" |\
+ jq 'walk(if type == "boolean" or type == "number" then tostring else . end)' |\
+ jq 'map(select(
+    .name != null and .name != "" and
+    .has_bins != null and .has_bins != "" and
+    .version != null and .version != ""
+ ))' | jq 'unique_by(.name) | sort_by(.rank | tonumber) | [range(length)] as $indices | [., $indices] | transpose | map(.[0] + {rank: (.[1] + 1 | tostring)})' > "/tmp/crates/CRATES_BIN_ONLY.json"
 #Print stats
  du -bh "/tmp/crates/CRATES_DUMP.json"
  du -bh "/tmp/crates/CRATES_BIN_ONLY.json"
