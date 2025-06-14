@@ -102,7 +102,8 @@ pushd "${TMPDIR}" &>/dev/null
         .ghcr_pkg != null and .ghcr_pkg != "" and
         .version != null and .version != ""
         ))
-       ' | jq 'unique_by(.ghcr_pkg) | sort_by(.pkg)' > "${TMPDIR}/${HOST_TRIPLET}.json"
+       ' | jq 'if type == "array" then map(if (.src_url | type) == "string" then .src_url = [.src_url] else . end) else if (.src_url | type) == "string" then .src_url = [.src_url] else . end end' |\
+        jq 'unique_by(.ghcr_pkg) | sort_by(.pkg)' > "${TMPDIR}/${HOST_TRIPLET}.json"
     #Sanity Check
      PKG_COUNT="$(jq -r '.[] | .pkg_id' "${TMPDIR}/${HOST_TRIPLET}.json" | grep -iv 'null' | wc -l | tr -d '[:space:]')"
      if [[ "${PKG_COUNT}" -le 5 ]]; then

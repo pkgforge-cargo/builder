@@ -472,7 +472,7 @@ CB_VERSION="0.0.2" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
          "Provided by: https://github.com/pkgforge-cargo/builder",
          "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
        ],
-       "src_url": (env.PKG_SRC_URL // ""),
+       "src_url": (if env.PKG_SRC_URL then (env.PKG_SRC_URL | split(",") | map(gsub("^\\s+|\\s+$"; "")) | unique | sort) else [] end),
        "tag": (if env.PKG_TAGS then (env.PKG_TAGS | split(",") | map(gsub("^\\s+|\\s+$"; "")) | unique | sort) else [] end),
        "version": (env.PKG_VERSION // ""),
        "version_upstream": (env.PKG_VERSION // ""),
