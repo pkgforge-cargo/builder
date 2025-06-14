@@ -59,6 +59,8 @@ CB_VERSION="0.0.1" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
   #HOST_TRIPLET="$(uname -m)-$(uname -s)"
   if echo "${RUST_TARGET}" | grep -qiE "aarch64"; then
    HOST_TRIPLET="aarch64-Linux"
+  elif echo "${RUST_TARGET}" | grep -qiE "loongarch64"; then
+   HOST_TRIPLET="loongarch64-Linux"
   elif echo "${RUST_TARGET}" | grep -qiE "riscv64"; then
    HOST_TRIPLET="riscv64-Linux"
   elif echo "${RUST_TARGET}" | grep -qiE "x86_64"; then

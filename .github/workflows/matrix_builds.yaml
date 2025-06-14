@@ -17,6 +17,7 @@ on:
         options:
           - "ALL"
           - "aarch64-unknown-linux-musl"
+          - "loongarch64-unknown-linux-musl"
           - "riscv64gc-unknown-linux-musl"
           - "x86_64-unknown-linux-musl"
 
@@ -56,10 +57,13 @@ jobs:
           echo '[' > "./MATRIX.json.tmp"
            if [[ "${{ github.event.inputs.target }}" == "ALL" ]]; then
              echo '{"host": "aarch64-Linux", "target": "aarch64-unknown-linux-musl", "runner": "ubuntu-latest", "crate-name": "${{ inputs.crate-name }}"},' >> "./MATRIX.json.tmp"
+             echo '{"host": "loongarch64-Linux", "target": "loongarch64-unknown-linux-musl", "runner": "ubuntu-latest", "crate-name": "${{ inputs.crate-name }}"},' >> "./MATRIX.json.tmp"
              echo '{"host": "riscv64-Linux", "target": "riscv64gc-unknown-linux-musl", "runner": "ubuntu-latest", "crate-name": "${{ inputs.crate-name }}"},' >> "./MATRIX.json.tmp"
              echo '{"host": "x86_64-Linux", "target": "x86_64-unknown-linux-musl", "runner": "ubuntu-latest", "crate-name": "${{ inputs.crate-name }}"}' >> "./MATRIX.json.tmp"
            elif [[ "${{ github.event.inputs.target }}" == "aarch64-unknown-linux-musl" ]]; then
              echo '{"host": "aarch64-Linux", "target": "aarch64-unknown-linux-musl", "runner": "ubuntu-latest", "crate-name": "${{ inputs.crate-name }}"}' >> "./MATRIX.json.tmp"
+           elif [[ "${{ github.event.inputs.target }}" == "loongarch64-unknown-linux-musl" ]]; then
+             echo '{"host": "loongarch64-Linux", "target": "loongarch64-unknown-linux-musl", "runner": "ubuntu-latest", "crate-name": "${{ inputs.crate-name }}"}' >> "./MATRIX.json.tmp"
            elif [[ "${{ github.event.inputs.target }}" == "riscv64gc-unknown-linux-musl" ]]; then
              echo '{"host": "riscv64-Linux", "target": "riscv64gc-unknown-linux-musl", "runner": "ubuntu-latest", "crate-name": "${{ inputs.crate-name }}"}' >> "./MATRIX.json.tmp"
            elif [[ "${{ github.event.inputs.target }}" == "x86_64-unknown-linux-musl" ]]; then
@@ -102,6 +106,10 @@ jobs:
             if [[ "${{ github.event.inputs.target }}" != "ALL" ]] && [[ "${{ github.event.inputs.target }}" != "aarch64-unknown-linux-musl" ]]; then
               echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
             fi
+          elif [[ "$(uname -m | tr -d '[:space:]')" == "loongarch64" ]]; then
+            if [[ "${{ github.event.inputs.target }}" != "ALL" ]] && [[ "${{ github.event.inputs.target }}" != "loongarch64-unknown-linux-musl" ]]; then
+              echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
+            fi
           elif [[ "$(uname -m | tr -d '[:space:]')" == "riscv64" ]]; then
             if [[ "${{ github.event.inputs.target }}" != "ALL" ]] && [[ "${{ github.event.inputs.target }}" != "riscv64gc-unknown-linux-musl" ]]; then
               echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
@@ -109,6 +117,8 @@ jobs:
           elif [[ "$(uname -m | tr -d '[:space:]')" == "x86_64" ]]; then
             if [[ "${{ github.event.inputs.target }}" != "ALL" ]] && [[ "${{ github.event.inputs.target }}" != "x86_64-unknown-linux-musl" ]]; then
                if [[ "${{ github.event.inputs.target }}" == "riscv64gc-unknown-linux-musl" ]]; then
+                 echo "CONTINUE_GHRUN=TRUE" >> "${GITHUB_ENV}"
+               elif [[ "${{ github.event.inputs.target }}" == "loongarch64-unknown-linux-musl" ]]; then
                  echo "CONTINUE_GHRUN=TRUE" >> "${GITHUB_ENV}"
                else
                  echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
