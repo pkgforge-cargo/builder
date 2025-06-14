@@ -381,7 +381,7 @@ CB_VERSION="0.0.1" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
      fi
      export PKG_PROVIDES
     #Size
-     PKG_SIZE="$(du -bh "${PROG}" | awk '{unit=substr($1,length($1)); sub(/[BKMGT]$/,"",$1); print $1 " " unit "B"}' | tr -d '[:space:]')"
+     PKG_SIZE="$(du -bh "${PROG}" | awk '{unit=substr($1,length($1)); sub(/[BKMGT]$/,"",$1); print $1 " " unit "B"}')"
      PKG_SIZE_RAW="$(stat --format="%s" "${PROG}" | tr -d '[:space:]')"
      echo "[+] Size: ${PKG_SIZE}"
      echo "[+] Size (RAW): ${PKG_SIZE_RAW}"
@@ -482,6 +482,7 @@ CB_VERSION="0.0.1" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
        "build_log": (env.BUILD_LOG // ""),
        "deprecated": (env.PKG_DEPRECATED // "false"),
        "desktop_integration": "false",
+       "download_count": ((env.PKG_DOWNLOAD_COUNT // "") | tostring),
        "download_url": (env.DOWNLOAD_URL // ""),
        "external": "true", 
        "ghcr_pkg": (env.PKG_GHCR // ""),
