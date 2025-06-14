@@ -1,0 +1,254 @@
+name: ♻️ Sync Lists ♻️
+#MAX_RUNTIME: 02 Minutes */10 * * * * 
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */1 * * *" #@every 1hrs
+#------------------------------------------------------------------------------------#
+jobs:
+    sync-list:
+      name: Sync Lists
+      runs-on: ubuntu-latest
+      permissions: 
+        contents: write
+
+      steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          fetch-depth: 1
+          filter: "blob:none"
+
+      - name: Setup Env
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          ##Install coreutils
+          sudo apt-get update -y -qq && sudo apt-get install curl coreutils dos2unix file findutils gawk git jq moreutils rsync tar xz-utils util-linux wget zip -y -qq
+          ##Install Addons
+          #https://github.com/pkgforge/devscripts/blob/main/Linux/install_bins_curl.sh
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/devscripts/refs/heads/main/Linux/install_bins_curl.sh")
+          ##Create Output Dir
+          mkdir -p "${GITHUB_WORKSPACE}/main/data"
+          echo "GIT_TERMINAL_PROMPT=0" >> "${GITHUB_ENV}"
+          echo "GIT_ASKPASS=/bin/echo" >> "${GITHUB_ENV}"
+          git config --global "user.email" "AjamX101@gmail.com"
+          git config --global "user.name" "Azathothas"
+          ##tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
+          echo "SYSTMP=${SYSTMP}" >> "${GITHUB_ENV}"
+        continue-on-error: true
+
+      - name: Generate Metadata (CRATES_BUILT.json)
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          ##Main
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/gen_meta.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/gen_meta.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/gen_meta.sh"
+          ##Copy
+          export O_D="${GITHUB_WORKSPACE}/main/data"
+          echo "O_D=${O_D}" >> "${GITHUB_ENV}"
+          HOST_TRIPLETS=("aarch64-Linux" "loongarch64-Linux" "riscv64-Linux" "x86_64-Linux")
+          for HOST_TRIPLET in "${HOST_TRIPLETS[@]}"; do
+            if [[ -s "${SYSTMP}/${HOST_TRIPLET}.json" && $(stat -c%s "${SYSTMP}/${HOST_TRIPLET}.json") -gt 1024 ]]; then
+              cp -fv "${SYSTMP}/${HOST_TRIPLET}.json" "${O_D}/${HOST_TRIPLET}.json"
+            fi
+          done
+          ##Create/Update
+          if [[ -f "${O_D}/aarch64-Linux.json" &&\
+             -f "${O_D}/loongarch64-Linux.json" &&\
+             -f "${O_D}/riscv64-Linux.json" &&\
+             -f "${O_D}/x86_64-Linux.json" ]]; then
+             #Merge
+              cat "${O_D}/aarch64-Linux.json" "${O_D}/loongarch64-Linux.json" \
+              "${O_D}/riscv64-Linux.json" "${O_D}/x86_64-Linux.json" | jq -s \
+               '
+                 map(.[]) | 
+                 group_by(.pkg_family) | 
+                 map({
+                   description: .[0].description,
+                   name: .[0].pkg_family,
+                   updated_at: (.[0].build_date | split("T")[0]),
+                   version: .[0].version,
+                   targets: map(.host) | sort | unique
+                 }) | 
+                 sort_by(.name)
+               ' | jq 'unique_by(.name) | sort_by(.name)' | jq \
+               '
+                sort_by([
+                  -(if .downloads then (.downloads | tonumber) else -1 end),
+                  .name
+                ]) |
+                to_entries |
+                map(.value + { rank: (.key + 1 | tostring) })
+               ' | jq 'walk(if type == "boolean" or type == "number" then tostring else . end)' | jq \
+               'map(to_entries | sort_by(.key) | from_entries)' | jq \
+               '
+                 map(select(
+                .description != null and .description != "" and
+                .name != null and .name != "" and
+                .updated_at != null and .updated_at != "" and
+                .version != null and .version != ""
+                ))
+               ' | jq 'unique_by(.name) | sort_by(.name)' > "${SYSTMP}/CRATES_BUILT.json"
+             #Copy
+               if [[ -f "${O_D}/CRATES_BUILT.json" ]]; then
+                 #jq -s 'map(.[]) | group_by(.name) | map(if length > 1 then .[1] + .[0] else .[0] end) | unique_by(.name) | sort_by(.name)' "${SYSTMP}/CRATES_BUILT.json" "${O_D}/CRATES_BUILT.json" | jq . > "${SYSTMP}/merged.json"
+                 jq -s \
+                 '
+                  (.[1] // []) as $old |
+                  (.[0] // []) as $new |
+                  ($old | map({(.name): .}) | add) as $old_by_name |
+                  ($new | map({(.name): .}) | add) as $new_by_name |
+                  ($old_by_name + $new_by_name) | to_entries | map(.value) | sort_by(.name)
+                 ' "${SYSTMP}/CRATES_BUILT.json" "${O_D}/CRATES_BUILT.json" | jq . > "${SYSTMP}/merged.json"
+                 export I_F="${SYSTMP}/merged.json"
+               else
+                 export I_F="${SYSTMP}/CRATES_BUILT.json"
+               fi
+               PKG_COUNT="$(jq -r '.[] | .name' "${I_F}" | grep -iv 'null' | sort -u | wc -l | tr -d '[:space:]')"
+               if [[ "${PKG_COUNT}" -le 5 ]]; then
+                  echo -e "\n[-] FATAL: Failed to Generate Crate Build List\n"
+                  echo "[-] Count: ${PKG_COUNT}"
+                 exit 1
+               else
+                  echo -e "\n[+] Total Packages: ${PKG_COUNT}"
+                  cp -fv "${I_F}" "${O_D}/CRATES_BUILT.json"
+               fi
+          fi
+          ##Gen MD
+           cat "${O_D}/CRATES_PROCESSED.json" | jq -r 'sort_by(.rank | tonumber) | .[] | "- 🦀 **[\(.name)](\(.homepage))**: \(.description | split(".")[0] + ".")"' > "${SYSTMP}/CRATES_PROCESSED.md"
+           if [[ -s "${SYSTMP}/CRATES_PROCESSED.md" && $(stat -c%s "${SYSTMP}/CRATES_PROCESSED.md") -gt 1024 ]]; then
+             cp -fv "${SYSTMP}/CRATES_PROCESSED.md" "${O_D}/CRATES_PROCESSED.md"
+           fi
+        continue-on-error: true
+
+      - name: Update/Generate BUILD_LIST
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          ##Generate Input
+          pushd "$(mktemp -d)" &>/dev/null
+           ##Get All Crates
+           cat "${O_D}/CRATES_PROCESSED.json" | jq -r ".[] | .name" |\
+            grep -Eiv '^null$' | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sort -u -o "./CRATES_ALL.txt"
+           readarray -t "ALL_CRATES" < <(cat "./CRATES_ALL.txt" | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sort -u)
+           echo -e "\n[+] ALL_CRATES ==> ${#ALL_CRATES[@]}\n"
+           if [[ -n "${ALL_CRATES[*]}" && "${#ALL_CRATES[@]}" -gt 2000 ]]; then
+            #Update List
+             printf "%s\n" "${ALL_CRATES[@]}" | sort -u -o "${O_D}/CRATES_LIST.txt"
+            #Remove Previous Builds
+             readarray -t "QUEUE_LIST" < <(sort -u "${O_D}/QUEUE_LIST.txt")
+            #Reset Array to new
+             CRATES_LIST=()
+             readarray -t "CRATES_LIST" < <(printf "%s\n" "${ALL_CRATES[@]}" | sort -u | comm -23 - <(printf "%s\n" "${QUEUE_LIST[@]}" | sort -u))
+             echo -e "\n[+] CRATES_LIST ==> ${#CRATES_LIST[@]}\n"
+           fi
+           CACHE_LIST=()
+           readarray -t "CACHE_LIST" < <(cat "${O_D}/CRATES_BUILT.json" 2>/dev/null |\
+             jq -r ".[] | .name" | grep -Eiv '^null$' | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sort -u)
+           if [[ -n "${CACHE_LIST[*]}" && "${#CACHE_LIST[@]}" -gt 100 ]]; then
+             printf "%s\n" "${CACHE_LIST[@]}" | sort -u -o "${O_D}/CACHE_LIST.txt"
+           fi
+           ##Generate Build List
+             comm -23 <(printf "%s\n" "${CRATES_LIST[@]}" | sort) <(printf "%s\n" "${CACHE_LIST[@]}" | sort) | sort -u -o "./BUILD_LIST.tmp"
+             BUILD_LIST_TMP="$(wc -l < "./BUILD_LIST.tmp" | tr -cd '[:digit:]' | tr -d '[:space:]')"
+             if [[ "${BUILD_LIST_TMP}" -gt 255 ]]; then
+               echo -e "\n[+] Generating Build List (Diff from Prebuilts [${BUILD_LIST_TMP}])\n"
+               sed -e '/^[[:space:]]*$/d;256q' "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST.txt"
+             elif [[ "${BUILD_LIST_TMP}" -lt 10 ]]; then
+               sed -e '/^[[:space:]]*$/d;10q' "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST.txt"
+               if [[ "$(wc -l < "./BUILD_LIST.txt" | tr -cd '[:digit:]')" -lt 10 ]]; then
+                  echo -e "\n[+] Generating Build List (Diff from Prebuilts + PKG_LIST + Old Prebuilts)\n"
+                  #curl -qfsSL "https://meta.pkgforge.dev/external/pkgforge-cargo/x86_64-Linux.json" | jq -r --arg CUT_OFF "$(date -u -d '5 days ago' +%Y-%m-%dT%H:%M:%SZ)" '[.[] | select(.build_date < $CUT_OFF) | .pkg][0:240] | .[]' | sort -u >> "./BUILD_LIST.txt"
+               fi
+             else
+               echo -e "\n[+] Generating Build List (Diff from BUILD_LIST [${BUILD_LIST_TMP}])\n"
+               sed -e '/^[[:space:]]*$/d;256q' "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST.txt"
+             fi
+               grep -xFf <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${O_D}/CRATES_LIST.txt") <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "./BUILD_LIST.txt") > "./BUILD_LIST.txt.tmp"
+               BUILD_LIST_TMP_C="$(wc -l < "./BUILD_LIST.txt.tmp" | tr -cd '[:digit:]' | tr -d '[:space:]')"
+               if [[ "${BUILD_LIST_TMP_C}" -gt 10 ]]; then
+                  mv -fv "./BUILD_LIST.txt.tmp" "./BUILD_LIST.txt"
+               else
+                  rm -rfv "./BUILD_LIST.txt.tmp"
+               fi
+               cat "./BUILD_LIST.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;256q' > "./file1.tmp"
+               cat "${O_D}/BUILD_LIST.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' > "./file2.tmp"
+               comm -23 "./file2.tmp" "./file1.tmp" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d' | head -n $((255 - $(wc -l < "./file1.tmp"))) > "./diff.tmp"
+               cat "./file1.tmp" "./diff.tmp" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;255q' > "${O_D}/BUILD_LIST.txt"
+           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${O_D}/CACHE_LIST.txt"
+           sed '/^[[:space:]]*$/d' -i "${O_D}/CACHE_LIST.txt"
+           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${O_D}/CRATES_LIST.txt"
+           sed '/^[[:space:]]*$/d' -i "${O_D}/CRATES_LIST.txt"
+           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${O_D}/BUILD_LIST.txt"
+           sed '/^[[:space:]]*$/d' -i "${O_D}/BUILD_LIST.txt"
+           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${O_D}/QUEUE_LIST.txt"
+           sed '/^[[:space:]]*$/d' -i "${O_D}/QUEUE_LIST.txt"
+           grep -xFf <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${O_D}/CRATES_LIST.txt") <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${O_D}/BUILD_LIST.txt") > "./BUILD_LIST.txt.temp"
+           BUILD_LIST_TMP_F="$(wc -l < "./BUILD_LIST.txt.temp" | tr -cd '[:digit:]' | tr -d '[:space:]')"
+           if [[ "${BUILD_LIST_TMP_F}" -gt 5 ]]; then
+              mv -fv "./BUILD_LIST.txt.temp" "${O_D}/BUILD_LIST.txt"
+           else
+              rm -rfv "./BUILD_LIST.txt.temp"
+           fi
+           sed '/^[[:space:]]*$/d' -i "${O_D}/BUILD_LIST.txt"
+           sed '/^[[:space:]]*$/d' -i "${O_D}/CACHE_LIST.txt"
+           sed '/^[[:space:]]*$/d' -i "${O_D}/CRATES_LIST.txt"
+           sed '/^[[:space:]]*$/d' -i "${O_D}/QUEUE_LIST.txt"
+           echo -e "\n[+] Total Packages: $(wc -l < ${O_D}/CRATES_LIST.txt)"
+           echo -e "[+] Total Prebuilts: $(wc -l < ${O_D}/CACHE_LIST.txt)"
+           echo -e "[+] Total Build Queue: $(wc -l < ${O_D}/BUILD_LIST.txt)"
+           echo -e "[+] Total Exclusions: $(wc -l < ${O_D}/QUEUE_LIST.txt)\n"
+          popd &>/dev/null
+        continue-on-error: true
+
+      - name: Get DateTime
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          NEPALI_TIME="$(TZ='Asia/Kathmandu' date +'%Y-%m-%d (%I:%M:%S %p)')"
+          echo "NEPALI_TIME=${NEPALI_TIME}" >> "${GITHUB_ENV}"
+        continue-on-error: true
+        
+      - name: Pull & Push (1)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          cd "${GITHUB_WORKSPACE}/main"
+          git pull origin main --no-edit 2>/dev/null
+          git pull origin main --ff-only ; git merge --no-ff -m "Merge & Sync"
+        continue-on-error: true
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: ./main
+          commit_user_name: Azathothas
+          commit_user_email: AjamX101@gmail.com
+          commit_message: "♻️ Synced Lists 📦 <-- [${{ env.NEPALI_TIME }}] ⌚"
+          
+      - name: Pull & Push (2)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          cd "${GITHUB_WORKSPACE}/main"
+          git pull origin main --no-edit 2>/dev/null
+          git pull origin main --ff-only ; git merge --no-ff -m "Merge & Sync"
+        continue-on-error: true
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: ./main
+          commit_user_name: Azathothas
+          commit_user_email: AjamX101@gmail.com
+          commit_message: "♻️ Synced Lists 📦 <-- [${{ env.NEPALI_TIME }}] ⌚"
