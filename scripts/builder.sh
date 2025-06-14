@@ -490,7 +490,7 @@ CB_VERSION="0.0.1" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
        "installable": "true",
        "manifest_url": (env.PKG_MANIFEST // ""),
        "portable": "true",
-       "recurse_provides": "true",
+       "recurse_provides": "false",
        "shasum": (env.PKG_SHASUM // ""),
        "size": (env.PKG_SIZE // ""),
        "size_raw": (env.PKG_SIZE_RAW // ""),

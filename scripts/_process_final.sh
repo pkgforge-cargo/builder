@@ -58,7 +58,7 @@ pushd "$(mktemp -d)" &>/dev/null
              #Check
              if [[ -f "Cargo.toml" ]]; then
                  #Filter
-                 if ! cargo metadata --format-version 1 --no-deps 2>/dev/null | grep -m 1 -qoiE '"kind"[[:space:]]*:[[:space:]]*\[[^]]*"lib"[^]]*\]'; then
+                 if cargo metadata --format-version 1 --no-deps 2>/dev/null | grep -m 1 -qoiE '"kind"[[:space:]]*:[[:space:]]*\[[^]]*"bin"[^]]*\]'; then
                     #Save
                      echo "$crate_data" | base64 -d > "${TEMP_DIR}/${crate_name}.json"
                      echo "✓ Binary crate: $crate_name ==> ${TEMP_DIR}/${crate_name}.json [$current_num/$TOTAL_CRATES]"
