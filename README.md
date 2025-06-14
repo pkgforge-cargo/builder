@@ -42,11 +42,22 @@ This repo, builds [top crates](https://github.com/pkgforge-cargo/builder/blob/ma
 The [build script](https://github.com/pkgforge-cargo/builder/blob/main/scripts/builder.sh) uses [Cross](https://github.com/cross-rs/cross) to compile the crates on [Github Actions](https://github.com/pkgforge-cargo/builder/actions) & then uploads the artifacts to [ghcr.io](https://github.com/orgs/pkgforge-cargo/packages?repo_name=builder) using [Oras](https://github.com/oras-project/oras).<br>
 All of which are downloadable & installable with soar by adding `pkgforge-cargo` as an [external repo](https://docs.pkgforge.dev/repositories/external/pkgforge-cargo).
 
-## 🤖 Hosts
-- `aarch64-Linux`
-- `loongarch64-Linux`
-- `riscv64-Linux`
-- `x86_64-Linux`
+## 🧰 Stats
+> [!NOTE]
+> ℹ️ It is usual for most workflow run to `fail` since it's rare a crate builds for ALL `hosts`<br>
+> 🗄️ Table of Crates (Sorted by Rank): https://github.com/pkgforge-cargo/builder/blob/main/data/CRATES_PROCESSED.md<br>
+
+| Source 🗃️ | Total Packages 📦 |
+|------------|-------------------|
+| 🦀 [**Crates (`Total`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/CRATES_DUMP.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[0].total&label=&color=crimson&style=flat)](#) |
+| 🦀 [**Crates (`Bin Only`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/CRATES_BIN_ONLY.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[1].total&label=&color=orange&style=flat)](#) |
+| 🦀 [**Crates (`Processed`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/CRATES_PROCESSED.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[2].total&label=&color=purple&style=flat)](#) |
+| 🦀 [**Crates (`Built`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/CRATES_BUILT.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[3].total&label=&color=blue&style=flat)](#) |
+| 🦀 [**Packages (`aarch64-Linux`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/aarch64-Linux.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[4].total&label=&color=green&style=flat)](#) |
+| 🦀 [**Packages (`loongarch64-Linux`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/loongarch64-Linux.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[5].total&label=&color=green&style=flat)](#) |
+| 🦀 [**Packages (`riscv64-Linux`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/riscv64-Linux.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[6].total&label=&color=green&style=flat)](#) |
+| 🦀 [**Packages (`x86_64-Linux`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/x86_64-Linux.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[7].total&label=&color=green&style=flat)](#) |
+| 🦀 [**Packages (`Total`)**](#) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[8].total&label=&color=teal&style=flat)](#) |
 
 ## 🟢 Workflow
 ```mermaid
@@ -85,3 +96,9 @@ graph TD
     classDef binary fill:#ff8fab,stroke:#333,stroke-width:2px,color:#fff
     class F1,F2,F3,F4 binary
 ```
+
+## 🤖 Hosts
+- `aarch64-Linux`
+- `loongarch64-Linux`
+- `riscv64-Linux`
+- `x86_64-Linux`
