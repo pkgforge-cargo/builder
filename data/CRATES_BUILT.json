@@ -4857,6 +4857,7 @@
     "rank": "388",
     "targets": [
       "aarch64-Linux",
+      "riscv64-Linux",
       "x86_64-Linux"
     ],
     "updated_at": "2025-06-14",
@@ -4867,15 +4868,31 @@
     "name": "which_cli",
     "rank": "389",
     "targets": [
-      "aarch64-Linux"
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
     ],
     "updated_at": "2025-06-14",
     "version": "0.1.0"
   },
   {
+    "description": "A blazingly fast and lightweight language detection library for Rust.",
+    "name": "whichlang",
+    "rank": "390",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-14",
+    "version": "0.1.1"
+  },
+  {
     "description": "CLI tool to generate bindings for WIT documents and the component model.",
     "name": "wit-bindgen-cli",
-    "rank": "390",
+    "rank": "391",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -4886,9 +4903,34 @@
     "version": "0.42.1"
   },
   {
+    "description": "Run a command in another directory.",
+    "name": "withd",
+    "rank": "392",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-14",
+    "version": "0.3.2"
+  },
+  {
+    "description": "The WebAssembly Pre-Initializer.",
+    "name": "wizer",
+    "rank": "393",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-14",
+    "version": "9.0.0"
+  },
+  {
     "description": "The CSV magician",
     "name": "xan",
-    "rank": "391",
+    "rank": "394",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -4901,7 +4943,7 @@
   {
     "description": "A hackable, minimal, fast TUI file explorer",
     "name": "xplr",
-    "rank": "392",
+    "rank": "395",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -4910,9 +4952,60 @@
     "version": "1.0.0"
   },
   {
+    "description": "A Docker (or any OCI-compliant) image layer inspector.",
+    "name": "xray-tui",
+    "rank": "396",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-14",
+    "version": "1.2.0"
+  },
+  {
+    "description": "Command line application for managing and searching tags stored in filesystem extended attributes.",
+    "name": "xtagger",
+    "rank": "397",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-14",
+    "version": "1.2.1"
+  },
+  {
+    "description": "A register interface generator.",
+    "name": "yarig",
+    "rank": "398",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-14",
+    "version": "0.11.0"
+  },
+  {
+    "description": "Literate programming tool for Markdown.",
+    "name": "yarner",
+    "rank": "399",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-14",
+    "version": "0.6.1"
+  },
+  {
     "description": "Yet Another Unix Injector with support for Android/Android Emulator i686/x64/arm/aarch64",
     "name": "yaui",
-    "rank": "393",
+    "rank": "400",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -4923,7 +5016,7 @@
   {
     "description": "Yazi command-line interface",
     "name": "yazi-cli",
-    "rank": "394",
+    "rank": "401",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -4936,7 +5029,7 @@
   {
     "description": "Analyze, Fix and Format features in your Rust workspace.",
     "name": "zepter",
-    "rank": "395",
+    "rank": "402",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -4949,7 +5042,7 @@
   {
     "description": "Sign and verify .",
     "name": "zipsign",
-    "rank": "396",
+    "rank": "403",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -4960,9 +5053,21 @@
     "version": "0.1.4"
   },
   {
+    "description": "a CLI year progress.",
+    "name": "zman",
+    "rank": "404",
+    "targets": [
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-14",
+    "version": "3.1.3"
+  },
+  {
     "description": "Copy the contents of the source file or the standard output buffer to the clipboard, with support for maintaining a history of copied content, allowing users to easily paste into another file or program.",
     "name": "zp",
-    "rank": "397",
+    "rank": "405",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
