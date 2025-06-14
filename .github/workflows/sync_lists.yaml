@@ -129,6 +129,61 @@ jobs:
            if [[ -s "${SYSTMP}/CRATES_PROCESSED.md" && $(stat -c%s "${SYSTMP}/CRATES_PROCESSED.md") -gt 1024 ]]; then
              cp -fv "${SYSTMP}/CRATES_PROCESSED.md" "${O_D}/CRATES_PROCESSED.md"
            fi
+          ##Gen Count
+          CD_COUNT="$(jq -r '.[] | .name' "${O_D}/CRATES_DUMP.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
+          CBO_COUNT="$(jq -r '.[] | .name' "${O_D}/CRATES_BIN_ONLY.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
+          CP_COUNT="$(jq -r '.[] | .name' "${O_D}/CRATES_PROCESSED.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
+          CB_COUNT="$(jq -r '.[] | .name' "${O_D}/CRATES_BUILT.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
+          aarch64_COUNT="$(jq -r '.[] | .ghcr_pkg' "${O_D}/aarch64-Linux.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
+          loongarch64_COUNT="$(jq -r '.[] | .ghcr_pkg' "${O_D}/loongarch64-Linux.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
+          riscv64_COUNT="$(jq -r '.[] | .ghcr_pkg' "${O_D}/riscv64-Linux.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
+          x86_64_COUNT="$(jq -r '.[] | .ghcr_pkg' "${O_D}/x86_64-Linux.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
+          jq -n --argjson cd_count "${CD_COUNT:-0}" \
+                --argjson cbo_count "${CBO_COUNT:-0}" \
+                --argjson cp_count "${CP_COUNT:-0}" \
+                --argjson cb_count "${CB_COUNT:-0}" \
+                --argjson aarch64_count "${aarch64_COUNT:-0}" \
+                --argjson loongarch64_count "${loongarch64_COUNT:-0}" \
+                --argjson riscv64_count "${riscv64_COUNT:-0}" \
+                --argjson x86_64_count "${x86_64_COUNT:-0}" \
+          '[
+            {
+              "source": "crates_dump",
+              "total": $cd_count
+            },
+            {
+              "source": "crates_bin_only", 
+              "total": $cbo_count
+            },
+            {
+              "source": "crates_processed",
+              "total": $cp_count
+            },
+            {
+              "source": "crates_built",
+              "total": $cb_count
+            },
+            {
+              "source": "aarch64-Linux",
+              "total": $aarch64_count
+            },
+            {
+              "source": "loongarch64-Linux", 
+              "total": $loongarch64_count
+            },
+            {
+              "source": "riscv64-Linux",
+              "total": $riscv64_count
+            },
+            {
+              "source": "x86_64-Linux",
+              "total": $x86_64_count
+            },
+            {
+              "sum": "total",
+              "total": ($aarch64_count + $loongarch64_count + $riscv64_count + $x86_64_count)
+            }
+          ]' > "${O_D}/COUNT.json"
         continue-on-error: true
 
       - name: Update/Generate BUILD_LIST
