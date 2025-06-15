@@ -249,7 +249,7 @@ jobs:
                fi
                cat "./BUILD_LIST.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;256q' > "./file1.tmp"
                cat "${O_D}/BUILD_LIST.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' > "./file2.tmp"
-               comm -23 "./file2.tmp" "./file1.tmp" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d' | head -n $((255 - $(wc -l < "./file1.tmp"))) > "./diff.tmp"
+               comm -23 "./file1.tmp" "./file2.tmp" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d' | head -n $((255 - $(wc -l < "./file2.tmp"))) > "./diff.tmp"
                cat "./file1.tmp" "./diff.tmp" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;255q' > "${O_D}/BUILD_LIST.txt"
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${O_D}/CACHE_LIST.txt"
            sed '/^[[:space:]]*$/d' -i "${O_D}/CACHE_LIST.txt"
