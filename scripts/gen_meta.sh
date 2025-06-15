@@ -10,60 +10,75 @@
 export TZ="UTC"
 SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
 TMPDIR="$(mktemp -d)" && export TMPDIR="${TMPDIR}" ; echo -e "\n[+] Using TEMP: ${TMPDIR}\n"
-mkdir -pv "${TMPDIR}/assets" "${TMPDIR}/data" "${TMPDIR}/src" "${TMPDIR}/tmp"
-rm -rvf "${SYSTMP}/AM.json" 2>/dev/null
+mkdir -pv "${TMPDIR}/assets" "${TMPDIR}/data" "${TMPDIR}/repo" "${TMPDIR}/src" "${TMPDIR}/tmp"
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
 pushd "${TMPDIR}" &>/dev/null
 #Get Repo Tags
- META_REPO="pkgforge-cargo/builder"
+ META_REPO_URL="https://github.com/pkgforge-cargo/builder.git"
+ META_BRANCH="metadata"
  CUTOFF_DATE="$(date --utc -d '7 days ago' '+%Y-%m-%d' | tr -d '[:space:]')" ; unset META_TAGS
- export META_REPO CUTOFF_DATE
- for i in {1..5}; do
-   #gh api "repos/${META_REPO}/releases" --paginate 2>/dev/null |& cat - > "${TMPDIR}/tmp/RELEASES.json"
-   gh api "repos/${META_REPO}/releases" 2>/dev/null |& cat - > "${TMPDIR}/tmp/RELEASES.json"
-   if [[ $(stat -c%s "${TMPDIR}/tmp/RELEASES.json" | tr -d '[:space:]') -le 1000 ]]; then
-     echo "Retrying... ${i}/5"
-     sleep 2
-   elif [[ $(stat -c%s "${TMPDIR}/tmp/RELEASES.json" | tr -d '[:space:]') -gt 1000 ]]; then
-     readarray -t "META_TAGS" < <(cat "${TMPDIR}/tmp/RELEASES.json" | jq -r --arg cutoff "${CUTOFF_DATE}" \
-       '.[] | select(.tag_name | test("METADATA-[0-9]{4}_[0-9]{2}_[0-9]{2}")) | select((.published_at | strptime("%Y-%m-%dT%H:%M:%SZ") | mktime) >= ($cutoff | strptime("%Y-%m-%d") | mktime)) | .tag_name' |\
-       grep -i "METADATA-[0-9]\{4\}_[0-9]\{2\}_[0-9]\{2\}" | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sort -u)
-     break
+ export META_REPO_URL META_BRANCH CUTOFF_DATE
+ #Clone
+  cd "${TMPDIR}/repo" &&\
+    git init --quiet
+    git remote add origin "${META_REPO_URL}"
+    git fetch --depth="1" origin "${META_BRANCH}"
+    git checkout -b "${META_BRANCH}" "FETCH_HEAD"
+    git sparse-checkout init --cone
+ #Check
+   if [[ -d "${TMPDIR}/repo/.git" && "$(du -s "${TMPDIR}/repo" | cut -f1)" -gt 100 ]]; then
+     readarray -t REMOTE_DIRS < <(
+      git ls-tree --name-only "${META_BRANCH}" |
+      xargs -I{} basename "{}" |
+      sed -E 's/^[[:space:]]+|[[:space:]]+$//g' |
+      grep -Ei '^METADATA-[0-9]{4}_[0-9]{2}_[0-9]{2}$' |
+      sort -u
+     )
+   else
+      echo -e "\n[X] FATAL: Failed to setup Repo\n"
+      exit 1
    fi
- done
- if [[ -n "${META_TAGS[*]}" && "${#META_TAGS[@]}" -ge 1 ]]; then
-   echo -e "\n[+] Total Tags: ${#META_TAGS[@]}"
-   echo -e "[+] Tags: ${META_TAGS[*]}"
- else
-   echo -e "\n[X] FATAL: Failed to Fetch needed Tags\n"
-   echo -e "[+] Tags: ${META_TAGS[*]}"
-  exit 1
-  fi
-#Download Assets
- unset REL_TAG
-  for REL_TAG in "${META_TAGS[@]}"; do
-   REL_DATE="$(echo "${REL_TAG}" | grep -o '[0-9]\{4\}_[0-9]\{2\}_[0-9]\{2\}' | tr -d '[:space:]')"
-   echo -e "[+] Fetching ${REL_TAG} ==> ${TMPDIR}/assets/${REL_DATE}"
-   gh release download --repo "${META_REPO}" "${REL_TAG}" --dir "${TMPDIR}/assets/${REL_DATE}" --clobber
-   find "${TMPDIR}/assets" -type f -size -3c -delete
-   gh release download --repo "${META_REPO}" "${REL_TAG}" --dir "${TMPDIR}/assets/${REL_DATE}" --skip-existing
-   find "${TMPDIR}/assets" -type f -size -3c -delete
-   gh release download --repo "${META_REPO}" "${REL_TAG}" --dir "${TMPDIR}/assets/${REL_DATE}" --skip-existing
-   realpath "${TMPDIR}/assets/${REL_DATE}" && du -sh "${TMPDIR}/assets/${REL_DATE}"
-  done
-#Rename Assets
- find "${TMPDIR}/assets/" -mindepth 1 -type f -exec bash -c \
-  '
-   for file; do
-    dir=$(dirname "$file")
-    base=$(basename "$dir")
-    mv -fv "$file" "${file%.*}_${base}.${file##*.}"
+ #Get tags
+  META_TAGS=()
+   for dir in "${REMOTE_DIRS[@]}"; do
+     TAG_DATE="${dir#METADATA-}"
+     TAG_D="${TAG_DATE//_/-}"
+       if [[ "$(date -d "${TAG_D}" '+%s')" -gt "$(date -d "${CUTOFF_DATE}" '+%s')" ]]; then
+         META_TAGS+=("${dir}")
+       fi
    done
-  ' _ {} +
+   #Check
+    if [[ -n "${META_TAGS[*]}" && "${#META_TAGS[@]}" -ge 1 ]]; then
+      echo -e "\n[+] Total Tags: ${#META_TAGS[@]}"
+      echo -e "[+] Tags: ${META_TAGS[*]}"
+    else
+      echo -e "\n[X] FATAL: Failed to Fetch needed Tags\n"
+      echo -e "[+] Tags: ${META_TAGS[*]}"
+     exit 1
+    fi
+ #Fetch
+   git sparse-checkout set "${META_TAGS[@]}"
+   git fetch --depth="1" origin "${META_BRANCH}"
+   for tag in "${META_TAGS[@]}"; do
+     export tag
+     mkdir -pv "${TMPDIR}/assets/${tag}"
+     find "${TMPDIR}/repo/${tag}" -type f -iregex '.*\.json$' -exec bash -c 'jq empty "{}" 2>/dev/null && cp -fv "{}" "${TMPDIR}/assets/${tag}/"' \;
+     unset tag
+   done
+ #Rename Assets
+  find "${TMPDIR}/assets/" -mindepth 1 -type f -exec bash -c \
+   '
+    for file; do
+     dir=$(dirname "$file")
+     base=$(basename "$dir")
+     mv -fv "$file" "${file%.*}_${base}.${file##*.}"
+    done
+   ' _ {} +
 #Copy Valid Assets
- find "${TMPDIR}/assets/" -type f -iregex '.*\.json$' -exec bash -c 'jq empty "{}" 2>/dev/null && cp -f "{}" ${TMPDIR}/src/' \;
+ find "${TMPDIR}/assets" -type f -size -3c -delete
+ find "${TMPDIR}/assets/" -type f -iregex '.*\.json$' -exec bash -c 'cp -f "{}" ${TMPDIR}/src/' \;
 #Copy Newer Assets 
  find "${TMPDIR}/src" -type f -iregex '.*\.json$' | sort -u | awk -F'[_-]' '{base=""; for(i=1;i<=NF-1;i++) base=base (i>1?"_":"") $i; date=$(NF); file[base]=(file[base]==""||date>file[base])?date:file[base]; path[base,date]=$0} END {for(b in file) print path[b,file[b]]}' | xargs -I "{}" cp -fv "{}" "${TMPDIR}/data"
 #-------------------------------------------------------#
