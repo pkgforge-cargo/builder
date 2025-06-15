@@ -256,9 +256,11 @@ jobs:
           METADATA_TAG="METADATA-$(date --utc +'%Y_%m_%d')"
           export METADATA_TAG="$(echo "${METADATA_TAG}" | tr -d '[:space:]')"
           echo "METADATA_TAG=${METADATA_TAG}" >> "${GITHUB_ENV}"
+          ##tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
+          echo "SYSTMP=${SYSTMP}" >> "${GITHUB_ENV}"
           #GH ENV
           gh config set prompt disabled
-          echo "SYSTMP=${SYSTMP}" >> "${GITHUB_ENV}"
           echo "GH_PAGER=" >> "${GITHUB_ENV}"
           echo "GHA_MODE=MATRIX" >> "${GITHUB_ENV}"
           echo "GIT_TERMINAL_PROMPT=0" >> "${GITHUB_ENV}"
@@ -332,8 +334,6 @@ jobs:
           sudo apt-fast install apt-transport-https apt-utils bc ca-certificates coreutils curl dos2unix fdupes git-lfs gnupg2 \
           jq moreutils p7zip-full rename rsync software-properties-common tar texinfo tmux tree util-linux wget zsync -y -qq 2>/dev/null
           sudo apt-fast update -y -qq 2>/dev/null
-          ##tmp
-          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
           ##User-Agent
           USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="${USER_AGENT}"
           echo "USER_AGENT=${USER_AGENT}" >> "${GITHUB_ENV}"
