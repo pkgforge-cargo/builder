@@ -256,22 +256,56 @@ jobs:
           METADATA_TAG="METADATA-$(date --utc +'%Y_%m_%d')"
           export METADATA_TAG="$(echo "${METADATA_TAG}" | tr -d '[:space:]')"
           echo "METADATA_TAG=${METADATA_TAG}" >> "${GITHUB_ENV}"
-          echo "GH_PAGER=" >> "${GITHUB_ENV}"
+          #GH ENV
           gh config set prompt disabled
-          gh release create "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" --title "${METADATA_TAG}" --prerelease
-          sleep 3 ; gh release view "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}"
-          METADATA_TAG_URL="https://github.com/${GITHUB_REPOSITORY}/releases/tag/${METADATA_TAG}"
-          echo METADATA_TAG_URL="${METADATA_TAG_URL}" >> "${GITHUB_ENV}"
-          METADATA_TAG_STATUS="$(curl -X "HEAD" -qfsSL "${METADATA_TAG_URL}" -I | sed -n 's/^[[:space:]]*HTTP\/[0-9.]*[[:space:]]\+\([0-9]\+\).*/\1/p' | tail -n1 | tr -d '[:space:]')"
-          if echo "${METADATA_TAG_STATUS}" | grep -qi '200$'; then
-            export METADATA_DIR="/tmp/PKG_METADATA"
-            echo "METADATA_DIR=${METADATA_DIR}" >> "${GITHUB_ENV}"
-            mkdir -pv "${METADATA_DIR}"
+          echo "SYSTMP=${SYSTMP}" >> "${GITHUB_ENV}"
+          echo "GH_PAGER=" >> "${GITHUB_ENV}"
+          echo "GHA_MODE=MATRIX" >> "${GITHUB_ENV}"
+          echo "GIT_TERMINAL_PROMPT=0" >> "${GITHUB_ENV}"
+          echo "GIT_ASKPASS=/bin/echo" >> "${GITHUB_ENV}"
+          git config --global "credential.helper" store
+          git config --global "user.email" "AjamX101@gmail.com"
+          git config --global "user.name" "Azathothas"
+          #Setup Dirs
+          export METADATA_DIR="/tmp/PKG_METADATA"
+          echo "METADATA_DIR=${METADATA_DIR}" >> "${GITHUB_ENV}"
+          mkdir -pv "${METADATA_DIR}"
+          #Clone/Create Branch
+          METADATA_BRANCH="metadata"
+          METADATA_REPO_DIR="/tmp/_METADATA_REPO"
+          rm -rf "${METADATA_REPO_DIR}" 2>/dev/null
+          pushd "$(mktemp -d)" &>/dev/null
+           if gh api "repos/${GITHUB_REPOSITORY}/branches/${METADATA_BRANCH}" &>/dev/null; then
+             echo -e "\n[+] Metadata branch exists, cloning...\n"
+             git clone --filter="blob:none" --depth="1" --branch="${METADATA_BRANCH}" "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "${METADATA_REPO_DIR}"
+           else
+             echo -e "\n[+] Creating new metadata branch...\n"
+             git clone --filter="blob:none" --depth=1 "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "${METADATA_REPO_DIR}"
+             cd "${METADATA_REPO_DIR}"
+             git checkout --orphan "${METADATA_BRANCH}"
+             git rm -rf . 2>/dev/null || true
+             echo ".keep" > "./.keep"
+             git add "./.keep"
+             git commit -m "Initialize metadata branch"
+             git push origin "${METADATA_BRANCH}"
+           fi
+          popd &>/dev/null
+          #Metadata tag
+          if [[ -d "${METADATA_REPO_DIR}/.git" && "$(du -s "${METADATA_REPO_DIR}" | cut -f1)" -gt 100 ]]; then
+            METADATA_TAG_DIR="${METADATA_REPO_DIR}/${METADATA_TAG}"
+            mkdir -pv "${METADATA_TAG_DIR}"
+            echo "METADATA_TAG_DIR=${METADATA_TAG_DIR}" >> "${GITHUB_ENV}"
+            echo "METADATA_REPO_DIR=${METADATA_REPO_DIR}" >> "${GITHUB_ENV}"
+            echo "METADATA_BRANCH=${METADATA_BRANCH}" >> "${GITHUB_ENV}"
+            METADATA_TAG_URL="https://github.com/${GITHUB_REPOSITORY}/tree/${METADATA_BRANCH}/${METADATA_TAG}"
+            echo "METADATA_TAG_URL=${METADATA_TAG_URL}" >> "${GITHUB_ENV}"
             echo "CONTINUE_GHRUN=TRUE" >> "${GITHUB_ENV}"
+            git pull origin "${METADATA_BRANCH}" --ff-only || git pull --rebase origin "${METADATA_BRANCH}"
+            git merge --no-ff -m "Merge & Sync" 2>/dev/null
           else
-            echo -e "\n[✗] FATAL: Failed to Create ${METADATA_TAG} <== [Release Tag]\n"
-            echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
-           exit 1
+             echo -e "\n[✗] FATAL: Failed to Clone Repo\n"
+             echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
+            exit 1
           fi
         continue-on-error: true
 
@@ -297,14 +331,6 @@ jobs:
           sudo apt-fast update -y -qq 2>/dev/null
           ##tmp
           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
-          #GH ENV
-          echo "SYSTMP=${SYSTMP}" >> "${GITHUB_ENV}"
-          echo "GHA_MODE=MATRIX" >> "${GITHUB_ENV}"
-          echo "GIT_TERMINAL_PROMPT=0" >> "${GITHUB_ENV}"
-          echo "GIT_ASKPASS=/bin/echo" >> "${GITHUB_ENV}"
-          git config --global "credential.helper" store
-          git config --global "user.email" "AjamX101@gmail.com"
-          git config --global "user.name" "Azathothas"
           ##User-Agent
           USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="${USER_AGENT}"
           echo "USER_AGENT=${USER_AGENT}" >> "${GITHUB_ENV}"
@@ -616,10 +642,53 @@ jobs:
            exit 1
           else
            #Upload Metadata
-            pushd "${METADATA_DIR}" &>/dev/null &&\
-              find "${METADATA_DIR}" -maxdepth 1 -type f -iname "*.json" -size +3c -print0 | xargs -0 -P "$(($(nproc)+1))" -I '{}' gh release upload "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" '{}' --clobber
-              sleep 5 ; gh release view "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" 2>/dev/null || true
-              echo -e "\n[+] Metadata: ${METADATA_TAG_URL}\n"
+            pushd "${METADATA_REPO_DIR}" &>/dev/null
+             #MSG
+              export COMMIT_MSG="Pushed Metadata (${{ env.CRATE_NAME }}-${{ env.BUILD_ID }}-${{ env.GHCRPKG_TAG }})"
+             #Sync
+              git_sync()
+              {
+                git pull origin "${METADATA_BRANCH}" --ff-only
+                git merge --no-ff -m "${COMMIT_MSG}"
+                git pull origin "${METADATA_BRANCH}" 2>/dev/null
+              }
+              export -f git_sync
+              git_sync
+             #Copy
+              find "${METADATA_DIR}" -maxdepth 1 -type f -iname "*.json" -size +3c -exec cp -fv "{}" "${METADATA_TAG_DIR}/" \;
+             #Add & Push
+              git_sync
+              git add --all --verbose "${METADATA_TAG}/"
+              git commit -m "${COMMIT_MSG}"
+              retry_git_push()
+              {
+               for i in {1..10}; do
+                #Generic Merge
+                 git pull origin "${METADATA_BRANCH}" --ff-only
+                 git merge --no-ff -m "${COMMIT_MSG}"
+                #Push
+                 git pull origin "${METADATA_BRANCH}" 2>/dev/null
+                 if git push -u origin "${METADATA_BRANCH}"; then
+                    echo -e "\n[+] Pushed Metadata to Upstream\n"
+                    break
+                 fi
+                #Sleep randomly 
+                 sleep "$(shuf -i 500-4500 -n 1)e-3"
+               done
+              }
+              export -f retry_git_push
+              retry_git_push
+             #Check              
+             git --no-pager log '-1' --pretty="format:'%h - %ar - %s - %an'"
+             if ! git ls-remote --heads origin | grep -qi "$(git rev-parse HEAD)"; then
+              echo -e "\n[-] WARN: Failed to push Metadata to Upstream\n(Retrying ...)\n"
+              retry_git_push
+              git --no-pager log '-1' --pretty="format:'%h - %ar - %s - %an'"
+              if ! git ls-remote --heads origin | grep -qi "$(git rev-parse HEAD)"; then
+                 echo -e "\n[-] FATAL: Failed to push Metadata to Upstream\n"
+                exit 1
+              fi  
+             fi
             popd &>/dev/null
           fi
         continue-on-error: false

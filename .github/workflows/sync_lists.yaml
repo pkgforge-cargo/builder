@@ -187,7 +187,7 @@ jobs:
             },
             {
               "sum": "total-queued",
-              "total": (if $cq_count > 0 then ($cb_count / $cq_count * 100) else 0 end)
+              "total": (if $cq_count > 0 then (($cb_count / $cq_count * 100) | round) else 0 end)
             },     
             {
               "sum": "total-built",
