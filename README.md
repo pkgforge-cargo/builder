@@ -104,6 +104,7 @@ All of which are downloadable & installable with soar by adding `pkgforge-cargo`
 - [Artifact Attestation](https://github.com/pkgforge-cargo/builder/attestations) & [Build Provenance](https://github.com/pkgforge-cargo/builder/attestations) are created/updated per build.
 
 ## 🟢 Workflow
+![image](https://github.com/user-attachments/assets/26e8e8cf-9acb-4c8a-a9c6-000c7050463f)
 ```mermaid
 graph TD
     A[crates.io] -->|Top Crates List| B[CRATES_DUMP.json]
