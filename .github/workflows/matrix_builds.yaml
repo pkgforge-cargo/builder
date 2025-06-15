@@ -277,9 +277,11 @@ jobs:
           pushd "$(mktemp -d)" &>/dev/null
            if gh api "repos/${GITHUB_REPOSITORY}/branches/${METADATA_BRANCH}" &>/dev/null; then
              echo -e "\n[+] Metadata branch exists, cloning...\n"
+             cd "/tmp" || exit 1
              git clone --filter="blob:none" --depth="1" --branch="${METADATA_BRANCH}" "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "${METADATA_REPO_DIR}"
            else
              echo -e "\n[+] Creating new metadata branch...\n"
+             cd "/tmp" || exit 1
              git clone --filter="blob:none" --depth=1 "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "${METADATA_REPO_DIR}"
              cd "${METADATA_REPO_DIR}"
              git checkout --orphan "${METADATA_BRANCH}"
@@ -300,6 +302,7 @@ jobs:
             METADATA_TAG_URL="https://github.com/${GITHUB_REPOSITORY}/tree/${METADATA_BRANCH}/${METADATA_TAG}"
             echo "METADATA_TAG_URL=${METADATA_TAG_URL}" >> "${GITHUB_ENV}"
             echo "CONTINUE_GHRUN=TRUE" >> "${GITHUB_ENV}"
+            cd "${METADATA_REPO_DIR}" || exit 1
             git pull origin "${METADATA_BRANCH}" --ff-only || git pull --rebase origin "${METADATA_BRANCH}"
             git merge --no-ff -m "Merge & Sync" 2>/dev/null
           else
