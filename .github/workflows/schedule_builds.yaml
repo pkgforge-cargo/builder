@@ -28,26 +28,26 @@ jobs:
           set +x ; set +e
           #-------------#
           ###Trigger  
-          #gh workflow run "sync_lists.yaml" \
-          # --repo "${GITHUB_REPOSITORY}" \
-          # --ref "${GITHUB_REF}"
-          #sleep 5
-          ###Get ID
-          #RUN_ID=""
-          #while [[ -z "${RUN_ID}" ]]; do
-          #  RUN_ID="$(gh run list --repo "${GITHUB_REPOSITORY}" --workflow "sync_lists.yaml" --json 'databaseId' --jq '.[0].databaseId' 2>/dev/null | tr -d '[:space:]')"
-          #  sleep 5
-          #done
-          #gh run list --repo "${GITHUB_REPOSITORY}" --workflow "sync_lists.yaml"
-          ###Wait
-          #while true; do
-          # STATUS="$(gh run view "${RUN_ID}" --repo "${GITHUB_REPOSITORY}" --json status --jq '.status' | tr -d '[:space:]')"
-          #   if [[ "${STATUS}" == "completed" ]]; then
-          #     break
-          #   fi
-          #   sleep 10
-          #done
-          #gh run list --repo "${GITHUB_REPOSITORY}" --workflow "sync_lists.yaml"
+          gh workflow run "sync_lists.yaml" \
+           --repo "${GITHUB_REPOSITORY}" \
+           --ref "${GITHUB_REF}"
+          sleep 5
+          ##Get ID
+          RUN_ID=""
+          while [[ -z "${RUN_ID}" ]]; do
+            RUN_ID="$(gh run list --repo "${GITHUB_REPOSITORY}" --workflow "sync_lists.yaml" --json 'databaseId' --jq '.[0].databaseId' 2>/dev/null | tr -d '[:space:]')"
+            sleep 5
+          done
+          gh run list --repo "${GITHUB_REPOSITORY}" --workflow "sync_lists.yaml"
+          ##Wait
+          while true; do
+           STATUS="$(gh run view "${RUN_ID}" --repo "${GITHUB_REPOSITORY}" --json status --jq '.status' | tr -d '[:space:]')"
+             if [[ "${STATUS}" == "completed" ]]; then
+               break
+             fi
+             sleep 10
+          done
+          gh run list --repo "${GITHUB_REPOSITORY}" --workflow "sync_lists.yaml"
         continue-on-error: false
 
       - name: Checkout repository

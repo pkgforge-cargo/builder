@@ -134,6 +134,7 @@ jobs:
           CBO_COUNT="$(jq -r '.[] | .name' "${O_D}/CRATES_BIN_ONLY.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
           CP_COUNT="$(jq -r '.[] | .name' "${O_D}/CRATES_PROCESSED.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
           CB_COUNT="$(jq -r '.[] | .name' "${O_D}/CRATES_BUILT.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
+          CQ_COUNT="$(cat "${O_D}/QUEUE_LIST.txt" 2>/dev/null | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sort -u | wc -l | tr -d '[:space:]')"
           aarch64_COUNT="$(jq -r '.[] | .ghcr_pkg' "${O_D}/aarch64-Linux.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
           loongarch64_COUNT="$(jq -r '.[] | .ghcr_pkg' "${O_D}/loongarch64-Linux.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
           riscv64_COUNT="$(jq -r '.[] | .ghcr_pkg' "${O_D}/riscv64-Linux.json" 2>/dev/null | sort -u | wc -l | tr -d '[:space:]')"
@@ -142,6 +143,7 @@ jobs:
                 --argjson cbo_count "${CBO_COUNT:-0}" \
                 --argjson cp_count "${CP_COUNT:-0}" \
                 --argjson cb_count "${CB_COUNT:-0}" \
+                --argjson cq_count "${CQ_COUNT:-0}" \
                 --argjson aarch64_count "${aarch64_COUNT:-0}" \
                 --argjson loongarch64_count "${loongarch64_COUNT:-0}" \
                 --argjson riscv64_count "${riscv64_COUNT:-0}" \
@@ -164,6 +166,10 @@ jobs:
               "total": $cb_count
             },
             {
+              "source": "crates_queued",
+              "total": $cq_count
+            },
+            {
               "source": "aarch64-Linux",
               "total": $aarch64_count
             },
@@ -180,7 +186,11 @@ jobs:
               "total": $x86_64_count
             },
             {
-              "sum": "total",
+              "sum": "total-queued",
+              "total": (if $cq_count > 0 then ($cb_count / $cq_count * 100) else 0 end)
+            },     
+            {
+              "sum": "total-built",
               "total": ($aarch64_count + $loongarch64_count + $riscv64_count + $x86_64_count)
             }
           ]' > "${O_D}/COUNT.json"
