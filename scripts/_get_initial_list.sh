@@ -18,7 +18,7 @@ echo -e "[+] Using OUT dir: ${OUT_DIR}\n"
    T_FILE="${TEMP_DIR}/${i}-$(date --utc "+%y%m%dT%H%M%S$(date +%3N)").json"
    (
      for retry in {1..3}; do
-       if response=$(curl --retry 2 -qfsSL "https://crates.io/api/v1/crates?sort=downloads&per_page=100&page=${i}") && 
+       if response=$(curl --retry 2 -qfsSL "https://crates.io/api/v1/crates?sort=downloads&per_page=100&page=${i}") &&
         [[ -n "$response" ]] && 
         echo "$response" | jq -e '.crates[]' &>/dev/null; then
          echo "$response" | jq '
@@ -50,7 +50,39 @@ echo -e "[+] Using OUT dir: ${OUT_DIR}\n"
    T_FILE="${TEMP_DIR}/${i}-$(date --utc "+%y%m%dT%H%M%S$(date +%3N)").json"
    (
      for retry in {1..3}; do
-       if response=$(curl --retry 2 -qfsSL "https://crates.io/api/v1/crates?sort=recent-downloads&per_page=100&page=${i}") && 
+       if response=$(curl --retry 2 -qfsSL "https://crates.io/api/v1/crates?sort=recent-downloads&per_page=100&page=${i}") &&
+        [[ -n "$response" ]] && 
+        echo "$response" | jq -e '.crates[]' &>/dev/null; then
+         echo "$response" | jq '
+             .crates[] | 
+             def clean_strings: walk(if type == "string" then gsub("\\n|\\r|\\t"; " ") | gsub("\\s+"; " ") | gsub("^\\s+|\\s+$"; "") else . end);
+             {
+                 name: .name?,
+                 description: .description?,
+                 version: (.newest_version? // .max_version? // .version?),
+                 homepage: (.repository? // .homepage? // .documentation?),
+                 downloads: (.recent_downloads? // .downloads?),
+                 updated_at: .updated_at?
+             } | clean_strings
+         ' > "${T_FILE}" && break
+       fi
+       [[ $retry -lt 3 ]] && sleep 1
+     done
+   ) &>/dev/null &
+   if (( i % 20 == 0 )); then
+       wait &>/dev/null
+       sleep "$(shuf -i 500-1500 -n 1)e-3"
+   fi
+ done
+ wait &>/dev/null
+#Get New Crates
+ echo -e "\n[+] Scraping Crates (new)\n"
+ for i in {1..1000}; do
+   echo -e "[+] Page = ${i}/1000"
+   T_FILE="${TEMP_DIR}/${i}-$(date --utc "+%y%m%dT%H%M%S$(date +%3N)").json"
+   (
+     for retry in {1..3}; do
+       if response=$(curl --retry 2 -qfsSL "https://crates.io/api/v1/crates?sort=new&per_page=100&page=${i}") &&
         [[ -n "$response" ]] && 
         echo "$response" | jq -e '.crates[]' &>/dev/null; then
          echo "$response" | jq '
