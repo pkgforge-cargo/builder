@@ -46,6 +46,14 @@ jobs:
           echo "SYSTMP=${SYSTMP}" >> "${GITHUB_ENV}"
         continue-on-error: true
 
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/devscripts/main/Github/Runners/debloat_ubuntu.sh")
+        continue-on-error: true
+
       ## Too Slow & Expensive   
       #- name: Generate Metadata (CRATES_DUMP.json)
       #  run: |
@@ -53,9 +61,9 @@ jobs:
       #    set +x ; set +e
       #    #--------------#
       #    ##Main
-      #    dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/_get_initial_list_cmdline.sh"
-      #    chmod +x "${GITHUB_WORKSPACE}/main/scripts/_get_initial_list_cmdline.sh"
-      #    bash "${GITHUB_WORKSPACE}/main/scripts/_get_initial_list_cmdline.sh"
+      #    dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/_get_initial_list.sh"
+      #    chmod +x "${GITHUB_WORKSPACE}/main/scripts/_get_initial_list.sh"
+      #    bash "${GITHUB_WORKSPACE}/main/scripts/_get_initial_list.sh"
       #    ##Copy
       #    if [[ -s "${SYSTMP}/CRATES_DUMP.json" && $(stat -c%s "${SYSTMP}/CRATES_DUMP.json") -gt 1024 ]]; then
       #      PKG_COUNT="$(jq -r '.[] | .name' "${SYSTMP}/CRATES_DUMP.json" | grep -iv 'null' | sort -u | wc -l | tr -d '[:space:]')"
