@@ -18,7 +18,9 @@ pushd "$(mktemp -d)" &>/dev/null
  curl -qfsSL "https://github.com/pkgforge-cargo/builder/raw/refs/heads/main/data/CRATES_BIN_ONLY.json" -o "${OUT_DIR}/CRATES_INPUT.json" || { echo "Failed to download JSON"; exit 1; }
 #Create Input
  echo "[+] Preparing crate files..."
- jq -r '.[] | "\(.name)|\(.version)|\(. | tostring | @base64)"' "${OUT_DIR}/CRATES_INPUT.json" > "${WORK_DIR}/crates_to_process.txt"
+ CUTOFF_DATE="$(date -d 'last year' '+%Y-01-01' | tr -d '[:space:]')"
+ jq --arg cutoff_date "${CUTOFF_DATE}" '[.[] | select((.updated_at | split("T")[0] | strptime("%Y-%m-%d") | mktime) > ($cutoff_date | strptime("%Y-%m-%d") | mktime))]' "${OUT_DIR}/CRATES_INPUT.json" |\
+ jq -r '.[] | "\(.name)|\(.version)|\(. | tostring | @base64)"' > "${WORK_DIR}/crates_to_process.txt"
 #Get total count
  TOTAL_CRATES=$(wc -l < "${WORK_DIR}/crates_to_process.txt")
  echo "0" > "${PROGRESS_DIR}/counter"
