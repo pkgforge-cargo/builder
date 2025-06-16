@@ -133,4 +133,12 @@ pushd "$(mktemp -d)" &>/dev/null
 #Cleanup
  rm -rf "${TEMP_DIR}" "${WORK_DIR}" "${PROGRESS_DIR}"
 popd &>/dev/null
+#Copy
+PKG_COUNT="$(jq -r '.[] | .name' "${OUT_DIR}/CRATES_PROCESSED.json" | grep -iv 'null' | sort -u | wc -l | tr -d '[:space:]')"
+if [[ "${PKG_COUNT}" -ge 1000 ]]; then
+  if [[ ! -d "${SYSTMP}" ]]; then
+    SYSTMP="$(dirname $(mktemp -u))"
+  fi
+  cp -fv "${OUT_DIR}/CRATES_PROCESSED.json" "${SYSTMP}/CRATES_PROCESSED.json"
+fi
 #-------------------------------------------------------#

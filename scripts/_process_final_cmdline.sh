@@ -15,7 +15,11 @@ pushd "$(mktemp -d)" &>/dev/null
  echo -e "[+] Using OUT dir: ${OUT_DIR}\n"
 #Get Data
  echo "[+] Downloading crates data..."
- curl -qfsSL "https://github.com/pkgforge-cargo/builder/raw/refs/heads/main/data/CRATES_CMDLINE_ONLY.json" -o "${OUT_DIR}/CRATES_INPUT.json" || { echo "Failed to download JSON"; exit 1; }
+ if [[ "${USE_GH_LOCAL}" == "YES" ]]; then
+   cp -fv "${GITHUB_WORKSPACE}/main/data/CRATES_CMDLINE_ONLY.json" "${OUT_DIR}/CRATES_INPUT.json"
+ else
+   curl -qfsSL "https://github.com/pkgforge-cargo/builder/raw/refs/heads/main/data/CRATES_CMDLINE_ONLY.json" -o "${OUT_DIR}/CRATES_INPUT.json" || { echo "Failed to download JSON"; exit 1; }
+ fi
 #Create Input
  echo "[+] Preparing crate files..."
  CUTOFF_DATE="$(date -d 'last year' '+%Y-01-01' | tr -d '[:space:]')"
@@ -133,4 +137,12 @@ pushd "$(mktemp -d)" &>/dev/null
 #Cleanup
  rm -rf "${TEMP_DIR}" "${WORK_DIR}" "${PROGRESS_DIR}"
 popd &>/dev/null
+#Copy
+PKG_COUNT="$(jq -r '.[] | .name' "${OUT_DIR}/CRATES_PROCESSED.json" | grep -iv 'null' | sort -u | wc -l | tr -d '[:space:]')"
+if [[ "${PKG_COUNT}" -ge 1000 ]]; then
+  if [[ ! -d "${SYSTMP}" ]]; then
+    SYSTMP="$(dirname $(mktemp -u))"
+  fi
+  cp -fv "${OUT_DIR}/CRATES_PROCESSED.json" "${SYSTMP}/CRATES_PROCESSED.json"
+fi
 #-------------------------------------------------------#

@@ -189,4 +189,12 @@ echo -e "[+] Using OUT dir: ${OUT_DIR}\n"
  echo -e "[+] Used OUT dir: ${OUT_DIR}\n"
 #Cleanup
 popd &>/dev/null
+#Copy
+PKG_COUNT="$(jq -r '.[] | .name' "${OUT_DIR}/CRATES_CMDLINE_ONLY.json" | grep -iv 'null' | sort -u | wc -l | tr -d '[:space:]')"
+if [[ "${PKG_COUNT}" -ge 1000 ]]; then
+  if [[ ! -d "${SYSTMP}" ]]; then
+    SYSTMP="$(dirname $(mktemp -u))"
+  fi
+  cp -fv "${OUT_DIR}/CRATES_CMDLINE_ONLY.json" "${SYSTMP}/CRATES_CMDLINE_ONLY.json"
+fi
 #-------------------------------------------------------#
