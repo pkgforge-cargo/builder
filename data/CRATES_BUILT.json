@@ -19344,6 +19344,7 @@
     "name": "clipboard-history-tui",
     "rank": "1544",
     "targets": [
+      "aarch64-Linux",
       "riscv64-Linux",
       "x86_64-Linux"
     ],
@@ -19367,7 +19368,9 @@
     "name": "clipboard-history-x11",
     "rank": "1546",
     "targets": [
-      "riscv64-Linux"
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
     ],
     "updated_at": "2025-06-16",
     "version": "0.11.0"
@@ -19390,7 +19393,10 @@
     "name": "clipdir",
     "rank": "1548",
     "targets": [
-      "riscv64-Linux"
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
     ],
     "updated_at": "2025-06-16",
     "version": "0.1.0"
@@ -19400,6 +19406,7 @@
     "name": "cliperge",
     "rank": "1549",
     "targets": [
+      "aarch64-Linux",
       "loongarch64-Linux",
       "riscv64-Linux",
       "x86_64-Linux"
@@ -19447,9 +19454,22 @@
     "version": "0.2.0"
   },
   {
+    "description": "open frequently accessed memorable shorten urls from cli.",
+    "name": "cliq",
+    "rank": "1553",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.4.1"
+  },
+  {
     "description": "A clock app in terminal.",
     "name": "clock-tui",
-    "rank": "1553",
+    "rank": "1554",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19460,9 +19480,35 @@
     "version": "0.6.1"
   },
   {
+    "description": "A simple command line utility that identifies groups of identical files and displays them to the console.",
+    "name": "clonehunter",
+    "rank": "1555",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.4.2"
+  },
+  {
+    "description": "Clone directory contents.",
+    "name": "cloning",
+    "rank": "1556",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "2.1.0"
+  },
+  {
     "description": "Generate type-checked Rust from your PostgreSQL queries.",
     "name": "clorinde",
-    "rank": "1554",
+    "rank": "1557",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19473,9 +19519,35 @@
     "version": "0.16.0"
   },
   {
+    "description": "Autogenerate A records for NAT setups from AAAA records in cloud providers.",
+    "name": "clouddns-nat-helper",
+    "rank": "1558",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.2.18"
+  },
+  {
+    "description": "Automatic upload of ADIF log to Cloudlog.",
+    "name": "cloudlog-adifwatch",
+    "rank": "1559",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.0.20"
+  },
+  {
     "description": "Open-source tool to map and visualize your cloud storage landscape.",
     "name": "cloudmapper",
-    "rank": "1555",
+    "rank": "1560",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19486,9 +19558,55 @@
     "version": "0.0.4"
   },
   {
+    "description": "Redirect STDERR/STDOUT to CloudWatch Logs.",
+    "name": "cloudwatch-log-redirector",
+    "rank": "1561",
+    "targets": [
+      "aarch64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.1.11"
+  },
+  {
+    "description": "An agent for sending custom CPU and memory metrics to Cloudwatch.",
+    "name": "cloudwatch_metrics_agent",
+    "rank": "1562",
+    "targets": [
+      "aarch64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.1.11"
+  },
+  {
+    "description": "A command line tool for parsing CHANGELOG.",
+    "name": "clparser",
+    "rank": "1563",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.1.2"
+  },
+  {
+    "description": "A simple CLI tool for creating and using templates.",
+    "name": "cltemplate",
+    "rank": "1564",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "1.1.0"
+  },
+  {
     "description": "C/Rust like programming language that compiles into Lua code.",
     "name": "clue",
-    "rank": "1556",
+    "rank": "1565",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -19497,9 +19615,92 @@
     "version": "3.4.7"
   },
   {
+    "description": "Rust port of xklbs cluster-sort util.",
+    "name": "clustersort",
+    "rank": "1566",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.0.3"
+  },
+  {
+    "description": "A CLI Texture Packer written in rust.",
+    "name": "cluttered",
+    "rank": "1567",
+    "targets": [
+      "aarch64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.11.0"
+  },
+  {
+    "description": "tools for working with chialisp language; compiler, repl, python and wasm bindings.",
+    "name": "clvm_tools_rs",
+    "rank": "1568",
+    "targets": [
+      "loongarch64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.3.0"
+  },
+  {
+    "description": "A cross-platform package manager for prebuilt applications.",
+    "name": "clyde",
+    "rank": "1569",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.8.0"
+  },
+  {
+    "description": "A spicy little command wrapper that provides audible feedback with attitude.",
+    "name": "cmd-mf",
+    "rank": "1570",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.1.0"
+  },
+  {
+    "description": "Rust based CLI tool to add aliases for commands to simplify developer workflow.",
+    "name": "cmdlink",
+    "rank": "1571",
+    "targets": [
+      "riscv64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.2.0"
+  },
+  {
+    "description": "Utility script to generate terminal commands using natural language.",
+    "name": "cmdo-gen",
+    "rank": "1572",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.2.2"
+  },
+  {
     "description": "Lists and runs predefined command snippets.",
     "name": "cmdy",
-    "rank": "1557",
+    "rank": "1573",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -19509,9 +19710,70 @@
     "version": "0.1.0"
   },
   {
+    "description": "A compression multi-tool for the command line.",
+    "name": "cmprss",
+    "rank": "1574",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.2.0"
+  },
+  {
+    "description": "CLI tool that generates commit messages using AI.",
+    "name": "cmt",
+    "rank": "1575",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.4.2"
+  },
+  {
+    "description": "Distribution-agnostic command not found-handler.",
+    "name": "cnf",
+    "rank": "1576",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.5.2"
+  },
+  {
+    "description": "A command-line tool to download lyrics for music, quickly.",
+    "name": "cnova",
+    "rank": "1577",
+    "targets": [
+      "loongarch64-Linux",
+      "riscv64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.3.0"
+  },
+  {
+    "description": "A utility tool written in Rust to check unused node packages.",
+    "name": "cnp",
+    "rank": "1578",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "1.0.2"
+  },
+  {
     "description": "A container debugging tool based on FUSE",
     "name": "cntr",
-    "rank": "1558",
+    "rank": "1579",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19522,9 +19784,21 @@
     "version": "1.6.1"
   },
   {
+    "description": "Static site generator written in Rust.",
+    "name": "cobalt-bin",
+    "rank": "1580",
+    "targets": [
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.20.0"
+  },
+  {
     "description": "Cocogitto is a set of cli tools for the conventional commit and semver specifications.",
     "name": "cocogitto",
-    "rank": "1559",
+    "rank": "1581",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19535,9 +19809,99 @@
     "version": "6.3.0"
   },
   {
+    "description": "Command line tool for playing CodinGame puzzles and Clash of Code.",
+    "name": "coctus",
+    "rank": "1582",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.3.0"
+  },
+  {
+    "description": "solutions to advent of code.",
+    "name": "codact",
+    "rank": "1583",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.1.1"
+  },
+  {
+    "description": "A high performance code minimap generator.",
+    "name": "code-minimap",
+    "rank": "1584",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.6.8"
+  },
+  {
+    "description": "A command-line code search tool.",
+    "name": "code-search",
+    "rank": "1585",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.0.3"
+  },
+  {
+    "description": "A Rust-based static code analysis tool for JavaScript, TypeScript, Python, and Go.",
+    "name": "code_analyzer",
+    "rank": "1586",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.1.1"
+  },
+  {
+    "description": "A powerful code documentation generator that creates structured markdown documentation from your codebase.",
+    "name": "codebank",
+    "rank": "1587",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.4.5"
+  },
+  {
+    "description": "Flatten a Rust (or any) codebase into one file for LLM ingestion.",
+    "name": "codebase-flattener",
+    "rank": "1588",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-16",
+    "version": "0.1.0"
+  },
+  {
     "description": "A code-aware spell checker library (dependency for codebook-lsp).",
     "name": "codebook",
-    "rank": "1560",
+    "rank": "1589",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19550,7 +19914,7 @@
   {
     "description": "Configuration handling for the Codebook spell checker.",
     "name": "codebook_config",
-    "rank": "1561",
+    "rank": "1590",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19563,7 +19927,7 @@
   {
     "description": "Export CodeTour files to md.",
     "name": "codetour_export_to_md",
-    "rank": "1562",
+    "rank": "1591",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -19574,7 +19938,7 @@
   {
     "description": "A CLI to automate work around Polkadot collective work reports.",
     "name": "collective",
-    "rank": "1563",
+    "rank": "1592",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19587,7 +19951,7 @@
   {
     "description": "A tool to remember commands, search them, and write them to the command line to use.",
     "name": "comembert",
-    "rank": "1564",
+    "rank": "1593",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19600,7 +19964,7 @@
   {
     "description": "A build system written in Rust.",
     "name": "compi",
-    "rank": "1565",
+    "rank": "1594",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19613,7 +19977,7 @@
   {
     "description": "A tool to simplify reprovisioning a fresh OS.",
     "name": "comtrya",
-    "rank": "1566",
+    "rank": "1595",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19626,7 +19990,7 @@
   {
     "description": "Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality.",
     "name": "cotp",
-    "rank": "1567",
+    "rank": "1596",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -19638,7 +20002,7 @@
   {
     "description": "A simple, configurable command-line tool and Rust library for Unicode-aware, Markdown-aware, HTML-aware word counting in Markdown documents.",
     "name": "count-md",
-    "rank": "1568",
+    "rank": "1597",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19651,7 +20015,7 @@
   {
     "description": "A Command-line tool similar to Neofetch for obtaining information about your country",
     "name": "countryfetch",
-    "rank": "1569",
+    "rank": "1598",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19664,7 +20028,7 @@
   {
     "description": "A tool to help you find a job.",
     "name": "coverletter",
-    "rank": "1570",
+    "rank": "1599",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -19676,7 +20040,7 @@
   {
     "description": "evaluates math expressions, with support for units and conversion between units.",
     "name": "cpc",
-    "rank": "1571",
+    "rank": "1600",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19689,7 +20053,7 @@
   {
     "description": "Transparent proxy built on cgroup net_cls.",
     "name": "cproxy",
-    "rank": "1572",
+    "rank": "1601",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19702,7 +20066,7 @@
   {
     "description": "Fast cp provides an alternative to cp that focuses on maximizing performance.",
     "name": "cpz",
-    "rank": "1573",
+    "rank": "1602",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19715,7 +20079,7 @@
   {
     "description": "Rapidly scaffold out a new tauri app project.",
     "name": "create-tauri-app",
-    "rank": "1574",
+    "rank": "1603",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19728,7 +20092,7 @@
   {
     "description": "The cross-platform clipboard cli tool.",
     "name": "crepe-bordeaux",
-    "rank": "1575",
+    "rank": "1604",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -19740,7 +20104,7 @@
   {
     "description": "A command line utility for comparing benchmark data generated by Criterion.",
     "name": "critcmp",
-    "rank": "1576",
+    "rank": "1605",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19753,7 +20117,7 @@
   {
     "description": "Zero setup cross compilation and cross testing.",
     "name": "cross",
-    "rank": "1577",
+    "rank": "1606",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -19765,7 +20129,7 @@
   {
     "description": "Generate code for enums with associated constants from a .",
     "name": "csvenum",
-    "rank": "1578",
+    "rank": "1607",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19778,7 +20142,7 @@
   {
     "description": "A high performance csv viewer with cjk/emoji support.",
     "name": "csview",
-    "rank": "1579",
+    "rank": "1608",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -19790,7 +20154,7 @@
   {
     "description": "A command-line tool to manipulate TOML files.",
     "name": "ctoml",
-    "rank": "1580",
+    "rank": "1609",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19803,7 +20167,7 @@
   {
     "description": "search for symbols in a codebase.",
     "name": "cymbal",
-    "rank": "1581",
+    "rank": "1610",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19816,7 +20180,7 @@
   {
     "description": "Command Line Client for DataFusion query engine.",
     "name": "datafusion-cli",
-    "rank": "1582",
+    "rank": "1611",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -19827,7 +20191,7 @@
   {
     "description": "Clean up files & folders.",
     "name": "dateframe",
-    "rank": "1583",
+    "rank": "1612",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19840,7 +20204,7 @@
   {
     "description": "Command-line utility for converting Databento Binary Encoding (DBN) files to text-based formats.",
     "name": "dbn-cli",
-    "rank": "1584",
+    "rank": "1613",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19853,7 +20217,7 @@
   {
     "description": "A tool for creating the LICENSE-3rdparty.",
     "name": "dd-rust-license-tool",
-    "rank": "1585",
+    "rank": "1614",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19866,7 +20230,7 @@
   {
     "description": "A command line tool to print the current default Clang/LLVM target triple.",
     "name": "default-target",
-    "rank": "1586",
+    "rank": "1615",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19879,7 +20243,7 @@
   {
     "description": "A tool that decodes defmt logs and prints them to the console.",
     "name": "defmt-print",
-    "rank": "1587",
+    "rank": "1616",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -19891,7 +20255,7 @@
   {
     "description": "This tool is a machine code de-optimizer. By transforming/mutating the machine code instructions to their functional equivalents it makes possible to bypass pattern-based detection mechanisms used by security products.",
     "name": "deoptimizer",
-    "rank": "1588",
+    "rank": "1617",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -19903,7 +20267,7 @@
   {
     "description": "A minimalist df clone written in Rust - displays mounted filesystems & disk usage.",
     "name": "dfr",
-    "rank": "1589",
+    "rank": "1618",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19916,7 +20280,7 @@
   {
     "description": "Provides different tools for projects using the diesel_cli.",
     "name": "diesel_cli_ext",
-    "rank": "1590",
+    "rank": "1619",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19929,7 +20293,7 @@
   {
     "description": "deep compare two directories for differences.",
     "name": "diffdir",
-    "rank": "1591",
+    "rank": "1620",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -19941,7 +20305,7 @@
   {
     "description": "CLI Tool that can be repeatedly called to obtain quick information about vital system metrics (CPU Load Average, RAM Usage, Disk and Network usage).",
     "name": "diffmetrik",
-    "rank": "1592",
+    "rank": "1621",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -19952,7 +20316,7 @@
   {
     "description": "A CLI app for generating diff files",
     "name": "diffutils",
-    "rank": "1593",
+    "rank": "1622",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19965,7 +20329,7 @@
   {
     "description": "A simple CLI to track and report disk usage over some subcommand runtime.",
     "name": "dirio",
-    "rank": "1594",
+    "rank": "1623",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19978,7 +20342,7 @@
   {
     "description": "mDNS-SD TUI browser.",
     "name": "discovery-rs",
-    "rank": "1595",
+    "rank": "1624",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -19991,7 +20355,7 @@
   {
     "description": "Terminal disk space visual navigator.",
     "name": "diskonaut",
-    "rank": "1596",
+    "rank": "1625",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -20002,7 +20366,7 @@
   {
     "description": "A simple, minimal, and flexible command line utility for organising plaintext files.",
     "name": "dn-cli",
-    "rank": "1597",
+    "rank": "1626",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20015,7 +20379,7 @@
   {
     "description": "Find the fastest DNS in your location to improve internet browsing experience.",
     "name": "dns-bench",
-    "rank": "1598",
+    "rank": "1627",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -20027,7 +20391,7 @@
   {
     "description": "A DNS-over-HTTPS (DoH) and ODoH (Oblivious DoH) proxy.",
     "name": "doh-proxy",
-    "rank": "1599",
+    "rank": "1628",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -20039,7 +20403,7 @@
   {
     "description": "symlink your dotfiles.",
     "name": "dot-linker",
-    "rank": "1600",
+    "rank": "1629",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20052,7 +20416,7 @@
   {
     "description": "Lightning-fast linter for .",
     "name": "dotenv-linter",
-    "rank": "1601",
+    "rank": "1630",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -20063,7 +20427,7 @@
   {
     "description": "A dotfile manager and templater written in rust.",
     "name": "dotter",
-    "rank": "1602",
+    "rank": "1631",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20076,7 +20440,7 @@
   {
     "description": "A package based dotfile manager.",
     "name": "dottie",
-    "rank": "1603",
+    "rank": "1632",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20089,7 +20453,7 @@
   {
     "description": "Infer a schema from JSON input, output as JSON Schema or human-readable format, and generate synthetic data based on the inferred schema.",
     "name": "drivel",
-    "rank": "1604",
+    "rank": "1633",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20101,7 +20465,7 @@
   {
     "description": "A simple utility for finding large files on your system.",
     "name": "dstats",
-    "rank": "1605",
+    "rank": "1634",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20114,7 +20478,7 @@
   {
     "description": "Implementing du -sb in order to learn Rust.",
     "name": "du",
-    "rank": "1606",
+    "rank": "1635",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20127,7 +20491,7 @@
   {
     "description": "A more intuitive version of du.",
     "name": "du-dust",
-    "rank": "1607",
+    "rank": "1636",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20140,7 +20504,7 @@
   {
     "description": "A tool to conveniently learn about the disk usage of directories, fast!.",
     "name": "dua-cli",
-    "rank": "1608",
+    "rank": "1637",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20153,7 +20517,7 @@
   {
     "description": "Duf is a simple file server.",
     "name": "duf",
-    "rank": "1609",
+    "rank": "1638",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -20164,7 +20528,7 @@
   {
     "description": "A cli tool to pipe data over the network, with NAT hole punching.",
     "name": "dumbpipe",
-    "rank": "1610",
+    "rank": "1639",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20177,7 +20541,7 @@
   {
     "description": "Super simple HTTP server that replies with a fixed body and a fixed response code",
     "name": "dummyhttp",
-    "rank": "1611",
+    "rank": "1640",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20190,7 +20554,7 @@
   {
     "description": "Durs: A fast, intuitive disk usage analyzer in Rust.",
     "name": "durs",
-    "rank": "1612",
+    "rank": "1641",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20203,7 +20567,7 @@
   {
     "description": "Command line tool for calculating the size of files and directories.",
     "name": "durt",
-    "rank": "1613",
+    "rank": "1642",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -20214,7 +20578,7 @@
   {
     "description": "💾 A command line disk usage information tool: disk usage (foreground), inodes (background).",
     "name": "dusage",
-    "rank": "1614",
+    "rank": "1643",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20227,7 +20591,7 @@
   {
     "description": "A wrapper around Rusts default linker to help create Dyling libraries.",
     "name": "dylint-link",
-    "rank": "1615",
+    "rank": "1644",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20240,7 +20604,7 @@
   {
     "description": "where did my disk space go?.",
     "name": "dysco",
-    "rank": "1616",
+    "rank": "1645",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -20252,7 +20616,7 @@
   {
     "description": "give information on mounted filesystems.",
     "name": "dysk",
-    "rank": "1617",
+    "rank": "1646",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20265,7 +20629,7 @@
   {
     "description": "convert EditorConfig to Helix configuration.",
     "name": "ec2hx",
-    "rank": "1618",
+    "rank": "1647",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20278,7 +20642,7 @@
   {
     "description": "The full-stack edge platform for your edge oriented applications.",
     "name": "edgee",
-    "rank": "1619",
+    "rank": "1648",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -20289,7 +20653,7 @@
   {
     "description": "Erlang code formatter.",
     "name": "efmt",
-    "rank": "1620",
+    "rank": "1649",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20302,7 +20666,7 @@
   {
     "description": "Compiles from ELF to TAB (a Tock Application Bundle using the Tock Binary Format).",
     "name": "elf2tab",
-    "rank": "1621",
+    "rank": "1650",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -20313,7 +20677,7 @@
   {
     "description": "Port of elf2uf2 to rust.",
     "name": "elf2uf2-rs",
-    "rank": "1622",
+    "rank": "1651",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -20325,7 +20689,7 @@
   {
     "description": "ELF visualizer. Generates HTML files from ELF binaries.",
     "name": "elfcat",
-    "rank": "1623",
+    "rank": "1652",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20338,7 +20702,7 @@
   {
     "description": "elk - a cat alternative written in rust.",
     "name": "elk",
-    "rank": "1624",
+    "rank": "1653",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -20349,7 +20713,7 @@
   {
     "description": "A command-line tool for checking lua code.",
     "name": "emmylua_check",
-    "rank": "1625",
+    "rank": "1654",
     "targets": [
       "loongarch64-Linux",
       "riscv64-Linux"
@@ -20360,7 +20724,7 @@
   {
     "description": "A language server for emmylua.",
     "name": "emmylua_ls",
-    "rank": "1626",
+    "rank": "1655",
     "targets": [
       "loongarch64-Linux",
       "riscv64-Linux"
@@ -20371,7 +20735,7 @@
   {
     "description": "A modern encrypted DNS server (DNSCrypt v2, Anonymized DNSCrypt, DoH)",
     "name": "encrypted-dns",
-    "rank": "1627",
+    "rank": "1656",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -20383,7 +20747,7 @@
   {
     "description": "File entropy scanner to detect malware.",
     "name": "entropyscan-rs",
-    "rank": "1628",
+    "rank": "1657",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20396,7 +20760,7 @@
   {
     "description": "Monitors ESP8266 and ESP32 execution over serial.",
     "name": "espmonitor",
-    "rank": "1629",
+    "rank": "1658",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -20408,7 +20772,7 @@
   {
     "description": "Tool for installing and maintaining Espressif Rust ecosystem.",
     "name": "espup",
-    "rank": "1630",
+    "rank": "1659",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20421,7 +20785,7 @@
   {
     "description": "An Evaluation Context for Rust.",
     "name": "evcxr",
-    "rank": "1631",
+    "rank": "1660",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20434,7 +20798,7 @@
   {
     "description": "A REPL for Rust.",
     "name": "evcxr_repl",
-    "rank": "1632",
+    "rank": "1661",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -20446,7 +20810,7 @@
   {
     "description": "A modern replacement for ls.",
     "name": "exa",
-    "rank": "1633",
+    "rank": "1662",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -20457,7 +20821,7 @@
   {
     "description": "A lightweight terminal-based Excel viewer with Vim-like navigation for viewing, editing, and exporting Excel data to JSON format.",
     "name": "excel-cli",
-    "rank": "1634",
+    "rank": "1663",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20470,7 +20834,7 @@
   {
     "description": "Utility to bulk copy/link/rename image and other media file sets.",
     "name": "exif-namer",
-    "rank": "1635",
+    "rank": "1664",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20483,7 +20847,7 @@
   {
     "description": "A modern replacement for ls.",
     "name": "eza",
-    "rank": "1636",
+    "rank": "1665",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20496,7 +20860,7 @@
   {
     "description": "Wrapper to exec a command in a pty, even if redirecting the output",
     "name": "faketty",
-    "rank": "1637",
+    "rank": "1666",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20509,7 +20873,7 @@
   {
     "description": "Spelling correction & Fuzzy search.",
     "name": "fast_symspell",
-    "rank": "1638",
+    "rank": "1667",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20522,7 +20886,7 @@
   {
     "description": "Fast, partial replacement for codemod (find/replace tool for programmers).",
     "name": "fastmod",
-    "rank": "1639",
+    "rank": "1668",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -20534,7 +20898,7 @@
   {
     "description": "An utility for creating favicons.",
     "name": "favico",
-    "rank": "1640",
+    "rank": "1669",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20547,7 +20911,7 @@
   {
     "description": "json log viewer",
     "name": "fblog",
-    "rank": "1641",
+    "rank": "1670",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20560,7 +20924,7 @@
   {
     "description": "Finds and removes duplicate files.",
     "name": "fclones",
-    "rank": "1642",
+    "rank": "1671",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20573,7 +20937,7 @@
   {
     "description": "fd is a simple, fast and user-friendly alternative to find.",
     "name": "fd-find",
-    "rank": "1643",
+    "rank": "1672",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20586,7 +20950,7 @@
   {
     "description": "tui file manager with vim-like key mapping.",
     "name": "felix",
-    "rank": "1644",
+    "rank": "1673",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20599,7 +20963,7 @@
   {
     "description": "A fast, simple, recursive content discovery tool.",
     "name": "feroxbuster",
-    "rank": "1645",
+    "rank": "1674",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20612,7 +20976,7 @@
   {
     "description": "A JSON resume CLI tool.",
     "name": "ferrisume-cli",
-    "rank": "1646",
+    "rank": "1675",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20625,7 +20989,7 @@
   {
     "description": "ffizer is a files and folders initializer / generator.",
     "name": "ffizer",
-    "rank": "1647",
+    "rank": "1676",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20638,7 +21002,7 @@
   {
     "description": "find identical files according to their size and hashing algorithm.",
     "name": "find-identical-files",
-    "rank": "1648",
+    "rank": "1677",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20651,7 +21015,7 @@
   {
     "description": "Search text in PDF.",
     "name": "findtext_pdf",
-    "rank": "1649",
+    "rank": "1678",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20664,7 +21028,7 @@
   {
     "description": "Rust implementation of GNU findutils",
     "name": "findutils",
-    "rank": "1650",
+    "rank": "1679",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20677,7 +21041,7 @@
   {
     "description": "CLI tool meant to find flaky test by running multiple times a test harness until it fails.",
     "name": "flaky-finder",
-    "rank": "1651",
+    "rank": "1680",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -20688,7 +21052,7 @@
   {
     "description": "A simple cargo subcommand for generating flamegraphs, using inferno under the hood.",
     "name": "flamegraph",
-    "rank": "1652",
+    "rank": "1681",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20701,7 +21065,7 @@
   {
     "description": "Shell parser, formatter, and interpreter with Bash support.",
     "name": "flash",
-    "rank": "1653",
+    "rank": "1682",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20714,7 +21078,7 @@
   {
     "description": "CLI tool that does XYZ.",
     "name": "flerp",
-    "rank": "1654",
+    "rank": "1683",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20727,7 +21091,7 @@
   {
     "description": "CLI for printing license information of rust cargo projects to the terminal.",
     "name": "flicense",
-    "rank": "1655",
+    "rank": "1684",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20740,7 +21104,7 @@
   {
     "description": "Flips the memory layout of embedded programs to protect against stack overflows.",
     "name": "flip-link",
-    "rank": "1656",
+    "rank": "1685",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20753,7 +21117,7 @@
   {
     "description": "Rust for Flipper Zero (tools).",
     "name": "flipperzero-tools",
-    "rank": "1657",
+    "rank": "1686",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -20765,7 +21129,7 @@
   {
     "description": "Process images from FLIR cameras.",
     "name": "flir_rs",
-    "rank": "1658",
+    "rank": "1687",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -20777,7 +21141,7 @@
   {
     "description": "Flutter/Dart <-> Rust binding generator, feature-rich, but seamless and simple.",
     "name": "flutter_rust_bridge_codegen",
-    "rank": "1659",
+    "rank": "1688",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -20789,7 +21153,7 @@
   {
     "description": "Fast and simple Node.",
     "name": "fnm",
-    "rank": "1660",
+    "rank": "1689",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20802,7 +21166,7 @@
   {
     "description": "Fuel Orchestrator.",
     "name": "forc",
-    "rank": "1661",
+    "rank": "1690",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20815,7 +21179,7 @@
   {
     "description": "A small script to move inline modules into the proper directory structure.",
     "name": "form",
-    "rank": "1662",
+    "rank": "1691",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20828,7 +21192,7 @@
   {
     "description": "fpas is command line software helps you create password from some text.",
     "name": "fpas",
-    "rank": "1663",
+    "rank": "1692",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20841,7 +21205,7 @@
   {
     "description": "A simple file system information tool written in Rust.",
     "name": "fs_rs",
-    "rank": "1664",
+    "rank": "1693",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20854,7 +21218,7 @@
   {
     "description": "Find files with SQL-like queries.",
     "name": "fselect",
-    "rank": "1665",
+    "rank": "1694",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -20866,7 +21230,7 @@
   {
     "description": "CLI tool for tagging and searching files.",
     "name": "ftag",
-    "rank": "1666",
+    "rank": "1695",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20879,7 +21243,7 @@
   {
     "description": "faster workspace management.",
     "name": "fw",
-    "rank": "1667",
+    "rank": "1696",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20892,7 +21256,7 @@
   {
     "description": "Filetree eXploratory analyzer.",
     "name": "fx",
-    "rank": "1668",
+    "rank": "1697",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20905,7 +21269,7 @@
   {
     "description": "A parser for GEDCOM files.",
     "name": "gedcom",
-    "rank": "1669",
+    "rank": "1698",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20918,7 +21282,7 @@
   {
     "description": "A very easy-to-use and fast command line license generator!.",
     "name": "gen-license",
-    "rank": "1670",
+    "rank": "1699",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -20929,7 +21293,7 @@
   {
     "description": "Inline decoration of IPv4 and IPv6 address geolocations.",
     "name": "geoipsed",
-    "rank": "1671",
+    "rank": "1700",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -20941,7 +21305,7 @@
   {
     "description": "Git AI: Automates commit messages using ChatGPT.",
     "name": "git-ai",
-    "rank": "1672",
+    "rank": "1701",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20954,7 +21318,7 @@
   {
     "description": "A highly customizable changelog generator ⛰️.",
     "name": "git-cliff",
-    "rank": "1673",
+    "rank": "1702",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20967,7 +21331,7 @@
   {
     "description": "A TUI-based tool for analyzing git repository contributions with detailed statistics.",
     "name": "git-contribution-analyzer",
-    "rank": "1674",
+    "rank": "1703",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20980,7 +21344,7 @@
   {
     "description": "A syntax-highlighting pager for git.",
     "name": "git-delta",
-    "rank": "1675",
+    "rank": "1704",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -20993,7 +21357,7 @@
   {
     "description": "Quickly jump to any version-controlled repository on the system.",
     "name": "git-jump",
-    "rank": "1676",
+    "rank": "1705",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21006,7 +21370,7 @@
   {
     "description": "A tool to bundle git repositories into a single file for LLM context.",
     "name": "git-llm-bundler",
-    "rank": "1677",
+    "rank": "1706",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21019,7 +21383,7 @@
   {
     "description": "A CLI tool which can help users automatically add co-author(s) to git commits for pair/mob programming.",
     "name": "git-mob-tool",
-    "rank": "1678",
+    "rank": "1707",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21032,7 +21396,7 @@
   {
     "description": "Manage multiple git repositories.",
     "name": "git-repo-manager",
-    "rank": "1679",
+    "rank": "1708",
     "targets": [
       "loongarch64-Linux",
       "riscv64-Linux"
@@ -21043,7 +21407,7 @@
   {
     "description": "Stacked branch management for Git.",
     "name": "git-stack",
-    "rank": "1680",
+    "rank": "1709",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21056,7 +21420,7 @@
   {
     "description": "Rust library and CLI utility to reset file timestamps to repo state.",
     "name": "git-warp-time",
-    "rank": "1681",
+    "rank": "1710",
     "targets": [
       "loongarch64-Linux",
       "riscv64-Linux"
@@ -21067,7 +21431,7 @@
   {
     "description": "Generates GitLab reports from cargos JSON output.",
     "name": "gitlab-report",
-    "rank": "1682",
+    "rank": "1711",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -21079,7 +21443,7 @@
   {
     "description": "A SQL like query language to perform queries on .",
     "name": "gitql",
-    "rank": "1683",
+    "rank": "1712",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21092,7 +21456,7 @@
   {
     "description": "blazing fast terminal-ui for git.",
     "name": "gitui",
-    "rank": "1684",
+    "rank": "1713",
     "targets": [
       "loongarch64-Linux",
       "riscv64-Linux"
@@ -21103,7 +21467,7 @@
   {
     "description": "Game of life in your terminal with over 500 unique patterns to choose from.",
     "name": "gof-rs",
-    "rank": "1685",
+    "rank": "1714",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21116,7 +21480,7 @@
   {
     "description": "Ping, but with a graph.",
     "name": "gping",
-    "rank": "1686",
+    "rank": "1715",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21129,7 +21493,7 @@
   {
     "description": "A git prepare-commit-msg hook for summarizing commits with LLMs.",
     "name": "gptcommit",
-    "rank": "1687",
+    "rank": "1716",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21142,7 +21506,7 @@
   {
     "description": "CLI tool for processing files and strings.",
     "name": "grace-cli",
-    "rank": "1688",
+    "rank": "1717",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -21154,7 +21518,7 @@
   {
     "description": "A tool to clone and pull whole group trees from a git forge, properly organized on disk.",
     "name": "gtree",
-    "rank": "1689",
+    "rank": "1718",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -21165,7 +21529,7 @@
   {
     "description": "Fork of handlr with regex support.",
     "name": "handlr-regex",
-    "rank": "1690",
+    "rank": "1719",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21178,7 +21542,7 @@
   {
     "description": "Media over QUIC.",
     "name": "hang-cli",
-    "rank": "1691",
+    "rank": "1720",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -21189,7 +21553,7 @@
   {
     "description": "The language checker for developers.",
     "name": "harper-ls",
-    "rank": "1692",
+    "rank": "1721",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21202,7 +21566,7 @@
   {
     "description": "hash directory.",
     "name": "hash-dir",
-    "rank": "1693",
+    "rank": "1722",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -21214,7 +21578,7 @@
   {
     "description": "head and tail simultaneously",
     "name": "headtail",
-    "rank": "1694",
+    "rank": "1723",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21227,7 +21591,7 @@
   {
     "description": "A cross-platform terminal UI used for modifying file data in hex or ASCII.",
     "name": "heh",
-    "rank": "1695",
+    "rank": "1724",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -21239,7 +21603,7 @@
   {
     "description": "A lib/tool exchanges hexadecimal color input.",
     "name": "heks",
-    "rank": "1696",
+    "rank": "1725",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -21250,7 +21614,7 @@
   {
     "description": "A simple program for calculating sunrise, sunset and related times, which can be integrated with cron to trigger other programs to run when these events occur.",
     "name": "heliocron",
-    "rank": "1697",
+    "rank": "1726",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21263,7 +21627,7 @@
   {
     "description": "Reverse Polish Notation calculator in a terminal app.",
     "name": "helix-calc",
-    "rank": "1698",
+    "rank": "1727",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21276,7 +21640,7 @@
   {
     "description": "Driver for building helix-compatible keybindings.",
     "name": "helix-driver",
-    "rank": "1699",
+    "rank": "1728",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21289,7 +21653,7 @@
   {
     "description": "A command-line hex viewer",
     "name": "hexyl",
-    "rank": "1700",
+    "rank": "1729",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21302,7 +21666,7 @@
   {
     "description": "Cross-platform hidden file library and utility.",
     "name": "hf",
-    "rank": "1701",
+    "rank": "1730",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21315,7 +21679,7 @@
   {
     "description": "Zsh history stats.",
     "name": "histat",
-    "rank": "1702",
+    "rank": "1731",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21328,7 +21692,7 @@
   {
     "description": "Highlight patterns.",
     "name": "hl",
-    "rank": "1703",
+    "rank": "1732",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -21339,7 +21703,7 @@
   {
     "description": "A complete supervisor and init system, designed for running in containers.",
     "name": "horust",
-    "rank": "1704",
+    "rank": "1733",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21352,7 +21716,7 @@
   {
     "description": "Simple CLI/daemon tool for counting visitors using access.",
     "name": "htcount",
-    "rank": "1705",
+    "rank": "1734",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21365,7 +21729,7 @@
   {
     "description": "Like jq, but for HTML.",
     "name": "htmlq",
-    "rank": "1706",
+    "rank": "1735",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -21376,7 +21740,7 @@
   {
     "description": "HTML to PDF converter.",
     "name": "htop",
-    "rank": "1707",
+    "rank": "1736",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21389,7 +21753,7 @@
   {
     "description": "Simple and configurable command-line HTTP server.",
     "name": "http-server",
-    "rank": "1708",
+    "rank": "1737",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -21400,7 +21764,7 @@
   {
     "description": "Encode and decode files with Huffman coding.",
     "name": "huff_rs",
-    "rank": "1709",
+    "rank": "1738",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -21411,7 +21775,7 @@
   {
     "description": "A modern alternative to the watch command, records the differences in execution results and can check this differences at after.",
     "name": "hwatch",
-    "rank": "1710",
+    "rank": "1739",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -21423,7 +21787,7 @@
   {
     "description": "Futuristic take on hexdump, made in Rust.",
     "name": "hx",
-    "rank": "1711",
+    "rank": "1740",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21436,7 +21800,7 @@
   {
     "description": "One LSP server support snippets and actions for helix editor.",
     "name": "hx-lsp",
-    "rank": "1712",
+    "rank": "1741",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21449,7 +21813,7 @@
   {
     "description": "Blazingly fast tool to grab screenshots of url/webpages from terminal.",
     "name": "hxn",
-    "rank": "1713",
+    "rank": "1742",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -21461,7 +21825,7 @@
   {
     "description": "(WIP Placeholder) Neofetch with LGBTQ+ pride flags!.",
     "name": "hyfetch",
-    "rank": "1714",
+    "rank": "1743",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21474,7 +21838,7 @@
   {
     "description": "A command-line benchmarking tool.",
     "name": "hyperfine",
-    "rank": "1715",
+    "rank": "1744",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21487,7 +21851,7 @@
   {
     "description": "Improved scratchpad functionality for Hyprland.",
     "name": "hyprscratch",
-    "rank": "1716",
+    "rank": "1745",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21500,7 +21864,7 @@
   {
     "description": "iay! The minimalistic, blazing-fast, and extendable prompt for bash and zsh.",
     "name": "iay",
-    "rank": "1717",
+    "rank": "1746",
     "targets": [
       "loongarch64-Linux",
       "riscv64-Linux"
@@ -21511,7 +21875,7 @@
   {
     "description": "An RDAP Command Line Interface client.",
     "name": "icann-rdap-cli",
-    "rank": "1718",
+    "rank": "1747",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21524,7 +21888,7 @@
   {
     "description": "Export iMessage data and run iMessage diagnostics.",
     "name": "imessage-exporter",
-    "rank": "1719",
+    "rank": "1748",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21537,7 +21901,7 @@
   {
     "description": "Automation Tool For Installing Compilers, Sdks and Package Managers.",
     "name": "incli",
-    "rank": "1720",
+    "rank": "1749",
     "targets": [
       "loongarch64-Linux",
       "riscv64-Linux"
@@ -21548,7 +21912,7 @@
   {
     "description": "Rust port of the FlameGraph performance profiling tool suite.",
     "name": "inferno",
-    "rank": "1721",
+    "rank": "1750",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21561,7 +21925,7 @@
   {
     "description": "CLI tool to quickly extract infos from JSON exports of .",
     "name": "inkanim",
-    "rank": "1722",
+    "rank": "1751",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21574,7 +21938,7 @@
   {
     "description": "mpd client.",
     "name": "inori",
-    "rank": "1723",
+    "rank": "1752",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21587,7 +21951,7 @@
   {
     "description": "A multiprocess drop-in replacement for Rust channels.",
     "name": "ipc-channel",
-    "rank": "1724",
+    "rank": "1753",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21600,7 +21964,7 @@
   {
     "description": "Convert Jupyter Notebooks to Markdown files.",
     "name": "ipynb-to-md",
-    "rank": "1725",
+    "rank": "1754",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21613,7 +21977,7 @@
   {
     "description": "Test if semantic-release is configured.",
     "name": "is-semantic-release-configured",
-    "rank": "1726",
+    "rank": "1755",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -21625,7 +21989,7 @@
   {
     "description": "IWE CLI utility.",
     "name": "iwe",
-    "rank": "1727",
+    "rank": "1756",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21638,7 +22002,7 @@
   {
     "description": "IWE LSP server.",
     "name": "iwes",
-    "rank": "1728",
+    "rank": "1757",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21651,7 +22015,7 @@
   {
     "description": "A simple CLI generation tool for creating large datasets.",
     "name": "jen",
-    "rank": "1729",
+    "rank": "1758",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21664,7 +22028,7 @@
   {
     "description": "A Rust-based monitoring tool for Jetson Nano to track CPU, GPU, RAM, and temperature metrics.",
     "name": "jetson_nano_monitor",
-    "rank": "1730",
+    "rank": "1759",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21677,7 +22041,7 @@
   {
     "description": "Jujutsu - an experimental version control system.",
     "name": "jj-cli",
-    "rank": "1731",
+    "rank": "1760",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21690,7 +22054,7 @@
   {
     "description": "Command-line tool for JSON-RPC 2.",
     "name": "jlot",
-    "rank": "1732",
+    "rank": "1761",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21703,7 +22067,7 @@
   {
     "description": "JSON navigator and interactive filter leveraging jq",
     "name": "jnv",
-    "rank": "1733",
+    "rank": "1762",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21716,7 +22080,7 @@
   {
     "description": "Universal job control",
     "name": "job-security",
-    "rank": "1734",
+    "rank": "1763",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -21728,7 +22092,7 @@
   {
     "description": "A command line tool for JSON Schema validation.",
     "name": "jsonschema-cli",
-    "rank": "1735",
+    "rank": "1764",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21741,7 +22105,7 @@
   {
     "description": "A crate and loadable extension for SQLite that provides Joes ULIDs.",
     "name": "julid-rs",
-    "rank": "1736",
+    "rank": "1765",
     "targets": [
       "x86_64-Linux"
     ],
@@ -21751,7 +22115,7 @@
   {
     "description": "🤖 Just a command runner.",
     "name": "just",
-    "rank": "1737",
+    "rank": "1766",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21764,7 +22128,7 @@
   {
     "description": "Format justfile from stdin to stdout.",
     "name": "just-formatter",
-    "rank": "1738",
+    "rank": "1767",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21777,7 +22141,7 @@
   {
     "description": "A super fast CLI tool to decode and encode JWTs built in Rust.",
     "name": "jwt-cli",
-    "rank": "1739",
+    "rank": "1768",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -21789,7 +22153,7 @@
   {
     "description": "A tridirectional converter between Json, Yaml, and Toml.",
     "name": "jyt",
-    "rank": "1740",
+    "rank": "1769",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -21801,7 +22165,7 @@
   {
     "description": "A new way to LÖVE.",
     "name": "kaledis",
-    "rank": "1741",
+    "rank": "1770",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21814,7 +22178,7 @@
   {
     "description": "A bit-precise model checker for Rust.",
     "name": "kani-verifier",
-    "rank": "1742",
+    "rank": "1771",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21827,7 +22191,7 @@
   {
     "description": "A simple way to get started with a project by scaffolding from a template powered by the Tera engine.",
     "name": "kickstart",
-    "rank": "1743",
+    "rank": "1772",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21840,7 +22204,7 @@
   {
     "description": "A command-line tool to easily kill processes and containers running on a specified port.",
     "name": "killport",
-    "rank": "1744",
+    "rank": "1773",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21853,7 +22217,7 @@
   {
     "description": "A fast and animated Zsh prompt.",
     "name": "kinetic-zsh-prompt",
-    "rank": "1745",
+    "rank": "1774",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21866,7 +22230,7 @@
   {
     "description": "Print your current xkb_layout in Sway.",
     "name": "klavaro",
-    "rank": "1746",
+    "rank": "1775",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21879,7 +22243,7 @@
   {
     "description": "Linux kernel manager and activity monitor",
     "name": "kmon",
-    "rank": "1747",
+    "rank": "1776",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -21891,7 +22255,7 @@
   {
     "description": "kondo is a filesystem cleaning tool that recursively searches directories for known project structures and determines how much space you could save by deleting the unnecessary files.",
     "name": "kondo",
-    "rank": "1748",
+    "rank": "1777",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21904,7 +22268,7 @@
   {
     "description": "Visualize log files using sparklines.",
     "name": "krapslog",
-    "rank": "1749",
+    "rank": "1778",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21917,7 +22281,7 @@
   {
     "description": "kubectl plugin to list allocations (cpu, memory, gpu,.",
     "name": "kubectl-view-allocations",
-    "rank": "1750",
+    "rank": "1779",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21930,7 +22294,7 @@
   {
     "description": "Flexible DNS hijacking and proxy tool. Read more: https://github.com/yinheli/kungfu",
     "name": "kungfu",
-    "rank": "1751",
+    "rank": "1780",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -21942,7 +22306,7 @@
   {
     "description": "Create & enforce sets of labels in GitHub repositories.",
     "name": "labelmaker",
-    "rank": "1752",
+    "rank": "1781",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21955,7 +22319,7 @@
   {
     "description": "A Rust library for programmatic PDF generation with precise, predictable layout control.",
     "name": "laser-pdf",
-    "rank": "1753",
+    "rank": "1782",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -21968,7 +22332,7 @@
   {
     "description": "A declarative build system for C projects aiming to be simple, fast and correct.",
     "name": "laze",
-    "rank": "1754",
+    "rank": "1783",
     "targets": [
       "riscv64-Linux"
     ],
@@ -21978,7 +22342,7 @@
   {
     "description": "Utility commands to operate and analyze LCOV trace file at blazingly fast.",
     "name": "lcov-util",
-    "rank": "1755",
+    "rank": "1784",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -21990,7 +22354,7 @@
   {
     "description": "markdow to html simple tool.",
     "name": "ldd_md_parse",
-    "rank": "1756",
+    "rank": "1785",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22003,7 +22367,7 @@
   {
     "description": "Read the ELF dependency tree",
     "name": "lddtree",
-    "rank": "1757",
+    "rank": "1786",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22016,7 +22380,7 @@
   {
     "description": "A linker proxy tool.",
     "name": "ldproxy",
-    "rank": "1758",
+    "rank": "1787",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22029,7 +22393,7 @@
   {
     "description": "The way to interact and learn stuff.",
     "name": "learnerd",
-    "rank": "1759",
+    "rank": "1788",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22042,7 +22406,7 @@
   {
     "description": "view macro formatter CLI for the Leptos web framework.",
     "name": "leptosfmt",
-    "rank": "1760",
+    "rank": "1789",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22055,7 +22419,7 @@
   {
     "description": "A morphological analysis command line interface.",
     "name": "lindera-cli",
-    "rank": "1761",
+    "rank": "1790",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22068,7 +22432,7 @@
   {
     "description": "Linetime is a command line utility to add timestamps at the start of lines. The tool can either process lines from stdin or execute a command and process lines from the commands stdout and stderr.",
     "name": "linetime",
-    "rank": "1762",
+    "rank": "1791",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22081,7 +22445,7 @@
   {
     "description": "A TeX/LaTeX auto builder and server.",
     "name": "livetex",
-    "rank": "1763",
+    "rank": "1792",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22094,7 +22458,7 @@
   {
     "description": "A CLI tool to generate text files from source code for LLM context.",
     "name": "llm-context-gen",
-    "rank": "1764",
+    "rank": "1793",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22107,7 +22471,7 @@
   {
     "description": "More beautiful HTML reports for llvm-cov/cargo-llvm-cov.",
     "name": "llvm-cov-pretty",
-    "rank": "1765",
+    "rank": "1794",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22120,7 +22484,7 @@
   {
     "description": "Linking stuff based on a config file.",
     "name": "lnkr",
-    "rank": "1766",
+    "rank": "1795",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -22132,7 +22496,7 @@
   {
     "description": "Loco new app generator.",
     "name": "loco",
-    "rank": "1767",
+    "rank": "1796",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22145,7 +22509,7 @@
   {
     "description": "A powerful CLI tool that puts log analytics at your fingertips.",
     "name": "logria",
-    "rank": "1768",
+    "rank": "1797",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22158,7 +22522,7 @@
   {
     "description": "A simple command line tool that helps you visualize an input stream of text.",
     "name": "logss",
-    "rank": "1769",
+    "rank": "1798",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22171,7 +22535,7 @@
   {
     "description": "The good ol lolcat, now with fearless concurrency.",
     "name": "lolcat",
-    "rank": "1770",
+    "rank": "1799",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -22183,7 +22547,7 @@
   {
     "description": "A simple command-line tool for generating lorem-ipsum text.",
     "name": "lorem",
-    "rank": "1771",
+    "rank": "1800",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -22195,7 +22559,7 @@
   {
     "description": "An ls command with a lot of pretty colors and some other stuff.",
     "name": "lsd",
-    "rank": "1772",
+    "rank": "1801",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -22207,7 +22571,7 @@
   {
     "description": "A standalone Luau runtime.",
     "name": "lune",
-    "rank": "1773",
+    "rank": "1802",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -22218,7 +22582,7 @@
   {
     "description": "A fast, async link checker.",
     "name": "lychee",
-    "rank": "1774",
+    "rank": "1803",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22231,7 +22595,7 @@
   {
     "description": "A system information fetcher with an emphasis on performance.",
     "name": "macchina",
-    "rank": "1775",
+    "rank": "1804",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22244,7 +22608,7 @@
   {
     "description": "CLI tool for myanimelist.",
     "name": "mal-cli-rs",
-    "rank": "1776",
+    "rank": "1805",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22257,7 +22621,7 @@
   {
     "description": "A simple markdown reader that uses ratatui to render markdown files.",
     "name": "markdown-reader",
-    "rank": "1777",
+    "rank": "1806",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22270,7 +22634,7 @@
   {
     "description": "Markdown Table of Contents generator.",
     "name": "markdown-toc",
-    "rank": "1778",
+    "rank": "1807",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22283,7 +22647,7 @@
   {
     "description": "A CLI task runner defined by a simple markdown file.",
     "name": "mask",
-    "rank": "1779",
+    "rank": "1808",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22296,7 +22660,7 @@
   {
     "description": "Generates math questions for elementary school kids.",
     "name": "math_test",
-    "rank": "1780",
+    "rank": "1809",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -22308,7 +22672,7 @@
   {
     "description": "a powerfull extended cat command, to cat all the things you couldnt before.",
     "name": "mcat",
-    "rank": "1781",
+    "rank": "1810",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -22320,7 +22684,7 @@
   {
     "description": "Markdown Bakery CLI app.",
     "name": "md-bakery",
-    "rank": "1782",
+    "rank": "1811",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -22331,7 +22695,7 @@
   {
     "description": "Generate markdown footer links.",
     "name": "md-footer",
-    "rank": "1783",
+    "rank": "1812",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22344,7 +22708,7 @@
   {
     "description": "A tool to include any file in markdown files.",
     "name": "md-include",
-    "rank": "1784",
+    "rank": "1813",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -22356,7 +22720,7 @@
   {
     "description": "A simple md postprocess.",
     "name": "md-postprocess",
-    "rank": "1785",
+    "rank": "1814",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22369,7 +22733,7 @@
   {
     "description": "A simple CLI tool to convert Markdown files to HTML.",
     "name": "md-to-html",
-    "rank": "1786",
+    "rank": "1815",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22382,7 +22746,7 @@
   {
     "description": "A CLI tool for extracting, cleaning, and exporting URLs from Markdown files.",
     "name": "md-url-extractor",
-    "rank": "1787",
+    "rank": "1816",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22395,7 +22759,7 @@
   {
     "description": "My markdown to html converter.",
     "name": "md_converter",
-    "rank": "1788",
+    "rank": "1817",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22408,7 +22772,7 @@
   {
     "description": "md_gen is a framework for generating documentation in markdown.",
     "name": "md_gen",
-    "rank": "1789",
+    "rank": "1818",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22421,7 +22785,7 @@
   {
     "description": "Creates a book from markdown files.",
     "name": "mdbook",
-    "rank": "1790",
+    "rank": "1819",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22434,7 +22798,7 @@
   {
     "description": "A preprocessor for mdbook to add Material Design admonishments.",
     "name": "mdbook-admonish",
-    "rank": "1791",
+    "rank": "1820",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22447,7 +22811,7 @@
   {
     "description": "A backend for mdbook which will find Markdowns you forgot on SUMMARY.",
     "name": "mdbook-check-missing-md",
-    "rank": "1792",
+    "rank": "1821",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22460,7 +22824,7 @@
   {
     "description": "D2 diagram generator plugin for MdBook.",
     "name": "mdbook-d2",
-    "rank": "1793",
+    "rank": "1822",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22473,7 +22837,7 @@
   {
     "description": "mdBook preprocessor rendering LaTeX equations to HTML.",
     "name": "mdbook-katex",
-    "rank": "1794",
+    "rank": "1823",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22486,7 +22850,7 @@
   {
     "description": "A pandoc-powered mdbook backend.",
     "name": "mdbook-pandoc",
-    "rank": "1795",
+    "rank": "1824",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22499,7 +22863,7 @@
   {
     "description": "SvgBob mdbook preprocessor which swaps code-blocks with neat SVG.",
     "name": "mdbook-svgbob",
-    "rank": "1796",
+    "rank": "1825",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22512,7 +22876,7 @@
   {
     "description": "Turns an mdbook book into a github wiki.",
     "name": "mdbook-to-github-wiki",
-    "rank": "1797",
+    "rank": "1826",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22525,7 +22889,7 @@
   {
     "description": "mdbook preprocessor to add Table of Contents.",
     "name": "mdbook-toc",
-    "rank": "1798",
+    "rank": "1827",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -22537,7 +22901,7 @@
   {
     "description": "An mdbook preprocessor to use typst to render math.",
     "name": "mdbook-typst-math",
-    "rank": "1799",
+    "rank": "1828",
     "targets": [
       "loongarch64-Linux",
       "riscv64-Linux",
@@ -22549,7 +22913,7 @@
   {
     "description": "mdbook typst pdf backend.",
     "name": "mdbook-typst-pdf",
-    "rank": "1800",
+    "rank": "1829",
     "targets": [
       "loongarch64-Linux",
       "riscv64-Linux",
@@ -22561,7 +22925,7 @@
   {
     "description": "A beautiful markdown note-taking application.",
     "name": "mdlib",
-    "rank": "1801",
+    "rank": "1830",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22574,7 +22938,7 @@
   {
     "description": "Select and render specific elements in a Markdown document",
     "name": "mdq",
-    "rank": "1802",
+    "rank": "1831",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22587,7 +22951,7 @@
   {
     "description": "Markdown shell pre-processor",
     "name": "mdsh",
-    "rank": "1803",
+    "rank": "1832",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -22598,7 +22962,7 @@
   {
     "description": "terminal e-mail client.",
     "name": "meli",
-    "rank": "1804",
+    "rank": "1833",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22611,7 +22975,7 @@
   {
     "description": "A syntax-aware merge driver for Git.",
     "name": "mergiraf",
-    "rank": "1805",
+    "rank": "1834",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22624,7 +22988,7 @@
   {
     "description": "multi-backend declarative package manager.",
     "name": "metapac",
-    "rank": "1806",
+    "rank": "1835",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22637,7 +23001,7 @@
   {
     "description": "A parser for Age of Empires II recorded games.",
     "name": "mgx",
-    "rank": "1807",
+    "rank": "1836",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22650,7 +23014,7 @@
   {
     "description": "Minifier tool/lib for JS/CSS/JSON files.",
     "name": "minifier",
-    "rank": "1808",
+    "rank": "1837",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22663,7 +23027,7 @@
   {
     "description": "For when you really just want to serve some files over HTTP right now!",
     "name": "miniserve",
-    "rank": "1809",
+    "rank": "1838",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22676,7 +23040,7 @@
   {
     "description": "The front-end to your dev env.",
     "name": "mise",
-    "rank": "1810",
+    "rank": "1839",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22689,7 +23053,7 @@
   {
     "description": "The markup link checker (mlc) checks for broken links in markup files.",
     "name": "mlc",
-    "rank": "1811",
+    "rank": "1840",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22702,7 +23066,7 @@
   {
     "description": "monitord .",
     "name": "monitord",
-    "rank": "1812",
+    "rank": "1841",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -22714,7 +23078,7 @@
   {
     "description": "Parser for the register of cultural monuments of Ukraine.",
     "name": "monument_parser",
-    "rank": "1813",
+    "rank": "1842",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -22726,7 +23090,7 @@
   {
     "description": "Media over QUIC.",
     "name": "moq-relay",
-    "rank": "1814",
+    "rank": "1843",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -22737,7 +23101,7 @@
   {
     "description": "A terminal user interface (TUI) tool for moneybird.",
     "name": "mot",
-    "rank": "1815",
+    "rank": "1844",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22750,7 +23114,7 @@
   {
     "description": "🛠️ motdyn (Dynamic MOTD): Rust-powered and highly configurable for real-time login insights.",
     "name": "motdyn",
-    "rank": "1816",
+    "rank": "1845",
     "targets": [
       "loongarch64-Linux",
       "riscv64-Linux"
@@ -22761,7 +23125,7 @@
   {
     "description": "TUI for running multiple processes.",
     "name": "mprocs",
-    "rank": "1817",
+    "rank": "1846",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -22773,7 +23137,7 @@
   {
     "description": "Mystical shell parser, formatter, and interpreter with Bash support.",
     "name": "mystsh",
-    "rank": "1818",
+    "rank": "1847",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22786,7 +23150,7 @@
   {
     "description": "A fast parquet utility written in Rust.",
     "name": "nail-parquet",
-    "rank": "1819",
+    "rank": "1848",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22799,7 +23163,7 @@
   {
     "description": "A library for near-duplicate matching.",
     "name": "neardup",
-    "rank": "1820",
+    "rank": "1849",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22812,7 +23176,7 @@
   {
     "description": "Check if given bin(s) are available in the PATH.",
     "name": "needs",
-    "rank": "1821",
+    "rank": "1850",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22825,7 +23189,7 @@
   {
     "description": "The Lsp for cmake.",
     "name": "neocmakelsp",
-    "rank": "1822",
+    "rank": "1851",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22838,7 +23202,7 @@
   {
     "description": "Network Scanner.",
     "name": "netscanner",
-    "rank": "1823",
+    "rank": "1852",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22851,7 +23215,7 @@
   {
     "description": "A simple tool to parse existing configuration files into nix syntax.",
     "name": "nixify",
-    "rank": "1824",
+    "rank": "1853",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22864,7 +23228,7 @@
   {
     "description": "build tool for node-bindgen.",
     "name": "nj-cli",
-    "rank": "1825",
+    "rank": "1854",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22877,7 +23241,7 @@
   {
     "description": "Batch rename utility for developers.",
     "name": "nomino",
-    "rank": "1826",
+    "rank": "1855",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22890,7 +23254,7 @@
   {
     "description": "A brace expansion plugin compatible with Bash for nushell.",
     "name": "nu-plugin-bexpand",
-    "rank": "1827",
+    "rank": "1856",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22903,7 +23267,7 @@
   {
     "description": "A nushell plugin to copy text into clipboard or get text from it.",
     "name": "nu_plugin_clipboard",
-    "rank": "1828",
+    "rank": "1857",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22916,7 +23280,7 @@
   {
     "description": "A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.",
     "name": "nu_plugin_compress",
-    "rank": "1829",
+    "rank": "1858",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22929,7 +23293,7 @@
   {
     "description": "A DNS utility for nushell.",
     "name": "nu_plugin_dns",
-    "rank": "1830",
+    "rank": "1859",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -22940,7 +23304,7 @@
   {
     "description": "A simple nu plugin to select files through the native dialog.",
     "name": "nu_plugin_file_dialog",
-    "rank": "1831",
+    "rank": "1860",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22953,7 +23317,7 @@
   {
     "description": "An I/O plugin for a set of file formats for Nushell.",
     "name": "nu_plugin_formats",
-    "rank": "1832",
+    "rank": "1861",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22966,7 +23330,7 @@
   {
     "description": "A nushell plugin for parsing Hashicorp Configuration Language file format.",
     "name": "nu_plugin_hcl",
-    "rank": "1833",
+    "rank": "1862",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22979,7 +23343,7 @@
   {
     "description": "A version incrementer plugin for Nushell.",
     "name": "nu_plugin_inc",
-    "rank": "1834",
+    "rank": "1863",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -22992,7 +23356,7 @@
   {
     "description": "nu plugin to add parquet support.",
     "name": "nu_plugin_parquet",
-    "rank": "1835",
+    "rank": "1864",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23005,7 +23369,7 @@
   {
     "description": "Nushell dataframe plugin commands based on polars.",
     "name": "nu_plugin_polars",
-    "rank": "1836",
+    "rank": "1865",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23018,7 +23382,7 @@
   {
     "description": "A nushell plugin for reading rpm package.",
     "name": "nu_plugin_rpm",
-    "rank": "1837",
+    "rank": "1866",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23031,7 +23395,7 @@
   {
     "description": "A nushell plugin for dealing with SemVer versions.",
     "name": "nu_plugin_semver",
-    "rank": "1838",
+    "rank": "1867",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23044,7 +23408,7 @@
   {
     "description": "An sk command that can handle Nushells structured data.",
     "name": "nu_plugin_skim",
-    "rank": "1839",
+    "rank": "1868",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -23056,7 +23420,7 @@
   {
     "description": "A nushell plugin that adds various ulid commands.",
     "name": "nu_plugin_ulid",
-    "rank": "1840",
+    "rank": "1869",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23069,7 +23433,7 @@
   {
     "description": "A statically typed programming language for scientific computations with first class support for physical dimensions and units.",
     "name": "numbat-cli",
-    "rank": "1841",
+    "rank": "1870",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23082,7 +23446,7 @@
   {
     "description": "OCR CLI tool for extracting text from images.",
     "name": "ocrs-cli",
-    "rank": "1842",
+    "rank": "1871",
     "targets": [
       "x86_64-Linux"
     ],
@@ -23092,7 +23456,7 @@
   {
     "description": "Decorate alphanumeric characters in your input with various font; special characters in Unicode.",
     "name": "omekasy",
-    "rank": "1843",
+    "rank": "1872",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23105,7 +23469,7 @@
   {
     "description": "Command-line Git information tool.",
     "name": "onefetch",
-    "rank": "1844",
+    "rank": "1873",
     "targets": [
       "loongarch64-Linux",
       "riscv64-Linux"
@@ -23116,7 +23480,7 @@
   {
     "description": "This TUI allows you to list and browse APIs described by the openapi specification.",
     "name": "openapi-tui",
-    "rank": "1845",
+    "rank": "1874",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23129,7 +23493,7 @@
   {
     "description": "Group OpenStreetMap lines based on graph topology and OSM tags.",
     "name": "osm-lump-ways",
-    "rank": "1846",
+    "rank": "1875",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23142,7 +23506,7 @@
   {
     "description": "A command-line utility for easily compressing and decompressing files and directories.",
     "name": "ouch",
-    "rank": "1847",
+    "rank": "1876",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -23154,7 +23518,7 @@
   {
     "description": "A tool shows overlap text in files.",
     "name": "overlap",
-    "rank": "1848",
+    "rank": "1877",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23167,7 +23531,7 @@
   {
     "description": "Expose your local game server to the Internet.",
     "name": "ownserver",
-    "rank": "1849",
+    "rank": "1878",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -23178,7 +23542,7 @@
   {
     "description": "A simple tui to view & control docker containers.",
     "name": "oxker",
-    "rank": "1850",
+    "rank": "1879",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23191,7 +23555,7 @@
   {
     "description": "Markdown to PDF converter.",
     "name": "p4d-mdproof",
-    "rank": "1851",
+    "rank": "1880",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -23203,7 +23567,7 @@
   {
     "description": "Pacman-like syntax wrapper for many package managers.",
     "name": "pacaptr",
-    "rank": "1852",
+    "rank": "1881",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23216,7 +23580,7 @@
   {
     "description": "Capture screenshots of web pages from specified URL using Rust.",
     "name": "pageshot",
-    "rank": "1853",
+    "rank": "1882",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23229,7 +23593,7 @@
   {
     "description": "Syds log inspector & profile writer.",
     "name": "pandora_box",
-    "rank": "1854",
+    "rank": "1883",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23242,7 +23606,7 @@
   {
     "description": "an audit tool to scan your crate or workspace searching for potential panic points in your codebase.",
     "name": "panic-analyzer",
-    "rank": "1855",
+    "rank": "1884",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23255,7 +23619,7 @@
   {
     "description": "Hash file or directory recursively.",
     "name": "paq",
-    "rank": "1856",
+    "rank": "1885",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -23267,7 +23631,7 @@
   {
     "description": "Command suggestions, command-not-found and thefuck replacement written in Rust.",
     "name": "pay-respects",
-    "rank": "1857",
+    "rank": "1886",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23280,7 +23644,7 @@
   {
     "description": "A minimalistic ebook reader.",
     "name": "pdf-reader",
-    "rank": "1858",
+    "rank": "1887",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23293,7 +23657,7 @@
   {
     "description": "PDF renderer.",
     "name": "pdf_renderer",
-    "rank": "1859",
+    "rank": "1888",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23306,7 +23670,7 @@
   {
     "description": "This tool is meant to help with debugging PDF files.",
     "name": "pdfdbg",
-    "rank": "1860",
+    "rank": "1889",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23319,7 +23683,7 @@
   {
     "description": "Generating BGP collector peers statistics from RIB dump files.",
     "name": "peer-stats",
-    "rank": "1861",
+    "rank": "1890",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23332,7 +23696,7 @@
   {
     "description": "A high-performance CLI application for chatting with various AI models from multiple providers directly in your terminal.",
     "name": "perspt",
-    "rank": "1862",
+    "rank": "1891",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23345,7 +23709,7 @@
   {
     "description": "A rewrite of the pfetch system information tool.",
     "name": "pfetch",
-    "rank": "1863",
+    "rank": "1892",
     "targets": [
       "loongarch64-Linux",
       "riscv64-Linux"
@@ -23356,7 +23720,7 @@
   {
     "description": "A fuzzy picker similar to fzf and Skim using the Nucleo library.",
     "name": "picleo",
-    "rank": "1864",
+    "rank": "1893",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23369,7 +23733,7 @@
   {
     "description": "A Linux script management tool",
     "name": "pier",
-    "rank": "1865",
+    "rank": "1894",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23382,7 +23746,7 @@
   {
     "description": "Command line tool to manage Pi-Hole instances.",
     "name": "piholectl",
-    "rank": "1866",
+    "rank": "1895",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -23393,7 +23757,7 @@
   {
     "description": "pik - process interactive kill.",
     "name": "pik",
-    "rank": "1867",
+    "rank": "1896",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23406,7 +23770,7 @@
   {
     "description": "Find unused dependencies in pyproject.",
     "name": "poetry-udeps",
-    "rank": "1868",
+    "rank": "1897",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23419,7 +23783,7 @@
   {
     "description": "A zsh middleware forcing users to confirm before executing commands with preconfigured texts/regex patterns.",
     "name": "preexec_confirm",
-    "rank": "1869",
+    "rank": "1898",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -23431,7 +23795,7 @@
   {
     "description": "convert markdown to html.",
     "name": "prema",
-    "rank": "1870",
+    "rank": "1899",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23444,7 +23808,7 @@
   {
     "description": "Generate and execute Rust projects from annotated Markdown files.",
     "name": "prk_mdgen",
-    "rank": "1871",
+    "rank": "1900",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23457,7 +23821,7 @@
   {
     "description": "A modern replacement for ps.",
     "name": "procs",
-    "rank": "1872",
+    "rank": "1901",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -23469,7 +23833,7 @@
   {
     "description": "A program to render text progress bars.",
     "name": "progredient",
-    "rank": "1873",
+    "rank": "1902",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23482,7 +23846,7 @@
   {
     "description": "Project organization tool made for learning rust.",
     "name": "proj-cmd",
-    "rank": "1874",
+    "rank": "1903",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23495,7 +23859,7 @@
   {
     "description": "Protocol Buffers compiler plugin powered by Prost!.",
     "name": "protoc-gen-prost-crate",
-    "rank": "1875",
+    "rank": "1904",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -23507,7 +23871,7 @@
   {
     "description": "TUI Program for Custom Proton Download and installation written in rust.",
     "name": "protonup-rs",
-    "rank": "1876",
+    "rank": "1905",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23520,7 +23884,7 @@
   {
     "description": "Command-line program to manage Pokémon Showdown battle logs.",
     "name": "psbattletools",
-    "rank": "1877",
+    "rank": "1906",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -23531,7 +23895,7 @@
   {
     "description": "A cli tool for managing long running shell commands.",
     "name": "pueue",
-    "rank": "1878",
+    "rank": "1907",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23544,7 +23908,7 @@
   {
     "description": "The bank asks you for the Lth, Mth and Nth letters of your password? Use pwat.",
     "name": "pwat",
-    "rank": "1879",
+    "rank": "1908",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -23555,7 +23919,7 @@
   {
     "description": "print the path of the current working directory, shortly.",
     "name": "pwds",
-    "rank": "1880",
+    "rank": "1909",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23568,7 +23932,7 @@
   {
     "description": "An utility for encoding or decoding QR code.",
     "name": "qrtool",
-    "rank": "1881",
+    "rank": "1910",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23581,7 +23945,7 @@
   {
     "description": "a database management tui.",
     "name": "rainfrog",
-    "rank": "1882",
+    "rank": "1911",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23594,7 +23958,7 @@
   {
     "description": "Generate pseudo-random bytes.",
     "name": "randgen",
-    "rank": "1883",
+    "rank": "1912",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23607,7 +23971,7 @@
   {
     "description": "A command line tool to compare a range of PRNGs.",
     "name": "random_number_generators",
-    "rank": "1884",
+    "rank": "1913",
     "targets": [
       "x86_64-Linux"
     ],
@@ -23617,7 +23981,7 @@
   {
     "description": "A file/folder size checking program.",
     "name": "rdu",
-    "rank": "1885",
+    "rank": "1914",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -23629,7 +23993,7 @@
   {
     "description": "React library for server-side rendering with Rust.",
     "name": "react",
-    "rank": "1886",
+    "rank": "1915",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23642,7 +24006,7 @@
   {
     "description": "NixOS-like repeatability for any Linux distro.",
     "name": "rebos",
-    "rank": "1887",
+    "rank": "1916",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -23654,7 +24018,7 @@
   {
     "description": "A safer alternative to rm.",
     "name": "remove",
-    "rank": "1888",
+    "rank": "1917",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -23665,7 +24029,7 @@
   {
     "description": "Log images, point clouds, etc, and visualize them effortlessly.",
     "name": "rerun-cli",
-    "rank": "1889",
+    "rank": "1918",
     "targets": [
       "aarch64-Linux"
     ],
@@ -23675,7 +24039,7 @@
   {
     "description": "An SVG rendering library.",
     "name": "resvg",
-    "rank": "1890",
+    "rank": "1919",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23688,7 +24052,7 @@
   {
     "description": "Generate cryptographically secure strings, numbers and more right from your terminal.",
     "name": "rgen-cli",
-    "rank": "1891",
+    "rank": "1920",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23701,7 +24065,7 @@
   {
     "description": "A diff filter highlighting changed line parts",
     "name": "riffdiff",
-    "rank": "1892",
+    "rank": "1921",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -23713,7 +24077,7 @@
   {
     "description": "Rust for native business logic, Flutter for flexible and beautiful GUI.",
     "name": "rinf_cli",
-    "rank": "1893",
+    "rank": "1922",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23726,7 +24090,7 @@
   {
     "description": "Rio terminal is a hardware-accelerated GPU terminal emulator, focusing to run in desktops and browsers.",
     "name": "rioterm",
-    "rank": "1894",
+    "rank": "1923",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23739,7 +24103,7 @@
   {
     "description": "rip: a safe and ergonomic alternative to rm.",
     "name": "rip2",
-    "rank": "1895",
+    "rank": "1924",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23752,7 +24116,7 @@
   {
     "description": "A rust-based version of the popular dnsgen python utility.",
     "name": "ripgen",
-    "rank": "1896",
+    "rank": "1925",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -23764,7 +24128,7 @@
   {
     "description": "ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern while respecting gitignore rules.",
     "name": "ripgrep",
-    "rank": "1897",
+    "rank": "1926",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -23775,7 +24139,7 @@
   {
     "description": "A tool for finding history zsh commands.",
     "name": "ristory",
-    "rank": "1898",
+    "rank": "1927",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -23787,7 +24151,7 @@
   {
     "description": "Creates the matrix in the terminal.",
     "name": "rjmatrix",
-    "rank": "1899",
+    "rank": "1928",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23800,7 +24164,7 @@
   {
     "description": "A program to print shared object dependencies",
     "name": "rldd",
-    "rank": "1900",
+    "rank": "1929",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23813,7 +24177,7 @@
   {
     "description": "rip: a safe and ergonomic alternative to rm.",
     "name": "rm-improved",
-    "rank": "1901",
+    "rank": "1930",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -23824,7 +24188,7 @@
   {
     "description": "This is a fully Rust-based implementation of the popular dmesg Linux utility, giving programmatic access to the kernel log buffer.",
     "name": "rmesg",
-    "rank": "1902",
+    "rank": "1931",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23837,7 +24201,7 @@
   {
     "description": "Faster GNU rm drop in replacement with extra features.",
     "name": "rmx",
-    "rank": "1903",
+    "rank": "1932",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -23849,7 +24213,7 @@
   {
     "description": "Fast rm provides an alternative to rm that focuses on maximizing performance.",
     "name": "rmz",
-    "rank": "1904",
+    "rank": "1933",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23862,7 +24226,7 @@
   {
     "description": "RnR is a command-line tool to rename multiple files and directories that supports regular expressions",
     "name": "rnr",
-    "rank": "1905",
+    "rank": "1934",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23875,7 +24239,7 @@
   {
     "description": "A blazing fast multithreaded ROP Gadget finder. ropper / ropgadget alternative",
     "name": "ropr",
-    "rank": "1906",
+    "rank": "1935",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23888,7 +24252,7 @@
   {
     "description": "SOPS CLI alternative in pure Rust.",
     "name": "rops-cli",
-    "rank": "1907",
+    "rank": "1936",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -23899,7 +24263,7 @@
   {
     "description": "Create basic stats from jsonl.",
     "name": "rs-jsonl2stats",
-    "rank": "1908",
+    "rank": "1937",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23912,7 +24276,7 @@
   {
     "description": "rsbkb has multiple tools which are designed to be called directly (through symlinks). This allows various operations on data to be chained easily like CyberChef but through pipes.",
     "name": "rsbkb",
-    "rank": "1909",
+    "rank": "1938",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23925,7 +24289,7 @@
   {
     "description": "Aesthetically pleasing and lightning fast hardware fetch tool written in rust with easy configuration.",
     "name": "rsftch",
-    "rank": "1910",
+    "rank": "1939",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23938,7 +24302,7 @@
   {
     "description": "TCP connection hijacker, Rust rewrite of shijack",
     "name": "rshijack",
-    "rank": "1911",
+    "rank": "1940",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23951,7 +24315,7 @@
   {
     "description": "A command-line tool to sign files and verify signatures.",
     "name": "rsign2",
-    "rank": "1912",
+    "rank": "1941",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23964,7 +24328,7 @@
   {
     "description": "Opinionated wrapper for pandoc using YAML headers for configuration.",
     "name": "rsmooth",
-    "rank": "1913",
+    "rank": "1942",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -23975,7 +24339,7 @@
   {
     "description": "A rusty static-site generator leveraging shell commands.",
     "name": "rssg",
-    "rank": "1914",
+    "rank": "1943",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -23988,7 +24352,7 @@
   {
     "description": "An efficient way to filter duplicate lines from input, à la uniq.",
     "name": "runiq",
-    "rank": "1915",
+    "rank": "1944",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24001,7 +24365,7 @@
   {
     "description": "Find and replace text in source files",
     "name": "ruplacer",
-    "rank": "1916",
+    "rank": "1945",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24013,7 +24377,7 @@
   {
     "description": "Fast command line app in rust/tokio to run commands in parallel. Similar interface to GNU parallel or xargs.",
     "name": "rust-parallel",
-    "rank": "1917",
+    "rank": "1946",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24026,7 +24390,7 @@
   {
     "description": "Visualize sorting algorithms in you terminal.",
     "name": "rust-whichsort",
-    "rank": "1918",
+    "rank": "1947",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24038,7 +24402,7 @@
   {
     "description": "Rust2go commandline tool.",
     "name": "rust2go-cli",
-    "rank": "1919",
+    "rank": "1948",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24051,7 +24415,7 @@
   {
     "description": "The Modern Port Listener and Reverse Shell",
     "name": "rustcat",
-    "rank": "1920",
+    "rank": "1949",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24063,7 +24427,7 @@
   {
     "description": "Small exercises to get you used to reading and writing Rust code!.",
     "name": "rustlings",
-    "rank": "1921",
+    "rank": "1950",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24076,7 +24440,7 @@
   {
     "description": "Disk usage monitoring tool written in Rust.",
     "name": "rustory",
-    "rank": "1922",
+    "rank": "1951",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24089,7 +24453,7 @@
   {
     "description": "Faster Nmap Scanning with Rust.",
     "name": "rustscan",
-    "rank": "1923",
+    "rank": "1952",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24102,7 +24466,7 @@
   {
     "description": "git hook utility.",
     "name": "rusty-hook",
-    "rank": "1924",
+    "rank": "1953",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24115,7 +24479,7 @@
   {
     "description": "Command-line viewer for rustdoc documentation.",
     "name": "rusty-man",
-    "rank": "1925",
+    "rank": "1954",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -24126,7 +24490,7 @@
   {
     "description": "A CLI-based pet simulation game written in Rust.",
     "name": "rustybuddy",
-    "rank": "1926",
+    "rank": "1955",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24139,7 +24503,7 @@
   {
     "description": "like linux which, can find where the exec command is.",
     "name": "rwhich",
-    "rank": "1927",
+    "rank": "1956",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24152,7 +24516,7 @@
   {
     "description": "A lossless data compression tool using Zopfli.",
     "name": "rzopfli",
-    "rank": "1928",
+    "rank": "1957",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24165,7 +24529,7 @@
   {
     "description": "The RISC Zero version management library and CLI.",
     "name": "rzup",
-    "rank": "1929",
+    "rank": "1958",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24178,7 +24542,7 @@
   {
     "description": "very fast, and powerful synchronization command line tool for S3.",
     "name": "s3sync",
-    "rank": "1930",
+    "rank": "1959",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -24189,7 +24553,7 @@
   {
     "description": "safe-rm: a safe and ergonomic alternative to rm.",
     "name": "safe-rm",
-    "rank": "1931",
+    "rank": "1960",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -24200,7 +24564,7 @@
   {
     "description": "salps front end.",
     "name": "salps-tool",
-    "rank": "1932",
+    "rank": "1961",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24213,7 +24577,7 @@
   {
     "description": "Expose HTTP/SSH/TCP services through SSH port forwarding.",
     "name": "sandhole",
-    "rank": "1933",
+    "rank": "1962",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -24224,7 +24588,7 @@
   {
     "description": "A simple filename sanitizer, based on Nodes sanitize-filename",
     "name": "sanitize-filename",
-    "rank": "1934",
+    "rank": "1963",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24237,7 +24601,7 @@
   {
     "description": "View (pretty print) SARIF files in terminal.",
     "name": "sarif-fmt",
-    "rank": "1935",
+    "rank": "1964",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24250,7 +24614,7 @@
   {
     "description": "A system information utility that provides OS stats like memory, CPU, disk, and directory information.",
     "name": "saross",
-    "rank": "1936",
+    "rank": "1965",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24263,7 +24627,7 @@
   {
     "description": "An utility for encrypt and decrypt files.",
     "name": "scryptenc-cli",
-    "rank": "1937",
+    "rank": "1966",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24276,7 +24640,7 @@
   {
     "description": "An intuitive find & replace CLI.",
     "name": "sd",
-    "rank": "1938",
+    "rank": "1967",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24288,7 +24652,7 @@
   {
     "description": "A blazing-fast modern Lua linter written in Rust.",
     "name": "selene",
-    "rank": "1939",
+    "rank": "1968",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24300,7 +24664,7 @@
   {
     "description": "A cli tool to send directories over the network, with NAT hole punching.",
     "name": "sendme",
-    "rank": "1940",
+    "rank": "1969",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24313,7 +24677,7 @@
   {
     "description": "A simple terminal UI for search and replace, ala VS Code.",
     "name": "serpl",
-    "rank": "1941",
+    "rank": "1970",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24326,7 +24690,7 @@
   {
     "description": "Application for restoring Mages engine sprites (Steins;Gate, Steins;Gate 0, Chaos;Child).",
     "name": "sg-sprite",
-    "rank": "1942",
+    "rank": "1971",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24338,7 +24702,7 @@
   {
     "description": "App for hashing entries in blocklists.",
     "name": "shad3",
-    "rank": "1943",
+    "rank": "1972",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24351,7 +24715,7 @@
   {
     "description": "Fast, configurable, shell plugin manager.",
     "name": "sheldon",
-    "rank": "1944",
+    "rank": "1973",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24364,7 +24728,7 @@
   {
     "description": "The corrective bash syntax highlighter",
     "name": "shellharden",
-    "rank": "1945",
+    "rank": "1974",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24377,7 +24741,7 @@
   {
     "description": "shpool is a mechanism for establishing lightweight persistant shell sessions to gracefully handle network disconnects.",
     "name": "shpool",
-    "rank": "1946",
+    "rank": "1975",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24390,7 +24754,7 @@
   {
     "description": "Accessible image processing and conversion from the terminal (and a front-end for the image crate).",
     "name": "sic",
-    "rank": "1947",
+    "rank": "1976",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux"
@@ -24401,7 +24765,7 @@
   {
     "description": "List POSIX signal information for all processes on Linux.",
     "name": "signal-scan",
-    "rank": "1948",
+    "rank": "1977",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24414,7 +24778,7 @@
   {
     "description": "Tencent SILK codec.",
     "name": "silk-cli",
-    "rank": "1949",
+    "rank": "1978",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -24425,7 +24789,7 @@
   {
     "description": "Classify SIMD instructions by ISA extension.",
     "name": "simdscan",
-    "rank": "1950",
+    "rank": "1979",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24438,7 +24802,7 @@
   {
     "description": "A simple disk benchmark tool.",
     "name": "simple-disk-benchmark",
-    "rank": "1951",
+    "rank": "1980",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24451,7 +24815,7 @@
   {
     "description": "A fast, Rust-based tool to analyze file system usage with colorful output, file aggregation, exclusions, and directory comparisons.",
     "name": "sizr",
-    "rank": "1952",
+    "rank": "1981",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24464,7 +24828,7 @@
   {
     "description": "Fuzzy Finder in rust!.",
     "name": "skim",
-    "rank": "1953",
+    "rank": "1982",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24477,7 +24841,7 @@
   {
     "description": "Sleek is a CLI tool for formatting SQL files.",
     "name": "sleek",
-    "rank": "1954",
+    "rank": "1983",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24490,7 +24854,7 @@
   {
     "description": "Tool used to update extract @tr string out of Slint files into gettext .",
     "name": "slint-tr-extractor",
-    "rank": "1955",
+    "rank": "1984",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24503,7 +24867,7 @@
   {
     "description": "A super simple tool to make your pdf file size smaller using ghostscript.",
     "name": "smallerpdf",
-    "rank": "1956",
+    "rank": "1985",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24516,7 +24880,7 @@
   {
     "description": "Putting a brain behind cat.",
     "name": "smartcat",
-    "rank": "1957",
+    "rank": "1986",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24529,7 +24893,7 @@
   {
     "description": "Smart Move - An enhanced mv command with transformation capabilities.",
     "name": "smv",
-    "rank": "1958",
+    "rank": "1987",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24541,7 +24905,7 @@
   {
     "description": "A modern package manager for Linux",
     "name": "soar-cli",
-    "rank": "1959",
+    "rank": "1988",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24554,7 +24918,7 @@
   {
     "description": "A fast download manager",
     "name": "soar-dl",
-    "rank": "1960",
+    "rank": "1989",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24567,7 +24931,7 @@
   {
     "description": "A human-friendly alternative to netstat for socket and port monitoring on Linux.",
     "name": "somo",
-    "rank": "1961",
+    "rank": "1990",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24579,7 +24943,7 @@
   {
     "description": "sozu, a fast, reliable, hot reconfigurable HTTP reverse proxy.",
     "name": "sozu",
-    "rank": "1962",
+    "rank": "1991",
     "targets": [
       "x86_64-Linux"
     ],
@@ -24589,7 +24953,7 @@
   {
     "description": "💥 Disk-based sparse matrix statistics and subsetting 💥.",
     "name": "spars",
-    "rank": "1963",
+    "rank": "1992",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24602,7 +24966,7 @@
   {
     "description": "A tool for web search on your favorite sites.",
     "name": "spider-web-search",
-    "rank": "1964",
+    "rank": "1993",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24614,7 +24978,7 @@
   {
     "description": "A command line utility for analyzing disk usage.",
     "name": "spruce",
-    "rank": "1965",
+    "rank": "1994",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -24625,7 +24989,7 @@
   {
     "description": "Build data user interfaces entirely in SQL.",
     "name": "sqlpage",
-    "rank": "1966",
+    "rank": "1995",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -24636,7 +25000,7 @@
   {
     "description": "Command-line utility for SQLx, the Rust SQL toolkit.",
     "name": "sqlx-cli",
-    "rank": "1967",
+    "rank": "1996",
     "targets": [
       "riscv64-Linux"
     ],
@@ -24646,7 +25010,7 @@
   {
     "description": "A simple CLI tool to work with SquashFS files",
     "name": "squishy-cli",
-    "rank": "1968",
+    "rank": "1997",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24659,7 +25023,7 @@
   {
     "description": "Wrapper program to add multi-profile support to starship prompt.",
     "name": "starship-profiles",
-    "rank": "1969",
+    "rank": "1998",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24672,7 +25036,7 @@
   {
     "description": "A simple server monitoring tool",
     "name": "stat_client",
-    "rank": "1970",
+    "rank": "1999",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24684,7 +25048,7 @@
   {
     "description": "Stellar CLI plugin for building smart contracts with frontend support.",
     "name": "stellar-scaffold-cli",
-    "rank": "1971",
+    "rank": "2000",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24697,7 +25061,7 @@
   {
     "description": "TUI application for AWS S3 written in Rust using ratatui.",
     "name": "stu",
-    "rank": "1972",
+    "rank": "2001",
     "targets": [
       "x86_64-Linux"
     ],
@@ -24707,7 +25071,7 @@
   {
     "description": "Cli tool for bundling stylance scoped CSS files.",
     "name": "stylance-cli",
-    "rank": "1973",
+    "rank": "2002",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24719,7 +25083,7 @@
   {
     "description": "A code formatter for Lua.",
     "name": "stylua",
-    "rank": "1974",
+    "rank": "2003",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24732,7 +25096,7 @@
   {
     "description": "A small backend framework for Rust.",
     "name": "surfer",
-    "rank": "1975",
+    "rank": "2004",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24744,7 +25108,7 @@
   {
     "description": "An awesome SurrealDB migration tool, with a user-friendly CLI and a versatile Rust library that enables seamless integration into any project.",
     "name": "surrealdb-migrations",
-    "rank": "1976",
+    "rank": "2005",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24757,7 +25121,7 @@
   {
     "description": "Strip scripting and other abusable features from SVG files",
     "name": "svg-hush",
-    "rank": "1977",
+    "rank": "2006",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24770,7 +25134,7 @@
   {
     "description": "The command line interface for svg2pdf.",
     "name": "svg2pdf-cli",
-    "rank": "1978",
+    "rank": "2007",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24783,7 +25147,7 @@
   {
     "description": "pandoc filter for svgdx codeblocks in Markdown.",
     "name": "svgdx-pandoc",
-    "rank": "1979",
+    "rank": "2008",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24796,7 +25160,7 @@
   {
     "description": "A Subversion-to-Git repository converter.",
     "name": "svn2git",
-    "rank": "1980",
+    "rank": "2009",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24809,7 +25173,7 @@
   {
     "description": "Commandline for SWC.",
     "name": "swc_cli",
-    "rank": "1981",
+    "rank": "2010",
     "targets": [
       "aarch64-Linux"
     ],
@@ -24819,7 +25183,7 @@
   {
     "description": "A minimal Rust GUI system monitor built with egui.",
     "name": "syfo",
-    "rank": "1982",
+    "rank": "2011",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24832,7 +25196,7 @@
   {
     "description": "Syntax aware cat",
     "name": "syncat",
-    "rank": "1983",
+    "rank": "2012",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24845,7 +25209,7 @@
   {
     "description": "A command-line tool to display system health information including battery status, RAM usage, and system resources.",
     "name": "system_health",
-    "rank": "1984",
+    "rank": "2013",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24858,7 +25222,7 @@
   {
     "description": "A simple TUI for interacting with systemd services and their logs",
     "name": "systemctl-tui",
-    "rank": "1985",
+    "rank": "2014",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24870,7 +25234,7 @@
   {
     "description": "A log file highlighter.",
     "name": "tailspin",
-    "rank": "1986",
+    "rank": "2015",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24883,7 +25247,7 @@
   {
     "description": "Markdown-based Literate programming in Rust, integrated with Cargo.",
     "name": "tango",
-    "rank": "1987",
+    "rank": "2016",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24895,7 +25259,7 @@
   {
     "description": "Command line interface for building Tauri apps.",
     "name": "tauri-cli",
-    "rank": "1988",
+    "rank": "2017",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24908,7 +25272,7 @@
   {
     "description": "A cross-platform, fast and extensible general purpose fuzzy finder TUI.",
     "name": "television",
-    "rank": "1989",
+    "rank": "2018",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24921,7 +25285,7 @@
   {
     "description": "Document generation service for converting from tera templates and raw data to different output formats such as PDF or Markdown.",
     "name": "terdoc",
-    "rank": "1990",
+    "rank": "2019",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24934,7 +25298,7 @@
   {
     "description": "Terminal file explorer",
     "name": "tere",
-    "rank": "1991",
+    "rank": "2020",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24947,7 +25311,7 @@
   {
     "description": "A play a quick game of 1984-ish Tetris right in the terminal!.",
     "name": "tet-ris",
-    "rank": "1992",
+    "rank": "2021",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -24959,7 +25323,7 @@
   {
     "description": "LaTeX formatter written in Rust.",
     "name": "tex-fmt",
-    "rank": "1993",
+    "rank": "2022",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24972,7 +25336,7 @@
   {
     "description": "A simple autoclicker cli that works on (x11/wayland).",
     "name": "theclicker",
-    "rank": "1994",
+    "rank": "2023",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24985,7 +25349,7 @@
   {
     "description": "A terminal scratchpad akin to Heynote.",
     "name": "thoth-cli",
-    "rank": "1995",
+    "rank": "2024",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -24998,7 +25362,7 @@
   {
     "description": "Head, but for CSV files and with color.",
     "name": "tidy-viewer",
-    "rank": "1996",
+    "rank": "2025",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -25009,7 +25373,7 @@
   {
     "description": "A command-line interface for timelord, a Rust tool to preserve file timestamps (mtime) between CI builds.",
     "name": "timelord-cli",
-    "rank": "1997",
+    "rank": "2026",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25022,7 +25386,7 @@
   {
     "description": "Capitalize text according to a style defined by John Gruber for Daring Fireball.",
     "name": "titlecase",
-    "rank": "1998",
+    "rank": "2027",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25035,7 +25399,7 @@
   {
     "description": "Official tldr client written in Rust",
     "name": "tlrc",
-    "rank": "1999",
+    "rank": "2028",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25048,7 +25412,7 @@
   {
     "description": "A CLI and TUI for your todos.",
     "name": "todui",
-    "rank": "2000",
+    "rank": "2029",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25060,7 +25424,7 @@
   {
     "description": "Convert citation file formats to hayagriva YAML.",
     "name": "tohaya",
-    "rank": "2001",
+    "rank": "2030",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25073,7 +25437,7 @@
   {
     "description": "Count your code, quickly.",
     "name": "tokei",
-    "rank": "2002",
+    "rank": "2031",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25086,7 +25450,7 @@
   {
     "description": "The Tokio console: a debugger for async Rust.",
     "name": "tokio-console",
-    "rank": "2003",
+    "rank": "2032",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25099,7 +25463,7 @@
   {
     "description": "Convert TOML to JSON",
     "name": "toml2json",
-    "rank": "2004",
+    "rank": "2033",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25111,7 +25475,7 @@
   {
     "description": "A simple CLI for quering and editing TOML files.",
     "name": "tomli",
-    "rank": "2005",
+    "rank": "2034",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25124,7 +25488,7 @@
   {
     "description": "A tool for obtaining information from a TOML file on the command line.",
     "name": "tomlq",
-    "rank": "2006",
+    "rank": "2035",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25137,7 +25501,7 @@
   {
     "description": "Upgrade all the things.",
     "name": "topgrade",
-    "rank": "2007",
+    "rank": "2036",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25150,7 +25514,7 @@
   {
     "description": "trashy is a simple, fast, and featureful alternative to rm and trash-cli.",
     "name": "trashy",
-    "rank": "2008",
+    "rank": "2037",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25162,7 +25526,7 @@
   {
     "description": "A simple, fast and interactive alternative to tree.",
     "name": "tre",
-    "rank": "2009",
+    "rank": "2038",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25175,7 +25539,7 @@
   {
     "description": "Tree command, improved.",
     "name": "tre-command",
-    "rank": "2010",
+    "rank": "2039",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25187,7 +25551,7 @@
   {
     "description": "Markdown grammar for tree-sitter.",
     "name": "tree-sitter-md",
-    "rank": "2011",
+    "rank": "2040",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25200,7 +25564,7 @@
   {
     "description": "tree_gen is a CLI tool to generate folder structure in ASCII, JSON and visualize folder structure with nice and easy way without leaving your terminal.",
     "name": "tree_gen",
-    "rank": "2012",
+    "rank": "2041",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25213,7 +25577,7 @@
   {
     "description": "A fast tree command with gitignore support and flexible filtering.",
     "name": "treee",
-    "rank": "2013",
+    "rank": "2042",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25226,7 +25590,7 @@
   {
     "description": "A network diagnostic tool",
     "name": "trippy",
-    "rank": "2014",
+    "rank": "2043",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25239,7 +25603,7 @@
   {
     "description": "A rust crate used to generate multi-language apis for your application.",
     "name": "trixy",
-    "rank": "2015",
+    "rank": "2044",
     "targets": [
       "loongarch64-Linux",
       "x86_64-Linux"
@@ -25250,7 +25614,7 @@
   {
     "description": "2D Turing machine (turmite) simulator for the terminal.",
     "name": "trmt",
-    "rank": "2016",
+    "rank": "2045",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25263,7 +25627,7 @@
   {
     "description": "TTDL - Terminal ToDo List manager.",
     "name": "ttdl",
-    "rank": "2017",
+    "rank": "2046",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25276,7 +25640,7 @@
   {
     "description": "Library + CLI utility to measure the TTFB (time to first byte) of HTTP(S) requests. This includes data of intermediate steps, such as the relative and absolute timings of DNS lookup, TCP connect, and TLS handshake.",
     "name": "ttfb",
-    "rank": "2018",
+    "rank": "2047",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25289,7 +25653,7 @@
   {
     "description": "When cut doesnt cut it.",
     "name": "tuc",
-    "rank": "2019",
+    "rank": "2048",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25302,7 +25666,7 @@
   {
     "description": "Super powered GNU Stow replacement.",
     "name": "tuckr",
-    "rank": "2020",
+    "rank": "2049",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25315,7 +25679,7 @@
   {
     "description": "The app provides an interactive typing experience with switchable templates, designed to help users improve their typing speed and accuracy.",
     "name": "tukai",
-    "rank": "2021",
+    "rank": "2050",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25328,7 +25692,7 @@
   {
     "description": "Twiggy is a code size profiler.",
     "name": "twiggy",
-    "rank": "2022",
+    "rank": "2051",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -25339,7 +25703,7 @@
   {
     "description": "Command Line Tool for generating language files with typeshare.",
     "name": "typeshare-cli",
-    "rank": "2023",
+    "rank": "2052",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25352,7 +25716,7 @@
   {
     "description": "Source Code Spelling Correction.",
     "name": "typos-cli",
-    "rank": "2024",
+    "rank": "2053",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25365,7 +25729,7 @@
   {
     "description": "An LSP for Typst.",
     "name": "typst-lsp",
-    "rank": "2025",
+    "rank": "2054",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25378,7 +25742,7 @@
   {
     "description": "The CLI for Typstyle.",
     "name": "typstyle",
-    "rank": "2026",
+    "rank": "2055",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25391,7 +25755,7 @@
   {
     "description": "The Universal Binary Installer CLI tool.",
     "name": "ubi-cli",
-    "rank": "2027",
+    "rank": "2056",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25404,7 +25768,7 @@
   {
     "description": "This is a terminal UI for learning for the UKW-Sprechfunkzeugnis für den Binnenschiffahrtsfunk.",
     "name": "ubilerntui",
-    "rank": "2028",
+    "rank": "2057",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25417,7 +25781,7 @@
   {
     "description": "A cli tool to remove comments from code. Supports multiple languages.",
     "name": "uncomment",
-    "rank": "2029",
+    "rank": "2058",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25430,7 +25794,7 @@
   {
     "description": "UNixize Filename -- replace annoying anti-unix characters in filenames",
     "name": "unf",
-    "rank": "2030",
+    "rank": "2059",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -25441,7 +25805,7 @@
   {
     "description": "uniq(1) alternative with streaming support",
     "name": "uniqs",
-    "rank": "2031",
+    "rank": "2060",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25454,7 +25818,7 @@
   {
     "description": "CLI for working with usage-based CLIs.",
     "name": "usage-cli",
-    "rank": "2032",
+    "rank": "2061",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25467,7 +25831,7 @@
   {
     "description": "A tool to debug unique identifiers (UUID, ULID, Snowflake, etc).",
     "name": "uuinfo",
-    "rank": "2033",
+    "rank": "2062",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25480,7 +25844,7 @@
   {
     "description": "Tool for converting various python package soltutions to use the uv solution by astral.",
     "name": "uv-migrator",
-    "rank": "2034",
+    "rank": "2063",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25493,7 +25857,7 @@
   {
     "description": "simple language server to colorize hex color strings via textDocument/documentColor.",
     "name": "uwu_colors",
-    "rank": "2035",
+    "rank": "2064",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25506,7 +25870,7 @@
   {
     "description": "Veryl version manager.",
     "name": "verylup",
-    "rank": "2036",
+    "rank": "2065",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25519,7 +25883,7 @@
   {
     "description": "Visualize lsof output.",
     "name": "vew",
-    "rank": "2037",
+    "rank": "2066",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25532,7 +25896,7 @@
   {
     "description": "A tool to convert CycloneDX(VEX) JSON or XML documents to PDF reports.",
     "name": "vex2pdf",
-    "rank": "2038",
+    "rank": "2067",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25545,7 +25909,7 @@
   {
     "description": "Viceroy is a local testing daemon for Fastly Compute.",
     "name": "viceroy",
-    "rank": "2039",
+    "rank": "2068",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25557,7 +25921,7 @@
   {
     "description": "A modern watch command.",
     "name": "viddy",
-    "rank": "2040",
+    "rank": "2069",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25570,7 +25934,7 @@
   {
     "description": "A fast and efficient Rust-based CLI tool to view disk space usage and delete unwanted files or directories.",
     "name": "view-disk",
-    "rank": "2041",
+    "rank": "2070",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25583,7 +25947,7 @@
   {
     "description": "volo-cli is the command line interface for volo, which provides the ability to generate default project layout and manage the idls used.",
     "name": "volo-cli",
-    "rank": "2042",
+    "rank": "2071",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25596,7 +25960,7 @@
   {
     "description": "🚀 VolScan: High-speed, multi-threaded disk scanner providing detailed directory summaries with JSON/CSV output support.",
     "name": "volscan",
-    "rank": "2043",
+    "rank": "2072",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25608,7 +25972,7 @@
   {
     "description": "Launch applications via VPN tunnels using temporary network namespaces",
     "name": "vopono",
-    "rank": "2044",
+    "rank": "2073",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25621,7 +25985,7 @@
   {
     "description": "Generates vscode workspace files from a template.",
     "name": "vscode-workspace-gen",
-    "rank": "2045",
+    "rank": "2074",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25634,7 +25998,7 @@
   {
     "description": "A tool for encoding and decoding WebAssembly compositions.",
     "name": "wac-cli",
-    "rank": "2046",
+    "rank": "2075",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25646,7 +26010,7 @@
   {
     "description": "Store a web site in a package.",
     "name": "waj",
-    "rank": "2047",
+    "rank": "2076",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25659,7 +26023,7 @@
   {
     "description": "a blazingly fast and feature-rich tool extract color palettes from images.",
     "name": "wallrust",
-    "rank": "2048",
+    "rank": "2077",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25672,7 +26036,7 @@
   {
     "description": "Generate a 16 color scheme based on an image.",
     "name": "wallust",
-    "rank": "2049",
+    "rank": "2078",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25685,7 +26049,7 @@
   {
     "description": "wasmCloud Shell (wash) - CLI tool and library for wasmCloud development.",
     "name": "wash",
-    "rank": "2050",
+    "rank": "2079",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25697,7 +26061,7 @@
   {
     "description": "Command line interface of the #[wasm_bindgen] attribute and project.",
     "name": "wasm-bindgen-cli",
-    "rank": "2051",
+    "rank": "2080",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25710,7 +26074,7 @@
   {
     "description": "wasm-opt bindings.",
     "name": "wasm-opt",
-    "rank": "2052",
+    "rank": "2081",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25722,7 +26086,7 @@
   {
     "description": "📦✨ your favorite rust -> wasm workflow tool!.",
     "name": "wasm-pack",
-    "rank": "2053",
+    "rank": "2082",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25735,7 +26099,7 @@
   {
     "description": "cargo run for wasm programs.",
     "name": "wasm-server-runner",
-    "rank": "2054",
+    "rank": "2083",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -25746,7 +26110,7 @@
   {
     "description": "CLI tools for interoperating with WebAssembly files.",
     "name": "wasm-tools",
-    "rank": "2055",
+    "rank": "2084",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25759,7 +26123,7 @@
   {
     "description": "Command-line interface for Wasmtime.",
     "name": "wasmtime-cli",
-    "rank": "2056",
+    "rank": "2085",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25771,7 +26135,7 @@
   {
     "description": "Binary to answer the question, Is this Wayland interface available?.",
     "name": "wayland-interface-check",
-    "rank": "2057",
+    "rank": "2086",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25784,7 +26148,7 @@
   {
     "description": "A CLI tool to convert web pages to PDFs.",
     "name": "web2pdf",
-    "rank": "2058",
+    "rank": "2087",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25797,7 +26161,7 @@
   {
     "description": "CLI that enables easy use of webidl2wit (converting WebIDL to WebAssembly Interface Types).",
     "name": "webidl2wit-cli",
-    "rank": "2059",
+    "rank": "2088",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25810,7 +26174,7 @@
   {
     "description": "WebSnap is a command-line tool for capturing screenshots of websites.",
     "name": "websnap",
-    "rank": "2060",
+    "rank": "2089",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25823,7 +26187,7 @@
   {
     "description": "Command-line client for web sockets, like netcat/curl/socat for ws://.",
     "name": "websocat",
-    "rank": "2061",
+    "rank": "2090",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25836,7 +26200,7 @@
   {
     "description": "A tool to detect country of your public IP.",
     "name": "whereamifrom",
-    "rank": "2062",
+    "rank": "2091",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25849,7 +26213,7 @@
   {
     "description": "locate the binary for a command.",
     "name": "whereis",
-    "rank": "2063",
+    "rank": "2092",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25861,7 +26225,7 @@
   {
     "description": "A small network diagnostic tool that listens for incoming TCP/UDP connections and simply replies by telling them their IP and port.",
     "name": "whereyoufrom",
-    "rank": "2064",
+    "rank": "2093",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25873,7 +26237,7 @@
   {
     "description": "which key helps you remember your keymaps without leaving the terminal.",
     "name": "which-key",
-    "rank": "2065",
+    "rank": "2094",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25886,7 +26250,7 @@
   {
     "description": "Print which signal caused a program to exit with the given status code.",
     "name": "which-sig",
-    "rank": "2066",
+    "rank": "2095",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25898,7 +26262,7 @@
   {
     "description": "A Rust equivalent of Unix command which.",
     "name": "which_cli",
-    "rank": "2067",
+    "rank": "2096",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25911,7 +26275,7 @@
   {
     "description": "A blazingly fast and lightweight language detection library for Rust.",
     "name": "whichlang",
-    "rank": "2068",
+    "rank": "2097",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25924,7 +26288,7 @@
   {
     "description": "CLI tool to generate bindings for WIT documents and the component model.",
     "name": "wit-bindgen-cli",
-    "rank": "2069",
+    "rank": "2098",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25937,7 +26301,7 @@
   {
     "description": "Run a command in another directory.",
     "name": "withd",
-    "rank": "2070",
+    "rank": "2099",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25950,7 +26314,7 @@
   {
     "description": "The WebAssembly Pre-Initializer.",
     "name": "wizer",
-    "rank": "2071",
+    "rank": "2100",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -25962,7 +26326,7 @@
   {
     "description": "Work-break balancer for Windows / MacOS / Linux desktops.",
     "name": "work-break",
-    "rank": "2072",
+    "rank": "2101",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25975,7 +26339,7 @@
   {
     "description": "A CLI to run test-driven Rust workshops.",
     "name": "workshop-runner",
-    "rank": "2073",
+    "rank": "2102",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -25988,7 +26352,7 @@
   {
     "description": "platform independent workspace picker for the terminal.",
     "name": "wspick",
-    "rank": "2074",
+    "rank": "2103",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -26001,7 +26365,7 @@
   {
     "description": "The CSV magician",
     "name": "xan",
-    "rank": "2075",
+    "rank": "2104",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -26014,7 +26378,7 @@
   {
     "description": "A hackable, minimal, fast TUI file explorer",
     "name": "xplr",
-    "rank": "2076",
+    "rank": "2105",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -26025,7 +26389,7 @@
   {
     "description": "A Docker (or any OCI-compliant) image layer inspector.",
     "name": "xray-tui",
-    "rank": "2077",
+    "rank": "2106",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -26038,7 +26402,7 @@
   {
     "description": "Command line application for managing and searching tags stored in filesystem extended attributes.",
     "name": "xtagger",
-    "rank": "2078",
+    "rank": "2107",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -26051,7 +26415,7 @@
   {
     "description": "A register interface generator.",
     "name": "yarig",
-    "rank": "2079",
+    "rank": "2108",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -26064,7 +26428,7 @@
   {
     "description": "Literate programming tool for Markdown.",
     "name": "yarner",
-    "rank": "2080",
+    "rank": "2109",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -26076,7 +26440,7 @@
   {
     "description": "Yet Another Unix Injector with support for Android/Android Emulator i686/x64/arm/aarch64",
     "name": "yaui",
-    "rank": "2081",
+    "rank": "2110",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -26087,7 +26451,7 @@
   {
     "description": "Yazi command-line interface.",
     "name": "yazi-cli",
-    "rank": "2082",
+    "rank": "2111",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -26100,7 +26464,7 @@
   {
     "description": "Yazi File Manager.",
     "name": "yazi-fm",
-    "rank": "2083",
+    "rank": "2112",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -26113,7 +26477,7 @@
   {
     "description": "rust cli for formating yaml v1.",
     "name": "ymlfxr",
-    "rank": "2084",
+    "rank": "2113",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -26125,7 +26489,7 @@
   {
     "description": "Analyze, Fix and Format features in your Rust workspace.",
     "name": "zepter",
-    "rank": "2085",
+    "rank": "2114",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -26138,7 +26502,7 @@
   {
     "description": "A zellij session manager with zoxide integration, inspired by tmux sesh.",
     "name": "zesh",
-    "rank": "2086",
+    "rank": "2115",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -26151,7 +26515,7 @@
   {
     "description": "Sign and verify .",
     "name": "zipsign",
-    "rank": "2087",
+    "rank": "2116",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -26164,7 +26528,7 @@
   {
     "description": "Static analysis for GitHub Actions.",
     "name": "zizmor",
-    "rank": "2088",
+    "rank": "2117",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -26177,7 +26541,7 @@
   {
     "description": "a CLI year progress.",
     "name": "zman",
-    "rank": "2089",
+    "rank": "2118",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -26190,7 +26554,7 @@
   {
     "description": "A smarter cd command for your terminal.",
     "name": "zoxide",
-    "rank": "2090",
+    "rank": "2119",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -26203,7 +26567,7 @@
   {
     "description": "Copy the contents of the source file or the standard output buffer to the clipboard, with support for maintaining a history of copied content, allowing users to easily paste into another file or program.",
     "name": "zp",
-    "rank": "2091",
+    "rank": "2120",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
