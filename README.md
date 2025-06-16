@@ -42,16 +42,17 @@ The [build script](https://github.com/pkgforge-cargo/builder/blob/main/scripts/b
 All of which are downloadable & installable with soar by adding `pkgforge-cargo` as an [external repo](https://docs.pkgforge.dev/repositories/external/pkgforge-cargo).
 
 ## 🏗️ Build Constraints
-- [command-line-utilities](https://crates.io/categories/command-line-utilities): `categories = ["command-line-utilities"]`
-- [Statically Linked](https://rust-lang.github.io/rfcs/1721-crt-static.html): `-C target-feature=+crt-static`
-- [Self Contained](https://doc.rust-lang.org/beta/nightly-rustc/rustc_session/config/struct.LinkSelfContained.html): `-C link-self-contained=yes`
-- [Nightly Toolchain](https://doc.rust-lang.org/cargo/reference/unstable.html): `+nightly`
-- [All Features](https://doc.rust-lang.org/cargo/reference/features.html): `--all-features`
-- [LTO](https://doc.rust-lang.org/cargo/reference/profiles.html#lto): `-C lto=yes`
-- [All Optimizations](https://doc.rust-lang.org/cargo/reference/profiles.html#opt-level): `-C opt-level=3`
-- [Stripped](https://doc.rust-lang.org/cargo/reference/profiles.html#strip): `-C debuginfo=none -C strip=symbols`
-- Updated: Crates older than last year i.e `date -d 'last year' '+%Y-01-01'` are dropped.
-- Little/No Dependency on system libraries: Crates depending on system libraries will simply fail.
+- [X] Must be published on [`crates.io`](https://crates.io/)
+- [X] [command-line-utilities](https://crates.io/categories/command-line-utilities): `categories = ["command-line-utilities"]`
+- [X] [Statically Linked](https://rust-lang.github.io/rfcs/1721-crt-static.html): `-C target-feature=+crt-static`
+- [X] [Self Contained](https://doc.rust-lang.org/beta/nightly-rustc/rustc_session/config/struct.LinkSelfContained.html): `-C link-self-contained=yes`
+- [X] [Nightly Toolchain](https://doc.rust-lang.org/cargo/reference/unstable.html): `+nightly`
+- [X] [All Features](https://doc.rust-lang.org/cargo/reference/features.html): `--all-features`
+- [X] [LTO](https://doc.rust-lang.org/cargo/reference/profiles.html#lto): `-C lto=yes`
+- [X] [All Optimizations](https://doc.rust-lang.org/cargo/reference/profiles.html#opt-level): `-C opt-level=3`
+- [X] [Stripped](https://doc.rust-lang.org/cargo/reference/profiles.html#strip): `-C debuginfo=none -C strip=symbols`
+- [X] Updated: Crates older than last year i.e `date -d 'last year' '+%Y-01-01'` are dropped.
+- [X] Little/No Dependency on system libraries: Crates depending on system libraries will simply fail.
 
 ```bash
 [+] Flags: -C target-feature=+crt-static \
@@ -87,17 +88,18 @@ All of which are downloadable & installable with soar by adding `pkgforge-cargo`
 
 | Source 🗃️ | Total Packages 📦 |
 |------------|-------------------|
-| 🦀 [**Crates (`Total`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/CRATES_DUMP.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[0].total&label=&color=crimson&style=flat)](#) |
+| 🦀 [**Crates (`Total Scraped`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/CRATES_DUMP.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[0].total&label=&color=crimson&style=flat)](#) |
 | 🦀 [**Crates (`Bin Only`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/CRATES_BIN_ONLY.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[1].total&label=&color=orange&style=flat)](#) |
-| 🦀 [**Crates (`Processed`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/CRATES_PROCESSED.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[2].total&label=&color=purple&style=flat)](#) |
-| 🦀 [**Crates (`Built`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/CRATES_BUILT.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[3].total&label=&color=blue&style=flat)](#) |
-| 🦀 [**Crates (`Queued`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/QUEUE_LIST.txt) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[4].total&label=&color=coral&style=flat)](#) |
-| 🦀 [**Packages (`aarch64-Linux`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/aarch64-Linux.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[5].total&label=&color=green&style=flat)](#) |
-| 🦀 [**Packages (`loongarch64-Linux`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/loongarch64-Linux.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[6].total&label=&color=green&style=flat)](#) |
-| 🦀 [**Packages (`riscv64-Linux`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/riscv64-Linux.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[7].total&label=&color=green&style=flat)](#) |
-| 🦀 [**Packages (`x86_64-Linux`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/x86_64-Linux.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[8].total&label=&color=green&style=flat)](#) |
-| 🦀 [**Packages (`Total Queued`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/QUEUE_LIST.txt) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[9].total&label=&color=olive&style=flat)](#) <sup>**`%`**</sup> |
-| 🦀 [**Packages (`Total Built`)**](https://github.com/orgs/pkgforge-cargo/packages?repo_name=builder) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[10].total&label=&color=teal&style=flat)](#) |
+| 🦀 [**Crates (`Cmdline Only`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/CRATES_CMDLINE_ONLY.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[2].total&label=&color=orange&style=flat)](#) |
+| 🦀 [**Crates (`Processed`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/CRATES_PROCESSED.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[3].total&label=&color=purple&style=flat)](#) |
+| 🦀 [**Crates (`Built`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/CRATES_BUILT.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[4].total&label=&color=blue&style=flat)](#) |
+| 🦀 [**Crates (`Queued`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/QUEUE_LIST.txt) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[5].total&label=&color=coral&style=flat)](#) |
+| 🦀 [**Packages (`aarch64-Linux`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/aarch64-Linux.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[6].total&label=&color=green&style=flat)](#) |
+| 🦀 [**Packages (`loongarch64-Linux`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/loongarch64-Linux.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[7].total&label=&color=green&style=flat)](#) |
+| 🦀 [**Packages (`riscv64-Linux`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/riscv64-Linux.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[8].total&label=&color=green&style=flat)](#) |
+| 🦀 [**Packages (`x86_64-Linux`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/x86_64-Linux.json) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[9].total&label=&color=green&style=flat)](#) |
+| 🦀 [**Packages (`Success Rate`)**](https://github.com/pkgforge-cargo/builder/blob/main/data/QUEUE_LIST.txt) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[10].total&label=&color=olive&style=flat)](#) <sup>**`%`**</sup> |
+| 🦀 [**Packages (`Total Built`)**](https://github.com/orgs/pkgforge-cargo/packages?repo_name=builder) | [![Packages](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge-cargo/builder/refs/heads/main/data/COUNT.json&query=$[11].total&label=&color=teal&style=flat)](#) |
 
 ## 🔒 Security
 - Crates are downloaded from [`crates.io`](https://crates.io/policies/security)
