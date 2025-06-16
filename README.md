@@ -42,6 +42,7 @@ The [build script](https://github.com/pkgforge-cargo/builder/blob/main/scripts/b
 All of which are downloadable & installable with soar by adding `pkgforge-cargo` as an [external repo](https://docs.pkgforge.dev/repositories/external/pkgforge-cargo).
 
 ## 🏗️ Build Constraints
+- [command-line-utilities](https://crates.io/categories/command-line-utilities): `categories = ["command-line-utilities"]`
 - [Statically Linked](https://rust-lang.github.io/rfcs/1721-crt-static.html): `-C target-feature=+crt-static`
 - [Self Contained](https://doc.rust-lang.org/beta/nightly-rustc/rustc_session/config/struct.LinkSelfContained.html): `-C link-self-contained=yes`
 - [Nightly Toolchain](https://doc.rust-lang.org/cargo/reference/unstable.html): `+nightly`
@@ -49,7 +50,9 @@ All of which are downloadable & installable with soar by adding `pkgforge-cargo`
 - [LTO](https://doc.rust-lang.org/cargo/reference/profiles.html#lto): `-C lto=yes`
 - [All Optimizations](https://doc.rust-lang.org/cargo/reference/profiles.html#opt-level): `-C opt-level=3`
 - [Stripped](https://doc.rust-lang.org/cargo/reference/profiles.html#strip): `-C debuginfo=none -C strip=symbols`
+- Updated: Crates older than last year i.e `date -d 'last year' '+%Y-01-01'` are dropped.
 - Little/No Dependency on system libraries: Crates depending on system libraries will simply fail.
+
 ```bash
 [+] Flags: -C target-feature=+crt-static \
            -C default-linker-libraries=yes \
