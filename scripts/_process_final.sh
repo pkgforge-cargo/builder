@@ -99,7 +99,7 @@ pushd "$(mktemp -d)" &>/dev/null
 #Process
  echo -e "\n[+] Processing Crates [$TOTAL_CRATES] ...\n"
  find "${TEMP_DIR}" -type f -exec rm -rf "{}" \;
- cat "${WORK_DIR}/crates_to_process.txt" | xargs -P "${PARALLEL_LIMIT:-$(($(nproc)+1))}" -I {} bash -c 'process_crate_binary "{}"'
+ cat "${WORK_DIR}/crates_to_process.txt" | xargs -P "${PARALLEL_LIMIT:-$(($(nproc)+1))}" -I "{}" timeout -k 10s 300s bash -c 'process_crate_binary "{}"'
 #Merge
  echo -e "\n[+] Merging JSON ...\n"
  find "${TEMP_DIR}" -type f -size -3c -delete

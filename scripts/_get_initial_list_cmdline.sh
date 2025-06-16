@@ -157,7 +157,7 @@ echo -e "[+] Using OUT dir: ${OUT_DIR}\n"
  }
  export -f process_crate
  #too many will ratelimit us
- jq -r '.[] | .name' "${OUT_DIR}/RAW.json" | xargs -P "${PARALLEL_LIMIT:-$(($(nproc)+1))}" -I {} bash -c 'process_crate "{}"'
+ jq -r '.[] | .name' "${OUT_DIR}/RAW.json" | xargs -P "${PARALLEL_LIMIT:-$(($(nproc)+1))}" -I "{}" timeout -k 10s 300s bash -c 'process_crate "{}"'
 #Merge Again
  find "${OUT_DIR}/TEMP" -type f -size -3c -delete
  find "${OUT_DIR}/TEMP" -type f -iname "*.json" -exec cat "{}" + > "${OUT_DIR}/RAW.json.tmp"
