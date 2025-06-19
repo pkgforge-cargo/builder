@@ -1,6 +1,72 @@
 [
   {
     "_disabled": "false",
+    "bsum": "3aea7a7b6c677e1df30353d4e5f18d770f63e588774c909b711092806223ca88",
+    "build_date": "2025-06-19T07:27:11Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751319626",
+    "build_id": "15751319626",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/threecpio/stable/3cpio?tag=0.5.1-loongarch64-Linux&download=3cpio.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "manage initrd cpio archives.",
+    "desktop_integration": "false",
+    "download_count": "1727",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/threecpio/stable/3cpio?tag=0.5.1-loongarch64-Linux&download=3cpio",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/threecpio/stable/3cpio:0.5.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/threecpio/stable/3cpio",
+    "homepage": [
+      "https://github.com/bdrung/3cpio"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "ISC"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/threecpio/stable/3cpio?tag=0.5.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "3cpio",
+    "pkg_family": "threecpio",
+    "pkg_id": "pkgforge-cargo.threecpio.stable",
+    "pkg_name": "3cpio",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/threecpio",
+    "portable": "true",
+    "provides": [
+      "3cpio"
+    ],
+    "rank": "3414",
+    "recurse_provides": "false",
+    "shasum": "4ac8f733694180956c444978e849bfdcceaab2c87be6526a226e16a127e89438",
+    "size": "612 KB",
+    "size_raw": "626464",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/threecpio/0.5.1/download"
+    ],
+    "tag": [
+      "archive",
+      "cpio",
+      "initrd"
+    ],
+    "trusted": "true",
+    "version": "0.5.1",
+    "version_upstream": "0.5.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "7ce30b1e890d74e520ea62a1e2c97f35e3e8d0c8ba0201e654a865194cc15c6d",
     "build_date": "2025-06-15T02:46:45Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15658621121",
@@ -2519,7 +2585,7 @@
     "provides": [
       "TR_PDF_rename"
     ],
-    "rank": "3418",
+    "rank": "3477",
     "recurse_provides": "false",
     "shasum": "848580582c38acfd55abda49ecb6b0466929fc1c84b444ae543b51ab791abfe2",
     "size": "1.9 MB",
@@ -2585,7 +2651,7 @@
     "provides": [
       "UnifyAll"
     ],
-    "rank": "3438",
+    "rank": "3497",
     "recurse_provides": "false",
     "shasum": "162935a568bb298b166185f46ce6252c9d05ecabb9220fb4a78fc860b696d1cf",
     "size": "516 KB",
@@ -22614,7 +22680,7 @@
       "assess",
       "create_train_dataset"
     ],
-    "rank": "3470",
+    "rank": "3529",
     "recurse_provides": "false",
     "shasum": "245ccf02ba53c70eaf759063f1c6a38f25d361e1a252b1059342ed681498ecd5",
     "size": "708 KB",
@@ -25128,7 +25194,7 @@
       "auto_serve",
       "waj"
     ],
-    "rank": "3452",
+    "rank": "3511",
     "recurse_provides": "false",
     "shasum": "c7e8758cb27fba79d0470f6d30155587789083ef1ac46624ad67a094bb9dcf68",
     "size": "1.4 MB",
@@ -33066,7 +33132,7 @@
     "provides": [
       "benchmark"
     ],
-    "rank": "3420",
+    "rank": "3479",
     "recurse_provides": "false",
     "shasum": "c5248dd9dc865395a41fd4e090663a7d6c189c65bd1226ac5f4bef20c0d62df1",
     "size": "1.3 MB",
@@ -73656,7 +73722,7 @@
       "completions",
       "withd"
     ],
-    "rank": "3473",
+    "rank": "3532",
     "recurse_provides": "false",
     "shasum": "0fb02340778b88be1a41bdaf1d3907ad5631ae9207e501d40776cd63da85a969",
     "size": "740 KB",
@@ -76010,7 +76076,7 @@
       "assess",
       "create_train_dataset"
     ],
-    "rank": "3471",
+    "rank": "3530",
     "recurse_provides": "false",
     "shasum": "4105aaa4b984fb7662c8b4d30b932bb0fa18279f524656e1e352a15130bde1c3",
     "size": "436 KB",
@@ -124160,7 +124226,7 @@
     "provides": [
       "index"
     ],
-    "rank": "3463",
+    "rank": "3522",
     "recurse_provides": "false",
     "shasum": "61dc33011b93f4fb762ab9b98098ab9ae96d140ef206e9b845c8c6acf8a3e0c8",
     "size": "452 KB",
@@ -139598,6 +139664,74 @@
     "trusted": "true",
     "version": "0.2.0",
     "version_upstream": "0.2.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "f5af628befda9b4847f916a37a432c54ad1d76c583016e6fe4de40ef16b1e9a7",
+    "build_date": "2025-06-19T08:13:39Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752145197",
+    "build_id": "15752145197",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tolove-ru/stable/love?tag=1.1.0-loongarch64-Linux&download=love.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A lovely terminal heart animation.",
+    "desktop_integration": "false",
+    "download_count": "972",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tolove-ru/stable/love?tag=1.1.0-loongarch64-Linux&download=love",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tolove-ru/stable/love:1.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tolove-ru/stable/love",
+    "homepage": [
+      "https://github.com/hidari/tolove-ru"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tolove-ru/stable/love?tag=1.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "love",
+    "pkg_family": "tolove-ru",
+    "pkg_id": "pkgforge-cargo.tolove-ru.stable",
+    "pkg_name": "love",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tolove-ru",
+    "portable": "true",
+    "provides": [
+      "love"
+    ],
+    "rank": "3464",
+    "recurse_provides": "false",
+    "shasum": "ec342494bf50b4d32961afc5b06ceb3e4ea463693d248b42b6bd454548788bb5",
+    "size": "932 KB",
+    "size_raw": "954240",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tolove-ru/1.1.0/download"
+    ],
+    "tag": [
+      "animation",
+      "ascii-art",
+      "fun",
+      "heart",
+      "terminal"
+    ],
+    "trusted": "true",
+    "version": "1.1.0",
+    "version_upstream": "1.1.0"
   },
   {
     "_disabled": "false",
@@ -224444,6 +224578,73 @@
   },
   {
     "_disabled": "false",
+    "bsum": "4b9bd87fc2faabc57db64720760bd76867bc4e4ae8fa2a5012f5642dabcf4b7a",
+    "build_date": "2025-06-19T07:21:34Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751284640",
+    "build_id": "15751284640",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/theattyr/stable/theattyr?tag=0.1.10-loongarch64-Linux&download=theattyr.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A terminal theater for playing VT100 art and animations.",
+    "desktop_integration": "false",
+    "download_count": "1808",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/theattyr/stable/theattyr?tag=0.1.10-loongarch64-Linux&download=theattyr",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/theattyr/stable/theattyr:0.1.10-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/theattyr/stable/theattyr",
+    "homepage": [
+      "https://github.com/orhun/theattyr"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/theattyr/stable/theattyr?tag=0.1.10-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "theattyr",
+    "pkg_family": "theattyr",
+    "pkg_id": "pkgforge-cargo.theattyr.stable",
+    "pkg_name": "theattyr",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/theattyr",
+    "portable": "true",
+    "provides": [
+      "theattyr"
+    ],
+    "rank": "3406",
+    "recurse_provides": "false",
+    "shasum": "7e8b00531d4cbcd12f9b3a5c923916dc8cc7018fb7711fec8233cffd8db22ac9",
+    "size": "2.3 MB",
+    "size_raw": "2314296",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/theattyr/0.1.10/download"
+    ],
+    "tag": [
+      "animation",
+      "rendering",
+      "terminal",
+      "vt100"
+    ],
+    "trusted": "true",
+    "version": "0.1.10",
+    "version_upstream": "0.1.10"
+  },
+  {
+    "_disabled": "false",
     "bsum": "86196808c5a5b53b4ed92daf0e8ec6f5dbcf5df06fff1e9e63737925e961eb81",
     "build_date": "2025-06-15T01:42:41Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15657630678",
@@ -224489,7 +224690,7 @@
     "provides": [
       "theclicker"
     ],
-    "rank": "3406",
+    "rank": "3407",
     "recurse_provides": "false",
     "shasum": "077386a02353d4e20bcdcdb3b08391fecf574de136bb608600dfeef4968a1c96",
     "size": "996 KB",
@@ -224579,6 +224780,210 @@
   },
   {
     "_disabled": "false",
+    "bsum": "8a5ae17a62ff34bf2932fcd2321f04a0f8f7076460a08ae8a68b8954e9d8127b",
+    "build_date": "2025-06-19T07:23:31Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751293529",
+    "build_id": "15751293529",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thermalnote/stable/thermalnote?tag=1.1.1-loongarch64-Linux&download=thermalnote.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple utility to print notes using thermal printers.",
+    "desktop_integration": "false",
+    "download_count": "922",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thermalnote/stable/thermalnote?tag=1.1.1-loongarch64-Linux&download=thermalnote",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/thermalnote/stable/thermalnote:1.1.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/thermalnote/stable/thermalnote",
+    "homepage": [
+      "https://github.com/sysrqmagician/thermalnote"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thermalnote/stable/thermalnote?tag=1.1.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "thermalnote",
+    "pkg_family": "thermalnote",
+    "pkg_id": "pkgforge-cargo.thermalnote.stable",
+    "pkg_name": "thermalnote",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/thermalnote",
+    "portable": "true",
+    "provides": [
+      "thermalnote"
+    ],
+    "rank": "3408",
+    "recurse_provides": "false",
+    "shasum": "df44b564c915d2c5a56042172bca9d2fd4d9be8f3829447846ae6276c6fa46af",
+    "size": "870 KB",
+    "size_raw": "890360",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/thermalnote/1.1.1/download"
+    ],
+    "tag": [
+      "cli",
+      "notes",
+      "printer",
+      "thermal",
+      "utility"
+    ],
+    "trusted": "true",
+    "version": "1.1.1",
+    "version_upstream": "1.1.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "d82b4d79a2fc85d1f786010a8809e04dcde7a641cfa63e6a4cf99faaadf5cfbb",
+    "build_date": "2025-06-19T07:24:22Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751295902",
+    "build_id": "15751295902",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thinkfan-tui/stable/thinkfan-tui?tag=0.2.0-loongarch64-Linux&download=thinkfan-tui.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A terminal-based Linux application for fan control and temperature monitoring on ThinkPad laptops.",
+    "desktop_integration": "false",
+    "download_count": "504",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thinkfan-tui/stable/thinkfan-tui?tag=0.2.0-loongarch64-Linux&download=thinkfan-tui",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/thinkfan-tui/stable/thinkfan-tui:0.2.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/thinkfan-tui/stable/thinkfan-tui",
+    "homepage": [
+      "https://github.com/karjonas/thinkfan-tui"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thinkfan-tui/stable/thinkfan-tui?tag=0.2.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "thinkfan-tui",
+    "pkg_family": "thinkfan-tui",
+    "pkg_id": "pkgforge-cargo.thinkfan-tui.stable",
+    "pkg_name": "thinkfan-tui",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/thinkfan-tui",
+    "portable": "true",
+    "provides": [
+      "thinkfan-tui"
+    ],
+    "rank": "3409",
+    "recurse_provides": "false",
+    "shasum": "1693c94919b28566abefe410868be09dde52fbd132402857a74e546345af027d",
+    "size": "885 KB",
+    "size_raw": "905232",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/thinkfan-tui/0.2.0/download"
+    ],
+    "tag": [
+      "commandline",
+      "fan",
+      "terminal",
+      "thinkpad",
+      "tui"
+    ],
+    "trusted": "true",
+    "version": "0.2.0",
+    "version_upstream": "0.2.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "466b88b86295b61418ac96ef12454206330abcbeb161c6cc57ccfbdd04e9f942",
+    "build_date": "2025-06-19T07:26:08Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751297873",
+    "build_id": "15751297873",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thorin-dwp-bin/stable/thorin?tag=0.9.0-loongarch64-Linux&download=thorin.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Merge DWARF objects and packages into DWARF packages.",
+    "desktop_integration": "false",
+    "download_count": "1762",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thorin-dwp-bin/stable/thorin?tag=0.9.0-loongarch64-Linux&download=thorin",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/thorin-dwp-bin/stable/thorin:0.9.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/thorin-dwp-bin/stable/thorin",
+    "homepage": [
+      "https://github.com/rust-lang/thorin"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thorin-dwp-bin/stable/thorin?tag=0.9.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "thorin",
+    "pkg_family": "thorin-dwp-bin",
+    "pkg_id": "pkgforge-cargo.thorin-dwp-bin.stable",
+    "pkg_name": "thorin",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/thorin-dwp-bin",
+    "portable": "true",
+    "provides": [
+      "thorin"
+    ],
+    "rank": "3410",
+    "recurse_provides": "false",
+    "shasum": "d7d7ffeec3259f702803d9268120c8d9d5a43e19d8de5d03d1e8376459c4772e",
+    "size": "2.7 MB",
+    "size_raw": "2824776",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/thorin-dwp-bin/0.9.0/download"
+    ],
+    "tag": [
+      "dwarf",
+      "dwarf-object",
+      "dwarf-package",
+      "dwp",
+      "split-dwarf"
+    ],
+    "trusted": "true",
+    "version": "0.9.0",
+    "version_upstream": "0.9.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "03dd8a708c8c3cdbf5ed0560ad46d7048af4a3a7ab702ea1bbe1e371fd2ecd68",
     "build_date": "2025-06-14T21:23:05Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15655813441",
@@ -224624,7 +225029,7 @@
     "provides": [
       "thoth"
     ],
-    "rank": "3407",
+    "rank": "3411",
     "recurse_provides": "false",
     "shasum": "fa489739c645903a387ce10369f4336208c31ba233cf2775c536c68a13b86f29",
     "size": "3.5 MB",
@@ -224642,6 +225047,140 @@
     "trusted": "true",
     "version": "0.1.84",
     "version_upstream": "0.1.84"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "45414b7beed4a5511df20e674baa84dd22b66f375a430de8306e2a519a436bd5",
+    "build_date": "2025-06-19T07:24:18Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751300770",
+    "build_id": "15751300770",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thoth-note/stable/thoth?tag=0.1.1-loongarch64-Linux&download=thoth.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple note-taking app written in Rust.",
+    "desktop_integration": "false",
+    "download_count": "546",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thoth-note/stable/thoth?tag=0.1.1-loongarch64-Linux&download=thoth",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/thoth-note/stable/thoth:0.1.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/thoth-note/stable/thoth",
+    "homepage": [
+      "https://github.com/WeiNyn/thoth-note"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thoth-note/stable/thoth?tag=0.1.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "thoth",
+    "pkg_family": "thoth-note",
+    "pkg_id": "pkgforge-cargo.thoth-note.stable",
+    "pkg_name": "thoth",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/thoth-note",
+    "portable": "true",
+    "provides": [
+      "thoth"
+    ],
+    "rank": "3412",
+    "recurse_provides": "false",
+    "shasum": "bc1823d52681ec7668cfb266fcf9d61fc0a4b3f005e252005f046b893a59495c",
+    "size": "3.2 MB",
+    "size_raw": "3251616",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/thoth-note/0.1.1/download"
+    ],
+    "tag": [
+      "markdown",
+      "note",
+      "note-taking",
+      "rust",
+      "tui"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "8f9e2c718f9d89d07344cc8f0efbca82938ef4546e371d772e909f390bbe0720",
+    "build_date": "2025-06-19T07:26:04Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751304050",
+    "build_id": "15751304050",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thoughts/stable/thoughts?tag=3.2.0-loongarch64-Linux&download=thoughts.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple cli for recording down any random thoughts you may have :D.",
+    "desktop_integration": "false",
+    "download_count": "1493",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thoughts/stable/thoughts?tag=3.2.0-loongarch64-Linux&download=thoughts",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/thoughts/stable/thoughts:3.2.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/thoughts/stable/thoughts",
+    "homepage": [
+      "https://github.com/kalscium/thoughts"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-only"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thoughts/stable/thoughts?tag=3.2.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "thoughts",
+    "pkg_family": "thoughts",
+    "pkg_id": "pkgforge-cargo.thoughts.stable",
+    "pkg_name": "thoughts",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/thoughts",
+    "portable": "true",
+    "provides": [
+      "thoughts"
+    ],
+    "rank": "3413",
+    "recurse_provides": "false",
+    "shasum": "d4d86a23c08fd70691f1af9a01f370e88fc1d924792182ae92b7c9bd9f2b2ffc",
+    "size": "1.9 MB",
+    "size_raw": "1888240",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/thoughts/3.2.0/download"
+    ],
+    "tag": [
+      "cli",
+      "simple",
+      "thoughts"
+    ],
+    "trusted": "true",
+    "version": "3.2.0",
+    "version_upstream": "3.2.0"
   },
   {
     "_disabled": "false",
@@ -224690,7 +225229,7 @@
     "provides": [
       "thus-saith"
     ],
-    "rank": "3408",
+    "rank": "3415",
     "recurse_provides": "false",
     "shasum": "a93c9d9cb6f6e18219001954d6c3780bf7527726eb1f2afac86d715d16e612bf",
     "size": "1.3 MB",
@@ -224706,6 +225245,136 @@
     "trusted": "true",
     "version": "0.6.3",
     "version_upstream": "0.6.3"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "d893a7b00d5564d7c912ce6c40cd6104bd8b5173a7be61d8c9921192ee464b49",
+    "build_date": "2025-06-19T07:25:35Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751326108",
+    "build_id": "15751326108",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thwack/stable/thwack?tag=0.10.3-loongarch64-Linux&download=thwack.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Command line version of Go To File utility, similar to the one on GitHub.",
+    "desktop_integration": "false",
+    "download_count": "8381",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thwack/stable/thwack?tag=0.10.3-loongarch64-Linux&download=thwack",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/thwack/stable/thwack:0.10.3-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/thwack/stable/thwack",
+    "homepage": [
+      "https://github.com/yykamei/thwack"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/thwack/stable/thwack?tag=0.10.3-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "thwack",
+    "pkg_family": "thwack",
+    "pkg_id": "pkgforge-cargo.thwack.stable",
+    "pkg_name": "thwack",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/thwack",
+    "portable": "true",
+    "provides": [
+      "thwack"
+    ],
+    "rank": "3416",
+    "recurse_provides": "false",
+    "shasum": "590e08abf1916e2bbcd7e366d504d7286df0a7efed6662945a334f94ad046edb",
+    "size": "1.7 MB",
+    "size_raw": "1704632",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/thwack/0.10.3/download"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "trusted": "true",
+    "version": "0.10.3",
+    "version_upstream": "0.10.3"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "29b5916ff7daeab4d538578cd8fc38bf84e52b44e8ef81991e6f4ca43bc8c4d3",
+    "build_date": "2025-06-19T07:31:12Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751344445",
+    "build_id": "15751344445",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tictactoe-tui/stable/tictactoe-tui?tag=1.0.0-loongarch64-Linux&download=tictactoe-tui.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Terminal based Tic-Tac-Toe Game.",
+    "desktop_integration": "false",
+    "download_count": "198",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tictactoe-tui/stable/tictactoe-tui?tag=1.0.0-loongarch64-Linux&download=tictactoe-tui",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tictactoe-tui/stable/tictactoe-tui:1.0.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tictactoe-tui/stable/tictactoe-tui",
+    "homepage": [
+      "https://github.com/alfinsyahruddin/tictactoe-tui"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tictactoe-tui/stable/tictactoe-tui?tag=1.0.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tictactoe-tui",
+    "pkg_family": "tictactoe-tui",
+    "pkg_id": "pkgforge-cargo.tictactoe-tui.stable",
+    "pkg_name": "tictactoe-tui",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tictactoe-tui",
+    "portable": "true",
+    "provides": [
+      "tictactoe-tui"
+    ],
+    "rank": "3417",
+    "recurse_provides": "false",
+    "shasum": "0c9ec947db8034d1478b46bde9b6e057f8e2e7ce80a768442f4ef6cd6ad1f6b6",
+    "size": "772 KB",
+    "size_raw": "790480",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tictactoe-tui/1.0.0/download"
+    ],
+    "tag": [
+      "cli",
+      "tictactoe",
+      "tui"
+    ],
+    "trusted": "true",
+    "version": "1.0.0",
+    "version_upstream": "1.0.0"
   },
   {
     "_disabled": "false",
@@ -224777,6 +225446,139 @@
   },
   {
     "_disabled": "false",
+    "bsum": "c1c4f5407635adacfa529463206b976bf21fb7f69b8687c68cfd12012d813bc0",
+    "build_date": "2025-06-19T07:34:33Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751366980",
+    "build_id": "15751366980",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tiles7800/stable/tiles7800?tag=0.4.1-loongarch64-Linux&download=tiles7800.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "a companion tool of cc7800 generating tiling data from Tiled maps.",
+    "desktop_integration": "false",
+    "download_count": "506",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tiles7800/stable/tiles7800?tag=0.4.1-loongarch64-Linux&download=tiles7800",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tiles7800/stable/tiles7800:0.4.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tiles7800/stable/tiles7800",
+    "homepage": [
+      "https://github.com/steux/tools7800"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-or-later"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tiles7800/stable/tiles7800?tag=0.4.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tiles7800",
+    "pkg_family": "tiles7800",
+    "pkg_id": "pkgforge-cargo.tiles7800.stable",
+    "pkg_name": "tiles7800",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tiles7800",
+    "portable": "true",
+    "provides": [
+      "tiles7800"
+    ],
+    "rank": "3418",
+    "recurse_provides": "false",
+    "shasum": "76b949ffee3b906692da253986ec336696f0a157136b68d722f7c3cf528e2b01",
+    "size": "3.9 MB",
+    "size_raw": "4034432",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tiles7800/0.4.1/download"
+    ],
+    "tag": [
+      "cli",
+      "gamedev"
+    ],
+    "trusted": "true",
+    "version": "0.4.1",
+    "version_upstream": "0.4.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "b955d26be852b62d09c363a0ee866869d0c9fa7929d153303f696802d5d4d5b6",
+    "build_date": "2025-06-19T07:35:00Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751414343",
+    "build_id": "15751414343",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/timecalc/stable/timecalc?tag=0.4.12-loongarch64-Linux&download=timecalc.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Calculate the total duration of a given set of intervals and durations.",
+    "desktop_integration": "false",
+    "download_count": "1865",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/timecalc/stable/timecalc?tag=0.4.12-loongarch64-Linux&download=timecalc",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/timecalc/stable/timecalc:0.4.12-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/timecalc/stable/timecalc",
+    "homepage": [
+      "https://github.com/granddave/timecalc-rs/"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/timecalc/stable/timecalc?tag=0.4.12-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "timecalc",
+    "pkg_family": "timecalc",
+    "pkg_id": "pkgforge-cargo.timecalc.stable",
+    "pkg_name": "timecalc",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/timecalc",
+    "portable": "true",
+    "provides": [
+      "timecalc"
+    ],
+    "rank": "3419",
+    "recurse_provides": "false",
+    "shasum": "11856b4dff71290e4b4c0d72f7b195ccc0a12d92e9a6a164fbd6c5ba61b334e5",
+    "size": "2.1 MB",
+    "size_raw": "2117400",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/timecalc/0.4.12/download"
+    ],
+    "tag": [
+      "cli",
+      "parser",
+      "time",
+      "time-tracking",
+      "utility"
+    ],
+    "trusted": "true",
+    "version": "0.4.12",
+    "version_upstream": "0.4.12"
+  },
+  {
+    "_disabled": "false",
     "bsum": "78f57548bbb809e664b7fdecced35ad79f9d7a51a9ca605b20cfc45c4ffdd0c5",
     "build_date": "2025-06-14T14:10:10Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15652541181",
@@ -224822,7 +225624,7 @@
     "provides": [
       "timelord"
     ],
-    "rank": "3409",
+    "rank": "3420",
     "recurse_provides": "false",
     "shasum": "d6288a73362f502adab46ccd2de7599c60b5def6eee1016d1cba2e71d0016f60",
     "size": "2.3 MB",
@@ -224842,6 +225644,602 @@
     "trusted": "true",
     "version": "3.0.1",
     "version_upstream": "3.0.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "4a67700a17ac93cd8b0be74d97f7a7aac79587999e86fe5ebf802cd76b75500a",
+    "build_date": "2025-06-19T07:37:47Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751491505",
+    "build_id": "15751491505",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/timewatch/stable/timewatch?tag=0.1.1-loongarch64-Linux&download=timewatch.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A terminal based stopwatch with optional messages.",
+    "desktop_integration": "false",
+    "download_count": "495",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/timewatch/stable/timewatch?tag=0.1.1-loongarch64-Linux&download=timewatch",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/timewatch/stable/timewatch:0.1.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/timewatch/stable/timewatch",
+    "homepage": [
+      "https://github.com/Foxicution/timewatch"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/timewatch/stable/timewatch?tag=0.1.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "timewatch",
+    "pkg_family": "timewatch",
+    "pkg_id": "pkgforge-cargo.timewatch.stable",
+    "pkg_name": "timewatch",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/timewatch",
+    "portable": "true",
+    "provides": [
+      "timewatch"
+    ],
+    "rank": "3421",
+    "recurse_provides": "false",
+    "shasum": "9daa4d703f12f1b8f5644c3ee035c2015b08938d11a4b3224b8d6bc8768f699c",
+    "size": "1012 KB",
+    "size_raw": "1036224",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/timewatch/0.1.1/download"
+    ],
+    "tag": [
+      "stopwatch",
+      "terminal"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "9225a90e410a07c133124e7d54ceff4e995d9e9362ac371da449d11a1235eaf1",
+    "build_date": "2025-06-19T07:38:12Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751527554",
+    "build_id": "15751527554",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/timr/stable/timr?tag=0.5.0-loongarch64-Linux&download=timr.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Simple CLI timer.",
+    "desktop_integration": "false",
+    "download_count": "838",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/timr/stable/timr?tag=0.5.0-loongarch64-Linux&download=timr",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/timr/stable/timr:0.5.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/timr/stable/timr",
+    "homepage": [
+      "https://github.com/The-Noah/timr"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/timr/stable/timr?tag=0.5.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "timr",
+    "pkg_family": "timr",
+    "pkg_id": "pkgforge-cargo.timr.stable",
+    "pkg_name": "timr",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/timr",
+    "portable": "true",
+    "provides": [
+      "timr"
+    ],
+    "rank": "3422",
+    "recurse_provides": "false",
+    "shasum": "768730b57e8996c7d08356207d132d9a116744c20f3517aab6856ea3fc5b4d98",
+    "size": "852 KB",
+    "size_raw": "872320",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/timr/0.5.0/download"
+    ],
+    "tag": [
+      "cli"
+    ],
+    "trusted": "true",
+    "version": "0.5.0",
+    "version_upstream": "0.5.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "9733f933c8f0fc7e25799c6b295c7e60a3fe5b6c79ff832b18d6b05e646cf9b2",
+    "build_date": "2025-06-19T07:39:37Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751536527",
+    "build_id": "15751536527",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/timug/stable/timug?tag=0.1.3-loongarch64-Linux&download=timug.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "It has been created for personal blog creation purpose.",
+    "desktop_integration": "false",
+    "download_count": "557",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/timug/stable/timug?tag=0.1.3-loongarch64-Linux&download=timug",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/timug/stable/timug:0.1.3-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/timug/stable/timug",
+    "homepage": [
+      "https://github.com/erhanbaris/timug"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/timug/stable/timug?tag=0.1.3-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "timug",
+    "pkg_family": "timug",
+    "pkg_id": "pkgforge-cargo.timug.stable",
+    "pkg_name": "timug",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/timug",
+    "portable": "true",
+    "provides": [
+      "timug"
+    ],
+    "rank": "3423",
+    "recurse_provides": "false",
+    "shasum": "e42583e1fed7182b82b51c91609f80b2ff3ddef1ea4e70be85e7242774ce5a28",
+    "size": "5.2 MB",
+    "size_raw": "5362368",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/timug/0.1.3/download"
+    ],
+    "tag": [
+      "blog",
+      "generator",
+      "markdown",
+      "page-generator",
+      "static-page"
+    ],
+    "trusted": "true",
+    "version": "0.1.3",
+    "version_upstream": "0.1.3"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "9bb18e2a466e575a2a70deda109a1e8007256e70b89a9448d20eb933a613331a",
+    "build_date": "2025-06-19T07:39:26Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751538239",
+    "build_id": "15751538239",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tina-mgr/stable/tina-convert?tag=0.1.14-loongarch64-Linux&download=tina-convert.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Helper functions for the tina personal information manager.",
+    "desktop_integration": "false",
+    "download_count": "392",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tina-mgr/stable/tina-convert?tag=0.1.14-loongarch64-Linux&download=tina-convert",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tina-mgr/stable/tina-convert:0.1.14-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tina-mgr/stable/tina-convert",
+    "homepage": [
+      "https://gitlab.com/tina-mgr/tina-mgr.git"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "BSD-2-Clause"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tina-mgr/stable/tina-convert?tag=0.1.14-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tina-convert",
+    "pkg_family": "tina-mgr",
+    "pkg_id": "pkgforge-cargo.tina-mgr.stable",
+    "pkg_name": "tina-convert",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tina-mgr",
+    "portable": "true",
+    "provides": [
+      "tina-convert"
+    ],
+    "rank": "3424",
+    "recurse_provides": "false",
+    "shasum": "19d88683e0e2f7d74cbe1024663e454428fe407ab40161863fea1e58929ca333",
+    "size": "1.4 MB",
+    "size_raw": "1414280",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tina-mgr/0.1.14/download"
+    ],
+    "tag": [
+      "tina"
+    ],
+    "trusted": "true",
+    "version": "0.1.14",
+    "version_upstream": "0.1.14"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "4eaa9add0dd79f3f8f29e171ae3c01b0f8dae2b0f80b5cf2b8cc8a82ac934b87",
+    "build_date": "2025-06-19T07:40:11Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751590077",
+    "build_id": "15751590077",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tindercrypt/stable/tindercrypt?tag=0.3.4-loongarch64-Linux&download=tindercrypt.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Data encryption with symmetric cryptographic keys or passwords/passphrases, and self-contained encryption metadata.",
+    "desktop_integration": "false",
+    "download_count": "2293",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tindercrypt/stable/tindercrypt?tag=0.3.4-loongarch64-Linux&download=tindercrypt",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tindercrypt/stable/tindercrypt:0.3.4-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tindercrypt/stable/tindercrypt",
+    "homepage": [
+      "https://github.com/apyrgio/tindercrypt"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tindercrypt/stable/tindercrypt?tag=0.3.4-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tindercrypt",
+    "pkg_family": "tindercrypt",
+    "pkg_id": "pkgforge-cargo.tindercrypt.stable",
+    "pkg_name": "tindercrypt",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tindercrypt",
+    "portable": "true",
+    "provides": [
+      "tindercrypt"
+    ],
+    "rank": "3425",
+    "recurse_provides": "false",
+    "shasum": "5a97d336bbc500792f79ab823827d1fea0e479dab4c63619738161e4cc78408b",
+    "size": "916 KB",
+    "size_raw": "937840",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tindercrypt/0.3.4/download"
+    ],
+    "tag": [
+      "cryptography",
+      "encryption",
+      "protocol-buffers"
+    ],
+    "trusted": "true",
+    "version": "0.3.4",
+    "version_upstream": "0.3.4"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "99896b493088cae0bd415dabc7864810a0ed10217c780bc266503bdeb72b802d",
+    "build_date": "2025-06-19T07:44:30Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751697895",
+    "build_id": "15751697895",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tinty/stable/tinty?tag=0.27.0-loongarch64-Linux&download=tinty.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Change the theme of your terminal, text editor and anything else with one command!.",
+    "desktop_integration": "false",
+    "download_count": "6352",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tinty/stable/tinty?tag=0.27.0-loongarch64-Linux&download=tinty",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tinty/stable/tinty:0.27.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tinty/stable/tinty",
+    "homepage": [
+      "https://github.com/tinted-theming/tinty"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tinty/stable/tinty?tag=0.27.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tinty",
+    "pkg_family": "tinty",
+    "pkg_id": "pkgforge-cargo.tinty.stable",
+    "pkg_name": "tinty",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tinty",
+    "portable": "true",
+    "provides": [
+      "tinty"
+    ],
+    "rank": "3426",
+    "recurse_provides": "false",
+    "shasum": "a6bccab82be2e1c8858688589574aeb0b4918ee39be4d3fcddb851ef5ebfe219",
+    "size": "5.1 MB",
+    "size_raw": "5279632",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tinty/0.27.0/download"
+    ],
+    "tag": [
+      "base16",
+      "cli",
+      "shell",
+      "theme",
+      "tinted-theming"
+    ],
+    "trusted": "true",
+    "version": "0.27.0",
+    "version_upstream": "0.27.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "5fea33277f5d287c23120fbfe31e962c340450cdd4122afb3ce1f197655bd4af",
+    "build_date": "2025-06-19T07:42:19Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751729853",
+    "build_id": "15751729853",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tiny-dc/stable/tiny-dc?tag=0.1.2-loongarch64-Linux&download=tiny-dc.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A tiny but mighty TUI directory changer.",
+    "desktop_integration": "false",
+    "download_count": "977",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tiny-dc/stable/tiny-dc?tag=0.1.2-loongarch64-Linux&download=tiny-dc",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tiny-dc/stable/tiny-dc:0.1.2-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tiny-dc/stable/tiny-dc",
+    "homepage": [
+      "https://github.com/n1ghtmare/tiny-dc"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tiny-dc/stable/tiny-dc?tag=0.1.2-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tiny-dc",
+    "pkg_family": "tiny-dc",
+    "pkg_id": "pkgforge-cargo.tiny-dc.stable",
+    "pkg_name": "tiny-dc",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tiny-dc",
+    "portable": "true",
+    "provides": [
+      "tiny-dc"
+    ],
+    "rank": "3427",
+    "recurse_provides": "false",
+    "shasum": "6cc1aedf7a567fcd8dc57045e8a02d197270d5084596266d0af0144d908f2a6b",
+    "size": "1.4 MB",
+    "size_raw": "1413136",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tiny-dc/0.1.2/download"
+    ],
+    "tag": [
+      "changer",
+      "cli",
+      "directory",
+      "terminal",
+      "tui"
+    ],
+    "trusted": "true",
+    "version": "0.1.2",
+    "version_upstream": "0.1.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "0dab0f811a649ccba93213e761a5ab752497ee75b6f8eb97d713d2cf1fe141f5",
+    "build_date": "2025-06-19T07:43:33Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751754996",
+    "build_id": "15751754996",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tinymist-l10n/stable/tinymist-l10n?tag=0.13.14-rc1-loongarch64-Linux&download=tinymist-l10n.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Localization support for tinymist and typst.",
+    "desktop_integration": "false",
+    "download_count": "3561",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tinymist-l10n/stable/tinymist-l10n?tag=0.13.14-rc1-loongarch64-Linux&download=tinymist-l10n",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tinymist-l10n/stable/tinymist-l10n:0.13.14-rc1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tinymist-l10n/stable/tinymist-l10n",
+    "homepage": [
+      "https://github.com/Myriad-Dreamin/tinymist"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tinymist-l10n/stable/tinymist-l10n?tag=0.13.14-rc1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tinymist-l10n",
+    "pkg_family": "tinymist-l10n",
+    "pkg_id": "pkgforge-cargo.tinymist-l10n.stable",
+    "pkg_name": "tinymist-l10n",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tinymist-l10n",
+    "portable": "true",
+    "provides": [
+      "tinymist-l10n"
+    ],
+    "rank": "3428",
+    "recurse_provides": "false",
+    "shasum": "5fb4e42d9089ad23d992b28bb55bd2501cb4d222e0aedda392dc5ce51a7b7343",
+    "size": "1.1 MB",
+    "size_raw": "1101688",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tinymist-l10n/0.13.14-rc1/download"
+    ],
+    "tag": [
+      "language",
+      "typst"
+    ],
+    "trusted": "true",
+    "version": "0.13.14-rc1",
+    "version_upstream": "0.13.14-rc1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "d082a8084034d65763511fcfc987d00999d5216e983586ab3ac864ec4fbdba5d",
+    "build_date": "2025-06-19T07:46:13Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751788505",
+    "build_id": "15751788505",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tinyraytracer_rs/stable/tinyraytracer_rs?tag=0.1.1-loongarch64-Linux&download=tinyraytracer_rs.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple raytracer in pure Rust, converted from C++.",
+    "desktop_integration": "false",
+    "download_count": "414",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tinyraytracer_rs/stable/tinyraytracer_rs?tag=0.1.1-loongarch64-Linux&download=tinyraytracer_rs",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tinyraytracer_rs/stable/tinyraytracer_rs:0.1.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tinyraytracer_rs/stable/tinyraytracer_rs",
+    "homepage": [
+      "https://github.com/Houssem-Jarray/tinyraytracer_rs"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tinyraytracer_rs/stable/tinyraytracer_rs?tag=0.1.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tinyraytracer_rs",
+    "pkg_family": "tinyraytracer_rs",
+    "pkg_id": "pkgforge-cargo.tinyraytracer_rs.stable",
+    "pkg_name": "tinyraytracer_rs",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tinyraytracer_rs",
+    "portable": "true",
+    "provides": [
+      "tinyraytracer_rs"
+    ],
+    "rank": "3429",
+    "recurse_provides": "false",
+    "shasum": "541805cadb5def6ff1c4e56a080eb591df78130d65d7fdb8e8b0a4b758c6f3e6",
+    "size": "436 KB",
+    "size_raw": "446224",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tinyraytracer_rs/0.1.1/download"
+    ],
+    "tag": [
+      "3d",
+      "graphics",
+      "raytracing",
+      "render",
+      "rust"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
   },
   {
     "_disabled": "false",
@@ -224890,7 +226288,7 @@
     "provides": [
       "titlecase"
     ],
-    "rank": "3410",
+    "rank": "3430",
     "recurse_provides": "false",
     "shasum": "ca81c035de85ea4c26b167a2ee926961200877094489c284c4cfc8020ea77496",
     "size": "1.4 MB",
@@ -224910,6 +226308,399 @@
     "trusted": "true",
     "version": "3.6.0",
     "version_upstream": "3.6.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "237c15f748afc642c47fe3f2d26f15cdb96922de6546e774aaeb93c5cb353918",
+    "build_date": "2025-06-19T07:46:18Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751802173",
+    "build_id": "15751802173",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tiz/stable/tiz?tag=0.5.0-loongarch64-Linux&download=tiz.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Time In Zones: print a table of times in given zones.",
+    "desktop_integration": "false",
+    "download_count": "1070",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tiz/stable/tiz?tag=0.5.0-loongarch64-Linux&download=tiz",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tiz/stable/tiz:0.5.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tiz/stable/tiz",
+    "homepage": [
+      "https://github.com/xandkar/tiz"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tiz/stable/tiz?tag=0.5.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tiz",
+    "pkg_family": "tiz",
+    "pkg_id": "pkgforge-cargo.tiz.stable",
+    "pkg_name": "tiz",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tiz",
+    "portable": "true",
+    "provides": [
+      "tiz"
+    ],
+    "rank": "3431",
+    "recurse_provides": "false",
+    "shasum": "8bdee010a134228c96cc4dc9f25bd21b8e18618e2857109a70f9a3995de522c0",
+    "size": "1.8 MB",
+    "size_raw": "1838960",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tiz/0.5.0/download"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "trusted": "true",
+    "version": "0.5.0",
+    "version_upstream": "0.5.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "d21585a9123be9efe5276da073b17b84f002194be4f078763875a09f312625a8",
+    "build_date": "2025-06-19T07:47:45Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751825141",
+    "build_id": "15751825141",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tkn-cli/stable/tkn?tag=0.1.1-loongarch64-Linux&download=tkn.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "TKN: Quick Tokenizing in the terminal.",
+    "desktop_integration": "false",
+    "download_count": "530",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tkn-cli/stable/tkn?tag=0.1.1-loongarch64-Linux&download=tkn",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tkn-cli/stable/tkn:0.1.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tkn-cli/stable/tkn",
+    "homepage": [
+      "https://github.com/JettChenT/tkn"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT/Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tkn-cli/stable/tkn?tag=0.1.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tkn",
+    "pkg_family": "tkn-cli",
+    "pkg_id": "pkgforge-cargo.tkn-cli.stable",
+    "pkg_name": "tkn",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tkn-cli",
+    "portable": "true",
+    "provides": [
+      "tkn"
+    ],
+    "rank": "3432",
+    "recurse_provides": "false",
+    "shasum": "60bd03013746de0f1a75437d5d07c6bc23fe4631e62171d8cd365424d47ed2d5",
+    "size": "5.8 MB",
+    "size_raw": "6036440",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tkn-cli/0.1.1/download"
+    ],
+    "tag": [
+      "cli",
+      "productivity",
+      "tokenizing"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "998e0fcfdf03c0d854561dd9b2a6e11780dead1520ec7128a989a4e98c7b846f",
+    "build_date": "2025-06-19T07:48:53Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751850960",
+    "build_id": "15751850960",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tkrar/stable/tkrar?tag=0.3.0-loongarch64-Linux&download=tkrar.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Count frequency of words in a file or a directory.",
+    "desktop_integration": "false",
+    "download_count": "1011",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tkrar/stable/tkrar?tag=0.3.0-loongarch64-Linux&download=tkrar",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tkrar/stable/tkrar:0.3.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tkrar/stable/tkrar",
+    "homepage": [
+      "https://github.com/nuexq/tkrar"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tkrar/stable/tkrar?tag=0.3.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tkrar",
+    "pkg_family": "tkrar",
+    "pkg_id": "pkgforge-cargo.tkrar.stable",
+    "pkg_name": "tkrar",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tkrar",
+    "portable": "true",
+    "provides": [
+      "tkrar"
+    ],
+    "rank": "3433",
+    "recurse_provides": "false",
+    "shasum": "540b9e6bbd6cd9756e9af66d5193109d86f936bb7a738dbc51385fcfb34aa83e",
+    "size": "2.4 MB",
+    "size_raw": "2477960",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tkrar/0.3.0/download"
+    ],
+    "tag": [
+      "cli"
+    ],
+    "trusted": "true",
+    "version": "0.3.0",
+    "version_upstream": "0.3.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "c38a49f35f21c32a5ff3dd831b6d22a0916c5e98977aee837e31a0237ec133d9",
+    "build_date": "2025-06-19T07:48:49Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751899736",
+    "build_id": "15751899736",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tl_tool/stable/tl_tool?tag=0.1.0-loongarch64-Linux&download=tl_tool.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A helper tool for managing tl strings.",
+    "desktop_integration": "false",
+    "download_count": "283",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tl_tool/stable/tl_tool?tag=0.1.0-loongarch64-Linux&download=tl_tool",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tl_tool/stable/tl_tool:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tl_tool/stable/tl_tool",
+    "homepage": [
+      "https://github.com/roesnera/tl_tool"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tl_tool/stable/tl_tool?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tl_tool",
+    "pkg_family": "tl_tool",
+    "pkg_id": "pkgforge-cargo.tl_tool.stable",
+    "pkg_name": "tl_tool",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tl_tool",
+    "portable": "true",
+    "provides": [
+      "tl_tool"
+    ],
+    "rank": "3434",
+    "recurse_provides": "false",
+    "shasum": "b61fc4fdf92de93e8f6f04881b3e96e3b3133dfb6c6935fb7ee07522c84a95ab",
+    "size": "804 KB",
+    "size_raw": "823056",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tl_tool/0.1.0/download"
+    ],
+    "tag": [
+      "cli",
+      "livedoc"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "c981b524997cdf5b1135cc9785c22c216ff8fe383977b8899c351933889c66ef",
+    "build_date": "2025-06-19T07:42:29Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751904555",
+    "build_id": "15751904555",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tlafmt/stable/tlafmt?tag=0.4.1-loongarch64-Linux&download=tlafmt.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A formatter for TLA+ specs.",
+    "desktop_integration": "false",
+    "download_count": "2031",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tlafmt/stable/tlafmt?tag=0.4.1-loongarch64-Linux&download=tlafmt",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tlafmt/stable/tlafmt:0.4.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tlafmt/stable/tlafmt",
+    "homepage": [
+      "https://github.com/domodwyer/tlafmt"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tlafmt/stable/tlafmt?tag=0.4.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tlafmt",
+    "pkg_family": "tlafmt",
+    "pkg_id": "pkgforge-cargo.tlafmt.stable",
+    "pkg_name": "tlafmt",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tlafmt",
+    "portable": "true",
+    "provides": [
+      "tlafmt"
+    ],
+    "rank": "3435",
+    "recurse_provides": "false",
+    "shasum": "3e555517da98e23e165da203f59f7c97a84702c2b9265a526fb2ee8145232d8b",
+    "size": "5.7 MB",
+    "size_raw": "5918600",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tlafmt/0.4.1/download"
+    ],
+    "tag": [
+      "formatter",
+      "plus",
+      "tla",
+      "tla+"
+    ],
+    "trusted": "true",
+    "version": "0.4.1",
+    "version_upstream": "0.4.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "a07f550a50aac19559de6e075e5d8405150d46440b8f15fb302d95d125657cdd",
+    "build_date": "2025-06-19T07:51:06Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751920400",
+    "build_id": "15751920400",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tlauc/stable/tlauc?tag=1.0.5-loongarch64-Linux&download=tlauc.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Rewrites TLA⁺ specs to use Unicode symbols instead of ASCII, and vice-versa.",
+    "desktop_integration": "false",
+    "download_count": "2085",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tlauc/stable/tlauc?tag=1.0.5-loongarch64-Linux&download=tlauc",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tlauc/stable/tlauc:1.0.5-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tlauc/stable/tlauc",
+    "homepage": [
+      "https://github.com/tlaplus-community/tlauc"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tlauc/stable/tlauc?tag=1.0.5-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tlauc",
+    "pkg_family": "tlauc",
+    "pkg_id": "pkgforge-cargo.tlauc.stable",
+    "pkg_name": "tlauc",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tlauc",
+    "portable": "true",
+    "provides": [
+      "tlauc"
+    ],
+    "rank": "3436",
+    "recurse_provides": "false",
+    "shasum": "122530affd34c4028244003943c4a8cb57422832e366f7ba336b459e285e2169",
+    "size": "7.0 MB",
+    "size_raw": "7278392",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tlauc/1.0.5/download"
+    ],
+    "tag": [
+      "pluscal",
+      "tla+",
+      "tlaplus",
+      "unicode"
+    ],
+    "trusted": "true",
+    "version": "1.0.5",
+    "version_upstream": "1.0.5"
   },
   {
     "_disabled": "false",
@@ -224958,7 +226749,7 @@
     "provides": [
       "tldr"
     ],
-    "rank": "3411",
+    "rank": "3437",
     "recurse_provides": "false",
     "shasum": "c69d64fe8333f870e10993c548eb1b4ba6e6c51873c2657ebb440b45a2a94df4",
     "size": "3.2 MB",
@@ -224974,6 +226765,341 @@
     "trusted": "true",
     "version": "1.11.1",
     "version_upstream": "1.11.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "6b9ca01e6f1ad8c0520639c3045d8d363596175e88b7b0845846bbbb6d3ea22f",
+    "build_date": "2025-06-19T07:52:24Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751955213",
+    "build_id": "15751955213",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tm2ts/stable/tm2ts?tag=0.1.0-loongarch64-Linux&download=tm2ts.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A CLI tool to convert TextMate grammars to Tree-sitter grammars.",
+    "desktop_integration": "false",
+    "download_count": "193",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tm2ts/stable/tm2ts?tag=0.1.0-loongarch64-Linux&download=tm2ts",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tm2ts/stable/tm2ts:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tm2ts/stable/tm2ts",
+    "homepage": [
+      "https://github.com/gabeidx/tm2ts"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tm2ts/stable/tm2ts?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tm2ts",
+    "pkg_family": "tm2ts",
+    "pkg_id": "pkgforge-cargo.tm2ts.stable",
+    "pkg_name": "tm2ts",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tm2ts",
+    "portable": "true",
+    "provides": [
+      "tm2ts"
+    ],
+    "rank": "3438",
+    "recurse_provides": "false",
+    "shasum": "9d444b8071ae36e3a6e7541fe9bd9819de2eacdf367c4aae7195fc166b84562b",
+    "size": "820 KB",
+    "size_raw": "839440",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tm2ts/0.1.0/download"
+    ],
+    "tag": [
+      "cli",
+      "grammar",
+      "textmate",
+      "tree-sitter"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "d0cecf2eaea5af2122e2133d9f7a0533e69a9307025bdc73c33a86f156f6f7aa",
+    "build_date": "2025-06-19T07:52:07Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751957355",
+    "build_id": "15751957355",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmenu/stable/tmenu?tag=0.1.0-loongarch64-Linux&download=tmenu.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple TUI fuzzy finder.",
+    "desktop_integration": "false",
+    "download_count": "272",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmenu/stable/tmenu?tag=0.1.0-loongarch64-Linux&download=tmenu",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tmenu/stable/tmenu:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tmenu/stable/tmenu",
+    "homepage": [
+      "https://github.com/m1dsolo/tmenu"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmenu/stable/tmenu?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tmenu",
+    "pkg_family": "tmenu",
+    "pkg_id": "pkgforge-cargo.tmenu.stable",
+    "pkg_name": "tmenu",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tmenu",
+    "portable": "true",
+    "provides": [
+      "tmenu"
+    ],
+    "rank": "3439",
+    "recurse_provides": "false",
+    "shasum": "5a17461f1097911c0dcb5b3fc6c6ed98ae8908ec421f6ad865f5fcba181e1125",
+    "size": "804 KB",
+    "size_raw": "823232",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tmenu/0.1.0/download"
+    ],
+    "tag": [
+      "cli",
+      "fuzzy-finder",
+      "ratatui",
+      "terminal",
+      "tui"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "2d3ea5b68b60d593cdbfe477563d504fa29be716df05060b9b31a3a1f4d03219",
+    "build_date": "2025-06-19T07:52:08Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751962582",
+    "build_id": "15751962582",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmrs/stable/tmrs?tag=0.3.0-loongarch64-Linux&download=tmrs.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "CLI utility to measure time performance of commands with things like averages.",
+    "desktop_integration": "false",
+    "download_count": "719",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmrs/stable/tmrs?tag=0.3.0-loongarch64-Linux&download=tmrs",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tmrs/stable/tmrs:0.3.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tmrs/stable/tmrs",
+    "homepage": [
+      "https://github.com/alxgmpr/tmrs"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmrs/stable/tmrs?tag=0.3.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tmrs",
+    "pkg_family": "tmrs",
+    "pkg_id": "pkgforge-cargo.tmrs.stable",
+    "pkg_name": "tmrs",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tmrs",
+    "portable": "true",
+    "provides": [
+      "tmrs"
+    ],
+    "rank": "3440",
+    "recurse_provides": "false",
+    "shasum": "d0f8eee9863d0990d0b24c457c980f63f65427b8cdfa9adedbb5b129861a7531",
+    "size": "964 KB",
+    "size_raw": "987016",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tmrs/0.3.0/download"
+    ],
+    "tag": [
+      "benchmarking",
+      "cli",
+      "testing",
+      "timing"
+    ],
+    "trusted": "true",
+    "version": "0.3.0",
+    "version_upstream": "0.3.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "5c664ba9641f8a2799077a5a3339db5dc6d6406fa080c7b48aa4221b0d0a15ce",
+    "build_date": "2025-06-19T07:53:16Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751964731",
+    "build_id": "15751964731",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmrz/stable/tmrz?tag=0.1.62-loongarch64-Linux&download=tmrz.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Just a very basic timer.",
+    "desktop_integration": "false",
+    "download_count": "912",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmrz/stable/tmrz?tag=0.1.62-loongarch64-Linux&download=tmrz",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tmrz/stable/tmrz:0.1.62-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tmrz/stable/tmrz",
+    "homepage": [
+      "https://github.com/Pakelz/tmrz"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmrz/stable/tmrz?tag=0.1.62-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tmrz",
+    "pkg_family": "tmrz",
+    "pkg_id": "pkgforge-cargo.tmrz.stable",
+    "pkg_name": "tmrz",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tmrz",
+    "portable": "true",
+    "provides": [
+      "tmrz"
+    ],
+    "rank": "3441",
+    "recurse_provides": "false",
+    "shasum": "62e9ca65a50aba14ce35ba8b0073e2ef4447fbee11b23b1c1b626698dcfc9ec4",
+    "size": "2.1 MB",
+    "size_raw": "2199512",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tmrz/0.1.62/download"
+    ],
+    "tag": [
+      "example",
+      "library",
+      "rust"
+    ],
+    "trusted": "true",
+    "version": "0.1.62",
+    "version_upstream": "0.1.62"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "9188ee5eb48ccbe808ad1250496f7e20c213c7dda1e29515852497c86643b6f7",
+    "build_date": "2025-06-19T07:54:51Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751965095",
+    "build_id": "15751965095",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmux-backup/stable/tmux-backup?tag=0.5.7-loongarch64-Linux&download=tmux-backup.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A backup & restore solution for Tmux sessions.",
+    "desktop_integration": "false",
+    "download_count": "681",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmux-backup/stable/tmux-backup?tag=0.5.7-loongarch64-Linux&download=tmux-backup",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tmux-backup/stable/tmux-backup:0.5.7-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tmux-backup/stable/tmux-backup",
+    "homepage": [
+      "https://github.com/graelo/tmux-backup"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmux-backup/stable/tmux-backup?tag=0.5.7-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tmux-backup",
+    "pkg_family": "tmux-backup",
+    "pkg_id": "pkgforge-cargo.tmux-backup.stable",
+    "pkg_name": "tmux-backup",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tmux-backup",
+    "portable": "true",
+    "provides": [
+      "tmux-backup"
+    ],
+    "rank": "3442",
+    "recurse_provides": "false",
+    "shasum": "ff579eacb4500cd61625a7b9b004148b0067ecf12c9d609a2e9e9dff13456b9d",
+    "size": "4.2 MB",
+    "size_raw": "4362232",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tmux-backup/0.5.7/download"
+    ],
+    "tag": [
+      "backup",
+      "tmux",
+      "tmux-plugin",
+      "tmux-resurrect"
+    ],
+    "trusted": "true",
+    "version": "0.5.7",
+    "version_upstream": "0.5.7"
   },
   {
     "_disabled": "false",
@@ -225045,6 +227171,338 @@
   },
   {
     "_disabled": "false",
+    "bsum": "ff2e00a3d5deeb474f859adc8222704ec5e837af9a0198dd5c118c3064c2ee53",
+    "build_date": "2025-06-19T07:54:44Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15751992012",
+    "build_id": "15751992012",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmux-layout/stable/tmux-layout?tag=0.1.0-loongarch64-Linux&download=tmux-layout.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A tool for managing tmux sessions with predefined layouts.",
+    "desktop_integration": "false",
+    "download_count": "253",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmux-layout/stable/tmux-layout?tag=0.1.0-loongarch64-Linux&download=tmux-layout",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tmux-layout/stable/tmux-layout:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tmux-layout/stable/tmux-layout",
+    "homepage": [
+      "https://github.com/dsmatter/tmux-layout-rs"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "non-standard"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmux-layout/stable/tmux-layout?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tmux-layout",
+    "pkg_family": "tmux-layout",
+    "pkg_id": "pkgforge-cargo.tmux-layout.stable",
+    "pkg_name": "tmux-layout",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tmux-layout",
+    "portable": "true",
+    "provides": [
+      "tmux-layout"
+    ],
+    "rank": "3443",
+    "recurse_provides": "false",
+    "shasum": "335921503b482e286ea443e7b614f871a7df4659186b5481788b81f13b0e3da6",
+    "size": "3.0 MB",
+    "size_raw": "3133224",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tmux-layout/0.1.0/download"
+    ],
+    "tag": [
+      "cli",
+      "layout",
+      "management",
+      "productivity",
+      "tmux"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "a6ce44eafb708e1b257730a0ae0c97f3fda0f69c809cb60d7a8116f0490c3f0c",
+    "build_date": "2025-06-19T07:55:57Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752003120",
+    "build_id": "15752003120",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmuxgen/stable/tmuxgen?tag=0.0.0-loongarch64-Linux&download=tmuxgen.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "CLI that allows you to create predefined tmux sessions for your various projects.",
+    "desktop_integration": "false",
+    "download_count": "198",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmuxgen/stable/tmuxgen?tag=0.0.0-loongarch64-Linux&download=tmuxgen",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tmuxgen/stable/tmuxgen:0.0.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tmuxgen/stable/tmuxgen",
+    "homepage": [
+      "https://github.com/whutchinson98/tmuxgen"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tmuxgen/stable/tmuxgen?tag=0.0.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tmuxgen",
+    "pkg_family": "tmuxgen",
+    "pkg_id": "pkgforge-cargo.tmuxgen.stable",
+    "pkg_name": "tmuxgen",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tmuxgen",
+    "portable": "true",
+    "provides": [
+      "tmuxgen"
+    ],
+    "rank": "3444",
+    "recurse_provides": "false",
+    "shasum": "619837718b0f56c7a42ec9487d7aa821e2bc8afd6981549135a123e6a65d38fd",
+    "size": "420 KB",
+    "size_raw": "429840",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tmuxgen/0.0.0/download"
+    ],
+    "tag": [
+      "cli",
+      "command",
+      "command-line",
+      "tmux",
+      "tool"
+    ],
+    "trusted": "true",
+    "version": "0.0.0",
+    "version_upstream": "0.0.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "74b18bf9e166e3a1d91ce1fb2642ff428a042df4ce15f507c1ece50972817926",
+    "build_date": "2025-06-19T07:58:38Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752017432",
+    "build_id": "15752017432",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/to-html/stable/to-html?tag=0.1.6-loongarch64-Linux&download=to-html.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Render a terminal with ANSI colors as HTML.",
+    "desktop_integration": "false",
+    "download_count": "964",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/to-html/stable/to-html?tag=0.1.6-loongarch64-Linux&download=to-html",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/to-html/stable/to-html:0.1.6-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/to-html/stable/to-html",
+    "homepage": [
+      "https://github.com/Aloso/to-html"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/to-html/stable/to-html?tag=0.1.6-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "to-html",
+    "pkg_family": "to-html",
+    "pkg_id": "pkgforge-cargo.to-html.stable",
+    "pkg_name": "to-html",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/to-html",
+    "portable": "true",
+    "provides": [
+      "to-html"
+    ],
+    "rank": "3445",
+    "recurse_provides": "false",
+    "shasum": "4b57cd3efcf3b1adb704b6c07e544a9d78c0cb04353108a7ed6bec4b4d76f1d3",
+    "size": "2.7 MB",
+    "size_raw": "2772760",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/to-html/0.1.6/download"
+    ],
+    "tag": [
+      "cli",
+      "color",
+      "html",
+      "terminal"
+    ],
+    "trusted": "true",
+    "version": "0.1.6",
+    "version_upstream": "0.1.6"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "a6ce44eafb708e1b257730a0ae0c97f3fda0f69c809cb60d7a8116f0490c3f0c",
+    "build_date": "2025-06-19T07:59:00Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752028296",
+    "build_id": "15752028296",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tobak/stable/tobak?tag=0.1.0-loongarch64-Linux&download=tobak.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Rust clone of charms gum.",
+    "desktop_integration": "false",
+    "download_count": "187",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tobak/stable/tobak?tag=0.1.0-loongarch64-Linux&download=tobak",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tobak/stable/tobak:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tobak/stable/tobak",
+    "homepage": [
+      "https://github.com/NQMVD/tobak"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-or-later"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tobak/stable/tobak?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tobak",
+    "pkg_family": "tobak",
+    "pkg_id": "pkgforge-cargo.tobak.stable",
+    "pkg_name": "tobak",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tobak",
+    "portable": "true",
+    "provides": [
+      "tobak"
+    ],
+    "rank": "3446",
+    "recurse_provides": "false",
+    "shasum": "619837718b0f56c7a42ec9487d7aa821e2bc8afd6981549135a123e6a65d38fd",
+    "size": "420 KB",
+    "size_raw": "429840",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tobak/0.1.0/download"
+    ],
+    "tag": [
+      "cli"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "c26729c8729748c15c338032736489e03113f1df26c16ab191e2de458f02960c",
+    "build_date": "2025-06-19T07:59:01Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752029469",
+    "build_id": "15752029469",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toddi/stable/toddi?tag=0.3.2-loongarch64-Linux&download=toddi.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A TODO focuser built on top of todo.",
+    "desktop_integration": "false",
+    "download_count": "1339",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toddi/stable/toddi?tag=0.3.2-loongarch64-Linux&download=toddi",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/toddi/stable/toddi:0.3.2-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/toddi/stable/toddi",
+    "homepage": [
+      "https://git.sr.ht/~ume_tantan/toddi"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-or-later"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toddi/stable/toddi?tag=0.3.2-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "toddi",
+    "pkg_family": "toddi",
+    "pkg_id": "pkgforge-cargo.toddi.stable",
+    "pkg_name": "toddi",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/toddi",
+    "portable": "true",
+    "provides": [
+      "toddi"
+    ],
+    "rank": "3447",
+    "recurse_provides": "false",
+    "shasum": "b4c0f913a1973a12939831f946331f6e611a7bca2e63bb99823bd0bee448cd06",
+    "size": "2.7 MB",
+    "size_raw": "2789240",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/toddi/0.3.2/download"
+    ],
+    "tag": [
+      "cli",
+      "todo"
+    ],
+    "trusted": "true",
+    "version": "0.3.2",
+    "version_upstream": "0.3.2"
+  },
+  {
+    "_disabled": "false",
     "bsum": "488f5bd10b8a19f2774d0af738b39bfdc83f152cab23d2499909cdc6eb80bf8e",
     "build_date": "2025-06-16T17:19:09Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15686585591",
@@ -225110,6 +227568,663 @@
   },
   {
     "_disabled": "false",
+    "bsum": "65cc0e7961d8d9e78e22fc786762d8d7adad707e3f722832eb4809fbc8cd8705",
+    "build_date": "2025-06-19T07:59:00Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752034634",
+    "build_id": "15752034634",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todo-cli-app/stable/todo-cli-app?tag=0.5.1-loongarch64-Linux&download=todo-cli-app.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "yet another todo CLI app written in Rust.",
+    "desktop_integration": "false",
+    "download_count": "1700",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todo-cli-app/stable/todo-cli-app?tag=0.5.1-loongarch64-Linux&download=todo-cli-app",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/todo-cli-app/stable/todo-cli-app:0.5.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/todo-cli-app/stable/todo-cli-app",
+    "homepage": [
+      "https://github.com/wujackwill/todo"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todo-cli-app/stable/todo-cli-app?tag=0.5.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "todo-cli-app",
+    "pkg_family": "todo-cli-app",
+    "pkg_id": "pkgforge-cargo.todo-cli-app.stable",
+    "pkg_name": "todo-cli-app",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/todo-cli-app",
+    "portable": "true",
+    "provides": [
+      "todo-cli-app"
+    ],
+    "rank": "3448",
+    "recurse_provides": "false",
+    "shasum": "cfa040a4f1221a084f1133c2a67cb81bdd0ff07c7b4011b3da29a797e432033f",
+    "size": "2.1 MB",
+    "size_raw": "2199320",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/todo-cli-app/0.5.1/download"
+    ],
+    "tag": [
+      "cli"
+    ],
+    "trusted": "true",
+    "version": "0.5.1",
+    "version_upstream": "0.5.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "36babaa9020035367d2333461ab4e91eeafc9a0319a30cdcd58445bfcaa90c94",
+    "build_date": "2025-06-19T08:01:47Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752077492",
+    "build_id": "15752077492",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todo-rust/stable/todo-rust?tag=1.0.1-loongarch64-Linux&download=todo-rust.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "CLI program to manage todo list.",
+    "desktop_integration": "false",
+    "download_count": "347",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todo-rust/stable/todo-rust?tag=1.0.1-loongarch64-Linux&download=todo-rust",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/todo-rust/stable/todo-rust:1.0.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/todo-rust/stable/todo-rust",
+    "homepage": [
+      "https://github.com/falcon71181/ToDo-rust"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todo-rust/stable/todo-rust?tag=1.0.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "todo-rust",
+    "pkg_family": "todo-rust",
+    "pkg_id": "pkgforge-cargo.todo-rust.stable",
+    "pkg_name": "todo-rust",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/todo-rust",
+    "portable": "true",
+    "provides": [
+      "todo-rust"
+    ],
+    "rank": "3450",
+    "recurse_provides": "false",
+    "shasum": "5593eec916cd3c941d87fa986aa7f51d35312f089bfdfea868277a2d8474acc9",
+    "size": "1.7 MB",
+    "size_raw": "1756952",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/todo-rust/1.0.1/download"
+    ],
+    "tag": [
+      "cli",
+      "todo"
+    ],
+    "trusted": "true",
+    "version": "1.0.1",
+    "version_upstream": "1.0.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "757d47bf47ebf749848506f6b804577f17b1465f507c648d0a2366b440ed6a76",
+    "build_date": "2025-06-19T08:03:30Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752079562",
+    "build_id": "15752079562",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todo-rust-demo/stable/todo-rust-demo?tag=0.1.0-loongarch64-Linux&download=todo-rust-demo.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A to-do CLI tool written in Rust.",
+    "desktop_integration": "false",
+    "download_count": "276",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todo-rust-demo/stable/todo-rust-demo?tag=0.1.0-loongarch64-Linux&download=todo-rust-demo",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/todo-rust-demo/stable/todo-rust-demo:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/todo-rust-demo/stable/todo-rust-demo",
+    "homepage": [
+      "https://github.com/SciMind2460/todo-rust"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todo-rust-demo/stable/todo-rust-demo?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "todo-rust-demo",
+    "pkg_family": "todo-rust-demo",
+    "pkg_id": "pkgforge-cargo.todo-rust-demo.stable",
+    "pkg_name": "todo-rust-demo",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/todo-rust-demo",
+    "portable": "true",
+    "provides": [
+      "todo-rust-demo"
+    ],
+    "rank": "3449",
+    "recurse_provides": "false",
+    "shasum": "20809a830618f8b3599a718254f4bfba378d71a844589ccd402d62f6ade1db49",
+    "size": "2.9 MB",
+    "size_raw": "3000288",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/todo-rust-demo/0.1.0/download"
+    ],
+    "tag": [
+      "cli",
+      "todo"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "9becacf1829bbcd8ac22c5b6dab5d0f026c904e7ba9a496a66fb82dd214e015b",
+    "build_date": "2025-06-19T08:03:01Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752082103",
+    "build_id": "15752082103",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todor/stable/todor?tag=1.10.0-loongarch64-Linux&download=todor.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "yet another cli TODO in Rust.",
+    "desktop_integration": "false",
+    "download_count": "1688",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todor/stable/todor?tag=1.10.0-loongarch64-Linux&download=todor",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/todor/stable/todor:1.10.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/todor/stable/todor",
+    "homepage": [
+      "https://github.com/jfding/todor"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todor/stable/todor?tag=1.10.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "todor",
+    "pkg_family": "todor",
+    "pkg_id": "pkgforge-cargo.todor.stable",
+    "pkg_name": "todor",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/todor",
+    "portable": "true",
+    "provides": [
+      "todor"
+    ],
+    "rank": "3451",
+    "recurse_provides": "false",
+    "shasum": "146f00f7e27227261d3dedc680c7cc5f9ee93d1e64041e78edb57f0793d13545",
+    "size": "3.4 MB",
+    "size_raw": "3496064",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/todor/1.10.0/download"
+    ],
+    "tag": [
+      "cli",
+      "rust",
+      "todo"
+    ],
+    "trusted": "true",
+    "version": "1.10.0",
+    "version_upstream": "1.10.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "fbba89a49babac0efc22707b83e2430246315534b31000232a386ea7e4c1f6cf",
+    "build_date": "2025-06-19T08:03:53Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752083433",
+    "build_id": "15752083433",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todotree-tui/stable/todotree-tui?tag=0.12.4-loongarch64-Linux&download=todotree-tui.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Simple change **TODO** flags in directory and subdirectory.",
+    "desktop_integration": "false",
+    "download_count": "2928",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todotree-tui/stable/todotree-tui?tag=0.12.4-loongarch64-Linux&download=todotree-tui",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/todotree-tui/stable/todotree-tui:0.12.4-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/todotree-tui/stable/todotree-tui",
+    "homepage": [
+      "https://github.com/Narfinger/todotree-tui"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-only"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todotree-tui/stable/todotree-tui?tag=0.12.4-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "todotree-tui",
+    "pkg_family": "todotree-tui",
+    "pkg_id": "pkgforge-cargo.todotree-tui.stable",
+    "pkg_name": "todotree-tui",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/todotree-tui",
+    "portable": "true",
+    "provides": [
+      "todotree-tui"
+    ],
+    "rank": "3452",
+    "recurse_provides": "false",
+    "shasum": "1bfeb4d615d969011d07a037c7d31eed05d23e575cbb6c59001caa938dd6750c",
+    "size": "2.8 MB",
+    "size_raw": "2904040",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/todotree-tui/0.12.4/download"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "trusted": "true",
+    "version": "0.12.4",
+    "version_upstream": "0.12.4"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "d410522d50ad9aa1b0f058e333c1adb2bb204aa3ede633ed5dd168abf21bd6d0",
+    "build_date": "2025-06-19T08:06:33Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752084559",
+    "build_id": "15752084559",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todotxt-tui/stable/todotxt-tui?tag=0.2.3-loongarch64-Linux&download=todotxt-tui.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Todo.",
+    "desktop_integration": "false",
+    "download_count": "1038",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todotxt-tui/stable/todotxt-tui?tag=0.2.3-loongarch64-Linux&download=todotxt-tui",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/todotxt-tui/stable/todotxt-tui:0.2.3-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/todotxt-tui/stable/todotxt-tui",
+    "homepage": [
+      "https://github.com/Fanteria/todotxt-tui"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todotxt-tui/stable/todotxt-tui?tag=0.2.3-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "todotxt-tui",
+    "pkg_family": "todotxt-tui",
+    "pkg_id": "pkgforge-cargo.todotxt-tui.stable",
+    "pkg_name": "todotxt-tui",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/todotxt-tui",
+    "portable": "true",
+    "provides": [
+      "todotxt-tui"
+    ],
+    "rank": "3453",
+    "recurse_provides": "false",
+    "shasum": "1d41593b7daba2a74a107dc467099d3938cac0e3d57c565a4914c41e9819baaa",
+    "size": "5.0 MB",
+    "size_raw": "5181488",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/todotxt-tui/0.2.3/download"
+    ],
+    "tag": [
+      "ratatui",
+      "todolist",
+      "tui"
+    ],
+    "trusted": "true",
+    "version": "0.2.3",
+    "version_upstream": "0.2.3"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "3be4ed7088cad80c5fe5cc76138626616f3095e8c2861879865fe8bd3738b6bc",
+    "build_date": "2025-06-19T08:08:44Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752085135",
+    "build_id": "15752085135",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todox/stable/todox?tag=0.0.1-loongarch64-Linux&download=todox.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple CLI todo list application.",
+    "desktop_integration": "false",
+    "download_count": "245",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todox/stable/todox?tag=0.0.1-loongarch64-Linux&download=todox",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/todox/stable/todox:0.0.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/todox/stable/todox",
+    "homepage": [
+      "https://github.com/gokh4nozturk/todox"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todox/stable/todox?tag=0.0.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "todox",
+    "pkg_family": "todox",
+    "pkg_id": "pkgforge-cargo.todox.stable",
+    "pkg_name": "todox",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/todox",
+    "portable": "true",
+    "provides": [
+      "todox"
+    ],
+    "rank": "3454",
+    "recurse_provides": "false",
+    "shasum": "7a7f602132f9a07ab0e2443106896ce819d36ff4d76440ddd7642ec1a5803b1d",
+    "size": "996 KB",
+    "size_raw": "1019760",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/todox/0.0.1/download"
+    ],
+    "tag": [
+      "cli",
+      "productivity",
+      "task",
+      "todo"
+    ],
+    "trusted": "true",
+    "version": "0.0.1",
+    "version_upstream": "0.0.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "c1ec9c0b09ddef33cc9d37f743cfa87463df02a8b633812be169a38dfe4ed57b",
+    "build_date": "2025-06-19T08:06:30Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752085110",
+    "build_id": "15752085110",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todoz/stable/todoz?tag=1.1.0-loongarch64-Linux&download=todoz.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A mindful CLI task manager blending zen aesthetics with modern functionality.",
+    "desktop_integration": "false",
+    "download_count": "332",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todoz/stable/todoz?tag=1.1.0-loongarch64-Linux&download=todoz",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/todoz/stable/todoz:1.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/todoz/stable/todoz",
+    "homepage": [
+      "https://github.com/sangeeth-606/todoZ"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/todoz/stable/todoz?tag=1.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "todoz",
+    "pkg_family": "todoz",
+    "pkg_id": "pkgforge-cargo.todoz.stable",
+    "pkg_name": "todoz",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/todoz",
+    "portable": "true",
+    "provides": [
+      "todoz"
+    ],
+    "rank": "3455",
+    "recurse_provides": "false",
+    "shasum": "ad038e8ac1ea797eb9b6db66869e298e0054b191d43ff4f95cf99a3c849fa1fa",
+    "size": "564 KB",
+    "size_raw": "577296",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/todoz/1.1.0/download"
+    ],
+    "tag": [
+      "cli",
+      "mindful",
+      "productivity",
+      "todo",
+      "zen"
+    ],
+    "trusted": "true",
+    "version": "1.1.0",
+    "version_upstream": "1.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "865cd3ef51ee0d9e06c0de291cae8ef0a4818a6486775211f97a1428211c905c",
+    "build_date": "2025-06-19T08:07:10Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752086795",
+    "build_id": "15752086795",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toetactic/stable/toetactic?tag=0.1.1-loongarch64-Linux&download=toetactic.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A Tic Tac Toe game for your terminal.",
+    "desktop_integration": "false",
+    "download_count": "387",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toetactic/stable/toetactic?tag=0.1.1-loongarch64-Linux&download=toetactic",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/toetactic/stable/toetactic:0.1.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/toetactic/stable/toetactic",
+    "homepage": [
+      "https://github.com/prawnydagrate/toetactic"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toetactic/stable/toetactic?tag=0.1.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "toetactic",
+    "pkg_family": "toetactic",
+    "pkg_id": "pkgforge-cargo.toetactic.stable",
+    "pkg_name": "toetactic",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/toetactic",
+    "portable": "true",
+    "provides": [
+      "toetactic"
+    ],
+    "rank": "3456",
+    "recurse_provides": "false",
+    "shasum": "1638b4adc0b1c35556c538e28804dda82bff0fe5b1fa629b2500eaf4d02c966f",
+    "size": "884 KB",
+    "size_raw": "905160",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/toetactic/0.1.1/download"
+    ],
+    "tag": [
+      "algorithm",
+      "engine",
+      "minimax",
+      "tictactoe",
+      "tui"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "41395f6dff902e339e381a8c93c1301c167cdeecc9b217842fb4c75ac8dc6b8d",
+    "build_date": "2025-06-19T08:09:47Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752110866",
+    "build_id": "15752110866",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toggle-touchpad/stable/toggle-touchpad?tag=0.1.0-loongarch64-Linux&download=toggle-touchpad.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A command-line utility for enabling/disabling the touchpad.",
+    "desktop_integration": "false",
+    "download_count": "315",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toggle-touchpad/stable/toggle-touchpad?tag=0.1.0-loongarch64-Linux&download=toggle-touchpad",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/toggle-touchpad/stable/toggle-touchpad:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/toggle-touchpad/stable/toggle-touchpad",
+    "homepage": [
+      "https://github.com/Juici/toggle-touchpad"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toggle-touchpad/stable/toggle-touchpad?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "toggle-touchpad",
+    "pkg_family": "toggle-touchpad",
+    "pkg_id": "pkgforge-cargo.toggle-touchpad.stable",
+    "pkg_name": "toggle-touchpad",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/toggle-touchpad",
+    "portable": "true",
+    "provides": [
+      "toggle-touchpad"
+    ],
+    "rank": "3457",
+    "recurse_provides": "false",
+    "shasum": "993f729b7a8a6b9dd6d0c8fa302d5edb1ea3e64a69e49e93f69fbe67527d6976",
+    "size": "1.2 MB",
+    "size_raw": "1184984",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/toggle-touchpad/0.1.0/download"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "32a838865c13e7415174373ff37ab56512f51b1a47507efa4a42fd44a58405d2",
     "build_date": "2025-06-15T01:48:40Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15657746851",
@@ -225155,7 +228270,7 @@
     "provides": [
       "tohaya"
     ],
-    "rank": "3412",
+    "rank": "3458",
     "recurse_provides": "false",
     "shasum": "6ffc78c0d9bace0038a3e082bbf986f5d078086503c1eac08cfe2e58c48ef1e4",
     "size": "2.1 MB",
@@ -225174,6 +228289,142 @@
     "trusted": "true",
     "version": "0.0.1",
     "version_upstream": "0.0.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "eaddfddd90ba3b3080b115605ae8ebb97c13532573c4cfb81d39e37632a5be9a",
+    "build_date": "2025-06-19T08:13:43Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752129332",
+    "build_id": "15752129332",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tokay/stable/tokay?tag=0.6.8-loongarch64-Linux&download=tokay.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Tokay is a programming language designed for ad-hoc parsing.",
+    "desktop_integration": "false",
+    "download_count": "3773",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tokay/stable/tokay?tag=0.6.8-loongarch64-Linux&download=tokay",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tokay/stable/tokay:0.6.8-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tokay/stable/tokay",
+    "homepage": [
+      "https://github.com/tokay-lang/tokay/"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tokay/stable/tokay?tag=0.6.8-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tokay",
+    "pkg_family": "tokay",
+    "pkg_id": "pkgforge-cargo.tokay.stable",
+    "pkg_name": "tokay",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tokay",
+    "portable": "true",
+    "provides": [
+      "tokay"
+    ],
+    "rank": "3459",
+    "recurse_provides": "false",
+    "shasum": "30df4240ca056540fe9dede8f67638bb16cf3e6903ae686eaf3f522258e4f9dc",
+    "size": "5.5 MB",
+    "size_raw": "5754760",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tokay/0.6.8/download"
+    ],
+    "tag": [
+      "awk",
+      "dsl",
+      "packrat",
+      "parser",
+      "vm"
+    ],
+    "trusted": "true",
+    "version": "0.6.8",
+    "version_upstream": "0.6.8"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "3fdef8c9dbfc3cdfd2cad2fa5197c21301827c49c73bd746437a0c8b7b0d5aea",
+    "build_date": "2025-06-19T08:11:47Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752129656",
+    "build_id": "15752129656",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toke-runner/stable/toke?tag=0.1.4-loongarch64-Linux&download=toke.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A command runner for toml files.",
+    "desktop_integration": "false",
+    "download_count": "791",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toke-runner/stable/toke?tag=0.1.4-loongarch64-Linux&download=toke",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/toke-runner/stable/toke:0.1.4-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/toke-runner/stable/toke",
+    "homepage": [
+      "https://github.com/afonsofrancof/toke"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toke-runner/stable/toke?tag=0.1.4-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "toke",
+    "pkg_family": "toke-runner",
+    "pkg_id": "pkgforge-cargo.toke-runner.stable",
+    "pkg_name": "toke",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/toke-runner",
+    "portable": "true",
+    "provides": [
+      "toke"
+    ],
+    "rank": "3460",
+    "recurse_provides": "false",
+    "shasum": "6c1938a45f8d19964b7274942eed9fb107fb1cba64c76ef0b7f93f71feef1053",
+    "size": "2.4 MB",
+    "size_raw": "2428696",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/toke-runner/0.1.4/download"
+    ],
+    "tag": [
+      "cli",
+      "command",
+      "runner",
+      "toke",
+      "toml"
+    ],
+    "trusted": "true",
+    "version": "0.1.4",
+    "version_upstream": "0.1.4"
   },
   {
     "_disabled": "false",
@@ -225222,7 +228473,7 @@
     "provides": [
       "tokei"
     ],
-    "rank": "3413",
+    "rank": "3461",
     "recurse_provides": "false",
     "shasum": "1f9fdfa47ebdecff5389c8113e579d06b6e38f35a5aaeabd0b73b56edcf60633",
     "size": "4.4 MB",
@@ -225244,6 +228495,71 @@
     "trusted": "true",
     "version": "13.0.0-alpha.8",
     "version_upstream": "13.0.0-alpha.8"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "35c0251f8e7f00e9bbe7841cf7f2a85be69a29dce73905b67ccd3bd0d4f874d3",
+    "build_date": "2025-06-19T08:13:21Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752132761",
+    "build_id": "15752132761",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tokenize-cli/stable/tokenize?tag=0.1.1-loongarch64-Linux&download=tokenize.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Tokenize your codebase blazingly fast into a single file for LLM Context 🚀🤖.",
+    "desktop_integration": "false",
+    "download_count": "335",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tokenize-cli/stable/tokenize?tag=0.1.1-loongarch64-Linux&download=tokenize",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tokenize-cli/stable/tokenize:0.1.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tokenize-cli/stable/tokenize",
+    "homepage": [
+      "https://github.com/DefinitelyNotSimon13/tokenize"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tokenize-cli/stable/tokenize?tag=0.1.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tokenize",
+    "pkg_family": "tokenize-cli",
+    "pkg_id": "pkgforge-cargo.tokenize-cli.stable",
+    "pkg_name": "tokenize",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tokenize-cli",
+    "portable": "true",
+    "provides": [
+      "tokenize"
+    ],
+    "rank": "3462",
+    "recurse_provides": "false",
+    "shasum": "3de720779ebca856d0a17a30cc92331f2fc64c9569a88247079eb2b08c8605ad",
+    "size": "2.1 MB",
+    "size_raw": "2101136",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tokenize-cli/0.1.1/download"
+    ],
+    "tag": [
+      "ai",
+      "files"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
   },
   {
     "_disabled": "false",
@@ -225292,7 +228608,7 @@
     "provides": [
       "tokio-console"
     ],
-    "rank": "3414",
+    "rank": "3463",
     "recurse_provides": "false",
     "shasum": "cb92f013a8042cbcb158859459baf278756a163b30e33286eeda1fe44616b74c",
     "size": "6.7 MB",
@@ -225312,6 +228628,137 @@
     "trusted": "true",
     "version": "0.1.13",
     "version_upstream": "0.1.13"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "0eb4f888b187179adeac8c28c7b70f4be15971e22774d10ba45a1c8dad00e587",
+    "build_date": "2025-06-19T08:14:10Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752147731",
+    "build_id": "15752147731",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tomate/stable/tomate?tag=0.4.0-loongarch64-Linux&download=tomate.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A Pomodoro CLI tool.",
+    "desktop_integration": "false",
+    "download_count": "904",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tomate/stable/tomate?tag=0.4.0-loongarch64-Linux&download=tomate",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tomate/stable/tomate:0.4.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tomate/stable/tomate",
+    "homepage": [
+      "https://github.com/Cantido/tomate"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "AGPL-3.0-or-later"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tomate/stable/tomate?tag=0.4.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tomate",
+    "pkg_family": "tomate",
+    "pkg_id": "pkgforge-cargo.tomate.stable",
+    "pkg_name": "tomate",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tomate",
+    "portable": "true",
+    "provides": [
+      "tomate"
+    ],
+    "rank": "3465",
+    "recurse_provides": "false",
+    "shasum": "4ec08df9991db93a7e9901b274d415abf89449ddea949d3ed231f8e527982ef6",
+    "size": "3.2 MB",
+    "size_raw": "3313624",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tomate/0.4.0/download"
+    ],
+    "tag": [
+      "cli",
+      "pomodoro"
+    ],
+    "trusted": "true",
+    "version": "0.4.0",
+    "version_upstream": "0.4.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "ca9672e541e8a0ac011a86fc7f90761027bcea460a48b82b319ab859990c14cc",
+    "build_date": "2025-06-19T08:14:39Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752164708",
+    "build_id": "15752164708",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toml-patch/stable/toml-patch?tag=0.1.0-loongarch64-Linux&download=toml-patch.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A command-line tool to apply updates from a JSON file to a TOML file, while preserving comments.",
+    "desktop_integration": "false",
+    "download_count": "200",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toml-patch/stable/toml-patch?tag=0.1.0-loongarch64-Linux&download=toml-patch",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/toml-patch/stable/toml-patch:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/toml-patch/stable/toml-patch",
+    "homepage": [
+      "https://git.push-f.com/toml-patch/"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toml-patch/stable/toml-patch?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "toml-patch",
+    "pkg_family": "toml-patch",
+    "pkg_id": "pkgforge-cargo.toml-patch.stable",
+    "pkg_name": "toml-patch",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/toml-patch",
+    "portable": "true",
+    "provides": [
+      "toml-patch"
+    ],
+    "rank": "3466",
+    "recurse_provides": "false",
+    "shasum": "2105047ff8ddd54f2c40ed997558d9e72527713f72349f32dc623166a4cfccae",
+    "size": "772 KB",
+    "size_raw": "790288",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/toml-patch/0.1.0/download"
+    ],
+    "tag": [
+      "cli",
+      "json",
+      "toml"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
   },
   {
     "_disabled": "false",
@@ -225594,7 +229041,7 @@
     "provides": [
       "tomli"
     ],
-    "rank": "3415",
+    "rank": "3467",
     "recurse_provides": "false",
     "shasum": "d4646988f51888efe911eaf8acd8f711892f4623330895a605ade0cbf054c9c0",
     "size": "1.2 MB",
@@ -225610,6 +229057,72 @@
     "trusted": "true",
     "version": "0.3.0",
     "version_upstream": "0.3.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "5c844cfbbf9fa613b6f7ba1559a05bb0a9e539e4d15372bd772c97e3bb9dd764",
+    "build_date": "2025-06-19T08:15:51Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752169495",
+    "build_id": "15752169495",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tomo/stable/tomo?tag=0.2.1-loongarch64-Linux&download=tomo.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "tomo is a no-frills pomodoro progress indicator for tmux.",
+    "desktop_integration": "false",
+    "download_count": "195",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tomo/stable/tomo?tag=0.2.1-loongarch64-Linux&download=tomo",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tomo/stable/tomo:0.2.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tomo/stable/tomo",
+    "homepage": [
+      "https://github.com/dhth/tomo"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tomo/stable/tomo?tag=0.2.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tomo",
+    "pkg_family": "tomo",
+    "pkg_id": "pkgforge-cargo.tomo.stable",
+    "pkg_name": "tomo",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tomo",
+    "portable": "true",
+    "provides": [
+      "tomo"
+    ],
+    "rank": "3469",
+    "recurse_provides": "false",
+    "shasum": "4f360ef1d60a06d32cb08cff07511550dc0576b753662f2351aece69765a200c",
+    "size": "916 KB",
+    "size_raw": "937744",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tomo/0.2.1/download"
+    ],
+    "tag": [
+      "cli",
+      "pomodoro",
+      "time-tracking"
+    ],
+    "trusted": "true",
+    "version": "0.2.1",
+    "version_upstream": "0.2.1"
   },
   {
     "_disabled": "false",
@@ -225746,6 +229259,136 @@
   },
   {
     "_disabled": "false",
+    "bsum": "5644bbf66ce67dab523c3b66af74aaf0ece6c1d7598a518a3d795607761ef287",
+    "build_date": "2025-06-19T08:17:05Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752171682",
+    "build_id": "15752171682",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toolforge/stable/toolforge-tunnel?tag=5.8.0-loongarch64-Linux&download=toolforge-tunnel.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Small library for common tasks on Wikimedia Toolforge.",
+    "desktop_integration": "false",
+    "download_count": "3107",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toolforge/stable/toolforge-tunnel?tag=5.8.0-loongarch64-Linux&download=toolforge-tunnel",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/toolforge/stable/toolforge-tunnel:5.8.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/toolforge/stable/toolforge-tunnel",
+    "homepage": [
+      "https://gitlab.wikimedia.org/repos/mwbot-rs/toolforge"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-or-later"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toolforge/stable/toolforge-tunnel?tag=5.8.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "toolforge-tunnel",
+    "pkg_family": "toolforge",
+    "pkg_id": "pkgforge-cargo.toolforge.stable",
+    "pkg_name": "toolforge-tunnel",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/toolforge",
+    "portable": "true",
+    "provides": [
+      "toolforge-tunnel"
+    ],
+    "rank": "3470",
+    "recurse_provides": "false",
+    "shasum": "3f25ab6c11a8eb101faa9253c7e6ea35b573dca8cb5602618195adbc6b668152",
+    "size": "1.2 MB",
+    "size_raw": "1249224",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/toolforge/5.8.0/download"
+    ],
+    "tag": [
+      "toolforge",
+      "wikimedia"
+    ],
+    "trusted": "true",
+    "version": "5.8.0",
+    "version_upstream": "5.8.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "ca6f3b625327c36a51db388ace837a1546089541a1e0c4e65971905870165c1b",
+    "build_date": "2025-06-19T08:17:06Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752185148",
+    "build_id": "15752185148",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toor/stable/toor?tag=0.4.0-loongarch64-Linux&download=toor.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Find project root.",
+    "desktop_integration": "false",
+    "download_count": "679",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toor/stable/toor?tag=0.4.0-loongarch64-Linux&download=toor",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/toor/stable/toor:0.4.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/toor/stable/toor",
+    "homepage": [
+      "https://github.com/azzamsa/toor"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toor/stable/toor?tag=0.4.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "toor",
+    "pkg_family": "toor",
+    "pkg_id": "pkgforge-cargo.toor.stable",
+    "pkg_name": "toor",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/toor",
+    "portable": "true",
+    "provides": [
+      "toor"
+    ],
+    "rank": "3471",
+    "recurse_provides": "false",
+    "shasum": "ff460b854b57767f01656b313a40e6dd79bf24f8e594e3e9cb91df76e3af5422",
+    "size": "1.1 MB",
+    "size_raw": "1085200",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/toor/0.4.0/download"
+    ],
+    "tag": [
+      "cli",
+      "root"
+    ],
+    "trusted": "true",
+    "version": "0.4.0",
+    "version_upstream": "0.4.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "e2307872fbb403da9811e74da340c30f0d51a6ab42d07d915df6af00730d0b67",
     "build_date": "2025-06-14T14:10:48Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15652544997",
@@ -225791,7 +229434,7 @@
     "provides": [
       "topgrade"
     ],
-    "rank": "3417",
+    "rank": "3472",
     "recurse_provides": "false",
     "shasum": "e147736614d33339eed67db4aab905e96770f1dc17e5b8eb1fc27ab3d17c3802",
     "size": "11 MB",
@@ -225808,6 +229451,139 @@
     "trusted": "true",
     "version": "16.0.4",
     "version_upstream": "16.0.4"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "5d05dc932aa951663d2b298dbf8cf124a8a9dd7162056ae83a16e8867069f146",
+    "build_date": "2025-06-19T08:21:36Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752201272",
+    "build_id": "15752201272",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toq/stable/toq?tag=0.1.0-loongarch64-Linux&download=toq.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A small binary that allows for quick parsing of toml files.",
+    "desktop_integration": "false",
+    "download_count": "210",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toq/stable/toq?tag=0.1.0-loongarch64-Linux&download=toq",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/toq/stable/toq:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/toq/stable/toq",
+    "homepage": [
+      "https://gitlab.com/mxcr_cpu/aq"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toq/stable/toq?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "toq",
+    "pkg_family": "toq",
+    "pkg_id": "pkgforge-cargo.toq.stable",
+    "pkg_name": "toq",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/toq",
+    "portable": "true",
+    "provides": [
+      "toq"
+    ],
+    "rank": "3473",
+    "recurse_provides": "false",
+    "shasum": "cda1584a02a22a5d42870830cace77f658265584e9592882bd110f768a3bae14",
+    "size": "740 KB",
+    "size_raw": "757520",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/toq/0.1.0/download"
+    ],
+    "tag": [
+      "binary",
+      "toml",
+      "tool"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "240e13bfc73d80ccd3698c88b9f52108793e99bb8dcde75d3c07ea444a82b26e",
+    "build_date": "2025-06-19T08:23:03Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752222336",
+    "build_id": "15752222336",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/torudo/stable/torudo?tag=0.2.0-loongarch64-Linux&download=torudo.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A terminal-based todo.",
+    "desktop_integration": "false",
+    "download_count": "359",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/torudo/stable/torudo?tag=0.2.0-loongarch64-Linux&download=torudo",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/torudo/stable/torudo:0.2.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/torudo/stable/torudo",
+    "homepage": [
+      "https://github.com/maedana/torudo"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/torudo/stable/torudo?tag=0.2.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "torudo",
+    "pkg_family": "torudo",
+    "pkg_id": "pkgforge-cargo.torudo.stable",
+    "pkg_name": "torudo",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/torudo",
+    "portable": "true",
+    "provides": [
+      "torudo"
+    ],
+    "rank": "3474",
+    "recurse_provides": "false",
+    "shasum": "0a0df0b7baa062c6e9b5cb1b06527fa2eab18151e0853604a63bb1453b82f5b0",
+    "size": "2.4 MB",
+    "size_raw": "2461672",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/torudo/0.2.0/download"
+    ],
+    "tag": [
+      "terminal",
+      "todo",
+      "todotxt",
+      "tui"
+    ],
+    "trusted": "true",
+    "version": "0.2.0",
+    "version_upstream": "0.2.0"
   },
   {
     "_disabled": "false",
@@ -225872,6 +229648,140 @@
     "trusted": "true",
     "version": "0.5.5",
     "version_upstream": "0.5.5"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "73d1106eb03f9f050db4bbade5270606729b89de50644c8df6e36114b19d372b",
+    "build_date": "2025-06-19T08:22:59Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752230403",
+    "build_id": "15752230403",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/totpc/stable/totpc?tag=1.1.0-loongarch64-Linux&download=totpc.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Desktop CLI tool to manage and compute TOTPs.",
+    "desktop_integration": "false",
+    "download_count": "492",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/totpc/stable/totpc?tag=1.1.0-loongarch64-Linux&download=totpc",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/totpc/stable/totpc:1.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/totpc/stable/totpc",
+    "homepage": [
+      "https://gitlab.com/jost-s/totp-store"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/totpc/stable/totpc?tag=1.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "totpc",
+    "pkg_family": "totpc",
+    "pkg_id": "pkgforge-cargo.totpc.stable",
+    "pkg_name": "totpc",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/totpc",
+    "portable": "true",
+    "provides": [
+      "totpc"
+    ],
+    "rank": "3475",
+    "recurse_provides": "false",
+    "shasum": "384dab7915f77e08df58214db91d1e4e5700eef5f0a841c889758df4ff7f8675",
+    "size": "548 KB",
+    "size_raw": "560912",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/totpc/1.1.0/download"
+    ],
+    "tag": [
+      "cli",
+      "gpg",
+      "store",
+      "totp"
+    ],
+    "trusted": "true",
+    "version": "1.1.0",
+    "version_upstream": "1.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "044c0654ca9aa7ff71d64095c11b4bd0d2b13d83d96f9d39182e8c4fd57a2e0e",
+    "build_date": "2025-06-19T08:24:27Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15752238261",
+    "build_id": "15752238261",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/touch-cli/stable/touch?tag=1.2.0-loongarch64-Linux&download=touch.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Fast, Parallelized touch(1) file utility.",
+    "desktop_integration": "false",
+    "download_count": "2579",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/touch-cli/stable/touch?tag=1.2.0-loongarch64-Linux&download=touch",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/touch-cli/stable/touch:1.2.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/touch-cli/stable/touch",
+    "homepage": [
+      "https://gitlab.com/hsn10/touch-rs.git"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/touch-cli/stable/touch?tag=1.2.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "touch",
+    "pkg_family": "touch-cli",
+    "pkg_id": "pkgforge-cargo.touch-cli.stable",
+    "pkg_name": "touch",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/touch-cli",
+    "portable": "true",
+    "provides": [
+      "touch"
+    ],
+    "rank": "3476",
+    "recurse_provides": "false",
+    "shasum": "09c89cb92ae08a34beb3ba867db37968e85547f96b23dff7c2c2de38be3f69d2",
+    "size": "836 KB",
+    "size_raw": "855952",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/touch-cli/1.2.0/download"
+    ],
+    "tag": [
+      "cli",
+      "file",
+      "touch",
+      "utility"
+    ],
+    "trusted": "true",
+    "version": "1.2.0",
+    "version_upstream": "1.2.0"
   },
   {
     "_disabled": "false",
@@ -225988,7 +229898,7 @@
     "provides": [
       "tq"
     ],
-    "rank": "3416",
+    "rank": "3468",
     "recurse_provides": "false",
     "shasum": "6b5aa3d705fd4e5c811419cd0e061bf1efd4030fe22f8f451b8a2c040a7ca415",
     "size": "4.2 MB",
@@ -226189,7 +230099,7 @@
     "provides": [
       "tre"
     ],
-    "rank": "3419",
+    "rank": "3478",
     "recurse_provides": "false",
     "shasum": "d991e254165baaf18665f752ab2979111cc79ac31d3532e9f17f3484190c555b",
     "size": "2.0 MB",
@@ -226319,7 +230229,7 @@
     "provides": [
       "tree_gen"
     ],
-    "rank": "3421",
+    "rank": "3480",
     "recurse_provides": "false",
     "shasum": "90966a5a2db2d31fb03e2ca2c3576086cea838465b138de986ecbd3e4442a37b",
     "size": "2.1 MB",
@@ -226387,7 +230297,7 @@
     "provides": [
       "treee"
     ],
-    "rank": "3422",
+    "rank": "3481",
     "recurse_provides": "false",
     "shasum": "603808d58c83cedf8dc2ce6418916259f6c716b15f79c788e792cc7ebf960c4d",
     "size": "2.4 MB",
@@ -226455,7 +230365,7 @@
     "provides": [
       "trip"
     ],
-    "rank": "3423",
+    "rank": "3482",
     "recurse_provides": "false",
     "shasum": "0af939e9627318b87b851c9f57e9cfb7f9813c94d1d1aa2855ab85ff56547aa0",
     "size": "8.2 MB",
@@ -226523,7 +230433,7 @@
     "provides": [
       "trixy"
     ],
-    "rank": "3424",
+    "rank": "3483",
     "recurse_provides": "false",
     "shasum": "6519d170e87274c7eb4a4c2702abd92d2bec90320d509f37ba5495948ec7b4be",
     "size": "4.3 MB",
@@ -226589,7 +230499,7 @@
     "provides": [
       "trmt"
     ],
-    "rank": "3425",
+    "rank": "3484",
     "recurse_provides": "false",
     "shasum": "d72a1dda8133b1588aa0baf0248ad2b0962c5eee3291e1c9584f222950b30afb",
     "size": "1.4 MB",
@@ -226726,7 +230636,7 @@
     "provides": [
       "ttdl"
     ],
-    "rank": "3426",
+    "rank": "3485",
     "recurse_provides": "false",
     "shasum": "3abdf66ddbe9bad7892d155cc905fa0863a39d562494b9833576bd56e20677e9",
     "size": "2.9 MB",
@@ -226794,7 +230704,7 @@
     "provides": [
       "ttfb"
     ],
-    "rank": "3427",
+    "rank": "3486",
     "recurse_provides": "false",
     "shasum": "0306162d06501e4d2767e94d16e82f013dd2b0f0aa0349713140b2ea2582647e",
     "size": "3.4 MB",
@@ -226861,7 +230771,7 @@
     "provides": [
       "tuc"
     ],
-    "rank": "3428",
+    "rank": "3487",
     "recurse_provides": "false",
     "shasum": "4b441d6c0814ce2e957ed2d22be975614f690aacaf705834b959aad081c09c31",
     "size": "1.2 MB",
@@ -226927,7 +230837,7 @@
     "provides": [
       "tuckr"
     ],
-    "rank": "3429",
+    "rank": "3488",
     "recurse_provides": "false",
     "shasum": "5eddd76affe43f61793cb03aefa6d2b7d205337b312a81d65ff532e60cba488e",
     "size": "1.7 MB",
@@ -226993,7 +230903,7 @@
     "provides": [
       "tukai"
     ],
-    "rank": "3430",
+    "rank": "3489",
     "recurse_provides": "false",
     "shasum": "a9adc80981435ccc06fd7a2570d13d8f563c98fa4304b8d37f8a991a009e2ccb",
     "size": "1.3 MB",
@@ -227125,7 +231035,7 @@
     "provides": [
       "typeshare"
     ],
-    "rank": "3431",
+    "rank": "3490",
     "recurse_provides": "false",
     "shasum": "76f8c7968265dbf69eb2d3f539289973b315c23326d49c5573efac5684e55c9c",
     "size": "5.9 MB",
@@ -227189,7 +231099,7 @@
     "provides": [
       "typos"
     ],
-    "rank": "3432",
+    "rank": "3491",
     "recurse_provides": "false",
     "shasum": "c24524621c68679ee22c5dad1ab9e73090876cf6d5de5cf9e9024d7fcc6bdddc",
     "size": "9.2 MB",
@@ -227254,7 +231164,7 @@
     "provides": [
       "typst-lsp"
     ],
-    "rank": "3433",
+    "rank": "3492",
     "recurse_provides": "false",
     "shasum": "f45f93c0cffa4d4a8b61b392d0f3690bd046e92fefb42c1f3e31764bea651d9b",
     "size": "420 KB",
@@ -227318,7 +231228,7 @@
     "provides": [
       "typstyle"
     ],
-    "rank": "3434",
+    "rank": "3493",
     "recurse_provides": "false",
     "shasum": "17b2154ecaf84862aa7e7fb04baabeb93fdad7d1de187a47d2fc0697330ca147",
     "size": "1.7 MB",
@@ -227382,7 +231292,7 @@
     "provides": [
       "ubi"
     ],
-    "rank": "3435",
+    "rank": "3494",
     "recurse_provides": "false",
     "shasum": "94a9129e9f679d12340203e1270477b6725afd3f3b296ce6720cee7a218e8245",
     "size": "5.1 MB",
@@ -227446,7 +231356,7 @@
     "provides": [
       "ubilerntui"
     ],
-    "rank": "3436",
+    "rank": "3495",
     "recurse_provides": "false",
     "shasum": "17930ce3e4b2d0b30ab784bd641371296bf264b3521e45d2c8f6efbbb304b314",
     "size": "7.6 MB",
@@ -227578,7 +231488,7 @@
     "provides": [
       "uncomment"
     ],
-    "rank": "3437",
+    "rank": "3496",
     "recurse_provides": "false",
     "shasum": "8562c1a053c2269026adad3689fafb98e8ec034cfe1c76e1799b52f6138a061a",
     "size": "2.3 MB",
@@ -227644,7 +231554,7 @@
     "provides": [
       "uniqs"
     ],
-    "rank": "3439",
+    "rank": "3498",
     "recurse_provides": "false",
     "shasum": "06db406eb107b143a2a2d4ae4d064a23e5e4c7a1878ec579f14586f4e97d5aba",
     "size": "1.1 MB",
@@ -227906,7 +231816,7 @@
     "provides": [
       "usage"
     ],
-    "rank": "3440",
+    "rank": "3499",
     "recurse_provides": "false",
     "shasum": "54a9019bbe6818254dda4535c28f3ea7b5a6bf700600abd10dc4819db9893777",
     "size": "6.7 MB",
@@ -227970,7 +231880,7 @@
     "provides": [
       "uuinfo"
     ],
-    "rank": "3441",
+    "rank": "3500",
     "recurse_provides": "false",
     "shasum": "ad29d44dc29d4e220a2bb91a89668c4ddf12943d5c921d7dc05300ac9d26db1d",
     "size": "1.4 MB",
@@ -228038,7 +231948,7 @@
     "provides": [
       "uv-migrator"
     ],
-    "rank": "3442",
+    "rank": "3501",
     "recurse_provides": "false",
     "shasum": "0667143a32a1451993be03e08f790376b9bae8dddbc95dd0d2401f56eddeb232",
     "size": "5.8 MB",
@@ -228103,7 +232013,7 @@
     "provides": [
       "uwu_colors"
     ],
-    "rank": "3443",
+    "rank": "3502",
     "recurse_provides": "false",
     "shasum": "35a649f0d7a5233d1c0d8afff271eaa09a13da1aeb2e52c4e994e2ecfdc9925d",
     "size": "4.2 MB",
@@ -228300,7 +232210,7 @@
     "provides": [
       "verylup"
     ],
-    "rank": "3444",
+    "rank": "3503",
     "recurse_provides": "false",
     "shasum": "5c4f7e25df06817cc2aecc7357cde4ea739b46963a949a80a13146c283ab34c8",
     "size": "4.3 MB",
@@ -228364,7 +232274,7 @@
     "provides": [
       "vew"
     ],
-    "rank": "3445",
+    "rank": "3504",
     "recurse_provides": "false",
     "shasum": "b8f437c88055f461df0fee4e69cd68198ca356d1161d80e86ce222dc4efd0df9",
     "size": "12 MB",
@@ -228494,7 +232404,7 @@
     "provides": [
       "vex2pdf"
     ],
-    "rank": "3446",
+    "rank": "3505",
     "recurse_provides": "false",
     "shasum": "a222d7d76548d334e57d6aa4ebdabcb3183b1a058a91c34bf171b87011b19f86",
     "size": "5.6 MB",
@@ -228562,7 +232472,7 @@
     "provides": [
       "viddy"
     ],
-    "rank": "3447",
+    "rank": "3506",
     "recurse_provides": "false",
     "shasum": "181858e9328d86ca6de749b9f23deeb54bf421512ce3e534cc3a4cd44bf787f2",
     "size": "7.4 MB",
@@ -228626,7 +232536,7 @@
     "provides": [
       "view-disk"
     ],
-    "rank": "3448",
+    "rank": "3507",
     "recurse_provides": "false",
     "shasum": "69e718c442d6058d04732e1f494610cceaa8222bb72e62e5ab727e5ec0142ea1",
     "size": "1.4 MB",
@@ -228690,7 +232600,7 @@
     "provides": [
       "volo"
     ],
-    "rank": "3449",
+    "rank": "3508",
     "recurse_provides": "false",
     "shasum": "56428402a94eeafec870a2ce189d5a1371e39cb29ead9c553b98f9670f15d020",
     "size": "8.7 MB",
@@ -228758,7 +232668,7 @@
     "provides": [
       "vopono"
     ],
-    "rank": "3450",
+    "rank": "3509",
     "recurse_provides": "false",
     "shasum": "d642830631a64a32c78032f1d20201f48778b5c85110d373e4dc80394f495272",
     "size": "8.5 MB",
@@ -228826,7 +232736,7 @@
     "provides": [
       "vscode-workspace-gen"
     ],
-    "rank": "3451",
+    "rank": "3510",
     "recurse_provides": "false",
     "shasum": "a97cc1ac037d6248d95307ad65cce1d30354c2ac8079a75e13a73352ddb6ccaf",
     "size": "2.4 MB",
@@ -228892,7 +232802,7 @@
       "auto_serve",
       "waj"
     ],
-    "rank": "3453",
+    "rank": "3512",
     "recurse_provides": "false",
     "shasum": "cf2a53fad52a808e072d03b6ecbf4198e5078a992e64522edfd055bb96a82627",
     "size": "4.7 MB",
@@ -228958,7 +232868,7 @@
     "provides": [
       "wallrust"
     ],
-    "rank": "3454",
+    "rank": "3513",
     "recurse_provides": "false",
     "shasum": "0fdb101012d71904957992e8d17910cecccf0ebab0ab1c868b8159ef03ecbd4f",
     "size": "5.4 MB",
@@ -229026,7 +232936,7 @@
     "provides": [
       "wallust"
     ],
-    "rank": "3455",
+    "rank": "3514",
     "recurse_provides": "false",
     "shasum": "b0c7d48bdc84cfb79ed6087c3cd0df8f9df4110a3447b5f179565cafeb96197a",
     "size": "4.8 MB",
@@ -229095,7 +233005,7 @@
       "wasm-bindgen-test-runner",
       "wasm2es6js"
     ],
-    "rank": "3457",
+    "rank": "3516",
     "recurse_provides": "false",
     "shasum": "2dcee21bd8247f9fd969f447bd9972d59cc33515a0d1d698691ef60e7092b0e4",
     "size": "4.4 MB",
@@ -229161,7 +233071,7 @@
       "wasm-bindgen-test-runner",
       "wasm2es6js"
     ],
-    "rank": "3456",
+    "rank": "3515",
     "recurse_provides": "false",
     "shasum": "c8d6c8c97ab86ea3116925a1d6ca465fbf1b573e4441de02d38cb78118232af8",
     "size": "6.7 MB",
@@ -229225,7 +233135,7 @@
     "provides": [
       "wasm-pack"
     ],
-    "rank": "3459",
+    "rank": "3518",
     "recurse_provides": "false",
     "shasum": "f53dcc56dc69fa20e84f2628be926314b37b8a7b491bf1910596e939a34bda5f",
     "size": "4.2 MB",
@@ -229358,7 +233268,7 @@
     "provides": [
       "wasm-tools"
     ],
-    "rank": "3460",
+    "rank": "3519",
     "recurse_provides": "false",
     "shasum": "1371334be43f1726cbdce5ef3eed66cd0bc359bedd62244da1052466918631ce",
     "size": "13 MB",
@@ -229427,7 +233337,7 @@
       "wasm-bindgen-test-runner",
       "wasm2es6js"
     ],
-    "rank": "3458",
+    "rank": "3517",
     "recurse_provides": "false",
     "shasum": "2e8768a7f45de6f913a91b3f7a43b44f1712a6eb0ddec2d84d8ca821d01e2bc5",
     "size": "2.4 MB",
@@ -229491,7 +233401,7 @@
     "provides": [
       "wayland-interface-check"
     ],
-    "rank": "3461",
+    "rank": "3520",
     "recurse_provides": "false",
     "shasum": "33df406e2082a4f1c242e8e24f7af731c15e89dc57694f610d5f04f2c0f2deb7",
     "size": "564 KB",
@@ -229557,7 +233467,7 @@
     "provides": [
       "web2pdf"
     ],
-    "rank": "3462",
+    "rank": "3521",
     "recurse_provides": "false",
     "shasum": "14daca427a11f919a5b628e68bbfe4e393142cfad9a4341fee450bd14904e745",
     "size": "8.2 MB",
@@ -229623,7 +233533,7 @@
     "provides": [
       "webidl2wit"
     ],
-    "rank": "3464",
+    "rank": "3523",
     "recurse_provides": "false",
     "shasum": "7c4f44b0d4a4517cb7a02fcf0d99256e45a2181c401ed9df3778c2d964e1cc2d",
     "size": "1.4 MB",
@@ -229757,7 +233667,7 @@
     "provides": [
       "websnap"
     ],
-    "rank": "3465",
+    "rank": "3524",
     "recurse_provides": "false",
     "shasum": "7a44e8a7a33aa4622f6d988ca5ee1d2bcb73101c21e511fece2e93386f8c0a9c",
     "size": "932 KB",
@@ -229823,7 +233733,7 @@
     "provides": [
       "websocat"
     ],
-    "rank": "3466",
+    "rank": "3525",
     "recurse_provides": "false",
     "shasum": "008a82a1a9d9fd92d8014ce12fd56dae36b5d381e90f218e26b95a7fe2d5f9e5",
     "size": "9.1 MB",
@@ -229891,7 +233801,7 @@
     "provides": [
       "whereamifrom"
     ],
-    "rank": "3467",
+    "rank": "3526",
     "recurse_provides": "false",
     "shasum": "db3ac90282173f995cca244aa3a50c6f06199fc4bb0ec78dfe4a7e2c9609d538",
     "size": "7.0 MB",
@@ -229956,7 +233866,7 @@
     "provides": [
       "which"
     ],
-    "rank": "3469",
+    "rank": "3528",
     "recurse_provides": "false",
     "shasum": "86029649970749da66d07c8c32c6f31307dad843e5d110f7834b65793f8e2f34",
     "size": "436 KB",
@@ -230024,7 +233934,7 @@
     "provides": [
       "which-key"
     ],
-    "rank": "3468",
+    "rank": "3527",
     "recurse_provides": "false",
     "shasum": "106d223c89ea3c8b705d77ed307882aff0c27f6b3bb48a0069163a359e7e9911",
     "size": "1.2 MB",
@@ -230090,7 +234000,7 @@
     "provides": [
       "wit-bindgen"
     ],
-    "rank": "3472",
+    "rank": "3531",
     "recurse_provides": "false",
     "shasum": "32f6f1fb6e35aafcfb4cd5d01bc2bde227658b08aa0a71188361b169e2b881ed",
     "size": "12 MB",
@@ -230155,7 +234065,7 @@
       "completions",
       "withd"
     ],
-    "rank": "3474",
+    "rank": "3533",
     "recurse_provides": "false",
     "shasum": "6df0a8bdd86a236072b55f05a2650e4ad4eb53e0e847487c49fd9f4dc52111d0",
     "size": "1.4 MB",
@@ -230220,7 +234130,7 @@
     "provides": [
       "work-break"
     ],
-    "rank": "3475",
+    "rank": "3534",
     "recurse_provides": "false",
     "shasum": "2acd27034ce320946de239c66b794e4e9e34d35aa7e13d760fa25da8db4fa12d",
     "size": "2.9 MB",
@@ -230351,7 +234261,7 @@
     "provides": [
       "wr"
     ],
-    "rank": "3476",
+    "rank": "3535",
     "recurse_provides": "false",
     "shasum": "12fd263a270d3bb38c431782e5c974d863fe2637c4cc3b89b6a0f9fbea8b5c35",
     "size": "4.4 MB",
@@ -230484,7 +234394,7 @@
     "provides": [
       "wspick"
     ],
-    "rank": "3477",
+    "rank": "3536",
     "recurse_provides": "false",
     "shasum": "818421ae48ea7c7675e1cbff7ef0ffa76a09ab23f98c48c94c2bba45d43e7e0c",
     "size": "1.6 MB",
@@ -230552,7 +234462,7 @@
     "provides": [
       "xan"
     ],
-    "rank": "3478",
+    "rank": "3537",
     "recurse_provides": "false",
     "shasum": "0e09c5f996ee8e1d7b9930175c2903070cde51bec5571b4e20b2ff14fc647be9",
     "size": "14 MB",
@@ -230684,7 +234594,7 @@
     "provides": [
       "xray"
     ],
-    "rank": "3479",
+    "rank": "3538",
     "recurse_provides": "false",
     "shasum": "e4df522bce780574665fd49cf1535192b3cafcf3849d8a19fa98090e985b155b",
     "size": "3.9 MB",
@@ -230752,7 +234662,7 @@
     "provides": [
       "xtagger"
     ],
-    "rank": "3480",
+    "rank": "3539",
     "recurse_provides": "false",
     "shasum": "9fec71b256afe3615a77dc20d3a31b42a36641cd9aebda10911af88754f6bbde",
     "size": "2.4 MB",
@@ -230818,7 +234728,7 @@
     "provides": [
       "ya"
     ],
-    "rank": "3482",
+    "rank": "3541",
     "recurse_provides": "false",
     "shasum": "dfa2b145104c293069c3768a79cf98555e4046761a08102bd01d48d5360d362b",
     "size": "3.5 MB",
@@ -231118,7 +235028,7 @@
     "provides": [
       "yarig"
     ],
-    "rank": "3481",
+    "rank": "3540",
     "recurse_provides": "false",
     "shasum": "f65ca8e1379a57bc54dff72d3fb84c42ebe97184dfea1219c9f7c82d5dabb3cb",
     "size": "3.2 MB",
@@ -231184,7 +235094,7 @@
     "provides": [
       "yazi"
     ],
-    "rank": "3483",
+    "rank": "3542",
     "recurse_provides": "false",
     "shasum": "a1eff3ebaf01b6ebaa3d87da59c0a2beb0c8c127697d1ef5b31fcf5413069361",
     "size": "19 MB",
@@ -231248,7 +235158,7 @@
     "provides": [
       "zepter"
     ],
-    "rank": "3484",
+    "rank": "3543",
     "recurse_provides": "false",
     "shasum": "6fe0a1a7de2f0e96a266824047564fb91a665b38fdedfa2839ca3d7210b8fc6e",
     "size": "3.5 MB",
@@ -231379,7 +235289,7 @@
     "provides": [
       "zesh"
     ],
-    "rank": "3485",
+    "rank": "3544",
     "recurse_provides": "false",
     "shasum": "86f7a695f68c01d3c3e3c3d696c35b33bf47b8c9d94a37bdedb3b3cf54bada99",
     "size": "980 KB",
@@ -231507,7 +235417,7 @@
     "provides": [
       "zipsign"
     ],
-    "rank": "3486",
+    "rank": "3545",
     "recurse_provides": "false",
     "shasum": "2a2ba5b9093dc34025902f4916a1c16f045f19211b81e67f5a18a752daf1757f",
     "size": "1.3 MB",
@@ -231571,7 +235481,7 @@
     "provides": [
       "zizmor"
     ],
-    "rank": "3487",
+    "rank": "3546",
     "recurse_provides": "false",
     "shasum": "6aa37ac3bc9117a2ef3ca78ea5a2dc706846a2acb5b1e1b722d20f9e806769b3",
     "size": "13 MB",
@@ -231638,7 +235548,7 @@
     "provides": [
       "zman"
     ],
-    "rank": "3488",
+    "rank": "3547",
     "recurse_provides": "false",
     "shasum": "7cb6bb5d810103b2c58915281be2990ad5627253e5cb5421421853daa92ac46a",
     "size": "1.1 MB",
@@ -231704,7 +235614,7 @@
     "provides": [
       "zoxide"
     ],
-    "rank": "3489",
+    "rank": "3548",
     "recurse_provides": "false",
     "shasum": "c4bba9780aec03f560599571c0a8dc679febcc6cb8c0d4693c718310ab6cd7c4",
     "size": "1.2 MB",
