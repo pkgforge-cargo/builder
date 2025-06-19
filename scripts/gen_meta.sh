@@ -122,7 +122,7 @@ pushd "${TMPDIR}" &>/dev/null
     #Sanity Check
      PKG_COUNT="$(jq -r '.[] | .pkg_id' "${TMPDIR}/${HOST_TRIPLET}.json" | grep -iv 'null' | wc -l | tr -d '[:space:]')"
      if [[ "${PKG_COUNT}" -le 5 ]]; then
-        echo -e "\n[-] FATAL: Failed to Generate AM MetaData\n"
+        echo -e "\n[-] FATAL: Failed to Generate MetaData\n"
         echo "[-] Count: ${PKG_COUNT}"
         continue
      else
