@@ -149,6 +149,9 @@ jobs:
           ##presets
           set +x ; set +e
           #-------------#
+          ##API
+           export RV_API="https://api.rv.pkgforge.dev"
+           echo "RV_API=${RV_API}" >> "${GITHUB_ENV}"
           ##Host
            export HOST_TRIPLET="$(echo "${{ matrix.package.host }}" | tr -d '"'\''[:space:]')"
            echo "HOST_TRIPLET=${HOST_TRIPLET}" >> "${GITHUB_ENV}"
@@ -185,7 +188,7 @@ jobs:
            CRATE_META_RAW="$(mktemp)"
            CRATE_META="${CRATE_META_RAW}.json"
            CRATE_URL="https://crates.io/crates/${CRATE_NAME}"
-           curl -qfsSL "https://crates.io/api/v1/crates/${CRATE_NAME}" | jq . > "${CRATE_META_RAW}"
+           curl -qfsSL "${RV_API}/https://crates.io/api/v1/crates/${CRATE_NAME}" | jq . > "${CRATE_META_RAW}"
            cat "${CRATE_META_RAW}" | jq \
            '
              def clean_strings: walk(if type == "string" then gsub("\\n|\\r|\\t"; " ") | gsub("\\s+"; " ") | gsub("^\\s+|\\s+$"; "") else . end);
@@ -207,7 +210,7 @@ jobs:
              #Export PKG ENV
               CRATE_VERSION="$(jq -r '.version' "${CRATE_META}" 2>/dev/null | grep -iv 'null' | tr -d '[:space:]')"
                #Check if Yanked
-                if curl -qfsSL "https://crates.io/api/v1/crates/${CRATE_NAME}/${CRATE_VERSION}" 2>/dev/null | jq -r '.. | objects | select(has("yanked")) | .yanked' | grep -Eiv 'null' | grep -m 1 -qiE 'true' ; then
+                if curl -qfsSL "${RV_API}/https://crates.io/api/v1/crates/${CRATE_NAME}/${CRATE_VERSION}" 2>/dev/null | jq -r '.. | objects | select(has("yanked")) | .yanked' | grep -Eiv 'null' | grep -m 1 -qiE 'true' ; then
                     echo -e "\n[✗] FATAL: ${CRATE_NAME} is a Yanked (Deprecated) <== ${CRATE_URL}\n"
                     echo -e "\n" ; jq . "${CRATE_META_RAW}" ; echo -e "\n"
                    echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"

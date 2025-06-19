@@ -214,7 +214,7 @@ CB_VERSION="0.0.2" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
   pushd "${BUILD_DIR}" &>/dev/null
   #Download & Extract Crate
    cd "${BUILD_DIR}/BUILD_CRATE" &&\
-   curl -w "(DL) <== %{url}\n" -qfsSL "https://crates.io/api/v1/crates/${CRATE_NAME}/${CRATE_VERSION}/download" -o "${BUILD_DIR}/BUILD_TMP/${CRATE_NAME}.crate"
+   curl -w "(DL) <== %{url}\n" -qfsSL "${RV_API}/https://crates.io/api/v1/crates/${CRATE_NAME}/${CRATE_VERSION}/download" -o "${BUILD_DIR}/BUILD_TMP/${CRATE_NAME}.crate"
    tar -vxz --strip-components="1" -f "${BUILD_DIR}/BUILD_TMP/${CRATE_NAME}.crate"
   #Check
    if [[ "$(du -s "${BUILD_DIR}/BUILD_CRATE" | cut -f1)" -lt 10 ]]; then
