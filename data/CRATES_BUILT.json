@@ -56824,9 +56824,46 @@
     "version": "0.1.0"
   },
   {
+    "description": "A CLI Tool for modifying WebAssembly binaries.",
+    "name": "wasmadder",
+    "rank": "4502",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.4"
+  },
+  {
+    "description": "A set of helpers for coverage of wasm modules.",
+    "name": "wasmcov",
+    "rank": "4503",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.2.2"
+  },
+  {
+    "description": "A CLI Tool for verifying WebAssembly components.",
+    "name": "wasmshield-cli",
+    "rank": "4504",
+    "targets": [
+      "loongarch64-Linux",
+      "riscv64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.0"
+  },
+  {
     "description": "Command-line interface for Wasmtime.",
     "name": "wasmtime-cli",
-    "rank": "4502",
+    "rank": "4505",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -56836,9 +56873,59 @@
     "version": "33.0.0"
   },
   {
+    "description": "A Rust implementation of Linuxs watch.",
+    "name": "watch-rs",
+    "rank": "4506",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.13"
+  },
+  {
+    "description": "Watch a set of files for changes and run a command on change.",
+    "name": "watchy",
+    "rank": "4507",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.2"
+  },
+  {
+    "description": "A cli tool to watermark images with smaller images.",
+    "name": "watermarker",
+    "rank": "4508",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.3.0"
+  },
+  {
+    "description": "Convert WAV files to C arrays for embedded LPCM audio playback.",
+    "name": "wav2c",
+    "rank": "4509",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.9.1"
+  },
+  {
     "description": "Binary to answer the question, Is this Wayland interface available?.",
     "name": "wayland-interface-check",
-    "rank": "4503",
+    "rank": "4510",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -56849,9 +56936,47 @@
     "version": "0.11.0"
   },
   {
+    "description": "A command-line implementation of WCHISPTool, for flashing ch32 MCUs.",
+    "name": "wchisp",
+    "rank": "4511",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.3.0"
+  },
+  {
+    "description": "CLI word counting tool.",
+    "name": "wcount",
+    "rank": "4512",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.2.0"
+  },
+  {
+    "description": "static site generator weaving binary.",
+    "name": "weaving",
+    "rank": "4513",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.2.9"
+  },
+  {
     "description": "A CLI tool to convert web pages to PDFs.",
     "name": "web2pdf",
-    "rank": "4504",
+    "rank": "4514",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -56862,9 +56987,22 @@
     "version": "0.1.1"
   },
   {
+    "description": "webcomp (WEB COMPressor) is a command-line tool that compresses files into multiple formats, including Brotli, Compress (LZW), Deflate, Gzip, and Zstandard.",
+    "name": "webcomp",
+    "rank": "4515",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "1.0.0"
+  },
+  {
     "description": "CLI that enables easy use of webidl2wit (converting WebIDL to WebAssembly Interface Types).",
     "name": "webidl2wit-cli",
-    "rank": "4505",
+    "rank": "4516",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -56877,7 +57015,7 @@
   {
     "description": "WebSnap is a command-line tool for capturing screenshots of websites.",
     "name": "websnap",
-    "rank": "4506",
+    "rank": "4517",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -56890,7 +57028,7 @@
   {
     "description": "Command-line client for web sockets, like netcat/curl/socat for ws://.",
     "name": "websocat",
-    "rank": "4507",
+    "rank": "4518",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -56901,9 +57039,99 @@
     "version": "4.0.0-alpha2"
   },
   {
+    "description": "Organize your Computer with projects.",
+    "name": "wechsel",
+    "rank": "4519",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.2.0"
+  },
+  {
+    "description": "Writes a journal entry to a text file corresponding to the current week number.",
+    "name": "weekly_journals",
+    "rank": "4520",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.3.0"
+  },
+  {
+    "description": "Your crypto portfolio and terminal together at last.",
+    "name": "wenmoon",
+    "rank": "4521",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.4.0"
+  },
+  {
+    "description": "Command line utility for interacting with codecs distributed by Wargaming.",
+    "name": "wg-toolkit-cli",
+    "rank": "4522",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.4.1"
+  },
+  {
+    "description": "Identify what something is! A pyWhat reimplementation in Rust.",
+    "name": "what-rs",
+    "rank": "4523",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.4.1"
+  },
+  {
+    "description": "See the current time at any time!.",
+    "name": "whattime",
+    "rank": "4524",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "1.0.2"
+  },
+  {
+    "description": "A simple CLI tool to print the current date and time in various formats.",
+    "name": "whattimeisit",
+    "rank": "4525",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.0"
+  },
+  {
     "description": "A tool to detect country of your public IP.",
     "name": "whereamifrom",
-    "rank": "4508",
+    "rank": "4526",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -56916,7 +57144,7 @@
   {
     "description": "locate the binary for a command.",
     "name": "whereis",
-    "rank": "4509",
+    "rank": "4527",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -56928,7 +57156,7 @@
   {
     "description": "A small network diagnostic tool that listens for incoming TCP/UDP connections and simply replies by telling them their IP and port.",
     "name": "whereyoufrom",
-    "rank": "4510",
+    "rank": "4528",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -56940,7 +57168,7 @@
   {
     "description": "which key helps you remember your keymaps without leaving the terminal.",
     "name": "which-key",
-    "rank": "4511",
+    "rank": "4529",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -56953,7 +57181,7 @@
   {
     "description": "Print which signal caused a program to exit with the given status code.",
     "name": "which-sig",
-    "rank": "4512",
+    "rank": "4530",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -56965,7 +57193,7 @@
   {
     "description": "A Rust equivalent of Unix command which.",
     "name": "which_cli",
-    "rank": "4513",
+    "rank": "4531",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -56978,7 +57206,7 @@
   {
     "description": "A blazingly fast and lightweight language detection library for Rust.",
     "name": "whichlang",
-    "rank": "4514",
+    "rank": "4532",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -56989,9 +57217,208 @@
     "version": "0.1.1"
   },
   {
+    "description": "create a white background borderless fullscreen window.",
+    "name": "whitescreen",
+    "rank": "4533",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "1.0.4"
+  },
+  {
+    "description": "Whitespace formatter and linter for text files and source code files.",
+    "name": "whitespace-format",
+    "rank": "4534",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.7"
+  },
+  {
+    "description": "Wholesome collection of file hashing algorithms all bundled in a single tool.",
+    "name": "wholesum",
+    "rank": "4535",
+    "targets": [
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.2.8"
+  },
+  {
+    "description": "A command line program for detecting the current users name and environment.",
+    "name": "whome",
+    "rank": "4536",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.6.1"
+  },
+  {
+    "description": "yet another jq wrapper.",
+    "name": "whyq",
+    "rank": "4537",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.10.2"
+  },
+  {
+    "description": "Smart note taking cli app.",
+    "name": "wiki-o",
+    "rank": "4538",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.0"
+  },
+  {
+    "description": "A CLI implementation for the wildpath library.",
+    "name": "wildpath-cli",
+    "rank": "4539",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.0"
+  },
+  {
+    "description": "Task manager with DAG.",
+    "name": "willdo",
+    "rank": "4540",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.0.1"
+  },
+  {
+    "description": "windows PATH maneger.",
+    "name": "win_path_mgr",
+    "rank": "4541",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.3"
+  },
+  {
+    "description": "A CLI that allows switching between windows in Hyprland (renamed to hyprswitch [https://crates.",
+    "name": "window_switcher",
+    "rank": "4542",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.3.0"
+  },
+  {
+    "description": "windows-thumbnail-preloader is a command-line application for preloading thumbnails for Windows Explorer.",
+    "name": "windows-thumbnail-preloader",
+    "rank": "4543",
+    "targets": [
+      "aarch64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.0"
+  },
+  {
+    "description": "A runtime for websites and a static site generator.",
+    "name": "wingman",
+    "rank": "4544",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.0"
+  },
+  {
+    "description": "wints is a fuzzy term-based URLs opener.",
+    "name": "wints",
+    "rank": "4545",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.8.0"
+  },
+  {
+    "description": "Auto-config WireGuard clients into a mesh.",
+    "name": "wiresmith",
+    "rank": "4546",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.4.4"
+  },
+  {
+    "description": "Daily nuggets of wisdom in a clean, minimalist design, inspiring deeper thought and personal growth with every visit.",
+    "name": "wiserone",
+    "rank": "4547",
+    "targets": [
+      "aarch64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.0.5"
+  },
+  {
+    "description": "This is a timer,stopwatch,and a clock all in one !!.",
+    "name": "wistime",
+    "rank": "4548",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.0"
+  },
+  {
     "description": "CLI tool to generate bindings for WIT documents and the component model.",
     "name": "wit-bindgen-cli",
-    "rank": "4515",
+    "rank": "4549",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57002,9 +57429,22 @@
     "version": "0.42.1"
   },
   {
+    "description": "A CLI tool that reads proxy configuration from ${HOME}/.",
+    "name": "with-proxy",
+    "rank": "4550",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.0"
+  },
+  {
     "description": "Run a command in another directory.",
     "name": "withd",
-    "rank": "4516",
+    "rank": "4551",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57015,9 +57455,20 @@
     "version": "0.3.2"
   },
   {
+    "description": "Generates witty three-word phrases suitable for memorable default names.",
+    "name": "witty-phrase-generator",
+    "rank": "4552",
+    "targets": [
+      "aarch64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.3.0"
+  },
+  {
     "description": "The WebAssembly Pre-Initializer.",
     "name": "wizer",
-    "rank": "4517",
+    "rank": "4553",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -57027,9 +57478,176 @@
     "version": "9.0.0"
   },
   {
+    "description": "Exports an OpenPGP keyring into an advanced WKD directory path.",
+    "name": "wkd-exporter",
+    "rank": "4554",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.2.2"
+  },
+  {
+    "description": "CLI for creating protocol bindings for wl-client.",
+    "name": "wl-client-builder-cli",
+    "rank": "4555",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.2.0"
+  },
+  {
+    "description": "Terminal utilities for accessing the Wayland clipboard.",
+    "name": "wl-clipboard-rs-tools",
+    "rank": "4556",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.9.2"
+  },
+  {
+    "description": "A cli tool that positions outputs/displays for wlroots based compositors.",
+    "name": "wltile",
+    "rank": "4557",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "1.0.0"
+  },
+  {
+    "description": "Create files or directories.",
+    "name": "wmk",
+    "rank": "4558",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.3.0"
+  },
+  {
+    "description": "Wake up remote hosts with Wake On LAN magic packets.",
+    "name": "wol",
+    "rank": "4559",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.3.1"
+  },
+  {
+    "description": "A package manager and a build tool that supports major package formats (deb, RPM, ipk, pkg, MSIX).",
+    "name": "wolfpack",
+    "rank": "4560",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.3.0"
+  },
+  {
+    "description": "Collection of tools for personal use, provides library and CLI.",
+    "name": "wonfy-tools",
+    "rank": "4561",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.1"
+  },
+  {
+    "description": "Atomically write the output of a command to a file depending on its exit value.",
+    "name": "wonok",
+    "rank": "4562",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.0"
+  },
+  {
+    "description": "A word chain game helper.",
+    "name": "word-chain-game",
+    "rank": "4563",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "1.0.1"
+  },
+  {
+    "description": "Output a tally of the number of times unique words appear in source input.",
+    "name": "word-tally",
+    "rank": "4564",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.27.0"
+  },
+  {
+    "description": "A command line tool that finds undesired strings in files.",
+    "name": "word_warden",
+    "rank": "4565",
+    "targets": [
+      "aarch64-Linux",
+      "loongarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.5"
+  },
+  {
+    "description": "Terminal Wordle game.",
+    "name": "wordl",
+    "rank": "4566",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.3.0"
+  },
+  {
     "description": "Work-break balancer for Windows / MacOS / Linux desktops.",
     "name": "work-break",
-    "rank": "4518",
+    "rank": "4567",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57040,9 +57658,21 @@
     "version": "0.6.2"
   },
   {
+    "description": "A cli tool for creating a seemless workflow with remote and local git repos.",
+    "name": "workflows",
+    "rank": "4568",
+    "targets": [
+      "aarch64-Linux",
+      "riscv64-Linux",
+      "x86_64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.7.2"
+  },
+  {
     "description": "A CLI to run test-driven Rust workshops.",
     "name": "workshop-runner",
-    "rank": "4519",
+    "rank": "4569",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57053,9 +57683,19 @@
     "version": "0.2.4"
   },
   {
+    "description": "A CLI tool to switch between directories.",
+    "name": "workspaces-rs",
+    "rank": "4570",
+    "targets": [
+      "riscv64-Linux"
+    ],
+    "updated_at": "2025-06-19",
+    "version": "0.1.2"
+  },
+  {
     "description": "platform independent workspace picker for the terminal.",
     "name": "wspick",
-    "rank": "4520",
+    "rank": "4571",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57068,7 +57708,7 @@
   {
     "description": "The CSV magician",
     "name": "xan",
-    "rank": "4521",
+    "rank": "4572",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57081,7 +57721,7 @@
   {
     "description": "A hackable, minimal, fast TUI file explorer",
     "name": "xplr",
-    "rank": "4522",
+    "rank": "4573",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -57092,7 +57732,7 @@
   {
     "description": "A Docker (or any OCI-compliant) image layer inspector.",
     "name": "xray-tui",
-    "rank": "4523",
+    "rank": "4574",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57105,7 +57745,7 @@
   {
     "description": "Command line application for managing and searching tags stored in filesystem extended attributes.",
     "name": "xtagger",
-    "rank": "4524",
+    "rank": "4575",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57118,7 +57758,7 @@
   {
     "description": "A register interface generator.",
     "name": "yarig",
-    "rank": "4525",
+    "rank": "4576",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57131,7 +57771,7 @@
   {
     "description": "Literate programming tool for Markdown.",
     "name": "yarner",
-    "rank": "4526",
+    "rank": "4577",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -57143,7 +57783,7 @@
   {
     "description": "Yet Another Unix Injector with support for Android/Android Emulator i686/x64/arm/aarch64",
     "name": "yaui",
-    "rank": "4527",
+    "rank": "4578",
     "targets": [
       "aarch64-Linux",
       "x86_64-Linux"
@@ -57154,7 +57794,7 @@
   {
     "description": "Yazi command-line interface.",
     "name": "yazi-cli",
-    "rank": "4528",
+    "rank": "4579",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57167,7 +57807,7 @@
   {
     "description": "Yazi File Manager.",
     "name": "yazi-fm",
-    "rank": "4529",
+    "rank": "4580",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57180,7 +57820,7 @@
   {
     "description": "rust cli for formating yaml v1.",
     "name": "ymlfxr",
-    "rank": "4530",
+    "rank": "4581",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
@@ -57192,7 +57832,7 @@
   {
     "description": "Analyze, Fix and Format features in your Rust workspace.",
     "name": "zepter",
-    "rank": "4531",
+    "rank": "4582",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57205,7 +57845,7 @@
   {
     "description": "A zellij session manager with zoxide integration, inspired by tmux sesh.",
     "name": "zesh",
-    "rank": "4532",
+    "rank": "4583",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57218,7 +57858,7 @@
   {
     "description": "Sign and verify .",
     "name": "zipsign",
-    "rank": "4533",
+    "rank": "4584",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57231,7 +57871,7 @@
   {
     "description": "Static analysis for GitHub Actions.",
     "name": "zizmor",
-    "rank": "4534",
+    "rank": "4585",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57244,7 +57884,7 @@
   {
     "description": "a CLI year progress.",
     "name": "zman",
-    "rank": "4535",
+    "rank": "4586",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57257,7 +57897,7 @@
   {
     "description": "A smarter cd command for your terminal.",
     "name": "zoxide",
-    "rank": "4536",
+    "rank": "4587",
     "targets": [
       "aarch64-Linux",
       "loongarch64-Linux",
@@ -57270,7 +57910,7 @@
   {
     "description": "Copy the contents of the source file or the standard output buffer to the clipboard, with support for maintaining a history of copied content, allowing users to easily paste into another file or program.",
     "name": "zp",
-    "rank": "4537",
+    "rank": "4588",
     "targets": [
       "aarch64-Linux",
       "riscv64-Linux",
