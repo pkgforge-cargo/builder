@@ -2848,7 +2848,7 @@
     "provides": [
       "YieldSimRust"
     ],
-    "rank": "4619",
+    "rank": "4650",
     "recurse_provides": "false",
     "shasum": "3210c030ad7b40f8d0b7863cc85579a2af4f2fa2ed22a9bc5d64c13727678793",
     "size": "456 KB",
@@ -31845,7 +31845,7 @@
       "assess",
       "create_train_dataset"
     ],
-    "rank": "4601",
+    "rank": "4632",
     "recurse_provides": "false",
     "shasum": "8065978e36d9c1b473d7d98c1d2c6b800250404268dc5bf5d4426385095b929c",
     "size": "644 KB",
@@ -35328,7 +35328,7 @@
       "auto_serve",
       "waj"
     ],
-    "rank": "4577",
+    "rank": "4608",
     "recurse_provides": "false",
     "shasum": "a422c033e6529f90e7c998c305b15121213411cefa18a4896746858ac50a923c",
     "size": "1.2 MB",
@@ -101867,7 +101867,7 @@
       "completions",
       "withd"
     ],
-    "rank": "4604",
+    "rank": "4635",
     "recurse_provides": "false",
     "shasum": "3cadd270e112fa8ce458398444b0dae805724da8b5b2fff12b1d8e65ff0821cf",
     "size": "624 KB",
@@ -104892,7 +104892,7 @@
       "assess",
       "create_train_dataset"
     ],
-    "rank": "4602",
+    "rank": "4633",
     "recurse_provides": "false",
     "shasum": "11ffcf598d993a30bd63593b4b5b877c8327a2d142ad69cb72079b85883ec43b",
     "size": "372 KB",
@@ -166485,7 +166485,7 @@
     "provides": [
       "index"
     ],
-    "rank": "4591",
+    "rank": "4622",
     "recurse_provides": "false",
     "shasum": "a4ae8f89fda5b15caa71810a0d7ccf0d4b0c1904ac51192e56cf9372633449ca",
     "size": "380 KB",
@@ -239054,6 +239054,71 @@
   },
   {
     "_disabled": "false",
+    "bsum": "5a42e139f493d16cc31c546c2d9dfbf31757762c63410e7f80007c3f48d50f90",
+    "build_date": "2025-06-19T11:12:12Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755931840",
+    "build_id": "15755931840",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/verso/stable/recto?tag=0.3.0-aarch64-Linux&download=recto.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A literate programming tool that does things a little differently.",
+    "desktop_integration": "false",
+    "download_count": "831",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/verso/stable/recto?tag=0.3.0-aarch64-Linux&download=recto",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/verso/stable/recto:0.3.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/verso/stable/recto",
+    "homepage": [
+      "https://github.com/nickpascucci/verso"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-only"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/verso/stable/recto?tag=0.3.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "recto",
+    "pkg_family": "verso",
+    "pkg_id": "pkgforge-cargo.verso.stable",
+    "pkg_name": "recto",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/verso",
+    "portable": "true",
+    "provides": [
+      "recto",
+      "verso"
+    ],
+    "rank": "4582",
+    "recurse_provides": "false",
+    "shasum": "186206fcff5cdc6df0d57cc8be87d8b3109ef22bb094f9d335c5162d0936e2bd",
+    "size": "1.2 MB",
+    "size_raw": "1249176",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/verso/0.3.0/download"
+    ],
+    "tag": [
+      "literate-programming"
+    ],
+    "trusted": "true",
+    "version": "0.3.0",
+    "version_upstream": "0.3.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "66db536f0fe92d1253cd2d40f75b30351b5ff1fe26a0dcc5d9d46539eb22f382",
     "build_date": "2025-06-17T23:48:50Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15719958269",
@@ -240906,6 +240971,74 @@
     "trusted": "true",
     "version": "0.1.0",
     "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "812d523c4b1177c053ed06f19f79c71099fcf322c359dd38fa8d9ebc54eb5aab",
+    "build_date": "2025-06-19T10:39:49Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755284668",
+    "build_id": "15755284668",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uu_renice/stable/renice?tag=0.0.1-aarch64-Linux&download=renice.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "renice ~ (uutils) Alter priority of running processes.",
+    "desktop_integration": "false",
+    "download_count": "205",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uu_renice/stable/renice?tag=0.0.1-aarch64-Linux&download=renice",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/uu_renice/stable/renice:0.0.1-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/uu_renice/stable/renice",
+    "homepage": [
+      "https://github.com/uutils/procps/tree/main/src/uu/renice"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uu_renice/stable/renice?tag=0.0.1-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "renice",
+    "pkg_family": "uu_renice",
+    "pkg_id": "pkgforge-cargo.uu_renice.stable",
+    "pkg_name": "renice",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/uu_renice",
+    "portable": "true",
+    "provides": [
+      "renice"
+    ],
+    "rank": "4563",
+    "recurse_provides": "false",
+    "shasum": "cd133f4b25b543c1e2a886ba8c6b801aca3d2a33dfa411cb48adabf5bd510029",
+    "size": "741 KB",
+    "size_raw": "757848",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/uu_renice/0.0.1/download"
+    ],
+    "tag": [
+      "bsdutils",
+      "cli",
+      "cross-platform",
+      "utility",
+      "uutils"
+    ],
+    "trusted": "true",
+    "version": "0.0.1",
+    "version_upstream": "0.0.1"
   },
   {
     "_disabled": "false",
@@ -302456,7 +302589,7 @@
     "provides": [
       "uuinfo"
     ],
-    "rank": "4563",
+    "rank": "4564",
     "recurse_provides": "false",
     "shasum": "758db4e72fced95d650cd48f56e8f88171a3a66e86bf6daa7dfcc62e96adf5f2",
     "size": "1.3 MB",
@@ -302524,7 +302657,7 @@
     "provides": [
       "uv-migrator"
     ],
-    "rank": "4564",
+    "rank": "4565",
     "recurse_provides": "false",
     "shasum": "d7d842e31c42802437fd13e9bf77fbfbe62a4622e68294f20bf8eb58d1bd663c",
     "size": "5.5 MB",
@@ -302541,6 +302674,139 @@
     "trusted": "true",
     "version": "2025.8.1",
     "version_upstream": "2025.8.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "9716bc58ca8401cf2142b2ddf1945220196071fe78c2d1dbf446d8e094de1198",
+    "build_date": "2025-06-19T10:57:23Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755469987",
+    "build_id": "15755469987",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uwc/stable/uwc?tag=1.0.8-aarch64-Linux&download=uwc.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Counts things in unicode text files.",
+    "desktop_integration": "false",
+    "download_count": "2271",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uwc/stable/uwc?tag=1.0.8-aarch64-Linux&download=uwc",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/uwc/stable/uwc:1.0.8-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/uwc/stable/uwc",
+    "homepage": [
+      "https://github.com/dead10ck/uwc"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uwc/stable/uwc?tag=1.0.8-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uwc",
+    "pkg_family": "uwc",
+    "pkg_id": "pkgforge-cargo.uwc.stable",
+    "pkg_name": "uwc",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/uwc",
+    "portable": "true",
+    "provides": [
+      "uwc"
+    ],
+    "rank": "4566",
+    "recurse_provides": "false",
+    "shasum": "ec4ded8af92f9caa27da09b00bc3d5db58ea32144998a77d091ce6dbfe45508c",
+    "size": "2.1 MB",
+    "size_raw": "2162704",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/uwc/1.0.8/download"
+    ],
+    "tag": [
+      "count",
+      "unicode",
+      "wc",
+      "word"
+    ],
+    "trusted": "true",
+    "version": "1.0.8",
+    "version_upstream": "1.0.8"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "f86f2956cc0c2cfab7fc3cabeccf8257554787d98effeb817ef9c3c8b00a8286",
+    "build_date": "2025-06-19T10:56:44Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755472565",
+    "build_id": "15755472565",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uwu_cli/stable/uwu?tag=1.0.0-aarch64-Linux&download=uwu.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "uwuifying the terminal.",
+    "desktop_integration": "false",
+    "download_count": "365",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uwu_cli/stable/uwu?tag=1.0.0-aarch64-Linux&download=uwu",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/uwu_cli/stable/uwu:1.0.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/uwu_cli/stable/uwu",
+    "homepage": [
+      "https://github.com/SandroHc/uwu-rs/tree/master/crates/uwu_cli"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uwu_cli/stable/uwu?tag=1.0.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uwu",
+    "pkg_family": "uwu_cli",
+    "pkg_id": "pkgforge-cargo.uwu_cli.stable",
+    "pkg_name": "uwu",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/uwu_cli",
+    "portable": "true",
+    "provides": [
+      "uwu"
+    ],
+    "rank": "4567",
+    "recurse_provides": "false",
+    "shasum": "50659f864812b21ef2f3b15eab983e7183f5341134a2b79406408e8550019611",
+    "size": "1.1 MB",
+    "size_raw": "1082776",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/uwu_cli/1.0.0/download"
+    ],
+    "tag": [
+      "cli",
+      "owo",
+      "uwu"
+    ],
+    "trusted": "true",
+    "version": "1.0.0",
+    "version_upstream": "1.0.0"
   },
   {
     "_disabled": "false",
@@ -302589,7 +302855,7 @@
     "provides": [
       "uwu_colors"
     ],
-    "rank": "4565",
+    "rank": "4568",
     "recurse_provides": "false",
     "shasum": "2bfbc773275387703c177546bcd2fd054d30f697889402c668466c0e1a934f88",
     "size": "3.8 MB",
@@ -302605,6 +302871,340 @@
     "trusted": "true",
     "version": "0.4.0",
     "version_upstream": "0.4.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "f3e6bb58390d186928ca62f097b233b108b60477a52211335a4b54f620f8516e",
+    "build_date": "2025-06-19T10:58:27Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755524713",
+    "build_id": "15755524713",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vach-cli/stable/vach?tag=0.7.0-aarch64-Linux&download=vach.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A command-line tool to work with .",
+    "desktop_integration": "false",
+    "download_count": "2298",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vach-cli/stable/vach?tag=0.7.0-aarch64-Linux&download=vach",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vach-cli/stable/vach:0.7.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vach-cli/stable/vach",
+    "homepage": [
+      "https://github.com/zeskeertwee/vach"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vach-cli/stable/vach?tag=0.7.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vach",
+    "pkg_family": "vach-cli",
+    "pkg_id": "pkgforge-cargo.vach-cli.stable",
+    "pkg_name": "vach",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vach-cli",
+    "portable": "true",
+    "provides": [
+      "vach"
+    ],
+    "rank": "4569",
+    "recurse_provides": "false",
+    "shasum": "dac707c2bba641128ed83f3bf2b68ed0ddc08be878e39e8d1c945115967bfb4a",
+    "size": "2.7 MB",
+    "size_raw": "2736168",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vach-cli/0.7.0/download"
+    ],
+    "tag": [
+      "archive",
+      "assets",
+      "command-line",
+      "game",
+      "vach"
+    ],
+    "trusted": "true",
+    "version": "0.7.0",
+    "version_upstream": "0.7.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "db1e20dc375b3fe7235a3f0eb4d2f3b9dbe33b2f2f264de225d71eb071e38717",
+    "build_date": "2025-06-19T11:01:06Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755540902",
+    "build_id": "15755540902",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vanikey/stable/vanikey?tag=0.1.0-aarch64-Linux&download=vanikey.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple command-line vanity npub generator for Nostr.",
+    "desktop_integration": "false",
+    "download_count": "281",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vanikey/stable/vanikey?tag=0.1.0-aarch64-Linux&download=vanikey",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vanikey/stable/vanikey:0.1.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vanikey/stable/vanikey",
+    "homepage": [
+      "https://github.com/curtisknudson/vanikey"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vanikey/stable/vanikey?tag=0.1.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vanikey",
+    "pkg_family": "vanikey",
+    "pkg_id": "pkgforge-cargo.vanikey.stable",
+    "pkg_name": "vanikey",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vanikey",
+    "portable": "true",
+    "provides": [
+      "vanikey"
+    ],
+    "rank": "4571",
+    "recurse_provides": "false",
+    "shasum": "e527f1fa84cc115ce91b4407fbffc7756bba5b4afabce34b5c5e58e87d26e72d",
+    "size": "869 KB",
+    "size_raw": "888864",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vanikey/0.1.0/download"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "2d502d822e50addee68ef921032d1649fa43a299823de3ad18bad1467af27153",
+    "build_date": "2025-06-19T11:01:08Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755543251",
+    "build_id": "15755543251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vanish/stable/vanish?tag=0.2.1-aarch64-Linux&download=vanish.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple config tool to make locally trusted X.",
+    "desktop_integration": "false",
+    "download_count": "860",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vanish/stable/vanish?tag=0.2.1-aarch64-Linux&download=vanish",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vanish/stable/vanish:0.2.1-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vanish/stable/vanish",
+    "homepage": [
+      "https://github.com/shubhexists/vanish"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "non-standard"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vanish/stable/vanish?tag=0.2.1-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vanish",
+    "pkg_family": "vanish",
+    "pkg_id": "pkgforge-cargo.vanish.stable",
+    "pkg_name": "vanish",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vanish",
+    "portable": "true",
+    "provides": [
+      "vanish"
+    ],
+    "rank": "4572",
+    "recurse_provides": "false",
+    "shasum": "226b79659811082dda2c9f82ca63c442c6e9556092b882ba0712ec6c957f03af",
+    "size": "4.3 MB",
+    "size_raw": "4441240",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vanish/0.2.1/download"
+    ],
+    "tag": [
+      "certificates",
+      "https",
+      "local-development",
+      "localhost",
+      "root-ca"
+    ],
+    "trusted": "true",
+    "version": "0.2.1",
+    "version_upstream": "0.2.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "64479809df93aa0ceb96b14acdde03541811ebc8a6bcd29ef9f64917933335d0",
+    "build_date": "2025-06-19T11:01:33Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755565935",
+    "build_id": "15755565935",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vanitysol/stable/vanitysol?tag=0.1.0-aarch64-Linux&download=vanitysol.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "solana vanity keypair generator.",
+    "desktop_integration": "false",
+    "download_count": "193",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vanitysol/stable/vanitysol?tag=0.1.0-aarch64-Linux&download=vanitysol",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vanitysol/stable/vanitysol:0.1.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vanitysol/stable/vanitysol",
+    "homepage": [
+      "https://github.com/simplysabir/vanitysol"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vanitysol/stable/vanitysol?tag=0.1.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vanitysol",
+    "pkg_family": "vanitysol",
+    "pkg_id": "pkgforge-cargo.vanitysol.stable",
+    "pkg_name": "vanitysol",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vanitysol",
+    "portable": "true",
+    "provides": [
+      "vanitysol"
+    ],
+    "rank": "4573",
+    "recurse_provides": "false",
+    "shasum": "750dcc5be58558ab8120291924d88388bccf57187811a646e286123efb2f29e4",
+    "size": "768 KB",
+    "size_raw": "786312",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vanitysol/0.1.0/download"
+    ],
+    "tag": [
+      "cli",
+      "solana",
+      "vanity-keypair"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "67cf127fd0135cba739d881da4fbc848d53f83ce93956eb7c53521acf8322f2e",
+    "build_date": "2025-06-19T11:04:05Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755581536",
+    "build_id": "15755581536",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vapor-cli/stable/vapor-cli?tag=0.0.5-aarch64-Linux&download=vapor-cli.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A command-line interface for SQLite database management with enhanced features for data manipulation, querying, and testing.",
+    "desktop_integration": "false",
+    "download_count": "858",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vapor-cli/stable/vapor-cli?tag=0.0.5-aarch64-Linux&download=vapor-cli",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vapor-cli/stable/vapor-cli:0.0.5-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vapor-cli/stable/vapor-cli",
+    "homepage": [
+      "https://github.com/ooyeku/vapor-cli"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vapor-cli/stable/vapor-cli?tag=0.0.5-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vapor-cli",
+    "pkg_family": "vapor-cli",
+    "pkg_id": "pkgforge-cargo.vapor-cli.stable",
+    "pkg_name": "vapor-cli",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vapor-cli",
+    "portable": "true",
+    "provides": [
+      "vapor-cli"
+    ],
+    "rank": "4574",
+    "recurse_provides": "false",
+    "shasum": "a972ea316a532bd3d2547d827352b84fea15e2561f6f9ff17ab0d712a9eba41b",
+    "size": "3.2 MB",
+    "size_raw": "3318864",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vapor-cli/0.0.5/download"
+    ],
+    "tag": [
+      "cli",
+      "database",
+      "repl",
+      "sql",
+      "sqlite"
+    ],
+    "trusted": "true",
+    "version": "0.0.5",
+    "version_upstream": "0.0.5"
   },
   {
     "_disabled": "false",
@@ -302670,6 +303270,207 @@
     "trusted": "true",
     "version": "0.12.0",
     "version_upstream": "0.12.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "2fd23879db14d1407ff419871dd231190fa2bf7084402e560953d1898e819339",
+    "build_date": "2025-06-19T11:06:49Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755609367",
+    "build_id": "15755609367",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vault-mgmt/stable/vault-mgmt?tag=0.1.5-aarch64-Linux&download=vault-mgmt.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Manage your vault installation in Kubernetes (upgrades, unseal, step-down, .",
+    "desktop_integration": "false",
+    "download_count": "795",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vault-mgmt/stable/vault-mgmt?tag=0.1.5-aarch64-Linux&download=vault-mgmt",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vault-mgmt/stable/vault-mgmt:0.1.5-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vault-mgmt/stable/vault-mgmt",
+    "homepage": [
+      "https://github.com/nimbolus/vault-mgmt"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vault-mgmt/stable/vault-mgmt?tag=0.1.5-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vault-mgmt",
+    "pkg_family": "vault-mgmt",
+    "pkg_id": "pkgforge-cargo.vault-mgmt.stable",
+    "pkg_name": "vault-mgmt",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vault-mgmt",
+    "portable": "true",
+    "provides": [
+      "vault-mgmt"
+    ],
+    "rank": "4575",
+    "recurse_provides": "false",
+    "shasum": "fd543637c16619dd251c7d82abdfa86c51ce287feb5527b77d12b38a3777d53f",
+    "size": "10 MB",
+    "size_raw": "10438800",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vault-mgmt/0.1.5/download"
+    ],
+    "tag": [
+      "kubernetes",
+      "upgrade",
+      "vault"
+    ],
+    "trusted": "true",
+    "version": "0.1.5",
+    "version_upstream": "0.1.5"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "147a932748d127a6486b43138871cbb4c42f72f659e83be893a0958eb2355ae3",
+    "build_date": "2025-06-19T11:06:49Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755745561",
+    "build_id": "15755745561",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vault-tasks/stable/vault-tasks?tag=0.11.2-aarch64-Linux&download=vault-tasks.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "TUI Markdown Task Manager.",
+    "desktop_integration": "false",
+    "download_count": "2747",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vault-tasks/stable/vault-tasks?tag=0.11.2-aarch64-Linux&download=vault-tasks",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vault-tasks/stable/vault-tasks:0.11.2-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vault-tasks/stable/vault-tasks",
+    "homepage": [
+      "https://github.com/louis-thevenet/vault-tasks"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vault-tasks/stable/vault-tasks?tag=0.11.2-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vault-tasks",
+    "pkg_family": "vault-tasks",
+    "pkg_id": "pkgforge-cargo.vault-tasks.stable",
+    "pkg_name": "vault-tasks",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vault-tasks",
+    "portable": "true",
+    "provides": [
+      "vault-tasks"
+    ],
+    "rank": "4576",
+    "recurse_provides": "false",
+    "shasum": "569af95b5272908a889f23ef31c56e756c28404d820bbae163739a64756df3c3",
+    "size": "7.3 MB",
+    "size_raw": "7640296",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vault-tasks/0.11.2/download"
+    ],
+    "tag": [
+      "markdown",
+      "obsidian",
+      "productivity",
+      "task-manager",
+      "tui"
+    ],
+    "trusted": "true",
+    "version": "0.11.2",
+    "version_upstream": "0.11.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "7ea0bd36937a3c7f25ca4f460694840b33bd885d97f8df50de92de7e58c6addf",
+    "build_date": "2025-06-19T11:09:08Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755799228",
+    "build_id": "15755799228",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vegas-lattice/stable/vegas-lattice?tag=0.11.0-aarch64-Linux&download=vegas-lattice.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "CLI and library to work with lattices.",
+    "desktop_integration": "false",
+    "download_count": "2210",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vegas-lattice/stable/vegas-lattice?tag=0.11.0-aarch64-Linux&download=vegas-lattice",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vegas-lattice/stable/vegas-lattice:0.11.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vegas-lattice/stable/vegas-lattice",
+    "homepage": [
+      "https://github.com/odarbelaeze/vegas-lattice-rs"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "non-standard"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vegas-lattice/stable/vegas-lattice?tag=0.11.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vegas-lattice",
+    "pkg_family": "vegas-lattice",
+    "pkg_id": "pkgforge-cargo.vegas-lattice.stable",
+    "pkg_name": "vegas-lattice",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vegas-lattice",
+    "portable": "true",
+    "provides": [
+      "vegas-lattice"
+    ],
+    "rank": "4577",
+    "recurse_provides": "false",
+    "shasum": "d245a39be1aa40d9e0a0aa4246563a1e07cf03816a4c9a8639bebdf4d0e090df",
+    "size": "2.2 MB",
+    "size_raw": "2215928",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vegas-lattice/0.11.0/download"
+    ],
+    "tag": [
+      "crystall",
+      "graph",
+      "lattice",
+      "materials"
+    ],
+    "trusted": "true",
+    "version": "0.11.0",
+    "version_upstream": "0.11.0"
   },
   {
     "_disabled": "false",
@@ -302741,6 +303542,342 @@
   },
   {
     "_disabled": "false",
+    "bsum": "06d61c46ac16bf67970cb37043e45181cceb67ff51d1a4db1df704eae704b136",
+    "build_date": "2025-06-19T11:09:08Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755809426",
+    "build_id": "15755809426",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vers-cli/stable/vers-cli?tag=0.1.0-aarch64-Linux&download=vers-cli.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Simple CLI tools for bumping and parsing version numbers.",
+    "desktop_integration": "false",
+    "download_count": "191",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vers-cli/stable/vers-cli?tag=0.1.0-aarch64-Linux&download=vers-cli",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vers-cli/stable/vers-cli:0.1.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vers-cli/stable/vers-cli",
+    "homepage": [
+      "https://github.com/PanieriLorenzo/vers-cli"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "non-standard"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vers-cli/stable/vers-cli?tag=0.1.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vers-cli",
+    "pkg_family": "vers-cli",
+    "pkg_id": "pkgforge-cargo.vers-cli.stable",
+    "pkg_name": "vers-cli",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vers-cli",
+    "portable": "true",
+    "provides": [
+      "vers-cli"
+    ],
+    "rank": "4578",
+    "recurse_provides": "false",
+    "shasum": "7606bd61be169b712366c3ffbe61b8017125c7f1d4e51d72e9e5a22ec232e717",
+    "size": "860 KB",
+    "size_raw": "880528",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vers-cli/0.1.0/download"
+    ],
+    "tag": [
+      "cli",
+      "semantic",
+      "semver",
+      "version",
+      "versioning"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "e69f915754bc2532ea0f17393beff8f4e8ceb58d71e83bb41774043061fc6bf5",
+    "build_date": "2025-06-19T11:12:26Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755836615",
+    "build_id": "15755836615",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/versatiles/stable/versatiles?tag=0.15.6-aarch64-Linux&download=versatiles.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A toolbox for converting, checking and serving map tiles in various formats.",
+    "desktop_integration": "false",
+    "download_count": "12397",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/versatiles/stable/versatiles?tag=0.15.6-aarch64-Linux&download=versatiles",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/versatiles/stable/versatiles:0.15.6-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/versatiles/stable/versatiles",
+    "homepage": [
+      "https://github.com/versatiles-org/versatiles-rs"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/versatiles/stable/versatiles?tag=0.15.6-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "versatiles",
+    "pkg_family": "versatiles",
+    "pkg_id": "pkgforge-cargo.versatiles.stable",
+    "pkg_name": "versatiles",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/versatiles",
+    "portable": "true",
+    "provides": [
+      "versatiles"
+    ],
+    "rank": "4579",
+    "recurse_provides": "false",
+    "shasum": "f8801f3a9ace13b95da33f992294efe435b48d6a472d10a3c308c18532aeac1d",
+    "size": "10 MB",
+    "size_raw": "10410760",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/versatiles/0.15.6/download"
+    ],
+    "tag": [
+      "map",
+      "mbtiles",
+      "tiles",
+      "versatiles"
+    ],
+    "trusted": "true",
+    "version": "0.15.6",
+    "version_upstream": "0.15.6"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "931a59b7959218dba8fbb5a44382407b88d63fa142a12efb039a896b1f29244d",
+    "build_date": "2025-06-19T11:10:49Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755927877",
+    "build_id": "15755927877",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/version-manager/stable/version?tag=3.0.0-aarch64-Linux&download=version.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple version manager for your projects.",
+    "desktop_integration": "false",
+    "download_count": "1153",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/version-manager/stable/version?tag=3.0.0-aarch64-Linux&download=version",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/version-manager/stable/version:3.0.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/version-manager/stable/version",
+    "homepage": [
+      "https://github.com/annie444/version"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-or-later"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/version-manager/stable/version?tag=3.0.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "version",
+    "pkg_family": "version-manager",
+    "pkg_id": "pkgforge-cargo.version-manager.stable",
+    "pkg_name": "version",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/version-manager",
+    "portable": "true",
+    "provides": [
+      "version",
+      "version-manager"
+    ],
+    "rank": "4581",
+    "recurse_provides": "false",
+    "shasum": "ca1508913c986f5b5ea9512c6bb54a9011f5961ba72404db8614f89e811116c6",
+    "size": "2.4 MB",
+    "size_raw": "2510744",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/version-manager/3.0.0/download"
+    ],
+    "tag": [
+      "cli",
+      "manager",
+      "rust",
+      "version"
+    ],
+    "trusted": "true",
+    "version": "3.0.0",
+    "version_upstream": "3.0.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "1b1fafad0064d297ee728bb4cd20a9421aca30452cc31b8ed1f7c2b3014807cc",
+    "build_date": "2025-06-19T11:10:56Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755927877",
+    "build_id": "15755927877",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/version-manager/stable/version-manager?tag=3.0.0-aarch64-Linux&download=version-manager.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple version manager for your projects.",
+    "desktop_integration": "false",
+    "download_count": "1153",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/version-manager/stable/version-manager?tag=3.0.0-aarch64-Linux&download=version-manager",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/version-manager/stable/version-manager:3.0.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/version-manager/stable/version-manager",
+    "homepage": [
+      "https://github.com/annie444/version"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-or-later"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/version-manager/stable/version-manager?tag=3.0.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "version-manager",
+    "pkg_family": "version-manager",
+    "pkg_id": "pkgforge-cargo.version-manager.stable",
+    "pkg_name": "version-manager",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/version-manager",
+    "portable": "true",
+    "provides": [
+      "version",
+      "version-manager"
+    ],
+    "rank": "4580",
+    "recurse_provides": "false",
+    "shasum": "682ef434070c2a389d40c8326938599419579a30398cc112999d67a7ab825d1a",
+    "size": "2.4 MB",
+    "size_raw": "2510744",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/version-manager/3.0.0/download"
+    ],
+    "tag": [
+      "cli",
+      "manager",
+      "rust",
+      "version"
+    ],
+    "trusted": "true",
+    "version": "3.0.0",
+    "version_upstream": "3.0.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "37ff2750e9dcd3e8a63ad630f7d225f8fd81f36d34f4bd19bc2fafc2d2fa03e1",
+    "build_date": "2025-06-19T11:12:04Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755931840",
+    "build_id": "15755931840",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/verso/stable/verso?tag=0.3.0-aarch64-Linux&download=verso.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A literate programming tool that does things a little differently.",
+    "desktop_integration": "false",
+    "download_count": "831",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/verso/stable/verso?tag=0.3.0-aarch64-Linux&download=verso",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/verso/stable/verso:0.3.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/verso/stable/verso",
+    "homepage": [
+      "https://github.com/nickpascucci/verso"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-only"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/verso/stable/verso?tag=0.3.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "verso",
+    "pkg_family": "verso",
+    "pkg_id": "pkgforge-cargo.verso.stable",
+    "pkg_name": "verso",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/verso",
+    "portable": "true",
+    "provides": [
+      "recto",
+      "verso"
+    ],
+    "rank": "4583",
+    "recurse_provides": "false",
+    "shasum": "649d22ec62802bc4dab3721aba13870897090ac1d8598efdc9a44a2221da70ab",
+    "size": "396 KB",
+    "size_raw": "405384",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/verso/0.3.0/download"
+    ],
+    "tag": [
+      "literate-programming"
+    ],
+    "trusted": "true",
+    "version": "0.3.0",
+    "version_upstream": "0.3.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "407c3ad9e29bd3c5e456b208d94102f09148897691c78cd7aa89afa52e12f475",
     "build_date": "2025-06-15T02:02:03Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15658001050",
@@ -302786,7 +303923,7 @@
     "provides": [
       "verylup"
     ],
-    "rank": "4566",
+    "rank": "4584",
     "recurse_provides": "false",
     "shasum": "1c76c421395bb233d29b6643b12285af47cf4088537992e05c6673cf9170f7e1",
     "size": "4.0 MB",
@@ -302850,7 +303987,7 @@
     "provides": [
       "vew"
     ],
-    "rank": "4567",
+    "rank": "4585",
     "recurse_provides": "false",
     "shasum": "a05f92b6af7187b9c0a22242c20e07a29515b9dac1e841a0702a4325aa980735",
     "size": "11 MB",
@@ -302980,7 +304117,7 @@
     "provides": [
       "vex2pdf"
     ],
-    "rank": "4568",
+    "rank": "4586",
     "recurse_provides": "false",
     "shasum": "e2216ee2d248600377424e8f3c3c17257fcf9046a277618a36fa1c66ab1aedf2",
     "size": "5.2 MB",
@@ -303048,7 +304185,7 @@
     "provides": [
       "viceroy"
     ],
-    "rank": "4569",
+    "rank": "4587",
     "recurse_provides": "false",
     "shasum": "bdfcf4e8c626350393ac639dc5fcf89fda60eb4011e24bbb0a089627fa562949",
     "size": "20 MB",
@@ -303113,7 +304250,7 @@
     "provides": [
       "viddy"
     ],
-    "rank": "4570",
+    "rank": "4588",
     "recurse_provides": "false",
     "shasum": "fe2e05a974e754f549d9d0d7efc35854758a0ea2d28e99d9e25f872a36ddf816",
     "size": "6.4 MB",
@@ -303177,7 +304314,7 @@
     "provides": [
       "view-disk"
     ],
-    "rank": "4571",
+    "rank": "4589",
     "recurse_provides": "false",
     "shasum": "337db50ef03aafe41333c2cb16a207308e30b0c898fbb29fbafe68a4c848fe43",
     "size": "1.2 MB",
@@ -303193,6 +304330,940 @@
     "trusted": "true",
     "version": "0.1.0",
     "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "286a194757577fb1923fdecda7af5601c544dfd06c61919d368a83c13e343404",
+    "build_date": "2025-06-19T11:16:24Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755981041",
+    "build_id": "15755981041",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/view-img/stable/view-img?tag=1.0.0-aarch64-Linux&download=view-img.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Simple image viewing CLI.",
+    "desktop_integration": "false",
+    "download_count": "220",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/view-img/stable/view-img?tag=1.0.0-aarch64-Linux&download=view-img",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/view-img/stable/view-img:1.0.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/view-img/stable/view-img",
+    "homepage": [
+      "https://github.com/justdeeevin/view-img"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/view-img/stable/view-img?tag=1.0.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "view-img",
+    "pkg_family": "view-img",
+    "pkg_id": "pkgforge-cargo.view-img.stable",
+    "pkg_name": "view-img",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/view-img",
+    "portable": "true",
+    "provides": [
+      "view-img"
+    ],
+    "rank": "4590",
+    "recurse_provides": "false",
+    "shasum": "8aefc3b740b349bdbf5df79bb0333269ef930c4286de99eb3deb4aa0fec43074",
+    "size": "2.9 MB",
+    "size_raw": "2976296",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/view-img/1.0.0/download"
+    ],
+    "tag": [
+      "image",
+      "iterm2",
+      "kitty",
+      "sixel"
+    ],
+    "trusted": "true",
+    "version": "1.0.0",
+    "version_upstream": "1.0.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "11dcead3f2d645f89c923a34b6c61d9467e72f5cb77937133c00d451641180fc",
+    "build_date": "2025-06-19T11:18:24Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755981186",
+    "build_id": "15755981186",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/viewercount/stable/viewercount?tag=0.2.1-aarch64-Linux&download=viewercount.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Updates nostr Live Events with the number of HLS connections.",
+    "desktop_integration": "false",
+    "download_count": "862",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/viewercount/stable/viewercount?tag=0.2.1-aarch64-Linux&download=viewercount",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/viewercount/stable/viewercount:0.2.1-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/viewercount/stable/viewercount",
+    "homepage": [
+      "https://github.com/sommerfelddev/viewercount"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/viewercount/stable/viewercount?tag=0.2.1-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "viewercount",
+    "pkg_family": "viewercount",
+    "pkg_id": "pkgforge-cargo.viewercount.stable",
+    "pkg_name": "viewercount",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/viewercount",
+    "portable": "true",
+    "provides": [
+      "viewercount"
+    ],
+    "rank": "4591",
+    "recurse_provides": "false",
+    "shasum": "67fefe4629af814a0054228e86b4ef2c64cbc527866c877abb53bf0d9b826242",
+    "size": "7.5 MB",
+    "size_raw": "7848088",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/viewercount/0.2.1/download"
+    ],
+    "tag": [
+      "daemon",
+      "livestream",
+      "nostr"
+    ],
+    "trusted": "true",
+    "version": "0.2.1",
+    "version_upstream": "0.2.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "d77c82c98a2e55f7ac58189ea16fb7996fc12d4dfbe29c8759a21860c5011675",
+    "build_date": "2025-06-19T11:17:09Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755983055",
+    "build_id": "15755983055",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vim_terminal/stable/vim_terminal?tag=0.1.0-aarch64-Linux&download=vim_terminal.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A terminal file explorer with vim bindings written in rust.",
+    "desktop_integration": "false",
+    "download_count": "192",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vim_terminal/stable/vim_terminal?tag=0.1.0-aarch64-Linux&download=vim_terminal",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vim_terminal/stable/vim_terminal:0.1.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vim_terminal/stable/vim_terminal",
+    "homepage": [
+      "https://github.com/saksham-tomer/vim_terminal"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vim_terminal/stable/vim_terminal?tag=0.1.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vim_terminal",
+    "pkg_family": "vim_terminal",
+    "pkg_id": "pkgforge-cargo.vim_terminal.stable",
+    "pkg_name": "vim_terminal",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vim_terminal",
+    "portable": "true",
+    "provides": [
+      "vim_terminal"
+    ],
+    "rank": "4592",
+    "recurse_provides": "false",
+    "shasum": "966cbe638e8351d3b1e132678a021cd0320914baf42148d24da7bd0f88c4b06a",
+    "size": "649 KB",
+    "size_raw": "663616",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vim_terminal/0.1.0/download"
+    ],
+    "tag": [
+      "explorer",
+      "file",
+      "terminal"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "2268f7d610030f77d9593b211b348f5c3306d5de2e5b85140512724e62497373",
+    "build_date": "2025-06-19T11:12:39Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755985062",
+    "build_id": "15755985062",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vimcats/stable/vimcats?tag=1.1.0-aarch64-Linux&download=vimcats.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "LuaCATS parser and vimdoc transformer.",
+    "desktop_integration": "false",
+    "download_count": "1319",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vimcats/stable/vimcats?tag=1.1.0-aarch64-Linux&download=vimcats",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vimcats/stable/vimcats:1.1.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vimcats/stable/vimcats",
+    "homepage": [
+      "https://github.com/mrcjkb/vimcats"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-2.0+"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vimcats/stable/vimcats?tag=1.1.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vimcats",
+    "pkg_family": "vimcats",
+    "pkg_id": "pkgforge-cargo.vimcats.stable",
+    "pkg_name": "vimcats",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vimcats",
+    "portable": "true",
+    "provides": [
+      "vimcats"
+    ],
+    "rank": "4593",
+    "recurse_provides": "false",
+    "shasum": "89f5dd31dcbeaef7cebcf73cb2bec1348ddd62519498e5e7491bfda9d7acca1a",
+    "size": "1.3 MB",
+    "size_raw": "1322896",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vimcats/1.1.0/download"
+    ],
+    "tag": [
+      "lua",
+      "luacats",
+      "neovim",
+      "parser",
+      "vimdoc"
+    ],
+    "trusted": "true",
+    "version": "1.1.0",
+    "version_upstream": "1.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "4d55687d10858405b74f612fa720464b06b0e59758b7b1c8c760bc98341adde2",
+    "build_date": "2025-06-19T11:17:40Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755984949",
+    "build_id": "15755984949",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/viro/stable/viro?tag=2.0.0-aarch64-Linux&download=viro.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Loads your environment so you dont have to.",
+    "desktop_integration": "false",
+    "download_count": "962",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/viro/stable/viro?tag=2.0.0-aarch64-Linux&download=viro",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/viro/stable/viro:2.0.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/viro/stable/viro",
+    "homepage": [
+      "https://codeberg.org/clarfonthey/viro"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "non-standard"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/viro/stable/viro?tag=2.0.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "viro",
+    "pkg_family": "viro",
+    "pkg_id": "pkgforge-cargo.viro.stable",
+    "pkg_name": "viro",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/viro",
+    "portable": "true",
+    "provides": [
+      "viro"
+    ],
+    "rank": "4594",
+    "recurse_provides": "false",
+    "shasum": "84c92344bf687682b85bb54d2dcf2e304d9535529fb3b76a0259bcbcbcfcb42a",
+    "size": "388 KB",
+    "size_raw": "397200",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/viro/2.0.0/download"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "trusted": "true",
+    "version": "2.0.0",
+    "version_upstream": "2.0.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "6447090c4998992c23086c703408f7c5cea7671cad6048a56b7451018faabcbf",
+    "build_date": "2025-06-19T11:19:07Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755985350",
+    "build_id": "15755985350",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/virtio-info/stable/virtio-info?tag=0.1.0-aarch64-Linux&download=virtio-info.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Prints information about available virtio devices.",
+    "desktop_integration": "false",
+    "download_count": "193",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/virtio-info/stable/virtio-info?tag=0.1.0-aarch64-Linux&download=virtio-info",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/virtio-info/stable/virtio-info:0.1.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/virtio-info/stable/virtio-info",
+    "homepage": [
+      "https://github.com/mkroening/virtio-info"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/virtio-info/stable/virtio-info?tag=0.1.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "virtio-info",
+    "pkg_family": "virtio-info",
+    "pkg_id": "pkgforge-cargo.virtio-info.stable",
+    "pkg_name": "virtio-info",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/virtio-info",
+    "portable": "true",
+    "provides": [
+      "virtio-info"
+    ],
+    "rank": "4595",
+    "recurse_provides": "false",
+    "shasum": "05e5e9b0ae7222c37e1de211fea49d4af6a0e3e2dd2a87bed4bc8ee45beb2494",
+    "size": "724 KB",
+    "size_raw": "741256",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/virtio-info/0.1.0/download"
+    ],
+    "tag": [
+      "guest",
+      "linux",
+      "sysfs",
+      "virtio",
+      "vm"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "94bd5873e7bd96252de51401d7a53c21b8b1ad89a28155b8ceadf85dab588a4d",
+    "build_date": "2025-06-19T11:20:08Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15756002524",
+    "build_id": "15756002524",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/virust-locator/stable/virust-locator?tag=0.1.4-aarch64-Linux&download=virust-locator.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A tool for generating sequence locators for HIV/SIV sequences, resembling the functionality of the LANL HIV-Locator tool.",
+    "desktop_integration": "false",
+    "download_count": "700",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/virust-locator/stable/virust-locator?tag=0.1.4-aarch64-Linux&download=virust-locator",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/virust-locator/stable/virust-locator:0.1.4-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/virust-locator/stable/virust-locator",
+    "homepage": [
+      "https://github.com/ViralSeq/viRust-locator"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/virust-locator/stable/virust-locator?tag=0.1.4-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "virust-locator",
+    "pkg_family": "virust-locator",
+    "pkg_id": "pkgforge-cargo.virust-locator.stable",
+    "pkg_name": "virust-locator",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/virust-locator",
+    "portable": "true",
+    "provides": [
+      "virust-locator"
+    ],
+    "rank": "4596",
+    "recurse_provides": "false",
+    "shasum": "fe5575f6eb42a9dfb586bb2aa925d244847fce60258de95c5770e2476fac1bc9",
+    "size": "896 KB",
+    "size_raw": "917488",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/virust-locator/0.1.4/download"
+    ],
+    "tag": [
+      "alignment",
+      "bioinformatics",
+      "hiv",
+      "sequence"
+    ],
+    "trusted": "true",
+    "version": "0.1.4",
+    "version_upstream": "0.1.4"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "f147766559bdb39343f8ca04e939c2c82338864406d4100ea675c95c8566a8bb",
+    "build_date": "2025-06-19T11:26:40Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15756004577",
+    "build_id": "15756004577",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vitrine/stable/vitrine?tag=0.1.29-aarch64-Linux&download=vitrine.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A scriptable static site generator.",
+    "desktop_integration": "false",
+    "download_count": "4417",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vitrine/stable/vitrine?tag=0.1.29-aarch64-Linux&download=vitrine",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vitrine/stable/vitrine:0.1.29-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vitrine/stable/vitrine",
+    "homepage": [
+      "https://github.com/charlyisidore/vitrine"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "AGPL-3.0-only"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vitrine/stable/vitrine?tag=0.1.29-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vitrine",
+    "pkg_family": "vitrine",
+    "pkg_id": "pkgforge-cargo.vitrine.stable",
+    "pkg_name": "vitrine",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vitrine",
+    "portable": "true",
+    "provides": [
+      "vitrine"
+    ],
+    "rank": "4597",
+    "recurse_provides": "false",
+    "shasum": "38439229e28b0f1d5f0bcf52eb68feccb37964ef655e68cd22e8cf7dc8c2550c",
+    "size": "36 MB",
+    "size_raw": "36912952",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vitrine/0.1.29/download"
+    ],
+    "tag": [
+      "generator",
+      "site",
+      "static"
+    ],
+    "trusted": "true",
+    "version": "0.1.29",
+    "version_upstream": "0.1.29"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "9db93841a4a1b6cc2d322e4a7a1f43293bbe1877eaa68449fe8fc5844bbbd3de",
+    "build_date": "2025-06-19T11:21:42Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15756022341",
+    "build_id": "15756022341",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vivid/stable/vivid?tag=0.10.1-aarch64-Linux&download=vivid.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "LS_COLORS manager with multiple themes.",
+    "desktop_integration": "false",
+    "download_count": "2557",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vivid/stable/vivid?tag=0.10.1-aarch64-Linux&download=vivid",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vivid/stable/vivid:0.10.1-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vivid/stable/vivid",
+    "homepage": [
+      "https://github.com/sharkdp/vivid"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT/Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vivid/stable/vivid?tag=0.10.1-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vivid",
+    "pkg_family": "vivid",
+    "pkg_id": "pkgforge-cargo.vivid.stable",
+    "pkg_name": "vivid",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vivid",
+    "portable": "true",
+    "provides": [
+      "vivid"
+    ],
+    "rank": "4598",
+    "recurse_provides": "false",
+    "shasum": "9b1e88a49b03d1e03a1563c2914028244165780634063811a00c3be04e6b24ce",
+    "size": "1000 KB",
+    "size_raw": "1023888",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vivid/0.10.1/download"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "trusted": "true",
+    "version": "0.10.1",
+    "version_upstream": "0.10.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "3e782f0ffff6bf738d29d4b3529184451b761f90b20f11ab190fe34ef10537fd",
+    "build_date": "2025-06-19T11:15:12Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15756031362",
+    "build_id": "15756031362",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vivo/stable/vivo?tag=0.1.0-aarch64-Linux&download=vivo.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "[WIP] Vivo - restic backup w/ sync to b2.",
+    "desktop_integration": "false",
+    "download_count": "205",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vivo/stable/vivo?tag=0.1.0-aarch64-Linux&download=vivo",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vivo/stable/vivo:0.1.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vivo/stable/vivo",
+    "homepage": [
+      "https://codeberg.org/tuck/vivo"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "Apache-2.0 OR MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vivo/stable/vivo?tag=0.1.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vivo",
+    "pkg_family": "vivo",
+    "pkg_id": "pkgforge-cargo.vivo.stable",
+    "pkg_name": "vivo",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vivo",
+    "portable": "true",
+    "provides": [
+      "vivo"
+    ],
+    "rank": "4599",
+    "recurse_provides": "false",
+    "shasum": "643d3ffe9f0e3467b6a86750bd2d43e1d0feb3f786d44e9915c784a240747802",
+    "size": "2.5 MB",
+    "size_raw": "2609160",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vivo/0.1.0/download"
+    ],
+    "tag": [
+      "b2",
+      "backup",
+      "cli",
+      "encryption",
+      "restic"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "f8e973c902f7742ae54ccbf3dc530e84826d343331441039da5115abbb128d6a",
+    "build_date": "2025-06-19T11:00:27Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15755526583",
+    "build_id": "15755526583",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/valheim-mod-manager/stable/vmm?tag=0.1.3-aarch64-Linux&download=vmm.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Mod manager for Valheim game.",
+    "desktop_integration": "false",
+    "download_count": "1029",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/valheim-mod-manager/stable/vmm?tag=0.1.3-aarch64-Linux&download=vmm",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/valheim-mod-manager/stable/vmm:0.1.3-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/valheim-mod-manager/stable/vmm",
+    "homepage": [
+      "https://github.com/Endoze/valheim-mod-manager"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/valheim-mod-manager/stable/vmm?tag=0.1.3-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vmm",
+    "pkg_family": "valheim-mod-manager",
+    "pkg_id": "pkgforge-cargo.valheim-mod-manager.stable",
+    "pkg_name": "vmm",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/valheim-mod-manager",
+    "portable": "true",
+    "provides": [
+      "vmm"
+    ],
+    "rank": "4570",
+    "recurse_provides": "false",
+    "shasum": "6f5b94bf110bb02ec50eb609b59fbcb1c9cced7b64973867825961ba2f267adf",
+    "size": "6.5 MB",
+    "size_raw": "6773200",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/valheim-mod-manager/0.1.3/download"
+    ],
+    "tag": [
+      "game",
+      "manager",
+      "mod",
+      "modding",
+      "valheim"
+    ],
+    "trusted": "true",
+    "version": "0.1.3",
+    "version_upstream": "0.1.3"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "36fae34517320faa55167ebaf9e02be12c03e6ec6692fbf4e77a81ef9b3aef26",
+    "build_date": "2025-06-19T11:24:51Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15756035736",
+    "build_id": "15756035736",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vmp/stable/vmp?tag=1.0.0-alpha.1-aarch64-Linux&download=vmp.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "CLI tool to quickly pick mails from an m2dir.",
+    "desktop_integration": "false",
+    "download_count": "214",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vmp/stable/vmp?tag=1.0.0-alpha.1-aarch64-Linux&download=vmp",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vmp/stable/vmp:1.0.0-alpha.1-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vmp/stable/vmp",
+    "homepage": [
+      "https://git.sr.ht/~bitfehler/vomit"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-or-later"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vmp/stable/vmp?tag=1.0.0-alpha.1-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vmp",
+    "pkg_family": "vmp",
+    "pkg_id": "pkgforge-cargo.vmp.stable",
+    "pkg_name": "vmp",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vmp",
+    "portable": "true",
+    "provides": [
+      "vmp"
+    ],
+    "rank": "4600",
+    "recurse_provides": "false",
+    "shasum": "39d5fc04eb453a073881fb1777fd15e9b4e457326d8aabfc27dee97aaab656be",
+    "size": "3.5 MB",
+    "size_raw": "3650232",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vmp/1.0.0-alpha.1/download"
+    ],
+    "tag": [
+      "cli",
+      "email",
+      "m2dir"
+    ],
+    "trusted": "true",
+    "version": "1.0.0-alpha.1",
+    "version_upstream": "1.0.0-alpha.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "e604c6a91b6c56ea2dc3f05e06cd1df604855259d2533b91dd946058da30f056",
+    "build_date": "2025-06-19T11:24:54Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15756040477",
+    "build_id": "15756040477",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vmpl-run/stable/vmpl-run?tag=0.1.4-aarch64-Linux&download=vmpl-run.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A tool to run programs with VMPL support.",
+    "desktop_integration": "false",
+    "download_count": "749",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vmpl-run/stable/vmpl-run?tag=0.1.4-aarch64-Linux&download=vmpl-run",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/vmpl-run/stable/vmpl-run:0.1.4-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/vmpl-run/stable/vmpl-run",
+    "homepage": [
+      "https://github.com/vmpl-dev/vmpl-run"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/vmpl-run/stable/vmpl-run?tag=0.1.4-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "vmpl-run",
+    "pkg_family": "vmpl-run",
+    "pkg_id": "pkgforge-cargo.vmpl-run.stable",
+    "pkg_name": "vmpl-run",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/vmpl-run",
+    "portable": "true",
+    "provides": [
+      "vmpl-run"
+    ],
+    "rank": "4601",
+    "recurse_provides": "false",
+    "shasum": "f88044d3f6b5f3166a8365321d49c3420778b8ea261ddb3a2b941ca651ccd456",
+    "size": "1004 KB",
+    "size_raw": "1027984",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/vmpl-run/0.1.4/download"
+    ],
+    "tag": [
+      "isolation",
+      "security",
+      "sev-snp",
+      "virtualization",
+      "vmpl"
+    ],
+    "trusted": "true",
+    "version": "0.1.4",
+    "version_upstream": "0.1.4"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "e811f8b699eef993a680935a28b79c6eb39ad24c020fe16c6a24a6f90d7967d1",
+    "build_date": "2025-06-19T11:26:45Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15756066313",
+    "build_id": "15756066313",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/volaris-cli/stable/volaris-cli?tag=0.0.5-aarch64-Linux&download=volaris-cli.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Efficient, robust, and verified command-line file encryption.",
+    "desktop_integration": "false",
+    "download_count": "867",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/volaris-cli/stable/volaris-cli?tag=0.0.5-aarch64-Linux&download=volaris-cli",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/volaris-cli/stable/volaris-cli:0.0.5-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/volaris-cli/stable/volaris-cli",
+    "homepage": [
+      "https://github.com/volar-is/volaris/tree/master/volaris"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "BSD-2-Clause"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/volaris-cli/stable/volaris-cli?tag=0.0.5-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "volaris-cli",
+    "pkg_family": "volaris-cli",
+    "pkg_id": "pkgforge-cargo.volaris-cli.stable",
+    "pkg_name": "volaris-cli",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/volaris-cli",
+    "portable": "true",
+    "provides": [
+      "volaris-cli"
+    ],
+    "rank": "4602",
+    "recurse_provides": "false",
+    "shasum": "c55d7efa6e4b631c33f115adff68d7f4c72702e09645c8c51a42d55dfc3d59f8",
+    "size": "1.9 MB",
+    "size_raw": "1916952",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/volaris-cli/0.0.5/download"
+    ],
+    "tag": [
+      "command-line",
+      "encryption",
+      "file",
+      "secure",
+      "utility"
+    ],
+    "trusted": "true",
+    "version": "0.0.5",
+    "version_upstream": "0.0.5"
   },
   {
     "_disabled": "false",
@@ -303241,7 +305312,7 @@
     "provides": [
       "volo"
     ],
-    "rank": "4572",
+    "rank": "4603",
     "recurse_provides": "false",
     "shasum": "9ae7aa0628a5edd9e73fcf9590cb8d5fb90d554efb02be0284bf20c1f6fe8865",
     "size": "8.0 MB",
@@ -303309,7 +305380,7 @@
     "provides": [
       "volscan"
     ],
-    "rank": "4573",
+    "rank": "4604",
     "recurse_provides": "false",
     "shasum": "2d0e0dfb0f9463e8f82b4ce2fd87035cbe1b443466b3dea41f040933a509971d",
     "size": "1.6 MB",
@@ -303377,7 +305448,7 @@
     "provides": [
       "vopono"
     ],
-    "rank": "4574",
+    "rank": "4605",
     "recurse_provides": "false",
     "shasum": "1edfee6b840a95c10d455b96086488347492b94b2aca2b309e0c3215661b6a99",
     "size": "7.8 MB",
@@ -303445,7 +305516,7 @@
     "provides": [
       "vscode-workspace-gen"
     ],
-    "rank": "4575",
+    "rank": "4606",
     "recurse_provides": "false",
     "shasum": "38fa4e63e80dcf6750c4baa774103c2d9cc36fdb0491773a89b35299e8e4c596",
     "size": "2.2 MB",
@@ -303510,7 +305581,7 @@
     "provides": [
       "wac"
     ],
-    "rank": "4576",
+    "rank": "4607",
     "recurse_provides": "false",
     "shasum": "876aa657246ad98ed8431ab81477669afe04a3df965e7742f3b8b297bf89ba14",
     "size": "16 MB",
@@ -303578,7 +305649,7 @@
       "auto_serve",
       "waj"
     ],
-    "rank": "4578",
+    "rank": "4609",
     "recurse_provides": "false",
     "shasum": "28a5a6c34e1c4bbc9614c54c31fce0855409af89840ab6af6d646221483573d5",
     "size": "4.2 MB",
@@ -303644,7 +305715,7 @@
     "provides": [
       "wallrust"
     ],
-    "rank": "4579",
+    "rank": "4610",
     "recurse_provides": "false",
     "shasum": "9ba85abc1b6abd559bd55a29500c404d32a241f2e080b4dca3e82624166abddd",
     "size": "5.1 MB",
@@ -303712,7 +305783,7 @@
     "provides": [
       "wallust"
     ],
-    "rank": "4580",
+    "rank": "4611",
     "recurse_provides": "false",
     "shasum": "864b6988efbee31cade8887390bc858db27db3e16496d0c2085e2aa0f450e209",
     "size": "5.7 MB",
@@ -303779,7 +305850,7 @@
     "provides": [
       "wash"
     ],
-    "rank": "4581",
+    "rank": "4612",
     "recurse_provides": "false",
     "shasum": "4ce763011194ed3ab6244d2ffa42b84c326c28fc23e19f7a880410b0290163fe",
     "size": "35 MB",
@@ -303847,7 +305918,7 @@
       "wasm-bindgen",
       "wasm2es6js"
     ],
-    "rank": "4582",
+    "rank": "4613",
     "recurse_provides": "false",
     "shasum": "b9dfe9ee2780b8c5e38bfcbc27a341f3e9a70df1cb2324cdc4188be760c9d525",
     "size": "4.0 MB",
@@ -303911,7 +305982,7 @@
     "provides": [
       "wasm-opt"
     ],
-    "rank": "4584",
+    "rank": "4615",
     "recurse_provides": "false",
     "shasum": "b2224b1564ca1d5eb828328ad6481014bad7c8ff45d12af43bad9bbecfa4ae3b",
     "size": "14 MB",
@@ -303975,7 +306046,7 @@
     "provides": [
       "wasm-pack"
     ],
-    "rank": "4585",
+    "rank": "4616",
     "recurse_provides": "false",
     "shasum": "2ceb3c1ac285dec3902600d0f34301b3faa8081dc23346b3eb41cc1503738090",
     "size": "4.3 MB",
@@ -304039,7 +306110,7 @@
     "provides": [
       "wasm-server-runner"
     ],
-    "rank": "4586",
+    "rank": "4617",
     "recurse_provides": "false",
     "shasum": "674ebf164f49eeff70fdcd0f8723dc1972e9ba81d4456b4968a0a302b9df95fd",
     "size": "9.2 MB",
@@ -304174,7 +306245,7 @@
     "provides": [
       "wasm-tools"
     ],
-    "rank": "4587",
+    "rank": "4618",
     "recurse_provides": "false",
     "shasum": "5d3ae1a1f26826d5a9816b69be528aaee0e50c621ae3a3e9f80be15f8f089d84",
     "size": "12 MB",
@@ -304242,7 +306313,7 @@
       "wasm-bindgen",
       "wasm2es6js"
     ],
-    "rank": "4583",
+    "rank": "4614",
     "recurse_provides": "false",
     "shasum": "641d88a4071f344171133a31523286f486e83df551987e4b144476f64a0f6c4f",
     "size": "2.1 MB",
@@ -304306,7 +306377,7 @@
     "provides": [
       "wasmtime"
     ],
-    "rank": "4588",
+    "rank": "4619",
     "recurse_provides": "false",
     "shasum": "73e3dd3397be2d3fafd2bb2707c870b8d034743d58899f1182cc92801db1f810",
     "size": "30 MB",
@@ -304371,7 +306442,7 @@
     "provides": [
       "wayland-interface-check"
     ],
-    "rank": "4589",
+    "rank": "4620",
     "recurse_provides": "false",
     "shasum": "d7d8eb4cceb967dbf8a1004b08a1ca845a2c1e60ff5bba923302b367eb5937e0",
     "size": "480 KB",
@@ -304437,7 +306508,7 @@
     "provides": [
       "web2pdf"
     ],
-    "rank": "4590",
+    "rank": "4621",
     "recurse_provides": "false",
     "shasum": "895cb13483b4369c4cb97ddc17d31cad2ce46aaa31b6235feff84fbce1ea8425",
     "size": "7.2 MB",
@@ -304503,7 +306574,7 @@
     "provides": [
       "webidl2wit"
     ],
-    "rank": "4592",
+    "rank": "4623",
     "recurse_provides": "false",
     "shasum": "59795215348e85bb3fd1e4115ca145d23e9d3b24602fb23af5c531731e4e9c60",
     "size": "1.3 MB",
@@ -304637,7 +306708,7 @@
     "provides": [
       "websnap"
     ],
-    "rank": "4593",
+    "rank": "4624",
     "recurse_provides": "false",
     "shasum": "240798014f27157555536df8bc0b397e5db04424f6152a134653a93bf51e200a",
     "size": "808 KB",
@@ -304703,7 +306774,7 @@
     "provides": [
       "websocat"
     ],
-    "rank": "4594",
+    "rank": "4625",
     "recurse_provides": "false",
     "shasum": "28e6030c9b4fceed2e5ba51a6e252d344c50f90d5897248a6257b5e94e15eb72",
     "size": "8.9 MB",
@@ -304771,7 +306842,7 @@
     "provides": [
       "whereamifrom"
     ],
-    "rank": "4595",
+    "rank": "4626",
     "recurse_provides": "false",
     "shasum": "8c124f1a47189ad7144f7afdbbdd34c1c4b5d35bd639b838bd5f73098827f4b4",
     "size": "7.0 MB",
@@ -304836,7 +306907,7 @@
     "provides": [
       "whereis"
     ],
-    "rank": "4596",
+    "rank": "4627",
     "recurse_provides": "false",
     "shasum": "ceeb149168f3222561ad2426cc09290075667dfef838d377aa26d18609cb69b5",
     "size": "696 KB",
@@ -304900,7 +306971,7 @@
     "provides": [
       "whereyoufrom"
     ],
-    "rank": "4597",
+    "rank": "4628",
     "recurse_provides": "false",
     "shasum": "1dddf741e6ac2809edbcac7021ed804c0c22fd0868d289b0041c42d1e4ab3891",
     "size": "593 KB",
@@ -304968,7 +307039,7 @@
     "provides": [
       "which"
     ],
-    "rank": "4600",
+    "rank": "4631",
     "recurse_provides": "false",
     "shasum": "efbf9394e25b5a1f4318b7d06272fb8f26db2a8d0a2bcab64f368eae981e169d",
     "size": "364 KB",
@@ -305036,7 +307107,7 @@
     "provides": [
       "which-key"
     ],
-    "rank": "4598",
+    "rank": "4629",
     "recurse_provides": "false",
     "shasum": "19e052985a440e46280a7e5840cb8e07a450a7d6848a130b6acb4ea8ce5127fb",
     "size": "996 KB",
@@ -305102,7 +307173,7 @@
     "provides": [
       "which-sig"
     ],
-    "rank": "4599",
+    "rank": "4630",
     "recurse_provides": "false",
     "shasum": "89b0468522af5c6d4b6d799126afee3af14f7fa5d1575be2144ec21aab17c0e5",
     "size": "364 KB",
@@ -305297,7 +307368,7 @@
     "provides": [
       "wit-bindgen"
     ],
-    "rank": "4603",
+    "rank": "4634",
     "recurse_provides": "false",
     "shasum": "794e8f86226b22ecfef43b250b19bca2b5ec31a38be448efb6638d89476ffb74",
     "size": "11 MB",
@@ -305362,7 +307433,7 @@
       "completions",
       "withd"
     ],
-    "rank": "4605",
+    "rank": "4636",
     "recurse_provides": "false",
     "shasum": "38f7ab5fc08756e5c3ec19d6d87617feb3e4947d7469f20a4c7b68d0b4a24599",
     "size": "1.2 MB",
@@ -305427,7 +307498,7 @@
     "provides": [
       "wizer"
     ],
-    "rank": "4606",
+    "rank": "4637",
     "recurse_provides": "false",
     "shasum": "11310340949e557f83644a1e216062a05771644b923e02d04fca7fbadde9c31b",
     "size": "12 MB",
@@ -305556,7 +307627,7 @@
     "provides": [
       "work-break"
     ],
-    "rank": "4607",
+    "rank": "4638",
     "recurse_provides": "false",
     "shasum": "26c80dff332486331f2f0da0416e5d82ace1db0834201ef4cd3bbbd225b39faa",
     "size": "2.6 MB",
@@ -305687,7 +307758,7 @@
     "provides": [
       "wr"
     ],
-    "rank": "4608",
+    "rank": "4639",
     "recurse_provides": "false",
     "shasum": "79fc57f000764e8ab0564b5ea16a4ee67150886af3da300bf9f381888be05e47",
     "size": "3.8 MB",
@@ -305820,7 +307891,7 @@
     "provides": [
       "wspick"
     ],
-    "rank": "4609",
+    "rank": "4640",
     "recurse_provides": "false",
     "shasum": "991e9aacc47036fca6b4e1947fd628a01a794c98b976f960e97bc702df42509d",
     "size": "1.4 MB",
@@ -305888,7 +307959,7 @@
     "provides": [
       "xan"
     ],
-    "rank": "4610",
+    "rank": "4641",
     "recurse_provides": "false",
     "shasum": "d4f88ffb4142a72ded7d2532a989f4aba3aafbfd4e400e5be7918b881a1bb6d4",
     "size": "13 MB",
@@ -306020,7 +308091,7 @@
     "provides": [
       "xplr"
     ],
-    "rank": "4611",
+    "rank": "4642",
     "recurse_provides": "false",
     "shasum": "bbac7178c36181b91aaf25957d5530caecb068383c3de1841cb575d7e5bb1369",
     "size": "6.5 MB",
@@ -306088,7 +308159,7 @@
     "provides": [
       "xray"
     ],
-    "rank": "4612",
+    "rank": "4643",
     "recurse_provides": "false",
     "shasum": "999e06f0bb357147585303872ae1cde78100e535bc67d05c77aca719db5e1273",
     "size": "3.6 MB",
@@ -306156,7 +308227,7 @@
     "provides": [
       "xtagger"
     ],
-    "rank": "4613",
+    "rank": "4644",
     "recurse_provides": "false",
     "shasum": "6baa3e45d549f0ddbd326d03589e81720069100a87e5116d7c7eac4c3fc6fea6",
     "size": "2.1 MB",
@@ -306222,7 +308293,7 @@
     "provides": [
       "ya"
     ],
-    "rank": "4617",
+    "rank": "4648",
     "recurse_provides": "false",
     "shasum": "92b67fda8c9fec328fe73efe0d56cf9bd60d60b6690c1ac9375c94c68c96f7b6",
     "size": "3.1 MB",
@@ -306522,7 +308593,7 @@
     "provides": [
       "yarig"
     ],
-    "rank": "4614",
+    "rank": "4645",
     "recurse_provides": "false",
     "shasum": "0c3c914a40c6ae17b9770440d7d418f81e5ac80e6f0e83bd4ead26c9a902157b",
     "size": "2.6 MB",
@@ -306588,7 +308659,7 @@
     "provides": [
       "yarner"
     ],
-    "rank": "4615",
+    "rank": "4646",
     "recurse_provides": "false",
     "shasum": "8635ec7920660e97ba77dea024321213b568c8e14c42cea64b32ee00e8d7ff0c",
     "size": "2.4 MB",
@@ -306654,7 +308725,7 @@
     "provides": [
       "yaui"
     ],
-    "rank": "4616",
+    "rank": "4647",
     "recurse_provides": "false",
     "shasum": "523250ba88793fbce9f3cea2d3819c28b7463a858980b80a501778f9c1aac618",
     "size": "1011 KB",
@@ -306718,7 +308789,7 @@
     "provides": [
       "yazi"
     ],
-    "rank": "4618",
+    "rank": "4649",
     "recurse_provides": "false",
     "shasum": "14c2a4b592cf4e3d57e6f851ef04bf0a22fc594bd074fa54bd5620fac4d5c447",
     "size": "17 MB",
@@ -306782,7 +308853,7 @@
     "provides": [
       "ymlfxr"
     ],
-    "rank": "4620",
+    "rank": "4651",
     "recurse_provides": "false",
     "shasum": "9f9abe260bb6c4eae179dfd72bc9c9e5d7de95e5ba9ea76989d9dcf90816e479",
     "size": "832 KB",
@@ -306847,7 +308918,7 @@
     "provides": [
       "zepter"
     ],
-    "rank": "4621",
+    "rank": "4652",
     "recurse_provides": "false",
     "shasum": "b6f2339e1b611819d60d79c868643c9706199120b7ffb6fd0144e85a0db52b50",
     "size": "3.1 MB",
@@ -306978,7 +309049,7 @@
     "provides": [
       "zesh"
     ],
-    "rank": "4622",
+    "rank": "4653",
     "recurse_provides": "false",
     "shasum": "58346dbe4002aaedca1e92817afe85668cf586fc7d2d8d964aaf1103fe668be7",
     "size": "832 KB",
@@ -307171,7 +309242,7 @@
     "provides": [
       "zipsign"
     ],
-    "rank": "4623",
+    "rank": "4654",
     "recurse_provides": "false",
     "shasum": "d831a3336c642c1736ce12f4cbffd486a34695ca007e0289147043e8f84e6d44",
     "size": "1.1 MB",
@@ -307235,7 +309306,7 @@
     "provides": [
       "zizmor"
     ],
-    "rank": "4624",
+    "rank": "4655",
     "recurse_provides": "false",
     "shasum": "2dc650ac34193ef9301efd349c25989a6709ffec90a4bd2cbb2d836be84dd38e",
     "size": "12 MB",
@@ -307302,7 +309373,7 @@
     "provides": [
       "zman"
     ],
-    "rank": "4625",
+    "rank": "4656",
     "recurse_provides": "false",
     "shasum": "b9d27fd4259913db09b14615917ff8068229676033104bf0b8475d797c27a24a",
     "size": "968 KB",
@@ -307368,7 +309439,7 @@
     "provides": [
       "zoxide"
     ],
-    "rank": "4626",
+    "rank": "4657",
     "recurse_provides": "false",
     "shasum": "5b59bbc8426c5e4cc9be14e665e540ba51889f1a604de19a019c949ee31605c4",
     "size": "1.1 MB",
@@ -307436,7 +309507,7 @@
     "provides": [
       "zp"
     ],
-    "rank": "4627",
+    "rank": "4658",
     "recurse_provides": "false",
     "shasum": "63ab3ae2cb65173f4bcb8975d64f1e1f7677e32a8b86e2b39af98820b41b48e2",
     "size": "1.3 MB",
