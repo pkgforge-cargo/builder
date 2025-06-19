@@ -2782,7 +2782,7 @@
     "provides": [
       "UnifyAll"
     ],
-    "rank": "4319",
+    "rank": "4347",
     "recurse_provides": "false",
     "shasum": "e67d539f2655f5c520433084169f0d75913526218c18a0e595c046dbb926a29b",
     "size": "436 KB",
@@ -28572,7 +28572,7 @@
       "assess",
       "create_train_dataset"
     ],
-    "rank": "4360",
+    "rank": "4417",
     "recurse_provides": "false",
     "shasum": "04187f6b7b5842703edb8440384b0f8a3e6201691157cd2fc34d0723bb7f4701",
     "size": "648 KB",
@@ -31736,7 +31736,7 @@
       "auto_serve",
       "waj"
     ],
-    "rank": "4336",
+    "rank": "4393",
     "recurse_provides": "false",
     "shasum": "4b5d8aabe11fedaf2a9d6d9534778a615c4e633a0bfaa9f9c999e7245d52f57c",
     "size": "1.2 MB",
@@ -93143,7 +93143,7 @@
       "completions",
       "withd"
     ],
-    "rank": "4363",
+    "rank": "4420",
     "recurse_provides": "false",
     "shasum": "b69cbc216082df2f2fad0ace38a88a105e00f72e388455cfd0201d2d8d9d6a59",
     "size": "620 KB",
@@ -96098,7 +96098,7 @@
       "assess",
       "create_train_dataset"
     ],
-    "rank": "4361",
+    "rank": "4418",
     "recurse_provides": "false",
     "shasum": "85436c887239a972170e30178a6f52f80d406d4bd67292dc68cfba4031b08c48",
     "size": "376 KB",
@@ -156000,7 +156000,7 @@
     "provides": [
       "index"
     ],
-    "rank": "4350",
+    "rank": "4407",
     "recurse_provides": "false",
     "shasum": "325a5e3d9ffb5cce6b0b50b343208febe9374b13d2d8879ef0b783a734550a46",
     "size": "384 KB",
@@ -285889,6 +285889,479 @@
   },
   {
     "_disabled": "false",
+    "bsum": "0b0fa2a63c446f56587855f38c7071a930a66ff4223e1263873aa774a1c50085",
+    "build_date": "2025-06-19T09:24:45Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754295823",
+    "build_id": "15754295823",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tzt/stable/tzt?tag=0.3.1-riscv64-Linux&download=tzt.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "simple command-line utility that converts a given time from one timezone to another.",
+    "desktop_integration": "false",
+    "download_count": "599",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tzt/stable/tzt?tag=0.3.1-riscv64-Linux&download=tzt",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tzt/stable/tzt:0.3.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tzt/stable/tzt",
+    "homepage": [
+      "https://github.com/shunsock/timezone_translator"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tzt/stable/tzt?tag=0.3.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tzt",
+    "pkg_family": "tzt",
+    "pkg_id": "pkgforge-cargo.tzt.stable",
+    "pkg_name": "tzt",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tzt",
+    "portable": "true",
+    "provides": [
+      "tzt"
+    ],
+    "rank": "4316",
+    "recurse_provides": "false",
+    "shasum": "a19821928d4230cc5daf09a75cc44ce444f55717e2b092d77329c398ab9791ef",
+    "size": "2.9 MB",
+    "size_raw": "3022808",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tzt/0.3.1/download"
+    ],
+    "tag": [
+      "cli",
+      "converter",
+      "time",
+      "timezone",
+      "translator"
+    ],
+    "trusted": "true",
+    "version": "0.3.1",
+    "version_upstream": "0.3.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "0e96bbc39e64a5a0a3f021965942abcb0ee5f17e55e5a2b798f1294929b166b5",
+    "build_date": "2025-06-19T10:05:11Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754436997",
+    "build_id": "15754436997",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/utf8-locale/stable/u8loc?tag=1.0.4-riscv64-Linux&download=u8loc.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Detect a UTF-8-capable locale for running child processes in.",
+    "desktop_integration": "false",
+    "download_count": "986",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/utf8-locale/stable/u8loc?tag=1.0.4-riscv64-Linux&download=u8loc",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/utf8-locale/stable/u8loc:1.0.4-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/utf8-locale/stable/u8loc",
+    "homepage": [
+      "https://gitlab.com/ppentchev/utf8-locale"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "BSD-2-Clause"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/utf8-locale/stable/u8loc?tag=1.0.4-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "u8loc",
+    "pkg_family": "utf8-locale",
+    "pkg_id": "pkgforge-cargo.utf8-locale.stable",
+    "pkg_name": "u8loc",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/utf8-locale",
+    "portable": "true",
+    "provides": [
+      "u8loc"
+    ],
+    "rank": "4378",
+    "recurse_provides": "false",
+    "shasum": "247297fca71e0808e1773200648547615525b0358c4832dc2e8d060874195a2a",
+    "size": "1.9 MB",
+    "size_raw": "1912936",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/utf8-locale/1.0.4/download"
+    ],
+    "tag": [
+      "locale",
+      "subprocess",
+      "utf-8",
+      "utf8"
+    ],
+    "trusted": "true",
+    "version": "1.0.4",
+    "version_upstream": "1.0.4"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "a8d7bda1c477861ddb9d047f5490b5d08e7a6aad7d6c58160fe03595a1a8f7d3",
+    "build_date": "2025-06-19T09:27:15Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754297386",
+    "build_id": "15754297386",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uair/stable/uair?tag=0.6.3-riscv64-Linux&download=uair.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "An extensible pomodoro timer.",
+    "desktop_integration": "false",
+    "download_count": "2115",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uair/stable/uair?tag=0.6.3-riscv64-Linux&download=uair",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/uair/stable/uair:0.6.3-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/uair/stable/uair",
+    "homepage": [
+      "https://github.com/metent/uair/"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uair/stable/uair?tag=0.6.3-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uair",
+    "pkg_family": "uair",
+    "pkg_id": "pkgforge-cargo.uair.stable",
+    "pkg_name": "uair",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/uair",
+    "portable": "true",
+    "provides": [
+      "uair",
+      "uairctl"
+    ],
+    "rank": "4317",
+    "recurse_provides": "false",
+    "shasum": "4407c1f6fab079bd4211931e9bc0ef6d769f279fd5bfc2a157327a15f5928b9a",
+    "size": "1.1 MB",
+    "size_raw": "1077336",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/uair/0.6.3/download"
+    ],
+    "tag": [
+      "cli",
+      "countdown",
+      "pomodoro",
+      "productivity",
+      "timer"
+    ],
+    "trusted": "true",
+    "version": "0.6.3",
+    "version_upstream": "0.6.3"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "9fb343b9d5b2f1bc080050d229448494a50c486b1142feb265d9bc9003b4131e",
+    "build_date": "2025-06-19T09:27:09Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754297386",
+    "build_id": "15754297386",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uair/stable/uairctl?tag=0.6.3-riscv64-Linux&download=uairctl.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "An extensible pomodoro timer.",
+    "desktop_integration": "false",
+    "download_count": "2115",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uair/stable/uairctl?tag=0.6.3-riscv64-Linux&download=uairctl",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/uair/stable/uairctl:0.6.3-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/uair/stable/uairctl",
+    "homepage": [
+      "https://github.com/metent/uair/"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uair/stable/uairctl?tag=0.6.3-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uairctl",
+    "pkg_family": "uair",
+    "pkg_id": "pkgforge-cargo.uair.stable",
+    "pkg_name": "uairctl",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/uair",
+    "portable": "true",
+    "provides": [
+      "uair",
+      "uairctl"
+    ],
+    "rank": "4318",
+    "recurse_provides": "false",
+    "shasum": "48c4ad172cf74102bd3aca9121d1e4cfa7bb8cf35976c01ef55513747b9bdcc8",
+    "size": "416 KB",
+    "size_raw": "425928",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/uair/0.6.3/download"
+    ],
+    "tag": [
+      "cli",
+      "countdown",
+      "pomodoro",
+      "productivity",
+      "timer"
+    ],
+    "trusted": "true",
+    "version": "0.6.3",
+    "version_upstream": "0.6.3"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "66b87f497327b342b8d44700d23d5584465784a6b9e0a5b59fc9ae1fb0971991",
+    "build_date": "2025-06-19T09:31:11Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754302933",
+    "build_id": "15754302933",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unarchiver/stable/uar?tag=0.0.3-riscv64-Linux&download=uar.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "CLI Tool for un/archive multiple formats of compressed files.",
+    "desktop_integration": "false",
+    "download_count": "501",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unarchiver/stable/uar?tag=0.0.3-riscv64-Linux&download=uar",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/unarchiver/stable/uar:0.0.3-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/unarchiver/stable/uar",
+    "homepage": [
+      "https://github.com/EstebanBorai/unarchiver"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unarchiver/stable/uar?tag=0.0.3-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uar",
+    "pkg_family": "unarchiver",
+    "pkg_id": "pkgforge-cargo.unarchiver.stable",
+    "pkg_name": "uar",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/unarchiver",
+    "portable": "true",
+    "provides": [
+      "uar"
+    ],
+    "rank": "4339",
+    "recurse_provides": "false",
+    "shasum": "960b79267a4aec1cd565a76d03dbe993ca7179d3730bb564d868257d8255fbc1",
+    "size": "997 KB",
+    "size_raw": "1019992",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/unarchiver/0.0.3/download"
+    ],
+    "tag": [
+      "archive",
+      "cli",
+      "rar",
+      "unarchive",
+      "zip"
+    ],
+    "trusted": "true",
+    "version": "0.0.3",
+    "version_upstream": "0.0.3"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "2756536c1e82a1d6994d9e4d6f15c0a7041b9eafb5a942025a80f8286d5b0379",
+    "build_date": "2025-06-19T09:21:44Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754296021",
+    "build_id": "15754296021",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uast/stable/uast?tag=6.0.2-riscv64-Linux&download=uast.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Unicode Aware Saṃskṛta Transliteration in Rust 🦀.",
+    "desktop_integration": "false",
+    "download_count": "5713",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uast/stable/uast?tag=6.0.2-riscv64-Linux&download=uast",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/uast/stable/uast:6.0.2-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/uast/stable/uast",
+    "homepage": [
+      "https://github.com/dhruvildave/uast.rs"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uast/stable/uast?tag=6.0.2-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uast",
+    "pkg_family": "uast",
+    "pkg_id": "pkgforge-cargo.uast.stable",
+    "pkg_name": "uast",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/uast",
+    "portable": "true",
+    "provides": [
+      "uast"
+    ],
+    "rank": "4319",
+    "recurse_provides": "false",
+    "shasum": "99ba5b691090a3cdb7809ae70b2c98dafe5fe146127c538ef9a5ecdd870f6061",
+    "size": "412 KB",
+    "size_raw": "421832",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/uast/6.0.2/download"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "trusted": "true",
+    "version": "6.0.2",
+    "version_upstream": "6.0.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "8b27da8031c832276eca7c56c46254b1598f9befb9ef93cf8511450255a252ad",
+    "build_date": "2025-06-19T09:21:30Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754295893",
+    "build_id": "15754295893",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ubase64/stable/ubase64?tag=0.0.1-riscv64-Linux&download=ubase64.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Lightweight, simple, and configurable base64 encode and decode.",
+    "desktop_integration": "false",
+    "download_count": "200",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ubase64/stable/ubase64?tag=0.0.1-riscv64-Linux&download=ubase64",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/ubase64/stable/ubase64:0.0.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/ubase64/stable/ubase64",
+    "homepage": [
+      "https://github.com/xelamonster/ubase64"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "Unlicense"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ubase64/stable/ubase64?tag=0.0.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "ubase64",
+    "pkg_family": "ubase64",
+    "pkg_id": "pkgforge-cargo.ubase64.stable",
+    "pkg_name": "ubase64",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/ubase64",
+    "portable": "true",
+    "provides": [
+      "ubase64"
+    ],
+    "rank": "4320",
+    "recurse_provides": "false",
+    "shasum": "ad1ba0bdbbac582dd057717f1bdfe638f022a157a826a631a06a4063cb72bbd4",
+    "size": "916 KB",
+    "size_raw": "937928",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/ubase64/0.0.1/download"
+    ],
+    "tag": [
+      "base64",
+      "cli",
+      "decode",
+      "encode",
+      "library"
+    ],
+    "trusted": "true",
+    "version": "0.0.1",
+    "version_upstream": "0.0.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "75d005ab4bae7063d61d170968c2bb48aa340a34c4bdfe245b4b7cb6c1511e43",
     "build_date": "2025-06-14T21:26:40Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15655826994",
@@ -285934,7 +286407,7 @@
     "provides": [
       "ubi"
     ],
-    "rank": "4316",
+    "rank": "4321",
     "recurse_provides": "false",
     "shasum": "3a96a9b0eb3cfa4370bbdacb66346e9c192115aa34d8ce45c90fb5e0d57d3a7b",
     "size": "4.4 MB",
@@ -285998,7 +286471,7 @@
     "provides": [
       "ubilerntui"
     ],
-    "rank": "4317",
+    "rank": "4322",
     "recurse_provides": "false",
     "shasum": "f6d72c961e3774235fa17fad7a993ddee0d08853c0c7fe821d640208c811f72c",
     "size": "6.3 MB",
@@ -286018,6 +286491,1069 @@
     "trusted": "true",
     "version": "0.1.8",
     "version_upstream": "0.1.8"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "62292dbe87653c7ce45825274b2daf09ae94466ebe773574cb20f14f3b164bb1",
+    "build_date": "2025-06-19T09:24:05Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754296167",
+    "build_id": "15754296167",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ublox-rnx/stable/ublox-rnx?tag=0.1.6-riscv64-Linux&download=ublox-rnx.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Efficient RINEX production from a Ublox GNSS receiver.",
+    "desktop_integration": "false",
+    "download_count": "1015",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ublox-rnx/stable/ublox-rnx?tag=0.1.6-riscv64-Linux&download=ublox-rnx",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/ublox-rnx/stable/ublox-rnx:0.1.6-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/ublox-rnx/stable/ublox-rnx",
+    "homepage": [
+      "https://github.com/georust/rinex"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ublox-rnx/stable/ublox-rnx?tag=0.1.6-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "ublox-rnx",
+    "pkg_family": "ublox-rnx",
+    "pkg_id": "pkgforge-cargo.ublox-rnx.stable",
+    "pkg_name": "ublox-rnx",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/ublox-rnx",
+    "portable": "true",
+    "provides": [
+      "ublox-rnx"
+    ],
+    "rank": "4323",
+    "recurse_provides": "false",
+    "shasum": "b71137e215a47670f1f6ac91d3867718766ac16bae7626d2a38eed1b413f9fb0",
+    "size": "792 KB",
+    "size_raw": "810992",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/ublox-rnx/0.1.6/download"
+    ],
+    "tag": [
+      "galileo",
+      "glonass",
+      "gps",
+      "rinex",
+      "timing"
+    ],
+    "trusted": "true",
+    "version": "0.1.6",
+    "version_upstream": "0.1.6"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "94bbf61830208b14d07d0b7251ba9bbc5dfceba86707f48495d4c8ff176cc296",
+    "build_date": "2025-06-19T09:22:16Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754296087",
+    "build_id": "15754296087",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ubx2cggtts/stable/ubx2cggtts?tag=0.0.1-alpha-riscv64-Linux&download=ubx2cggtts.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "CGGTTS collection from UBlox GNSS receiver.",
+    "desktop_integration": "false",
+    "download_count": "190",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ubx2cggtts/stable/ubx2cggtts?tag=0.0.1-alpha-riscv64-Linux&download=ubx2cggtts",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/ubx2cggtts/stable/ubx2cggtts:0.0.1-alpha-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/ubx2cggtts/stable/ubx2cggtts",
+    "homepage": [
+      "https://github.com/ublox-rs/ubx2cggtts"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ubx2cggtts/stable/ubx2cggtts?tag=0.0.1-alpha-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "ubx2cggtts",
+    "pkg_family": "ubx2cggtts",
+    "pkg_id": "pkgforge-cargo.ubx2cggtts.stable",
+    "pkg_name": "ubx2cggtts",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/ubx2cggtts",
+    "portable": "true",
+    "provides": [
+      "ubx2cggtts"
+    ],
+    "rank": "4324",
+    "recurse_provides": "false",
+    "shasum": "7fa07156a5c491724b95f8fd2def54031b298e32f6f7eba50bcee9a5ef470d06",
+    "size": "720 KB",
+    "size_raw": "737224",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/ubx2cggtts/0.0.1-alpha/download"
+    ],
+    "tag": [
+      "galileo",
+      "gps",
+      "navigation",
+      "timing"
+    ],
+    "trusted": "true",
+    "version": "0.0.1-alpha",
+    "version_upstream": "0.0.1-alpha"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "556af3be38ee8b941a58de4195664d96a20187544191272ebd780b50aa51b354",
+    "build_date": "2025-06-19T09:24:44Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754296166",
+    "build_id": "15754296166",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ubx2rinex/stable/ubx2rinex?tag=0.0.1-riscv64-Linux&download=ubx2rinex.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "U-Blox to RINEX deserializer.",
+    "desktop_integration": "false",
+    "download_count": "223",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ubx2rinex/stable/ubx2rinex?tag=0.0.1-riscv64-Linux&download=ubx2rinex",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/ubx2rinex/stable/ubx2rinex:0.0.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/ubx2rinex/stable/ubx2rinex",
+    "homepage": [
+      "https://github.com/rtk-rs/ubx2rinex"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ubx2rinex/stable/ubx2rinex?tag=0.0.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "ubx2rinex",
+    "pkg_family": "ubx2rinex",
+    "pkg_id": "pkgforge-cargo.ubx2rinex.stable",
+    "pkg_name": "ubx2rinex",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/ubx2rinex",
+    "portable": "true",
+    "provides": [
+      "ubx2rinex"
+    ],
+    "rank": "4325",
+    "recurse_provides": "false",
+    "shasum": "a8f57fde16f45055d7c1570e00df8f0f6d756ca200e33d9da8591814e83bb6d0",
+    "size": "756 KB",
+    "size_raw": "774096",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/ubx2rinex/0.0.1/download"
+    ],
+    "tag": [
+      "gnss",
+      "gps",
+      "rinex"
+    ],
+    "trusted": "true",
+    "version": "0.0.1",
+    "version_upstream": "0.0.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "76926f142a87ac32604830f5668642bacabb4c41521c72950b11a0b90a32c15e",
+    "build_date": "2025-06-19T09:25:57Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754295882",
+    "build_id": "15754295882",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/udp-over-tcp/stable/udp-over-tcp?tag=0.1.5-riscv64-Linux&download=udp-over-tcp.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Command-line tool for tunneling UDP datagrams over TCP.",
+    "desktop_integration": "false",
+    "download_count": "1294",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/udp-over-tcp/stable/udp-over-tcp?tag=0.1.5-riscv64-Linux&download=udp-over-tcp",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/udp-over-tcp/stable/udp-over-tcp:0.1.5-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/udp-over-tcp/stable/udp-over-tcp",
+    "homepage": [
+      "https://github.com/jonhoo/udp-over-tcp"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/udp-over-tcp/stable/udp-over-tcp?tag=0.1.5-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "udp-over-tcp",
+    "pkg_family": "udp-over-tcp",
+    "pkg_id": "pkgforge-cargo.udp-over-tcp.stable",
+    "pkg_name": "udp-over-tcp",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/udp-over-tcp",
+    "portable": "true",
+    "provides": [
+      "udp-over-tcp"
+    ],
+    "rank": "4326",
+    "recurse_provides": "false",
+    "shasum": "873a5a07ff38249c467313801604f6b01c95d25758811983858b503dca42569a",
+    "size": "1.8 MB",
+    "size_raw": "1881896",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/udp-over-tcp/0.1.5/download"
+    ],
+    "tag": [
+      "networking",
+      "tcp",
+      "udp"
+    ],
+    "trusted": "true",
+    "version": "0.1.5",
+    "version_upstream": "0.1.5"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "96ead6bba68a2e8dbea38d5177b6071e043a6f145cf15bea3992b9eaa92e0750",
+    "build_date": "2025-06-19T09:24:18Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754295814",
+    "build_id": "15754295814",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/udpexposer/stable/udpexposer?tag=0.2.0-riscv64-Linux&download=udpexposer.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Command line tool to help exposing UDP ports behind NATs using helper servers.",
+    "desktop_integration": "false",
+    "download_count": "430",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/udpexposer/stable/udpexposer?tag=0.2.0-riscv64-Linux&download=udpexposer",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/udpexposer/stable/udpexposer:0.2.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/udpexposer/stable/udpexposer",
+    "homepage": [
+      "https://github.com/vi/udpexposer"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/udpexposer/stable/udpexposer?tag=0.2.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "udpexposer",
+    "pkg_family": "udpexposer",
+    "pkg_id": "pkgforge-cargo.udpexposer.stable",
+    "pkg_name": "udpexposer",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/udpexposer",
+    "portable": "true",
+    "provides": [
+      "udpexposer"
+    ],
+    "rank": "4327",
+    "recurse_provides": "false",
+    "shasum": "02e8834ab9d8411838a30269acc80df49e37feb16850027b8fc6089c2b012355",
+    "size": "713 KB",
+    "size_raw": "729160",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/udpexposer/0.2.0/download"
+    ],
+    "tag": [
+      "nat",
+      "udp"
+    ],
+    "trusted": "true",
+    "version": "0.2.0",
+    "version_upstream": "0.2.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "62071ee7e59c068cdd4bbcafb6daa29ccc0446f11c8cbb5e9ce0b37f50c70635",
+    "build_date": "2025-06-19T09:28:09Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754298891",
+    "build_id": "15754298891",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ue-gitdeps/stable/ue-gitdeps?tag=0.1.0-riscv64-Linux&download=ue-gitdeps.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Parse Commit.",
+    "desktop_integration": "false",
+    "download_count": "230",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ue-gitdeps/stable/ue-gitdeps?tag=0.1.0-riscv64-Linux&download=ue-gitdeps",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/ue-gitdeps/stable/ue-gitdeps:0.1.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/ue-gitdeps/stable/ue-gitdeps",
+    "homepage": [
+      "https://github.com/sehnryr/ue-gitdeps/"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ue-gitdeps/stable/ue-gitdeps?tag=0.1.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "ue-gitdeps",
+    "pkg_family": "ue-gitdeps",
+    "pkg_id": "pkgforge-cargo.ue-gitdeps.stable",
+    "pkg_name": "ue-gitdeps",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/ue-gitdeps",
+    "portable": "true",
+    "provides": [
+      "ue-gitdeps"
+    ],
+    "rank": "4328",
+    "recurse_provides": "false",
+    "shasum": "a96be3897433c21d020f480df628b0bb3b736f0736f7a8dd53ab7dc997905965",
+    "size": "3.0 MB",
+    "size_raw": "3125512",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/ue-gitdeps/0.1.0/download"
+    ],
+    "tag": [
+      "cli"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "9ab2fd3cec3b2241510f4a968bf972bdc4ef2297a2b1d97ea6b9d503b38cac17",
+    "build_date": "2025-06-19T09:33:04Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754299631",
+    "build_id": "15754299631",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uec/stable/uec?tag=0.3.0-riscv64-Linux&download=uec.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Unreal Engine CLI helper tool.",
+    "desktop_integration": "false",
+    "download_count": "624",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uec/stable/uec?tag=0.3.0-riscv64-Linux&download=uec",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/uec/stable/uec:0.3.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/uec/stable/uec",
+    "homepage": [
+      "https://github.com/Leinnan/uec"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uec/stable/uec?tag=0.3.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uec",
+    "pkg_family": "uec",
+    "pkg_id": "pkgforge-cargo.uec.stable",
+    "pkg_name": "uec",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/uec",
+    "portable": "true",
+    "provides": [
+      "uec"
+    ],
+    "rank": "4329",
+    "recurse_provides": "false",
+    "shasum": "b3af92b653e3df1e3c38967517d02782714dafd5bb26c3c16e396c294a7c5be4",
+    "size": "1.2 MB",
+    "size_raw": "1200192",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/uec/0.3.0/download"
+    ],
+    "tag": [
+      "cli",
+      "game-development",
+      "gamedev",
+      "unreal",
+      "unreal-engine-5"
+    ],
+    "trusted": "true",
+    "version": "0.3.0",
+    "version_upstream": "0.3.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "7eadf09fcb61aecf23f157c507c2d12f8a61c90c7802873447afad4146fc7e6a",
+    "build_date": "2025-06-19T09:30:32Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754299228",
+    "build_id": "15754299228",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uf/stable/uf?tag=0.1.5-riscv64-Linux&download=uf.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Minimalistic file opener.",
+    "desktop_integration": "false",
+    "download_count": "1446",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uf/stable/uf?tag=0.1.5-riscv64-Linux&download=uf",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/uf/stable/uf:0.1.5-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/uf/stable/uf",
+    "homepage": [
+      "https://codeberg.org/darkfire/uf"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "Unlicense"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uf/stable/uf?tag=0.1.5-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uf",
+    "pkg_family": "uf",
+    "pkg_id": "pkgforge-cargo.uf.stable",
+    "pkg_name": "uf",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/uf",
+    "portable": "true",
+    "provides": [
+      "uf"
+    ],
+    "rank": "4330",
+    "recurse_provides": "false",
+    "shasum": "99fe4827885283d0d3821e701a1232215d4a893306b01054116f6d21eb59d316",
+    "size": "460 KB",
+    "size_raw": "470984",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/uf/0.1.5/download"
+    ],
+    "tag": [
+      "cli",
+      "file",
+      "mime",
+      "minimal",
+      "opener"
+    ],
+    "trusted": "true",
+    "version": "0.1.5",
+    "version_upstream": "0.1.5"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "352968c10aeaf05f2d865128198277ac761749b68c4b9310ffb2fabc20d447ff",
+    "build_date": "2025-06-19T09:28:40Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754298986",
+    "build_id": "15754298986",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uge/stable/uge?tag=0.1.0-riscv64-Linux&download=uge.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A command line interface for getting the current week number.",
+    "desktop_integration": "false",
+    "download_count": "208",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uge/stable/uge?tag=0.1.0-riscv64-Linux&download=uge",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/uge/stable/uge:0.1.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/uge/stable/uge",
+    "homepage": [
+      "https://crates.io/crates/uge"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uge/stable/uge?tag=0.1.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uge",
+    "pkg_family": "uge",
+    "pkg_id": "pkgforge-cargo.uge.stable",
+    "pkg_name": "uge",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/uge",
+    "portable": "true",
+    "provides": [
+      "uge"
+    ],
+    "rank": "4331",
+    "recurse_provides": "false",
+    "shasum": "3edc461a5780c55815c168faf96784f7821a4cd097736057bc7afd5a2dfc4bfe",
+    "size": "413 KB",
+    "size_raw": "421928",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/uge/0.1.0/download"
+    ],
+    "tag": [
+      "cli",
+      "date",
+      "time",
+      "week"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "7e2fc76c478fe0bc892d22d0435fac355fbe8b99e97daf7242e8a5d137536c47",
+    "build_date": "2025-06-19T09:28:36Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754298950",
+    "build_id": "15754298950",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uge_cli/stable/uge_cli?tag=0.1.0-riscv64-Linux&download=uge_cli.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A command line interface for getting the current week number.",
+    "desktop_integration": "false",
+    "download_count": "183",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uge_cli/stable/uge_cli?tag=0.1.0-riscv64-Linux&download=uge_cli",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/uge_cli/stable/uge_cli:0.1.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/uge_cli/stable/uge_cli",
+    "homepage": [
+      "https://crates.io/crates/uge_cli"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uge_cli/stable/uge_cli?tag=0.1.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uge_cli",
+    "pkg_family": "uge_cli",
+    "pkg_id": "pkgforge-cargo.uge_cli.stable",
+    "pkg_name": "uge_cli",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/uge_cli",
+    "portable": "true",
+    "provides": [
+      "uge_cli"
+    ],
+    "rank": "4332",
+    "recurse_provides": "false",
+    "shasum": "3e6bfcce3fecf8a3bf5b5006364b410118ec630e093aafe4387fcd55aca59dd0",
+    "size": "413 KB",
+    "size_raw": "421928",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/uge_cli/0.1.0/download"
+    ],
+    "tag": [
+      "cli",
+      "date",
+      "time",
+      "week"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "b28ee69bc1b9f56fd2ce6872ac6709b03e2366b05f283696cef94b947b2be29d",
+    "build_date": "2025-06-19T09:30:33Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754299032",
+    "build_id": "15754299032",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ukebox/stable/ukebox?tag=0.9.2-riscv64-Linux&download=ukebox.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A ukulele chord toolbox in Rust.",
+    "desktop_integration": "false",
+    "download_count": "1362",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ukebox/stable/ukebox?tag=0.9.2-riscv64-Linux&download=ukebox",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/ukebox/stable/ukebox:0.9.2-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/ukebox/stable/ukebox",
+    "homepage": [
+      "https://github.com/noeddl/ukebox"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ukebox/stable/ukebox?tag=0.9.2-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "ukebox",
+    "pkg_family": "ukebox",
+    "pkg_id": "pkgforge-cargo.ukebox.stable",
+    "pkg_name": "ukebox",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/ukebox",
+    "portable": "true",
+    "provides": [
+      "ukebox"
+    ],
+    "rank": "4333",
+    "recurse_provides": "false",
+    "shasum": "d418bfee7ec409dea31e1dd07c73f5a612d2fe4071e8a011e306d48222703742",
+    "size": "837 KB",
+    "size_raw": "856152",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/ukebox/0.9.2/download"
+    ],
+    "tag": [
+      "chords",
+      "cli",
+      "music",
+      "ukulele"
+    ],
+    "trusted": "true",
+    "version": "0.9.2",
+    "version_upstream": "0.9.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "762468dc2849cceb6d6ec7e4ee6824c8c97fa546b7a48f672c4e399d14600126",
+    "build_date": "2025-06-19T09:28:34Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754299000",
+    "build_id": "15754299000",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ulid-cli/stable/ulid?tag=0.1.12-riscv64-Linux&download=ulid.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A very simple CLI to generate and parse ULIDs.",
+    "desktop_integration": "false",
+    "download_count": "1882",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ulid-cli/stable/ulid?tag=0.1.12-riscv64-Linux&download=ulid",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/ulid-cli/stable/ulid:0.1.12-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/ulid-cli/stable/ulid",
+    "homepage": [
+      "https://crates.io/crates/ulid-cli"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "WTFPL"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ulid-cli/stable/ulid?tag=0.1.12-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "ulid",
+    "pkg_family": "ulid-cli",
+    "pkg_id": "pkgforge-cargo.ulid-cli.stable",
+    "pkg_name": "ulid",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/ulid-cli",
+    "portable": "true",
+    "provides": [
+      "ulid"
+    ],
+    "rank": "4334",
+    "recurse_provides": "false",
+    "shasum": "1d6770511a32ca7a35dce36fc721767ef3f874723b6a620bb49a4515b08f62ab",
+    "size": "773 KB",
+    "size_raw": "790584",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/ulid-cli/0.1.12/download"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "trusted": "true",
+    "version": "0.1.12",
+    "version_upstream": "0.1.12"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "e79828c24c39557b292b4e703916db01e522cda268e093fdfc9dac62debb4756",
+    "build_date": "2025-06-19T09:35:23Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754301646",
+    "build_id": "15754301646",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ultimatehostsblacklist/stable/ultimatehostsblacklist?tag=0.1.0-riscv64-Linux&download=ultimatehostsblacklist.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "reserved.",
+    "desktop_integration": "false",
+    "download_count": "189",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ultimatehostsblacklist/stable/ultimatehostsblacklist?tag=0.1.0-riscv64-Linux&download=ultimatehostsblacklist",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/ultimatehostsblacklist/stable/ultimatehostsblacklist:0.1.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/ultimatehostsblacklist/stable/ultimatehostsblacklist",
+    "homepage": [
+      "https://github.com/Ultimate-Hosts-Blacklist"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ultimatehostsblacklist/stable/ultimatehostsblacklist?tag=0.1.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "ultimatehostsblacklist",
+    "pkg_family": "ultimatehostsblacklist",
+    "pkg_id": "pkgforge-cargo.ultimatehostsblacklist.stable",
+    "pkg_name": "ultimatehostsblacklist",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/ultimatehostsblacklist",
+    "portable": "true",
+    "provides": [
+      "ultimatehostsblacklist"
+    ],
+    "rank": "4335",
+    "recurse_provides": "false",
+    "shasum": "dbb052b90356e8e685a4bf0cf530a0d29cf734ff7267645f465cf4c8427b6609",
+    "size": "356 KB",
+    "size_raw": "364488",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/ultimatehostsblacklist/0.1.0/download"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "4eb1840ba797beb7191c48ee93f06bc264ca9372d26efe75165433e7fc2c41e6",
+    "build_date": "2025-06-19T09:36:36Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754302090",
+    "build_id": "15754302090",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ultraman/stable/ultraman?tag=0.3.2-riscv64-Linux&download=ultraman.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Manage Procfile-based applications.",
+    "desktop_integration": "false",
+    "download_count": "1726",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ultraman/stable/ultraman?tag=0.3.2-riscv64-Linux&download=ultraman",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/ultraman/stable/ultraman:0.3.2-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/ultraman/stable/ultraman",
+    "homepage": [
+      "https://github.com/yukihirop/ultraman"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ultraman/stable/ultraman?tag=0.3.2-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "ultraman",
+    "pkg_family": "ultraman",
+    "pkg_id": "pkgforge-cargo.ultraman.stable",
+    "pkg_name": "ultraman",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/ultraman",
+    "portable": "true",
+    "provides": [
+      "ultraman"
+    ],
+    "rank": "4336",
+    "recurse_provides": "false",
+    "shasum": "0fdf68af49e10986a03cecff8dde420a1a31c75f59841b3557a9157d92a73270",
+    "size": "2.4 MB",
+    "size_raw": "2445408",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/ultraman/0.3.2/download"
+    ],
+    "tag": [
+      "foreman",
+      "multiprocess",
+      "multithread",
+      "pipe"
+    ],
+    "trusted": "true",
+    "version": "0.3.2",
+    "version_upstream": "0.3.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "7df9c1984c137b44f75d9f79b14e753f1b1a5d50c15a73f946951e57c9768f46",
+    "build_date": "2025-06-19T09:35:40Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754301960",
+    "build_id": "15754301960",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/umu-wrapper/stable/umu-wrapper?tag=0.2.0-riscv64-Linux&download=umu-wrapper.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple templated wrapper for umu-launcher.",
+    "desktop_integration": "false",
+    "download_count": "387",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/umu-wrapper/stable/umu-wrapper?tag=0.2.0-riscv64-Linux&download=umu-wrapper",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/umu-wrapper/stable/umu-wrapper:0.2.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/umu-wrapper/stable/umu-wrapper",
+    "homepage": [
+      "https://github.com/korewaChino/umu-wrapper"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/umu-wrapper/stable/umu-wrapper?tag=0.2.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "umu-wrapper",
+    "pkg_family": "umu-wrapper",
+    "pkg_id": "pkgforge-cargo.umu-wrapper.stable",
+    "pkg_name": "umu-wrapper",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/umu-wrapper",
+    "portable": "true",
+    "provides": [
+      "umu-wrapper"
+    ],
+    "rank": "4337",
+    "recurse_provides": "false",
+    "shasum": "249509ffbd9632c54306624f4f31ab2de0f6754b8ad669b8ff016249eea1350e",
+    "size": "2.3 MB",
+    "size_raw": "2361072",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/umu-wrapper/0.2.0/download"
+    ],
+    "tag": [
+      "launcher",
+      "proton",
+      "steam",
+      "umu",
+      "wine"
+    ],
+    "trusted": "true",
+    "version": "0.2.0",
+    "version_upstream": "0.2.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "5ddab5a1e091cdeafa36f1442fa8c7d2ee3d83c0244c7aacf925932e53f7bf81",
+    "build_date": "2025-06-19T09:39:43Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754303456",
+    "build_id": "15754303456",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/un-pack/stable/un-pack?tag=0.1.1-riscv64-Linux&download=un-pack.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Unpack is a simple, fast and user-friendly tool to analyze python project packaging.",
+    "desktop_integration": "false",
+    "download_count": "449",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/un-pack/stable/un-pack?tag=0.1.1-riscv64-Linux&download=un-pack",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/un-pack/stable/un-pack:0.1.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/un-pack/stable/un-pack",
+    "homepage": [
+      "https://github.com/bnkc/unpack"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/un-pack/stable/un-pack?tag=0.1.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "un-pack",
+    "pkg_family": "un-pack",
+    "pkg_id": "pkgforge-cargo.un-pack.stable",
+    "pkg_name": "un-pack",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/un-pack",
+    "portable": "true",
+    "provides": [
+      "un-pack"
+    ],
+    "rank": "4338",
+    "recurse_provides": "false",
+    "shasum": "a22a0b62f2719218bbcf2c6d76a40f013510ee99dce288e360d95fb358d348a7",
+    "size": "4.8 MB",
+    "size_raw": "5025864",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/un-pack/0.1.1/download"
+    ],
+    "tag": [
+      "dependency",
+      "python",
+      "tool",
+      "unpack"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
   },
   {
     "_disabled": "false",
@@ -286085,6 +287621,74 @@
   },
   {
     "_disabled": "false",
+    "bsum": "e37ad3f3585a79e67c8b372b98a76583779a7717ff98f2c7d4cf5f94371e1402",
+    "build_date": "2025-06-19T09:38:54Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754305129",
+    "build_id": "15754305129",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unclaimed/stable/unclaimed?tag=0.1.0-riscv64-Linux&download=unclaimed.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Ahoy! Chart yer course through the high seas of crates.",
+    "desktop_integration": "false",
+    "download_count": "253",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unclaimed/stable/unclaimed?tag=0.1.0-riscv64-Linux&download=unclaimed",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/unclaimed/stable/unclaimed:0.1.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/unclaimed/stable/unclaimed",
+    "homepage": [
+      "https://docs.rs/unclaimed"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unclaimed/stable/unclaimed?tag=0.1.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "unclaimed",
+    "pkg_family": "unclaimed",
+    "pkg_id": "pkgforge-cargo.unclaimed.stable",
+    "pkg_name": "unclaimed",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/unclaimed",
+    "portable": "true",
+    "provides": [
+      "unclaimed"
+    ],
+    "rank": "4340",
+    "recurse_provides": "false",
+    "shasum": "3df3481c0edfb9d7c2f924cb2c3ad2319ca48df2ff872252394a64cc8e948d37",
+    "size": "1.1 MB",
+    "size_raw": "1106008",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/unclaimed/0.1.0/download"
+    ],
+    "tag": [
+      "cargo",
+      "crates",
+      "discovery",
+      "naming",
+      "treasure-map"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "2ad20cadb7f68eaa1b7ebbde74e6aa8b5ad022fa12a0f4926974f9ca745bd5e6",
     "build_date": "2025-06-14T09:05:16Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15650076477",
@@ -286130,7 +287734,7 @@
     "provides": [
       "uncomment"
     ],
-    "rank": "4318",
+    "rank": "4341",
     "recurse_provides": "false",
     "shasum": "8cb0901a15717bdab0096bbe2cb4da58f4ea5a2249d70ace0434c641d0821498",
     "size": "2.0 MB",
@@ -286148,6 +287752,472 @@
     "trusted": "true",
     "version": "1.0.6",
     "version_upstream": "1.0.6"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "0de1fa98d29fe7a5c1f86f762034ae72b28f9c3343b9c11f4545745922e2f6c6",
+    "build_date": "2025-06-19T09:41:06Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754305098",
+    "build_id": "15754305098",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/undead/stable/undead?tag=0.1.5-riscv64-Linux&download=undead.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A tool to search for dead code in your Python projects.",
+    "desktop_integration": "false",
+    "download_count": "980",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/undead/stable/undead?tag=0.1.5-riscv64-Linux&download=undead",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/undead/stable/undead:0.1.5-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/undead/stable/undead",
+    "homepage": [
+      "https://github.com/alexpasmantier/undead"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/undead/stable/undead?tag=0.1.5-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "undead",
+    "pkg_family": "undead",
+    "pkg_id": "pkgforge-cargo.undead.stable",
+    "pkg_name": "undead",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/undead",
+    "portable": "true",
+    "provides": [
+      "undead"
+    ],
+    "rank": "4342",
+    "recurse_provides": "false",
+    "shasum": "cb31c656db4f871cf7e14b5b42b36b40371881f9a698ce9c6c7838978a9cf217",
+    "size": "4.7 MB",
+    "size_raw": "4845640",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/undead/0.1.5/download"
+    ],
+    "tag": [
+      "cli",
+      "dead-code",
+      "python",
+      "rust",
+      "search"
+    ],
+    "trusted": "true",
+    "version": "0.1.5",
+    "version_upstream": "0.1.5"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "8a00b2d475f95a0a717c612aed42d43a356cc79c9c3681fe23ff13e9492c544d",
+    "build_date": "2025-06-19T09:39:39Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754305779",
+    "build_id": "15754305779",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unfold-symlinks/stable/unfold?tag=0.2.0-riscv64-Linux&download=unfold.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "unfold is a small command line utility that replaces symbolic links with their targets.",
+    "desktop_integration": "false",
+    "download_count": "611",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unfold-symlinks/stable/unfold?tag=0.2.0-riscv64-Linux&download=unfold",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/unfold-symlinks/stable/unfold:0.2.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/unfold-symlinks/stable/unfold",
+    "homepage": [
+      "https://github.com/sqrtrae/unfold"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unfold-symlinks/stable/unfold?tag=0.2.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "unfold",
+    "pkg_family": "unfold-symlinks",
+    "pkg_id": "pkgforge-cargo.unfold-symlinks.stable",
+    "pkg_name": "unfold",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/unfold-symlinks",
+    "portable": "true",
+    "provides": [
+      "unfold"
+    ],
+    "rank": "4343",
+    "recurse_provides": "false",
+    "shasum": "e46e3be216bca4926264f7f5666e573af98dda0f26f4f62fb670d57489b9d60f",
+    "size": "712 KB",
+    "size_raw": "729032",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/unfold-symlinks/0.2.0/download"
+    ],
+    "tag": [
+      "link",
+      "symbolic",
+      "symlink"
+    ],
+    "trusted": "true",
+    "version": "0.2.0",
+    "version_upstream": "0.2.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "b98a966af357e0e67bd64418675702db64e69213280df6cc31004ea50d34e638",
+    "build_date": "2025-06-19T09:41:29Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754305762",
+    "build_id": "15754305762",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uni_some_parser/stable/uni_some_parser?tag=0.1.0-riscv64-Linux&download=uni_some_parser.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Some parser WIP.",
+    "desktop_integration": "false",
+    "download_count": "207",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uni_some_parser/stable/uni_some_parser?tag=0.1.0-riscv64-Linux&download=uni_some_parser",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/uni_some_parser/stable/uni_some_parser:0.1.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/uni_some_parser/stable/uni_some_parser",
+    "homepage": [
+      "https://github.com/rchuk/uni_some_parser"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uni_some_parser/stable/uni_some_parser?tag=0.1.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uni_some_parser",
+    "pkg_family": "uni_some_parser",
+    "pkg_id": "pkgforge-cargo.uni_some_parser.stable",
+    "pkg_name": "uni_some_parser",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/uni_some_parser",
+    "portable": "true",
+    "provides": [
+      "uni_some_parser"
+    ],
+    "rank": "4344",
+    "recurse_provides": "false",
+    "shasum": "41e080f9fd241b73dc9ed58469a320c608b698028e7beb7ca04aea6d665250c5",
+    "size": "368 KB",
+    "size_raw": "376776",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/uni_some_parser/0.1.0/download"
+    ],
+    "tag": [
+      "language",
+      "parser",
+      "parsing",
+      "syntax",
+      "token"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "46543aae6cb995012789217b136d4c9b70ed3b1eeaad833e845782ec0198d374",
+    "build_date": "2025-06-19T09:39:07Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754305618",
+    "build_id": "15754305618",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unicop/stable/unicop?tag=0.1.0-riscv64-Linux&download=unicop.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Tool for scanning source code for potentially malicious unicode code points.",
+    "desktop_integration": "false",
+    "download_count": "2043",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unicop/stable/unicop?tag=0.1.0-riscv64-Linux&download=unicop",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/unicop/stable/unicop:0.1.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/unicop/stable/unicop",
+    "homepage": [
+      "https://github.com/mullvad/unicop"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unicop/stable/unicop?tag=0.1.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "unicop",
+    "pkg_family": "unicop",
+    "pkg_id": "pkgforge-cargo.unicop.stable",
+    "pkg_name": "unicop",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/unicop",
+    "portable": "true",
+    "provides": [
+      "unicop"
+    ],
+    "rank": "4345",
+    "recurse_provides": "false",
+    "shasum": "b1f94c7fbacfecb589edaef60ced608216149f2a795bda053e15537dacde0627",
+    "size": "19 MB",
+    "size_raw": "19301808",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/unicop/0.1.0/download"
+    ],
+    "tag": [
+      "attack",
+      "bidi",
+      "homoglyph",
+      "linter",
+      "unicode"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "68d88cc353b36ed6c39d273d780f1e4716816718a3c3667c0b52d3b48934738e",
+    "build_date": "2025-06-19T09:43:10Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754306087",
+    "build_id": "15754306087",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unidep/stable/unidep?tag=0.1.0-riscv64-Linux&download=unidep.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A universal dependency graph generator at either files or functions level.",
+    "desktop_integration": "false",
+    "download_count": "230",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unidep/stable/unidep?tag=0.1.0-riscv64-Linux&download=unidep",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/unidep/stable/unidep:0.1.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/unidep/stable/unidep",
+    "homepage": [
+      "https://github.com/remigerme/unidep"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "LGPL-3.0-only"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unidep/stable/unidep?tag=0.1.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "unidep",
+    "pkg_family": "unidep",
+    "pkg_id": "pkgforge-cargo.unidep.stable",
+    "pkg_name": "unidep",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/unidep",
+    "portable": "true",
+    "provides": [
+      "unidep"
+    ],
+    "rank": "4346",
+    "recurse_provides": "false",
+    "shasum": "df0153163b78d74c3c9480ca6e230409b49a5bcec51dbd563f61b6ab7af0d9dd",
+    "size": "664 KB",
+    "size_raw": "679880",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/unidep/0.1.0/download"
+    ],
+    "tag": [
+      "dependency"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "0bee7847d4cefd811b79c2ffee216f299d9aaf4f71068a4405d74d5574d3d9ab",
+    "build_date": "2025-06-19T09:42:04Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754306897",
+    "build_id": "15754306897",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unilog/stable/unilog_demo?tag=0.1.3-riscv64-Linux&download=unilog_demo.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A lightweight Rust logging library supporting async/sync logging and colored logs.",
+    "desktop_integration": "false",
+    "download_count": "232",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unilog/stable/unilog_demo?tag=0.1.3-riscv64-Linux&download=unilog_demo",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/unilog/stable/unilog_demo:0.1.3-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/unilog/stable/unilog_demo",
+    "homepage": [
+      "https://github.com/Axnjr/unilog_rs"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unilog/stable/unilog_demo?tag=0.1.3-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "unilog_demo",
+    "pkg_family": "unilog",
+    "pkg_id": "pkgforge-cargo.unilog.stable",
+    "pkg_name": "unilog_demo",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/unilog",
+    "portable": "true",
+    "provides": [
+      "unilog_demo"
+    ],
+    "rank": "4348",
+    "recurse_provides": "false",
+    "shasum": "c4569f2582219a57022c082fb60547ce7fad4538d632b6592a56f74b8c6f8a31",
+    "size": "481 KB",
+    "size_raw": "491576",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/unilog/0.1.3/download"
+    ],
+    "tag": [
+      "async",
+      "color",
+      "fmt",
+      "logger",
+      "logging"
+    ],
+    "trusted": "true",
+    "version": "0.1.3",
+    "version_upstream": "0.1.3"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "c829a483a423e4757772aa490bf2b576139451e8dcf60362cc5751a283df29a7",
+    "build_date": "2025-06-19T09:44:07Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754307739",
+    "build_id": "15754307739",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unionfarm/stable/unionfarm?tag=0.1.6-riscv64-Linux&download=unionfarm.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "utility for managing symlink farms.",
+    "desktop_integration": "false",
+    "download_count": "792",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unionfarm/stable/unionfarm?tag=0.1.6-riscv64-Linux&download=unionfarm",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/unionfarm/stable/unionfarm:0.1.6-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/unionfarm/stable/unionfarm",
+    "homepage": [
+      "https://codeberg.org/chrysn/unionfarm"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-or-later"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unionfarm/stable/unionfarm?tag=0.1.6-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "unionfarm",
+    "pkg_family": "unionfarm",
+    "pkg_id": "pkgforge-cargo.unionfarm.stable",
+    "pkg_name": "unionfarm",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/unionfarm",
+    "portable": "true",
+    "provides": [
+      "unionfarm"
+    ],
+    "rank": "4349",
+    "recurse_provides": "false",
+    "shasum": "0b892cfdeeb5acb8f243d47953538b0813b3962c1da1a868806c95a7a71b698b",
+    "size": "975 KB",
+    "size_raw": "997768",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/unionfarm/0.1.6/download"
+    ],
+    "tag": [
+      "symlink"
+    ],
+    "trusted": "true",
+    "version": "0.1.6",
+    "version_upstream": "0.1.6"
   },
   {
     "_disabled": "false",
@@ -286196,7 +288266,7 @@
     "provides": [
       "uniqs"
     ],
-    "rank": "4320",
+    "rank": "4350",
     "recurse_provides": "false",
     "shasum": "506e298c602151381b5455ee9ad98545467256c3d579bee7d6e0fcbfc2684185",
     "size": "892 KB",
@@ -286279,6 +288349,268 @@
   },
   {
     "_disabled": "false",
+    "bsum": "4f3ef944b7552b5fb304a11a5c56b88d368450a4dacd6708f3f75b16ea56ebcd",
+    "build_date": "2025-06-19T09:44:06Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754307824",
+    "build_id": "15754307824",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unkr/stable/unkr?tag=0.1.3-riscv64-Linux&download=unkr.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A tool to decrypt old school cyphers.",
+    "desktop_integration": "false",
+    "download_count": "615",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unkr/stable/unkr?tag=0.1.3-riscv64-Linux&download=unkr",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/unkr/stable/unkr:0.1.3-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/unkr/stable/unkr",
+    "homepage": [
+      "https://github.com/ldicarlo/unkr"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-only"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unkr/stable/unkr?tag=0.1.3-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "unkr",
+    "pkg_family": "unkr",
+    "pkg_id": "pkgforge-cargo.unkr.stable",
+    "pkg_name": "unkr",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/unkr",
+    "portable": "true",
+    "provides": [
+      "unkr"
+    ],
+    "rank": "4351",
+    "recurse_provides": "false",
+    "shasum": "09ae8242ffd0b32381fdc611a866f7dc27d3bc4f81ff30c32d60a383a42646ac",
+    "size": "1.2 MB",
+    "size_raw": "1204288",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/unkr/0.1.3/download"
+    ],
+    "tag": [
+      "cryptography"
+    ],
+    "trusted": "true",
+    "version": "0.1.3",
+    "version_upstream": "0.1.3"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "0b86e4beefdf6d3d4b68722bbc8f9ec7192ef825244d1aff8c644d6826cf248d",
+    "build_date": "2025-06-19T09:46:13Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754308280",
+    "build_id": "15754308280",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unlicense/stable/unlicense?tag=0.2.0-riscv64-Linux&download=unlicense.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Access the text of the Unlicense.",
+    "desktop_integration": "false",
+    "download_count": "401",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unlicense/stable/unlicense?tag=0.2.0-riscv64-Linux&download=unlicense",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/unlicense/stable/unlicense:0.2.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/unlicense/stable/unlicense",
+    "homepage": [
+      "https://github.com/senekor/unlicense"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "Unlicense"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unlicense/stable/unlicense?tag=0.2.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "unlicense",
+    "pkg_family": "unlicense",
+    "pkg_id": "pkgforge-cargo.unlicense.stable",
+    "pkg_name": "unlicense",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/unlicense",
+    "portable": "true",
+    "provides": [
+      "unlicense"
+    ],
+    "rank": "4352",
+    "recurse_provides": "false",
+    "shasum": "fcec41465894ff4830c787eb4299a2126f0347789898b04322e9476dbd1aae89",
+    "size": "372 KB",
+    "size_raw": "380872",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/unlicense/0.2.0/download"
+    ],
+    "tag": [
+      "copyright",
+      "license"
+    ],
+    "trusted": "true",
+    "version": "0.2.0",
+    "version_upstream": "0.2.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "03ee1b2f83a63d629eeb07fcf4551cec619119c9240cae9ddd1243aaaa6ecb5d",
+    "build_date": "2025-06-19T09:45:50Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754308195",
+    "build_id": "15754308195",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unlock_excel/stable/unlock_excel?tag=0.2.2-riscv64-Linux&download=unlock_excel.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Small command line utility to inspect or remove the VBA protection status of Excel files.",
+    "desktop_integration": "false",
+    "download_count": "1064",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unlock_excel/stable/unlock_excel?tag=0.2.2-riscv64-Linux&download=unlock_excel",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/unlock_excel/stable/unlock_excel:0.2.2-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/unlock_excel/stable/unlock_excel",
+    "homepage": [
+      "https://github.com/jmacadie/unlock_excel"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unlock_excel/stable/unlock_excel?tag=0.2.2-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "unlock_excel",
+    "pkg_family": "unlock_excel",
+    "pkg_id": "pkgforge-cargo.unlock_excel.stable",
+    "pkg_name": "unlock_excel",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/unlock_excel",
+    "portable": "true",
+    "provides": [
+      "unlock_excel"
+    ],
+    "rank": "4353",
+    "recurse_provides": "false",
+    "shasum": "b608e7e9eb04d801cc415e7524548395f5d45d88b15ce49a0941373432058313",
+    "size": "17 MB",
+    "size_raw": "17509368",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/unlock_excel/0.2.2/download"
+    ],
+    "tag": [
+      "excel",
+      "password",
+      "vba"
+    ],
+    "trusted": "true",
+    "version": "0.2.2",
+    "version_upstream": "0.2.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "770e7faa4e19ec3e106c5cf954413de8371854168b321486b734bd59bb193cad",
+    "build_date": "2025-06-19T09:46:35Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754308475",
+    "build_id": "15754308475",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unreferenced_files/stable/unreferenced_files?tag=2.1.0-riscv64-Linux&download=unreferenced_files.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A utility for finding unused and unreferenced files.",
+    "desktop_integration": "false",
+    "download_count": "2503",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unreferenced_files/stable/unreferenced_files?tag=2.1.0-riscv64-Linux&download=unreferenced_files",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/unreferenced_files/stable/unreferenced_files:2.1.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/unreferenced_files/stable/unreferenced_files",
+    "homepage": [
+      "https://github.com/DeveloperC286/unreferenced_files"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "AGPL-3.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unreferenced_files/stable/unreferenced_files?tag=2.1.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "unreferenced_files",
+    "pkg_family": "unreferenced_files",
+    "pkg_id": "pkgforge-cargo.unreferenced_files.stable",
+    "pkg_name": "unreferenced_files",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/unreferenced_files",
+    "portable": "true",
+    "provides": [
+      "unreferenced_files"
+    ],
+    "rank": "4354",
+    "recurse_provides": "false",
+    "shasum": "41668959bea72dfefccc9f3cb6b14277c2f56d495f93741c7ae49bcf4536c56c",
+    "size": "1.9 MB",
+    "size_raw": "1962056",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/unreferenced_files/2.1.0/download"
+    ],
+    "tag": [
+      "files",
+      "find",
+      "unreferenced",
+      "unused"
+    ],
+    "trusted": "true",
+    "version": "2.1.0",
+    "version_upstream": "2.1.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "f02e3951dec01beaf427b268ffb2220a6b7409752673a1d4d0c0c4ed27adffa6",
     "build_date": "2025-06-16T05:12:23Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15672127545",
@@ -286344,6 +288676,927 @@
   },
   {
     "_disabled": "false",
+    "bsum": "f4c3d763cd52684b18fc2a7bf0663c24b86e99001e60e2687635ac8bfc66e978",
+    "build_date": "2025-06-19T09:47:08Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754311284",
+    "build_id": "15754311284",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unwx/stable/unwx?tag=0.2.0-riscv64-Linux&download=unwx.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "unpack wxapkg easily.",
+    "desktop_integration": "false",
+    "download_count": "348",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unwx/stable/unwx?tag=0.2.0-riscv64-Linux&download=unwx",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/unwx/stable/unwx:0.2.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/unwx/stable/unwx",
+    "homepage": [
+      "https://github.com/unbyte/unwx"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unwx/stable/unwx?tag=0.2.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "unwx",
+    "pkg_family": "unwx",
+    "pkg_id": "pkgforge-cargo.unwx.stable",
+    "pkg_name": "unwx",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/unwx",
+    "portable": "true",
+    "provides": [
+      "unwx"
+    ],
+    "rank": "4355",
+    "recurse_provides": "false",
+    "shasum": "6687d37f724655fd07f931fa5954f45d656362eafe5f3f94b7c0c8a12b881c75",
+    "size": "501 KB",
+    "size_raw": "512056",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/unwx/0.2.0/download"
+    ],
+    "tag": [
+      "wxapkg"
+    ],
+    "trusted": "true",
+    "version": "0.2.0",
+    "version_upstream": "0.2.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "c5f4042005ac8d8ebbe0196e6fb1d4d3763e2ead6c058ab5c60385ac29571a79",
+    "build_date": "2025-06-19T09:52:28Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754313806",
+    "build_id": "15754313806",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/up-rs/stable/up?tag=0.16.2-riscv64-Linux&download=up.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "up is a tool to help you keep your machine up to date.",
+    "desktop_integration": "false",
+    "download_count": "6501",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/up-rs/stable/up?tag=0.16.2-riscv64-Linux&download=up",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/up-rs/stable/up:0.16.2-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/up-rs/stable/up",
+    "homepage": [
+      "https://github.com/gibfahn/up"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/up-rs/stable/up?tag=0.16.2-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "up",
+    "pkg_family": "up-rs",
+    "pkg_id": "pkgforge-cargo.up-rs.stable",
+    "pkg_name": "up",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/up-rs",
+    "portable": "true",
+    "provides": [
+      "up"
+    ],
+    "rank": "4356",
+    "recurse_provides": "false",
+    "shasum": "d115cd3e0488b8c8a4270c54b8ebbdc558ace850e8da03c1bab169185791daa7",
+    "size": "9.3 MB",
+    "size_raw": "9693312",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/up-rs/0.16.2/download"
+    ],
+    "tag": [
+      "cli",
+      "tool"
+    ],
+    "trusted": "true",
+    "version": "0.16.2",
+    "version_upstream": "0.16.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "fe172d76de5cdb65ea0303719097608cc1b15d0b14a0ca35e22511915fb86f7f",
+    "build_date": "2025-06-19T09:51:51Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754312525",
+    "build_id": "15754312525",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/up/stable/up?tag=0.18.0-riscv64-Linux&download=up.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "up is a tool to help you keep your machine up to date.",
+    "desktop_integration": "false",
+    "download_count": "891",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/up/stable/up?tag=0.18.0-riscv64-Linux&download=up",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/up/stable/up:0.18.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/up/stable/up",
+    "homepage": [
+      "https://github.com/gibfahn/up"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/up/stable/up?tag=0.18.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "up",
+    "pkg_family": "up",
+    "pkg_id": "pkgforge-cargo.up.stable",
+    "pkg_name": "up",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/up",
+    "portable": "true",
+    "provides": [
+      "up"
+    ],
+    "rank": "4357",
+    "recurse_provides": "false",
+    "shasum": "bb852affa6271afe4be560b3403e201c38e60b1a4d0fd78cb2c8f6eff75981ff",
+    "size": "9.6 MB",
+    "size_raw": "9976376",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/up/0.18.0/download"
+    ],
+    "tag": [
+      "cli",
+      "tool"
+    ],
+    "trusted": "true",
+    "version": "0.18.0",
+    "version_upstream": "0.18.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "e8f3ddeab7abe44cc07f67b14d423d7ec058bc3b19e56865ebec4db785990164",
+    "build_date": "2025-06-19T09:50:01Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754349260",
+    "build_id": "15754349260",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/updpkg/stable/updpkg?tag=0.2.2-riscv64-Linux&download=updpkg.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A small tool for updating PKGBUILD recipes.",
+    "desktop_integration": "false",
+    "download_count": "796",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/updpkg/stable/updpkg?tag=0.2.2-riscv64-Linux&download=updpkg",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/updpkg/stable/updpkg:0.2.2-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/updpkg/stable/updpkg",
+    "homepage": [
+      "https://github.com/ognevny/updpkg"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "WTFPL"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/updpkg/stable/updpkg?tag=0.2.2-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "updpkg",
+    "pkg_family": "updpkg",
+    "pkg_id": "pkgforge-cargo.updpkg.stable",
+    "pkg_name": "updpkg",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/updpkg",
+    "portable": "true",
+    "provides": [
+      "updpkg"
+    ],
+    "rank": "4358",
+    "recurse_provides": "false",
+    "shasum": "a4e2899f3692541d49320a1607ff2862f34f6a3884f6ad9732e5b81a5e30ed7a",
+    "size": "1.5 MB",
+    "size_raw": "1552456",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/updpkg/0.2.2/download"
+    ],
+    "tag": [
+      "cli"
+    ],
+    "trusted": "true",
+    "version": "0.2.2",
+    "version_upstream": "0.2.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "bceb507f9a1612dff67515db6ae02fe2d4f13236e6667bb4ffaa65fe183a11a9",
+    "build_date": "2025-06-19T09:51:31Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754350225",
+    "build_id": "15754350225",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upextract/stable/upextract?tag=0.3.1-riscv64-Linux&download=upextract.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "UnityPackage Asset extract tool.",
+    "desktop_integration": "false",
+    "download_count": "936",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upextract/stable/upextract?tag=0.3.1-riscv64-Linux&download=upextract",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/upextract/stable/upextract:0.3.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/upextract/stable/upextract",
+    "homepage": [
+      "https://github.com/rustunit/upextract"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upextract/stable/upextract?tag=0.3.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "upextract",
+    "pkg_family": "upextract",
+    "pkg_id": "pkgforge-cargo.upextract.stable",
+    "pkg_name": "upextract",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/upextract",
+    "portable": "true",
+    "provides": [
+      "upextract"
+    ],
+    "rank": "4359",
+    "recurse_provides": "false",
+    "shasum": "8bcad3b12acb930a75576c2a7b74e4ad8310748ffaeb945ab42689edfbb50974",
+    "size": "809 KB",
+    "size_raw": "827432",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/upextract/0.3.1/download"
+    ],
+    "tag": [
+      "cli",
+      "terminal",
+      "ui"
+    ],
+    "trusted": "true",
+    "version": "0.3.1",
+    "version_upstream": "0.3.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "7eaa9737ae5bffe5467cdfcc2152961a87d7da3438bde65227c7f0f47ab23c04",
+    "build_date": "2025-06-19T09:55:37Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754350810",
+    "build_id": "15754350810",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uplite/stable/uplite?tag=0.1.0-riscv64-Linux&download=uplite.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "a lightweight, self-hosted file upload, browsing, and management tool.",
+    "desktop_integration": "false",
+    "download_count": "233",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uplite/stable/uplite?tag=0.1.0-riscv64-Linux&download=uplite",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/uplite/stable/uplite:0.1.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/uplite/stable/uplite",
+    "homepage": [
+      "https://github.com/gni/uplite-rust"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uplite/stable/uplite?tag=0.1.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uplite",
+    "pkg_family": "uplite",
+    "pkg_id": "pkgforge-cargo.uplite.stable",
+    "pkg_name": "uplite",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/uplite",
+    "portable": "true",
+    "provides": [
+      "uplite"
+    ],
+    "rank": "4360",
+    "recurse_provides": "false",
+    "shasum": "b260b8e659324855b76cd25c7fe280239e4f026cf2bf9ce1562341f05cc1eb1b",
+    "size": "6.6 MB",
+    "size_raw": "6856928",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/uplite/0.1.0/download"
+    ],
+    "tag": [
+      "embedded",
+      "file-management",
+      "file-sharing",
+      "file-upload",
+      "lightweight"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "2aa6242546d134320956512844ec8a61152263005638d68725d2d298daf2deb9",
+    "build_date": "2025-06-19T09:52:07Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754352466",
+    "build_id": "15754352466",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upload-to-s3/stable/upload-to-s3?tag=0.3.0-riscv64-Linux&download=upload-to-s3.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Small tool to upload a file to Amazon S3.",
+    "desktop_integration": "false",
+    "download_count": "193",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upload-to-s3/stable/upload-to-s3?tag=0.3.0-riscv64-Linux&download=upload-to-s3",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/upload-to-s3/stable/upload-to-s3:0.3.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/upload-to-s3/stable/upload-to-s3",
+    "homepage": [
+      "https://github.com/wezm/upload-to-s3"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upload-to-s3/stable/upload-to-s3?tag=0.3.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "upload-to-s3",
+    "pkg_family": "upload-to-s3",
+    "pkg_id": "pkgforge-cargo.upload-to-s3.stable",
+    "pkg_name": "upload-to-s3",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/upload-to-s3",
+    "portable": "true",
+    "provides": [
+      "upload-to-s3"
+    ],
+    "rank": "4361",
+    "recurse_provides": "false",
+    "shasum": "e933a6b11eecacd3291dc50933ce72499fea415346c98c8aade87296454357f6",
+    "size": "2.1 MB",
+    "size_raw": "2125992",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/upload-to-s3/0.3.0/download"
+    ],
+    "tag": [
+      "environment",
+      "s3",
+      "upload"
+    ],
+    "trusted": "true",
+    "version": "0.3.0",
+    "version_upstream": "0.3.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "7776b59911820cbd4953ad432e0a4203e7b519877bfdd87c8681f2157fe0f817",
+    "build_date": "2025-06-19T09:54:29Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754356700",
+    "build_id": "15754356700",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upnp-daemon/stable/upnp-daemon?tag=0.6.1-riscv64-Linux&download=upnp-daemon.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A daemon for continuously opening ports via UPnP.",
+    "desktop_integration": "false",
+    "download_count": "1729",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upnp-daemon/stable/upnp-daemon?tag=0.6.1-riscv64-Linux&download=upnp-daemon",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/upnp-daemon/stable/upnp-daemon:0.6.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/upnp-daemon/stable/upnp-daemon",
+    "homepage": [
+      "https://github.com/FloGa/upnp-daemon"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "WTFPL"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upnp-daemon/stable/upnp-daemon?tag=0.6.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "upnp-daemon",
+    "pkg_family": "upnp-daemon",
+    "pkg_id": "pkgforge-cargo.upnp-daemon.stable",
+    "pkg_name": "upnp-daemon",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/upnp-daemon",
+    "portable": "true",
+    "provides": [
+      "upnp-daemon"
+    ],
+    "rank": "4362",
+    "recurse_provides": "false",
+    "shasum": "d72c994ac6e5e2d50d614ec8971673034d091aaa6e8d183f9e8aceadd376afb1",
+    "size": "2.6 MB",
+    "size_raw": "2662560",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/upnp-daemon/0.6.1/download"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "trusted": "true",
+    "version": "0.6.1",
+    "version_upstream": "0.6.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "80e945966649578ce0743595796fa18ee7ca4e0d767838bc0e51c2f78c217938",
+    "build_date": "2025-06-19T09:54:32Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754359528",
+    "build_id": "15754359528",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upt/stable/upt?tag=0.9.0-riscv64-Linux&download=upt.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Universal package management tool for any OS.",
+    "desktop_integration": "false",
+    "download_count": "2130",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upt/stable/upt?tag=0.9.0-riscv64-Linux&download=upt",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/upt/stable/upt:0.9.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/upt/stable/upt",
+    "homepage": [
+      "https://github.com/sigoden/upt"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upt/stable/upt?tag=0.9.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "upt",
+    "pkg_family": "upt",
+    "pkg_id": "pkgforge-cargo.upt.stable",
+    "pkg_name": "upt",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/upt",
+    "portable": "true",
+    "provides": [
+      "upt"
+    ],
+    "rank": "4363",
+    "recurse_provides": "false",
+    "shasum": "f89afa868dcbad4cc601e75fda42187a051f6947255629dd0625dfd0a65a0716",
+    "size": "513 KB",
+    "size_raw": "524344",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/upt/0.9.0/download"
+    ],
+    "tag": [
+      "management",
+      "package",
+      "universal"
+    ],
+    "trusted": "true",
+    "version": "0.9.0",
+    "version_upstream": "0.9.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "21ca93a6881ab26ed2b85abc6dcd805e3769c791ab11aa8c301465a53f934e1c",
+    "build_date": "2025-06-19T09:54:43Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754363528",
+    "build_id": "15754363528",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upv-cli/stable/upv?tag=0.4.2-riscv64-Linux&download=upv.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A CLI tool for managing VPN and network shares from UPV (Universitat Politècnica de València) on Windows.",
+    "desktop_integration": "false",
+    "download_count": "1151",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upv-cli/stable/upv?tag=0.4.2-riscv64-Linux&download=upv",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/upv-cli/stable/upv:0.4.2-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/upv-cli/stable/upv",
+    "homepage": [
+      "https://github.com/algono/upv-cli"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/upv-cli/stable/upv?tag=0.4.2-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "upv",
+    "pkg_family": "upv-cli",
+    "pkg_id": "pkgforge-cargo.upv-cli.stable",
+    "pkg_name": "upv",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/upv-cli",
+    "portable": "true",
+    "provides": [
+      "upv"
+    ],
+    "rank": "4364",
+    "recurse_provides": "false",
+    "shasum": "4850f781efde91059cbceb0d3f2c639d47bff776817046803cf0dd03751d4af6",
+    "size": "364 KB",
+    "size_raw": "372680",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/upv-cli/0.4.2/download"
+    ],
+    "tag": [
+      "cli",
+      "network",
+      "upv",
+      "vpn",
+      "windows"
+    ],
+    "trusted": "true",
+    "version": "0.4.2",
+    "version_upstream": "0.4.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "863fa02af4da82d5d207af8780ffd5df90e156dc06c89718908408af1b6418d6",
+    "build_date": "2025-06-19T09:57:11Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754365197",
+    "build_id": "15754365197",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uranium/stable/uranium?tag=0.0.0-riscv64-Linux&download=uranium.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "radioactivity done right.",
+    "desktop_integration": "false",
+    "download_count": "194",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uranium/stable/uranium?tag=0.0.0-riscv64-Linux&download=uranium",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/uranium/stable/uranium:0.0.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/uranium/stable/uranium",
+    "homepage": [
+      "https://github.com/replicadse/uranium"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/uranium/stable/uranium?tag=0.0.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uranium",
+    "pkg_family": "uranium",
+    "pkg_id": "pkgforge-cargo.uranium.stable",
+    "pkg_name": "uranium",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/uranium",
+    "portable": "true",
+    "provides": [
+      "uranium"
+    ],
+    "rank": "4365",
+    "recurse_provides": "false",
+    "shasum": "0f3150983cc5e7ab8db030dce9ff838fea5a5dd42780cf08af189c0858fc5f36",
+    "size": "1.1 MB",
+    "size_raw": "1089624",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/uranium/0.0.0/download"
+    ],
+    "tag": [
+      "uranium"
+    ],
+    "trusted": "true",
+    "version": "0.0.0",
+    "version_upstream": "0.0.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "841031eedf7daeff880023cf7b67e9022cab220d0c5826f5fa981d325fa431c5",
+    "build_date": "2025-06-19T09:59:16Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754368768",
+    "build_id": "15754368768",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/url-cli/stable/url?tag=0.2.1-riscv64-Linux&download=url.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Convenient command line interface to urls.",
+    "desktop_integration": "false",
+    "download_count": "334",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/url-cli/stable/url?tag=0.2.1-riscv64-Linux&download=url",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/url-cli/stable/url:0.2.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/url-cli/stable/url",
+    "homepage": [
+      "https://codeberg.org/rkaj/url-cli"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/url-cli/stable/url?tag=0.2.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "url",
+    "pkg_family": "url-cli",
+    "pkg_id": "pkgforge-cargo.url-cli.stable",
+    "pkg_name": "url",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/url-cli",
+    "portable": "true",
+    "provides": [
+      "url"
+    ],
+    "rank": "4367",
+    "recurse_provides": "false",
+    "shasum": "f41a31ded9cd97b77c374ca345170d7ff2c299eb62cf189e8da919b78b3306c0",
+    "size": "2.8 MB",
+    "size_raw": "2842784",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/url-cli/0.2.1/download"
+    ],
+    "tag": [
+      "client",
+      "http"
+    ],
+    "trusted": "true",
+    "version": "0.2.1",
+    "version_upstream": "0.2.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "f39048b86cb55ab4fa5fa827b0ac640cc325f87bc98f2253910b3b9c5f953cbe",
+    "build_date": "2025-06-19T09:57:46Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754383584",
+    "build_id": "15754383584",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/url-cli-tool/stable/url-cli-tool?tag=1.1.2-riscv64-Linux&download=url-cli-tool.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Simple program for basic url encoding and decoding.",
+    "desktop_integration": "false",
+    "download_count": "686",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/url-cli-tool/stable/url-cli-tool?tag=1.1.2-riscv64-Linux&download=url-cli-tool",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/url-cli-tool/stable/url-cli-tool:1.1.2-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/url-cli-tool/stable/url-cli-tool",
+    "homepage": [
+      "https://github.com/hafihaf123/rust-cli-tools/tree/main/url"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/url-cli-tool/stable/url-cli-tool?tag=1.1.2-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "url-cli-tool",
+    "pkg_family": "url-cli-tool",
+    "pkg_id": "pkgforge-cargo.url-cli-tool.stable",
+    "pkg_name": "url-cli-tool",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/url-cli-tool",
+    "portable": "true",
+    "provides": [
+      "url-cli-tool"
+    ],
+    "rank": "4366",
+    "recurse_provides": "false",
+    "shasum": "e7fbb48b607d4e158958070cdebd98dd04dfe68200dc1837dc9ba2f392748fb9",
+    "size": "724 KB",
+    "size_raw": "741320",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/url-cli-tool/1.1.2/download"
+    ],
+    "tag": [
+      "cli",
+      "cryptography",
+      "cybersecurity",
+      "demo",
+      "url"
+    ],
+    "trusted": "true",
+    "version": "1.1.2",
+    "version_upstream": "1.1.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "003fe30a46674397a06b0be8b25e0edd9057731e7f870a369a0dff44e9b4f2a4",
+    "build_date": "2025-06-19T09:58:42Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754386981",
+    "build_id": "15754386981",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/urm-sim/stable/urm-sim?tag=1.1.1-riscv64-Linux&download=urm-sim.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A parser and interpreter for Unlimited Register Machine (URM) programs.",
+    "desktop_integration": "false",
+    "download_count": "887",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/urm-sim/stable/urm-sim?tag=1.1.1-riscv64-Linux&download=urm-sim",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/urm-sim/stable/urm-sim:1.1.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/urm-sim/stable/urm-sim",
+    "homepage": [
+      "https://github.com/Niklas-Mezynski/urm-sim"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/urm-sim/stable/urm-sim?tag=1.1.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "urm-sim",
+    "pkg_family": "urm-sim",
+    "pkg_id": "pkgforge-cargo.urm-sim.stable",
+    "pkg_name": "urm-sim",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/urm-sim",
+    "portable": "true",
+    "provides": [
+      "urm-sim"
+    ],
+    "rank": "4368",
+    "recurse_provides": "false",
+    "shasum": "30ebdf1c23a7604262e4bd9ad002528a06ec349a72c57463d5e94aab92fe1ca5",
+    "size": "1.1 MB",
+    "size_raw": "1110144",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/urm-sim/1.1.1/download"
+    ],
+    "tag": [
+      "computation",
+      "interpreter",
+      "simulator",
+      "theoretical-cs",
+      "urm"
+    ],
+    "trusted": "true",
+    "version": "1.1.1",
+    "version_upstream": "1.1.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "d853bfe57f9d867cc59d9d394e6a4f9f1a99c42ff6202037f70f525ac31d0d76",
     "build_date": "2025-06-15T01:58:34Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15657956895",
@@ -286389,7 +289642,7 @@
     "provides": [
       "usage"
     ],
-    "rank": "4321",
+    "rank": "4369",
     "recurse_provides": "false",
     "shasum": "8f13f5b32bce19e837b679016dce76f5f60bb9afd72628a1c061c9182513d6cf",
     "size": "6.1 MB",
@@ -286405,6 +289658,543 @@
     "trusted": "true",
     "version": "2.1.1",
     "version_upstream": "2.1.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "68d6e67ad568ec772dd059efb85e2ba71cc81aa1cd680b43e9bbdbe7ddafb401",
+    "build_date": "2025-06-19T10:01:07Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754419971",
+    "build_id": "15754419971",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/user-startup/stable/user-startup?tag=0.2.1-riscv64-Linux&download=user-startup.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Simple cross-platform tool to make your command auto run on startup.",
+    "desktop_integration": "false",
+    "download_count": "582",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/user-startup/stable/user-startup?tag=0.2.1-riscv64-Linux&download=user-startup",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/user-startup/stable/user-startup:0.2.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/user-startup/stable/user-startup",
+    "homepage": [
+      "https://github.com/lxl66566/user-startup-rs"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/user-startup/stable/user-startup?tag=0.2.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "user-startup",
+    "pkg_family": "user-startup",
+    "pkg_id": "pkgforge-cargo.user-startup.stable",
+    "pkg_name": "user-startup",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/user-startup",
+    "portable": "true",
+    "provides": [
+      "user-startup"
+    ],
+    "rank": "4370",
+    "recurse_provides": "false",
+    "shasum": "31cbe0e7e69333965aed6d3732c3cb6b91acdc2de39b30debe5b31481163213f",
+    "size": "1.6 MB",
+    "size_raw": "1626216",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/user-startup/0.2.1/download"
+    ],
+    "tag": [
+      "auto-run",
+      "autostart",
+      "startup",
+      "startup-command",
+      "startup-script"
+    ],
+    "trusted": "true",
+    "version": "0.2.1",
+    "version_upstream": "0.2.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "a80cfff4be19c02062433cd43cd14bac372cb1750d37cc9391fed855030f00b2",
+    "build_date": "2025-06-19T10:01:36Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754427679",
+    "build_id": "15754427679",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/userkit/stable/userkit?tag=0.2.0-riscv64-Linux&download=userkit.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A unified cross-platform CLI tool for user management, providing consistent interface for user operations.",
+    "desktop_integration": "false",
+    "download_count": "413",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/userkit/stable/userkit?tag=0.2.0-riscv64-Linux&download=userkit",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/userkit/stable/userkit:0.2.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/userkit/stable/userkit",
+    "homepage": [
+      "https://github.com/pavi2410/userkit"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/userkit/stable/userkit?tag=0.2.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "userkit",
+    "pkg_family": "userkit",
+    "pkg_id": "pkgforge-cargo.userkit.stable",
+    "pkg_name": "userkit",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/userkit",
+    "portable": "true",
+    "provides": [
+      "userkit"
+    ],
+    "rank": "4371",
+    "recurse_provides": "false",
+    "shasum": "dc138bfb80971c5386d70f3cbb31f9a8f0c6b54e4a15b04334321f341653fa70",
+    "size": "1.1 MB",
+    "size_raw": "1118160",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/userkit/0.2.0/download"
+    ],
+    "tag": [
+      "cli",
+      "cross-platform",
+      "system-admin",
+      "user-management"
+    ],
+    "trusted": "true",
+    "version": "0.2.0",
+    "version_upstream": "0.2.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "be93908a249c292187356e8144be5b645d7cc3ff45fd1c2edc5f021e17ed715d",
+    "build_date": "2025-06-19T10:03:27Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754429485",
+    "build_id": "15754429485",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usnrs/stable/usnrs-cli?tag=0.2.1-riscv64-Linux&download=usnrs-cli.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A tool and library to parse USN Journal files.",
+    "desktop_integration": "false",
+    "download_count": "576",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usnrs/stable/usnrs-cli?tag=0.2.1-riscv64-Linux&download=usnrs-cli",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/usnrs/stable/usnrs-cli:0.2.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/usnrs/stable/usnrs-cli",
+    "homepage": [
+      "https://github.com/airbus-cert/usnrs"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usnrs/stable/usnrs-cli?tag=0.2.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "usnrs-cli",
+    "pkg_family": "usnrs",
+    "pkg_id": "pkgforge-cargo.usnrs.stable",
+    "pkg_name": "usnrs-cli",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/usnrs",
+    "portable": "true",
+    "provides": [
+      "usnrs-cli"
+    ],
+    "rank": "4372",
+    "recurse_provides": "false",
+    "shasum": "ac89e7c250416a67e6c2b03b2269990a6b43ab039d394611fa46ece8901526bf",
+    "size": "748 KB",
+    "size_raw": "765896",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/usnrs/0.2.1/download"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "trusted": "true",
+    "version": "0.2.1",
+    "version_upstream": "0.2.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "981ea410d7c6237efe1f7194950e5b70c54c0820194aeccde91f08776c877c44",
+    "build_date": "2025-06-19T10:03:18Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754429597",
+    "build_id": "15754429597",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usv-to-asv/stable/usv-to-asv?tag=1.5.2-riscv64-Linux&download=usv-to-asv.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "USV to ASV: Convert Unicode Separated Values (USV) to ASCII Separated Values (ASV) such as for data markup, including for spreadsheets, databases, text files, and more.",
+    "desktop_integration": "false",
+    "download_count": "1706",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usv-to-asv/stable/usv-to-asv?tag=1.5.2-riscv64-Linux&download=usv-to-asv",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/usv-to-asv/stable/usv-to-asv:1.5.2-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/usv-to-asv/stable/usv-to-asv",
+    "homepage": [
+      "https://github.com/sixarm/usv-to-asv-rust-crate/"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0 OR GPL-2.0 OR GPL-3.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usv-to-asv/stable/usv-to-asv?tag=1.5.2-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "usv-to-asv",
+    "pkg_family": "usv-to-asv",
+    "pkg_id": "pkgforge-cargo.usv-to-asv.stable",
+    "pkg_name": "usv-to-asv",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/usv-to-asv",
+    "portable": "true",
+    "provides": [
+      "usv-to-asv"
+    ],
+    "rank": "4373",
+    "recurse_provides": "false",
+    "shasum": "b2c2729dd70d3e09268be6cb74d7cf7aa82aef4306d60beca0769dee97cec3a6",
+    "size": "688 KB",
+    "size_raw": "704456",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/usv-to-asv/1.5.2/download"
+    ],
+    "tag": [
+      "asv",
+      "data",
+      "export",
+      "import",
+      "usv"
+    ],
+    "trusted": "true",
+    "version": "1.5.2",
+    "version_upstream": "1.5.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "d9890742c2791ad64b51e243ccad12ce8f73bab57428ecab346fac9f9f7d6fe7",
+    "build_date": "2025-06-19T10:03:32Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754433540",
+    "build_id": "15754433540",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usv-to-csv/stable/usv-to-csv?tag=1.4.1-riscv64-Linux&download=usv-to-csv.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "USV to CSV: Convert Unicode Separated Values (USV) to Comma Separated Values (CSV) for data markup, including for spreadsheets, databases, text files, and more.",
+    "desktop_integration": "false",
+    "download_count": "1994",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usv-to-csv/stable/usv-to-csv?tag=1.4.1-riscv64-Linux&download=usv-to-csv",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/usv-to-csv/stable/usv-to-csv:1.4.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/usv-to-csv/stable/usv-to-csv",
+    "homepage": [
+      "https://github.com/sixarm/usv-to-csv-rust-crate/"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0 OR GPL-2.0 OR GPL-3.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usv-to-csv/stable/usv-to-csv?tag=1.4.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "usv-to-csv",
+    "pkg_family": "usv-to-csv",
+    "pkg_id": "pkgforge-cargo.usv-to-csv.stable",
+    "pkg_name": "usv-to-csv",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/usv-to-csv",
+    "portable": "true",
+    "provides": [
+      "usv-to-csv"
+    ],
+    "rank": "4374",
+    "recurse_provides": "false",
+    "shasum": "04666fe6d01b1b25453f359340351917a0c6229ef4f1274467b83503018e24c4",
+    "size": "692 KB",
+    "size_raw": "708552",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/usv-to-csv/1.4.1/download"
+    ],
+    "tag": [
+      "csv",
+      "data",
+      "export",
+      "import",
+      "usv"
+    ],
+    "trusted": "true",
+    "version": "1.4.1",
+    "version_upstream": "1.4.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "f62fb1afb0527e05086139aff55790b424577ecc4742edc96ed0f30a98d009f8",
+    "build_date": "2025-06-19T10:04:25Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754433579",
+    "build_id": "15754433579",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usv-to-json/stable/usv-to-json?tag=1.2.1-riscv64-Linux&download=usv-to-json.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "USV to JSON: Convert Unicode Separated Values (USV) to JavaScript Object Notation (JSON) for data markup, including for spreadsheets, databases, text files, and more.",
+    "desktop_integration": "false",
+    "download_count": "988",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usv-to-json/stable/usv-to-json?tag=1.2.1-riscv64-Linux&download=usv-to-json",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/usv-to-json/stable/usv-to-json:1.2.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/usv-to-json/stable/usv-to-json",
+    "homepage": [
+      "https://github.com/sixarm/usv-to-json-rust-crate/"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0 OR GPL-2.0 OR GPL-3.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usv-to-json/stable/usv-to-json?tag=1.2.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "usv-to-json",
+    "pkg_family": "usv-to-json",
+    "pkg_id": "pkgforge-cargo.usv-to-json.stable",
+    "pkg_name": "usv-to-json",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/usv-to-json",
+    "portable": "true",
+    "provides": [
+      "usv-to-json"
+    ],
+    "rank": "4375",
+    "recurse_provides": "false",
+    "shasum": "d54e3643736effdecfab25638e29098eb321adba5c537859f7f9cbe298dd9eb9",
+    "size": "708 KB",
+    "size_raw": "724936",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/usv-to-json/1.2.1/download"
+    ],
+    "tag": [
+      "data",
+      "export",
+      "import",
+      "json",
+      "usv"
+    ],
+    "trusted": "true",
+    "version": "1.2.1",
+    "version_upstream": "1.2.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "5565b5d7775f38cdb41a32d6f91cbd4c1632f611efc9a9fd4bc672305bb86daf",
+    "build_date": "2025-06-19T10:05:04Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754434196",
+    "build_id": "15754434196",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usv-to-xlsx/stable/usv-to-xlsx?tag=0.4.1-riscv64-Linux&download=usv-to-xlsx.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "USV to XLSX: Convert Unicode Separated Values (USV) to Microsoft Excel (XLSX) for data markup, including for spreadsheets, databases, text files, and more.",
+    "desktop_integration": "false",
+    "download_count": "1126",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usv-to-xlsx/stable/usv-to-xlsx?tag=0.4.1-riscv64-Linux&download=usv-to-xlsx",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/usv-to-xlsx/stable/usv-to-xlsx:0.4.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/usv-to-xlsx/stable/usv-to-xlsx",
+    "homepage": [
+      "https://github.com/sixarm/usv-to-xlsx-rust-crate/"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0 OR GPL-2.0 OR GPL-3.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/usv-to-xlsx/stable/usv-to-xlsx?tag=0.4.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "usv-to-xlsx",
+    "pkg_family": "usv-to-xlsx",
+    "pkg_id": "pkgforge-cargo.usv-to-xlsx.stable",
+    "pkg_name": "usv-to-xlsx",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/usv-to-xlsx",
+    "portable": "true",
+    "provides": [
+      "usv-to-xlsx"
+    ],
+    "rank": "4376",
+    "recurse_provides": "false",
+    "shasum": "8d4ed969ade6829767378b6ab94a1c6194b54cdebd9123a31a10adf88569e877",
+    "size": "2.5 MB",
+    "size_raw": "2593384",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/usv-to-xlsx/0.4.1/download"
+    ],
+    "tag": [
+      "data",
+      "export",
+      "import",
+      "usv",
+      "xlsx"
+    ],
+    "trusted": "true",
+    "version": "0.4.1",
+    "version_upstream": "0.4.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "4b7a1053bda4054407513403d73a40959ff3c1478de99cf58d06ba0523ffec38",
+    "build_date": "2025-06-19T10:05:26Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754436681",
+    "build_id": "15754436681",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ut325f-rs/stable/ut325f?tag=0.9.2-riscv64-Linux&download=ut325f.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Support for Uni-T UT325-F thermocouple meter.",
+    "desktop_integration": "false",
+    "download_count": "1172",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ut325f-rs/stable/ut325f?tag=0.9.2-riscv64-Linux&download=ut325f",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/ut325f-rs/stable/ut325f:0.9.2-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/ut325f-rs/stable/ut325f",
+    "homepage": [
+      "https://github.com/charlieh0tel/ut325f-rs"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "BSD-3-Clause"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ut325f-rs/stable/ut325f?tag=0.9.2-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "ut325f",
+    "pkg_family": "ut325f-rs",
+    "pkg_id": "pkgforge-cargo.ut325f-rs.stable",
+    "pkg_name": "ut325f",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/ut325f-rs",
+    "portable": "true",
+    "provides": [
+      "ut325f"
+    ],
+    "rank": "4377",
+    "recurse_provides": "false",
+    "shasum": "4ecd5d529281697bc7540b946baf9a6bfea53d6cf39b84a4a7bc8aefc20f97f5",
+    "size": "969 KB",
+    "size_raw": "991376",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/ut325f-rs/0.9.2/download"
+    ],
+    "tag": [
+      "measurement",
+      "thermocouple",
+      "usb"
+    ],
+    "trusted": "true",
+    "version": "0.9.2",
+    "version_upstream": "0.9.2"
   },
   {
     "_disabled": "false",
@@ -286453,7 +290243,7 @@
     "provides": [
       "uuinfo"
     ],
-    "rank": "4322",
+    "rank": "4379",
     "recurse_provides": "false",
     "shasum": "30a9bfbb47322b35e405d43ab65eb465d3a05f6fb6a06e967e17e50faf3ecb21",
     "size": "1.2 MB",
@@ -286521,7 +290311,7 @@
     "provides": [
       "uv-migrator"
     ],
-    "rank": "4323",
+    "rank": "4380",
     "recurse_provides": "false",
     "shasum": "4dd4199620a736024046287c9f83278c0afa9239fb1e9d83180e781eff65a926",
     "size": "5.1 MB",
@@ -286586,7 +290376,7 @@
     "provides": [
       "uwu_colors"
     ],
-    "rank": "4324",
+    "rank": "4381",
     "recurse_provides": "false",
     "shasum": "4971f778a2619f6411d6c0b056d6bf141776df65fbd1ff5cae35232e3103a9a8",
     "size": "3.8 MB",
@@ -286783,7 +290573,7 @@
     "provides": [
       "verylup"
     ],
-    "rank": "4325",
+    "rank": "4382",
     "recurse_provides": "false",
     "shasum": "bc4116ce27d6c70b0048567985b0b4ffc2488c85f934ff403a581f42b38e33bb",
     "size": "3.7 MB",
@@ -286847,7 +290637,7 @@
     "provides": [
       "vew"
     ],
-    "rank": "4326",
+    "rank": "4383",
     "recurse_provides": "false",
     "shasum": "c5b4ccf5a0f1c3686164f2f151c0528b4a6ad618c38cfc433275b4d52ce91264",
     "size": "11 MB",
@@ -286977,7 +290767,7 @@
     "provides": [
       "vex2pdf"
     ],
-    "rank": "4327",
+    "rank": "4384",
     "recurse_provides": "false",
     "shasum": "a7c829bfd2a8157a3e1fd9a111fb661a4a6ba3c275c3290787ee2b38dd0c26d6",
     "size": "5.0 MB",
@@ -287045,7 +290835,7 @@
     "provides": [
       "viceroy"
     ],
-    "rank": "4328",
+    "rank": "4385",
     "recurse_provides": "false",
     "shasum": "7b3ce33ce0451650fb291102aa33a6b34567387a7712a890d394a1f6a06bc623",
     "size": "20 MB",
@@ -287110,7 +290900,7 @@
     "provides": [
       "viddy"
     ],
-    "rank": "4329",
+    "rank": "4386",
     "recurse_provides": "false",
     "shasum": "e3cd80661fd8d0506627306de14c74a2762d32422579e67eb145e5a63ab6706d",
     "size": "6.1 MB",
@@ -287174,7 +290964,7 @@
     "provides": [
       "view-disk"
     ],
-    "rank": "4330",
+    "rank": "4387",
     "recurse_provides": "false",
     "shasum": "c42285d90b1ab3c89b430edf90090ec70fd26a354cec7db70907453a5031904c",
     "size": "1.2 MB",
@@ -287238,7 +291028,7 @@
     "provides": [
       "volo"
     ],
-    "rank": "4331",
+    "rank": "4388",
     "recurse_provides": "false",
     "shasum": "3366f25bb5a295b78b66b4657e60b2cff2cc8eac919f94a3c078dec28f660bef",
     "size": "7.5 MB",
@@ -287306,7 +291096,7 @@
     "provides": [
       "volscan"
     ],
-    "rank": "4332",
+    "rank": "4389",
     "recurse_provides": "false",
     "shasum": "5323d6b2ca7147869f5023c93dbfaf258c1d51caec9feb2f94242fa9b15637d6",
     "size": "1.6 MB",
@@ -287374,7 +291164,7 @@
     "provides": [
       "vopono"
     ],
-    "rank": "4333",
+    "rank": "4390",
     "recurse_provides": "false",
     "shasum": "0319670c0cf4f8756961880b314eecfbf3424c16e410d55513b6aa5ffaab9c0f",
     "size": "7.3 MB",
@@ -287442,7 +291232,7 @@
     "provides": [
       "vscode-workspace-gen"
     ],
-    "rank": "4334",
+    "rank": "4391",
     "recurse_provides": "false",
     "shasum": "82f75a092ba4917d09cde24222262a5e63792ce4c5fb7a000802743edf8cc4de",
     "size": "2.1 MB",
@@ -287507,7 +291297,7 @@
     "provides": [
       "wac"
     ],
-    "rank": "4335",
+    "rank": "4392",
     "recurse_provides": "false",
     "shasum": "7265b08292f6fd524966e6c698368a5229a86063d6cc54056f05db8e4d3c943e",
     "size": "15 MB",
@@ -287575,7 +291365,7 @@
       "auto_serve",
       "waj"
     ],
-    "rank": "4337",
+    "rank": "4394",
     "recurse_provides": "false",
     "shasum": "49f8b772d73c9cb4f471db2cd7129d6f4f75f8d9a484e885e21b1ef2c6ddfb85",
     "size": "4.2 MB",
@@ -287641,7 +291431,7 @@
     "provides": [
       "wallrust"
     ],
-    "rank": "4338",
+    "rank": "4395",
     "recurse_provides": "false",
     "shasum": "bef0b889fd24620fcf696ddb0052714f329cb0d8c3390ecfbfd13fa6ee9e148e",
     "size": "5.0 MB",
@@ -287709,7 +291499,7 @@
     "provides": [
       "wallust"
     ],
-    "rank": "4339",
+    "rank": "4396",
     "recurse_provides": "false",
     "shasum": "43d067b2704019aa639be90b099226121ce57910f692bebfeb881cb5f1560ded",
     "size": "4.1 MB",
@@ -287776,7 +291566,7 @@
     "provides": [
       "wash"
     ],
-    "rank": "4340",
+    "rank": "4397",
     "recurse_provides": "false",
     "shasum": "15c57035d46157f09c93821893719ad9d15f20d5231c3c64eeb60001e34a7a9a",
     "size": "34 MB",
@@ -287845,7 +291635,7 @@
       "wasm-bindgen-test-runner",
       "wasm2es6js"
     ],
-    "rank": "4342",
+    "rank": "4399",
     "recurse_provides": "false",
     "shasum": "68d27ea47a12876873bddff096f4da774d4123bb6e36231551acb092e171f1be",
     "size": "3.8 MB",
@@ -287911,7 +291701,7 @@
       "wasm-bindgen-test-runner",
       "wasm2es6js"
     ],
-    "rank": "4341",
+    "rank": "4398",
     "recurse_provides": "false",
     "shasum": "ccb4b91736be6686369d789305bee12cad28b426acf6c31ebcbe56e0b1bfb502",
     "size": "5.8 MB",
@@ -287975,7 +291765,7 @@
     "provides": [
       "wasm-opt"
     ],
-    "rank": "4344",
+    "rank": "4401",
     "recurse_provides": "false",
     "shasum": "8e2923aa358268306e024a01e6b427119ee1331f6cd5b329fd6f308a0d21fe54",
     "size": "11 MB",
@@ -288039,7 +291829,7 @@
     "provides": [
       "wasm-pack"
     ],
-    "rank": "4345",
+    "rank": "4402",
     "recurse_provides": "false",
     "shasum": "06dc0818e872f29a61e20db671bd040b361f6ee3e63ad1ed55be1c1bd9fba197",
     "size": "3.6 MB",
@@ -288172,7 +291962,7 @@
     "provides": [
       "wasm-tools"
     ],
-    "rank": "4346",
+    "rank": "4403",
     "recurse_provides": "false",
     "shasum": "55e27998ee58292c74e3562c1161c4e5630c16cb03d768beb03aec167c4256f4",
     "size": "11 MB",
@@ -288241,7 +292031,7 @@
       "wasm-bindgen-test-runner",
       "wasm2es6js"
     ],
-    "rank": "4343",
+    "rank": "4400",
     "recurse_provides": "false",
     "shasum": "4c694a2611d723e52c49eb44132ffb619fc722e40e5f0c566b7c84dc79d6e8e8",
     "size": "2.0 MB",
@@ -288305,7 +292095,7 @@
     "provides": [
       "wasmtime"
     ],
-    "rank": "4347",
+    "rank": "4404",
     "recurse_provides": "false",
     "shasum": "fb1272ee89b1e4de7a3f6031406455c720fafa9f3630c59248c19b609c98fe48",
     "size": "30 MB",
@@ -288370,7 +292160,7 @@
     "provides": [
       "wayland-interface-check"
     ],
-    "rank": "4348",
+    "rank": "4405",
     "recurse_provides": "false",
     "shasum": "bf05d8183eff99a23f191d8b300774b206db0a88760cf88e9929a439b9e0cc3c",
     "size": "480 KB",
@@ -288436,7 +292226,7 @@
     "provides": [
       "web2pdf"
     ],
-    "rank": "4349",
+    "rank": "4406",
     "recurse_provides": "false",
     "shasum": "228f05d780f0853e1f74626393663d440f95a1e584a6f261d2d3c5eba894fc46",
     "size": "7.0 MB",
@@ -288502,7 +292292,7 @@
     "provides": [
       "webidl2wit"
     ],
-    "rank": "4351",
+    "rank": "4408",
     "recurse_provides": "false",
     "shasum": "aee72a655bab092759a23bf83ddbcbecb3884aa0e3e226d6c6abd0928f998b02",
     "size": "1.3 MB",
@@ -288636,7 +292426,7 @@
     "provides": [
       "websnap"
     ],
-    "rank": "4352",
+    "rank": "4409",
     "recurse_provides": "false",
     "shasum": "6aec78d0c3d4cdce03caec863ede486fbadbd53c2c1534709550db2fbc5e6420",
     "size": "777 KB",
@@ -288702,7 +292492,7 @@
     "provides": [
       "websocat"
     ],
-    "rank": "4353",
+    "rank": "4410",
     "recurse_provides": "false",
     "shasum": "cd8af72e2bd7a1637082b909eba61e1b4c5a386f4f6aa42681f15e7f6d30aea9",
     "size": "7.6 MB",
@@ -288770,7 +292560,7 @@
     "provides": [
       "whereamifrom"
     ],
-    "rank": "4354",
+    "rank": "4411",
     "recurse_provides": "false",
     "shasum": "61f27ede1563ef2c158eee7fcf800b1efe38f28472fc01e08c19f69659975da0",
     "size": "5.8 MB",
@@ -288835,7 +292625,7 @@
     "provides": [
       "whereis"
     ],
-    "rank": "4355",
+    "rank": "4412",
     "recurse_provides": "false",
     "shasum": "827d8f3ead7662e5c0e54480f48eed4a0eb8793abae1bc27f100668f9dc18ac2",
     "size": "688 KB",
@@ -288899,7 +292689,7 @@
     "provides": [
       "whereyoufrom"
     ],
-    "rank": "4356",
+    "rank": "4413",
     "recurse_provides": "false",
     "shasum": "b4016b9a39628c9e16a28571a6d1407051e4cb0f8d7e40bbd95139362f08ca31",
     "size": "593 KB",
@@ -288967,7 +292757,7 @@
     "provides": [
       "which"
     ],
-    "rank": "4359",
+    "rank": "4416",
     "recurse_provides": "false",
     "shasum": "3b018c51488a0caa2b29d80400467edb444cffd25e7d802cfa56a94d2cd9f4f3",
     "size": "368 KB",
@@ -289035,7 +292825,7 @@
     "provides": [
       "which-key"
     ],
-    "rank": "4357",
+    "rank": "4414",
     "recurse_provides": "false",
     "shasum": "aa721b620852d26e5a7bbbb96524e1d7b9baa42d89a874627524cff1662d22b6",
     "size": "965 KB",
@@ -289101,7 +292891,7 @@
     "provides": [
       "which-sig"
     ],
-    "rank": "4358",
+    "rank": "4415",
     "recurse_provides": "false",
     "shasum": "d8f7eb2d669e4414b66bce7597ae847832d451d3fdc836c85c6763ed448b12b4",
     "size": "368 KB",
@@ -289296,7 +293086,7 @@
     "provides": [
       "wit-bindgen"
     ],
-    "rank": "4362",
+    "rank": "4419",
     "recurse_provides": "false",
     "shasum": "dced5c92352648e8e95223bb0e460c3441f893333b6905eebf8bf86d8a3fc544",
     "size": "11 MB",
@@ -289361,7 +293151,7 @@
       "completions",
       "withd"
     ],
-    "rank": "4364",
+    "rank": "4421",
     "recurse_provides": "false",
     "shasum": "cc664a01c4c10dac53de04d58495ed924acb9865315da6a08de73c3243596e3a",
     "size": "1.2 MB",
@@ -289426,7 +293216,7 @@
     "provides": [
       "wizer"
     ],
-    "rank": "4365",
+    "rank": "4422",
     "recurse_provides": "false",
     "shasum": "1297e77512458917f8f917e4cd7c757b1e8dc53a6baeba99863a0138ee10f796",
     "size": "12 MB",
@@ -289555,7 +293345,7 @@
     "provides": [
       "work-break"
     ],
-    "rank": "4366",
+    "rank": "4423",
     "recurse_provides": "false",
     "shasum": "db50c1b3bffc86c8bee490fc7ed1a43a200ec32dedfbc997850c0470615c4227",
     "size": "2.5 MB",
@@ -289686,7 +293476,7 @@
     "provides": [
       "wr"
     ],
-    "rank": "4367",
+    "rank": "4424",
     "recurse_provides": "false",
     "shasum": "65d86d3c135e87796a4275c88f45a659d3d985701674954da80971cb6dbb4c27",
     "size": "3.5 MB",
@@ -289819,7 +293609,7 @@
     "provides": [
       "wspick"
     ],
-    "rank": "4368",
+    "rank": "4425",
     "recurse_provides": "false",
     "shasum": "f0d09565eee8ee4189c4c1aa28c29d3d6e4cd6c6c1cb0b4a77eaaf2972424922",
     "size": "1.4 MB",
@@ -289887,7 +293677,7 @@
     "provides": [
       "xan"
     ],
-    "rank": "4369",
+    "rank": "4426",
     "recurse_provides": "false",
     "shasum": "e2eb3f3a6c0ce5297b4bc91c11e0088cb5dc931e450d7cdc640d4ecb3e732a4b",
     "size": "13 MB",
@@ -290019,7 +293809,7 @@
     "provides": [
       "xray"
     ],
-    "rank": "4370",
+    "rank": "4427",
     "recurse_provides": "false",
     "shasum": "ae55f6400bd69d61be57171857ff5f604c6dc06d4f6a3df93a03bd134f9cbee6",
     "size": "3.5 MB",
@@ -290087,7 +293877,7 @@
     "provides": [
       "xtagger"
     ],
-    "rank": "4371",
+    "rank": "4428",
     "recurse_provides": "false",
     "shasum": "fd4ee614268df09e663ce41aa2db99e60421a19b5f0c08f83d0cc70a64606d6c",
     "size": "2.0 MB",
@@ -290153,7 +293943,7 @@
     "provides": [
       "ya"
     ],
-    "rank": "4374",
+    "rank": "4431",
     "recurse_provides": "false",
     "shasum": "9e48c565fe5d5e8a574910db0eb318643c6c2088f5942f07e480e8825e9e2dba",
     "size": "3.0 MB",
@@ -290453,7 +294243,7 @@
     "provides": [
       "yarig"
     ],
-    "rank": "4372",
+    "rank": "4429",
     "recurse_provides": "false",
     "shasum": "985db1231382a4f62624869d08011452c4d1e764450eafd3991ea13b88f1d192",
     "size": "2.7 MB",
@@ -290519,7 +294309,7 @@
     "provides": [
       "yarner"
     ],
-    "rank": "4373",
+    "rank": "4430",
     "recurse_provides": "false",
     "shasum": "c01bceccb6ea90c709fa46c429e8e68b8145215ff30778c06898f2ef7cb7082e",
     "size": "2.4 MB",
@@ -290585,7 +294375,7 @@
     "provides": [
       "yazi"
     ],
-    "rank": "4375",
+    "rank": "4432",
     "recurse_provides": "false",
     "shasum": "fb99b710aeab394736ab635643bf59d0dfd47bc31464f35cf14d785dda5dc848",
     "size": "18 MB",
@@ -290649,7 +294439,7 @@
     "provides": [
       "ymlfxr"
     ],
-    "rank": "4376",
+    "rank": "4433",
     "recurse_provides": "false",
     "shasum": "f628c129c4c8a5e708213bc4f0d6fbd4766d6b1c4bfa0b2e78dcf0e5dc7d8ed9",
     "size": "808 KB",
@@ -290714,7 +294504,7 @@
     "provides": [
       "zepter"
     ],
-    "rank": "4377",
+    "rank": "4434",
     "recurse_provides": "false",
     "shasum": "38124dcfac62b66f909e54deecd43186fcae2cd2a71a91a86801a8fde54f98c8",
     "size": "3.0 MB",
@@ -290845,7 +294635,7 @@
     "provides": [
       "zesh"
     ],
-    "rank": "4378",
+    "rank": "4435",
     "recurse_provides": "false",
     "shasum": "b5c8611cd63e88f1e1ce71f60de3363d1faaca3e9a50ec9bd65aba5c647dea8d",
     "size": "808 KB",
@@ -291038,7 +294828,7 @@
     "provides": [
       "zipsign"
     ],
-    "rank": "4379",
+    "rank": "4436",
     "recurse_provides": "false",
     "shasum": "98fbd95027e6c2093ce10d45173e08cfadacd9ccec6040a91ed545cf059ce08d",
     "size": "1.1 MB",
@@ -291102,7 +294892,7 @@
     "provides": [
       "zizmor"
     ],
-    "rank": "4380",
+    "rank": "4437",
     "recurse_provides": "false",
     "shasum": "fe3d226daabe2a3009716937fe85e96687a0db387bf3fdaae98db178a4888fc2",
     "size": "12 MB",
@@ -291169,7 +294959,7 @@
     "provides": [
       "zman"
     ],
-    "rank": "4381",
+    "rank": "4438",
     "recurse_provides": "false",
     "shasum": "24f2edac6e919adaad0eb1ddd3aed46b71cec7e986a83ae6823fdea3f9488790",
     "size": "932 KB",
@@ -291235,7 +295025,7 @@
     "provides": [
       "zoxide"
     ],
-    "rank": "4382",
+    "rank": "4439",
     "recurse_provides": "false",
     "shasum": "3aca65a2bd03e3d53f80f225809a4b17c0193cd7a8f871f448943f6a1427f88e",
     "size": "1005 KB",
@@ -291303,7 +295093,7 @@
     "provides": [
       "zp"
     ],
-    "rank": "4383",
+    "rank": "4440",
     "recurse_provides": "false",
     "shasum": "c226ace0affad18dedc8e99e0a1b76c50d9250c7292c4cf217fd8c5ee7349fbb",
     "size": "1.3 MB",
