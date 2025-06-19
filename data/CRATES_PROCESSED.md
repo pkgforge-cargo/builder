@@ -99,6 +99,7 @@
 - 🦀 **[procs](https://github.com/dalance/procs)**: A modern replacement for ps.
 - 🦀 **[cargo-run-bin](https://github.com/dustinblackman/cargo-run-bin)**: Build, cache, and run binaries scoped in Cargo.
 - 🦀 **[jql](https://github.com/yamafaktory/jql)**: jql - JSON Query Language - is a fast and simple command-line tool to manipulate JSON data.
+- 🦀 **[rumdl](https://github.com/rvben/rumdl)**: A fast Markdown linter written in Rust (Ru(st) MarkDown Linter).
 - 🦀 **[dependency_runner](https://github.com/marcoesposito1988/dependency_runner/)**: ldd for Windows - and more!.
 - 🦀 **[duckscript_cli](https://github.com/sagiegurari/duckscript.git)**: The duckscript command line executable.
 - 🦀 **[git-cliff](https://github.com/orhun/git-cliff)**: A highly customizable changelog generator ⛰️.
@@ -678,6 +679,7 @@
 - 🦀 **[rustypaste-cli](https://github.com/orhun/rustypaste-cli)**: A CLI tool for rustypaste.
 - 🦀 **[fluentci-engine](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
 - 🦀 **[dialogical](https://github.com/Lamby777/dialogical)**: P/E/T/S 2037 Dialogue Tree Compiler.
+- 🦀 **[awsbck](https://github.com/beeb/awsbck)**: Utility to backup a folder to AWS S3, once or periodically.
 - 🦀 **[openstack_tui](https://github.com/gtema/openstack)**: OpenStack Terminal User interface.
 - 🦀 **[dotpatina](https://github.com/axis7818/dotpatina)**: dotpatina is a rust application for managing system dotfiles and configuration.
 - 🦀 **[mk](https://github.com/ffimnsr/mk-rs)**: Yet another simple task runner 🦀.
@@ -833,6 +835,7 @@
 - 🦀 **[bodhi-cli](https://github.com/ironthree/bodhi-cli)**: bodhi CLI client based on bodhi-rs.
 - 🦀 **[metapac](https://github.com/ripytide/metapac)**: multi-backend declarative package manager.
 - 🦀 **[esthri-cli](https://github.com/swift-nav/esthri/)**: Extremely simple (memory stable) S3 client that supports get, put, head, list, and sync.
+- 🦀 **[bilal](https://github.com/azzamsa/bilal)**: a CLI salah time.
 - 🦀 **[jja](https://git.sr.ht/~alip/jja)**: swiss army knife for chess file formats.
 - 🦀 **[calc_rational](https://git.philomathiclife.com/repos/calc_rational/)**: CLI calculator for rational numbers.
 - 🦀 **[gesha](https://github.com/x7c1/gesha)**: Generates code based on OpenAPI specs.
@@ -1329,6 +1332,7 @@
 - 🦀 **[psource](https://github.com/frederikstroem/psource)**: CLI tool to pretty print source code to stdout or directly to the clipboard.
 - 🦀 **[check-tls-suites](https://github.com/anthonyjmartinez/check-tls-suites.git)**: Displays TLS cipher suite names and recommendation status from IANA for a set of given ciphers.
 - 🦀 **[openbook](https://github.com/gigadao/openbook)**: 📖1️⃣2️⃣ A CLI, TUI and SDK to interact with OpenBook V1 and V2 markets on the Solana blockchain.
+- 🦀 **[zman](https://github.com/azzamsa/zman)**: a CLI year progress.
 - 🦀 **[stor-age](https://github.com/idiv-biodiversity/stor-age)**: show aging of directories.
 - 🦀 **[ask-cli](https://github.com/SUPERCILEX/ask-cli)**: Ask CLI offers a simple way to ask a yes or no question.
 - 🦀 **[ensync](https://github.com/altsysrq/ensync)**: A flexible ENcrypted file SYNChroniser suitable for uses where the central location is not fully trusted.
@@ -2143,7 +2147,6 @@
 - 🦀 **[ctgen](https://github.com/cytecbg/ctgen)**: Code Generator based on Handlebars Templates and Database Reflection.
 - 🦀 **[filepack](https://github.com/casey/filepack)**: file verification utility.
 - 🦀 **[rttmon](https://github.com/matteocarnelos/rttmon)**: A simple RTT monitor for OpenOCD.
-- 🦀 **[archiver](https://github.com/lukemilby/archiver)**: RAG implementation with langchain-rust.
 - 🦀 **[git-grab](https://github.com/wezm/git-grab.git)**: A tool to clone git repositories to a standard location, organised by domain name and path.
 - 🦀 **[phylotree](https://github.com/lucblassel/phylotree-rs)**: A crate to deal with phylogenetic trees and distance matrices.
 - 🦀 **[subx-cli](https://github.com/jim60105/subx-cli)**: AI subtitle processing CLI tool, which automatically matches, renames, and converts subtitle files.
@@ -2162,6 +2165,7 @@
 - 🦀 **[kestrel-cli](https://github.com/finfet/kestrel)**: Kestrel file encryption program.
 - 🦀 **[libslirp](https://gitlab.freedesktop.org/slirp/libslirp-rs.git)**: High-level bindings & helper process for libslirp.
 - 🦀 **[scalesocket](https://github.com/scalesocket/scalesocket/)**: A collaborative websocket server and autoscaler.
+- 🦀 **[gwv](https://github.com/dotanuki-labs/gradle-wrapper-validator)**: A validator for gradle/wrapper jar binaries, intended to be used in CI pipelines.
 - 🦀 **[nh-xml-from](https://github.com/lucidashygirl/nh-xml-from)**: A tool that lets you convert various formats to XML for New Horizons.
 - 🦀 **[vapore](https://github.com/Roco-scientist/VAnguard-POrtfolio-REbalance)**: Vangaurd portfolio rebalancing algorithm.
 - 🦀 **[depfirstsearch](https://github.com/mwcz/depfirstsearch/tree/main)**: Keep your dependency tree small by searching for crates you may already have.
@@ -2508,6 +2512,7 @@
 - 🦀 **[get-hash](https://github.com/vybgss/get-hash)**: Get hash of a string.
 - 🦀 **[moccasin](https://github.com/rektdeckard/moccasin)**: A TUI feed reader for RSS, Atom, and (aspirationally) Podcasts.
 - 🦀 **[rusty-formatter](https://github.com/S42yt/rusty-cargo.git)**: This is the offical Rusty: Rust Formatter, Cargo Package.
+- 🦀 **[todotui](https://github.com/newfla/todotui)**: A simple todo terminal app.
 - 🦀 **[format-bom](https://github.com/DosangGu/format-bom)**: A tool for handling BOM mark from UTF-8 files.
 - 🦀 **[spytrap-adb](https://github.com/spytrap-org/spytrap-adb)**: Test a phone for stalkerware using adb and usb debugging to scan for suspicious apps and configuration.
 - 🦀 **[turdle](https://github.com/weiteck/turdle)**: A Wordle clone for the terminal.
@@ -2636,6 +2641,7 @@
 - 🦀 **[ezcrypt](https://git.disroot.org/starryuwu/ezcrypt_rust.git)**: File encryption utility with forgot password functionality.
 - 🦀 **[github-issues-export](https://github.com/boxdot/github-issues-export-rs)**: Export GitHub issues to markdown files.
 - 🦀 **[kouran](https://github.com/k3ii/kouran)**: View Power Outages in Mauritius.
+- 🦀 **[crab-net](https://github.com/newfla/crab-net)**: <TCP|UDP> + TLS packets generator.
 - 🦀 **[asimov-serpapi-module](https://github.com/asimov-modules/asimov-serpapi-module)**: ASIMOV module for data import powered by the SerpApi search data platform.
 - 🦀 **[hex_dump](https://gitlab.com/andrew_ryan/hex_dump)**: A CLI that can read print and modify binary file.
 - 🦀 **[copy_confirmer](https://github.com/jm-fn/copy_confirmer)**: Confirms all files are copied somewhere.
@@ -3991,6 +3997,7 @@
 - 🦀 **[rs-tool](https://github.com/rweeks/rs-tool)**: A command-line tool to perform reservoir sampling on a file or a stream.
 - 🦀 **[snip-cli](null)**: A CLI tool (snip-cli) for managing Neovim and VSCode snippets.
 - 🦀 **[temi](https://github.com/threadiverse/temi)**: Command-line, lightweight TUI client for Lemmy.
+- 🦀 **[cargo-scout-audit-soroban](null)**: Scout is an extensible open-source tool intended to assist Soroban smart contract developers and auditors detect common security issues and deviations from best practices.
 - 🦀 **[co2key](https://github.com/maun/co2key)**: CLI tool to map game controller input to simulated key presses.
 - 🦀 **[pfxers](https://github.com/s-ted/pfxers)**: Cross-platformTUI allowing to easily extract and convert information from PFX and PEM certificates and keys.
 - 🦀 **[cargo-oci](https://github.com/clowdhaus/cargo-oci)**: Simple, fast container image builder for Rust applications.
@@ -4974,6 +4981,7 @@
 - 🦀 **[wretch](https://github.com/thesillyboi/wretch)**: A fetch-type CLI program that tells you info about your system.
 - 🦀 **[cleaker](https://github.com/neurons-me/cleaker)**: Cleaker identity and signature daemon written in Rust.
 - 🦀 **[rzmq_cli](https://github.com/excsn/rzmq)**: Command Line Utility for RZMQ, an asynchronous, pure-Rust implementation of ZeroMQ (ØMQ) messaging patterns, with optional io_uring acceleration on Linux.
+- 🦀 **[lumina-bin](https://github.com/nik-rev/lumina)**: A program to read and control device brightness.
 - 🦀 **[siff](https://github.com/arvinmi/siff)**: File browser with repomix and yek as supported parsing backends.
 - 🦀 **[termcinema-cli](https://github.com/pokeyaro/termcinema)**: 🎬 Animated terminal-to-SVG renderer CLI for the termcinema project.
 - 🦀 **[starknet-contract-verifier](https://github.com/NethermindEth/starknet-contract-verifier)**: Contract class verification tool that allows you to verify your starknet classes on a block explorer.
