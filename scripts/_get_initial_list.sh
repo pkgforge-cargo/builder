@@ -8,6 +8,7 @@
 pushd "$(mktemp -d)" &>/dev/null
 export TEMP_DIR="$(realpath .)"
 export OUT_DIR="/tmp/crates"
+export RV_API="https://api.rv.pkgforge.dev"
 rm -rf "${OUT_DIR}" 2>/dev/null ; mkdir -p "${OUT_DIR}/TEMP"
 echo -e "\n[+] Using TEMP dir: ${TEMP_DIR}"
 echo -e "[+] Using OUT dir: ${OUT_DIR}\n"
@@ -18,7 +19,7 @@ echo -e "[+] Using OUT dir: ${OUT_DIR}\n"
    T_FILE="${TEMP_DIR}/${i}-$(date --utc "+%y%m%dT%H%M%S$(date +%3N)").json"
    (
      for retry in {1..3}; do
-       if response=$(curl --retry 2 -qfsSL "https://crates.io/api/v1/crates?sort=downloads&per_page=100&page=${i}") &&
+       if response=$(curl --retry 2 -qfsSL "${RV_API}/https://crates.io/api/v1/crates?sort=downloads&per_page=100&page=${i}") &&
         [[ -n "$response" ]] && 
         echo "$response" | jq -e '.crates[]' &>/dev/null; then
          echo "$response" | jq '
@@ -50,7 +51,7 @@ echo -e "[+] Using OUT dir: ${OUT_DIR}\n"
    T_FILE="${TEMP_DIR}/${i}-$(date --utc "+%y%m%dT%H%M%S$(date +%3N)").json"
    (
      for retry in {1..3}; do
-       if response=$(curl --retry 2 -qfsSL "https://crates.io/api/v1/crates?sort=recent-downloads&per_page=100&page=${i}") &&
+       if response=$(curl --retry 2 -qfsSL "${RV_API}/https://crates.io/api/v1/crates?sort=recent-downloads&per_page=100&page=${i}") &&
         [[ -n "$response" ]] && 
         echo "$response" | jq -e '.crates[]' &>/dev/null; then
          echo "$response" | jq '
@@ -82,7 +83,7 @@ echo -e "[+] Using OUT dir: ${OUT_DIR}\n"
    T_FILE="${TEMP_DIR}/${i}-$(date --utc "+%y%m%dT%H%M%S$(date +%3N)").json"
    (
      for retry in {1..3}; do
-       if response=$(curl --retry 2 -qfsSL "https://crates.io/api/v1/crates?sort=new&per_page=100&page=${i}") &&
+       if response=$(curl --retry 2 -qfsSL "${RV_API}/https://crates.io/api/v1/crates?sort=new&per_page=100&page=${i}") &&
         [[ -n "$response" ]] && 
         echo "$response" | jq -e '.crates[]' &>/dev/null; then
          echo "$response" | jq '
@@ -126,7 +127,7 @@ echo -e "[+] Using OUT dir: ${OUT_DIR}\n"
      local version=""
      
      while [ $retries -le $max_retries ]; do
-         if api_response=$(curl -qfsSL "https://crates.io/api/v1/crates/${pkg}" 2>/dev/null); then
+         if api_response=$(curl -qfsSL "${RV_API}/https://crates.io/api/v1/crates/${pkg}" 2>/dev/null); then
              has_bins="$(echo "$api_response" | jq -r 'any(.. | objects | select(has("bin_names")) | .bin_names | select(. != null and . != [] and . != "" and . != "null") | map(select(. != null and . != "" and . != "null")) | length > 0)')"
              bin_names="$(echo "$api_response" | jq -r \
               '

@@ -10,6 +10,7 @@ pushd "$(mktemp -d)" &>/dev/null
  TEMP_DIR="${OUT_DIR}/TEMP_BINS"
  WORK_DIR="${OUT_DIR}/WORK"
  PROGRESS_DIR="${OUT_DIR}/PROGRESS"
+ export RV_API="https://api.rv.pkgforge.dev"
  mkdir -p "${OUT_DIR}" "${TEMP_DIR}" "${WORK_DIR}" "${PROGRESS_DIR}"
  echo -e "\n[+] Using TEMP dir: ${TEMP_DIR}"
  echo -e "[+] Using OUT dir: ${OUT_DIR}\n"
@@ -58,7 +59,7 @@ pushd "$(mktemp -d)" &>/dev/null
       local work_dir="$(mktemp -d)"
       pushd "$work_dir" &>/dev/null || continue
      #Fetch 
-      if curl -qfsSL "https://crates.io/api/v1/crates/${crate_name}/${crate_version}/download" -o "./crate" 2>/dev/null; then
+      if curl -qfsSL "${RV_API}/https://crates.io/api/v1/crates/${crate_name}/${crate_version}/download" -o "./crate" 2>/dev/null; then
        #Extract
          if tar -xzf "./crate" --strip-components=1 2>/dev/null; then
              #Check
