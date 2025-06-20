@@ -241,7 +241,8 @@ jobs:
              elif [[ "${BUILD_LIST_TMP}" -lt 10 ]]; then
                sed -e '/^[[:space:]]*$/d;10q' "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST.txt"
                if [[ "$(wc -l < "./BUILD_LIST.txt" | tr -cd '[:digit:]')" -lt 10 ]]; then
-                  echo -e "\n[+] Generating Build List (Diff from Prebuilts + PKG_LIST + Old Prebuilts)\n"
+                 echo -e "\n[+] Generating Build List (Diff from Prebuilts + PKG_LIST + Old Prebuilts)\n"
+                 #Filter by version (mismatch)
                   jq -r --slurpfile built "${O_D}/CRATES_BUILT.json" \
                   '
                    INDEX($built[0][]; .name) as $built_index |
@@ -250,45 +251,72 @@ jobs:
                    .name
                   ' "${O_D}/CRATES_BIN_ONLY.json" | grep -Eiv '^null$' | sed -e '/^[[:space:]]*$/d;240q' |\
                   sort -u >> "./BUILD_LIST.txt"
+                 #Filter by version (match/greater)
+                  readarray -t "FILTER_LIST" < <(jq -r --slurpfile built "${O_D}/CRATES_BUILT.json" \
+                   '
+                    def normalize_version(v):
+                      v | gsub("[^0-9.].*$"; "") | # Remove pre-release and build metadata
+                      split(".") | 
+                      map(tonumber? // 0) |
+                      . + [0,0,0] | .[0:3]; # Ensure at least 3 components
+                    def version_gte(v1; v2):
+                      (v1[0] > v2[0]) or
+                      (v1[0] == v2[0] and v1[1] > v2[1]) or
+                      (v1[0] == v2[0] and v1[1] == v2[1] and v1[2] >= v2[2]);
+                    INDEX($built[0][]; .name) as $built_index |
+                    .[] |
+                    select(
+                      $built_index[.name] and 
+                      version_gte(
+                        normalize_version($built_index[.name].version);
+                        normalize_version(.version)
+                      )
+                    ) |
+                    .name
+                   ' "${O_D}/CRATES_BIN_ONLY.json" | grep -Eiv '^null$' | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
+                   grep -vxFf <(printf "%s\n" "${FILTER_LIST[@]}") "./BUILD_LIST.txt" > "./BUILD_LIST_filtered.txt"
+                   mv -fv "./BUILD_LIST_filtered.txt" "./BUILD_LIST.txt"
                fi
              else
                echo -e "\n[+] Generating Build List (Diff from BUILD_LIST [${BUILD_LIST_TMP}])\n"
                sed -e '/^[[:space:]]*$/d;256q' "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST.txt"
              fi
-               grep -xFf <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${O_D}/CRATES_LIST.txt") <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "./BUILD_LIST.txt") > "./BUILD_LIST.txt.tmp"
-               BUILD_LIST_TMP_C="$(wc -l < "./BUILD_LIST.txt.tmp" | tr -cd '[:digit:]' | tr -d '[:space:]')"
-               if [[ "${BUILD_LIST_TMP_C}" -gt 10 ]]; then
-                  mv -fv "./BUILD_LIST.txt.tmp" "./BUILD_LIST.txt"
-               else
-                  rm -rfv "./BUILD_LIST.txt.tmp"
-               fi
-               cat "./BUILD_LIST.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;256q' > "./file1.tmp"
-               cat "${O_D}/BUILD_LIST.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' > "./file2.tmp"
-               comm -23 "./file1.tmp" "./file2.tmp" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d' | head -n $((255 - $(wc -l < "./file2.tmp"))) > "./diff.tmp"
-               cat "./file1.tmp" "./diff.tmp" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;255q' > "${O_D}/BUILD_LIST.txt"
-           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${O_D}/CACHE_LIST.txt"
-           sed '/^[[:space:]]*$/d' -i "${O_D}/CACHE_LIST.txt"
-           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${O_D}/CRATES_LIST.txt"
-           sed '/^[[:space:]]*$/d' -i "${O_D}/CRATES_LIST.txt"
-           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${O_D}/BUILD_LIST.txt"
-           sed '/^[[:space:]]*$/d' -i "${O_D}/BUILD_LIST.txt"
-           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${O_D}/QUEUE_LIST.txt"
-           sed '/^[[:space:]]*$/d' -i "${O_D}/QUEUE_LIST.txt"
-           grep -xFf <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${O_D}/CRATES_LIST.txt") <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${O_D}/BUILD_LIST.txt") > "./BUILD_LIST.txt.temp"
-           BUILD_LIST_TMP_F="$(wc -l < "./BUILD_LIST.txt.temp" | tr -cd '[:digit:]' | tr -d '[:space:]')"
-           if [[ "${BUILD_LIST_TMP_F}" -gt 5 ]]; then
-              mv -fv "./BUILD_LIST.txt.temp" "${O_D}/BUILD_LIST.txt"
-           else
-              rm -rfv "./BUILD_LIST.txt.temp"
-           fi
-           sed '/^[[:space:]]*$/d' -i "${O_D}/BUILD_LIST.txt"
-           sed '/^[[:space:]]*$/d' -i "${O_D}/CACHE_LIST.txt"
-           sed '/^[[:space:]]*$/d' -i "${O_D}/CRATES_LIST.txt"
-           sed '/^[[:space:]]*$/d' -i "${O_D}/QUEUE_LIST.txt"
-           echo -e "\n[+] Total Packages: $(wc -l < ${O_D}/CRATES_LIST.txt)"
-           echo -e "[+] Total Prebuilts: $(wc -l < ${O_D}/CACHE_LIST.txt)"
-           echo -e "[+] Total Build Queue: $(wc -l < ${O_D}/BUILD_LIST.txt)"
-           echo -e "[+] Total Exclusions: $(wc -l < ${O_D}/QUEUE_LIST.txt)\n"
+           ##Cleanup Build List
+             grep -xFf <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${O_D}/CRATES_LIST.txt") <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "./BUILD_LIST.txt") > "./BUILD_LIST.txt.tmp"
+             BUILD_LIST_TMP_C="$(wc -l < "./BUILD_LIST.txt.tmp" | tr -cd '[:digit:]' | tr -d '[:space:]')"
+             if [[ "${BUILD_LIST_TMP_C}" -gt 10 ]]; then
+                mv -fv "./BUILD_LIST.txt.tmp" "./BUILD_LIST.txt"
+             else
+                rm -rfv "./BUILD_LIST.txt.tmp"
+             fi
+             cat "./BUILD_LIST.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;256q' > "./file1.tmp"
+             cat "${O_D}/BUILD_LIST.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' > "./file2.tmp"
+             comm -23 "./file1.tmp" "./file2.tmp" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d' | head -n $((255 - $(wc -l < "./file2.tmp"))) > "./diff.tmp"
+             cat "./file1.tmp" "./diff.tmp" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;255q' > "${O_D}/BUILD_LIST.txt"
+           ##Merge & Sort
+            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${O_D}/CACHE_LIST.txt"
+            sed '/^[[:space:]]*$/d' -i "${O_D}/CACHE_LIST.txt"
+            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${O_D}/CRATES_LIST.txt"
+            sed '/^[[:space:]]*$/d' -i "${O_D}/CRATES_LIST.txt"
+            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${O_D}/BUILD_LIST.txt"
+            sed '/^[[:space:]]*$/d' -i "${O_D}/BUILD_LIST.txt"
+            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${O_D}/QUEUE_LIST.txt"
+            sed '/^[[:space:]]*$/d' -i "${O_D}/QUEUE_LIST.txt"
+            grep -xFf <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${O_D}/CRATES_LIST.txt") <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${O_D}/BUILD_LIST.txt") > "./BUILD_LIST.txt.temp"
+            BUILD_LIST_TMP_F="$(wc -l < "./BUILD_LIST.txt.temp" | tr -cd '[:digit:]' | tr -d '[:space:]')"
+            if [[ "${BUILD_LIST_TMP_F}" -gt 5 ]]; then
+               mv -fv "./BUILD_LIST.txt.temp" "${O_D}/BUILD_LIST.txt"
+            else
+               rm -rfv "./BUILD_LIST.txt.temp"
+            fi
+            sed '/^[[:space:]]*$/d' -i "${O_D}/BUILD_LIST.txt"
+            sed '/^[[:space:]]*$/d' -i "${O_D}/CACHE_LIST.txt"
+            sed '/^[[:space:]]*$/d' -i "${O_D}/CRATES_LIST.txt"
+            sed '/^[[:space:]]*$/d' -i "${O_D}/QUEUE_LIST.txt"
+            echo -e "\n[+] Total Packages: $(wc -l < ${O_D}/CRATES_LIST.txt)"
+            echo -e "[+] Total Prebuilts: $(wc -l < ${O_D}/CACHE_LIST.txt)"
+            echo -e "[+] Total Build Queue: $(wc -l < ${O_D}/BUILD_LIST.txt)"
+            echo -e "[+] Total Exclusions: $(wc -l < ${O_D}/QUEUE_LIST.txt)\n"
           popd &>/dev/null
         continue-on-error: true
 
