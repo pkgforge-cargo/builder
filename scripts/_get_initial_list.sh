@@ -3,6 +3,12 @@
 #Barebones, will not be improved, meant for one time usage
 #slow on purpose to avoid rate limits, 100,000 packages take ~ 5 hrs to process.
 
+
+#A future rewrite in a programming language would use data from:
+# https://github.com/rust-lang/crates.io-index
+# https://static.crates.io/db-dump.tar.gz
+# See Also: https://rust-lang.github.io/rfcs/3463-crates-io-policy-update.html#data-access
+
 #-------------------------------------------------------#
 #Get inside a TEMP Dir
 pushd "$(mktemp -d)" &>/dev/null
