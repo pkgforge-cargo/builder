@@ -99,7 +99,6 @@
 - 🦀 **[procs](https://github.com/dalance/procs)**: A modern replacement for ps.
 - 🦀 **[cargo-run-bin](https://github.com/dustinblackman/cargo-run-bin)**: Build, cache, and run binaries scoped in Cargo.
 - 🦀 **[jql](https://github.com/yamafaktory/jql)**: jql - JSON Query Language - is a fast and simple command-line tool to manipulate JSON data.
-- 🦀 **[rumdl](https://github.com/rvben/rumdl)**: A fast Markdown linter written in Rust (Ru(st) MarkDown Linter).
 - 🦀 **[dependency_runner](https://github.com/marcoesposito1988/dependency_runner/)**: ldd for Windows - and more!.
 - 🦀 **[duckscript_cli](https://github.com/sagiegurari/duckscript.git)**: The duckscript command line executable.
 - 🦀 **[git-cliff](https://github.com/orhun/git-cliff)**: A highly customizable changelog generator ⛰️.
@@ -835,7 +834,6 @@
 - 🦀 **[bodhi-cli](https://github.com/ironthree/bodhi-cli)**: bodhi CLI client based on bodhi-rs.
 - 🦀 **[metapac](https://github.com/ripytide/metapac)**: multi-backend declarative package manager.
 - 🦀 **[esthri-cli](https://github.com/swift-nav/esthri/)**: Extremely simple (memory stable) S3 client that supports get, put, head, list, and sync.
-- 🦀 **[bilal](https://github.com/azzamsa/bilal)**: a CLI salah time.
 - 🦀 **[jja](https://git.sr.ht/~alip/jja)**: swiss army knife for chess file formats.
 - 🦀 **[calc_rational](https://git.philomathiclife.com/repos/calc_rational/)**: CLI calculator for rational numbers.
 - 🦀 **[gesha](https://github.com/x7c1/gesha)**: Generates code based on OpenAPI specs.
@@ -1034,7 +1032,6 @@
 - 🦀 **[tw2s](https://github.com/magiclen/tw2s)**: A simple tool for converting Traditional Chinese(TW) to Simple Chinese.
 - 🦀 **[kingler](null)**: Print pokemon sprites in your terminal.
 - 🦀 **[gcomm](https://github.com/brysontang/gcomm)**: Generate AI-powered Git commit messages from staged changes using a local Ollama model.
-- 🦀 **[c2rust](https://github.com/immunant/c2rust/)**: C to Rust translation, refactoring, and cross-checking.
 - 🦀 **[ssec-cli](https://github.com/james-conn/ssec-cli)**: command-line interface for reading and writing the SSEC file format.
 - 🦀 **[ffery](https://github.com/jammymalina/ffery)**: A file manipulation cli.
 - 🦀 **[so](https://github.com/samtay/so)**: A terminal interface for StackOverflow.
@@ -1332,7 +1329,6 @@
 - 🦀 **[psource](https://github.com/frederikstroem/psource)**: CLI tool to pretty print source code to stdout or directly to the clipboard.
 - 🦀 **[check-tls-suites](https://github.com/anthonyjmartinez/check-tls-suites.git)**: Displays TLS cipher suite names and recommendation status from IANA for a set of given ciphers.
 - 🦀 **[openbook](https://github.com/gigadao/openbook)**: 📖1️⃣2️⃣ A CLI, TUI and SDK to interact with OpenBook V1 and V2 markets on the Solana blockchain.
-- 🦀 **[zman](https://github.com/azzamsa/zman)**: a CLI year progress.
 - 🦀 **[stor-age](https://github.com/idiv-biodiversity/stor-age)**: show aging of directories.
 - 🦀 **[ask-cli](https://github.com/SUPERCILEX/ask-cli)**: Ask CLI offers a simple way to ask a yes or no question.
 - 🦀 **[ensync](https://github.com/altsysrq/ensync)**: A flexible ENcrypted file SYNChroniser suitable for uses where the central location is not fully trusted.
@@ -2147,6 +2143,7 @@
 - 🦀 **[ctgen](https://github.com/cytecbg/ctgen)**: Code Generator based on Handlebars Templates and Database Reflection.
 - 🦀 **[filepack](https://github.com/casey/filepack)**: file verification utility.
 - 🦀 **[rttmon](https://github.com/matteocarnelos/rttmon)**: A simple RTT monitor for OpenOCD.
+- 🦀 **[archiver](https://github.com/lukemilby/archiver)**: RAG implementation with langchain-rust.
 - 🦀 **[git-grab](https://github.com/wezm/git-grab.git)**: A tool to clone git repositories to a standard location, organised by domain name and path.
 - 🦀 **[phylotree](https://github.com/lucblassel/phylotree-rs)**: A crate to deal with phylogenetic trees and distance matrices.
 - 🦀 **[subx-cli](https://github.com/jim60105/subx-cli)**: AI subtitle processing CLI tool, which automatically matches, renames, and converts subtitle files.
@@ -2165,7 +2162,6 @@
 - 🦀 **[kestrel-cli](https://github.com/finfet/kestrel)**: Kestrel file encryption program.
 - 🦀 **[libslirp](https://gitlab.freedesktop.org/slirp/libslirp-rs.git)**: High-level bindings & helper process for libslirp.
 - 🦀 **[scalesocket](https://github.com/scalesocket/scalesocket/)**: A collaborative websocket server and autoscaler.
-- 🦀 **[gwv](https://github.com/dotanuki-labs/gradle-wrapper-validator)**: A validator for gradle/wrapper jar binaries, intended to be used in CI pipelines.
 - 🦀 **[nh-xml-from](https://github.com/lucidashygirl/nh-xml-from)**: A tool that lets you convert various formats to XML for New Horizons.
 - 🦀 **[vapore](https://github.com/Roco-scientist/VAnguard-POrtfolio-REbalance)**: Vangaurd portfolio rebalancing algorithm.
 - 🦀 **[depfirstsearch](https://github.com/mwcz/depfirstsearch/tree/main)**: Keep your dependency tree small by searching for crates you may already have.
@@ -2512,7 +2508,6 @@
 - 🦀 **[get-hash](https://github.com/vybgss/get-hash)**: Get hash of a string.
 - 🦀 **[moccasin](https://github.com/rektdeckard/moccasin)**: A TUI feed reader for RSS, Atom, and (aspirationally) Podcasts.
 - 🦀 **[rusty-formatter](https://github.com/S42yt/rusty-cargo.git)**: This is the offical Rusty: Rust Formatter, Cargo Package.
-- 🦀 **[todotui](https://github.com/newfla/todotui)**: A simple todo terminal app.
 - 🦀 **[format-bom](https://github.com/DosangGu/format-bom)**: A tool for handling BOM mark from UTF-8 files.
 - 🦀 **[spytrap-adb](https://github.com/spytrap-org/spytrap-adb)**: Test a phone for stalkerware using adb and usb debugging to scan for suspicious apps and configuration.
 - 🦀 **[turdle](https://github.com/weiteck/turdle)**: A Wordle clone for the terminal.
