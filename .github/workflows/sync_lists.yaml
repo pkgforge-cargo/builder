@@ -116,7 +116,7 @@ jobs:
                else
                  export I_F="${SYSTMP}/CRATES_BUILT.json"
                fi
-               PKG_COUNT="$(jq -r '.[] | .name' "${I_F}" | grep -iv 'null' | sort -u | wc -l | tr -d '[:space:]')"
+               PKG_COUNT="$(jq -r '.[] | .name' "${I_F}" | grep -Eiv '^null$' | sort -u | wc -l | tr -d '[:space:]')"
                if [[ "${PKG_COUNT}" -le 5 ]]; then
                   echo -e "\n[-] FATAL: Failed to Generate Crate Build List\n"
                   echo "[-] Count: ${PKG_COUNT}"
@@ -242,7 +242,14 @@ jobs:
                sed -e '/^[[:space:]]*$/d;10q' "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST.txt"
                if [[ "$(wc -l < "./BUILD_LIST.txt" | tr -cd '[:digit:]')" -lt 10 ]]; then
                   echo -e "\n[+] Generating Build List (Diff from Prebuilts + PKG_LIST + Old Prebuilts)\n"
-                  #curl -qfsSL "https://meta.pkgforge.dev/external/pkgforge-cargo/x86_64-Linux.json" | jq -r --arg CUT_OFF "$(date -u -d '5 days ago' +%Y-%m-%dT%H:%M:%SZ)" '[.[] | select(.build_date < $CUT_OFF) | .pkg][0:240] | .[]' | sort -u >> "./BUILD_LIST.txt"
+                  jq -r --slurpfile built "${O_D}/CRATES_BUILT.json" \
+                  '
+                   INDEX($built[0][]; .name) as $built_index |
+                   .[] |
+                   select($built_index[.name] and $built_index[.name].version != .version) |
+                   .name
+                  ' "${O_D}/CRATES_BIN_ONLY.json" | grep -Eiv '^null$' | sed -e '/^[[:space:]]*$/d;240q' |\
+                  sort -u >> "./BUILD_LIST.txt"
                fi
              else
                echo -e "\n[+] Generating Build List (Diff from BUILD_LIST [${BUILD_LIST_TMP}])\n"
