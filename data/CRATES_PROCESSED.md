@@ -1032,6 +1032,7 @@
 - 🦀 **[tw2s](https://github.com/magiclen/tw2s)**: A simple tool for converting Traditional Chinese(TW) to Simple Chinese.
 - 🦀 **[kingler](null)**: Print pokemon sprites in your terminal.
 - 🦀 **[gcomm](https://github.com/brysontang/gcomm)**: Generate AI-powered Git commit messages from staged changes using a local Ollama model.
+- 🦀 **[c2rust](https://github.com/immunant/c2rust/)**: C to Rust translation, refactoring, and cross-checking.
 - 🦀 **[ssec-cli](https://github.com/james-conn/ssec-cli)**: command-line interface for reading and writing the SSEC file format.
 - 🦀 **[ffery](https://github.com/jammymalina/ffery)**: A file manipulation cli.
 - 🦀 **[so](https://github.com/samtay/so)**: A terminal interface for StackOverflow.
@@ -4976,7 +4977,6 @@
 - 🦀 **[wretch](https://github.com/thesillyboi/wretch)**: A fetch-type CLI program that tells you info about your system.
 - 🦀 **[cleaker](https://github.com/neurons-me/cleaker)**: Cleaker identity and signature daemon written in Rust.
 - 🦀 **[rzmq_cli](https://github.com/excsn/rzmq)**: Command Line Utility for RZMQ, an asynchronous, pure-Rust implementation of ZeroMQ (ØMQ) messaging patterns, with optional io_uring acceleration on Linux.
-- 🦀 **[lumina-bin](https://github.com/nik-rev/lumina)**: A program to read and control device brightness.
 - 🦀 **[siff](https://github.com/arvinmi/siff)**: File browser with repomix and yek as supported parsing backends.
 - 🦀 **[termcinema-cli](https://github.com/pokeyaro/termcinema)**: 🎬 Animated terminal-to-SVG renderer CLI for the termcinema project.
 - 🦀 **[starknet-contract-verifier](https://github.com/NethermindEth/starknet-contract-verifier)**: Contract class verification tool that allows you to verify your starknet classes on a block explorer.
