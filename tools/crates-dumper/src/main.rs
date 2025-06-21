@@ -84,6 +84,12 @@ pub struct Crate {
     pub num_versions: u32,
     pub dependency_count: u32,
     pub total_downloads: u64,
+    pub bin_names: Vec<String>,
+    pub checksum: Option<String>,
+    pub created_at: String,
+    pub has_bin: bool,
+    pub updated_at: String,
+    pub yanked: bool,
 }
 
 #[derive(Debug, Serialize, Deserialize)]
@@ -252,6 +258,30 @@ fn clean_optional_string(s: &Option<String>) -> Option<String> {
     s.as_ref()
         .map(|s| clean_string(s))
         .filter(|s| !s.is_empty())
+}
+
+fn clean_version_string(version: &str) -> String {
+    // Keep only alphanumeric characters, dots, and hyphens (common in semantic versioning)
+    version
+        .chars()
+        .filter(|c| c.is_alphanumeric() || *c == '.' || *c == '-')
+        .collect::<String>()
+        .trim()
+        .to_string()
+}
+
+fn hex_encode_checksum(checksum: &Option<[u8; 32]>) -> Option<String> {
+    checksum.as_ref().map(|bytes| {
+        bytes.iter()
+            .map(|b| format!("{:02x}", b))
+            .collect::<String>()
+    })
+}
+
+fn validate_json(json_str: &str) -> Result<()> {
+    serde_json::from_str::<serde_json::Value>(json_str)
+        .context("Generated JSON is invalid")?;
+    Ok(())
 }
 
 fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<()> {
@@ -459,6 +489,9 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
 
     let build_start = std::time::Instant::now();
 
+    // Track category statistics
+    let category_stats = Mutex::new(Map::<String, u32>::new());
+
     // Process crates in parallel
     let results: Vec<Option<Crate>> = all_crates
         .par_iter()
@@ -471,8 +504,8 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
             let clean_description = clean_string(&crat.description);
 
             // Check if we have at least one version (stable or alpha)
-            let stable_version = stable_versions.get(&crat.id).map(|v| v.to_string());
-            let alpha_version = versions.get(&crat.id).map(|v| v.to_string());
+            let stable_version = stable_versions.get(&crat.id).map(|v| clean_version_string(&v.to_string()));
+            let alpha_version = versions.get(&crat.id).map(|v| clean_version_string(&v.to_string()));
             let has_version = stable_version.is_some() || alpha_version.is_some();
 
             // Check all mandatory fields
@@ -504,6 +537,26 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
                 return None;
             }
 
+            let categories: Vec<String> = crate_categories
+                .get(&crat.id)
+                .map(|category_ids| {
+                    category_ids
+                        .iter()
+                        .filter_map(|id| all_categories.get(id))
+                        .map(|cat| normalize_string(cat))
+                        .filter(|cat| !cat.is_empty())
+                        .collect()
+                })
+                .unwrap_or_default();
+
+            // Update category statistics
+            {
+                let mut stats = category_stats.lock().unwrap();
+                for category in &categories {
+                    *stats.entry(category.clone()).or_insert(0) += 1;
+                }
+            }
+
             Some(Crate {
                 dependency_count: dependency_count as u32,
                 name: clean_name,
@@ -513,17 +566,7 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
                 description: clean_description,
                 version: stable_version,
                 version_alpha: alpha_version,
-                categories: crate_categories
-                    .get(&crat.id)
-                    .map(|category_ids| {
-                        category_ids
-                            .iter()
-                            .filter_map(|id| all_categories.get(id))
-                            .map(|cat| normalize_string(cat))
-                            .filter(|cat| !cat.is_empty())
-                            .collect()
-                    })
-                    .unwrap_or_default(),
+                categories,
                 keywords: crate_keywords
                     .get(&crat.id)
                     .map(|keyword_ids| {
@@ -537,12 +580,31 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
                     .unwrap_or_default(),
                 num_versions: version_count.get(&crat.id).copied().unwrap_or_default(),
                 total_downloads: total_downloads.get(&crat.id).copied().unwrap_or(0),
+                // Get additional fields from the most recent version
+                bin_names: most_recent.get(&crat.id)
+                    .map(|version| version.bin_names.clone())
+                    .unwrap_or_default(),
+                checksum: most_recent.get(&crat.id)
+                    .and_then(|version| hex_encode_checksum(&version.checksum)),
+                created_at: most_recent.get(&crat.id)
+                    .map(|version| version.created_at.to_rfc3339())
+                    .unwrap_or_default(),
+                has_bin: most_recent.get(&crat.id)
+                    .map(|version| !version.bin_names.is_empty())
+                    .unwrap_or(false),
+                updated_at: most_recent.get(&crat.id)
+                    .map(|version| version.updated_at.to_rfc3339())
+                    .unwrap_or_default(),
+                yanked: most_recent.get(&crat.id)
+                    .map(|version| version.yanked)
+                    .unwrap_or(false),
             })
         })
         .collect();
 
     let processed_crates: Vec<Crate> = results.into_iter().flatten().collect();
     let skipped_count = all_crates.len() - processed_crates.len();
+    let category_stats = category_stats.into_inner().unwrap();
 
     config.log_verbose(&format!(
         "Output building took {:.2}s",
@@ -561,6 +623,9 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
     let json =
         serde_json::to_string_pretty(&dump_data).context("Failed to serialize data to JSON")?;
 
+    // Validate JSON before writing
+    validate_json(&json).context("JSON validation failed")?;
+
     fs::write(output_path, json).context("Failed to write output file")?;
 
     config.log_verbose(&format!(
@@ -571,22 +636,43 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
     pb.finish_with_message("✅ Processing complete!");
 
     let total_time = start_time.elapsed();
-    config.log(&format!("📊 Processed {} crates", dump_data.crates.len()));
-    if skipped_count > 0 {
-        config.log(&format!(
-            "⚠️  Skipped {} crates with missing mandatory fields",
-            skipped_count
-        ));
-    }
-    config.log(&format!("💾 Output saved to {}", output_path));
-    config.log(&format!(
-        "⏱️  Total processing time: {:.2}s",
-        total_time.as_secs_f64()
-    ));
 
-    if config.verbose {
-        config.log(&format!("🧵 Used {} threads", config.threads));
+    // Print final statistics table
+    println!("\n🎉 Processing Complete!");
+    println!("┌────────────────────────────────────────────────────────────┐");
+    println!("│ Final Statistics                                           │");
+    println!("├────────────────────────────────────────────────────────────┤");
+    println!("│ {:<28} : {:>27} │", "Duration", format!("{:.2}s", total_time.as_secs_f64()));
+    println!("│ {:<28} : {:>27} │", "Threads used", config.threads);
+    println!("│ {:<28} : {:>27} │", "Total crates processed", dump_data.crates.len());
+    println!("│ {:<28} : {:>27} │", "Crates skipped", skipped_count);
+    println!("│ {:<28} : {:>27} │", "Processing rate", format!("{:.0} crates/sec", dump_data.crates.len() as f64 / total_time.as_secs_f64()));
+    println!("│ {:<28} : {:>27} │", "Output file", output_path);
+    
+    // Show top categories
+    if !category_stats.is_empty() {
+        println!("├────────────────────────────────────────────────────────────┤");
+        println!("│ Top Categories                                             │");
+        println!("├────────────────────────────────────────────────────────────┤");
+        
+        let mut sorted_categories: Vec<_> = category_stats.iter().collect();
+        sorted_categories.sort_by(|a, b| b.1.cmp(a.1));
+        
+        for (category, count) in sorted_categories.iter().take(10) {
+            let display_category = if category.len() > 20 {
+                format!("{}...", &category[..17])
+            } else {
+                category.to_string()
+            };
+            println!("│ {:<28} : {:>27} │", display_category, count);
+        }
+        
+        if sorted_categories.len() > 10 {
+            println!("│ {:<28} : {:>27} │", "... and more", format!("{} others", sorted_categories.len() - 10));
+        }
     }
+    
+    println!("└────────────────────────────────────────────────────────────┘");
 
     Ok(())
 }
