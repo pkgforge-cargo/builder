@@ -79,9 +79,9 @@ jobs:
           set +x ; set +e
           #--------------#
           ##Main
-          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/_get_initial_list_cmdline.sh"
-          chmod +x "${GITHUB_WORKSPACE}/main/scripts/_get_initial_list_cmdline.sh"
-          bash "${GITHUB_WORKSPACE}/main/scripts/_get_initial_list_cmdline.sh"
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/_get_process_cmdline_dump.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/_get_process_cmdline_dump.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/_get_process_cmdline_dump.sh"
           ##Copy
           if [[ -s "${SYSTMP}/CRATES_CMDLINE_ONLY.json" && $(stat -c%s "${SYSTMP}/CRATES_CMDLINE_ONLY.json") -gt 1024 ]]; then
             PKG_COUNT="$(jq -r '.[] | .name' "${SYSTMP}/CRATES_CMDLINE_ONLY.json" | grep -iv 'null' | sort -u | wc -l | tr -d '[:space:]')"
@@ -97,10 +97,10 @@ jobs:
           set +x ; set +e
           #--------------#
           ##Main
-          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/_process_final_cmdline.sh"
-          chmod +x "${GITHUB_WORKSPACE}/main/scripts/_process_final_cmdline.sh"
-          export USE_GH_LOCAL="YES"
-          bash "${GITHUB_WORKSPACE}/main/scripts/_process_final_cmdline.sh"
+          #dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/_process_final_cmdline.sh"
+          #chmod +x "${GITHUB_WORKSPACE}/main/scripts/_process_final_cmdline.sh"
+          #export USE_GH_LOCAL="YES"
+          #bash "${GITHUB_WORKSPACE}/main/scripts/_process_final_cmdline.sh"
           ##Copy
           if [[ -s "${SYSTMP}/CRATES_PROCESSED.json" && $(stat -c%s "${SYSTMP}/CRATES_PROCESSED.json") -gt 1024 ]]; then
             PKG_COUNT="$(jq -r '.[] | .name' "${SYSTMP}/CRATES_PROCESSED.json" | grep -iv 'null' | sort -u | wc -l | tr -d '[:space:]')"
