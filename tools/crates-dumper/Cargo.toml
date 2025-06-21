@@ -1,0 +1,32 @@
+[package]
+name = "crates-dumper"
+version = "0.0.1"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+authors = ["Azathothas@pkgforge.dev", "QaidVoid@pkgforge.dev"]
+description = "Process crates.io database dumps into JSON"
+
+[dependencies]
+anyhow = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "4.0", features = ["derive"] }
+db-dump = "0.7.12"
+futures-util = "0.3"
+indicatif = "0.17"
+num_cpus = "1.17.0"
+openssl = { version = "0.10", features = ["vendored"] }
+rayon = "1.10.0"
+reqwest = { version = "0.12.15", features = ["json", "stream"] }
+semver = { version = "1.0", features = ["serde"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+
+[profile.release]
+codegen-units = 1
+debug = false
+lto = true
+opt-level = 3
+panic = "abort"
+strip = true

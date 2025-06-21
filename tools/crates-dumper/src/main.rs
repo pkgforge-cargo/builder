@@ -18,21 +18,21 @@ use std::path::Path;
 use std::sync::Mutex;
 
 #[derive(Parser)]
-#[command(name = "rust-dump")]
-#[command(about = "A tool to process Rust crates.io database dumps")]
-#[command(version = "1.0.0")]
+#[command(name = "crates-dumper")]
+#[command(about = "Process crates.io database dumps into JSON")]
+#[command(version = "0.0.1")]
 struct Cli {
     #[command(subcommand)]
     command: Commands,
-    
+
     /// Number of threads to use for parallel processing
     #[arg(short = 'j', long, default_value_t = std::thread::available_parallelism().map(|n| n.get()).unwrap_or(4))]
     threads: usize,
-    
+
     /// Verbose output
     #[arg(short, long)]
     verbose: bool,
-    
+
     /// Quiet output (suppress progress bars and info messages)
     #[arg(short, long)]
     quiet: bool,
@@ -45,15 +45,15 @@ enum Commands {
         /// Output file for JSON data
         #[arg(short, long, default_value = "crates.json")]
         output: String,
-        
+
         /// Path to save the downloaded dump file
         #[arg(short, long, default_value = "db-dump.tar.gz")]
         dump_file: String,
-        
+
         /// Force download even if file exists
         #[arg(short, long)]
         force: bool,
-        
+
         /// Only download, don't process
         #[arg(long)]
         download_only: bool,
@@ -63,7 +63,7 @@ enum Commands {
         /// Path to the local db-dump.tar.gz file
         #[arg(short, long, default_value = "db-dump.tar.gz")]
         input: String,
-        
+
         /// Output file for JSON data
         #[arg(short, long, default_value = "crates.json")]
         output: String,
@@ -104,7 +104,7 @@ impl Config {
             println!("{}", message);
         }
     }
-    
+
     fn log_verbose(&self, message: &str) {
         if self.verbose && !self.quiet {
             println!("🔍 {}", message);
@@ -115,27 +115,30 @@ impl Config {
 #[tokio::main]
 async fn main() -> Result<()> {
     let cli = Cli::parse();
-    
+
     // Set up thread pool
     rayon::ThreadPoolBuilder::new()
         .num_threads(cli.threads)
         .build_global()
         .context("Failed to initialize thread pool")?;
-    
+
     let config = Config {
         verbose: cli.verbose,
         quiet: cli.quiet,
         threads: cli.threads,
     };
-    
-    config.log_verbose(&format!("Using {} threads for parallel processing", cli.threads));
-    
+
+    config.log_verbose(&format!(
+        "Using {} threads for parallel processing",
+        cli.threads
+    ));
+
     match cli.command {
-        Commands::Download { 
-            output, 
-            dump_file, 
-            force, 
-            download_only 
+        Commands::Download {
+            output,
+            dump_file,
+            force,
+            download_only,
         } => {
             if !force && Path::new(&dump_file).exists() {
                 config.log(&format!("📁 Database dump already exists at {}", dump_file));
@@ -143,7 +146,7 @@ async fn main() -> Result<()> {
             } else {
                 download_dump(&dump_file, &config).await?;
             }
-            
+
             if !download_only {
                 process_dump(&dump_file, &output, &config)?;
             } else {
@@ -166,35 +169,38 @@ async fn download_dump(output_path: &str, config: &Config) -> Result<()> {
         .timeout(std::time::Duration::from_secs(300))
         .build()
         .context("Failed to create HTTP client")?;
-    
+
     config.log("🔍 Checking latest database dump...");
-    
+
     // Get file size for progress bar
     let head_resp = client
         .head(url)
         .send()
         .await
         .context("Failed to get file info")?;
-    
+
     let total_size = head_resp
         .headers()
         .get("content-length")
         .and_then(|h| h.to_str().ok())
         .and_then(|s| s.parse::<u64>().ok())
         .unwrap_or(0);
-    
-    config.log(&format!("📥 Downloading database dump ({:.2} MB)...", total_size as f64 / 1_000_000.0));
-    
+
+    config.log(&format!(
+        "📥 Downloading database dump ({:.2} MB)...",
+        total_size as f64 / 1_000_000.0
+    ));
+
     let response = client
         .get(url)
         .send()
         .await
         .context("Failed to start download")?;
-    
+
     if !response.status().is_success() {
         anyhow::bail!("Failed to download: HTTP {}", response.status());
     }
-    
+
     // Setup progress bar
     let pb = if config.quiet {
         ProgressBar::hidden()
@@ -208,13 +214,12 @@ async fn download_dump(output_path: &str, config: &Config) -> Result<()> {
         );
         pb
     };
-    
-    let mut file = File::create(output_path)
-        .context("Failed to create output file")?;
-    
+
+    let mut file = File::create(output_path).context("Failed to create output file")?;
+
     let mut downloaded = 0u64;
     let mut stream = response.bytes_stream();
-    
+
     use futures_util::StreamExt;
     while let Some(chunk) = stream.next().await {
         let chunk = chunk.context("Error while downloading")?;
@@ -223,10 +228,10 @@ async fn download_dump(output_path: &str, config: &Config) -> Result<()> {
         downloaded += chunk.len() as u64;
         pb.set_position(downloaded);
     }
-    
+
     pb.finish_with_message("✅ Download complete!");
     config.log(&format!("💾 Saved to {}", output_path));
-    
+
     Ok(())
 }
 
@@ -240,19 +245,19 @@ fn normalize_string(s: &str) -> String {
 }
 
 fn clean_string(s: &str) -> String {
-    s.replace(['\n', '\r'], " ")
-        .trim()
-        .to_string()
+    s.replace(['\n', '\r'], " ").trim().to_string()
 }
 
 fn clean_optional_string(s: &Option<String>) -> Option<String> {
-    s.as_ref().map(|s| clean_string(s)).filter(|s| !s.is_empty())
+    s.as_ref()
+        .map(|s| clean_string(s))
+        .filter(|s| !s.is_empty())
 }
 
 fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<()> {
     config.log("🔄 Processing database dump...");
     let start_time = std::time::Instant::now();
-    
+
     let pb = if config.quiet {
         ProgressBar::hidden()
     } else {
@@ -264,10 +269,10 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
         );
         pb
     };
-    
+
     pb.set_message("Loading crates data...");
     config.log_verbose("Initializing data structures...");
-    
+
     // Pre-allocate with reasonable capacities to reduce allocations
     let mut most_recent = Map::new();
     let mut crates = Set::new();
@@ -281,12 +286,12 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
     let mut stable_versions = Map::<CrateId, semver::Version>::new();
     let mut versions = Map::<CrateId, semver::Version>::new();
     let mut version_downloads = Map::<VersionId, u64>::new();
-    
+
     pb.set_message("Loading database dump...");
     config.log_verbose("Reading database dump file...");
-    
+
     let load_start = std::time::Instant::now();
-    
+
     db_dump::Loader::new()
         .crates(|row| {
             crates.insert(row);
@@ -295,7 +300,7 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
         .versions(|row| {
             // Store download counts for each version
             version_downloads.insert(row.id, row.downloads);
-            
+
             // row.num is already a semver::Version
             let version = &row.num;
             match version.pre.is_empty() {
@@ -320,11 +325,11 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
                         .or_insert(version.clone());
                 }
             };
-            
+
             if row.has_lib {
                 libs.insert(row.crate_id);
             }
-            
+
             // Use created_at for most recent determination
             match most_recent.entry(row.crate_id) {
                 Entry::Vacant(entry) => {
@@ -360,71 +365,79 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
         })
         .load(input_path)
         .context("Failed to load database dump")?;
-    
-    config.log_verbose(&format!("Database loading took {:.2}s", load_start.elapsed().as_secs_f64()));
-    
+
+    config.log_verbose(&format!(
+        "Database loading took {:.2}s",
+        load_start.elapsed().as_secs_f64()
+    ));
+
     pb.set_message("Processing crates...");
-    config.log_verbose(&format!("Loaded {} crates, {} dependencies", crates.len(), dependencies.len()));
-    
+    config.log_verbose(&format!(
+        "Loaded {} crates, {} dependencies",
+        crates.len(),
+        dependencies.len()
+    ));
+
     let crates = crates
         .into_iter()
         .filter(|c| libs.contains(&c.id))
         .collect::<Set<Row>>();
-    
+
     config.log_verbose(&format!("Filtered to {} library crates", crates.len()));
-    
+
     // Set of version ids which are the most recently published of their crate.
     let most_recent_versions = Set::from_iter(most_recent.values().map(|version| version.id));
-    
+
     pb.set_message("Calculating dependencies...");
     config.log_verbose("Calculating dependency counts...");
-    
+
     let dep_start = std::time::Instant::now();
-    
+
     // Use parallel processing for dependency calculation
     let count = Mutex::new(Map::<CrateId, usize>::new());
     let unique_edges = Mutex::new(Set::<(VersionId, CrateId)>::new());
-    
+
     // Process dependencies in parallel chunks
-    dependencies
-        .par_chunks(10_000)
-        .for_each(|chunk| {
-            let mut local_count = Map::<CrateId, usize>::new();
-            let mut local_edges = Set::<(VersionId, CrateId)>::new();
-            
-            for dep in chunk {
-                if most_recent_versions.contains(&dep.version_id)
-                    && local_edges.insert((dep.version_id, dep.crate_id))
-                {
-                    *local_count.entry(dep.crate_id).or_default() += 1;
-                }
-            }
-            
-            // Merge local results into global
+    dependencies.par_chunks(10_000).for_each(|chunk| {
+        let mut local_count = Map::<CrateId, usize>::new();
+        let mut local_edges = Set::<(VersionId, CrateId)>::new();
+
+        for dep in chunk {
+            if most_recent_versions.contains(&dep.version_id)
+                && local_edges.insert((dep.version_id, dep.crate_id))
             {
-                let mut global_count = count.lock().unwrap();
-                let mut global_edges = unique_edges.lock().unwrap();
-                
-                for (edge_key, edge_val) in local_edges {
-                    if global_edges.insert((edge_key, edge_val)) {
-                        *global_count.entry(edge_val).or_default() += 1;
-                    }
+                *local_count.entry(dep.crate_id).or_default() += 1;
+            }
+        }
+
+        // Merge local results into global
+        {
+            let mut global_count = count.lock().unwrap();
+            let mut global_edges = unique_edges.lock().unwrap();
+
+            for (edge_key, edge_val) in local_edges {
+                if global_edges.insert((edge_key, edge_val)) {
+                    *global_count.entry(edge_val).or_default() += 1;
                 }
             }
-        });
-    
+        }
+    });
+
     let mut count = count.into_inner().unwrap();
-    
+
     // Ensure all crates have an entry
     for crat in &crates {
         count.entry(crat.id).or_insert(0);
     }
-    
-    config.log_verbose(&format!("Dependency calculation took {:.2}s", dep_start.elapsed().as_secs_f64()));
-    
+
+    config.log_verbose(&format!(
+        "Dependency calculation took {:.2}s",
+        dep_start.elapsed().as_secs_f64()
+    ));
+
     pb.set_message("Calculating total downloads...");
     config.log_verbose("Calculating download statistics...");
-    
+
     // Calculate total downloads more efficiently
     let total_downloads: Map<CrateId, u64> = most_recent
         .par_iter()
@@ -433,19 +446,19 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
             (*crate_id, downloads)
         })
         .collect();
-    
+
     pb.set_message("Sorting crates...");
     config.log_verbose("Sorting crates by dependency count...");
-    
+
     // Sort all crates by dependency count descending
     let mut all_crates: Vec<_> = count.into_iter().collect();
     all_crates.par_sort_unstable_by_key(|&(_, count)| Reverse(count));
-    
+
     pb.set_message("Building output data...");
     config.log_verbose("Building final output structure...");
-    
+
     let build_start = std::time::Instant::now();
-    
+
     // Process crates in parallel
     let results: Vec<Option<Crate>> = all_crates
         .par_iter()
@@ -456,32 +469,41 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
             // Check mandatory fields and skip if any are missing/empty
             let clean_name = clean_string(&crat.name);
             let clean_description = clean_string(&crat.description);
-            
-            if clean_name.is_empty() || clean_description.is_empty() {
-                if config.verbose {
-                    let missing = if clean_name.is_empty() && clean_description.is_empty() {
-                        "name and description"
-                    } else if clean_name.is_empty() {
-                        "name"
-                    } else {
-                        "description"
-                    };
-                    eprintln!("⚠️  Skipping crate '{}': missing {}", crat.name, missing);
-                }
-                return None;
-            }
-            
+
             // Check if we have at least one version (stable or alpha)
             let stable_version = stable_versions.get(&crat.id).map(|v| v.to_string());
             let alpha_version = versions.get(&crat.id).map(|v| v.to_string());
-            
-            if stable_version.is_none() && alpha_version.is_none() {
+            let has_version = stable_version.is_some() || alpha_version.is_some();
+
+            // Check all mandatory fields
+            let missing_fields = vec![
+                if clean_name.is_empty() {
+                    Some("name")
+                } else {
+                    None
+                },
+                if clean_description.is_empty() {
+                    Some("description")
+                } else {
+                    None
+                },
+                if !has_version { Some("version") } else { None },
+            ]
+            .into_iter()
+            .flatten()
+            .collect::<Vec<_>>();
+
+            if !missing_fields.is_empty() {
                 if config.verbose {
-                    eprintln!("⚠️  Skipping crate '{}': no versions found", crat.name);
+                    eprintln!(
+                        "⚠️  Skipping crate '{}': missing {}",
+                        crat.name,
+                        missing_fields.join(", ")
+                    );
                 }
                 return None;
             }
-            
+
             Some(Crate {
                 dependency_count: dependency_count as u32,
                 name: clean_name,
@@ -518,42 +540,53 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
             })
         })
         .collect();
-    
+
     let processed_crates: Vec<Crate> = results.into_iter().flatten().collect();
     let skipped_count = all_crates.len() - processed_crates.len();
-    
-    config.log_verbose(&format!("Output building took {:.2}s", build_start.elapsed().as_secs_f64()));
-    
+
+    config.log_verbose(&format!(
+        "Output building took {:.2}s",
+        build_start.elapsed().as_secs_f64()
+    ));
+
     let dump_data = DumpData {
         generated_at: Utc::now(),
         crates: processed_crates,
     };
-    
+
     pb.set_message("Writing JSON output...");
     config.log_verbose("Serializing and writing JSON...");
-    
+
     let json_start = std::time::Instant::now();
-    let json = serde_json::to_string_pretty(&dump_data)
-        .context("Failed to serialize data to JSON")?;
-    
-    fs::write(output_path, json)
-        .context("Failed to write output file")?;
-    
-    config.log_verbose(&format!("JSON serialization took {:.2}s", json_start.elapsed().as_secs_f64()));
-    
+    let json =
+        serde_json::to_string_pretty(&dump_data).context("Failed to serialize data to JSON")?;
+
+    fs::write(output_path, json).context("Failed to write output file")?;
+
+    config.log_verbose(&format!(
+        "JSON serialization took {:.2}s",
+        json_start.elapsed().as_secs_f64()
+    ));
+
     pb.finish_with_message("✅ Processing complete!");
-    
+
     let total_time = start_time.elapsed();
     config.log(&format!("📊 Processed {} crates", dump_data.crates.len()));
     if skipped_count > 0 {
-        config.log(&format!("⚠️  Skipped {} crates with missing mandatory fields", skipped_count));
+        config.log(&format!(
+            "⚠️  Skipped {} crates with missing mandatory fields",
+            skipped_count
+        ));
     }
     config.log(&format!("💾 Output saved to {}", output_path));
-    config.log(&format!("⏱️  Total processing time: {:.2}s", total_time.as_secs_f64()));
-    
+    config.log(&format!(
+        "⏱️  Total processing time: {:.2}s",
+        total_time.as_secs_f64()
+    ));
+
     if config.verbose {
         config.log(&format!("🧵 Used {} threads", config.threads));
     }
-    
+
     Ok(())
 }
