@@ -87,7 +87,7 @@ pub struct Crate {
     pub bin_names: Vec<String>,
     pub checksum: Option<String>,
     pub created_at: String,
-    pub has_bin: bool,
+    pub has_bins: bool,
     pub updated_at: String,
     pub yanked: bool,
 }
@@ -589,7 +589,7 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
                 created_at: most_recent.get(&crat.id)
                     .map(|version| version.created_at.to_rfc3339())
                     .unwrap_or_default(),
-                has_bin: most_recent.get(&crat.id)
+                has_bins: most_recent.get(&crat.id)
                     .map(|version| !version.bin_names.is_empty())
                     .unwrap_or(false),
                 updated_at: most_recent.get(&crat.id)
@@ -611,17 +611,13 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
         build_start.elapsed().as_secs_f64()
     ));
 
-    let dump_data = DumpData {
-        generated_at: Utc::now(),
-        crates: processed_crates,
-    };
-
     pb.set_message("Writing JSON output...");
     config.log_verbose("Serializing and writing JSON...");
 
     let json_start = std::time::Instant::now();
+    // Serialize directly as an array instead of wrapping in DumpData
     let json =
-        serde_json::to_string_pretty(&dump_data).context("Failed to serialize data to JSON")?;
+        serde_json::to_string_pretty(&processed_crates).context("Failed to serialize data to JSON")?;
 
     // Validate JSON before writing
     validate_json(&json).context("JSON validation failed")?;
@@ -644,9 +640,9 @@ fn process_dump(input_path: &str, output_path: &str, config: &Config) -> Result<
     println!("├────────────────────────────────────────────────────────────┤");
     println!("│ {:<28} : {:>27} │", "Duration", format!("{:.2}s", total_time.as_secs_f64()));
     println!("│ {:<28} : {:>27} │", "Threads used", config.threads);
-    println!("│ {:<28} : {:>27} │", "Total crates processed", dump_data.crates.len());
+    println!("│ {:<28} : {:>27} │", "Total crates processed", processed_crates.len());
     println!("│ {:<28} : {:>27} │", "Crates skipped", skipped_count);
-    println!("│ {:<28} : {:>27} │", "Processing rate", format!("{:.0} crates/sec", dump_data.crates.len() as f64 / total_time.as_secs_f64()));
+    println!("│ {:<28} : {:>27} │", "Processing rate", format!("{:.0} crates/sec", processed_crates.len() as f64 / total_time.as_secs_f64()));
     println!("│ {:<28} : {:>27} │", "Output file", output_path);
     
     // Show top categories
