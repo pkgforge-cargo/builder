@@ -13,15 +13,15 @@
 - 🦀 **[duckscript](https://github.com/sagiegurari/duckscript.git)**: Simple, extendable and embeddable scripting language.
 - 🦀 **[cargo-watch](https://github.com/watchexec/cargo-watch)**: Watches over your Cargo project’s source.
 - 🦀 **[boa_gc](https://github.com/boa-dev/boa)**: Garbage collector for the Boa JavaScript engine.
-- 🦀 **[duckscriptsdk](https://github.com/sagiegurari/duckscript.git)**: The duckscript SDK.
 - 🦀 **[ghac](https://github.com/Xuanwo/ghac)**: Replace with description.
+- 🦀 **[duckscriptsdk](https://github.com/sagiegurari/duckscript.git)**: The duckscript SDK.
 - 🦀 **[just](https://github.com/casey/just)**: 🤖 Just a command runner.
 - 🦀 **[reqsign](https://github.com/Xuanwo/reqsign)**: Signing API requests without effort.
 - 🦀 **[grass](https://github.com/connorskees/grass)**: A Sass compiler written purely in Rust.
 - 🦀 **[gifski](https://github.com/ImageOptim/gifski)**: pngquant-based GIF maker for nice-looking animGIFs.
 - 🦀 **[ariadne](https://github.com/zesterer/ariadne)**: A fancy diagnostics & reporting crate.
-- 🦀 **[dify](https://github.com/jihchi/dify.git)**: A fast pixel-by-pixel image comparison tool in Rust.
 - 🦀 **[clap-markdown](https://github.com/ConnorGray/clap-markdown)**: Autogenerate Markdown documentation for clap command-line tools.
+- 🦀 **[dify](https://github.com/jihchi/dify.git)**: A fast pixel-by-pixel image comparison tool in Rust.
 - 🦀 **[sccache](https://github.com/mozilla/sccache/)**: Sccache is a ccache-like tool.
 - 🦀 **[r3bl_simple_logger](https://github.com/r3bl-org/r3bl-open-core/tree/main/simple_logger)**: Replacement for the simplelog crate, which is simpler and has clearer dependencies.
 - 🦀 **[inferno](https://github.com/jonhoo/inferno.git)**: Rust port of the FlameGraph performance profiling tool suite.
@@ -30,8 +30,8 @@
 - 🦀 **[hdrs](https://github.com/Xuanwo/hdrs)**: Rust native client to hdfs.
 - 🦀 **[sqlx-cli](https://github.com/launchbadge/sqlx)**: Command-line utility for SQLx, the Rust SQL toolkit.
 - 🦀 **[ssstar](https://github.com/elastio/ssstar)**: Library crate that creates and restores archives to and from S3 or S3-compatible storage.
-- 🦀 **[sapling-streampager](null)**: streampager is a pager for command output or large files.
 - 🦀 **[honggfuzz](https://github.com/rust-fuzz/honggfuzz-rs)**: Fuzz your Rust code with Google-developped Honggfuzz !.
+- 🦀 **[sapling-streampager](null)**: streampager is a pager for command output or large files.
 - 🦀 **[hayagriva](https://github.com/typst/hayagriva)**: Work with references: Literature database management, storage, and citation formatting.
 - 🦀 **[mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers)**: Plugins for a mdbook translation workflow based on Gettext.
 - 🦀 **[wallust](https://codeberg.org/explosion-mental/wallust)**: Generate a 16 color scheme based on an image.
@@ -45,74 +45,73 @@
 - 🦀 **[protofetch](https://github.com/coralogix/protofetch)**: A source dependency management tool for Protobuf.
 - 🦀 **[killport](https://github.com/jkfran/killport)**: A command-line tool to easily kill processes and containers running on a specified port.
 - 🦀 **[espflash](https://github.com/esp-rs/espflash)**: A command-line tool for flashing Espressif devices.
+- 🦀 **[tauri-bundler](https://github.com/tauri-apps/tauri)**: Wrap rust executables in OS-specific app bundles for Tauri.
 - 🦀 **[rustc_errors](https://github.com/kcl-lang/kcl)**: Reuse rustc_errors for compiler_base.
 - 🦀 **[compiler_base_macros](https://github.com/kcl-lang/kcl)**: compiler_base_macros.
-- 🦀 **[tauri-bundler](https://github.com/tauri-apps/tauri)**: Wrap rust executables in OS-specific app bundles for Tauri.
 - 🦀 **[rustc_data_structures](https://github.com/kcl-lang/kcl)**: Reuse rustc_data_structures for compiler_base.
 - 🦀 **[rustc_span](https://github.com/kcl-lang/kcl)**: Reuse rustc_span for compiler_base.
 - 🦀 **[compiler_base_span](https://github.com/kcl-lang/kcl)**: compiler_base_span.
 - 🦀 **[compiler_base_error](https://github.com/kcl-lang/kcl)**: compiler_base_error.
 - 🦀 **[compiler_base_session](https://github.com/kcl-lang/kcl)**: compiler_base_session.
 - 🦀 **[cargo-run-bin](https://github.com/dustinblackman/cargo-run-bin)**: Build, cache, and run binaries scoped in Cargo.
+- 🦀 **[grcov](https://github.com/mozilla/grcov)**: Rust tool to collect and aggregate code coverage data for multiple source files.
 - 🦀 **[cargo-msrv](https://github.com/foresterre/cargo-msrv)**: Find your minimum supported Rust version (MSRV)!.
 - 🦀 **[matugen](https://github.com/InioX/matugen)**: A material you color generation tool with templates.
-- 🦀 **[grcov](https://github.com/mozilla/grcov)**: Rust tool to collect and aggregate code coverage data for multiple source files.
 - 🦀 **[ferris-says](https://github.com/rust-lang/ferris-says)**: A Rust flavored replacement for the classic cowsay.
 - 🦀 **[bottom](https://github.com/ClementTsang/bottom)**: A customizable cross-platform graphical process/system monitor for the terminal.
 - 🦀 **[human_name](https://github.com/djudd/human-name)**: A library for parsing and comparing human names.
 - 🦀 **[json_diff_ng](https://github.com/ChrisRega/json-diff)**: A JSON diff library, featuring deep-sorting and key exclusion by regex.
 - 🦀 **[blight](https://github.com/VoltaireNoir/blight)**: A hassle-free CLI backlight utility/library for Linux.
 - 🦀 **[better_term](https://github.com/Sk3pz/better_term)**: A crate that makes using the terminal easier.
+- 🦀 **[comrak](https://github.com/kivikakk/comrak)**: A 100% CommonMark-compatible GitHub Flavored Markdown parser and formatter.
 - 🦀 **[auto_encoder](https://github.com/spider-rs/auto-encoder)**: Auto encoding library.
 - 🦀 **[pid1](https://github.com/fpco/pid1-rs)**: pid1 handling library for proper signal and zombie reaping of the PID1 process.
-- 🦀 **[comrak](https://github.com/kivikakk/comrak)**: A 100% CommonMark-compatible GitHub Flavored Markdown parser and formatter.
 - 🦀 **[oxipng](https://github.com/shssoichiro/oxipng)**: A lossless PNG compression optimizer.
 - 🦀 **[cocogitto](https://github.com/cocogitto/cocogitto)**: Cocogitto is a set of cli tools for the conventional commit and semver specifications.
 - 🦀 **[termbg](https://github.com/dalance/termbg)**: Terminal background color detection.
 - 🦀 **[dicom-dump](https://github.com/Enet4/dicom-rs)**: A CLI tool for inspecting DICOM files.
 - 🦀 **[coldcard](https://github.com/alfred-hodler/rust-coldcard/)**: Coldcard Wallet Interface Library in Rust.
+- 🦀 **[easytier-rpc-build](https://github.com/EasyTier/EasyTier)**: Protobuf RPC Service Generator for EasyTier.
 - 🦀 **[ascii-armor](https://github.com/UBIDECO/ascii-armor)**: ASCII Armor: binary to text encoding library and command-line utility.
 - 🦀 **[zspell](https://github.com/pluots/zspell)**: Native Rust library for spellchecking.
-- 🦀 **[easytier-rpc-build](https://github.com/EasyTier/EasyTier)**: Protobuf RPC Service Generator for EasyTier.
 - 🦀 **[cargo-sonar](https://gitlab.com/woshilapin/cargo-sonar)**: Helper to transform reports from Rust tooling for code quality, into valid Sonar report.
-- 🦀 **[keepawake](https://github.com/segevfiner/keepawake-rs/)**: Keep your computer awake.
-- 🦀 **[pulldown-cmark-mdcat](https://github.com/swsnr/mdcat)**: Render pulldown-cmark events to TTY.
 - 🦀 **[ast-grep](https://github.com/ast-grep/ast-grep)**: Search and Rewrite code at large scale using precise AST pattern.
+- 🦀 **[keepawake](https://github.com/segevfiner/keepawake-rs/)**: Keep your computer awake.
+- 🦀 **[wasm-smith](https://github.com/bytecodealliance/wasm-tools/tree/main/crates/wasm-smith)**: A WebAssembly test case generator.
+- 🦀 **[pulldown-cmark-mdcat](https://github.com/swsnr/mdcat)**: Render pulldown-cmark events to TTY.
 - 🦀 **[selene-lib](https://github.com/Kampfkarren/selene)**: A library for linting Lua code.
-- 🦀 **[build-fs-tree](https://github.com/KSXGitHub/build-fs-tree.git)**: Generate a filesystem tree from a macro or a YAML tree.
 - 🦀 **[cargo-c](https://github.com/lu-zero/cargo-c)**: Helper program to build and install c-like libraries.
+- 🦀 **[build-fs-tree](https://github.com/KSXGitHub/build-fs-tree.git)**: Generate a filesystem tree from a macro or a YAML tree.
 - 🦀 **[flamegraph](https://github.com/flamegraph-rs/flamegraph)**: A simple cargo subcommand for generating flamegraphs, using inferno under the hood.
 - 🦀 **[stylua](https://github.com/johnnymorganz/stylua)**: A code formatter for Lua.
-- 🦀 **[grex](https://github.com/pemistahl/grex)**: grex generates regular expressions from user-provided test cases.
 - 🦀 **[rage](https://github.com/str4d/rage)**: [BETA] A simple, secure, and modern encryption tool.
+- 🦀 **[grex](https://github.com/pemistahl/grex)**: grex generates regular expressions from user-provided test cases.
 - 🦀 **[cargo-semver-checks](https://github.com/obi1kenobi/cargo-semver-checks)**: Scan your Rust crate for semver violations.
-- 🦀 **[wasm-smith](https://github.com/bytecodealliance/wasm-tools/tree/main/crates/wasm-smith)**: A WebAssembly test case generator.
 - 🦀 **[c2rust-bitfields](https://github.com/immunant/c2rust/)**: C-compatible struct bitfield implementation used in the C2Rust project.
+- 🦀 **[c2rust-bitfields-derive](https://github.com/immunant/c2rust/)**: C-compatible struct bitfield derive implementation used in the C2Rust project.
 - 🦀 **[parse-changelog](https://github.com/taiki-e/parse-changelog)**: Simple changelog parser, written in Rust.
 - 🦀 **[colorized](https://github.com/xavierbrasher/colorized)**: A tool to colorized output.
-- 🦀 **[c2rust-bitfields-derive](https://github.com/immunant/c2rust/)**: C-compatible struct bitfield derive implementation used in the C2Rust project.
 - 🦀 **[cargo-export](https://github.com/bazhenov/cargo-export)**: Utility to export compiler artifacts from cargo build process.
 - 🦀 **[termbg-with-async-stdin](https://github.com/dalance/termbg)**: Terminal background color detection.
 - 🦀 **[starship](https://github.com/starship/starship)**: The minimal, blazing-fast, and infinitely customizable prompt for any shell! ☄🌌️.
-- 🦀 **[asm-lsp](https://github.com/bergercookie/asm-lsp)**: Language Server for x86/x86_64, ARM, RISCV, and z80 Assembly Code.
 - 🦀 **[kwr103](https://github.com/weinshec/kwr103)**: Remote control Korad KWR103 programmable DC power supplies.
+- 🦀 **[asm-lsp](https://github.com/bergercookie/asm-lsp)**: Language Server for x86/x86_64, ARM, RISCV, and z80 Assembly Code.
 - 🦀 **[rsign2](https://github.com/jedisct1/rsign2)**: A command-line tool to sign files and verify signatures.
 - 🦀 **[llm_readability](https://github.com/spider-rs/llm-readability)**: Readability library for LLM's built in Rust.
+- 🦀 **[uucore](https://github.com/uutils/coreutils/tree/main/src/uucore)**: uutils ~ 'core' uutils code library (cross-platform).
 - 🦀 **[typst-cli](https://github.com/typst/typst)**: The command line interface for Typst.
 - 🦀 **[rustscan](https://github.com/rustscan/rustscan)**: Faster Nmap Scanning with Rust.
 - 🦀 **[heh](https://github.com/ndd7xv/heh)**: A cross-platform terminal UI used for modifying file data in hex or ASCII.
-- 🦀 **[uucore](https://github.com/uutils/coreutils/tree/main/src/uucore)**: uutils ~ 'core' uutils code library (cross-platform).
-- 🦀 **[gnostr-sha256](https://github.com/gnostr-org/gnostr-sha256.git)**: generate a sha256 hash.
 - 🦀 **[filetreelist](https://github.com/extrawurst/gitui)**: filetree abstraction based on a sorted path list, supports key based navigation events, folding, scrolling and more.
-- 🦀 **[jja](https://git.sr.ht/~alip/jja)**: swiss army knife for chess file formats.
 - 🦀 **[reqwest-hickory-resolver](https://github.com/Xuanwo/reqwest-hickory-resolver)**: hickory resolver support for reqwest.
+- 🦀 **[gnostr-sha256](https://github.com/gnostr-org/gnostr-sha256.git)**: generate a sha256 hash.
+- 🦀 **[jja](https://git.sr.ht/~alip/jja)**: swiss army knife for chess file formats.
 - 🦀 **[navi](https://github.com/denisidoro/navi)**: An interactive cheatsheet tool for the command-line.
-- 🦀 **[parallel-disk-usage](https://github.com/KSXGitHub/parallel-disk-usage.git)**: Highly parallelized, blazing fast directory tree analyzer.
 - 🦀 **[webmention](https://github.com/marinintim/webmention.git)**: Library and a CLI tool for sending and validation webmentions.
 - 🦀 **[jsonata-rs](https://github.com/Stedi/jsonata-rs/)**: An (incomplete) implementation of JSONata in Rust.
 - 🦀 **[tokei](https://github.com/XAMPPRocky/tokei.git)**: Count your code, quickly.
-- 🦀 **[cargo-vendor-filterer](https://github.com/coreos/cargo-vendor-filterer)**: `cargo vendor`, but with filtering for platforms and more.
 - 🦀 **[formatjson](https://github.com/tusharsadhwani/formatjson)**: Formats JSON files.
+- 🦀 **[cargo-vendor-filterer](https://github.com/coreos/cargo-vendor-filterer)**: `cargo vendor`, but with filtering for platforms and more.
 - 🦀 **[rlt](https://github.com/wfxr/rlt)**: A universal load testing library for Rust, with real-time TUI support.
 - 🦀 **[blondie](https://github.com/nico-abram/blondie/)**: Collect CPU callstack samples from a windows process.
 - 🦀 **[ruplacer](https://github.com/your-tools/ruplacer)**: Find and replace text in source files.
@@ -124,191 +123,193 @@
 - 🦀 **[tmux_interface](https://github.com/AntonGepting/tmux-interface-rs)**: Rust language library for communication with TMUX via CLI.
 - 🦀 **[hexyl](https://github.com/sharkdp/hexyl)**: A command-line hex viewer.
 - 🦀 **[cfonts](https://github.com/dominikwilkowski/cfonts)**: Sexy ANSI fonts for the console.
+- 🦀 **[espup](https://github.com/esp-rs/espup)**: Tool for installing and maintaining Espressif Rust ecosystem.
 - 🦀 **[cargo-xcode](https://gitlab.com/kornelski/cargo-xcode)**: Make Xcode project files from Cargo projects.
 - 🦀 **[svlint](https://github.com/dalance/svlint)**: SystemVerilog linter.
-- 🦀 **[espup](https://github.com/esp-rs/espup)**: Tool for installing and maintaining Espressif Rust ecosystem.
+- 🦀 **[pwdg](https://github.com/OTheDev/pwdg)**: A rudimentary command-line tool and Rust library for generating secure, random passwords.
 - 🦀 **[feroxbuster](https://github.com/epi052/feroxbuster)**: A fast, simple, recursive content discovery tool.
-- 🦀 **[cargo-aur](https://github.com/fosskers/cargo-aur)**: Prepare Rust projects to be released on the Arch Linux User Repository.
-- 🦀 **[prs-lib](https://gitlab.com/timvisee/prs)**: Secure, fast & convenient password manager CLI with GPG & git sync.
 - 🦀 **[monolith](https://github.com/Y2Z/monolith)**: CLI tool and library for saving web pages as a single HTML file.
+- 🦀 **[prs-lib](https://gitlab.com/timvisee/prs)**: Secure, fast & convenient password manager CLI with GPG & git sync.
+- 🦀 **[cargo-aur](https://github.com/fosskers/cargo-aur)**: Prepare Rust projects to be released on the Arch Linux User Repository.
 - 🦀 **[if-changed](https://github.com/mathematic-inc/if-changed)**: A pre-submit for file changes.
+- 🦀 **[du-dust](https://github.com/bootandy/dust)**: A more intuitive version of du.
 - 🦀 **[boa_runtime](https://github.com/boa-dev/boa)**: Example runtime for the Boa JavaScript engine.
 - 🦀 **[top-type-sizes](https://github.com/loyd/top-type-sizes)**: Makes -Zprint-type-size more useful.
 - 🦀 **[unaccent](https://github.com/crowdtech-io/unaccent)**: A Rust crate to remove accents from strings, inspired by PostgreSQL's unaccent extension.
-- 🦀 **[du-dust](https://github.com/bootandy/dust)**: A more intuitive version of du.
+- 🦀 **[what-the-path](https://github.com/MordechaiHadad/what-the-path)**: A rust library for easily adding paths to $PATH on UNIX.
 - 🦀 **[promptuity](https://github.com/wadackel/promptuity)**: Promptuity is a library that provides interactive prompts.
 - 🦀 **[pokeget](https://github.com/talwat/pokeget-rs)**: Display pokemon sprites in your terminal.
-- 🦀 **[what-the-path](https://github.com/MordechaiHadad/what-the-path)**: A rust library for easily adding paths to $PATH on UNIX.
 - 🦀 **[mdcat](https://github.com/swsnr/mdcat)**: cat for markdown: Show markdown documents in terminals.
 - 🦀 **[sequoia-cert-store](https://gitlab.com/sequoia-pgp/sequoia-cert-store)**: A certificate database interface.
-- 🦀 **[hx](https://github.com/sitkevij/hex)**: Futuristic take on hexdump, made in Rust.
 - 🦀 **[cargo-autoinherit](https://github.com/mainmatter/cargo-autoinherit)**: A cargo sub-command to leverage dependency inheritance wherever possible.
+- 🦀 **[hx](https://github.com/sitkevij/hex)**: Futuristic take on hexdump, made in Rust.
 - 🦀 **[tui-realm-treeview](https://github.com/veeso/tui-realm-treeview)**: Treeview component for tui-realm.
 - 🦀 **[mask](https://github.com/jacobdeichert/mask)**: A CLI task runner defined by a simple markdown file.
-- 🦀 **[pwdg](https://github.com/OTheDev/pwdg)**: A rudimentary command-line tool and Rust library for generating secure, random passwords.
+- 🦀 **[eza](https://github.com/eza-community/eza)**: A modern replacement for ls.
 - 🦀 **[pfetch](https://github.com/Gobidev/pfetch-rs)**: A rewrite of the pfetch system information tool.
 - 🦀 **[docx-parser](https://github.com/erikvullings/docx-parser)**: Parse Word and OpenOffice DOCX files, and output markdown or JSON.
 - 🦀 **[dekor](https://github.com/JoshBenn/dekor)**: Simple styling and character repository in Rust.
 - 🦀 **[r-extcap](https://github.com/mauricelam/r-extcap/)**: Write Wireshark extcap programs in Rust.
 - 🦀 **[dsync](https://github.com/Wulf/dsync)**: Generate rust structs & query functions from diesel schema files.
 - 🦀 **[rsc](https://github.com/fivemoreminix/rsc)**: A fast calculator for solving scientific and algebraic math equations in strings.
+- 🦀 **[uutests](https://github.com/uutils/coreutils/tree/main/tests/uutests)**: uutils ~ 'core' uutils test library (cross-platform).
 - 🦀 **[snowchains_core](https://github.com/qryxip/snowchains)**: Crate for accessing competitive programming websites and testing your code.
 - 🦀 **[godzie44-tui-realm-treeview](https://github.com/veeso/tui-realm-treeview)**: Treeview component for tui-realm (WARN, this is a temporart fork).
 - 🦀 **[nvd_cve](https://github.com/travispaul/nvd_cve)**: Search for CVEs against a local cached copy of NIST National Vulnerability Database (NVD).
 - 🦀 **[aeruginous](https://github.com/kevinmatthes/aeruginous-rs)**: The Aeruginous Open Source Development Toolbox.
-- 🦀 **[dbg_breakpoint](https://github.com/kromych/dbg_breakpoint)**: Set breakpoints with the `breakpoint!()` macro on many target architectures and popular OSes like FreeBSD, macOS, iOS, Linux distro's, Windows without using the nightly toolchain.
 - 🦀 **[pastel](https://github.com/sharkdp/pastel)**: A command-line tool to generate, analyze, convert and manipulate colors.
-- 🦀 **[uutests](https://github.com/uutils/coreutils/tree/main/tests/uutests)**: uutils ~ 'core' uutils test library (cross-platform).
-- 🦀 **[eza](https://github.com/eza-community/eza)**: A modern replacement for ls.
+- 🦀 **[dbg_breakpoint](https://github.com/kromych/dbg_breakpoint)**: Set breakpoints with the `breakpoint!()` macro on many target architectures and popular OSes like FreeBSD, macOS, iOS, Linux distro's, Windows without using the nightly toolchain.
 - 🦀 **[genact](https://github.com/svenstaro/genact)**: A nonsense activity generator.
-- 🦀 **[shrs_job](https://github.com/MrPicklePinosaur/shrs)**: utilities for managing jobs and processes.
 - 🦀 **[baid64](https://github.com/UBIDECO/rust-baid64)**: Easy-to-check URL-safe Base64 encoding for identities.
-- 🦀 **[hyprswitch](https://github.com/h3rmt/hyprswitch/)**: A CLI/GUI that allows switching between windows in Hyprland.
+- 🦀 **[shrs_job](https://github.com/MrPicklePinosaur/shrs)**: utilities for managing jobs and processes.
 - 🦀 **[artem](https://github.com/FineFindus/artem)**: Convert images from multiple formats (jpg, png, webp, etc…) to ASCII art.
+- 🦀 **[hyprswitch](https://github.com/h3rmt/hyprswitch/)**: A CLI/GUI that allows switching between windows in Hyprland.
 - 🦀 **[cargo-msrv-prep](https://github.com/clechasseur/msrv-prep)**: Cargo subcommand useful to prepare for determining/verifying a crate's MSRV.
 - 🦀 **[cargo-compete](https://github.com/qryxip/cargo-compete)**: A Cargo subcommand for competitive programming.
 - 🦀 **[shrs_utils](https://github.com/MrPicklePinosaur/shrs)**: utilities for shrs.
 - 🦀 **[shrs_lang](https://github.com/MrPicklePinosaur/shrs)**: parser and lexer for shrs posix shell.
 - 🦀 **[shrs_vi](https://github.com/MrPicklePinosaur/shrs)**: parser for vi like commands.
-- 🦀 **[tsync](https://github.com/Wulf/tsync)**: Generate typescript types from rust code.
 - 🦀 **[shrs_core_macros](https://github.com/MrPicklePinosaur/shrs)**: utilities for managing jobs and processes.
-- 🦀 **[ask-cli](https://github.com/SUPERCILEX/ask-cli)**: Ask CLI offers a simple way to ask a yes or no question.
 - 🦀 **[dssim](https://github.com/kornelski/dssim.git)**: Tool that measures structural similarity between images using a multi-scale variant of the SSIM algorithm.
-- 🦀 **[horned-owl](https://github.com/phillord/horned-owl)**: Library for OWL Ontologies.
+- 🦀 **[ask-cli](https://github.com/SUPERCILEX/ask-cli)**: Ask CLI offers a simple way to ask a yes or no question.
 - 🦀 **[shrs_core](https://github.com/MrPicklePinosaur/shrs)**: modular library to build your own shell in rust.
+- 🦀 **[horned-owl](https://github.com/phillord/horned-owl)**: Library for OWL Ontologies.
 - 🦀 **[toipe](https://github.com/Samyak2/toipe)**: A trusty terminal typing tester.
 - 🦀 **[shrs](https://github.com/MrPicklePinosaur/shrs)**: modular library to build your own shell in rust.
+- 🦀 **[cargo-packager](https://github.com/crabnebula-dev/cargo-packager)**: Executable packager and bundler distributed as a CLI and library.
 - 🦀 **[r3bl_ansi_color](https://github.com/r3bl-org/r3bl-open-core/tree/main/ansi_color)**: Rust crate to generate formatted ANSI 256 (8-bit) and truecolor (24-bit) color output to stdout.
 - 🦀 **[die-exit](https://github.com/Xavientois/die)**: Handle errors and exit in command line programs easily.
+- 🦀 **[tree-sitter-loader](https://github.com/tree-sitter/tree-sitter)**: Locates, builds, and loads tree-sitter grammars at runtime.
 - 🦀 **[factordb](https://github.com/megascrapper/factordb-rust)**: Rust wrapper for FactorDB API.
 - 🦀 **[clap-config-file](https://github.com/bodo-run/clap-config-file)**: A proc macro for adding config file support to clap.
-- 🦀 **[mdx-gen](https://github.com/sebastienrousseau/mdx-gen)**: A robust Rust library for processing Markdown and converting it to HTML with support for custom blocks, enhanced table formatting, and flexible configuration options.
-- 🦀 **[sequoia-wot](https://gitlab.com/sequoia-pgp/sequoia-wot)**: An implementation of OpenPGP's web of trust.
+- 🦀 **[tree-sitter-generate](https://github.com/tree-sitter/tree-sitter)**: Library for generating C source code from a tree-sitter grammar.
 - 🦀 **[code2prompt_core](https://github.com/mufeedvh/code2prompt)**: A command-line (CLI) tool to generate an LLM prompt from codebases of any size, fast.
+- 🦀 **[sequoia-wot](https://gitlab.com/sequoia-pgp/sequoia-wot)**: An implementation of OpenPGP's web of trust.
+- 🦀 **[mdx-gen](https://github.com/sebastienrousseau/mdx-gen)**: A robust Rust library for processing Markdown and converting it to HTML with support for custom blocks, enhanced table formatting, and flexible configuration options.
+- 🦀 **[tree-sitter-cli](https://github.com/tree-sitter/tree-sitter)**: CLI tool for developing, testing, and using Tree-sitter parsers.
 - 🦀 **[pacdef_macros](https://github.com/steven-omaha/pacdef/tree/main/crates/pacdef_macros)**: procedural macros for pacdef.
 - 🦀 **[dtn7-codegen](https://github.com/dtn7/dtn7-rs)**: codegen helpers for dtn7-rs.
-- 🦀 **[oha](https://github.com/hatoo/oha)**: Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation.
-- 🦀 **[cargo-packager](https://github.com/crabnebula-dev/cargo-packager)**: Executable packager and bundler distributed as a CLI and library.
 - 🦀 **[commitlint-rs](https://github.com/KeisukeYamashita/commitlint-rs)**: CLI tool to lint commits by Conventional Commits.
 - 🦀 **[anychain-core](https://github.com/0xcregis/anychain)**: A core support for cryptocurrency wallets.
 - 🦀 **[binsider](https://github.com/orhun/binsider)**: Analyze ELF binaries like a boss.
-- 🦀 **[tree-sitter-loader](https://github.com/tree-sitter/tree-sitter)**: Locates, builds, and loads tree-sitter grammars at runtime.
-- 🦀 **[tree-sitter-generate](https://github.com/tree-sitter/tree-sitter)**: Library for generating C source code from a tree-sitter grammar.
-- 🦀 **[tree-sitter-cli](https://github.com/tree-sitter/tree-sitter)**: CLI tool for developing, testing, and using Tree-sitter parsers.
-- 🦀 **[metadata-gen](https://github.com/sebastienrousseau/metadata-gen)**: A powerful Rust library for extracting, validating, and processing metadata in YAML, TOML, and JSON formats from any content or data file.
-- 🦀 **[repackage](https://github.com/jonhoo/repackage)**: An infernal tool to repackage a .
-- 🦀 **[create-rust-app](https://github.com/Wulf/create-rust-app)**: Set up a modern rust+react web app by running one command.
 - 🦀 **[tree-sitter-config](https://github.com/tree-sitter/tree-sitter)**: User configuration of tree-sitter's command line programs.
-- 🦀 **[cargo-geiger](https://github.com/rust-secure-code/cargo-geiger)**: Detects usage of unsafe Rust in a Rust crate and its dependencies.
+- 🦀 **[metadata-gen](https://github.com/sebastienrousseau/metadata-gen)**: A powerful Rust library for extracting, validating, and processing metadata in YAML, TOML, and JSON formats from any content or data file.
 - 🦀 **[command_timeout](https://github.com/cfsmp3/exec_timeout_rs)**: A tokio friendly command exec with smart timeout.
+- 🦀 **[cargo-geiger](https://github.com/rust-secure-code/cargo-geiger)**: Detects usage of unsafe Rust in a Rust crate and its dependencies.
+- 🦀 **[create-rust-app](https://github.com/Wulf/create-rust-app)**: Set up a modern rust+react web app by running one command.
+- 🦀 **[repackage](https://github.com/jonhoo/repackage)**: An infernal tool to repackage a .
 - 🦀 **[workshop-runner](https://github.com/mainmatter/rust-workshop-runner)**: A CLI to run test-driven Rust workshops.
+- 🦀 **[uu_cp](https://github.com/uutils/coreutils/tree/main/src/uu/cp)**: cp ~ (uutils) copy SOURCE to DESTINATION.
 - 🦀 **[ge-man](https://github.com/Compile-Time/GE-Man)**: A manager for GE Proton and Wine GE versions.
+- 🦀 **[uu_mv](https://github.com/uutils/coreutils/tree/main/src/uu/mv)**: mv ~ (uutils) move (rename) SOURCE to DESTINATION.
+- 🦀 **[uu_mktemp](https://github.com/uutils/coreutils/tree/main/src/uu/mktemp)**: mktemp ~ (uutils) create and display a temporary file or directory from TEMPLATE.
+- 🦀 **[uu_mkdir](https://github.com/uutils/coreutils/tree/main/src/uu/mkdir)**: mkdir ~ (uutils) create DIRECTORY.
+- 🦀 **[uu_touch](https://github.com/uutils/coreutils/tree/main/src/uu/touch)**: touch ~ (uutils) change FILE timestamps.
 - 🦀 **[lineeditor](https://github.com/amrdeveloper/lineeditor)**: A cross platform rich line editor.
 - 🦀 **[mdbook-reading-time](null)**: mdbook preprocessor that calculates the reading time and word count of each chapter.
 - 🦀 **[cargo-px](https://github.com/LukeMathWalker/cargo-px)**: A cargo sub-command to overcome some of the limitations of build scripts for code generation.
-- 🦀 **[uu_cp](https://github.com/uutils/coreutils/tree/main/src/uu/cp)**: cp ~ (uutils) copy SOURCE to DESTINATION.
-- 🦀 **[uu_mv](https://github.com/uutils/coreutils/tree/main/src/uu/mv)**: mv ~ (uutils) move (rename) SOURCE to DESTINATION.
-- 🦀 **[cyme](https://github.com/tuna-f1sh/cyme)**: List system USB buses and devices; a modern cross-platform `lsusb`.
 - 🦀 **[dtn7](https://github.com/dtn7/dtn7-rs)**: Rust delay-tolerant-networking daemon and CLI tools implementing Bundle Protocol Version 7 (RFC9171).
-- 🦀 **[uu_mktemp](https://github.com/uutils/coreutils/tree/main/src/uu/mktemp)**: mktemp ~ (uutils) create and display a temporary file or directory from TEMPLATE.
-- 🦀 **[uu_mkdir](https://github.com/uutils/coreutils/tree/main/src/uu/mkdir)**: mkdir ~ (uutils) create DIRECTORY.
+- 🦀 **[cyme](https://github.com/tuna-f1sh/cyme)**: List system USB buses and devices; a modern cross-platform `lsusb`.
+- 🦀 **[git-cliff](https://github.com/orhun/git-cliff)**: A highly customizable changelog generator ⛰️.
 - 🦀 **[catbox](https://github.com/Savolae/catbox)**: Implementation of Catbox.
-- 🦀 **[uu_touch](https://github.com/uutils/coreutils/tree/main/src/uu/touch)**: touch ~ (uutils) change FILE timestamps.
-- 🦀 **[wait-for-them](https://github.com/shenek/wait-for-them)**: Waits for TCP ports to be opened or for 200 status on http(s) urls.
 - 🦀 **[fend-core](https://github.com/printfn/fend)**: Arbitrary-precision unit-aware calculator.
+- 🦀 **[wait-for-them](https://github.com/shenek/wait-for-them)**: Waits for TCP ports to be opened or for 200 status on http(s) urls.
+- 🦀 **[ast-grep-core](https://github.com/ast-grep/ast-grep)**: Search and Rewrite code at large scale using precise AST pattern.
 - 🦀 **[sitemap-gen](https://github.com/sebastienrousseau/sitemap-gen)**: A robust Rust library designed for efficient generation and optimization of sitemaps, supporting various formats and customizations.
 - 🦀 **[fluentci-logging](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
-- 🦀 **[git-cliff](https://github.com/orhun/git-cliff)**: A highly customizable changelog generator ⛰️.
 - 🦀 **[libpt-bintols](https://git.cscherr.de/PlexSheep/pt)**: Personal multitool.
 - 🦀 **[souko](https://github.com/gifnksm/souko)**: A simple command line utility that provides an easy way to organize clones of remote git repositories.
-- 🦀 **[nyaa](https://github.com/Beastwick18/nyaa/)**: A tui tool for browsing and downloading torrents from nyaa.
 - 🦀 **[avml](https://github.com/microsoft/avml)**: A portable volatile memory acquisition tool.
-- 🦀 **[daktilo_lib](https://github.com/orhun/daktilo)**: Turn your keyboard into a typewriter! 📇.
-- 🦀 **[nust64](https://github.com/rust-n64/nust64)**: Build tools for compiling a Rust project into an N64 ROM.
-- 🦀 **[frontmatter-gen](https://github.com/sebastienrousseau/frontmatter-gen)**: A Rust library for generating and parsing frontmatter in various formats.
-- 🦀 **[fluentci-secrets](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
-- 🦀 **[hoox](https://github.com/replicadse/hoox)**: Git hooks on steroids.
-- 🦀 **[svd2rust](https://github.com/rust-embedded/svd2rust/)**: Generate Rust register maps (`struct`s) from SVD files.
-- 🦀 **[easytier](https://github.com/EasyTier/EasyTier)**: A full meshed p2p VPN, connecting all your devices in one network with one command.
 - 🦀 **[wasm-shrink](https://github.com/bytecodealliance/wasm-tools/tree/main/crates/wasm-shrink)**: A WebAssembly test case shrinker.
+- 🦀 **[nyaa](https://github.com/Beastwick18/nyaa/)**: A tui tool for browsing and downloading torrents from nyaa.
+- 🦀 **[daktilo_lib](https://github.com/orhun/daktilo)**: Turn your keyboard into a typewriter! 📇.
+- 🦀 **[svd2rust](https://github.com/rust-embedded/svd2rust/)**: Generate Rust register maps (`struct`s) from SVD files.
+- 🦀 **[frontmatter-gen](https://github.com/sebastienrousseau/frontmatter-gen)**: A Rust library for generating and parsing frontmatter in various formats.
+- 🦀 **[bacon](https://github.com/Canop/bacon)**: background rust compiler.
+- 🦀 **[hoox](https://github.com/replicadse/hoox)**: Git hooks on steroids.
+- 🦀 **[nust64](https://github.com/rust-n64/nust64)**: Build tools for compiling a Rust project into an N64 ROM.
+- 🦀 **[fluentci-secrets](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
+- 🦀 **[easytier](https://github.com/EasyTier/EasyTier)**: A full meshed p2p VPN, connecting all your devices in one network with one command.
+- 🦀 **[ouch](https://github.com/ouch-org/ouch)**: A command-line utility for easily compressing and decompressing files and directories.
 - 🦀 **[ftzz](https://github.com/SUPERCILEX/ftzz)**: File Tree Fuzzer creates a pseudo-random directory hierarchy filled with some number of files.
 - 🦀 **[ipug](https://github.com/i18n-now/pug-rs)**: pug.
-- 🦀 **[ouch](https://github.com/ouch-org/ouch)**: A command-line utility for easily compressing and decompressing files and directories.
-- 🦀 **[ast-grep-core](https://github.com/ast-grep/ast-grep)**: Search and Rewrite code at large scale using precise AST pattern.
+- 🦀 **[rolldown-ariadne](https://github.com/zesterer/ariadne)**: A fork of github.
+- 🦀 **[cmd_lib](https://github.com/rust-shell-script/rust_cmd_lib)**: Common rust commandline macros and utils, to write shell script like tasks easily.
 - 🦀 **[nskeyedarchiver_converter](https://github.com/michaelwright235/nskeyedarchiver_converter)**: Convert NSKeyedArchiver encoded plists to human readable formats.
 - 🦀 **[git-branchless](https://github.com/arxanas/git-branchless)**: Branchless workflow for Git.
 - 🦀 **[mask-parser](https://github.com/jacobdeichert/mask)**: A parser for the maskfile.
 - 🦀 **[bartib](https://github.com/nikolassv/bartib)**: A simple timetracker for the command line.
-- 🦀 **[async-traceroute](https://github.com/vtramo/async-traceroute)**: Async Traceroute library/command-line tool.
 - 🦀 **[r3bl_tuify](https://github.com/r3bl-org/r3bl-open-core/tree/main/tuify)**: Easily add lightweight TUI capabilities to any CLI apps.
+- 🦀 **[async-traceroute](https://github.com/vtramo/async-traceroute)**: Async Traceroute library/command-line tool.
 - 🦀 **[fluentci-types](null)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
 - 🦀 **[rustic-rs](https://github.com/rustic-rs/rustic)**: rustic - fast, encrypted, deduplicated backups powered by Rust.
 - 🦀 **[shikane](https://gitlab.com/w0lff/shikane)**: dynamic output configuration tool focusing on accuracy and determinism.
 - 🦀 **[porsmo](https://github.com/ColorCookie-dev/porsmo)**: A pomodoro, timer and stopwatch, all in one app.
 - 🦀 **[pastel_colours](https://github.com/jamescoleuk/pastel_colours)**: A selection of pastel colours for use with termion.
+- 🦀 **[clvm_tools_rs](https://github.com/Chia-Network/clvm_tools_rs)**: tools for working with chialisp language; compiler, repl, python and wasm bindings.
+- 🦀 **[aloe-test](https://github.com/klebs6/aloe-rs)**: Aloe Test is a Rust library for managing and running unit tests, providing interfaces for initialization, execution, and result logging of structured tests.
 - 🦀 **[envhub-types](https://github.com/tsirysndr/envhub)**: Manage your dotfiles and packages with ease.
 - 🦀 **[nod](https://github.com/encounter/nod)**: Library for reading GameCube and Wii disc images.
-- 🦀 **[aloe-test](https://github.com/klebs6/aloe-rs)**: Aloe Test is a Rust library for managing and running unit tests, providing interfaces for initialization, execution, and result logging of structured tests.
-- 🦀 **[libpt-math](https://git.cscherr.de/PlexSheep/pt)**: Personal multitool.
-- 🦀 **[rolldown-ariadne](https://github.com/zesterer/ariadne)**: A fork of github.
-- 🦀 **[tuc](https://github.com/riquito/tuc)**: When cut doesn't cut it.
-- 🦀 **[elv](https://github.com/kpagacz/elv)**: A little CLI helper for Advent of Code.
-- 🦀 **[clap-markdown-dfir](https://github.com/janstarke/clap-markdown-dfir)**: Autogenerate Markdown documentation for clap command-line tools.
-- 🦀 **[imgcatr](https://github.com/SilinMeng0510/imgcatr)**: Cat for images.
+- 🦀 **[jetbrains-toolbox-updater](https://github.com/GideonBear/jetbrains-toolbox-updater)**: Application and library that updates JetBrains Toolbox IDE's on demand using some trickery.
 - 🦀 **[fclones](https://github.com/pkolaczk/fclones)**: Finds and removes duplicate files.
+- 🦀 **[libpt-math](https://git.cscherr.de/PlexSheep/pt)**: Personal multitool.
+- 🦀 **[aloe-core](https://github.com/klebs6/aloe-rs)**: Aloe-Core is a Rust library to facilitate advanced Rust-Objective-C interoperability, focusing on command-line applications, system utilities, and memory-safe handling of Objective-C objects.
+- 🦀 **[tuc](https://github.com/riquito/tuc)**: When cut doesn't cut it.
+- 🦀 **[clap-markdown-dfir](https://github.com/janstarke/clap-markdown-dfir)**: Autogenerate Markdown documentation for clap command-line tools.
+- 🦀 **[elv](https://github.com/kpagacz/elv)**: A little CLI helper for Advent of Code.
+- 🦀 **[imgcatr](https://github.com/SilinMeng0510/imgcatr)**: Cat for images.
+- 🦀 **[tex-fmt](https://github.com/WGUNDERWOOD/tex-fmt)**: LaTeX formatter written in Rust.
 - 🦀 **[mdbook-utils](https://github.com/john-cd/mdbook-utils/)**: Tools to manage links, reference definitions, and code examples in Markdown files, especially `mdbook` source directories.
 - 🦀 **[keepass-dump-extractor](https://github.com/JorianWoltjer/keepass-dump-extractor)**: Find and collect parts of a Keepass master key to recover it in plain text from a memory dump.
-- 🦀 **[uwu-rs](https://github.com/SandroHc/uwu-rs)**: uwuifying library.
 - 🦀 **[govee-api](https://github.com/mgierada/govee)**: A blazingly fast thin wrapper around the public Govee API written in Rust.
+- 🦀 **[uwu-rs](https://github.com/SandroHc/uwu-rs)**: uwuifying library.
 - 🦀 **[git-calver](https://github.com/takebayashi/git-calver)**: carlendar versioning utility.
+- 🦀 **[code-minimap](https://github.com/wfxr/code-minimap)**: A high performance code minimap generator.
 - 🦀 **[unicode-icons](https://github.com/Arteiii/unicode-icons)**: (1869+) unicode icons in rust.
 - 🦀 **[pace_time](https://github.com/pace-rs/pace)**: pace-time - a library for handling date times, ranges, and durations for pace.
-- 🦀 **[aloe-core](https://github.com/klebs6/aloe-rs)**: Aloe-Core is a Rust library to facilitate advanced Rust-Objective-C interoperability, focusing on command-line applications, system utilities, and memory-safe handling of Objective-C objects.
-- 🦀 **[rweather-decoder](https://github.com/meandair/rweather-decoder)**: Decoders of various weather reports.
-- 🦀 **[code-minimap](https://github.com/wfxr/code-minimap)**: A high performance code minimap generator.
 - 🦀 **[viral32111-stomp](https://github.com/viral32111/stomp)**: STOMP client crate for my Rust projects.
+- 🦀 **[rweather-decoder](https://github.com/meandair/rweather-decoder)**: Decoders of various weather reports.
 - 🦀 **[qsspodcasts_podcast_management](https://github.com/Quessou/qsspodcasts)**: podcast management library for QSSPodcasts, you probably don't need it.
-- 🦀 **[tex-fmt](https://github.com/WGUNDERWOOD/tex-fmt)**: LaTeX formatter written in Rust.
+- 🦀 **[aloe-events](https://github.com/klebs6/aloe-rs)**: Aloe-events provides a framework for interprocess communication and event management, with support for message passing between processes using sockets or named pipes and event-driven application design.
+- 🦀 **[gnostr](https://github.com/gnostr-org/gnostr)**: gnostr:a git+nostr workflow utility.
 - 🦀 **[diskus](https://github.com/sharkdp/diskus)**: A minimal, fast alternative to 'du -sh'.
 - 🦀 **[argc](https://github.com/sigoden/argc)**: A bash cli framework, also a bash-based command runner.
 - 🦀 **[proplate-tui](https://github.com/YumeT023/proplate)**: Proplate is a CLI tool that allows you to quickly create and set up project structures based on templates, and also create your own templates for your future projects.
 - 🦀 **[viral32111-xml](https://github.com/viral32111/xml)**: XML parser crate for my Rust projects.
-- 🦀 **[aloe-events](https://github.com/klebs6/aloe-rs)**: Aloe-events provides a framework for interprocess communication and event management, with support for message passing between processes using sockets or named pipes and event-driven application design.
 - 🦀 **[kittysay](https://github.com/uncenter/kittysay)**: cowsay, but with a cute kitty :3.
 - 🦀 **[rusti-cal](https://github.com/arthurhenrique/rusti-cal)**: ⚡️ Lightning-fast and minimal calendar command line.
 - 🦀 **[the-way](https://github.com/out-of-cheese-error/the-way)**: A code snippets manager for your terminal.
-- 🦀 **[bacon](https://github.com/Canop/bacon)**: background rust compiler.
 - 🦀 **[cargo-lookup](https://github.com/collinoc/cargo-lookup)**: Command-line crate registry index querying for Cargo.
-- 🦀 **[clvm_tools_rs](https://github.com/Chia-Network/clvm_tools_rs)**: tools for working with chialisp language; compiler, repl, python and wasm bindings.
-- 🦀 **[jetbrains-toolbox-updater](https://github.com/GideonBear/jetbrains-toolbox-updater)**: Application and library that updates JetBrains Toolbox IDE's on demand using some trickery.
 - 🦀 **[pace_core](https://github.com/pace-rs/pace)**: pace-core - library to support timetracking on the command line.
 - 🦀 **[pacdef_core](https://github.com/steven-omaha/pacdef/tree/main/crates/pacdef_core)**: pacdef core library.
-- 🦀 **[libpt-net](https://git.cscherr.de/PlexSheep/pt)**: Personal multitool.
 - 🦀 **[ahref](https://github.com/tenqz/ahref)**: Extract 'a' tags from html page.
+- 🦀 **[libpt-net](https://git.cscherr.de/PlexSheep/pt)**: Personal multitool.
 - 🦀 **[nml2](https://github.com/thorstenhater/nmlcc)**: Convert nmlcc neuro science components into Arbor data formats.
+- 🦀 **[broot](https://github.com/Canop/broot)**: File browser and launcher.
 - 🦀 **[tokiocli](https://github.com/guillaumepellegrino/tokiocli)**: An Unix CLI based on Tokio.
 - 🦀 **[blockish](https://github.com/yazgoo/blockish)**: display images in a terminal with UTF8 blocks.
 - 🦀 **[daktilo](https://github.com/orhun/daktilo)**: Turn your keyboard into a typewriter! 📇.
-- 🦀 **[rink](https://github.com/tiffany352/rink-rs)**: Unit conversion tool, similar to frink.
-- 🦀 **[ansi-style](https://github.com/martial-plains/ansi-style)**: ANSI escape codes for styling strings in the terminal.
-- 🦀 **[shrs_line](https://github.com/MrPicklePinosaur/shrs)**: readline implementation.
 - 🦀 **[sop](https://gitlab.com/sequoia-pgp/sop-rs)**: Rust Interface for the Stateless OpenPGP Interface.
+- 🦀 **[ansi-style](https://github.com/martial-plains/ansi-style)**: ANSI escape codes for styling strings in the terminal.
+- 🦀 **[rink](https://github.com/tiffany352/rink-rs)**: Unit conversion tool, similar to frink.
+- 🦀 **[shrs_line](https://github.com/MrPicklePinosaur/shrs)**: readline implementation.
+- 🦀 **[jql](https://github.com/yamafaktory/jql)**: jql - JSON Query Language - is a fast and simple command-line tool to manipulate JSON data.
+- 🦀 **[patch-crate](https://github.com/mokeyish/cargo-patch-crate)**: patch-crate lets rust developer instantly make and keep fixes to rust crate dependencies.
 - 🦀 **[prayterm](https://github.com/nomissbowling/prayterm)**: realtime play nonblocking terminal for Rust with crossterm.
 - 🦀 **[qsspodcasts_path_providing](https://github.com/Quessou/qsspodcasts)**: Path providing utilities for QSSPodcasts, you probably don't need it.
+- 🦀 **[uu_whoami](https://github.com/uutils/coreutils/tree/main/src/uu/whoami)**: whoami ~ (uutils) display user name of current effective user ID.
 - 🦀 **[planturl](https://github.com/migmedia/planturl)**: A plantuml-file to server-url-encoder and downloader.
 - 🦀 **[fuzzy_finder](https://github.com/jamescoleuk/fuzzy_finder)**: A fuzzy finding UI for CLI applications written in Rust.
-- 🦀 **[broot](https://github.com/Canop/broot)**: File browser and launcher.
+- 🦀 **[uu_uname](https://github.com/uutils/coreutils/tree/main/src/uu/uname)**: uname ~ (uutils) display system information.
+- 🦀 **[rustdoc-md](https://github.com/tqwewe/rustdoc-md)**: Convert Rust documentation JSON into clean, organized Markdown files.
 - 🦀 **[runiq](https://github.com/whitfin/runiq)**: An efficient way to filter duplicate lines from input, à la uniq.
 - 🦀 **[sdkman-cli-native](https://github.com/xs-fork/sdkman-cli-native)**: Native CLI subcommand components for SDKMAN! written in Rust.
 - 🦀 **[asciidoctrine](https://github.com/kober-systems/literate_programming_toolsuite)**: process asciidoc files.
-- 🦀 **[uu_whoami](https://github.com/uutils/coreutils/tree/main/src/uu/whoami)**: whoami ~ (uutils) display user name of current effective user ID.
 - 🦀 **[xvc-workflow-tests](https://github.com/iesahin/xvc)**: Integration test suite for Xvc.
-- 🦀 **[jql](https://github.com/yamafaktory/jql)**: jql - JSON Query Language - is a fast and simple command-line tool to manipulate JSON data.
-- 🦀 **[patch-crate](https://github.com/mokeyish/cargo-patch-crate)**: patch-crate lets rust developer instantly make and keep fixes to rust crate dependencies.
-- 🦀 **[scidataflow](https://github.com/vsbuffalo/scidataflow)**: A command-line tool to manage scientific research project data.
 - 🦀 **[pager-rs](https://github.com/ketenburhan/pager-rs)**: Cross-platform, customizable terminal pager library for rust.
-- 🦀 **[uu_uname](https://github.com/uutils/coreutils/tree/main/src/uu/uname)**: uname ~ (uutils) display system information.
+- 🦀 **[scidataflow](https://github.com/vsbuffalo/scidataflow)**: A command-line tool to manage scientific research project data.
 - 🦀 **[proplate-errors](https://github.com/YumeT023/proplate)**: Proplate is a CLI tool that allows you to quickly create and set up project structures based on templates, and also create your own templates for your future projects.
+- 🦀 **[viceroy](https://github.com/fastly/Viceroy)**: Viceroy is a local testing daemon for Fastly Compute.
 - 🦀 **[altio](https://github.com/oooutlk/altio)**: Automating command tools by simulating piped io in process.
 - 🦀 **[halp](https://github.com/orhun/halp)**: A CLI tool to get help with CLI tools 🐙.
 - 🦀 **[dizi](https://github.com/kamiyaa/dizi)**: Terminal music player inspired by moc.
@@ -317,2620 +318,2638 @@
 - 🦀 **[minefield](https://github.com/nomissbowling/minefield)**: minefield abstract layer for mine sweeper by Rust.
 - 🦀 **[mints](https://github.com/mmmmminty/terminal_mints)**: A crate containing a few simple command-line procrastination 'tools' :).
 - 🦀 **[qsspodcasts_fs_utils](https://github.com/Quessou/qsspodcasts)**: filesystem utils for QSSPodcasts.
+- 🦀 **[bacon-ls](https://github.com/crisidev/bacon-ls)**: Bacon Language Server.
 - 🦀 **[csv-to-html](https://github.com/somecho/csv-to-html)**: Convert CSV to HTML table.
-- 🦀 **[rustdoc-md](https://github.com/tqwewe/rustdoc-md)**: Convert Rust documentation JSON into clean, organized Markdown files.
+- 🦀 **[kopium](https://github.com/kube-rs/kopium)**: kubernetes openapi unmangler.
+- 🦀 **[emacs-lsp-booster](https://github.com/blahgeek/emacs-lsp-booster)**: Emacs LSP performance booster.
 - 🦀 **[pause_console](https://github.com/MeowningMaster/pause_console)**: Pauses the console.
 - 🦀 **[vimcats](https://github.com/mrcjkb/vimcats)**: LuaCATS parser and vimdoc transformer.
 - 🦀 **[ksre-tui](https://github.com/xs-fork/ksre)**: ksre-tui is a k8s visual command line tool.
 - 🦀 **[unlock_excel](https://github.com/jmacadie/unlock_excel)**: Small command line utility to inspect or remove the VBA protection status of Excel files.
-- 🦀 **[viceroy](https://github.com/fastly/Viceroy)**: Viceroy is a local testing daemon for Fastly Compute.
-- 🦀 **[umgap](https://github.com/unipept/umgap)**: The Unipept Metagenomics Analysis Pipeline.
 - 🦀 **[blob-dl](https://github.com/MicheleCioccarelli/blob-dl)**: A cli tool to make downloading youtube content easy, based on yt-dlp.
-- 🦀 **[kopium](https://github.com/kube-rs/kopium)**: kubernetes openapi unmangler.
 - 🦀 **[noel](https://github.com/alejandrogzi/noel)**: A GTF/GFF per gene non-overlapping exon length calculator.
-- 🦀 **[emacs-lsp-booster](https://github.com/blahgeek/emacs-lsp-booster)**: Emacs LSP performance booster.
+- 🦀 **[umgap](https://github.com/unipept/umgap)**: The Unipept Metagenomics Analysis Pipeline.
 - 🦀 **[envhub-pkgs](https://github.com/tsirysndr/envhub)**: Manage your dotfiles and packages with ease.
-- 🦀 **[bacon-ls](https://github.com/crisidev/bacon-ls)**: Bacon Language Server.
 - 🦀 **[falion](https://github.com/Obscurely/falion)**: An open source, programmed in rust, privacy focused tool and crate for interacting with programming resources (like stackoverflow) fast, efficiently and asynchronously/parallel using the CLI or GUI.
 - 🦀 **[imdb-id](https://codeberg.org/alpha-tango-kilo/imdb-id)**: Get IMDb IDs using a commandline search tool.
-- 🦀 **[cmd_lib](https://github.com/rust-shell-script/rust_cmd_lib)**: Common rust commandline macros and utils, to write shell script like tasks easily.
 - 🦀 **[jdks](https://github.com/tonycody/jdks)**: This is a JDK package management tool, based on Rust.
 - 🦀 **[aimo](https://github.com/moniverse/aimo)**: just another [ai] model orchestrator.
-- 🦀 **[bom-buddy](https://github.com/sublipri/bom-buddy)**: Australian weather CLI utility.
 - 🦀 **[leetup-cache](https://github.com/dragfire/leetup)**: Cache.
-- 🦀 **[envhub-ext](https://github.com/tsirysndr/envhub)**: Manage your dotfiles and packages with ease.
+- 🦀 **[bom-buddy](https://github.com/sublipri/bom-buddy)**: Australian weather CLI utility.
 - 🦀 **[kanata](https://github.com/jtroo/kanata)**: Multi-layer keyboard customization.
+- 🦀 **[envhub-ext](https://github.com/tsirysndr/envhub)**: Manage your dotfiles and packages with ease.
 - 🦀 **[rs_pbrt](https://github.com/wahn/rs_pbrt)**: Physically based rendering (PBR) with Rust.
-- 🦀 **[cargo-rhack](https://github.com/simonsan/cargo-rhack)**: Temporarily edit your Cargo dependencies.
 - 🦀 **[rsb](https://github.com/gamelife1314/rsb)**: a http server benchmark tool, written in rust.
+- 🦀 **[cargo-rhack](https://github.com/simonsan/cargo-rhack)**: Temporarily edit your Cargo dependencies.
 - 🦀 **[cargo-run](https://github.com/rsaz/cargo-script)**: A CLI tool to run custom scripts in Rust, defined in Scripts.
 - 🦀 **[petridish](https://github.com/petridish-dev/petridish)**: A command-line utility that creates project layout.
+- 🦀 **[xdgkit2](https://github.com/loyalpartner/xdgkit)**: A command line kit for XDG specs.
 - 🦀 **[proplate-integration](https://github.com/YumeT023/proplate)**: Proplate is a CLI tool that allows you to quickly create and set up project structures based on templates, and also create your own templates for your future projects.
 - 🦀 **[adaptemoji](https://github.com/adaptemoji/adaptemoji)**: Convert your regular Telegram emojis into adaptive monochrome versions.
-- 🦀 **[xdgkit2](https://github.com/loyalpartner/xdgkit)**: A command line kit for XDG specs.
-- 🦀 **[git-sumi](https://github.com/welpo/git-sumi)**: Non-opinionated commit message linter.
 - 🦀 **[editpe](https://github.com/Systemcluster/editpe)**: Resource Editor for parsing and modification of Windows Portable Executables and their resources.
+- 🦀 **[git-sumi](https://github.com/welpo/git-sumi)**: Non-opinionated commit message linter.
+- 🦀 **[maturin](https://github.com/pyo3/maturin)**: Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages.
 - 🦀 **[atomblocks](https://github.com/milchinskiy/atomblocks)**: async, absolutely lightweight and dead simple bar for dwm and similar window managers.
 - 🦀 **[crustabri](https://github.com/crillab/crustabri)**: An argumentation framework library & solver.
-- 🦀 **[rtz-core](https://github.com/twitchax/rtz)**: The core functionality for `rtz`.
-- 🦀 **[scout-audit-internal](https://github.com/CoinFabrik/scout-soroban)**: Scout is an extensible open-source tool intended to assist soroban smart contract developers and auditors detect common security issues and deviations from best practices.
 - 🦀 **[musage](https://github.com/mihaigalos/musage)**: 🧵 A command line memory usage information tool.
 - 🦀 **[qsspodcasts_rss_management](https://github.com/Quessou/qsspodcasts)**: RSS feed management utilites for QSSPodcasts, you probably don't need it.
+- 🦀 **[rtz-core](https://github.com/twitchax/rtz)**: The core functionality for `rtz`.
+- 🦀 **[scout-audit-internal](https://github.com/CoinFabrik/scout-soroban)**: Scout is an extensible open-source tool intended to assist soroban smart contract developers and auditors detect common security issues and deviations from best practices.
 - 🦀 **[nodtool](https://github.com/encounter/nod)**: CLI tool for verifying and converting GameCube and Wii disc images.
+- 🦀 **[fluentci-ext](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
 - 🦀 **[tuiwindow](https://github.com/untitled-/tuiwindow)**: A minimal window and focus manager for Ratatui+Crossterm TUI applications.
 - 🦀 **[unlicense](https://github.com/senekor/unlicense)**: Access the text of the Unlicense.
-- 🦀 **[fluentci-ext](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
 - 🦀 **[MMDB_Server](null)**: {InDev} A simple,easy to use database server.
 - 🦀 **[uu_renice](https://github.com/uutils/procps/tree/main/src/uu/renice)**: renice ~ (uutils) Alter priority of running processes.
+- 🦀 **[c2rust-build-paths](https://github.com/immunant/c2rust/)**: C2Rust utilities related to build paths, primarily at build time.
 - 🦀 **[bvr](https://github.com/Avarel/bvr)**: A pager designed to help you chew through logs.
 - 🦀 **[iasc](https://gitlab.com/haruki7049/iasc)**: an Ip-address And Subnet-mask Calculator.
 - 🦀 **[bwdraw](https://github.com/TheNickOfMax/bwdraw)**: Terminal drawing library whithout y-axis stretching.
-- 🦀 **[runst](https://github.com/orhun/runst)**: A dead simple notification daemon 🦡.
+- 🦀 **[c2rust-ast-builder](https://github.com/immunant/c2rust/)**: Rust AST builder support crate for the C2Rust project.
 - 🦀 **[a-puzzle-a-day](https://github.com/mrbjarksen/a-puzzle-a-day)**: Generate and browse all solutions to A-Puzzle-A-Day.
+- 🦀 **[rmesg](https://github.com/archisgore/rmesg)**: This is a fully Rust-based implementation of the popular dmesg Linux utility, giving programmatic access to the kernel log buffer.
+- 🦀 **[runst](https://github.com/orhun/runst)**: A dead simple notification daemon 🦡.
+- 🦀 **[c2rust-ast-exporter](https://github.com/immunant/c2rust/)**: Clang AST extraction API for use in the C2Rust project.
 - 🦀 **[sane-fmt](https://github.com/sane-fmt/sane-fmt.git)**: Opinionated code formatter for TypeScript and JavaScript.
 - 🦀 **[ssstar-testing](https://github.com/elastio/ssstar)**: Library of testing helpers to make it easier to write test fixtures.
-- 🦀 **[c2rust-build-paths](https://github.com/immunant/c2rust/)**: C2Rust utilities related to build paths, primarily at build time.
 - 🦀 **[eqo](https://github.com/sakanjo/catcho)**: Listen for triggers and execute actions seamlessly.
 - 🦀 **[phylotree](https://github.com/lucblassel/phylotree-rs)**: A crate to deal with phylogenetic trees and distance matrices.
 - 🦀 **[aarty](https://github.com/0x61nas/aarty)**: Mini-framework to display pictures on your terminal.
-- 🦀 **[c2rust-ast-builder](https://github.com/immunant/c2rust/)**: Rust AST builder support crate for the C2Rust project.
+- 🦀 **[c2rust-ast-printer](https://github.com/immunant/c2rust/)**: Customized version of libsyntax rust pretty-printer.
 - 🦀 **[uwu_wasm](https://github.com/SandroHc/uwu-rs/tree/master/crates/uwu_wasm)**: uwuifying the web.
 - 🦀 **[bbolt-rs](https://github.com/ambaxter/bbolt-rs)**: A Rust port of the Bolt database.
-- 🦀 **[c2rust-ast-exporter](https://github.com/immunant/c2rust/)**: Clang AST extraction API for use in the C2Rust project.
+- 🦀 **[onefetch](https://github.com/o2sh/onefetch)**: Command-line Git information tool.
 - 🦀 **[akli](https://github.com/anonklub/anonklub/tree/main/pkgs/cli)**: Command line to interact with anonklub query api (https://anonset.
 - 🦀 **[disma](https://github.com/vigenere23/disma)**: Discord server management has never been easier!.
-- 🦀 **[c2rust-ast-printer](https://github.com/immunant/c2rust/)**: Customized version of libsyntax rust pretty-printer.
 - 🦀 **[wildpath](https://github.com/Matyasz/wildpath)**: A library to find all filepaths that fit a given pattern.
-- 🦀 **[bed2gff](https://github.com/alejandrogzi/bed2gff3)**: A Rust BED-to-GFF3 parallel translator.
-- 🦀 **[bashrand](https://github.com/JorianWoltjer/BashRandomCracker)**: Crack Bash's $RANDOM variable with 2-3 samples.
 - 🦀 **[digs](https://github.com/BiznetGIO/digs)**: digs many at once.
 - 🦀 **[nextver](https://github.com/t-mart/nextver)**: A library for parsing and incrementing arbitrarily-formatted versions.
-- 🦀 **[rmesg](https://github.com/archisgore/rmesg)**: This is a fully Rust-based implementation of the popular dmesg Linux utility, giving programmatic access to the kernel log buffer.
-- 🦀 **[onefetch](https://github.com/o2sh/onefetch)**: Command-line Git information tool.
-- 🦀 **[mhost](https://github.com/lukaspustina/mhost.git)**: More than host - A modern take on the classic host DNS lookup utility including an easy to use and very fast Rust lookup library.
+- 🦀 **[bashrand](https://github.com/JorianWoltjer/BashRandomCracker)**: Crack Bash's $RANDOM variable with 2-3 samples.
+- 🦀 **[bed2gff](https://github.com/alejandrogzi/bed2gff3)**: A Rust BED-to-GFF3 parallel translator.
 - 🦀 **[analyse-json](https://github.com/cbrown1234/analyse-json)**: analyse-json is a CLI tool for inspecting (Newline Delimited) NDJSON or JSON to understand the contents.
 - 🦀 **[html2maud](https://github.com/grayfallstown/html2maud)**: html2maud is a library / cli to convert html to maud template code.
+- 🦀 **[mhost](https://github.com/lukaspustina/mhost.git)**: More than host - A modern take on the classic host DNS lookup utility including an easy to use and very fast Rust lookup library.
+- 🦀 **[litra](https://github.com/timrogers/litra-rs)**: Control your Logitech Litra light from the command line.
 - 🦀 **[crepe-bordeaux](https://github.com/Mcmartelle/crepe-bordeaux)**: The cross-platform clipboard cli tool.
 - 🦀 **[horned-bin](https://github.com/phillord/horned-owl)**: Command Line tools for OWL Ontologies.
 - 🦀 **[termioff](https://github.com/nomissbowling/termioff)**: terminal utilities for Rust with termion.
-- 🦀 **[cat-ascii-faces](https://github.com/blyxyas/cat-ascii-faces)**: A library to generate random ASCII cat faces + binary to print them out.
 - 🦀 **[tag](https://github.com/miampf/tag)**: Search for local text files with a simple tagging system.
-- 🦀 **[litra](https://github.com/timrogers/litra-rs)**: Control your Logitech Litra light from the command line.
-- 🦀 **[qsspodcasts_podcast_download](https://github.com/Quessou/qsspodcasts)**: Podcast download utilities for QSSPodcasts, you probably don't need it.
-- 🦀 **[leetup](https://github.com/dragfire/leetup)**: Leetcode cli.
 - 🦀 **[cargo-unc](https://github.com/utnet-org/cargo-unc)**: Cargo extension for building Rust smart contracts on UNC.
-- 🦀 **[pace_cli](https://github.com/pace-rs/pace)**: pace-cli - library to support timetracking on the command line.
-- 🦀 **[heartless](https://github.com/oooutlk/heartless)**: a card game inspired by mshearts.
-- 🦀 **[aki-gsub](https://github.com/aki-akaguma/aki-gsub)**: substitude text command, replace via regex.
-- 🦀 **[sub-solver](https://github.com/JorianWoltjer/SubSolver)**: Solve Substitution Ciphers using a wordlist.
-- 🦀 **[age-plugin-tlock](https://github.com/thibmeu/tlock-rs)**: tlock plugin for age clients.
+- 🦀 **[cat-ascii-faces](https://github.com/blyxyas/cat-ascii-faces)**: A library to generate random ASCII cat faces + binary to print them out.
 - 🦀 **[himalaya](https://github.com/pimalaya/himalaya/)**: CLI to manage emails.
+- 🦀 **[leetup](https://github.com/dragfire/leetup)**: Leetcode cli.
+- 🦀 **[qsspodcasts_podcast_download](https://github.com/Quessou/qsspodcasts)**: Podcast download utilities for QSSPodcasts, you probably don't need it.
+- 🦀 **[heartless](https://github.com/oooutlk/heartless)**: a card game inspired by mshearts.
+- 🦀 **[pace_cli](https://github.com/pace-rs/pace)**: pace-cli - library to support timetracking on the command line.
+- 🦀 **[aki-gsub](https://github.com/aki-akaguma/aki-gsub)**: substitude text command, replace via regex.
 - 🦀 **[mrh](https://github.com/tshepang/mrh)**: Crawls filesystem and displays pending status of each git repo found.
+- 🦀 **[age-plugin-tlock](https://github.com/thibmeu/tlock-rs)**: tlock plugin for age clients.
 - 🦀 **[qsspodcasts_data_transport](https://github.com/Quessou/qsspodcasts)**: Data transport utilities for QSSPodcasts, you probably don't need it.
-- 🦀 **[mainframe](https://github.com/mdLafrance/mainframe)**: A lightweight TUI system monitor.
+- 🦀 **[sub-solver](https://github.com/JorianWoltjer/SubSolver)**: Solve Substitution Ciphers using a wordlist.
+- 🦀 **[kders](https://github.com/COMBINE-lab/kde-rs)**: A basic library for 2D kernel density estimation.
 - 🦀 **[nmuidi](https://github.com/Dillonb/nmuidi)**: Parallelizes deleting directories which can significantly speed up deleting large deeply nested directories with a large number of files on Windows.
 - 🦀 **[cli-diary](https://github.com/BenGale93/cli-diary)**: A CLI based diary tool for adding entries on the fly.
 - 🦀 **[ixv](https://github.com/Karthik-d-k/ixv)**: A CLI application for verifying intel hex file.
+- 🦀 **[mainframe](https://github.com/mdLafrance/mainframe)**: A lightweight TUI system monitor.
 - 🦀 **[gxf2chrom](https://github.com/alejandrogzi/gxf2chrom)**: Everything in .
-- 🦀 **[fclicache](https://github.com/Miyoshi-Ryota/fclicache)**: fclicache is a command-line utility that caches the output of resource-intensive commands, enabling faster retrieval of results when the same commands are executed repeatedly within a specified Time-to-Live (TTL) period.
 - 🦀 **[grass-repository-assistant](https://github.com/damymetzke/grass)**: Grouped Repository Assistant - Manage your repositories throught the CLI.
 - 🦀 **[mntime](https://github.com/arkbig/mntime)**: Execute "m" commands "n" times to calculate mean of usage time and memory.
-- 🦀 **[pwdm](https://github.com/OTheDev/pwdm)**: Rudimentary command-line tool and Rust library for managing passwords.
-- 🦀 **[witty-phrase-generator](https://github.com/Exr0nProjects/witty-phrase-generator)**: Generates witty three-word phrases suitable for memorable default names.
+- 🦀 **[fclicache](https://github.com/Miyoshi-Ryota/fclicache)**: fclicache is a command-line utility that caches the output of resource-intensive commands, enabling faster retrieval of results when the same commands are executed repeatedly within a specified Time-to-Live (TTL) period.
 - 🦀 **[fluentci-core](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
+- 🦀 **[witty-phrase-generator](https://github.com/Exr0nProjects/witty-phrase-generator)**: Generates witty three-word phrases suitable for memorable default names.
+- 🦀 **[c2rust](https://github.com/immunant/c2rust/)**: C to Rust translation, refactoring, and cross-checking.
+- 🦀 **[pwdm](https://github.com/OTheDev/pwdm)**: Rudimentary command-line tool and Rust library for managing passwords.
 - 🦀 **[qk](https://github.com/zd4y/qk)**: CLI for quickly starting new projects.
 - 🦀 **[shrs_mux](https://github.com/MrPicklePinosaur/shrs)**: shell language multiplexer.
-- 🦀 **[kders](https://github.com/COMBINE-lab/kde-rs)**: A basic library for 2D kernel density estimation.
 - 🦀 **[suukon](https://gitlab.com/pSchwietzer/suukon)**: Library and CLI for converting numbers between numeral systems.
-- 🦀 **[wareki-conv](https://github.com/kv5h/wareki-conv)**: Converts Wareki (JIS X 0301) based date into ISO 8601 based one.
-- 🦀 **[firework-rs](https://github.com/Wayoung7/firework-rs)**: A cross-platform ascii-art firework simulator in terminal.
 - 🦀 **[arcs-ctf_yaml-parser](null)**: A tool to parse and verify the format of YAML files for the ARCS CTF framework.
-- 🦀 **[hashdeep-compare](https://github.com/kklibo/hashdeep-compare)**: A comparison tool for log files generated by the Hashdeep file storage auditing tool.
+- 🦀 **[firework-rs](https://github.com/Wayoung7/firework-rs)**: A cross-platform ascii-art firework simulator in terminal.
+- 🦀 **[wareki-conv](https://github.com/kv5h/wareki-conv)**: Converts Wareki (JIS X 0301) based date into ISO 8601 based one.
 - 🦀 **[arun](https://github.com/jeremychone/rust-arun)**: Library & Command-line runner tool.
+- 🦀 **[hashdeep-compare](https://github.com/kklibo/hashdeep-compare)**: A comparison tool for log files generated by the Hashdeep file storage auditing tool.
 - 🦀 **[super_speedy_syslog_searcher](https://github.com/jtmoon79/super-speedy-syslog-searcher)**: Speedily search and merge log messages by datetime.
-- 🦀 **[zedl-grep](https://github.com/martinledl/zedl-grep-rust)**: A tool to search for text in files recursively.
-- 🦀 **[c2rust](https://github.com/immunant/c2rust/)**: C to Rust translation, refactoring, and cross-checking.
-- 🦀 **[gnostr-legit](https://github.com/gnostr-org/gnostr-legit.git)**: gnostr-legit: blob manager and pow miner.
 - 🦀 **[toolforge](https://gitlab.wikimedia.org/repos/mwbot-rs/toolforge)**: Small library for common tasks on Wikimedia Toolforge.
+- 🦀 **[complate](https://github.com/replicadse/complate)**: A powerful text templating tool.
+- 🦀 **[gnostr-legit](https://github.com/gnostr-org/gnostr-legit.git)**: gnostr-legit: blob manager and pow miner.
+- 🦀 **[zedl-grep](https://github.com/martinledl/zedl-grep-rust)**: A tool to search for text in files recursively.
 - 🦀 **[lupp](https://github.com/fredr/lupp)**: Commandline tool for colorizing logs.
 - 🦀 **[countroo](https://github.com/theHamdiz/countroo)**: Countroo is a tool to give basic code analysis inside your rust projects, it supports line counting, module counting, dependency counting, project listing as well as Rust Edition & rustc Version detection.
 - 🦀 **[projclean](https://github.com/sigoden/projclean)**: Project dependencies & build artifacts cleanup tool.
-- 🦀 **[complate](https://github.com/replicadse/complate)**: A powerful text templating tool.
+- 🦀 **[dfw](https://github.com/pitkley/dfw.git)**: Docker firewall framework, in Rust.
 - 🦀 **[mbeah-grrs](https://github.com/Kratosgado/grrs)**: A tool to search files.
+- 🦀 **[C4lc](https://github.com/Swoiksdmop/C4lc)**: A program to help you access the public functions in this code and to perform mathematical calculations, including addition, subtraction, multiplication and division.
+- 🦀 **[gen-completions](https://github.com/ysthakur/gen-completions)**: Generate Bash/Zsh completions from manpages or JSON/KDL files.
 - 🦀 **[keyset](https://github.com/staticintlucas/keyset-rs)**: A Rust tool to create pretty keyset layout diagrams using correct fonts and icons.
 - 🦀 **[qsspodcasts_podcast_player](https://github.com/Quessou/qsspodcasts)**: Podcast player library for QSSPodcasts, you probably don't need it.
-- 🦀 **[C4lc](https://github.com/Swoiksdmop/C4lc)**: A program to help you access the public functions in this code and to perform mathematical calculations, including addition, subtraction, multiplication and division.
-- 🦀 **[dfw](https://github.com/pitkley/dfw.git)**: Docker firewall framework, in Rust.
 - 🦀 **[todo-cli-app](https://github.com/wujackwill/todo)**: yet another todo CLI app written in Rust.
 - 🦀 **[bitwarden-pin](https://github.com/JorianWoltjer/bitwarden-pin-bruteforce)**: Brute force any Bitwarden PIN from storage or in-memory.
-- 🦀 **[gen-completions](https://github.com/ysthakur/gen-completions)**: Generate Bash/Zsh completions from manpages or JSON/KDL files.
+- 🦀 **[byteblitz](https://github.com/noahra/byteblitz)**: A tool to examine the binary contents of files.
 - 🦀 **[neverest](https://github.com/soywod/neverest/)**: CLI to synchronize and backup emails.
+- 🦀 **[wash-cli](https://github.com/wasmCloud/wasmCloud)**: wasmCloud Shell (wash) CLI tool.
 - 🦀 **[pktstrings](https://github.com/JamoBox/pktstrings)**: Like Unix 'strings' command but packet-aware.
 - 🦀 **[rtz-build](https://github.com/twitchax/rtz)**: The build crate for `rtz`.
-- 🦀 **[wash-cli](https://github.com/wasmCloud/wasmCloud)**: wasmCloud Shell (wash) CLI tool.
-- 🦀 **[byteblitz](https://github.com/noahra/byteblitz)**: A tool to examine the binary contents of files.
-- 🦀 **[maturin](https://github.com/pyo3/maturin)**: Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages.
-- 🦀 **[rpick](https://github.com/bowlofeggs/rpick)**: Helps you pick items from a list by various algorithms.
+- 🦀 **[libhaystack](https://github.com/j2inn/libhaystack/)**: Rust implementation of the Haystack 4 data types, defs, filter, units, and encodings.
+- 🦀 **[shrs_cd_tools](https://github.com/MrPicklePinosaur/shrs)**: Variety of utilities for running commands conditionally on directory change.
 - 🦀 **[shrs_command_timer](https://github.com/MrPicklePinosaur/shrs)**: shrs plugin to time how long the previous command took to run.
 - 🦀 **[sig-bitmap](https://github.com/clickyotomy/sig-bitmap)**: Interpret Signal Bitmaps for a Process.
-- 🦀 **[shrs_cd_tools](https://github.com/MrPicklePinosaur/shrs)**: Variety of utilities for running commands conditionally on directory change.
 - 🦀 **[anytest](https://github.com/timfjord/anytest-cli)**: Run any test from your terminal.
+- 🦀 **[rpick](https://github.com/bowlofeggs/rpick)**: Helps you pick items from a list by various algorithms.
+- 🦀 **[aloe-caret-component](https://github.com/klebs6/aloe-rs)**: A custom caret component library for GUI applications, offering color customization and visibility control based on keyboard focus.
 - 🦀 **[cairo-args-runner](https://github.com/neotheprogramist/cairo-args-runner)**: Cairo Args Runner is a utility designed to execute Cairo programs with arguments directly from the command line.
-- 🦀 **[hac-config](https://github.com/wllfaria/hac)**: your handy API client, on your terminal!.
 - 🦀 **[cax](https://github.com/tobimd/cax)**: mini-parser for converting custom codes into ansi escape sequences (terminal colors & styles).
 - 🦀 **[dev-workspaces](https://github.com/czifro/dev-workspaces)**: A dev tool to simplify working with workspace directories.
+- 🦀 **[hac-config](https://github.com/wllfaria/hac)**: your handy API client, on your terminal!.
 - 🦀 **[fastpasta](https://gitlab.cern.ch/mkonig/fastpasta)**: CLI for verifying or examining readout data from the ALICE detector.
+- 🦀 **[gsutil](https://github.com/EmbarkStudios/gsutil)**: Incomplete replacement for the official gsutil.
 - 🦀 **[pgpt](https://github.com/ammar-ahmed22/pgpt)**: A CLI to ask ChatGPT anything with pretty markdown rendering (Pretty GPT).
 - 🦀 **[kommand](https://github.com/sunfishcode/nameless)**: Command-line arguments via function arguments.
-- 🦀 **[gsutil](https://github.com/EmbarkStudios/gsutil)**: Incomplete replacement for the official gsutil.
-- 🦀 **[proplate-core](https://github.com/YumeT023/proplate)**: Proplate is a CLI tool that allows you to quickly create and set up project structures based on templates, and also create your own templates for your future projects.
 - 🦀 **[opensal](https://github.com/apache/opendal)**: Open SQL Access Layer.
 - 🦀 **[ezcrypt](https://git.disroot.org/starryuwu/ezcrypt_rust.git)**: File encryption utility with forgot password functionality.
-- 🦀 **[scout-audit-internal-soroban](https://github.com/CoinFabrik/scout-soroban)**: Scout is an extensible open-source tool intended to assist soroban smart contract developers and auditors detect common security issues and deviations from best practices.
+- 🦀 **[proplate-core](https://github.com/YumeT023/proplate)**: Proplate is a CLI tool that allows you to quickly create and set up project structures based on templates, and also create your own templates for your future projects.
+- 🦀 **[c2rust-transpile](https://github.com/immunant/c2rust/)**: C2Rust transpiler implementation.
 - 🦀 **[cdoc](https://github.com/coursesproject/courses/tree/main/cdoc)**: A markdown-based document parser and processor.
-- 🦀 **[mewe](https://github.com/txtyash/mewe)**: CLI dictionary app.
 - 🦀 **[flawz](https://github.com/orhun/flawz)**: A Terminal UI for browsing CVEs.
+- 🦀 **[iggy](https://github.com/apache/iggy)**: Iggy is the persistent message streaming platform written in Rust, supporting QUIC, TCP and HTTP transport protocols, capable of processing millions of messages per second.
+- 🦀 **[mewe](https://github.com/txtyash/mewe)**: CLI dictionary app.
+- 🦀 **[scout-audit-internal-soroban](https://github.com/CoinFabrik/scout-soroban)**: Scout is an extensible open-source tool intended to assist soroban smart contract developers and auditors detect common security issues and deviations from best practices.
 - 🦀 **[full2half](https://gitlab.com/pSchwietzer/full2half)**: Library and CLI for converting full-width characters to half-width characters and vice versa.
 - 🦀 **[cco](https://github.com/denfren/cco)**: cascading configuration.
 - 🦀 **[shortcut-autotyper](https://github.com/Fanteria/shortcut-autotyper)**: Shortcut AutoTyper is a command-line tool for automating repetitive typing tasks using predefined shortcuts defined in a JSON configuration file.
-- 🦀 **[libhaystack](https://github.com/j2inn/libhaystack/)**: Rust implementation of the Haystack 4 data types, defs, filter, units, and encodings.
-- 🦀 **[osbuilder](https://gitlab.com/MatuushOS/osbuilder)**: OS-agnostic builder for building custom OS.
 - 🦀 **[alpine-core](https://github.com/nrminor/ALPINE-core)**: ALPINE (Anachronistic Lineage and Persistent INfection Explorer) Core Utilities.
 - 🦀 **[gripwoud](https://github.com/sripwoud/grrs)**: A simple grep clone written in Rust.
+- 🦀 **[osbuilder](https://gitlab.com/MatuushOS/osbuilder)**: OS-agnostic builder for building custom OS.
 - 🦀 **[crabby-merge](https://github.com/kesyog/crabby-merge)**: A utility to poll open Bitbucket PR's and merge them based on a configurable trigger.
-- 🦀 **[memo](https://github.com/iamlucasvieira/memo)**: Create reminders directly from your terminal.
-- 🦀 **[staart](https://github.com/anthonyjmartinez/staart.git)**: A Rust implementation of a tail-like library and binary crate.
-- 🦀 **[caravel](https://github.com/lcrownover/caravel)**: Next-gen configuration management using Rust and Lua.
 - 🦀 **[shrs_file_history](https://github.com/MrPicklePinosaur/shrs)**: File backed history support.
+- 🦀 **[memo](https://github.com/iamlucasvieira/memo)**: Create reminders directly from your terminal.
+- 🦀 **[caravel](https://github.com/lcrownover/caravel)**: Next-gen configuration management using Rust and Lua.
+- 🦀 **[fluentci-common](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
+- 🦀 **[staart](https://github.com/anthonyjmartinez/staart.git)**: A Rust implementation of a tail-like library and binary crate.
 - 🦀 **[bech32-utils](https://github.com/mbbrainz/bech32-utils)**: A CLI tool for converting Bech32 addresses with different prefixes.
 - 🦀 **[ukebox](https://github.com/noeddl/ukebox)**: A ukulele chord toolbox in Rust.
-- 🦀 **[fluentci-common](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
-- 🦀 **[jia_pipe_viewer](https://github.com/jia-ayo/rust_DSA/tree/master/rust_systems/jia_pipe_viewer)**: This was made for cruise but you can give it a shot.
 - 🦀 **[qsspodcasts_abstract_frontend](https://github.com/Quessou/qsspodcasts)**: Abstract frontend library for QSSPodcasts, you probably don't need it.
-- 🦀 **[c2rust-transpile](https://github.com/immunant/c2rust/)**: C2Rust transpiler implementation.
-- 🦀 **[blog-rs](https://apple-bear.com/gitea/blog)**: Bare-bones static site generator for blogs.
+- 🦀 **[jia_pipe_viewer](https://github.com/jia-ayo/rust_DSA/tree/master/rust_systems/jia_pipe_viewer)**: This was made for cruise but you can give it a shot.
 - 🦀 **[diffdir](https://github.com/VaheDanielyan/diffdir/)**: deep compare two directories for differences.
 - 🦀 **[genson-rs](https://github.com/junyu-w/genson-rs)**: Extremely fast JSON Schema inference engine built in Rust.
-- 🦀 **[rustps](https://github.com/donjuanplatinum/rustps)**: a tools like procps to show the process information.
-- 🦀 **[qsspodcasts_business_core](https://github.com/Quessou/qsspodcasts)**: The business core for QSS podcasts, you probably don't need it.
+- 🦀 **[blog-rs](https://apple-bear.com/gitea/blog)**: Bare-bones static site generator for blogs.
 - 🦀 **[classeq-core](https://github.com/LepistaBioinformatics/classeq2)**: Core library for the classeq project.
-- 🦀 **[aloe-caret-component](https://github.com/klebs6/aloe-rs)**: A custom caret component library for GUI applications, offering color customization and visibility control based on keyboard focus.
+- 🦀 **[qsspodcasts_business_core](https://github.com/Quessou/qsspodcasts)**: The business core for QSS podcasts, you probably don't need it.
+- 🦀 **[rustps](https://github.com/donjuanplatinum/rustps)**: a tools like procps to show the process information.
 - 🦀 **[bujo](https://git.sr.ht/~prma/bujo)**: Toolkit CLI and library for bujo format.
-- 🦀 **[saturn-cli](https://github.com/erikh/saturn)**: saturn is a command-line interface to calendaring, supporting Google Calendar.
 - 🦀 **[comodoro](https://github.com/soywod/comodoro/)**: CLI to manage personal time.
 - 🦀 **[aki-xtee](https://github.com/aki-akaguma/aki-xtee)**: copy standard input to each files and standard output.
 - 🦀 **[asv-to-usv](https://github.com/sixarm/asv-to-usv-rust-crate/)**: ASV to USV: Convert ASCII Separated Values (ASV) to Unicode Separated Values (USV) such as for data markup, including for spreadsheets, databases, text files, and more.
-- 🦀 **[openfs](https://github.com/apache/opendal)**: Open File System Access Layer.
-- 🦀 **[skip](https://git.kemitix.net/kemitix/skip)**: Skip lines in a file.
 - 🦀 **[neko-image](https://github.com/Catiumeye/neko-image)**: CLI utility for image processing written in rust🏳️‍⚧️.
+- 🦀 **[saturn-cli](https://github.com/erikh/saturn)**: saturn is a command-line interface to calendaring, supporting Google Calendar.
+- 🦀 **[openfs](https://github.com/apache/opendal)**: Open File System Access Layer.
+- 🦀 **[mcfly](https://github.com/cantino/mcfly)**: McFly replaces your default ctrl-r shell history search with an intelligent search engine that takes into account your working directory and the context of recently executed commands.
+- 🦀 **[skip](https://git.kemitix.net/kemitix/skip)**: Skip lines in a file.
 - 🦀 **[opendal_std_fs](https://github.com/apache/opendal)**: Open File Access Layer.
-- 🦀 **[bj_rs](https://git.sr.ht/~prma/bj)**: Toolkit CLI and library for bj format.
+- 🦀 **[partialzip](https://github.com/marcograss/partialzip)**: Download single files from online zip archives or list the content.
 - 🦀 **[opendal_tokio_fs](https://github.com/apache/opendal)**: Open File Access Layer.
 - 🦀 **[aki-mcolor](https://github.com/aki-akaguma/aki-mcolor)**: mark up text with color.
 - 🦀 **[lisi](https://github.com/kober-systems/literate_programming_toolsuite)**: literate programming with asciidoc.
-- 🦀 **[partialzip](https://github.com/marcograss/partialzip)**: Download single files from online zip archives or list the content.
+- 🦀 **[bj_rs](https://git.sr.ht/~prma/bj)**: Toolkit CLI and library for bj format.
 - 🦀 **[bicycle](https://github.com/ordinarylabs/bicycle)**: The CLI and build functions for BicycleDB.
-- 🦀 **[mcfly](https://github.com/cantino/mcfly)**: McFly replaces your default ctrl-r shell history search with an intelligent search engine that takes into account your working directory and the context of recently executed commands.
 - 🦀 **[openfal](https://github.com/apache/opendal)**: Open File Access Layer.
-- 🦀 **[lospec-cli](https://github.com/jmg-duarte/lospec-cli)**: Lospec CLI is a command-line interface tool that allows users to interact with Lospec's color palettes conveniently.
 - 🦀 **[aki-xcat](https://github.com/aki-akaguma/aki-xcat)**: concatenate files that are plain, gzip, xz and zstd.
+- 🦀 **[lospec-cli](https://github.com/jmg-duarte/lospec-cli)**: Lospec CLI is a command-line interface tool that allows users to interact with Lospec's color palettes conveniently.
+- 🦀 **[sgxs-tools](https://github.com/fortanix/rust-sgx)**: Utilities for working with the SGX stream format.
+- 🦀 **[taskchampion](https://github.com/GothenburgBitFactory/taskchampion)**: Personal task-tracking.
 - 🦀 **[soprintln](https://github.com/bearcove/soprintln)**: println wrapper that includes a timestamp, shared object ID and thread ID with useful colors.
 - 🦀 **[rust_argp](https://github.com/startracex/rust-argp)**: Arguments-likes strings parser.
 - 🦀 **[python-launcher](https://github.com/brettcannon/python-launcher)**: The Python launcher for Unix.
-- 🦀 **[taskchampion](https://github.com/GothenburgBitFactory/taskchampion)**: Personal task-tracking.
 - 🦀 **[wikijs](https://github.com/gierens/wikijs-rs)**: API bindings, CLI client and FUSE filesystem for Wiki.
+- 🦀 **[doc-assert](https://github.com/DocAssert/doc-assert)**: Validates markdown API docs against live endpoints, ensuring documentation accuracy.
 - 🦀 **[mini-grep-rs](null)**: This is a mini grep command tool, based on Rust.
 - 🦀 **[pace-rs](https://github.com/pace-rs/pace)**: pace - Mindful Time Tracking: Simplify Your Focus and Boost Productivity Effortlessly.
-- 🦀 **[doc-assert](https://github.com/DocAssert/doc-assert)**: Validates markdown API docs against live endpoints, ensuring documentation accuracy.
-- 🦀 **[hyper-scripter](null)**: The script managing tool for script lovers.
 - 🦀 **[bootloader_linker](https://github.com/mysteriouslyseeing/bootloader_linker)**: A simple program that links your executables created using bootloader_api with the actual bootloader.
+- 🦀 **[hyper-scripter](null)**: The script managing tool for script lovers.
 - 🦀 **[mcbe-lan-advertizer](https://github.com/max-ishere/mcbe-lan-advertizer)**: Listens for Minecraft Bedrock LAN Ping packets and responds with a Pong packet.
 - 🦀 **[openkal](https://github.com/apache/opendal)**: Open Key Access Layer.
 - 🦀 **[aki-mcycle](https://github.com/aki-akaguma/aki-mcycle)**: mark up text with cycling color.
+- 🦀 **[yabai](https://github.com/sudosilico/yabai.rs/)**: A crate for communicating with the yabai tiling window manager.
+- 🦀 **[aki-mline](https://github.com/aki-akaguma/aki-mline)**: match line, regex text filter like a grep of linux command.
 - 🦀 **[dev-scope](https://github.com/ethankhall/scope)**: A tool to help diagnose errors, setup machines, and report bugs to authors.
 - 🦀 **[fedora-update-feedback](https://github.com/ironthree/fedora-update-feedback)**: Provide feedback for Fedora updates (inspired by fedora-easy-karma).
 - 🦀 **[job-security-client](https://github.com/yshui/job-security)**: Universal job control - client library.
-- 🦀 **[sgxs-tools](https://github.com/fortanix/rust-sgx)**: Utilities for working with the SGX stream format.
-- 🦀 **[aki-mline](https://github.com/aki-akaguma/aki-mline)**: match line, regex text filter like a grep of linux command.
-- 🦀 **[inkanim](https://github.com/cyb3rpsych0s1s/inkanim)**: CLI tool to quickly extract infos from JSON exports of .
-- 🦀 **[yabai](https://github.com/sudosilico/yabai.rs/)**: A crate for communicating with the yabai tiling window manager.
 - 🦀 **[clparser](https://github.com/x42h/clparser)**: A command line tool for parsing CHANGELOG.
+- 🦀 **[grrk](https://github.com/power-level10k/grrk)**: a tool to search for a pattern.
+- 🦀 **[inkanim](https://github.com/cyb3rpsych0s1s/inkanim)**: CLI tool to quickly extract infos from JSON exports of .
 - 🦀 **[job-security-server](https://github.com/yshui/job-security)**: Universal job control - server library.
 - 🦀 **[cfc](https://github.com/ayowel/cfc)**: A crontab replacement for container environment.
-- 🦀 **[grrk](https://github.com/power-level10k/grrk)**: a tool to search for a pattern.
-- 🦀 **[pseqsid](https://github.com/amaurypm/pseqsid)**: Calculates pairwise sequence identity, similarity and normalized similarity score of proteins in a multiple sequence alignment.
-- 🦀 **[rustubble](https://github.com/warpy-ai/rustubble)**: A brief description of what your crate does.
 - 🦀 **[snap_cli](https://github.com/DeveloperJosh/snap_cli)**: A simple CLI library.
-- 🦀 **[kvcli](null)**: A distributed kv storage CLI.
-- 🦀 **[grep-rs](https://github.com/InkCoderYmc/grsp)**: A tool to search files.
-- 🦀 **[json2file](https://github.com/tj-actions/json2file)**: Generate file output from JSON.
 - 🦀 **[bkt](https://github.com/dimo414/bkt)**: CLI and Rust library for caching subprocess invocations.
-- 🦀 **[cargo-darwin](https://github.com/Akanoa/cargo-darwin/tree)**: Darwin mutates your code, if your code still passes check tests, then your code isn't enough tested.
+- 🦀 **[rustubble](https://github.com/warpy-ai/rustubble)**: A brief description of what your crate does.
+- 🦀 **[grep-rs](https://github.com/InkCoderYmc/grsp)**: A tool to search files.
+- 🦀 **[kvcli](null)**: A distributed kv storage CLI.
+- 🦀 **[pseqsid](https://github.com/amaurypm/pseqsid)**: Calculates pairwise sequence identity, similarity and normalized similarity score of proteins in a multiple sequence alignment.
+- 🦀 **[json2file](https://github.com/tj-actions/json2file)**: Generate file output from JSON.
 - 🦀 **[aki-resort](https://github.com/aki-akaguma/aki-resort)**: sort lines of text.
+- 🦀 **[cargo-darwin](https://github.com/Akanoa/cargo-darwin/tree)**: Darwin mutates your code, if your code still passes check tests, then your code isn't enough tested.
 - 🦀 **[hex_dump](https://gitlab.com/andrew_ryan/hex_dump)**: A CLI that can read print and modify binary file.
 - 🦀 **[hw_checker](https://github.com/RobertGrancsa/checker)**: An interactive checker built for the homeworks.
-- 🦀 **[find_duplicate_files](https://github.com/claudiofsr/find_duplicate_files)**: find identical files according to their size and hashing algorithm.
+- 🦀 **[aki-unbody](https://github.com/aki-akaguma/aki-unbody)**: output first or last n lines, like a head and tail of linux command.
 - 🦀 **[commandcrafter](https://github.com/div-styl/commandcrafter)**: This crate is used to execute shell commands using rust convenience.
+- 🦀 **[find_duplicate_files](https://github.com/claudiofsr/find_duplicate_files)**: find identical files according to their size and hashing algorithm.
+- 🦀 **[ram-machine](https://github.com/kamack38/ram-machine)**: RAM machine code interpreter.
 - 🦀 **[piratebay](https://github.com/tsirysndr/piratebay)**: Rust library and CLI for The Pirate Bay.
 - 🦀 **[prose](https://github.com/jgdavey/prose)**: Reformat text pleasantly.
-- 🦀 **[ram-machine](https://github.com/kamack38/ram-machine)**: RAM machine code interpreter.
-- 🦀 **[aki-unbody](https://github.com/aki-akaguma/aki-unbody)**: output first or last n lines, like a head and tail of linux command.
-- 🦀 **[iggy](https://github.com/apache/iggy)**: Iggy is the persistent message streaming platform written in Rust, supporting QUIC, TCP and HTTP transport protocols, capable of processing millions of messages per second.
+- 🦀 **[ash_sdk](https://github.com/AshAvalanche/ash-rs)**: Ash Rust SDK.
 - 🦀 **[csvr](https://github.com/0xsouravm/csvr)**: A cli tool to parse and manipulate csv files.
 - 🦀 **[bank-csv](https://github.com/andreoliwa/bank-csv-rs)**: Detect CSV files from a couple of German banks (N26, DKB) and PayPal, filter out transactions in a specific currency and generate a CSV file with these transactions.
-- 🦀 **[mal-cli](https://github.com/rkaahean/mal-cli)**: A CLI tool for MyAnimeList, written in rust.
-- 🦀 **[ash_sdk](https://github.com/AshAvalanche/ash-rs)**: Ash Rust SDK.
 - 🦀 **[cdx](https://github.com/avjewe/cdx)**: Library and application for text file manipulation and command line data mining, a little like the gnu textutils.
 - 🦀 **[agscheduler-cli](https://github.com/AGScheduler/agscheduler-cli)**: Command line interface for AGScheduler.
+- 🦀 **[mal-cli](https://github.com/rkaahean/mal-cli)**: A CLI tool for MyAnimeList, written in rust.
 - 🦀 **[pushtx](https://github.com/alfred-hodler/pushtx)**: Bitcoin Transaction Broadcast Library.
+- 🦀 **[steam-tui](https://github.com/dmadisetti/steam-tui/)**: TUI client for steamcmd.
+- 🦀 **[svg-invert](https://github.com/lmammino/svg-invert)**: A CLI utility and a library to invert colors in an SVG image.
 - 🦀 **[wownow](https://github.com/t-mart/wownow)**: A CLI tool to get the current versions of World of Warcraft.
 - 🦀 **[rust-demo-rgrep](https://github.com/silverbullllet/rust-demo-rgrep)**: A tool to search files.
-- 🦀 **[steam-tui](https://github.com/dmadisetti/steam-tui/)**: TUI client for steamcmd.
 - 🦀 **[tooters](https://github.com/joshka/tooters)**: A Rust TUI Mastodon App.
 - 🦀 **[bofh](https://github.com/tobiasvl/bofh-rs)**: Command-line client for the Cerebrum IGA.
-- 🦀 **[svg-invert](https://github.com/lmammino/svg-invert)**: A CLI utility and a library to invert colors in an SVG image.
+- 🦀 **[csvenum](https://github.com/J-Bockhofer/csvenum)**: Generate code for enums with associated constants from a .
 - 🦀 **[marktask](https://github.com/ruivieira/marktask)**: A CLI tool for parsing and manipulating Markdown tasks.
 - 🦀 **[ontime](https://github.com/mbhall88/ontime)**: Extract subsets of ONT (Nanopore) reads based on time.
-- 🦀 **[csvenum](https://github.com/J-Bockhofer/csvenum)**: Generate code for enums with associated constants from a .
 - 🦀 **[rustycat](https://gitlab.com/Mirror0/rustycat)**: Regex-based parser for Android Debug Brigde (adb) logcat.
+- 🦀 **[maelstrom-client-cli](https://github.com/maelstrom-software/maelstrom)**: CLI for submitting jobs to Maelstrom clusters.
 - 🦀 **[sem-reg](https://github.com/Enyium/sem-reg-rs)**: Handle certain Windows registry binary values semantically.
 - 🦀 **[bstree-file-readonly](https://github.com/cds-astro/cds-bstree-file-readonly-rust/)**: Make and Query read-only binary-search tree file, supporting billions of entries in files of tens of GB.
 - 🦀 **[blooming](https://github.com/RinChanNOWWW/blooming)**: BT/PT 站订阅更新通知器。.
-- 🦀 **[maelstrom-client-cli](https://github.com/maelstrom-software/maelstrom)**: CLI for submitting jobs to Maelstrom clusters.
 - 🦀 **[pilka](https://github.com/pudnax/pilka/)**: Another live-coding tool for creating shaders demos.
-- 🦀 **[rye-uv](https://github.com/lucianosrp/rye-uv)**: A CLI tool to migrate from Rye to Uv.
 - 🦀 **[stumpless](https://github.com/goatshriek/stumpless-logger/)**: Sends log information to a variety of destinations, local and remote.
 - 🦀 **[acorns](https://github.com/redhat-documentation/acorns/)**: Generate an AsciiDoc release notes document from tracking tickets.
 - 🦀 **[daveparr_minigrep](https://github.com/DaveParr/minigrep)**: A simple command line tool to search for a string in a file based on 'The Rust Programming Language' book.
+- 🦀 **[rye-uv](https://github.com/lucianosrp/rye-uv)**: A CLI tool to migrate from Rye to Uv.
 - 🦀 **[src5-rs](https://github.com/ericnordelo/src5-rs)**: Utility for generating SRC5 interfaces ids from Cairo traits.
 - 🦀 **[scalp](https://github.com/Magicolo/scalp)**: A declarative parsing library for pretty and highly customizable command-line interfaces.
+- 🦀 **[coveralls](https://github.com/corebreaker/coveralls-rust)**: Send job to Coveralls (coveralls.
 - 🦀 **[pixeldike](https://github.com/ftsell/pixeldike.git)**: pixel drawing game for programmers inspired by reddits r/place.
 - 🦀 **[hop-cli](https://github.com/hopinc/hop_cli)**: Interact with Hop in your terminal.
-- 🦀 **[netlify-ddns](https://github.com/lukehsiao/netlify-ddns-rs)**: A simple CLI tool for setting Netlify DNS records dynamically.
 - 🦀 **[ka3005p](https://github.com/Nicoretti/ka3005p)**: cli tool to remote control a ka3005p power supply.
-- 🦀 **[coveralls](https://github.com/corebreaker/coveralls-rust)**: Send job to Coveralls (coveralls.
+- 🦀 **[netlify-ddns](https://github.com/lukehsiao/netlify-ddns-rs)**: A simple CLI tool for setting Netlify DNS records dynamically.
 - 🦀 **[aki-stats](https://github.com/aki-akaguma/aki-stats)**: output the statistics of text, like a wc of linux command.
-- 🦀 **[mercy](https://github.com/battleoverflow/mercy)**: Mercy is an open-source Rust crate and CLI for building cybersecurity tools, assessment projects, and testing infrastructure.
 - 🦀 **[envhub-hm](https://github.com/tsirysndr/envhub)**: Manage your dotfiles and packages with ease.
-- 🦀 **[logseq](https://github.com/andreoliwa/logseq-doctor)**: Handle Logseq Markdown files in Rust.
+- 🦀 **[mercy](https://github.com/battleoverflow/mercy)**: Mercy is an open-source Rust crate and CLI for building cybersecurity tools, assessment projects, and testing infrastructure.
 - 🦀 **[nreplops-tool](https://github.com/mjhanninen/nreplops-tool)**: Non-interactive nREPL client for shell scripting and command-line.
 - 🦀 **[deps-readme](https://github.com/Yoliani/cargo-deps-readme)**: A tool to generate a README.
-- 🦀 **[birthday](https://github.com/ducdetronquito/birthday)**: 🎂 CLI tool to remember birthdays of people you know.
-- 🦀 **[hac-core](https://github.com/wllfaria/hac)**: your handy API client, on your terminal!.
+- 🦀 **[logseq](https://github.com/andreoliwa/logseq-doctor)**: Handle Logseq Markdown files in Rust.
 - 🦀 **[wchisp](https://github.com/ch32-rs/wchisp)**: A command-line implementation of WCHISPTool, for flashing ch32 MCUs.
+- 🦀 **[hac-core](https://github.com/wllfaria/hac)**: your handy API client, on your terminal!.
+- 🦀 **[sfw-tools](https://github.com/bbarker/SoftwareTools)**: Functions and programs from the book Software Tools.
+- 🦀 **[birthday](https://github.com/ducdetronquito/birthday)**: 🎂 CLI tool to remember birthdays of people you know.
 - 🦀 **[everygarf](https://github.com/dxrcy/everygarf)**: Concurrently download every Garfield comic to date.
 - 🦀 **[decasm](https://github.com/tobiasvl/decasm)**: Octo assembler.
+- 🦀 **[orbiter](https://github.com/orbiter-rs/orbiter)**: A cross-shell plugin and package manager.
 - 🦀 **[sunnycat](https://github.com/sunnyrust/sunnycat)**: A tool to search log files.
 - 🦀 **[templates](https://github.com/mpiorowski/templates-cli)**: A CLI for managing secret keys and templates for code generation.
-- 🦀 **[orbiter](https://github.com/orbiter-rs/orbiter)**: A cross-shell plugin and package manager.
-- 🦀 **[png_color_converter](https://github.com/cwarg/png_color_converter)**: Used for converting the hue of a given 16x16 png while retaining saturation and lightness.
-- 🦀 **[sfw-tools](https://github.com/bbarker/SoftwareTools)**: Functions and programs from the book Software Tools.
-- 🦀 **[wingman](https://github.com/tristanisham/Wingman)**: A runtime for websites and a static site generator.
-- 🦀 **[window_switcher](https://github.com/h3rmt/hyprswitch/)**: A CLI that allows switching between windows in Hyprland (renamed to hyprswitch [https://crates.
-- 🦀 **[charcoal-dict](https://github.com/LighghtEeloo/charcoal)**: A command line dictionary.
 - 🦀 **[connchk](https://github.com/anthonyjmartinez/connchk.git)**: Cross-platform command-line network checking tool in Rust.
+- 🦀 **[fuzzy-select](https://github.com/knutwalker/fuzzy-select)**: Fuzzy select using Nucleo as matching engine.
+- 🦀 **[png_color_converter](https://github.com/cwarg/png_color_converter)**: Used for converting the hue of a given 16x16 png while retaining saturation and lightness.
+- 🦀 **[wingman](https://github.com/tristanisham/Wingman)**: A runtime for websites and a static site generator.
+- 🦀 **[charcoal-dict](https://github.com/LighghtEeloo/charcoal)**: A command line dictionary.
 - 🦀 **[doit-cli](https://github.com/jacobaclarke/doit-cli)**: A CLI tool for managing your simple scripts.
+- 🦀 **[window_switcher](https://github.com/h3rmt/hyprswitch/)**: A CLI that allows switching between windows in Hyprland (renamed to hyprswitch [https://crates.
+- 🦀 **[aki-json-pick](https://github.com/aki-akaguma/aki-json-pick)**: The json pick out command.
 - 🦀 **[hac-colors](https://github.com/wllfaria/hac)**: your handy API client, on your terminal!.
 - 🦀 **[riptree](https://github.com/tiller92/file_digger)**: Displays and searches through directories.
 - 🦀 **[MMDB_Client](null)**: {InDev} A simple,easy to use database server.
-- 🦀 **[aki-json-pick](https://github.com/aki-akaguma/aki-json-pick)**: The json pick out command.
-- 🦀 **[statical](https://github.com/egrieco/statical)**: A calendar aggregator and generator to make maintaining calendars on static websites easier.
-- 🦀 **[fuzzy-select](https://github.com/knutwalker/fuzzy-select)**: Fuzzy select using Nucleo as matching engine.
-- 🦀 **[piazin-grrs](https://github.com/piazin/grrs)**: A tool to search files.
-- 🦀 **[uhuh](https://github.com/byounghoonkim/uhuh)**: A Library for building interfactive forms and prompts in the terminal.
 - 🦀 **[zenity](https://github.com/Arteiii/zenity)**: 100+ spinner animations and Progress Bars and Support for Multiple Animations at Once.
+- 🦀 **[piazin-grrs](https://github.com/piazin/grrs)**: A tool to search files.
+- 🦀 **[statical](https://github.com/egrieco/statical)**: A calendar aggregator and generator to make maintaining calendars on static websites easier.
+- 🦀 **[uhuh](https://github.com/byounghoonkim/uhuh)**: A Library for building interfactive forms and prompts in the terminal.
 - 🦀 **[cnccoder](https://github.com/tirithen/cnccoder)**: A library for generating gcode operations targeted for GRBL controled cnc machines, and also generates camotics projects for simulation.
-- 🦀 **[ks-image-compare](https://github.com/kober-systems/ks-image-compare.git)**: Compare images with ease.
-- 🦀 **[bodhi-cli](https://github.com/ironthree/bodhi-cli)**: bodhi CLI client based on bodhi-rs.
+- 🦀 **[chm](https://github.com/devflowinc/ch-migrations)**: Migrations CLI tool for ClickHouse.
 - 🦀 **[fbbe](https://github.com/RCasatta/fbbe)**: Fast Bitcoin Block Explorer.
 - 🦀 **[html-generator](https://github.com/sebastienrousseau/html-generator)**: A robust Rust library designed for transforming Markdown into SEO-optimized, accessible HTML.
+- 🦀 **[ks-image-compare](https://github.com/kober-systems/ks-image-compare.git)**: Compare images with ease.
+- 🦀 **[bodhi-cli](https://github.com/ironthree/bodhi-cli)**: bodhi CLI client based on bodhi-rs.
 - 🦀 **[pigeon-rs](https://github.com/quambene/pigeon-rs)**: Command line tool for cheap and efficient email automation.
-- 🦀 **[xer_minigrep](null)**: minigrep is a minimal version of grep as shown in the rust book.
+- 🦀 **[sn0int](https://github.com/kpcyrd/sn0int)**: Semi-automatic OSINT framework and package manager.
 - 🦀 **[lock_box](https://github.com/SonuBardai/lockbox)**: A command-line tool for generating and managing passwords.
+- 🦀 **[mdbook-journal](https://github.com/benfalk/mdbook-journal)**: journal plugin for mdBook.
+- 🦀 **[gomander-engiffen](https://github.com/gomander/engiffen)**: Encodes GIF images from sequences of images.
+- 🦀 **[notcoal](https://codeberg.org/eaon/notcoal/)**: Not charcoal filters, but notmuch ones.
+- 🦀 **[xer_minigrep](null)**: minigrep is a minimal version of grep as shown in the rust book.
+- 🦀 **[downapk](https://github.com/rabilrbl/downapk)**: Program to download APKs of given Android package.
 - 🦀 **[reaktor](https://github.com/sunfishcode/nameless)**: Reaktor.
 - 🦀 **[tapciify](https://github.com/tapciify/tapciify)**: CLI tool that can let you view images in terminal as ASCII art.
-- 🦀 **[mdbook-journal](https://github.com/benfalk/mdbook-journal)**: journal plugin for mdBook.
-- 🦀 **[notcoal](https://codeberg.org/eaon/notcoal/)**: Not charcoal filters, but notmuch ones.
-- 🦀 **[gomander-engiffen](https://github.com/gomander/engiffen)**: Encodes GIF images from sequences of images.
-- 🦀 **[sn0int](https://github.com/kpcyrd/sn0int)**: Semi-automatic OSINT framework and package manager.
-- 🦀 **[downapk](https://github.com/rabilrbl/downapk)**: Program to download APKs of given Android package.
 - 🦀 **[graburl](https://github.com/tenqz/graburl)**: Get all url's from website.
-- 🦀 **[qsspodcasts_command_management](https://github.com/Quessou/qsspodcasts)**: Abstract frontend library for QSSPodcasts, you probably don't need it.
 - 🦀 **[der_die_das](https://git.sr.ht/~prma/ddd)**: der_die_das: Learn german genders like a true geek.
-- 🦀 **[libpcap-rs](https://github.com/caizhengxin/libpcap-rs)**: Rust encapsulates the C language libpcap.
+- 🦀 **[qsspodcasts_command_management](https://github.com/Quessou/qsspodcasts)**: Abstract frontend library for QSSPodcasts, you probably don't need it.
 - 🦀 **[simino](https://github.com/yaa110/nomino)**: Batch rename utility for developers.
 - 🦀 **[grrs-gn](https://github.com/georgenicoll/grrs)**: A tool to search files.
-- 🦀 **[chm](https://github.com/devflowinc/ch-migrations)**: Migrations CLI tool for ClickHouse.
+- 🦀 **[libpcap-rs](https://github.com/caizhengxin/libpcap-rs)**: Rust encapsulates the C language libpcap.
 - 🦀 **[cranc](https://github.com/chriswmann/cranc)**: A simple progress indicator for Rust.
+- 🦀 **[currency-conversion](https://github.com/CookieGigi/currency-conversion-cli)**: currency-conversion is a simple lib (used by currency-conversion-cli) to convert currency offline.
 - 🦀 **[faketty-lib](https://github.com/bryango/faketty-lib)**: Library fork of dtolnay/faketty.
 - 🦀 **[hac-cli](https://github.com/wllfaria/hac)**: your handy API client, on your terminal!.
 - 🦀 **[atg](https://github.com/anergictcell/atg)**: Convert transcripts between different file formats.
 - 🦀 **[csv-to-usv](https://github.com/sixarm/csv-to-usv-rust-crate/)**: CVS to USV: Convert Comma Separated Values (CSV) to Unicode Separated Values (USV) for data markup, including for spreadsheets, databases, text files, and more.
-- 🦀 **[currency-conversion](https://github.com/CookieGigi/currency-conversion-cli)**: currency-conversion is a simple lib (used by currency-conversion-cli) to convert currency offline.
+- 🦀 **[gradio](https://github.com/JacobLinCool/gradio-rs/)**: Gradio Client in Rust.
 - 🦀 **[idntkown](https://git.sr.ht/~antonta/idntkown)**: Identity key ownership.
+- 🦀 **[parse-dockerfile](https://github.com/taiki-e/parse-dockerfile)**: Dockerfile parser, written in Rust.
 - 🦀 **[wiserone](https://github.com/sebastienrousseau/wiserone)**: Daily nuggets of wisdom in a clean, minimalist design, inspiring deeper thought and personal growth with every visit.
+- 🦀 **[gold_digger](https://github.com/unclesp1d3r/gold_digger)**: A simple MySQL/MariaDB query tool that accepts parameters as environmental variables.
 - 🦀 **[rzip](https://github.com/mass10/rzip/)**: Simple archiver.
 - 🦀 **[terminusdm](https://github.com/sumoduduk/terminusdm)**: Terminus Download Manager.
-- 🦀 **[gradio](https://github.com/JacobLinCool/gradio-rs/)**: Gradio Client in Rust.
 - 🦀 **[box_plot_chart](https://github.com/jlyonsmith/box_plot_chart)**: A description of the project.
-- 🦀 **[gold_digger](https://github.com/unclesp1d3r/gold_digger)**: A simple MySQL/MariaDB query tool that accepts parameters as environmental variables.
-- 🦀 **[kvarn-chute](https://github.com/Icelk/kvarn/)**: A Markdown converter designed to use the Kvarn templating engine.
-- 🦀 **[takeout-metadata](https://github.com/aimericsr/takeout-metadata)**: CLI app for getting the good metadata out of a Google Takeout export.
 - 🦀 **[classeq-ports-lib](https://github.com/LepistaBioinformatics/classeq2)**: A base library to share elements between Classeq ports.
+- 🦀 **[kvarn-chute](https://github.com/Icelk/kvarn/)**: A Markdown converter designed to use the Kvarn templating engine.
 - 🦀 **[pace_testing](https://github.com/pace-rs/pace)**: pace-testing - Testing for the pace ecosystem.
+- 🦀 **[takeout-metadata](https://github.com/aimericsr/takeout-metadata)**: CLI app for getting the good metadata out of a Google Takeout export.
 - 🦀 **[esthri-cli](https://github.com/swift-nav/esthri/)**: Extremely simple (memory stable) S3 client that supports get, put, head, list, and sync.
-- 🦀 **[pace_server](https://github.com/pace-rs/pace)**: pace-server - server library to support timetracking on the command line.
 - 🦀 **[cargo-scout-audit-soroban](null)**: Scout is an extensible open-source tool intended to assist Soroban smart contract developers and auditors detect common security issues and deviations from best practices.
-- 🦀 **[kocheck](https://github.com/01mf02/kontroli-rs)**: Type checker for the lambda-Pi calculus modulo rewriting.
-- 🦀 **[parse-dockerfile](https://github.com/taiki-e/parse-dockerfile)**: Dockerfile parser, written in Rust.
-- 🦀 **[sha256sum_from_scratch](https://github.com/danieldidiobalsamo/sha256sum_from_scratch)**: sha256sum from-scratch implementation in Rust.
 - 🦀 **[compiler_base](https://github.com/kcl-lang/kcl)**: A common domain programming language framework.
-- 🦀 **[goffin](https://github.com/furkankly/goffin)**: Conway's Game of Life using the typestate pattern in Rust.
+- 🦀 **[pace_server](https://github.com/pace-rs/pace)**: pace-server - server library to support timetracking on the command line.
+- 🦀 **[kocheck](https://github.com/01mf02/kontroli-rs)**: Type checker for the lambda-Pi calculus modulo rewriting.
 - 🦀 **[mle](https://github.com/hoijui/mle)**: The markup link extractor (mle) extracts links from markup files (Markdown and HTML).
-- 🦀 **[ianaio](https://github.com/ianaio/ianaio)**: IanaIO backend frontend written in Rust Web Assembly RustWasm TS website.
+- 🦀 **[sha256sum_from_scratch](https://github.com/danieldidiobalsamo/sha256sum_from_scratch)**: sha256sum from-scratch implementation in Rust.
+- 🦀 **[goffin](https://github.com/furkankly/goffin)**: Conway's Game of Life using the typestate pattern in Rust.
 - 🦀 **[cli-app-1298087](https://github.com/blueh4mster/mini-cli)**: A tool to search files.
+- 🦀 **[ianaio](https://github.com/ianaio/ianaio)**: IanaIO backend frontend written in Rust Web Assembly RustWasm TS website.
+- 🦀 **[libpt-core](https://git.cscherr.de/PlexSheep/pt)**: Personal multitool.
 - 🦀 **[fluffyf](https://github.com/AntimatterReactor/fluffyf)**: An e621 api wrapper and downloader.
 - 🦀 **[gotopub](https://codeberg.org/sunarch/gotopub)**: GoToSocial and general Fediverse client.
-- 🦀 **[libpt-core](https://git.cscherr.de/PlexSheep/pt)**: Personal multitool.
 - 🦀 **[md-tui](https://github.com/henriklovhaug/md-tui)**: A terminal markdown viewer.
+- 🦀 **[upt](https://github.com/sigoden/upt)**: Universal package management tool for any OS.
 - 🦀 **[compiler_base_parallel](https://github.com/kcl-lang/kcl)**: A common domain programming language framework.
 - 🦀 **[markovgen](https://github.com/sysrqmagician/markovgen)**: A library for building markov chain graphs from text datasets and performantly generating text sequences by traversing them, includes an accompanying CLI application.
 - 🦀 **[handlebars-magic](https://github.com/rust-utility/handlebars-magic)**: Quickly and flexibly generate content based on handlebars templates.
 - 🦀 **[markdtohtml](https://github.com/Daiki48/markdtohtml)**: Tool to convert markdown files to html files.
 - 🦀 **[rrdpit](https://github.com/NLnetLabs/rrdpit)**: RRDP IT: A disk to RPKI Delta Protocol tool.
+- 🦀 **[pants-gen](https://github.com/BenPski/pants-gen)**: A password generator.
+- 🦀 **[githist](https://github.com/joshskeen/githist-rs)**: a text user interface for switching between recent branches.
+- 🦀 **[party-run](https://github.com/iamroot99/party-run)**: A command execution automator.
 - 🦀 **[rsclp](https://github.com/fstafforte/rsclp)**: A lib crate to parse proccess arguments.
-- 🦀 **[upt](https://github.com/sigoden/upt)**: Universal package management tool for any OS.
-- 🦀 **[wistime](null)**: This is a timer,stopwatch,and a clock all in one !!.
 - 🦀 **[detecteff](https://github.com/d33pster/detecteff)**: Find and delete duplicate files.
 - 🦀 **[libmake](https://github.com/sebastienrousseau/libmake.git)**: A code generator to reduce repetitive tasks and build high-quality Rust libraries and applications, by providing a simple interface to create projects, generate code, and manage dependencies.
-- 🦀 **[party-run](https://github.com/iamroot99/party-run)**: A command execution automator.
 - 🦀 **[rscon](https://github.com/rafaelrc7/rscon)**: Simple general RCON client.
-- 🦀 **[githist](https://github.com/joshskeen/githist-rs)**: a text user interface for switching between recent branches.
-- 🦀 **[term-snip](https://github.com/sorcerersr/term-snip)**: Write limited number of lines to terminal.
+- 🦀 **[wistime](null)**: This is a timer,stopwatch,and a clock all in one !!.
 - 🦀 **[gantt_chart](https://github.com/jlyonsmith/gantt_chart)**: A tool for generating Gantt charts.
-- 🦀 **[pants-gen](https://github.com/BenPski/pants-gen)**: A password generator.
-- 🦀 **[rox-cli](https://github.com/ThomasLaPiana/rox)**: Composable build tool inspired by Make.
-- 🦀 **[fermah-common](https://github.com/fermah-xyz/seek)**: Fermah common utilities and types.
-- 🦀 **[ifop](https://github.com/Larmian/ifop)**: A simple to use IFileOperation command tool.
-- 🦀 **[ultimate64](https://github.com/mlund/ultimate64)**: Rust library and command line interface for interfacing with Ultimate-64 and Ultimate-II+ devices using the REST API.
+- 🦀 **[term-snip](https://github.com/sorcerersr/term-snip)**: Write limited number of lines to terminal.
 - 🦀 **[csv2html](https://github.com/dbohdan/csv2html)**: Convert CSV files to HTML tables.
-- 🦀 **[xlsx-to-usv](https://github.com/sixarm/xlsx-to-usv-rust-crate/)**: XLSX to USV: Convert Microsoft Excel (XLSX) to Unicode Separated Values (USV) for data markup, including for spreadsheets, databases, text files, and more.
+- 🦀 **[fermah-common](https://github.com/fermah-xyz/seek)**: Fermah common utilities and types.
+- 🦀 **[rox-cli](https://github.com/ThomasLaPiana/rox)**: Composable build tool inspired by Make.
+- 🦀 **[ifop](https://github.com/Larmian/ifop)**: A simple to use IFileOperation command tool.
 - 🦀 **[moccasin](https://github.com/rektdeckard/moccasin)**: A TUI feed reader for RSS, Atom, and (aspirationally) Podcasts.
-- 🦀 **[quartz-cli](https://github.com/EduardoRodriguesF/quartz)**: The command-line tool to build and test HTTP requests.
-- 🦀 **[multi-spinner](https://github.com/rtc11/multi-spinner/)**: A simple multi-threaded spinner for the terminal.
-- 🦀 **[rtz](https://github.com/twitchax/rtz)**: A tool to easily work with geo lookups via a binary, a library, or a server.
 - 🦀 **[search](https://github.com/ValuONE/search)**: A recursive search tool to locate files or find certain strings in files.
+- 🦀 **[ultimate64](https://github.com/mlund/ultimate64)**: Rust library and command line interface for interfacing with Ultimate-64 and Ultimate-II+ devices using the REST API.
+- 🦀 **[rtz](https://github.com/twitchax/rtz)**: A tool to easily work with geo lookups via a binary, a library, or a server.
 - 🦀 **[subjective](https://github.com/SubjectiveLabs/sj)**: Library for the Subjective CLI and other related tools.
+- 🦀 **[xlsx-to-usv](https://github.com/sixarm/xlsx-to-usv-rust-crate/)**: XLSX to USV: Convert Microsoft Excel (XLSX) to Unicode Separated Values (USV) for data markup, including for spreadsheets, databases, text files, and more.
+- 🦀 **[multi-spinner](https://github.com/rtc11/multi-spinner/)**: A simple multi-threaded spinner for the terminal.
+- 🦀 **[osquery-rust](https://github.com/polarlabs/osquery-rust)**: Rust bindings for Osquery.
+- 🦀 **[quartz-cli](https://github.com/EduardoRodriguesF/quartz)**: The command-line tool to build and test HTTP requests.
 - 🦀 **[word-chain-game](https://github.com/quadratic-bit/words-game)**: A word chain game helper.
-- 🦀 **[quackie](https://github.com/lechos22/quackie)**: A duck for your terminal! 🦆.
 - 🦀 **[glit-core](https://github.com/shadawck/glit)**: Core - Retrieve all mail related to a git repository, user, or organization.
 - 🦀 **[kb-remap](https://github.com/rossmacarthur/kb-remap)**: Tool to assist remapping macOS keyboard keys.
-- 🦀 **[osquery-rust](https://github.com/polarlabs/osquery-rust)**: Rust bindings for Osquery.
+- 🦀 **[quackie](https://github.com/lechos22/quackie)**: A duck for your terminal! 🦆.
+- 🦀 **[metadata](https://github.com/zmwangx/metadata)**: Media file metadata for human consumption.
+- 🦀 **[ohcrab](https://github.com/luizvbo/oh-crab)**: Fix your command line magically.
+- 🦀 **[warpy](https://github.com/mihaigalos/warpy)**: 🌀 A thin warp wrapper for serving folders over http.
 - 🦀 **[json-to-usv](https://github.com/sixarm/json-to-usv-rust-crate/)**: JSON to USV: Convert JavaScript Object Notation (JSON) to Unicode Separated Values (USV) for data markup, including for spreadsheets, databases, text files, and more.
 - 🦀 **[konpeito](https://github.com/tau-OS/konpeito)**: Personal key-value store CLI.
-- 🦀 **[ohcrab](https://github.com/luizvbo/oh-crab)**: Fix your command line magically.
-- 🦀 **[metadata](https://github.com/zmwangx/metadata)**: Media file metadata for human consumption.
 - 🦀 **[clyde](https://github.com/agateau/clyde)**: A cross-platform package manager for prebuilt applications.
 - 🦀 **[courses](https://github.com/coursesproject/courses)**: A publishing system for interactive content.
+- 🦀 **[pacman-bintrans](https://github.com/kpcyrd/pacman-bintrans)**: Binary transparency for pacman.
+- 🦀 **[totpc](https://gitlab.com/jost-s/totp-store)**: Desktop CLI tool to manage and compute TOTPs.
+- 🦀 **[gps](https://github.com/uptech/git-ps-rs)**: Official CLI & library for Git Patch Stack.
+- 🦀 **[lib-tasker](https://github.com/DavoReds/tasker)**: Library for Tasker applications.
+- 🦀 **[metamath-rs](https://github.com/metamath/metamath-knife)**: A library manipulating Metamath databases, including a parallel and incremental verifier for Metamath databases.
+- 🦀 **[riglet](https://github.com/Optics-Boss/riglet)**: Rust port of Figlet.
 - 🦀 **[spdi](https://github.com/rkimoakbioinformatics/spdi)**: SPDI is a format to describe a genomic variant.
 - 🦀 **[todo-rust](https://github.com/falcon71181/ToDo-rust)**: CLI program to manage todo list.
-- 🦀 **[pacman-bintrans](https://github.com/kpcyrd/pacman-bintrans)**: Binary transparency for pacman.
-- 🦀 **[riglet](https://github.com/Optics-Boss/riglet)**: Rust port of Figlet.
-- 🦀 **[totpc](https://gitlab.com/jost-s/totp-store)**: Desktop CLI tool to manage and compute TOTPs.
 - 🦀 **[usv-to-csv](https://github.com/sixarm/usv-to-csv-rust-crate/)**: USV to CSV: Convert Unicode Separated Values (USV) to Comma Separated Values (CSV) for data markup, including for spreadsheets, databases, text files, and more.
-- 🦀 **[gps](https://github.com/uptech/git-ps-rs)**: Official CLI & library for Git Patch Stack.
-- 🦀 **[metamath-rs](https://github.com/metamath/metamath-knife)**: A library manipulating Metamath databases, including a parallel and incremental verifier for Metamath databases.
-- 🦀 **[lib-tasker](https://github.com/DavoReds/tasker)**: Library for Tasker applications.
 - 🦀 **[sci-calc](https://github.com/jaxsonp/sci-calc)**: A fully-functional scientific calculator with command line interface.
 - 🦀 **[tac-k-lib](https://github.com/my4ng/tack)**: Print lines from file in reverse order.
-- 🦀 **[warpy](https://github.com/mihaigalos/warpy)**: 🌀 A thin warp wrapper for serving folders over http.
 - 🦀 **[nedry](https://github.com/kAIYOHUGO/Nedry)**: Small bundler for C.
-- 🦀 **[qtmd](https://github.com/rn7s2/qtmd)**: better name for tqdm.
-- 🦀 **[resymgen](https://github.com/UsernameFodder/pmdsky-debug)**: Generates symbol tables for reverse engineering applications from a YAML specification.
 - 🦀 **[nexa](https://github.com/avasdao/nexars)**: A complete toolkit to develop Nexa application(s) in Rust.
-- 🦀 **[random-data-generator-cli](https://github.com/DanielMarcos1/random-data-generator-cli)**: A CLI tool for creating fake data.
+- 🦀 **[qtmd](https://github.com/rn7s2/qtmd)**: better name for tqdm.
 - 🦀 **[co-author](https://github.com/EricDriussi/co-author)**: Co-Author your git commits from the command line.
-- 🦀 **[sniffglue](https://github.com/kpcyrd/sniffglue)**: Secure multithreaded packet sniffer.
-- 🦀 **[qsspodcasts_autocomplete_server](https://github.com/Quessou/qsspodcasts)**: autocomplete server for QSSPodcasts, you probably don't need it.
 - 🦀 **[fetter](https://github.com/fetter-io/fetter-rs)**: System-wide Python package discovery, validation, vulnerability scanning, and allow-listing.
-- 🦀 **[qsspodcasts_str_to_lines](https://github.com/Quessou/qsspodcasts)**: Some utility crate for QSSPodcasts, you probably don't need it.
-- 🦀 **[wiki-o](https://github.com/doriancodes/wiki-o)**: Smart note taking cli app.
-- 🦀 **[hac-client](https://github.com/wllfaria/hac)**: your handy API client, on your terminal!.
-- 🦀 **[snippy-rs](https://github.com/NicolasChagnet/snippy-rs)**: A simple cross-platform CLI tool to manage user-defined snippets.
-- 🦀 **[yexp](https://github.com/fixcik/yexp)**: yexp is a small tool for expand yaml files.
+- 🦀 **[resymgen](https://github.com/UsernameFodder/pmdsky-debug)**: Generates symbol tables for reverse engineering applications from a YAML specification.
+- 🦀 **[sniffglue](https://github.com/kpcyrd/sniffglue)**: Secure multithreaded packet sniffer.
+- 🦀 **[random-data-generator-cli](https://github.com/DanielMarcos1/random-data-generator-cli)**: A CLI tool for creating fake data.
+- 🦀 **[qsspodcasts_autocomplete_server](https://github.com/Quessou/qsspodcasts)**: autocomplete server for QSSPodcasts, you probably don't need it.
 - 🦀 **[lqth](https://github.com/0x61nas/lqth)**: Simple but blazingly fast screenshot utility.
+- 🦀 **[qsspodcasts_str_to_lines](https://github.com/Quessou/qsspodcasts)**: Some utility crate for QSSPodcasts, you probably don't need it.
+- 🦀 **[hac-client](https://github.com/wllfaria/hac)**: your handy API client, on your terminal!.
+- 🦀 **[wiki-o](https://github.com/doriancodes/wiki-o)**: Smart note taking cli app.
+- 🦀 **[yexp](https://github.com/fixcik/yexp)**: yexp is a small tool for expand yaml files.
+- 🦀 **[uu_sleep](https://github.com/uutils/coreutils/tree/main/src/uu/sleep)**: sleep ~ (uutils) pause for DURATION.
+- 🦀 **[snippy-rs](https://github.com/NicolasChagnet/snippy-rs)**: A simple cross-platform CLI tool to manage user-defined snippets.
+- 🦀 **[agnos](https://github.com/krtab/agnos)**: Obtain (wildcard) certificates from let's encrypt using dns-01 without the need for API access to your DNS provider.
 - 🦀 **[marshal-parser](https://github.com/decathorpe/marshal-parser)**: Parser for Python's "marshal" serialization format.
-- 🦀 **[keep-active](https://github.com/omerbustun/keep-active/)**: Keep your computer awake and active.
-- 🦀 **[proteus_audio](https://github.com/Proteus-Audio/proteus-cli)**: A command line utility and library for playing .
 - 🦀 **[oliver](https://gitlab.com/saghm/xiba)**: Lightweight CLI mod manager for Baldur's Gate 3 on Linux.
 - 🦀 **[pip-upgrade](https://github.com/Araxeus/pip-upgrade)**: Tiny cli utility to update all your installed Python packages.
+- 🦀 **[keep-active](https://github.com/omerbustun/keep-active/)**: Keep your computer awake and active.
+- 🦀 **[proteus_audio](https://github.com/Proteus-Audio/proteus-cli)**: A command line utility and library for playing .
+- 🦀 **[uu_cksum](https://github.com/uutils/coreutils/tree/main/src/uu/cksum)**: cksum ~ (uutils) display CRC and size of input.
+- 🦀 **[currency-conversion-cli](https://github.com/CookieGigi/currency-conversion-cli)**: currency-conversion-cli is a simple CLI tool to convert currency offline.
 - 🦀 **[rping](https://github.com/wiseaidev/rping)**: 🌊 A Fully Anonymous Any TCP Flag Flooding Attack CLI.
-- 🦀 **[agnos](https://github.com/krtab/agnos)**: Obtain (wildcard) certificates from let's encrypt using dns-01 without the need for API access to your DNS provider.
 - 🦀 **[terminol](https://github.com/FyraLabs/terminol)**: UNIX Terminal utilities so simple you can do it when you're drunk.
 - 🦀 **[bevy_tui](https://github.com/sstelfox/bevy_tui)**: A plugin for making interactive Bevy applications with a TUI instead of a graphical interface.
-- 🦀 **[currency-conversion-cli](https://github.com/CookieGigi/currency-conversion-cli)**: currency-conversion-cli is a simple CLI tool to convert currency offline.
+- 🦀 **[get-blessed](https://github.com/josueBarretogit/get_blessed_rs)**: Terminal tool to get you the best crates for your rust projects with a few keybindings, curated by blessed.
 - 🦀 **[notebook_rs](https://github.com/dbxnr/notebook_rs)**: CLI utility for plaintext notetaking.
 - 🦀 **[proxy-scraper](https://github.com/zolagonano/proxy_scraper.git)**: A Rust command-line tool for scraping proxy information.
-- 🦀 **[get-blessed](https://github.com/josueBarretogit/get_blessed_rs)**: Terminal tool to get you the best crates for your rust projects with a few keybindings, curated by blessed.
+- 🦀 **[uu_tail](https://github.com/uutils/coreutils/tree/main/src/uu/tail)**: tail ~ (uutils) display the last lines of input.
 - 🦀 **[rusty_dumb_tools](https://github.com/trevorwslee/rusty_dumb_tools)**: A collection of simply tools Rust modules.
+- 🦀 **[uu_ls](https://github.com/uutils/coreutils/tree/main/src/uu/ls)**: ls ~ (uutils) display directory contents.
 - 🦀 **[coctus](https://github.com/Andriamanitra/coctus)**: Command line tool for playing CodinGame puzzles and Clash of Code.
 - 🦀 **[budget-tracker](https://github.com/Saphereye/budget-tracker)**: A TUI based budget tracker.
 - 🦀 **[pass_tool](https://github.com/rsk700/pass_tool)**: Tool for system configuration intended for making automation scripts using Rust.
+- 🦀 **[uu_basename](https://github.com/uutils/coreutils/tree/main/src/uu/basename)**: basename ~ (uutils) display PATHNAME with leading directory components removed.
+- 🦀 **[uu_vdir](https://github.com/uutils/coreutils/tree/main/src/uu/ls)**: shortcut to ls -l -b.
+- 🦀 **[uu_ln](https://github.com/uutils/coreutils/tree/main/src/uu/ln)**: ln ~ (uutils) create a (file system) link to TARGET.
 - 🦀 **[sfc_cart](https://gitlab.com/gemarcano/libsfc_cart-rs)**: SNES/SFC ROM header library and utilities.
 - 🦀 **[shrs_run_context](https://github.com/MrPicklePinosaur/shrs)**: Save and load run context.
-- 🦀 **[usv-to-xlsx](https://github.com/sixarm/usv-to-xlsx-rust-crate/)**: USV to XLSX: Convert Unicode Separated Values (USV) to Microsoft Excel (XLSX) for data markup, including for spreadsheets, databases, text files, and more.
-- 🦀 **[fd-find-enhance](https://github.com/zhangw/fd)**: fd is a simple, fast and user-friendly alternative to find.
-- 🦀 **[sitesmith](https://github.com/BradenEverson/sitesmith)**: An automated personal site generator!.
-- 🦀 **[tiny-cli](https://github.com/MarcusGrass/tiny-std)**: Tiny cli argparser generator.
-- 🦀 **[bubblers](https://github.com/warpy-ai/bubblers)**: Crustacean CLI that expels bubbles.
-- 🦀 **[emrtd](https://github.com/Fethbita/emrtd)**: A library that can read an eMRTD and do security checks.
-- 🦀 **[fluentci-graphql](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
-- 🦀 **[kicad-text-injector](https://github.com/hoijui/kicad-text-injector)**: A tiny CLI tool that replaces variables of the style `${KEY}` within KiCad PCB (pcbnew) files.
-- 🦀 **[shrs_file_logger](https://github.com/MrPicklePinosaur/shrs)**: dump logs to a file.
-- 🦀 **[simplistis](https://github.com/fauh45/simplistis)**: A super simple markdown-based static site generator.
-- 🦀 **[xhs-electronic-print](https://github.com/yourusername/xhs-electronic-print)**: A cross-platform printing library for Windows and macOS.
-- 🦀 **[fluentci-pdk](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
-- 🦀 **[unc](https://github.com/utnet-org/utility-cli-rs)**: human-friendly console utility that helps to interact with utility building Rust smart contracts from command line.
-- 🦀 **[usv-to-asv](https://github.com/sixarm/usv-to-asv-rust-crate/)**: USV to ASV: Convert Unicode Separated Values (USV) to ASCII Separated Values (ASV) such as for data markup, including for spreadsheets, databases, text files, and more.
-- 🦀 **[shrs_rhai_completion](https://github.com/MrPicklePinosaur/shrs)**: Rhai completions for shrs.
-- 🦀 **[mitex-cli](https://github.com/mitex-rs/mitex)**: CLI for MiTeX.
-- 🦀 **[quartz-tm-prover](https://github.com/informalsystems/cycles-quartz)**: CLI for generating a Merkle proof of CosmWasm state and accompanying tendermint light client proof (i.
-- 🦀 **[gitlab_s3_releaser](https://github.com/theirix/gitlab-s3-releaser)**: Tool to create GitLab releases from S3 bucket.
-- 🦀 **[qrrs](https://github.com/Lenivaya/qrrs)**: CLI QR code generator and reader.
-- 🦀 **[dshw](https://github.com/inunix3/dshw)**: A dead simple CLI program to query information about system and hardware.
-- 🦀 **[gitnu](https://github.com/nguyenvukhang/gitnu)**: gitnu indexes your git status so you can use numbers instead of filenames.
-- 🦀 **[usv-to-json](https://github.com/sixarm/usv-to-json-rust-crate/)**: USV to JSON: Convert Unicode Separated Values (USV) to JavaScript Object Notation (JSON) for data markup, including for spreadsheets, databases, text files, and more.
-- 🦀 **[av1an-core](https://github.com/master-of-zen/Av1an)**: Cross-platform command-line AV1 / VP9 / HEVC / H264 encoding framework with per scene quality encoding [Core library].
-- 🦀 **[shrs_rhai](https://github.com/MrPicklePinosaur/shrs)**: run rhai scripts with shrs context.
-- 🦀 **[svl-tools](https://github.com/gemarcano/svl-tools)**: Tools for interfacing with the Sparkfun Variable Bootloader (SVL).
-- 🦀 **[hoenir-core](https://github.com/hoenir-space/core)**: Hœnir for handling the corresponding exchange of data using Rust.
-- 🦀 **[cargo-maelstrom](https://github.com/maelstrom-software/maelstrom)**: Cargo Test Runner for Maelstrom.
-- 🦀 **[logss](https://github.com/todoesverso/logss)**: A simple command line tool that helps you visualize an input stream of text.
-- 🦀 **[dnsi](https://github.com/nlnetlabs/dnsi/)**: A tool for investigating the DNS.
-- 🦀 **[honeytree-calc](https://github.com/LavenderG/honeytree-calc)**: DPPt Munchlax Honey Tree Calculator.
-- 🦀 **[shrs_autocd](https://github.com/MrPicklePinosaur/shrs)**: implement autocd feature present in many shells.
-- 🦀 **[shrs_manpages](https://github.com/MrPicklePinosaur/shrs)**: keybinding to open man page currently typed command.
-- 🦀 **[uu_sleep](https://github.com/uutils/coreutils/tree/main/src/uu/sleep)**: sleep ~ (uutils) pause for DURATION.
-- 🦀 **[bootstrap_aws_lambdas](https://github.com/vvivan/bootstrap_rust_aws_lambdas)**: Bootstrap AWS Lambda Binaries with Rust.
-- 🦀 **[uu_cksum](https://github.com/uutils/coreutils/tree/main/src/uu/cksum)**: cksum ~ (uutils) display CRC and size of input.
-- 🦀 **[machin](https://github.com/mothsart/machin)**: Machin is a cli program that simplifies file conversions and batch processing.
-- 🦀 **[shrs_output_capture](https://github.com/MrPicklePinosaur/shrs)**: Capture the previous stdout and stderr output.
-- 🦀 **[shrs_derive_completion](https://github.com/MrPicklePinosaur/shrs)**: Specify shell completions from derive macro.
-- 🦀 **[jango](https://github.com/DavoReds/jango)**: A CLI program to populate your templates.
-- 🦀 **[uu_tail](https://github.com/uutils/coreutils/tree/main/src/uu/tail)**: tail ~ (uutils) display the last lines of input.
-- 🦀 **[leaper](https://github.com/mlueckl/leaper)**: A simple CLI tool to quickly leap to a directory.
-- 🦀 **[shrs_cd_stack](https://github.com/MrPicklePinosaur/shrs)**: maintain stack of past working directories.
-- 🦀 **[candid-gen](https://github.com/cwnt-io/candid-gen)**: CLI tool that automates the generation of Candid interface files from Rust canisters for Internet Computer (IC) projects.
-- 🦀 **[dns-ptr-resolver](https://github.com/wdes/dns-ptr-resolver)**: A program to resolve DNS IPs to PTRs.
-- 🦀 **[fermah-avs](https://github.com/fermah-xyz/seek)**: Fermah AVS.
-- 🦀 **[duckduckgo_search](https://github.com/EatonWu/duckduckgo_search)**: 🦆 A CLI and library for colorful DuckDuckGo searches, except you can retrieve results instead of printing.
-- 🦀 **[openbook](https://github.com/gigadao/openbook)**: 📖1️⃣2️⃣ A CLI, TUI and SDK to interact with OpenBook V1 and V2 markets on the Solana blockchain.
-- 🦀 **[throbber-widgets-tui-julien-cpsn](https://github.com/arkbig/throbber-widgets-tui)**: This is a ratatui widget that displays throbber.
-- 🦀 **[uu_basename](https://github.com/uutils/coreutils/tree/main/src/uu/basename)**: basename ~ (uutils) display PATHNAME with leading directory components removed.
-- 🦀 **[uu_ls](https://github.com/uutils/coreutils/tree/main/src/uu/ls)**: ls ~ (uutils) display directory contents.
-- 🦀 **[uu_ln](https://github.com/uutils/coreutils/tree/main/src/uu/ln)**: ln ~ (uutils) create a (file system) link to TARGET.
-- 🦀 **[uu_vdir](https://github.com/uutils/coreutils/tree/main/src/uu/ls)**: shortcut to ls -l -b.
-- 🦀 **[rhit](https://github.com/Canop/rhit)**: nginx log analyzer.
 - 🦀 **[uu_base32](https://github.com/uutils/coreutils/tree/main/src/uu/base32)**: base32 ~ (uutils) decode/encode input (base32-encoding).
 - 🦀 **[uu_cat](https://github.com/uutils/coreutils/tree/main/src/uu/cat)**: cat ~ (uutils) concatenate and display input.
-- 🦀 **[kmon](https://github.com/orhun/kmon)**: Linux kernel manager and activity monitor.
-- 🦀 **[shrs_completion](https://github.com/MrPicklePinosaur/shrs)**: More completions for shrs.
 - 🦀 **[uu_pwd](https://github.com/uutils/coreutils/tree/main/src/uu/pwd)**: pwd ~ (uutils) display current working directory.
-- 🦀 **[uu_dd](https://github.com/uutils/coreutils/tree/main/src/uu/dd)**: dd ~ (uutils) copy and convert files.
+- 🦀 **[fd-find-enhance](https://github.com/zhangw/fd)**: fd is a simple, fast and user-friendly alternative to find.
+- 🦀 **[usv-to-xlsx](https://github.com/sixarm/usv-to-xlsx-rust-crate/)**: USV to XLSX: Convert Unicode Separated Values (USV) to Microsoft Excel (XLSX) for data markup, including for spreadsheets, databases, text files, and more.
 - 🦀 **[uu_shred](https://github.com/uutils/coreutils/tree/main/src/uu/shred)**: shred ~ (uutils) hide former FILE contents with repeated overwrites.
+- 🦀 **[emrtd](https://github.com/Fethbita/emrtd)**: A library that can read an eMRTD and do security checks.
+- 🦀 **[sitesmith](https://github.com/BradenEverson/sitesmith)**: An automated personal site generator!.
+- 🦀 **[tiny-cli](https://github.com/MarcusGrass/tiny-std)**: Tiny cli argparser generator.
+- 🦀 **[uu_dd](https://github.com/uutils/coreutils/tree/main/src/uu/dd)**: dd ~ (uutils) copy and convert files.
+- 🦀 **[uu_rm](https://github.com/uutils/coreutils/tree/main/src/uu/rm)**: rm ~ (uutils) remove PATHNAME.
+- 🦀 **[uu_uniq](https://github.com/uutils/coreutils/tree/main/src/uu/uniq)**: uniq ~ (uutils) filter identical adjacent lines from input.
+- 🦀 **[uu_wc](https://github.com/uutils/coreutils/tree/main/src/uu/wc)**: wc ~ (uutils) display newline, word, and byte counts for input.
+- 🦀 **[fluentci-graphql](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
 - 🦀 **[uu_basenc](https://github.com/uutils/coreutils/tree/main/src/uu/basenc)**: basenc ~ (uutils) decode/encode input.
 - 🦀 **[uu_head](https://github.com/uutils/coreutils/tree/main/src/uu/head)**: head ~ (uutils) display the first lines of input.
-- 🦀 **[uu_rm](https://github.com/uutils/coreutils/tree/main/src/uu/rm)**: rm ~ (uutils) remove PATHNAME.
-- 🦀 **[uu_wc](https://github.com/uutils/coreutils/tree/main/src/uu/wc)**: wc ~ (uutils) display newline, word, and byte counts for input.
-- 🦀 **[dev_runner](https://github.com/BalajiSriraman/Dev_Runner)**: A CLI tool to run development commands in a project via a interactive menu.
-- 🦀 **[portforwarder-rs](https://github.com/pzmarzly/portforwarder-rs)**: Forwards ports on UPnP-enabled gateways.
-- 🦀 **[sergeant](https://github.com/s9tpepper/sergeant)**: Sergeant is a terminal based Twitch chat widget and bot in one.
+- 🦀 **[bubblers](https://github.com/warpy-ai/bubblers)**: Crustacean CLI that expels bubbles.
+- 🦀 **[cargo-maelstrom](https://github.com/maelstrom-software/maelstrom)**: Cargo Test Runner for Maelstrom.
+- 🦀 **[fluentci-pdk](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
+- 🦀 **[unc](https://github.com/utnet-org/utility-cli-rs)**: human-friendly console utility that helps to interact with utility building Rust smart contracts from command line.
 - 🦀 **[uu_df](https://github.com/uutils/coreutils/tree/main/src/uu/df)**: df ~ (uutils) display file system information.
-- 🦀 **[uu_seq](https://github.com/uutils/coreutils/tree/main/src/uu/seq)**: seq ~ (uutils) display a sequence of numbers.
-- 🦀 **[uu_uniq](https://github.com/uutils/coreutils/tree/main/src/uu/uniq)**: uniq ~ (uutils) filter identical adjacent lines from input.
-- 🦀 **[progitoor](https://github.com/epiphyte2/progitoor)**: progitoor is an overlay filesystem that stores ownership and other file metadata in a text database and presents that view to processes running as root, while the actual files are user-owned and can be versioned in git.
-- 🦀 **[uu_base64](https://github.com/uutils/coreutils/tree/main/src/uu/base64)**: base64 ~ (uutils) decode/encode input (base64-encoding).
 - 🦀 **[uu_ptx](https://github.com/uutils/coreutils/tree/main/src/uu/ptx)**: ptx ~ (uutils) display a permuted index of input.
-- 🦀 **[yitizi](https://github.com/edward-martyr/yitizi-rs)**: 異體字查詢 Get variant Chinese characters.
-- 🦀 **[fermah-config](https://github.com/fermah-xyz/seek)**: Fermah configuration profiles utility.
-- 🦀 **[jvr](https://github.com/photowey/jvr)**: A simple and easy-to-use Java version manager(registry: jvr), similar to Node.
-- 🦀 **[pier](https://github.com/BenSchZA/pier.git)**: A Linux script management tool.
-- 🦀 **[uu_date](https://github.com/uutils/coreutils/tree/main/src/date)**: date ~ (uutils) display or set the current time.
-- 🦀 **[uu_join](https://github.com/uutils/coreutils/tree/main/src/uu/join)**: join ~ (uutils) merge lines from inputs with matching join fields.
+- 🦀 **[uu_seq](https://github.com/uutils/coreutils/tree/main/src/uu/seq)**: seq ~ (uutils) display a sequence of numbers.
+- 🦀 **[uu_split](https://github.com/uutils/coreutils/tree/main/src/uu/split)**: split ~ (uutils) split input into output files.
+- 🦀 **[kicad-text-injector](https://github.com/hoijui/kicad-text-injector)**: A tiny CLI tool that replaces variables of the style `${KEY}` within KiCad PCB (pcbnew) files.
+- 🦀 **[quartz-tm-prover](https://github.com/informalsystems/cycles-quartz)**: CLI for generating a Merkle proof of CosmWasm state and accompanying tendermint light client proof (i.
+- 🦀 **[uu_base64](https://github.com/uutils/coreutils/tree/main/src/uu/base64)**: base64 ~ (uutils) decode/encode input (base64-encoding).
 - 🦀 **[uu_link](https://github.com/uutils/coreutils/tree/main/src/uu/link)**: link ~ (uutils) create a hard (file system) link to FILE.
+- 🦀 **[uu_realpath](https://github.com/uutils/coreutils/tree/main/src/uu/realpath)**: realpath ~ (uutils) display resolved absolute path of PATHNAME.
 - 🦀 **[uu_rmdir](https://github.com/uutils/coreutils/tree/main/src/uu/rmdir)**: rmdir ~ (uutils) remove empty DIRECTORY.
 - 🦀 **[uu_sort](https://github.com/uutils/coreutils/tree/main/src/uu/sort)**: sort ~ (uutils) sort input lines.
-- 🦀 **[uu_comm](https://github.com/uutils/coreutils/tree/main/src/uu/comm)**: comm ~ (uutils) compare sorted inputs.
-- 🦀 **[uu_cut](https://github.com/uutils/coreutils/tree/main/src/uu/cut)**: cut ~ (uutils) display byte/field columns of input lines.
+- 🦀 **[shrs_file_logger](https://github.com/MrPicklePinosaur/shrs)**: dump logs to a file.
+- 🦀 **[simplistis](https://github.com/fauh45/simplistis)**: A super simple markdown-based static site generator.
+- 🦀 **[uu_date](https://github.com/uutils/coreutils/tree/main/src/date)**: date ~ (uutils) display or set the current time.
+- 🦀 **[uu_join](https://github.com/uutils/coreutils/tree/main/src/uu/join)**: join ~ (uutils) merge lines from inputs with matching join fields.
 - 🦀 **[uu_more](https://github.com/uutils/coreutils/tree/main/src/uu/more)**: more ~ (uutils) input perusal filter.
-- 🦀 **[uu_readlink](https://github.com/uutils/coreutils/tree/main/src/uu/readlink)**: readlink ~ (uutils) display resolved path of PATHNAME.
-- 🦀 **[uu_realpath](https://github.com/uutils/coreutils/tree/main/src/uu/realpath)**: realpath ~ (uutils) display resolved absolute path of PATHNAME.
-- 🦀 **[uu_split](https://github.com/uutils/coreutils/tree/main/src/uu/split)**: split ~ (uutils) split input into output files.
-- 🦀 **[uu_tee](https://github.com/uutils/coreutils/tree/main/src/uu/tee)**: tee ~ (uutils) display input and copy to FILE.
-- 🦀 **[verso](https://github.com/nickpascucci/verso)**: A literate programming tool that does things a little differently.
-- 🦀 **[elif](https://github.com/nomissbowling/elif)**: file and directory walker for Rust.
-- 🦀 **[uu_csplit](https://github.com/uutils/coreutils/tree/main/src/uu/ls)**: csplit ~ (uutils) Output pieces of FILE separated by PATTERN(s) to files 'xx00', 'xx01', .
-- 🦀 **[uu_dir](https://github.com/uutils/coreutils/tree/main/src/uu/ls)**: shortcut to ls -C -b.
-- 🦀 **[uu_tr](https://github.com/uutils/coreutils/tree/main/src/uu/tr)**: tr ~ (uutils) translate characters within input and display.
 - 🦀 **[uu_unlink](https://github.com/uutils/coreutils/tree/main/src/uu/unlink)**: unlink ~ (uutils) remove a (file system) link to FILE.
-- 🦀 **[uu_printenv](https://github.com/uutils/coreutils/tree/main/src/uu/printenv)**: printenv ~ (uutils) display value of environment VAR.
+- 🦀 **[xhs-electronic-print](https://github.com/yourusername/xhs-electronic-print)**: A cross-platform printing library for Windows and macOS.
+- 🦀 **[usv-to-asv](https://github.com/sixarm/usv-to-asv-rust-crate/)**: USV to ASV: Convert Unicode Separated Values (USV) to ASCII Separated Values (ASV) such as for data markup, including for spreadsheets, databases, text files, and more.
+- 🦀 **[uu_comm](https://github.com/uutils/coreutils/tree/main/src/uu/comm)**: comm ~ (uutils) compare sorted inputs.
+- 🦀 **[uu_csplit](https://github.com/uutils/coreutils/tree/main/src/uu/ls)**: csplit ~ (uutils) Output pieces of FILE separated by PATTERN(s) to files 'xx00', 'xx01', .
+- 🦀 **[uu_cut](https://github.com/uutils/coreutils/tree/main/src/uu/cut)**: cut ~ (uutils) display byte/field columns of input lines.
+- 🦀 **[uu_readlink](https://github.com/uutils/coreutils/tree/main/src/uu/readlink)**: readlink ~ (uutils) display resolved path of PATHNAME.
 - 🦀 **[uu_sum](https://github.com/uutils/coreutils/tree/main/src/uu/sum)**: sum ~ (uutils) display checksum and block counts for input.
-- 🦀 **[uu_tac](https://github.com/uutils/coreutils/tree/main/src/uu/tac)**: tac ~ (uutils) concatenate and display input lines in reverse order.
-- 🦀 **[ctow](https://github.com/Hoverth/ctow)**: A simple rust binary utility to convert curl commands to wget commands.
-- 🦀 **[uu_factor](https://github.com/uutils/coreutils/tree/main/src/uu/)**: factor ~ (uutils) display the prime factors of each NUMBER.
+- 🦀 **[uu_tee](https://github.com/uutils/coreutils/tree/main/src/uu/tee)**: tee ~ (uutils) display input and copy to FILE.
+- 🦀 **[uu_tr](https://github.com/uutils/coreutils/tree/main/src/uu/tr)**: tr ~ (uutils) translate characters within input and display.
+- 🦀 **[av1an-core](https://github.com/master-of-zen/Av1an)**: Cross-platform command-line AV1 / VP9 / HEVC / H264 encoding framework with per scene quality encoding [Core library].
+- 🦀 **[mitex-cli](https://github.com/mitex-rs/mitex)**: CLI for MiTeX.
+- 🦀 **[shrs_rhai_completion](https://github.com/MrPicklePinosaur/shrs)**: Rhai completions for shrs.
+- 🦀 **[uu_dir](https://github.com/uutils/coreutils/tree/main/src/uu/ls)**: shortcut to ls -C -b.
+- 🦀 **[uu_printenv](https://github.com/uutils/coreutils/tree/main/src/uu/printenv)**: printenv ~ (uutils) display value of environment VAR.
+- 🦀 **[gitlab_s3_releaser](https://github.com/theirix/gitlab-s3-releaser)**: Tool to create GitLab releases from S3 bucket.
 - 🦀 **[uu_paste](https://github.com/uutils/coreutils/tree/main/src/uu/paste)**: paste ~ (uutils) merge lines from inputs.
+- 🦀 **[uu_tac](https://github.com/uutils/coreutils/tree/main/src/uu/tac)**: tac ~ (uutils) concatenate and display input lines in reverse order.
 - 🦀 **[uu_unexpand](https://github.com/uutils/coreutils/tree/main/src/uu/unexpand)**: unexpand ~ (uutils) convert input spaces to tabs.
+- 🦀 **[qrrs](https://github.com/Lenivaya/qrrs)**: CLI QR code generator and reader.
+- 🦀 **[uu_factor](https://github.com/uutils/coreutils/tree/main/src/uu/)**: factor ~ (uutils) display the prime factors of each NUMBER.
+- 🦀 **[uu_hashsum](https://github.com/uutils/coreutils/tree/main/src/uu/hashsum)**: hashsum ~ (uutils) display or check input digests.
+- 🦀 **[uu_pr](https://github.com/uutils/coreutils/tree/main/src/uu/pr)**: pr ~ (uutils) convert text files for printing.
+- 🦀 **[uu_printf](https://github.com/uutils/coreutils/tree/main/src/uu/printf)**: printf ~ (uutils) FORMAT and display ARGUMENTS.
+- 🦀 **[dshw](https://github.com/inunix3/dshw)**: A dead simple CLI program to query information about system and hardware.
+- 🦀 **[gitnu](https://github.com/nguyenvukhang/gitnu)**: gitnu indexes your git status so you can use numbers instead of filenames.
+- 🦀 **[hoenir-core](https://github.com/hoenir-space/core)**: Hœnir for handling the corresponding exchange of data using Rust.
+- 🦀 **[uu_dirname](https://github.com/uutils/coreutils/tree/main/src/uu/dirname)**: dirname ~ (uutils) display parent directory of PATHNAME.
 - 🦀 **[uu_du](https://github.com/uutils/coreutils/tree/main/src/uu/du)**: du ~ (uutils) display disk usage.
 - 🦀 **[uu_echo](https://github.com/uutils/coreutils/tree/main/src/uu/echo)**: echo ~ (uutils) display TEXT.
-- 🦀 **[uu_hashsum](https://github.com/uutils/coreutils/tree/main/src/uu/hashsum)**: hashsum ~ (uutils) display or check input digests.
+- 🦀 **[uu_false](https://github.com/uutils/coreutils/tree/main/src/uu/false)**: false ~ (uutils) do nothing and fail.
 - 🦀 **[uu_nl](https://github.com/uutils/coreutils/tree/main/src/uu/nl)**: nl ~ (uutils) display input with added line numbers.
 - 🦀 **[uu_numfmt](https://github.com/uutils/coreutils/tree/main/src/uu/numfmt)**: numfmt ~ (uutils) reformat NUMBER.
 - 🦀 **[uu_od](https://github.com/uutils/coreutils/tree/main/src/uu/od)**: od ~ (uutils) display formatted representation of input.
-- 🦀 **[uu_pr](https://github.com/uutils/coreutils/tree/main/src/uu/pr)**: pr ~ (uutils) convert text files for printing.
-- 🦀 **[uu_printf](https://github.com/uutils/coreutils/tree/main/src/uu/printf)**: printf ~ (uutils) FORMAT and display ARGUMENTS.
-- 🦀 **[cli-pdf-reader](https://github.com/kruserr/rustic-reader)**: A minimalistic ebook reader.
-- 🦀 **[uu_dirname](https://github.com/uutils/coreutils/tree/main/src/uu/dirname)**: dirname ~ (uutils) display parent directory of PATHNAME.
-- 🦀 **[uu_false](https://github.com/uutils/coreutils/tree/main/src/uu/false)**: false ~ (uutils) do nothing and fail.
 - 🦀 **[uu_shuf](https://github.com/uutils/coreutils/tree/main/src/uu/shuf)**: shuf ~ (uutils) display random permutations of input lines.
+- 🦀 **[uu_tsort](https://github.com/uutils/coreutils/tree/main/src/uu/tsort)**: tsort ~ (uutils) topologically sort input (partially ordered) pairs.
+- 🦀 **[usv-to-json](https://github.com/sixarm/usv-to-json-rust-crate/)**: USV to JSON: Convert Unicode Separated Values (USV) to JavaScript Object Notation (JSON) for data markup, including for spreadsheets, databases, text files, and more.
+- 🦀 **[uu_truncate](https://github.com/uutils/coreutils/tree/main/src/uu/truncate)**: truncate ~ (uutils) truncate (or extend) FILE to SIZE.
 - 🦀 **[uu_dircolors](https://github.com/uutils/coreutils/tree/main/src/uu/dircolors)**: dircolors ~ (uutils) display commands to set LS_COLORS.
 - 🦀 **[uu_expr](https://github.com/uutils/coreutils/tree/main/src/uu/expr)**: expr ~ (uutils) display the value of EXPRESSION.
 - 🦀 **[uu_fmt](https://github.com/uutils/coreutils/tree/main/src/uu/fmt)**: fmt ~ (uutils) reformat each paragraph of input.
 - 🦀 **[uu_fold](https://github.com/uutils/coreutils/tree/main/src/uu/fold)**: fold ~ (uutils) wrap each line of input.
-- 🦀 **[uu_tsort](https://github.com/uutils/coreutils/tree/main/src/uu/tsort)**: tsort ~ (uutils) topologically sort input (partially ordered) pairs.
-- 🦀 **[ripnode](https://github.com/JorgeMayoral/ripnode)**: Simple tool for deleting node_modules and other folders.
-- 🦀 **[uu_truncate](https://github.com/uutils/coreutils/tree/main/src/uu/truncate)**: truncate ~ (uutils) truncate (or extend) FILE to SIZE.
-- 🦀 **[resynth](https://github.com/giannitedesco/resynth)**: A packet synthesis language.
+- 🦀 **[shrs_rhai](https://github.com/MrPicklePinosaur/shrs)**: run rhai scripts with shrs context.
+- 🦀 **[svl-tools](https://github.com/gemarcano/svl-tools)**: Tools for interfacing with the Sparkfun Variable Bootloader (SVL).
 - 🦀 **[uu_env](https://github.com/uutils/coreutils/tree/main/src/uu/env)**: env ~ (uutils) set each NAME to VALUE in the environment and run COMMAND.
-- 🦀 **[uu_expand](https://github.com/uutils/coreutils/tree/main/src/uu/expand)**: expand ~ (uutils) convert input tabs to spaces.
-- 🦀 **[aloe-drag-and-drop](https://github.com/klebs6/aloe-rs)**: Aloe Drag and Drop provides extensible Rust traits and structs for adding drag-and-drop functionality to GUI components, supporting files, text, and custom object interactions.
 - 🦀 **[uu_true](https://github.com/uutils/coreutils/tree/main/src/uu/true)**: true ~ (uutils) do nothing and succeed.
-- 🦀 **[uu_yes](https://github.com/uutils/coreutils/tree/main/src/uu/yes)**: yes ~ (uutils) repeatedly display a line with STRING (or 'y').
-- 🦀 **[proot](https://github.com/iamlucasvieira)**: Wrapper around gh CLI.
-- 🦀 **[rfcalc](https://github.com/chengr4/calc-cli)**: A tool to calculate things.
+- 🦀 **[logss](https://github.com/todoesverso/logss)**: A simple command line tool that helps you visualize an input stream of text.
+- 🦀 **[uu_expand](https://github.com/uutils/coreutils/tree/main/src/uu/expand)**: expand ~ (uutils) convert input tabs to spaces.
 - 🦀 **[uu_test](https://github.com/uutils/coreutils/tree/main/src/uu/test)**: test ~ (uutils) evaluate comparison and file type expressions.
-- 🦀 **[stimmgabel](https://github.com/polyphony-chat/stimmgabel)**: polyproto reference test implementation used for verifying other implementations of the protocol.
-- 🦀 **[thru](https://github.com/plestoon/thru)**: A QUIC tunnel for TCP/UDP.
+- 🦀 **[uu_yes](https://github.com/uutils/coreutils/tree/main/src/uu/yes)**: yes ~ (uutils) repeatedly display a line with STRING (or 'y').
+- 🦀 **[dnsi](https://github.com/nlnetlabs/dnsi/)**: A tool for investigating the DNS.
+- 🦀 **[bootstrap_aws_lambdas](https://github.com/vvivan/bootstrap_rust_aws_lambdas)**: Bootstrap AWS Lambda Binaries with Rust.
+- 🦀 **[honeytree-calc](https://github.com/LavenderG/honeytree-calc)**: DPPt Munchlax Honey Tree Calculator.
+- 🦀 **[shrs_autocd](https://github.com/MrPicklePinosaur/shrs)**: implement autocd feature present in many shells.
+- 🦀 **[shrs_manpages](https://github.com/MrPicklePinosaur/shrs)**: keybinding to open man page currently typed command.
+- 🦀 **[machin](https://github.com/mothsart/machin)**: Machin is a cli program that simplifies file conversions and batch processing.
+- 🦀 **[shrs_derive_completion](https://github.com/MrPicklePinosaur/shrs)**: Specify shell completions from derive macro.
+- 🦀 **[shrs_output_capture](https://github.com/MrPicklePinosaur/shrs)**: Capture the previous stdout and stderr output.
+- 🦀 **[dns-ptr-resolver](https://github.com/wdes/dns-ptr-resolver)**: A program to resolve DNS IPs to PTRs.
+- 🦀 **[duckduckgo_search](https://github.com/EatonWu/duckduckgo_search)**: 🦆 A CLI and library for colorful DuckDuckGo searches, except you can retrieve results instead of printing.
+- 🦀 **[fermah-avs](https://github.com/fermah-xyz/seek)**: Fermah AVS.
+- 🦀 **[jango](https://github.com/DavoReds/jango)**: A CLI program to populate your templates.
+- 🦀 **[leaper](https://github.com/mlueckl/leaper)**: A simple CLI tool to quickly leap to a directory.
+- 🦀 **[shrs_cd_stack](https://github.com/MrPicklePinosaur/shrs)**: maintain stack of past working directories.
+- 🦀 **[candid-gen](https://github.com/cwnt-io/candid-gen)**: CLI tool that automates the generation of Candid interface files from Rust canisters for Internet Computer (IC) projects.
+- 🦀 **[openbook](https://github.com/gigadao/openbook)**: 📖1️⃣2️⃣ A CLI, TUI and SDK to interact with OpenBook V1 and V2 markets on the Solana blockchain.
+- 🦀 **[aloe-drag-and-drop](https://github.com/klebs6/aloe-rs)**: Aloe Drag and Drop provides extensible Rust traits and structs for adding drag-and-drop functionality to GUI components, supporting files, text, and custom object interactions.
+- 🦀 **[throbber-widgets-tui-julien-cpsn](https://github.com/arkbig/throbber-widgets-tui)**: This is a ratatui widget that displays throbber.
+- 🦀 **[kmon](https://github.com/orhun/kmon)**: Linux kernel manager and activity monitor.
+- 🦀 **[rhit](https://github.com/Canop/rhit)**: nginx log analyzer.
+- 🦀 **[shrs_completion](https://github.com/MrPicklePinosaur/shrs)**: More completions for shrs.
+- 🦀 **[dev_runner](https://github.com/BalajiSriraman/Dev_Runner)**: A CLI tool to run development commands in a project via a interactive menu.
+- 🦀 **[sergeant](https://github.com/s9tpepper/sergeant)**: Sergeant is a terminal based Twitch chat widget and bot in one.
+- 🦀 **[portforwarder-rs](https://github.com/pzmarzly/portforwarder-rs)**: Forwards ports on UPnP-enabled gateways.
+- 🦀 **[fermah-config](https://github.com/fermah-xyz/seek)**: Fermah configuration profiles utility.
+- 🦀 **[jvr](https://github.com/photowey/jvr)**: A simple and easy-to-use Java version manager(registry: jvr), similar to Node.
+- 🦀 **[progitoor](https://github.com/epiphyte2/progitoor)**: progitoor is an overlay filesystem that stores ownership and other file metadata in a text database and presents that view to processes running as root, while the actual files are user-owned and can be versioned in git.
+- 🦀 **[yitizi](https://github.com/edward-martyr/yitizi-rs)**: 異體字查詢 Get variant Chinese characters.
+- 🦀 **[elif](https://github.com/nomissbowling/elif)**: file and directory walker for Rust.
+- 🦀 **[pier](https://github.com/BenSchZA/pier.git)**: A Linux script management tool.
+- 🦀 **[verso](https://github.com/nickpascucci/verso)**: A literate programming tool that does things a little differently.
+- 🦀 **[ctow](https://github.com/Hoverth/ctow)**: A simple rust binary utility to convert curl commands to wget commands.
+- 🦀 **[cli-pdf-reader](https://github.com/kruserr/rustic-reader)**: A minimalistic ebook reader.
+- 🦀 **[ripnode](https://github.com/JorgeMayoral/ripnode)**: Simple tool for deleting node_modules and other folders.
+- 🦀 **[resynth](https://github.com/giannitedesco/resynth)**: A packet synthesis language.
+- 🦀 **[rfcalc](https://github.com/chengr4/calc-cli)**: A tool to calculate things.
+- 🦀 **[proot](https://github.com/iamlucasvieira)**: Wrapper around gh CLI.
 - 🦀 **[lan-chat](https://github.com/Saphereye/lan-chat)**: A terminal based chatting application with a terminal user interface.
 - 🦀 **[liblitho](https://github.com/girish946/litho)**: cli tool to flash/clone the images to storage devices.
+- 🦀 **[stimmgabel](https://github.com/polyphony-chat/stimmgabel)**: polyproto reference test implementation used for verifying other implementations of the protocol.
+- 🦀 **[thru](https://github.com/plestoon/thru)**: A QUIC tunnel for TCP/UDP.
+- 🦀 **[shiva](https://github.com/igumnoff/shiva)**: Shiva library: Implementation in Rust of a parser and generator for documents of any type.
 - 🦀 **[sk8brd-proto](https://github.com/linux-msm/sk8brd)**: Simple remote devboard control software.
 - 🦀 **[rs-coco](https://github.com/lucas-labs/coco)**: 🥥 coco » an interactive cli for creating conventional commits.
-- 🦀 **[shiva](https://github.com/igumnoff/shiva)**: Shiva library: Implementation in Rust of a parser and generator for documents of any type.
 - 🦀 **[dabih](https://github.com/spang-lab/dabih)**: Command Line Interface for dabih.
+- 🦀 **[cli-colors](https://github.com/BrianTib/cli-color)**: A CLI tool for outputting text in ANSI format with features like colors, underlining, boldening, and italicizing.
+- 🦀 **[disarm64_defn](https://github.com/kromych/disarm64_defn)**: This library provides structures and enums for describing AArch64 (ARMv8) instructions.
 - 🦀 **[tac-k](https://github.com/my4ng/tack)**: Print lines from file in reverse order.
 - 🦀 **[unarchiver](https://github.com/EstebanBorai/unarchiver)**: CLI Tool for un/archive multiple formats of compressed files.
 - 🦀 **[uobors_cli](https://github.com/sakai-nako/uobors)**: Unleash OpenBOR modding in Rust.
-- 🦀 **[cli-colors](https://github.com/BrianTib/cli-color)**: A CLI tool for outputting text in ANSI format with features like colors, underlining, boldening, and italicizing.
 - 🦀 **[r3bl_terminal_async](https://github.com/r3bl-org/r3bl-open-core/tree/main/terminal_async)**: Async non-blocking read_line implemenation with multiline editor, with concurrent display output from tasks, and colorful animated spinners.
 - 🦀 **[spc_tag](https://gitlab.com/gemarcano/libspc_tag-rs)**: SNES SPC file format tag library and utilities.
 - 🦀 **[fluentci-server](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
 - 🦀 **[frack](null)**: A fake Rust error generator.
 - 🦀 **[next-butler](https://github.com/TatuMon/next-butler)**: A tool to help you delevop your Next.
+- 🦀 **[so](https://github.com/samtay/so)**: A terminal interface for StackOverflow.
 - 🦀 **[rm-rs](https://github.com/niss36/rm-rs)**: A cross-platform alternative to `rm`.
 - 🦀 **[rng-query](https://github.com/Zheoni/rng-query)**: CLI to use pseudorandomness the easy way.
-- 🦀 **[so](https://github.com/samtay/so)**: A terminal interface for StackOverflow.
-- 🦀 **[disarm64_defn](https://github.com/kromych/disarm64_defn)**: This library provides structures and enums for describing AArch64 (ARMv8) instructions.
 - 🦀 **[arch-audit](https://gitlab.archlinux.org/archlinux/arch-audit)**: A utility like pkg-audit for Arch Linux based on Arch Security Team data.
 - 🦀 **[pricedb](https://github.com/alensiljak/pricedb-rust)**: Commodity price retrieval, storage, and export in format compatible with Plain-Text Accounting applications.
 - 🦀 **[stempel](https://github.com/KuabeM/stempel)**: Track the time you spent working.
 - 🦀 **[psdm](https://github.com/mbhall88/psdm)**: Compute a pairwise SNP distance matrix from one or two alignment(s).
 - 🦀 **[yadf](https://github.com/jRimbault/yadf)**: yet another dupes finder.
+- 🦀 **[nft-folder](https://github.com/sameoldlab/nft-folder-cli)**: Save NFT collection to a local directory.
+- 🦀 **[cargo-swift](https://github.com/antoniusnaumann/cargo-swift)**: A cargo plugin to easily build Swift packages from Rust code for use in iOS and macOS applications.
 - 🦀 **[rudric](https://github.com/mike-lloyd03/rudric)**: CLI tool for managing secrets in a secure way.
 - 🦀 **[rustii](https://github.com/ndr3www/rustii/tree/main)**: Converts images to ASCII art.
-- 🦀 **[nft-folder](https://github.com/sameoldlab/nft-folder-cli)**: Save NFT collection to a local directory.
-- 🦀 **[qsspodcasts_frontend](https://github.com/Quessou/qsspodcasts)**: Default frontend crate for QSSPodcasts.
 - 🦀 **[tro](https://www.github.com/MichaelAquilina/tro.git)**: A Trello API client for the command line.
-- 🦀 **[wasmcov](https://github.com/hknio/wasmcov)**: A set of helpers for coverage of wasm modules.
 - 🦀 **[libslirp](https://gitlab.freedesktop.org/slirp/libslirp-rs.git)**: High-level bindings & helper process for libslirp.
-- 🦀 **[xtagger](https://github.com/erazor-de/xtagger)**: Command line application for managing and searching tags stored in filesystem extended attributes.
+- 🦀 **[qsspodcasts_frontend](https://github.com/Quessou/qsspodcasts)**: Default frontend crate for QSSPodcasts.
 - 🦀 **[arxivlens](https://github.com/AlMrvn/arxivlens)**: Terminal User Interface (TUI) for exploring arXiv.
+- 🦀 **[wasmcov](https://github.com/hknio/wasmcov)**: A set of helpers for coverage of wasm modules.
 - 🦀 **[cargo-testdox](https://github.com/bitfield/cargo-testdox)**: A Cargo subcommand to print your test names as sentences.
-- 🦀 **[qwen](https://github.com/ziboh/qwen)**: qwen is program to send messages to Qwen API.
+- 🦀 **[xtagger](https://github.com/erazor-de/xtagger)**: Command line application for managing and searching tags stored in filesystem extended attributes.
 - 🦀 **[dialogical](https://github.com/Lamby777/dialogical)**: P/E/T/S 2037 Dialogue Tree Compiler.
-- 🦀 **[subtitle-translator-cli](https://github.com/eeee0717/subtitle-translator-cli)**: A tool to translate subtitle files.
-- 🦀 **[pants-store](https://github.com/BenPski/pants)**: A password manager.
-- 🦀 **[cargo-swift](https://github.com/antoniusnaumann/cargo-swift)**: A cargo plugin to easily build Swift packages from Rust code for use in iOS and macOS applications.
+- 🦀 **[qwen](https://github.com/ziboh/qwen)**: qwen is program to send messages to Qwen API.
 - 🦀 **[fermah-telemetry](https://github.com/fermah-xyz/seek)**: Fermah telemetry tracing and metrics.
+- 🦀 **[pants-store](https://github.com/BenPski/pants)**: A password manager.
+- 🦀 **[subtitle-translator-cli](https://github.com/eeee0717/subtitle-translator-cli)**: A tool to translate subtitle files.
 - 🦀 **[semver-extra](https://github.com/nicholaschiasson/semver-extra)**: Helper functions for the semver crate, complete with a CLI tool.
 - 🦀 **[rs_oss_cli](https://github.com/InkCoderYmc/rs_oss_cli)**: A simple command line tool for oss.
-- 🦀 **[usbrelay-rs](https://github.com/charlieh0tel/usbrelay-rs)**: USB relay support.
 - 🦀 **[paris-locate](https://github.com/ming-flute/paris-locate)**: A crate to add function name to paris's formatting output.
+- 🦀 **[usbrelay-rs](https://github.com/charlieh0tel/usbrelay-rs)**: USB relay support.
+- 🦀 **[fast-socks5](https://github.com/dizda/fast-socks5)**: Fast SOCKS5 client/server implementation written in Rust async/.
 - 🦀 **[graph_fs](https://github.com/Valentine-Mario/Graph_FS)**: A CLI tool that helps query a local or remote file system by a GraphQL interface.
 - 🦀 **[fluentci-shared](https://github.com/fluentci-io/fluentci-engine)**: Programmable CI/CD engine without Containers, built on top of Nix ❄️.
-- 🦀 **[otoroshi_rust_types](https://github.com/MAIF/otoroshi-rust-types)**: A CLI to create and build WASM binaries.
 - 🦀 **[glow-control-lib](https://github.com/cgorski/glow-control)**: A library for controlling programmable LED lights.
-- 🦀 **[fast-socks5](https://github.com/dizda/fast-socks5)**: Fast SOCKS5 client/server implementation written in Rust async/.
+- 🦀 **[otoroshi_rust_types](https://github.com/MAIF/otoroshi-rust-types)**: A CLI to create and build WASM binaries.
 - 🦀 **[mail-message](https://github.com/d-e-s-o/maily.git)**: A program for easy, quick, and fault tolerant sending of emails from the command line.
+- 🦀 **[link_o_matic](https://github.com/mong8se/link_o_matic)**: A dotfile symlink manager with a convention over configuration philosophy.
 - 🦀 **[powernotd](https://github.com/Laeri/powernotd)**: Powernotd is a battery-level notification daemon that sends notification using the xdg desktop notification standard.
 - 🦀 **[Rust-Discord-API](https://github.com/BeyondJacob/Rust-Discord-API)**: A Discord bot framework written in Rust.
-- 🦀 **[link_o_matic](https://github.com/mong8se/link_o_matic)**: A dotfile symlink manager with a convention over configuration philosophy.
 - 🦀 **[decdnnf_rs](https://github.com/crillab/decdnnf_rs)**: A library for Decision-DNNFs.
 - 🦀 **[feature-check](https://gitlab.com/ppentchev/feature-check)**: Query a program for supported features.
 - 🦀 **[script-wizard](https://github.com/EnigmaCurry/script-wizard)**: script-wizard is a shell script (Bash) helper program, to delegate the responsibility of asking questions to the user, asking for confirmation, making selections, etc.
 - 🦀 **[assetinfo](https://github.com/bbastin/assetinfo)**: assetinfo is a tool to watch for versions of assets and their end-of-life date.
+- 🦀 **[cpclib](https://github.com/cpcsdk/rust.cpclib)**: Set of tools and libraries to ease demomaking on the Amstrad CPC platform.
 - 🦀 **[grrs_hyoryu](https://github.com/SetsuikiHyoryu/grrs-rust)**: A too to search files.
+- 🦀 **[television](https://github.com/alexpasmantier/television)**: A cross-platform, fast and extensible general purpose fuzzy finder TUI.
+- 🦀 **[yash-fnmatch](https://github.com/magicant/yash-rs)**: POSIX-compatible pattern matching for globbing.
 - 🦀 **[image-resizer](https://github.com/magiclen/image-resizer)**: Resize or just shrink images and sharpen them appropriately.
 - 🦀 **[mdblog](https://github.com/FuGangqiang/mdblog.rs)**: static site generator from markdown files.
-- 🦀 **[nexedit](https://github.com/d3vboi/nexedit)**: A vim-like text editor, with simple shortcuts.
-- 🦀 **[yash-fnmatch](https://github.com/magicant/yash-rs)**: POSIX-compatible pattern matching for globbing.
 - 🦀 **[modbus-mqtt](https://github.com/bjeanes/modbus-mqtt)**: A bridge between Modbus devices and MQTT.
-- 🦀 **[pokestat](https://codeberg.org/binarycat/pokestat)**: guess a pokemon's IVs and EVs from in-game information.
 - 🦀 **[sesdiff](https://github.com/proycon/sesdiff)**: Generates a shortest edit script (Myers' diff algorithm) to indicate how to get from the strings in column A to the strings in column B.
+- 🦀 **[nexedit](https://github.com/d3vboi/nexedit)**: A vim-like text editor, with simple shortcuts.
+- 🦀 **[pokestat](https://codeberg.org/binarycat/pokestat)**: guess a pokemon's IVs and EVs from in-game information.
 - 🦀 **[tasker-cli](https://github.com/DavoReds/tasker)**: A To-Do CLI application for managing your daily Tasks.
 - 🦀 **[fif](https://gitlab.com/Lynnesbian/fif)**: A command-line tool for detecting and optionally correcting files with incorrect extensions.
 - 🦀 **[libradicl](https://github.com/COMBINE-lab/libradicl)**: support library for alevin-fry.
 - 🦀 **[feedlynx](https://github.com/wezm/feedlynx)**: Collect links to read or watch later in your RSS reader.
 - 🦀 **[terminal-font](https://github.com/treeinfra/terminal-font)**: Utilities for font color and style decoration in terminal.
-- 🦀 **[cpclib](https://github.com/cpcsdk/rust.cpclib)**: Set of tools and libraries to ease demomaking on the Amstrad CPC platform.
-- 🦀 **[television](https://github.com/alexpasmantier/television)**: A cross-platform, fast and extensible general purpose fuzzy finder TUI.
 - 🦀 **[rspow](https://github.com/zolagonano/rspow.git)**: A multi-algorithm proof-of-work library in rust.
+- 🦀 **[balatro_tui_core](https://github.com/Passeriform/BalatroTUI)**: Core modules for Balatro CLI game.
+- 🦀 **[clwind](https://github.com/CatalinIuga/clwind/)**: TailwindCSS like utility for CLI.
 - 🦀 **[rtwo](https://github.com/jandrus/)**: CLI interface for Ollama written in Rust.
 - 🦀 **[baseic](https://github.com/carmisergio/baseic)**: A simple numeric conversion tool.
-- 🦀 **[clwind](https://github.com/CatalinIuga/clwind/)**: TailwindCSS like utility for CLI.
-- 🦀 **[balatro_tui_core](https://github.com/Passeriform/BalatroTUI)**: Core modules for Balatro CLI game.
-- 🦀 **[advanced_string_generator](https://github.com/edwardigarashi/Rust-Advanced-String-Generator)**: A command-line tool for generating strings based on customizable regex patterns.
 - 🦀 **[code-graph](https://github.com/feint123/code-graph)**: An egui app that can display code graphics and find all references.
 - 🦀 **[kazama](https://github.com/spirizeon/kazama)**: an ollama wrapper in rust.
-- 🦀 **[simple-gallery](https://github.com/conorsch/simple-gallery)**: Generates a single-page static web application, with no JS, serving a simple photogallery.
-- 🦀 **[start-timer](https://github.com/EstebanBorai/start-timer)**: Utility to Start a Timer.
+- 🦀 **[advanced_string_generator](https://github.com/edwardigarashi/Rust-Advanced-String-Generator)**: A command-line tool for generating strings based on customizable regex patterns.
 - 🦀 **[genezip](https://github.com/BradenEverson/genezip)**: An encoding CLI tool for compressing and decompressing raw genome information.
-- 🦀 **[dotbak](https://github.com/cogsandsquigs/dotbak)**: Manage and backup dotfiles with ease!.
 - 🦀 **[mvd](https://github.com/samuelevalperta/mvd)**: Lightweight CLI tool that moves the most recently added files from downloads to the working directory.
-- 🦀 **[fe-cli-vgd](https://github.com/vishalg0wda/fe-cli)**: A tool to search files.
+- 🦀 **[start-timer](https://github.com/EstebanBorai/start-timer)**: Utility to Start a Timer.
+- 🦀 **[dotbak](https://github.com/cogsandsquigs/dotbak)**: Manage and backup dotfiles with ease!.
 - 🦀 **[func-iter](https://github.com/bbarker/SoftwareTools)**: Functional programming utitilies for iterators and collections.
+- 🦀 **[simple-gallery](https://github.com/conorsch/simple-gallery)**: Generates a single-page static web application, with no JS, serving a simple photogallery.
+- 🦀 **[fe-cli-vgd](https://github.com/vishalg0wda/fe-cli)**: A tool to search files.
+- 🦀 **[libpt-log](https://git.cscherr.de/PlexSheep/pt)**: Personal multitool.
+- 🦀 **[nosh](https://codeberg.org/rrc/nosh)**: CLI nutrition tracker.
 - 🦀 **[rss-actions](https://github.com/boustrophedon/rss-actions)**: Run scripts automatically on rss feed updates.
 - 🦀 **[keyhunter](https://github.com/DonIsaac/keyhunter)**: Check for leaked API keys and secrets on public websites.
-- 🦀 **[nosh](https://codeberg.org/rrc/nosh)**: CLI nutrition tracker.
-- 🦀 **[libpt-log](https://git.cscherr.de/PlexSheep/pt)**: Personal multitool.
 - 🦀 **[cega](https://github.com/knzconnor/cega)**: CGA and EGA binary image file processing library.
 - 🦀 **[mc-repack](https://github.com/szeweq/mc-repack)**: A command-line interface for repacking Minecraft mods and resource packs to optimize size and loading speed.
+- 🦀 **[copyrat](https://github.com/graelo/tmux-copyrat)**: A tmux plugin for copy-pasting within tmux panes.
 - 🦀 **[segul](https://github.com/hhandika/segul)**: An ultrafast and memory-efficient tool for phylogenomics.
 - 🦀 **[webdiff](https://github.com/zoosky/webdiff)**: The Swiss Army knife for website quality.
-- 🦀 **[beautytips](https://github.com/hunger/beautytips)**: The beautytips code prettifier.
-- 🦀 **[copyrat](https://github.com/graelo/tmux-copyrat)**: A tmux plugin for copy-pasting within tmux panes.
-- 🦀 **[omst](https://codeberg.org/clarfonthey/omst)**: Reveals whomst thou art with a single character.
 - 🦀 **[aliasman](https://github.com/garcia-andy/aliasman-rs)**: A simple tool for manage your aliasses.
+- 🦀 **[beautytips](https://github.com/hunger/beautytips)**: The beautytips code prettifier.
+- 🦀 **[omst](https://codeberg.org/clarfonthey/omst)**: Reveals whomst thou art with a single character.
 - 🦀 **[chroot-deploy](https://github.com/d-e-s-o/chroot-deploy.git)**: A program able to deploy and work with a chroot environment in a quick manner.
 - 🦀 **[libdsync-hasezoey](https://github.com/hasezoey/dsync)**: Generate rust structs & query functions from diesel schema files.
-- 🦀 **[wasi-http-attributes](https://github.com/rust-cli/paw)**: Proc Macro attributes for the WASI HTTP Proxy World.
 - 🦀 **[grps](https://github.com/Bottle7/grrs)**: A CLI tool for searching files for patterns.
+- 🦀 **[wasi-http-attributes](https://github.com/rust-cli/paw)**: Proc Macro attributes for the WASI HTTP Proxy World.
 - 🦀 **[dothttp](https://github.com/alisa101rs/dothttp)**: dothttp is a text-based scriptable HTTP client.
 - 🦀 **[naqsh](null)**: Naqsh.
+- 🦀 **[termusic-lib](https://github.com/tramhao/termusic)**: library to support termusic.
 - 🦀 **[lazy-badger](https://github.com/gabaconrado/lazy-badger)**: Simple Command Line Interface to call scripts from your working directory.
 - 🦀 **[read-key-termios](https://github.com/Aityz/read-key-termios)**: Simple key-reading using Termios from Libc.
 - 🦀 **[reddish-shift](https://github.com/mahor1221/reddish-shift)**: Set color temperature of display according to time of day.
-- 🦀 **[termusic-lib](https://github.com/tramhao/termusic)**: library to support termusic.
 - 🦀 **[lsys](https://github.com/sameer/lsys)**: Visualize 2D L-Systems with SVGs.
 - 🦀 **[might](https://github.com/basicfunc/might)**: Automated testing REST APIs.
-- 🦀 **[temp-converter](https://github.com/DavoReds/temp-converter)**: Simple terminal temperature unit converter between Celsius, Fahrenheit and Kelvin.
+- 🦀 **[beammm](https://github.com/trevin-j/BeamMM)**: A BeamNG.
 - 🦀 **[best_skn_utils](https://github.com/skn437/skn-rust-utils)**: A Simple Utility Library For Rust.
-- 🦀 **[reduce_image_size](https://github.com/ivanbgd/reduce-image-size-rust)**: Reduces size of images in a folder (and optionally sub-folders, recursively).
+- 🦀 **[temp-converter](https://github.com/DavoReds/temp-converter)**: Simple terminal temperature unit converter between Celsius, Fahrenheit and Kelvin.
 - 🦀 **[jira_git_helper](https://github.com/YYvanYang/jira_git_helper)**: A tool to automate JIRA-related Git commit tasks.
-- 🦀 **[proxy_logger](https://github.com/obaraelijah/proxy_logger)**: Command line interface for proxying TCP connections with payload output into console which can be formatted different ways.
+- 🦀 **[reduce_image_size](https://github.com/ivanbgd/reduce-image-size-rust)**: Reduces size of images in a folder (and optionally sub-folders, recursively).
 - 🦀 **[staticdatagen](https://github.com/sebastienrousseau/staticdatagen)**: A Rust library for generating structured data files and metadata for static sites, including HTML, RSS feeds, sitemaps, and SEO-optimized meta tags.
 - 🦀 **[telitairos-bot](null)**: A fully funcional AI Powered assistant Telegram Bot.
-- 🦀 **[beammm](https://github.com/trevin-j/BeamMM)**: A BeamNG.
 - 🦀 **[chromsize](https://github.com/alejandrogzi/chromsize)**: just get your chrom sizes.
+- 🦀 **[proxy_logger](https://github.com/obaraelijah/proxy_logger)**: Command line interface for proxying TCP connections with payload output into console which can be formatted different ways.
+- 🦀 **[rbw](https://git.tozt.net/rbw)**: Unofficial Bitwarden CLI.
 - 🦀 **[indexmenow](https://gitlab.com/hsn10/indexmenow.git)**: Announces items from RSS feed to search engine using IndexNow.
 - 🦀 **[finr](https://github.com/Gers2017/finr)**: finr recursively searches files and directories with a pattern while ignoring irrelevant directories.
 - 🦀 **[kubevault](https://github.com/chezmoi-sh/kubevault)**: kubevault transforms a Kubernetes cluster into a secret management system.
 - 🦀 **[clue_oxide](https://github.com/jahnsam/clue_oxide)**: CluE Oxide (Cluster Evolution Oxide) is a spin dynamics simulation program for electron spin decoherence.
-- 🦀 **[yors](https://github.com/ymc-github/rcli)**: a project name rcli.
-- 🦀 **[booru-dl](https://github.com/WSH032/booru-dl/)**: A command line tool to download images and tags txt from booru.
 - 🦀 **[nai](https://github.com/azzamsa/nai)**: Measure the duration of meaningful pursuits.
 - 🦀 **[ssubmit](https://github.com/mbhall88/ssubmit)**: Submit sbatch jobs without having to create a submission script.
-- 🦀 **[quing](https://github.com/OST-Gh/quing.git)**: A (hopefully) minimalist toml based song shuffler.
+- 🦀 **[yors](https://github.com/ymc-github/rcli)**: a project name rcli.
+- 🦀 **[booru-dl](https://github.com/WSH032/booru-dl/)**: A command line tool to download images and tags txt from booru.
 - 🦀 **[dstats](https://github.com/aleury/dstats)**: A simple utility for finding large files on your system.
-- 🦀 **[vsp-router](https://github.com/rfdonnelly/vsp-router)**: Create virtual serial ports, connect them to physical serial ports, and create routes between them all.
+- 🦀 **[quing](https://github.com/OST-Gh/quing.git)**: A (hopefully) minimalist toml based song shuffler.
 - 🦀 **[mavryk-smart-rollup-installer](https://gitlab.com/mavryk-network/mavryk-protocol.git)**: Installer client for Mavryk Smart Rollups.
-- 🦀 **[rbw](https://git.tozt.net/rbw)**: Unofficial Bitwarden CLI.
+- 🦀 **[sox](https://github.com/Brown-Dan/Sox)**: A quick command utility for managing shell aliases.
+- 🦀 **[vsp-router](https://github.com/rfdonnelly/vsp-router)**: Create virtual serial ports, connect them to physical serial ports, and create routes between them all.
+- 🦀 **[xplr](https://github.com/sayanarijit/xplr)**: A hackable, minimal, fast TUI file explorer.
+- 🦀 **[esb_fireplace](https://github.com/luxedo/esb_fireplace-rust)**: The FIREPLACEv1.
 - 🦀 **[tmux-lib](https://github.com/graelo/tmux-lib)**: Tmux helper functions.
 - 🦀 **[pleaser](https://gitlab.com/edneville/please)**: please, a polite regex-first sudo alternative.
-- 🦀 **[sox](https://github.com/Brown-Dan/Sox)**: A quick command utility for managing shell aliases.
+- 🦀 **[balatro_tui_widgets](https://github.com/Passeriform/BalatroTUI)**: UI widgets for Balatro CLI game.
 - 🦀 **[s2tw](https://github.com/magiclen/s2tw)**: A simple tool for converting Simple Chinese to Traditional Chinese(TW).
-- 🦀 **[esb_fireplace](https://github.com/luxedo/esb_fireplace-rust)**: The FIREPLACEv1.
 - 🦀 **[pouf](https://github.com/mothsart/pouf)**: Pouf is a cli program for produce fake datas.
 - 🦀 **[bzfquery](https://github.com/BZFlagCommunity/bzfquery.rs)**: Rust version of bzfquery with no external dependencies.
-- 🦀 **[paimon](https://github.com/apache/paimon-rust)**: The rust implementation of paimon.
-- 🦀 **[tinge_lib](https://github.com/zipxing/tinge/lib)**: A terminal-gui tool for generate, analyze, convert and manipulate colors.
-- 🦀 **[xplr](https://github.com/sayanarijit/xplr)**: A hackable, minimal, fast TUI file explorer.
-- 🦀 **[balatro_tui_widgets](https://github.com/Passeriform/BalatroTUI)**: UI widgets for Balatro CLI game.
 - 🦀 **[stampsmith](https://github.com/acovaci/stampsmith)**: Stampsmith is a fast and portable Cookiecutter-compatible tool that generates projects from project templates.
+- 🦀 **[tinge_lib](https://github.com/zipxing/tinge/lib)**: A terminal-gui tool for generate, analyze, convert and manipulate colors.
+- 🦀 **[paimon](https://github.com/apache/paimon-rust)**: The rust implementation of paimon.
 - 🦀 **[modelcards](https://github.com/hexerei/modelcards)**: A fast modelcard generator with built-in templates.
-- 🦀 **[batch-renamer](https://github.com/d-e-s-o/batch-renamer.git)**: Framework and command line utilities for interactive renaming of a potentially large number of files.
-- 🦀 **[iprr](https://github.com/bujnlc8/ipr)**: A CLI to query ip region.
+- 🦀 **[subtile](https://github.com/gwen-lg/subtile)**: A crate of utils to operate traitements on subtitles.
+- 🦀 **[termusic-playback](https://github.com/tramhao/termusic)**: playback library to support termusic.
 - 🦀 **[jwtinfo](https://github.com/lmammino/jwtinfo)**: Command line tool to get information about JWTs (Json Web Tokens).
-- 🦀 **[sbet](https://github.com/gadomski/sbet-rs)**: A micro-crate to read and write Smoothed Best Estimate of Trajectory (SBET) data.
-- 🦀 **[terminal-dictionary](https://github.com/famedaxolotl/terminal-dictionary)**: Simple Dictionary on the terminal.
+- 🦀 **[batch-renamer](https://github.com/d-e-s-o/batch-renamer.git)**: Framework and command line utilities for interactive renaming of a potentially large number of files.
 - 🦀 **[ghlink](https://github.com/matthewdargan/ghlink)**: Create GitHub permanent links to specified file lines.
+- 🦀 **[iprr](https://github.com/bujnlc8/ipr)**: A CLI to query ip region.
+- 🦀 **[terminal-dictionary](https://github.com/famedaxolotl/terminal-dictionary)**: Simple Dictionary on the terminal.
+- 🦀 **[trippy](https://github.com/fujiapple852/trippy)**: A network diagnostic tool.
+- 🦀 **[sbet](https://github.com/gadomski/sbet-rs)**: A micro-crate to read and write Smoothed Best Estimate of Trajectory (SBET) data.
 - 🦀 **[tasks-rs](https://github.com/gamertike/tasks-rs)**: A simple task list manager for the command line written in rust.
+- 🦀 **[vrc-get-vpm](https://github.com/anatawa12/vrc-get)**: Open Source client of VRChat Package Manager.
 - 🦀 **[babel_nar_cli](https://github.com/ARCJ137442/BabelNAR-CLI.rs)**: Command Line Interface (CLI) of BabelNAR.
-- 🦀 **[psource](https://github.com/frederikstroem/psource)**: CLI tool to pretty print source code to stdout or directly to the clipboard.
-- 🦀 **[skidmarks](https://github.com/kennethlove/skidmarks)**: A simple CLI for tracking streaks.
 - 🦀 **[cantata](https://github.com/thorstenhater/cantata)**: Convert SONATA package neuro science simulations into Arbor simulations.
 - 🦀 **[nbcat](https://github.com/moisutsu/nbcat)**: A command-line tool that displays .
-- 🦀 **[s2id](https://github.com/LNP-BP/ssi)**: Self-sovereign identity library and command-lie.
-- 🦀 **[termusic-playback](https://github.com/tramhao/termusic)**: playback library to support termusic.
+- 🦀 **[psource](https://github.com/frederikstroem/psource)**: CLI tool to pretty print source code to stdout or directly to the clipboard.
+- 🦀 **[skidmarks](https://github.com/kennethlove/skidmarks)**: A simple CLI for tracking streaks.
+- 🦀 **[deqp-runner](https://gitlab.freedesktop.org/mesa/deqp-runner)**: A VK-GL-CTS/dEQP wrapper program to parallelize it across CPUs and report results against a baseline.
 - 🦀 **[om_grrs](https://github.com/oisinmulvihill/om-grrs)**: A tool to search files.
+- 🦀 **[s2id](https://github.com/LNP-BP/ssi)**: Self-sovereign identity library and command-lie.
 - 🦀 **[favicon-generator](https://github.com/magiclen/favicon-generator)**: It helps you generate favicons with different formats and sizes.
 - 🦀 **[lfs-dal](https://github.com/regen100/lfs-dal)**: A custom transfer agent for Git LFS powered by OpenDAL.
 - 🦀 **[liquidrust](https://github.com/EriksRemess/liquidrust)**: A simple Rust application for displaying information and setting RGB colors for the Corsair H115i RGB PRO XT AIO.
 - 🦀 **[rustynetics](https://github.com/pbenner/rustynetics)**: A high-performance genomics libary specialized in handling BAM and BigWig files.
-- 🦀 **[subtile](https://github.com/gwen-lg/subtile)**: A crate of utils to operate traitements on subtitles.
-- 🦀 **[deqp-runner](https://gitlab.freedesktop.org/mesa/deqp-runner)**: A VK-GL-CTS/dEQP wrapper program to parallelize it across CPUs and report results against a baseline.
-- 🦀 **[gitmoji-rs](https://github.com/ilaborie/gitmoji-rs)**: A [gitmoji](https://gitmoji.
 - 🦀 **[ma](https://github.com/xandkar/ma)**: Mail Archivist.
+- 🦀 **[gitmoji-rs](https://github.com/ilaborie/gitmoji-rs)**: A [gitmoji](https://gitmoji.
 - 🦀 **[codify](https://github.com/artob/codify.rs)**: Codify.
 - 🦀 **[phonerr](https://github.com/bujnlc8/phoner)**: A CLI to query mobile phone region.
 - 🦀 **[tasklog](https://github.com/lucasmdjl/tasklog)**: A command-line task tracking tool.
 - 🦀 **[rohit_grep](https://github.com/DJ7999/rgrep)**: A tool to search files.
-- 🦀 **[qiniu-cdn-manager](https://github.com/bujnlc8/qiniu-cdn-manager)**: A CLI to Manage Qiniu CDN.
-- 🦀 **[rs_clean](https://github.com/pwh-pwh/rs_clean)**: Rust project that provides a command-line tool designed for cleaning up build artifacts within projects.
-- 🦀 **[sgf-render](https://github.com/julianandrews/sgf-render/)**: CLI to generate diagrams of Go games from SGF game records.
-- 🦀 **[tquest](https://github.com/OkieOth/rs_tquest)**: Simple observable pattern implementation.
-- 🦀 **[vrc-get-vpm](https://github.com/anatawa12/vrc-get)**: Open Source client of VRChat Package Manager.
-- 🦀 **[irae](https://github.com/clux/irae)**: raging rollout tracker.
-- 🦀 **[may-clack](https://github.com/m4rch3n1ng/may-clack)**: stylish, interactive command line prompts.
-- 🦀 **[sowa](https://github.com/SAMAD101/sowa)**: A Solana Wallet CLI.
-- 🦀 **[ctr_cart](https://gitlab.com/gemarcano/libnds_header-rs)**: 3DS file header library and utilities.
 - 🦀 **[libpt-cli](https://git.cscherr.de/PlexSheep/pt)**: Personal multitool.
+- 🦀 **[qiniu-cdn-manager](https://github.com/bujnlc8/qiniu-cdn-manager)**: A CLI to Manage Qiniu CDN.
+- 🦀 **[sgf-render](https://github.com/julianandrews/sgf-render/)**: CLI to generate diagrams of Go games from SGF game records.
+- 🦀 **[execution-time](https://github.com/claudiofsr/execution-time)**: simple way to measure and display the execution time.
+- 🦀 **[rs_clean](https://github.com/pwh-pwh/rs_clean)**: Rust project that provides a command-line tool designed for cleaning up build artifacts within projects.
+- 🦀 **[tquest](https://github.com/OkieOth/rs_tquest)**: Simple observable pattern implementation.
+- 🦀 **[ctr_cart](https://gitlab.com/gemarcano/libnds_header-rs)**: 3DS file header library and utilities.
+- 🦀 **[hypothesis](https://github.com/out-of-cheese-error/rust-hypothesis)**: a Rust wrapper and CLI for the Hypothesis API.
+- 🦀 **[irae](https://github.com/clux/irae)**: raging rollout tracker.
 - 🦀 **[makeclean](https://github.com/kevinbader/makeclean)**: Clean up projects you're no longer working on.
-- 🦀 **[mmoxi](https://github.com/idiv-biodiversity/mmoxi)**: spectrum scale tools.
+- 🦀 **[may-clack](https://github.com/m4rch3n1ng/may-clack)**: stylish, interactive command line prompts.
 - 🦀 **[payback](https://github.com/PantomInach/payback)**: Calculate to resolve debt networks with as few transactions as possible.
-- 🦀 **[trippy](https://github.com/fujiapple852/trippy)**: A network diagnostic tool.
+- 🦀 **[mmoxi](https://github.com/idiv-biodiversity/mmoxi)**: spectrum scale tools.
+- 🦀 **[sowa](https://github.com/SAMAD101/sowa)**: A Solana Wallet CLI.
+- 🦀 **[whiskers](https://github.com/abey79/vsvg)**: Processing-like, interactive sketching environment for plotter generative art.
 - 🦀 **[json-schema-generator](https://github.com/AtlasPilotPuppyjson-schema-generator)**: A tool to generate JSON Schema from JSON data.
 - 🦀 **[scattr](https://github.com/rashidalabri/scattr)**: A tool for estimating the copy number of large tandem repeats.
-- 🦀 **[whiskers](https://github.com/abey79/vsvg)**: Processing-like, interactive sketching environment for plotter generative art.
-- 🦀 **[hypothesis](https://github.com/out-of-cheese-error/rust-hypothesis)**: a Rust wrapper and CLI for the Hypothesis API.
 - 🦀 **[cardamon](https://github.com/Root-Branch/cardamon)**: Cardamon is a tool to help development teams measure the power consumption and carbon emissions of their software.
-- 🦀 **[spin_freeze](https://github.com/gregovin/spin_freeze)**: Calculate how long to wait for spinner freeze and generate spinner freeze commands.
-- 🦀 **[execution-time](https://github.com/claudiofsr/execution-time)**: simple way to measure and display the execution time.
 - 🦀 **[mcps](https://github.com/swaits/mcps)**: A command-line tool for running Monte Carlo simulations on project schedules.
 - 🦀 **[rustybit](https://github.com/h33333333/rustybit)**: A CLI bittorrent client.
+- 🦀 **[spin_freeze](https://github.com/gregovin/spin_freeze)**: Calculate how long to wait for spinner freeze and generate spinner freeze commands.
 - 🦀 **[code-search](https://github.com/feint123/code-search)**: A command-line code search tool.
-- 🦀 **[cargo-3ds](https://github.com/rust3ds/cargo-3ds)**: Cargo wrapper for developing Nintendo 3DS homebrew apps.
 - 🦀 **[fumble](https://github.com/bornacvitanic/fumble)**: an oxidized implementation of the original clumsy tool, designed to simulate adverse network conditions on Windows systems.
+- 🦀 **[cargo-3ds](https://github.com/rust3ds/cargo-3ds)**: Cargo wrapper for developing Nintendo 3DS homebrew apps.
 - 🦀 **[pipeview](https://github.com/mihaigalos/pipeview)**: 🧪 A command line pipe inspection utility.
 - 🦀 **[gitty](null)**: Interactive command line interface for enhanced workflow when using the Git CLI.
 - 🦀 **[net-ssr](https://github.com/libook/net-ssr.git)**: Network Secondary Surveillance Radar.
 - 🦀 **[refi](https://gitlab.com/miicat/refi)**: Rename files in numeric order.
 - 🦀 **[sagoin](https://github.com/figsoda/sagoin)**: A command-line submission tool for the UMD CS Submit Server.
 - 🦀 **[ziyy](https://github.com/alMukaafih/ziyy.git)**: Convenient Terminal Output Styler.
-- 🦀 **[humor](https://github.com/AXEwiges/humor)**: A tool to execute commands based on YAML configuration files.
 - 🦀 **[commit_crafter](https://github.com/yzzting/commit_crafter)**: AI powered tool for Git commit message generator.
-- 🦀 **[heat-sdk-cli](https://github.com/tracel-ai/tracel/tree/main/crates/head-sdk-cli)**: Tracel Heat SDK CLI.
+- 🦀 **[humor](https://github.com/AXEwiges/humor)**: A tool to execute commands based on YAML configuration files.
 - 🦀 **[cargo-oh-my-dependencies](https://github.com/rksm/cargo-oh-my-dependencies)**: A cargo plugin to browse and edit crate features across a workspace.
+- 🦀 **[heat-sdk-cli](https://github.com/tracel-ai/tracel/tree/main/crates/head-sdk-cli)**: Tracel Heat SDK CLI.
+- 🦀 **[mwc-wagyu-model](https://github.com/mwcproject/wagyu-model)**: A generic model for cryptocurrency wallets.
 - 🦀 **[fermah-database](https://github.com/fermah-xyz/seek)**: Fermah database for AVS.
 - 🦀 **[zenn2press](https://github.com/ryohidaka/zenn2press-rs)**: A Rust library to convert Zenn contents to VitePress.
-- 🦀 **[scratch-server](https://github.com/radek00/http-server)**: Simple HTTP Server.
-- 🦀 **[xodus](https://github.com/spirizeon/exodus)**: a simple web crawler in rust.
 - 🦀 **[image-interlacer](https://github.com/magiclen/image-interlacer)**: It helps you interlace an image or multiple images for web-page usage.
+- 🦀 **[scratch-server](https://github.com/radek00/http-server)**: Simple HTTP Server.
 - 🦀 **[term_ansi](https://github.com/shubhexists/term_ansi)**: A super lightweight macros crates to add ANSI Codes to your project.
-- 🦀 **[ubase64](https://github.com/xelamonster/ubase64)**: Lightweight, simple, and configurable base64 encode and decode.
-- 🦀 **[mwc-wagyu-model](https://github.com/mwcproject/wagyu-model)**: A generic model for cryptocurrency wallets.
+- 🦀 **[xodus](https://github.com/spirizeon/exodus)**: a simple web crawler in rust.
 - 🦀 **[mdbook-templates](https://github.com/vlegakis/mdbook-templates)**: A template preprocessor for mdBook.
+- 🦀 **[ubase64](https://github.com/xelamonster/ubase64)**: Lightweight, simple, and configurable base64 encode and decode.
 - 🦀 **[ysfed](https://github.com/JorgeMayoral/ysfed)**: Simple tool for encrypting and decrypting files using a password.
 - 🦀 **[dockerbackup](https://github.com/radek00/dockerbackup)**: This is a simple Docker backup tool.
-- 🦀 **[wall-rs](https://github.com/akumarujon/wall-rs)**: Wallpaper manager for you.
 - 🦀 **[theattyr](https://github.com/orhun/theattyr)**: A terminal theater for playing VT100 art and animations.
+- 🦀 **[wall-rs](https://github.com/akumarujon/wall-rs)**: Wallpaper manager for you.
 - 🦀 **[rusty-roots](https://github.com/kathirmeyyappan/rusty-roots)**: A Rust CLI tool that replicates the Unix 'tree' command with enhanced features.
 - 🦀 **[hyperrust](https://github.com/EriksRemess/hyperrust)**: RGB utility for HyperX Alloy Origins 60 keyboard.
 - 🦀 **[pamly](https://github.com/spang-lab/pamly-lib)**: Command line interface for digital pathology tools.
-- 🦀 **[tmux-backup](https://github.com/graelo/tmux-backup)**: A backup & restore solution for Tmux sessions.
+- 🦀 **[cargo-public-api](https://github.com/cargo-public-api/cargo-public-api)**: List and diff the public API of Rust library crates between releases and commits.
 - 🦀 **[ohlcv-ctl](https://github.com/typedduck/ohlcv)**: Data collector library for fetching, analyzing, predicting and charting time series data (OHLC) of cryptocurrencies from various exchanges.
-- 🦀 **[tw2s](https://github.com/magiclen/tw2s)**: A simple tool for converting Traditional Chinese(TW) to Simple Chinese.
-- 🦀 **[heat-sdk-cli-macros](https://github.com/tracel-ai/tracel/tree/main/crates/head-sdk-cli-macros)**: Macros for Tracel Heat SDK CLI.
+- 🦀 **[tmux-backup](https://github.com/graelo/tmux-backup)**: A backup & restore solution for Tmux sessions.
 - 🦀 **[poketex](https://github.com/ckaznable/poketex)**: Simple Pokedex based on TUI(Terminal User Interface).
+- 🦀 **[tw2s](https://github.com/magiclen/tw2s)**: A simple tool for converting Traditional Chinese(TW) to Simple Chinese.
 - 🦀 **[combiner](https://github.com/Jesalx/combiner)**: Combiner is a Rust-based command-line tool that processes text files in a given directory, combining their contents into a single output file.
+- 🦀 **[heat-sdk-cli-macros](https://github.com/tracel-ai/tracel/tree/main/crates/head-sdk-cli-macros)**: Macros for Tracel Heat SDK CLI.
+- 🦀 **[git-tracker](https://github.com/xandkar/git-tracker)**: Find and compare all your scattered git repos.
 - 🦀 **[proxier](https://github.com/spider-rs/proxier)**: Auto proxy whitelist and delist crate for 3rd party services.
 - 🦀 **[qdir](https://github.com/k3ii/qdir)**: A quick directory generator.
-- 🦀 **[git-tracker](https://github.com/xandkar/git-tracker)**: Find and compare all your scattered git repos.
-- 🦀 **[zits](https://github.com/ddd-mtl/zits/)**: Generate typescript bindings for zome code in Rust.
 - 🦀 **[taganrog](https://github.com/darkcodi/taganrog)**: A personal tagging system and a search engine for your media library.
-- 🦀 **[tabler](https://github.com/trinhminhtriet/tabler)**: 📊 Tabler: A lightweight TUI tool to view, query, and navigate CSV, TSV, and Parquet data files.
+- 🦀 **[zits](https://github.com/ddd-mtl/zits/)**: Generate typescript bindings for zome code in Rust.
 - 🦀 **[git-blamediff](https://github.com/d-e-s-o/git-blamediff.git)**: A program to automatically annotate changes to a file in git(1).
 - 🦀 **[copy_confirmer](https://github.com/jm-fn/copy_confirmer)**: Confirms all files are copied somewhere.
-- 🦀 **[cargo-public-api](https://github.com/cargo-public-api/cargo-public-api)**: List and diff the public API of Rust library crates between releases and commits.
+- 🦀 **[tabler](https://github.com/trinhminhtriet/tabler)**: 📊 Tabler: A lightweight TUI tool to view, query, and navigate CSV, TSV, and Parquet data files.
 - 🦀 **[muren](https://github.com/janpipek/muren)**: Command-line utility for filename manipulations.
 - 🦀 **[volo-cli](https://github.com/cloudwego/volo)**: volo-cli is the command line interface for volo, which provides the ability to generate default project layout and manage the idls used.
 - 🦀 **[axe-cli](https://github.com/jacek-kurlit/axe)**: axe - Argument execute is xargs alternative that focus on arguments processing and ordering.
-- 🦀 **[tui-explorer](https://github.com/Programmer337/tui-explorer)**: A file explorer for a command line interface.
 - 🦀 **[bb](https://github.com/epilys/bb.git)**: clean simple fast process viewer.
-- 🦀 **[present](https://github.com/terror/present)**: Interpolate the standard output of arbitrary shell scripts into your markdown files.
+- 🦀 **[tui-explorer](https://github.com/Programmer337/tui-explorer)**: A file explorer for a command line interface.
 - 🦀 **[tasg](https://github.com/Ce11an/tasg)**: Manage your tasks with tasg!.
+- 🦀 **[present](https://github.com/terror/present)**: Interpolate the standard output of arbitrary shell scripts into your markdown files.
 - 🦀 **[simple_hll](https://github.com/sundy-li/simple_hll)**: A simple HyperLogLog implementation in rust.
-- 🦀 **[tinge](https://github.com/zipxing/tinge)**: A terminal-gui tool for generate, analyze, convert and manipulate colors.
 - 🦀 **[i6-pack](https://github.com/kruserr/i6)**: A tool to compress and optionally encrypt files.
+- 🦀 **[tinge](https://github.com/zipxing/tinge)**: A terminal-gui tool for generate, analyze, convert and manipulate colors.
+- 🦀 **[pub-just](https://github.com/casey/just)**: 🤖 Just a command runner.
 - 🦀 **[dicom-finder](https://github.com/jjjermiah/dicom-finder)**: A simple CLI tool and library for finding DICOM files.
 - 🦀 **[fermah-rpc](https://github.com/fermah-xyz/seek)**: Fermah RPC client/server.
-- 🦀 **[pub-just](https://github.com/casey/just)**: 🤖 Just a command runner.
+- 🦀 **[html2pdf](https://github.com/ilaborie/html2pdf)**: Convert HTML to PDF using a Headless Chrome browser.
 - 🦀 **[i6-http](https://github.com/kruserr/i6)**: A tool to host a http or https server in present working directory.
+- 🦀 **[mwc-wagyu-ethereum](https://github.com/mwcproject/wagyu-ethereum)**: A library for generating Ethereum wallets.
 - 🦀 **[nodeset](https://github.com/fdiakh/nodeset-rs)**: NodeSet management library.
 - 🦀 **[orestaty](https://github.com/InfiniteCoder01/OreStaty/)**: HTML-centered handlebars-based static site generator.
 - 🦀 **[phink](https://github.com/kevin-valerio/phink)**: 🐙 Phink, a ink! smart-contract property-based and coverage-guided fuzzer.
-- 🦀 **[sqlarfs-cli](https://github.com/lostatc/sqlarfs-rs)**: A CLI tool for working with sqlar archives.
 - 🦀 **[packer_rs](https://github.com/tristanpoland/packer_rs)**: A Rust wrapper for HashiCorp Packer CLI.
-- 🦀 **[html2pdf](https://github.com/ilaborie/html2pdf)**: Convert HTML to PDF using a Headless Chrome browser.
-- 🦀 **[mwc-wagyu-ethereum](https://github.com/mwcproject/wagyu-ethereum)**: A library for generating Ethereum wallets.
+- 🦀 **[sqlarfs-cli](https://github.com/lostatc/sqlarfs-rs)**: A CLI tool for working with sqlar archives.
 - 🦀 **[nostr-tool](https://github.com/0xtrr/nostr-tool)**: A CLI tool to interact with nostr.
+- 🦀 **[robust_downloader](null)**: A robust, concurrent file downloader with retry capabilities and progress tracking.
 - 🦀 **[cargo-cite](https://github.com/contagon/cargo-cite)**: Add bib citations to Rust docs.
 - 🦀 **[i6-timer](https://github.com/kruserr/i6)**: A cli timer tool.
 - 🦀 **[i6](https://github.com/kruserr/i6)**: A collection of cross platform portable cli tools.
-- 🦀 **[robust_downloader](null)**: A robust, concurrent file downloader with retry capabilities and progress tracking.
+- 🦀 **[chromalog](null)**: A customizable logger with dynamic color coding and file logging.
+- 🦀 **[caracat](https://github.com/maxmouchet/caracat)**: A fast ICMP/UDP IPv4/v6 Paris traceroute and ping engine.
+- 🦀 **[i6-shell](https://github.com/kruserr/i6)**: A minimalistic unix like shell with statically linked commands.
 - 🦀 **[shellchat](https://github.com/eugeis/shellchat)**: Transforms natural language into shell commands for execution or explanation.
 - 🦀 **[temp-conv](https://github.com/baumbus/temp-conv)**: A simple cli-based unit converter for temperatures.
-- 🦀 **[chromalog](null)**: A customizable logger with dynamic color coding and file logging.
-- 🦀 **[i6-shell](https://github.com/kruserr/i6)**: A minimalistic unix like shell with statically linked commands.
-- 🦀 **[gb_cart](https://gitlab.com/gemarcano/libgb_cart-rs)**: GB/CGB file header library and utilities.
 - 🦀 **[x4](https://github.com/pwnwriter/x4)**: Execute shell commands to a server via ssh protocol.
+- 🦀 **[gb_cart](https://gitlab.com/gemarcano/libgb_cart-rs)**: GB/CGB file header library and utilities.
 - 🦀 **[cdnx](https://github.com/itsyasssin/cdnx)**: high-performance and configurable tool to cut CDN domains and exclude them from HTTP port-scanning process.
-- 🦀 **[harness-cli](https://github.com/wenyuzhao/harness)**: Precise and reproducible benchmarking.
 - 🦀 **[licensebat-cli](https://github.com/licensebat/licensebat)**: CLI tool to manage dependencies' license validation.
-- 🦀 **[vivo](https://codeberg.org/tuck/vivo)**: [WIP] Vivo - restic backup w/ sync to b2.
+- 🦀 **[harness-cli](https://github.com/wenyuzhao/harness)**: Precise and reproducible benchmarking.
 - 🦀 **[passforge](https://github.com/RakaPKS/passforge)**: A robust and flexible CLI password generator.
+- 🦀 **[openalias](https://github.com/nabijaczleweli/openalias.rs)**: Look up and parse OpenAlias data.
+- 🦀 **[vivo](https://codeberg.org/tuck/vivo)**: [WIP] Vivo - restic backup w/ sync to b2.
 - 🦀 **[rodalies-cli](https://github.com/gerardcl/rodalies-cli)**: CLI for searching train timetables of the trains of Rodalies de la Generalitat de Catalunya.
 - 🦀 **[ubmsc](https://github.com/katyo/ubmsc-rs)**: A client for Battery Management Systems (BMS).
-- 🦀 **[openalias](https://github.com/nabijaczleweli/openalias.rs)**: Look up and parse OpenAlias data.
-- 🦀 **[caracat](https://github.com/maxmouchet/caracat)**: A fast ICMP/UDP IPv4/v6 Paris traceroute and ping engine.
 - 🦀 **[jokes-rust](https://github.com/versionbaygt/jokes_rust)**: A tool to that tells random jokes.
-- 🦀 **[systeroid](https://github.com/orhun/systeroid)**: A more powerful alternative to sysctl.
+- 🦀 **[fints-institute-db](https://github.com/svenstaro/fints-institute-db)**: A library to access FinTS access information for many German banks.
 - 🦀 **[gerrit-grr](https://gitlab.com/legoktm/rust-grr)**: A command-line utility to work with Gerrit.
 - 🦀 **[izb](https://github.com/OtherJohnGray/izb)**: A library of helper functions for provisioning ZFS-on-Root VMs with zfsbootmenu using Incus.
-- 🦀 **[stckrls](https://github.com/stckrz/rls)**: just ls without long form but a little cuter.
-- 🦀 **[godam](https://github.com/nilsiker/godam)**: godam (Godot Asset Manager) is an unofficial minimal command-line tool to install and manage addons from the Godot Asset Library.
+- 🦀 **[systeroid](https://github.com/orhun/systeroid)**: A more powerful alternative to sysctl.
 - 🦀 **[mkwebfont](https://github.com/Lymia/mkwebfont)**: A simple tool for turning .
-- 🦀 **[redirect-stdout](https://github.com/kruserr/rustic-reader)**: A minimalistic ebook reader.
+- 🦀 **[godam](https://github.com/nilsiker/godam)**: godam (Godot Asset Manager) is an unofficial minimal command-line tool to install and manage addons from the Godot Asset Library.
+- 🦀 **[stckrls](https://github.com/stckrz/rls)**: just ls without long form but a little cuter.
 - 🦀 **[dmisys](https://github.com/neko0xff/dmisys)**: This is a specialized library designed to output the hardware configuration required by the system, as well as various status information of the current device.
-- 🦀 **[fints-institute-db](https://github.com/svenstaro/fints-institute-db)**: A library to access FinTS access information for many German banks.
 - 🦀 **[fli](https://github.com/codad5/fli)**: The commander.
-- 🦀 **[mapsd](https://github.com/Jonarod/mapsd)**: Find & Replace text in multiple files using an explicit CSV of Before/After pairs.
-- 🦀 **[temi](https://github.com/threadiverse/temi)**: Command-line, lightweight TUI client for Lemmy.
-- 🦀 **[ZHRXXLib](https://github.com/zhrxxgroup/rust-zhrxxlib)**: Simple Library, will be updated in future.
-- 🦀 **[logix](https://github.com/logix-tool/logix)**: An experimental command-line tool for simplified and enhanced configuration management across multiple systems.
-- 🦀 **[hbd](https://github.com/tkr-sh/hbd)**: Remember birthdays easily!.
+- 🦀 **[redirect-stdout](https://github.com/kruserr/rustic-reader)**: A minimalistic ebook reader.
 - 🦀 **[logger_rust_i18n](https://github.com/wznmickey/logger-rust-i18n)**: Macro rust-i18n into logger and user prompt.
-- 🦀 **[tuilet](https://github.com/gamache/tuilet)**: A textual user interface for Toilet, the ANSI-art text generator.
+- 🦀 **[logix](https://github.com/logix-tool/logix)**: An experimental command-line tool for simplified and enhanced configuration management across multiple systems.
+- 🦀 **[temi](https://github.com/threadiverse/temi)**: Command-line, lightweight TUI client for Lemmy.
+- 🦀 **[mapsd](https://github.com/Jonarod/mapsd)**: Find & Replace text in multiple files using an explicit CSV of Before/After pairs.
+- 🦀 **[ZHRXXLib](https://github.com/zhrxxgroup/rust-zhrxxlib)**: Simple Library, will be updated in future.
+- 🦀 **[hbd](https://github.com/tkr-sh/hbd)**: Remember birthdays easily!.
 - 🦀 **[fermah-seek](https://github.com/fermah-xyz/seek)**: Fermah ZK proof seeking.
+- 🦀 **[lightweight-command-runner](https://github.com/klebs6/klebs-general)**: A rust crate providing an asynchronous command runner using tokio, supporting cross-platform execution.
+- 🦀 **[tuilet](https://github.com/gamache/tuilet)**: A textual user interface for Toilet, the ANSI-art text generator.
 - 🦀 **[gba_cart](https://gitlab.com/gemarcano/libgba_header-rs)**: GBA file header library and utilities.
 - 🦀 **[n64_cart](https://gitlab.com/gemarcano/libn64_cart-rs)**: N64 file header library and utilities.
-- 🦀 **[rhiz_tag_nostd](http://github.com/rhizoome/rhiz_tag)**: Ubiquitous General Purpose Tag.
-- 🦀 **[layaway](https://github.com/MultisampledNight/layaway)**: Layout creation for Sway via a relative and human-readable DSL.
 - 🦀 **[cmus-notify](https://github.com/anas-elgarhy/cmus-notify)**: A simple notification daemon for cmus.
+- 🦀 **[rhiz_tag_nostd](http://github.com/rhizoome/rhiz_tag)**: Ubiquitous General Purpose Tag.
 - 🦀 **[dusage](https://github.com/mihaigalos/dusage)**: 💾 A command line disk usage information tool: disk usage (foreground), inodes (background).
+- 🦀 **[layaway](https://github.com/MultisampledNight/layaway)**: Layout creation for Sway via a relative and human-readable DSL.
+- 🦀 **[shuk](https://github.com/darko-mesaros/shuk)**: A command line tool that uploads files to Amazon S3 buckets, and generates presigned URLs for easy sharing.
+- 🦀 **[music-exporter](https://github.com/Its-Just-Nans/music-exporter)**: export music from different sources.
 - 🦀 **[pbj](https://github.com/electric-hand/pbj)**: Command line utility for generating tdd projects from declarative configurations.
 - 🦀 **[shulkerscript-cli](https://github.com/moritz-hoelting/shulkerscript-cli)**: Command line tool to compile Shulkerscript projects.
-- 🦀 **[shuk](https://github.com/darko-mesaros/shuk)**: A command line tool that uploads files to Amazon S3 buckets, and generates presigned URLs for easy sharing.
+- 🦀 **[cargo-modules](https://github.com/regexident/cargo-modules)**: A cargo plugin for showing a tree-like overview of a crate's modules.
+- 🦀 **[math_images_processor](https://github.com/TaylorHo/math_images_processor)**: A Rust library for preprocessing images of mathematical formulas, ideally for machine learning applications for formula recognition.
 - 🦀 **[afid](https://github.com/bananaofhappiness/afid)**: A small cmp clone.
 - 🦀 **[dsc-commands-remover](https://github.com/tapnisu/dsc-commands-remover)**: CLI tool to unregister all slash commands for a discord bot.
 - 🦀 **[keybac](https://github.com/zhrxxgroup/rust-zhrxxlib)**: simple keyboard capturing lib.
-- 🦀 **[math_images_processor](https://github.com/TaylorHo/math_images_processor)**: A Rust library for preprocessing images of mathematical formulas, ideally for machine learning applications for formula recognition.
-- 🦀 **[libferroxid](https://codeberg.org/sunarch/libferroxid)**: Miscellaneous tools.
 - 🦀 **[fortitude](https://github.com/PlasmaFAIR/fortitude)**: A Fortran linter, written in Rust and installable with Python.
-- 🦀 **[multigit](https://github.com/schwa/multigit-rs)**: A CLI tool to manage multiple Git repositories simultaneously.
+- 🦀 **[libferroxid](https://codeberg.org/sunarch/libferroxid)**: Miscellaneous tools.
 - 🦀 **[yash-arith](https://github.com/magicant/yash-rs)**: POSIX shell arithmetic expansion.
+- 🦀 **[multigit](https://github.com/schwa/multigit-rs)**: A CLI tool to manage multiple Git repositories simultaneously.
 - 🦀 **[hg-git-fast-import](https://github.com/kilork/hg-git-fast-import)**: A utility to import single and multiple Mercurial repositories to Git.
-- 🦀 **[lightweight-command-runner](https://github.com/klebs6/klebs-general)**: A rust crate providing an asynchronous command runner using tokio, supporting cross-platform execution.
+- 🦀 **[rogcat](https://github.com/flxo/rogcat)**: A adb logcat wrapper and log processor.
 - 🦀 **[nds_cart](https://gitlab.com/gemarcano/libnds_header-rs)**: NDS file header library and utilities.
 - 🦀 **[spacehog](https://github.com/aleury/spacehog)**: A simple utility for finding large files on your system.
-- 🦀 **[rogcat](https://github.com/flxo/rogcat)**: A adb logcat wrapper and log processor.
 - 🦀 **[ssh-link](https://gitee.com/openeuler/ssh-utils)**: ssh-utils is a tool for fast ssh connections.
-- 🦀 **[ryna-ffi](https://github.com/Gabie-of-the-Bo/Ryna-Language)**: FFI interface for the Ryna Programming Language.
-- 🦀 **[music-exporter](https://github.com/Its-Just-Nans/music-exporter)**: export music from different sources.
-- 🦀 **[renfe-cli](https://github.com/gerardcl/renfe-cli)**: CLI for searching Renfe train timetables in the Spanish country.
 - 🦀 **[ip2d](https://github.com/0xflotus/ip2d-rust)**: A converter for IPv4 addresses.
 - 🦀 **[kitten-anno-lib](https://github.com/YosakuraTohu/kitten-anno-lib)**: World tree anno library for Rust.
-- 🦀 **[svgo](https://github.com/EstebanBorai/svgo)**: SVG Optimizer for Rust.
+- 🦀 **[ryna-ffi](https://github.com/Gabie-of-the-Bo/Ryna-Language)**: FFI interface for the Ryna Programming Language.
+- 🦀 **[renfe-cli](https://github.com/gerardcl/renfe-cli)**: CLI for searching Renfe train timetables in the Spanish country.
 - 🦀 **[yeehaw](https://github.com/bogzbonny/yeehaw)**: Batteries Included Text Based Application Framework.
+- 🦀 **[trippy-core](https://github.com/fujiapple852/trippy)**: A network tracing library.
+- 🦀 **[svgo](https://github.com/EstebanBorai/svgo)**: SVG Optimizer for Rust.
 - 🦀 **[alpha-g-analysis](https://github.com/ALPHA-g-Experiment/alpha-g)**: Analysis binaries for the ALPHA-g experiment.
+- 🦀 **[aqua-verifier-rs-types](https://github.com/inblockio/aqua-verifier-rs-types)**: Aqua protocol data types and basic utility types.
 - 🦀 **[itch](https://github.com/FreddieGilbraith/itch)**: A cli tool for InTerCHanging between different serialized data formats.
+- 🦀 **[nohuman](https://github.com/mbhall88/nohuman)**: Remove human reads from a sequencing run.
 - 🦀 **[ch-ar-t](https://github.com/x404159/ch-ar-t)**: Image to ASCII art.
 - 🦀 **[changelogging](https://github.com/nekitdev/changelogging)**: Building changelogs from fragments.
-- 🦀 **[nohuman](https://github.com/mbhall88/nohuman)**: Remove human reads from a sequencing run.
-- 🦀 **[aqua-verifier-rs-types](https://github.com/inblockio/aqua-verifier-rs-types)**: Aqua protocol data types and basic utility types.
-- 🦀 **[swift-demangle](https://github.com/eugenehp/swift-demangle)**: A Swift Demangle function in Rust.
 - 🦀 **[pe-sign](https://github.com/0xlane/pe-sign)**: pe-sign is a cross-platform tool developed in Rust, designed for parsing and verifying digital signatures in PE files.
-- 🦀 **[wiresmith](https://github.com/svenstaro/wiresmith)**: Auto-config WireGuard clients into a mesh.
+- 🦀 **[sheldon](https://github.com/rossmacarthur/sheldon)**: Fast, configurable, shell plugin manager.
 - 🦀 **[embedded-nano-mesh-linux-io](https://github.com/boshtannik/embedded-nano-mesh-linux-io/)**: Implementation of embedded-io traits for linux to use serial port.
+- 🦀 **[swift-demangle](https://github.com/eugenehp/swift-demangle)**: A Swift Demangle function in Rust.
+- 🦀 **[tinted-builder](https://github.com/tinted-theming/tinted-builder-rust)**: A Tinted Theming template builder which uses yaml color schemes to generate theme files.
+- 🦀 **[wiresmith](https://github.com/svenstaro/wiresmith)**: Auto-config WireGuard clients into a mesh.
+- 🦀 **[cargo-near](https://github.com/near/cargo-near)**: Cargo extension for building Rust smart contracts on NEAR.
+- 🦀 **[pacwrap-core](https://github.com/pacwrap/pacwrap)**: Library providing core functionality for pacwrap.
 - 🦀 **[pinax](https://github.com/SkuldNorniern/pinax)**: A library for creating charts and tables in the terminal.
+- 🦀 **[chatr](https://github.com/berdandy/chatr)**: A tool/lib to process and convert Guild Wars 2 build chat codes into other formats.
 - 🦀 **[yarl](https://github.com/kalscium/yarl)**: A simple cli ledger written in rust for keepnig track of all your finances.
 - 🦀 **[systeroid-tui](https://github.com/orhun/systeroid)**: A terminal user interface for managing kernel parameters.
-- 🦀 **[chatr](https://github.com/berdandy/chatr)**: A tool/lib to process and convert Guild Wars 2 build chat codes into other formats.
-- 🦀 **[pacwrap-core](https://github.com/pacwrap/pacwrap)**: Library providing core functionality for pacwrap.
-- 🦀 **[trippy-core](https://github.com/fujiapple852/trippy)**: A network tracing library.
+- 🦀 **[difftastic](https://github.com/wilfred/difftastic)**: A structural diff that understands syntax.
+- 🦀 **[trippy-privilege](https://github.com/fujiapple852/trippy)**: Discover platform privileges.
 - 🦀 **[file-split-to-directory](https://github.com/hoshiyuki-tamako/file-split-to-directory-rs)**: split files to folders.
-- 🦀 **[tinted-builder](https://github.com/tinted-theming/tinted-builder-rust)**: A Tinted Theming template builder which uses yaml color schemes to generate theme files.
-- 🦀 **[minimo](https://github.com/incredimo/minimo)**: terminal ui library combining alot of things from here and there and making it slightly easier to play with.
+- 🦀 **[trippy-packet](https://github.com/fujiapple852/trippy)**: Network packets for Trippy.
+- 🦀 **[libpt](https://git.cscherr.de/PlexSheep/pt)**: Personal multitool.
 - 🦀 **[dependency_runner](https://github.com/marcoesposito1988/dependency_runner/)**: ldd for Windows - and more!.
+- 🦀 **[minimo](https://github.com/incredimo/minimo)**: terminal ui library combining alot of things from here and there and making it slightly easier to play with.
+- 🦀 **[trippy-dns](https://github.com/fujiapple852/trippy)**: A lazy DNS resolver for Trippy.
 - 🦀 **[flatten-directory](https://github.com/hoshiyuki-tamako/flatten-directory-rs)**: move all files from sub-directories to target directory, then remove all directories recursively.
 - 🦀 **[rustywatch](https://github.com/ak9024/rustywatch)**: Live reloading for any programing languages.
 - 🦀 **[spcasm](https://github.com/kleinesfilmroellchen/spcasm)**: A modern, user-friendly SPC700 assembler.
-- 🦀 **[libpt](https://git.cscherr.de/PlexSheep/pt)**: Personal multitool.
 - 🦀 **[nomino](https://github.com/yaa110/nomino)**: Batch rename utility for developers.
-- 🦀 **[sccmod](https://github.com/Pencilcaseman/sccmod)**: A mediocre module manager for handling multiple versions of self-compiled modules.
-- 🦀 **[retrospective-crate-version-tagging](https://github.com/idanarye/retrospective-crate-version-tagging.git)**: Fill in GitHub release history from existing changlog entries and crates.
-- 🦀 **[ancla](https://github.com/lsytj0413/ancla)**: A Rust command line tool of golang's bolt database.
 - 🦀 **[bed2gtf](https://github.com/alejandrogzi/bed2gtf)**: A fast and memory efficient BED to GTF converter.
-- 🦀 **[cargo-modules](https://github.com/regexident/cargo-modules)**: A cargo plugin for showing a tree-like overview of a crate's modules.
-- 🦀 **[ipobf](https://github.com/JorianWoltjer/ipobf)**: Obfuscate an IP address for SSRF filter bypasses.
-- 🦀 **[trippy-privilege](https://github.com/fujiapple852/trippy)**: Discover platform privileges.
-- 🦀 **[command-vault](https://github.com/ozan/command-vault)**: An advanced command history manager with tagging and search capabilities.
+- 🦀 **[sccmod](https://github.com/Pencilcaseman/sccmod)**: A mediocre module manager for handling multiple versions of self-compiled modules.
 - 🦀 **[typeline_core](https://github.com/cmrschwarz/typeline)**: core implementation of typeline.
-- 🦀 **[fartdown](https://github.com/gamgi/fartdown)**: An experimental semantic markup language and static site generator for crafting hypertext documents.
+- 🦀 **[ancla](https://github.com/lsytj0413/ancla)**: A Rust command line tool of golang's bolt database.
+- 🦀 **[retrospective-crate-version-tagging](https://github.com/idanarye/retrospective-crate-version-tagging.git)**: Fill in GitHub release history from existing changlog entries and crates.
+- 🦀 **[command-vault](https://github.com/ozan/command-vault)**: An advanced command history manager with tagging and search capabilities.
+- 🦀 **[dsntk-macros](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | Procedural and derive macros.
+- 🦀 **[ipobf](https://github.com/JorianWoltjer/ipobf)**: Obfuscate an IP address for SSRF filter bypasses.
 - 🦀 **[rshijack](https://github.com/kpcyrd/rshijack)**: TCP connection hijacker, Rust rewrite of shijack.
-- 🦀 **[trippy-packet](https://github.com/fujiapple852/trippy)**: Network packets for Trippy.
-- 🦀 **[trippy-dns](https://github.com/fujiapple852/trippy)**: A lazy DNS resolver for Trippy.
+- 🦀 **[fartdown](https://github.com/gamgi/fartdown)**: An experimental semantic markup language and static site generator for crafting hypertext documents.
 - 🦀 **[rust-kanban](https://github.com/yashs662/rust_kanban)**: A kanban board for the terminal built with ❤️ in Rust.
+- 🦀 **[trippy-tui](https://github.com/fujiapple852/trippy)**: A network diagnostic tool.
 - 🦀 **[arglite](https://github.com/kortgrabb/arglite)**: A lightweight argument parser for command-line applications.
-- 🦀 **[cargo-near](https://github.com/near/cargo-near)**: Cargo extension for building Rust smart contracts on NEAR.
-- 🦀 **[sheldon](https://github.com/rossmacarthur/sheldon)**: Fast, configurable, shell plugin manager.
-- 🦀 **[thqm](https://github.com/loiccoyle/thqm-rs)**: A simple HTTP server to serve a dynamic menu for your scripts over the network.
-- 🦀 **[pakka](https://github.com/kruserr/pakka)**: A cross platform meta package manager with auto snapshotting file system based transactions.
 - 🦀 **[ducker](http://github.com/robertpsoane/ducker)**: A slightly quackers Docker TUI based on k9s 🦆.
+- 🦀 **[pakka](https://github.com/kruserr/pakka)**: A cross platform meta package manager with auto snapshotting file system based transactions.
+- 🦀 **[thqm](https://github.com/loiccoyle/thqm-rs)**: A simple HTTP server to serve a dynamic menu for your scripts over the network.
 - 🦀 **[rustotpony](https://github.com/zebradil/rustotpony)**: Manager of one-time password generators.
-- 🦀 **[zuoti_initer](https://github.com/liuluopeng/zuoti_initer)**: rust做题的初始化模板, 支持函数风格,输入输出风格.
-- 🦀 **[numf](https://git.cscherr.de/PlexSheep/numf)**: Convert numbes between formats.
+- 🦀 **[ipset_lookup](https://github.com/tanelikaivola/ipset-lookup)**: ipset is a command-line tool that takes networks or IPs and searches through a lot of different threat feeds quickly.
 - 🦀 **[svd-generator](https://codeberg.org/weathered-steel/svd-generator)**: Converts device information from flattened device tree into an SVD description.
 - 🦀 **[cnf](https://gitlab.com/hartan/cnf)**: Distribution-agnostic 'command not found'-handler.
-- 🦀 **[dsntk-macros](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | Procedural and derive macros.
-- 🦀 **[yt-sub-core](null)**: yt-sub core library.
+- 🦀 **[numf](https://git.cscherr.de/PlexSheep/numf)**: Convert numbes between formats.
+- 🦀 **[zuoti_initer](https://github.com/liuluopeng/zuoti_initer)**: rust做题的初始化模板, 支持函数风格,输入输出风格.
 - 🦀 **[gns](https://github.com/Gensuki/Gns-package.git)**: Gns name service package to interact with smart contracts.
 - 🦀 **[nucleusflow](https://github.com/sebastienrousseau/nucleusflow)**: A powerful Rust library for content processing, enabling static site generation, document conversion, and templating.
+- 🦀 **[yt-sub-core](null)**: yt-sub core library.
 - 🦀 **[korasi-cli](https://github.com/vui-chee/korasi)**: An AWS client to remotely run code that compiles on certain type of hardware.
-- 🦀 **[ipset_lookup](https://github.com/tanelikaivola/ipset-lookup)**: ipset is a command-line tool that takes networks or IPs and searches through a lot of different threat feeds quickly.
-- 🦀 **[trippy-tui](https://github.com/fujiapple852/trippy)**: A network diagnostic tool.
 - 🦀 **[cli_todo_list_sqlite](https://github.com/TudorIsCoding/CLI-Todo)**: A simple CLI todo list in rust using sqlite.
-- 🦀 **[r3bl_test_fixtures](https://github.com/r3bl-org/r3bl-open-core/tree/main/test_fixtures)**: Test fixtures for the r3bl_* TUI and CLI crates.
 - 🦀 **[colored_text](https://github.com/seapagan/colored_text)**: A simple library for adding colors and styles to terminal text.
+- 🦀 **[r3bl_test_fixtures](https://github.com/r3bl-org/r3bl-open-core/tree/main/test_fixtures)**: Test fixtures for the r3bl_* TUI and CLI crates.
+- 🦀 **[xwin](https://github.com/Jake-Shadle/xwin)**: Allows downloading and repacking the MSVC CRT and Windows SDK for cross compilation.
 - 🦀 **[git-repo-manager](https://github.com/hakoerber/git-repo-manager)**: Manage multiple git repositories.
 - 🦀 **[legacylisten](https://codeberg.org/zvavybir/legacylisten)**: A simple CLI audio player with strange features.
+- 🦀 **[obsidian-export](https://github.com/zoni/obsidian-export)**: Rust library and associated CLI program to export an Obsidian vault to regular Markdown.
 - 🦀 **[vapore](https://github.com/Roco-scientist/VAnguard-POrtfolio-REbalance)**: Vangaurd portfolio rebalancing algorithm.
 - 🦀 **[aqua-verifier](https://github.com/inblockio/aqua-verifier)**: Aqua protocol library to sign, witness , and verify aqua chains.
 - 🦀 **[backlight_control_rs](https://github.com/DOD-101/backlight_control_rs)**: Backlight control is a re-written version of [backlight_control](https://github.
-- 🦀 **[obsidian-export](https://github.com/zoni/obsidian-export)**: Rust library and associated CLI program to export an Obsidian vault to regular Markdown.
+- 🦀 **[dsntk-common](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | Common definitions.
 - 🦀 **[affected](https://github.com/DenysVuika/affected.git)**: A tool to find affected files or projects in a git repository and run commands on them.
+- 🦀 **[bump2version](https://github.com/wiseaidev/bump2version)**: ⬆️ Easily manage version numbers in your projects.
 - 🦀 **[gnt-tools](https://github.com/kylak/gnt-tools)**: Tools to help studying the greek new testament.
 - 🦀 **[alfred-core](https://github.com/PaoloPana/alfred-rs)**: Alfred Rust Library.
 - 🦀 **[cnf-lib](https://gitlab.com/hartan/cnf)**: Distribution-agnostic 'command not found'-handler.
 - 🦀 **[avrogen](https://github.com/polo-asm/avrogen)**: This program allow allow to generate rust code from avro definition files.
+- 🦀 **[esp-generate](https://github.com/esp-rs/esp-generate)**: Template generation tool to create no_std applications targeting Espressif's chips.
 - 🦀 **[punktf](https://github.com/Shemnei/punktf)**: A cross-platform multi-target dotfiles manager.
 - 🦀 **[bass-tuna](https://github.com/darwindarak/bass-tuna)**: A terminal-based string instrument tuner.
 - 🦀 **[native_messaging](https://github.com/IberAI/native-messaging)**: Async implementation of MDN native messaging.
 - 🦀 **[rust-paper](https://github.com/falcon71181/rust-paper)**: Rust Wallpaper manager from ( https://wallhaven.
+- 🦀 **[youtube-tui](https://github.com/siriusmart/youtube-tui)**: An aesthetically pleasing YouTube TUI written in Rust.
 - 🦀 **[zet](https://github.com/yarrow/zet)**: zet finds the union, intersection, set difference, etc of files considered as sets of lines.
 - 🦀 **[chromacat](https://github.com/hyperb1iss/chromacat)**: A versatile command-line tool for applying color gradients to text output.
-- 🦀 **[bump2version](https://github.com/wiseaidev/bump2version)**: ⬆️ Easily manage version numbers in your projects.
-- 🦀 **[dsntk-common](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | Common definitions.
 - 🦀 **[party](https://github.com/iamroot99/party)**: A command execution automator.
+- 🦀 **[rvz](https://gitlab.com/gemarcano/librvz-rs)**: RVZ compression library.
+- 🦀 **[gooseberry](https://github.com/out-of-cheese-error/gooseberry)**: A command line utility to generate a knowledge base from Hypothesis annotations.
 - 🦀 **[up-rs](https://github.com/gibfahn/up)**: up is a tool to help you keep your machine up to date.
 - 🦀 **[wasefire-cli-tools](https://github.com/google/wasefire)**: Command-line utilities for Wasefire.
-- 🦀 **[gooseberry](https://github.com/out-of-cheese-error/gooseberry)**: A command line utility to generate a knowledge base from Hypothesis annotations.
-- 🦀 **[rvz](https://gitlab.com/gemarcano/librvz-rs)**: RVZ compression library.
+- 🦀 **[aloe-sidepanel](https://github.com/klebs6/aloe-rs)**: A dynamic GUI component for mobile apps, providing animated side panels with customizable content and title bars.
+- 🦀 **[gday_server](https://github.com/manforowicz/gday/)**: Server that lets 2 peers exchange their socket addresses.
 - 🦀 **[random-picker](https://github.com/wuwbobo2021/random-picker)**: Generates random choices based on the weight table of probabilities.
 - 🦀 **[flaregun](https://github.com/e-dant/flaregun)**: Tracing and monitoring tools for Linux.
 - 🦀 **[wasm2usharp](https://github.com/raii-x/wasm2usharp)**: A tool for converting WebAssembly to UdonSharp.
-- 🦀 **[gday_server](https://github.com/manforowicz/gday/)**: Server that lets 2 peers exchange their socket addresses.
-- 🦀 **[youtube-tui](https://github.com/siriusmart/youtube-tui)**: An aesthetically pleasing YouTube TUI written in Rust.
-- 🦀 **[todor](https://github.com/jfding/todor)**: yet another cli TODO in Rust.
 - 🦀 **[aoc-zen-runner-macros](https://github.com/proegssilb/aoc-zen-runner)**: Macros for aoc-zen-runner.
+- 🦀 **[todor](https://github.com/jfding/todor)**: yet another cli TODO in Rust.
+- 🦀 **[aoc-rs-1npo](null)**: My attempt at using Rust to solve Advent of Code puzzles.
 - 🦀 **[apt-parse](https://gitlab.com/ppentchev/apt-parse)**: Parse the output of some Apt commands.
 - 🦀 **[tzgrep](https://gitlab.com/Toru3/tzgrep)**: grep tar.
-- 🦀 **[aoc-rs-1npo](null)**: My attempt at using Rust to solve Advent of Code puzzles.
 - 🦀 **[thag_rs](https://github.com/durbanlegend/thag_rs)**: A versatile cross-platform script runner and REPL for Rust snippets, expressions and programs.
+- 🦀 **[mrblackjack](https://github.com/olekli/mrblackjack)**: Simple framework for testing Kubernetes operators.
 - 🦀 **[uni_some_parser](https://github.com/rchuk/uni_some_parser)**: Some parser WIP.
 - 🦀 **[prompter](https://github.com/noeddl/prompter)**: A Wordle solver in Rust.
-- 🦀 **[mrblackjack](https://github.com/olekli/mrblackjack)**: Simple framework for testing Kubernetes operators.
 - 🦀 **[tlauc](https://github.com/tlaplus-community/tlauc)**: Rewrites TLA⁺ specs to use Unicode symbols instead of ASCII, and vice-versa.
-- 🦀 **[rex-tui](https://github.com/TheRustyPickle/Rex)**: A TUI app for managing Incomes and Expenses.
-- 🦀 **[proxyfor](https://github.com/sigoden/proxyfor)**: A powerful and flexible proxy CLI for capturing and inspecting HTTP(S) and WS(S) traffic.
-- 🦀 **[aloe-sidepanel](https://github.com/klebs6/aloe-rs)**: A dynamic GUI component for mobile apps, providing animated side panels with customizable content and title bars.
 - 🦀 **[autorun_config](https://github.com/chazfg/autorun_config)**: Macros to easily create configurations that can pull their data from command line arguments or environment variables.
 - 🦀 **[idid](https://github.com/jidn/idid-rust)**: Track, edit, and view what you did.
+- 🦀 **[rex-tui](https://github.com/TheRustyPickle/Rex)**: A TUI app for managing Incomes and Expenses.
+- 🦀 **[cargo-version-upgrade](https://github.com/DOLPHIN-SOFTWARE-TECH/cargo-version-upgrade.git)**: semantic version management.
 - 🦀 **[lemmy-scheduled-post-bot](https://github.com/stevenvergenz/lemmy-scheduled-post-bot)**: Make posts to Lemmy based on the next configured post in a TOML file.
-- 🦀 **[helicon](https://github.com/rust-lang/cargo)**: Command line music organizer based on metadata from MusicBrainz.
 - 🦀 **[llogin](https://github.com/smazmi/LPU-WiFi-Manager)**: LPU WiFi Manager: A CLI tool for managing Lovely Professional University WiFi connections.
-- 🦀 **[rwhich](https://github.com/marc47marc47/rwhich)**: like linux which, can find where the exec command is.
-- 🦀 **[watch-rs](https://github.com/DrEsteban/watch-rust)**: A Rust implementation of Linux's `watch`.
-- 🦀 **[codemonument_bx](https://github.com/codemonument/bx)**: Simple, cross-platform, and fast command aliases with superpowers.
-- 🦀 **[nali](https://github.com/xxxbrian/nali-rs)**: A command-line tool that enriches IP addresses with GeoIP information, enhancing network diagnostics with geographical context.
+- 🦀 **[proxyfor](https://github.com/sigoden/proxyfor)**: A powerful and flexible proxy CLI for capturing and inspecting HTTP(S) and WS(S) traffic.
+- 🦀 **[helicon](https://github.com/rust-lang/cargo)**: Command line music organizer based on metadata from MusicBrainz.
 - 🦀 **[fibertools-rs](https://github.com/fiberseq/fibertools-rs)**: Fiber-seq toolkit in rust.
-- 🦀 **[flake-edit](https://github.com/a-kenji/flake-edit)**: Edit your flake inputs with ease.
+- 🦀 **[watch-rs](https://github.com/DrEsteban/watch-rust)**: A Rust implementation of Linux's `watch`.
+- 🦀 **[rwhich](https://github.com/marc47marc47/rwhich)**: like linux which, can find where the exec command is.
+- 🦀 **[codemonument_bx](https://github.com/codemonument/bx)**: Simple, cross-platform, and fast command aliases with superpowers.
 - 🦀 **[config-manager](https://github.com/3xMike/config-manager)**: Crate to build config from environment, command line and files.
+- 🦀 **[nali](https://github.com/xxxbrian/nali-rs)**: A command-line tool that enriches IP addresses with GeoIP information, enhancing network diagnostics with geographical context.
+- 🦀 **[flake-edit](https://github.com/a-kenji/flake-edit)**: Edit your flake inputs with ease.
 - 🦀 **[git-prole](https://github.com/9999years/git-prole)**: A git-worktree(1) manager.
+- 🦀 **[algae-cli](https://github.com/beyondessential/bestool/tree/main/crates/algae-cli)**: Lightweight age profile for user-friendly encryption (CLI tool and library).
+- 🦀 **[comiconv](https://github.com/chrontax/comiconv)**: A command line tool to convert comic book archives to other formats.
 - 🦀 **[wini](https://codeberg.org/wini/wini)**: CLI utility for wini.
 - 🦀 **[zip-blitz](https://github.com/cwithmichael/zip-blitz)**: Smarter brute-force password searching for PKZIP encrypted files.
-- 🦀 **[algae-cli](https://github.com/beyondessential/bestool/tree/main/crates/algae-cli)**: Lightweight age profile for user-friendly encryption (CLI tool and library).
 - 🦀 **[pmgr](https://github.com/recleun/pmgr)**: A cli-based project management tool.
-- 🦀 **[comiconv](https://github.com/chrontax/comiconv)**: A command line tool to convert comic book archives to other formats.
+- 🦀 **[tui-realm-textarea](https://github.com/veeso/tui-realm-textarea)**: textarea component for tui-realm.
+- 🦀 **[mcpr](https://github.com/conikeec/mcpr)**: Rust implementation of Anthropic's Model Context Protocol.
+- 🦀 **[adof](https://github.com/fnabinash/adof)**: ADOF - An Automatic Dot-files Organizer Friend.
 - 🦀 **[tlogger](https://github.com/ThatOneToast/t-logger)**: A simple logging library with a neat style and customizablity.
 - 🦀 **[bell_system](https://github.com/Architecture-Mechanism/bell)**: Advanced privilege escalation system with multi-level security and compliance features.
-- 🦀 **[cargo-version-upgrade](https://github.com/DOLPHIN-SOFTWARE-TECH/cargo-version-upgrade.git)**: semantic version management.
-- 🦀 **[adof](https://github.com/fnabinash/adof)**: ADOF - An Automatic Dot-files Organizer Friend.
-- 🦀 **[blobtk](https://github.com/blobtoolkit/blobtk)**: Core utilities for BlobToolKit.
 - 🦀 **[ci-manager](https://docs.rs/ci-manager)**: Parse GitHub/GitLab workflows and do stuff like create issues.
-- 🦀 **[rskey](https://github.com/bitfield/rskey)**: A simple persistent key-value store that wraps HashMap, with a basic CLI tool to list, get, and set key-value pairs.
+- 🦀 **[cli_utils_hoijui](https://github.com/hoijui/cli-utils-rs)**: A tiny CLI utilities library, providing functions and constants useful in many CLI tools.
+- 🦀 **[blobtk](https://github.com/blobtoolkit/blobtk)**: Core utilities for BlobToolKit.
 - 🦀 **[gcn_disk](https://gitlab.com/gemarcano/libgcn_header-rs)**: Gamecube file header library and utilities.
-- 🦀 **[phorg](https://github.com/xandkar/phorg)**: Idempotent photo/video file organizer.
+- 🦀 **[rskey](https://github.com/bitfield/rskey)**: A simple persistent key-value store that wraps HashMap, with a basic CLI tool to list, get, and set key-value pairs.
 - 🦀 **[horust-commands-lib](https://github.com/FedericoPonzi/horust)**: A complete supervisor and init system, designed for running in containers.
+- 🦀 **[phorg](https://github.com/xandkar/phorg)**: Idempotent photo/video file organizer.
 - 🦀 **[rusty-termcolor](https://github.com/pleaseful/rusty-termcolor)**: A light-weight terminal coloring library for Rust.
 - 🦀 **[shopping-parser](https://github.com/ParZZ1vaLl/shopping-parser)**: A Rust-based parser for parsing structured product information and shopping lists, supporting multiple currencies and units.
-- 🦀 **[tui-realm-textarea](https://github.com/veeso/tui-realm-textarea)**: textarea component for tui-realm.
-- 🦀 **[pow_account](https://github.com/1prefix/pow-account)**: This library generates cryptographic hashes with a second round of hashing to produce configurable leading zeros for proof-of-work or validation.
-- 🦀 **[search-in-terminal](https://github.com/zykowal/search-in-terminal)**: A terminal-based search tool.
-- 🦀 **[mastermind-cli](https://github.com/theoforger/mastermind)**: An LLM-powered CLI tool to help you be a better spymaster in Codenames.
-- 🦀 **[sk-skimmer](https://github.com/LoricAndre/skimmer)**: Fuzzy Finder in rust!.
-- 🦀 **[better-minify-js](https://github.com/kyr0/better-minify-js)**: Extremely fast JavaScript minifier.
-- 🦀 **[mcpr](https://github.com/conikeec/mcpr)**: Rust implementation of Anthropic's Model Context Protocol.
+- 🦀 **[dsntk-feel-number](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL number.
 - 🦀 **[hgrep](https://github.com/rhysd/hgrep)**: hgrep is a grep tool with human-friendly search output.
-- 🦀 **[ia-sandbox](https://gitlab.com/adrian.budau/ia-sandbox)**: A CLI to sandbox (jail) and collect usage of applications.
+- 🦀 **[mastermind-cli](https://github.com/theoforger/mastermind)**: An LLM-powered CLI tool to help you be a better spymaster in Codenames.
+- 🦀 **[search-in-terminal](https://github.com/zykowal/search-in-terminal)**: A terminal-based search tool.
+- 🦀 **[better-minify-js](https://github.com/kyr0/better-minify-js)**: Extremely fast JavaScript minifier.
+- 🦀 **[pow_account](https://github.com/1prefix/pow-account)**: This library generates cryptographic hashes with a second round of hashing to produce configurable leading zeros for proof-of-work or validation.
 - 🦀 **[ipcheck-rs](https://github.com/alannotnerd/ipcheck-rs)**: A command tool generates typescript ip checker from CIDR.
-- 🦀 **[panlabel](https://github.com/strickvl/panlabel)**: The universal annotation converter.
+- 🦀 **[sk-skimmer](https://github.com/LoricAndre/skimmer)**: Fuzzy Finder in rust!.
+- 🦀 **[ia-sandbox](https://gitlab.com/adrian.budau/ia-sandbox)**: A CLI to sandbox (jail) and collect usage of applications.
+- 🦀 **[just_nvim](https://github.com/abhi-xyz/just.nvim)**: Neovim plugin for encrypting and decrypting text files inside neovim using age with ease.
 - 🦀 **[projectable](https://github.com/dzfrias/projectable)**: projectable is a highly configurable TUI file manager, built for projects.
+- 🦀 **[panlabel](https://github.com/strickvl/panlabel)**: The universal annotation converter.
+- 🦀 **[routinator](https://github.com/NLnetLabs/routinator)**: An RPKI relying party software.
 - 🦀 **[television-utils](https://github.com/alexpasmantier/television)**: The revolution will be televised.
 - 🦀 **[x-ai](https://github.com/opensass/x-ai)**: ✨ A cli, tui, and sdk for interacting with the 𝕏-AI API.
-- 🦀 **[just_nvim](https://github.com/abhi-xyz/just.nvim)**: Neovim plugin for encrypting and decrypting text files inside neovim using age with ease.
-- 🦀 **[idwt](https://github.com/noahdotpy/idwt-rs)**: A self-control utility based on configuration files.
-- 🦀 **[jsonwatch](https://github.com/dbohdan/jsonwatch)**: Track changes in JSON data from the command line.
-- 🦀 **[rasterfakers](https://github.com/pt20/rasterfakers)**: A Rust library and CLI tool to generate fake GeoTIFF files for testing and fixtures.
-- 🦀 **[tempo-rs](https://github.com/Nic0w/tempo-rs)**: Rust library & minimal client to connect and interact with RTE's 'Tempo Like Supply Contract' API.
-- 🦀 **[fm-tui](https://github.com/qkzk/fm)**: FM : a file manager inspired by ranger and dired{n}{n}Config files ~/.
 - 🦀 **[fmtna](https://github.com/yanns1/fmtna)**: A CLI app to format filenames according to a chosen naming convention.
+- 🦀 **[jsonwatch](https://github.com/dbohdan/jsonwatch)**: Track changes in JSON data from the command line.
+- 🦀 **[fm-tui](https://github.com/qkzk/fm)**: FM : a file manager inspired by ranger and dired{n}{n}Config files ~/.
+- 🦀 **[idwt](https://github.com/noahdotpy/idwt-rs)**: A self-control utility based on configuration files.
+- 🦀 **[rasterfakers](https://github.com/pt20/rasterfakers)**: A Rust library and CLI tool to generate fake GeoTIFF files for testing and fixtures.
+- 🦀 **[rust_file_encode_mode_convert](https://gitee.com/superwindcloud/rust_file_encode_mode_convert)**: 这是一个rust的库，用于检测文件的编码格式。 支持GBK,GBK2312 , UTF8, UTF16LE, UTF16BE, UTF8+BOM,UTF32 等多种编码格式。.
 - 🦀 **[television-fuzzy](https://github.com/alexpasmantier/television)**: The revolution will be televised.
-- 🦀 **[esp-generate](https://github.com/esp-rs/esp-generate)**: Template generation tool to create no_std applications targeting Espressif's chips.
-- 🦀 **[moella](https://github.com/Icelk/moella/)**: An implementation of the Kvarn web server framework with a convenient config format.
-- 🦀 **[rustic_scheduler](https://github.com/rustic-rs/rustic_scheduler)**: rustic scheduler - a client/server application to schedule regular backups on many clients to one identical repository controlled by a central scheduling server.
-- 🦀 **[yt-sub](https://github.com/pawurb/yt-sub-rs)**: A simple CLI for subscribing to Youtube RSS feeds without a Youtube account.
-- 🦀 **[cli_utils_hoijui](https://github.com/hoijui/cli-utils-rs)**: A tiny CLI utilities library, providing functions and constants useful in many CLI tools.
+- 🦀 **[tempo-rs](https://github.com/Nic0w/tempo-rs)**: Rust library & minimal client to connect and interact with RTE's 'Tempo Like Supply Contract' API.
 - 🦀 **[mmpx](https://github.com/pierogis/mmpx-rs)**: image magnification algorithm.
-- 🦀 **[r2rust-core](https://github.com/R2Rust/core)**: An interpreter inspired by R, implemented in Rust with a modular design.
+- 🦀 **[moella](https://github.com/Icelk/moella/)**: An implementation of the Kvarn web server framework with a convenient config format.
+- 🦀 **[ansee](https://github.com/codersauce/ansee)**: ANSI escaped text to image CLI tool and Rust library.
+- 🦀 **[rustic_scheduler](https://github.com/rustic-rs/rustic_scheduler)**: rustic scheduler - a client/server application to schedule regular backups on many clients to one identical repository controlled by a central scheduling server.
 - 🦀 **[json-schema-dsl](https://github.com/linux-china/json-schema-dsl)**: A simple DSL to write JSON Schema.
+- 🦀 **[yt-sub](https://github.com/pawurb/yt-sub-rs)**: A simple CLI for subscribing to Youtube RSS feeds without a Youtube account.
+- 🦀 **[r2rust-core](https://github.com/R2Rust/core)**: An interpreter inspired by R, implemented in Rust with a modular design.
+- 🦀 **[color_scheme_generator](https://github.com/nikolaizombie1/color_scheme_generator)**: A Command line utility to quickly and easily create color themes from an image.
+- 🦀 **[gfwc](null)**: Unix command line wc tool in Rust for [ccwc](https://codingchallenges.
 - 🦀 **[toggl](https://github.com/watercooler-labs/toggl-cli)**: Unofficial command-line interface for Toggl Track using the v9 API.
 - 🦀 **[tree-create](https://github.com/codyw912/tree-create)**: A utility to create directory structures from a tree-like text input.
-- 🦀 **[ansee](https://github.com/codersauce/ansee)**: ANSI escaped text to image CLI tool and Rust library.
+- 🦀 **[hashkitten](https://github.com/diogogomesaraujo/hash_kitten)**: A purrfect hashing companion.
 - 🦀 **[rustic_server](https://github.com/rustic-rs/rustic_server)**: rustic server - a REST server built in rust to use with rustic and restic.
 - 🦀 **[barista](https://github.com/xandkar/barista)**: Concurrent status bar with cache expirations and remote control; aggregating outputs from external collector processes.
-- 🦀 **[gfwc](null)**: Unix command line wc tool in Rust for [ccwc](https://codingchallenges.
-- 🦀 **[hashkitten](https://github.com/diogogomesaraujo/hash_kitten)**: A purrfect hashing companion.
-- 🦀 **[dsntk-feel-number](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL number.
-- 🦀 **[routinator](https://github.com/NLnetLabs/routinator)**: An RPKI relying party software.
-- 🦀 **[color_scheme_generator](https://github.com/nikolaizombie1/color_scheme_generator)**: A Command line utility to quickly and easily create color themes from an image.
-- 🦀 **[rust_file_encode_mode_convert](https://gitee.com/superwindcloud/rust_file_encode_mode_convert)**: 这是一个rust的库，用于检测文件的编码格式。 支持GBK,GBK2312 , UTF8, UTF16LE, UTF16BE, UTF8+BOM,UTF32 等多种编码格式。.
-- 🦀 **[zaim](https://github.com/ryohidaka/rust-zaim)**: rust-zaim is a Rust client library for the Zaim API.
 - 🦀 **[databind](https://github.com/MysteryBlokHed/databind)**: Expand the functionality of Minecraft Datapacks.
-- 🦀 **[sollama](https://github.com/EsmaeelNabil/sollama)**: A CLI Tool to Search and summarize the results with Ollama models in your terminal.
-- 🦀 **[termcalc](https://github.com/rtbo/termcalc)**: a simple Terminal Calculator.
+- 🦀 **[zaim](https://github.com/ryohidaka/rust-zaim)**: rust-zaim is a Rust client library for the Zaim API.
+- 🦀 **[bogrep](https://github.com/quambene/bogrep)**: Full-text search for bookmarks from multiple browsers.
 - 🦀 **[wini-cli](https://codeberg.org/wini/wini)**: CLI utility for wini.
 - 🦀 **[directopsy](https://github.com/IllyStable/list-rs)**: Command-line tool to quickly get a list of files in a directory in a human-readable format.
-- 🦀 **[clap-utils](https://github.com/tyrchen/clap-utils)**: A collection of utilities for building command line applications.
-- 🦀 **[bogrep](https://github.com/quambene/bogrep)**: Full-text search for bookmarks from multiple browsers.
-- 🦀 **[ohmyalias](https://github.com/Andy2403/aliasman-rs)**: A simple tool for manage your aliasses.
-- 🦀 **[rilis](https://github.com/ak9024/rilis)**: Local deployment tools built with Rust.
 - 🦀 **[powerpack-env](https://github.com/rossmacarthur/powerpack)**: ⚡ Useful environment variables in Alfred workflows.
-- 🦀 **[mtracker](https://github.com/r-unruh/mtracker)**: cli movie tracker - keep track of watched movies and series.
-- 🦀 **[television-channels](https://github.com/alexpasmantier/television)**: The revolution will be televised.
-- 🦀 **[totpm](https://github.com/koditoriet/totpm)**: A TPM-backed command line TOTP/2FA client, using fprintd for user presence verification.
-- 🦀 **[mprs](https://github.com/abdellatif-temsamani/mprs)**: mpd written client rust.
-- 🦀 **[rust-nrm](https://github.com/BQXBQX/rnrm)**: A Rust-based NPM Registry Manager for efficiently managing and switching between npm registries.
-- 🦀 **[hoicolor](https://github.com/tlm9201/hoicolor)**: convert hearts of iron colors -> ansi.
-- 🦀 **[yek](https://github.com/bodo-run/yek)**: A tool to serialize a repository into chunks of text files.
-- 🦀 **[terminal-velocity](https://github.com/systemsoverload/terminal-velocity)**: A blazingly fast static site generator for dorks.
-- 🦀 **[altscr](https://github.com/ErichDonGubler/altscr)**: run a command in an ALTernate SCReen buffer.
-- 🦀 **[lolcrab](https://github.com/mazznoer/lolcrab)**: Like lolcat but with noise and more colorful.
-- 🦀 **[cargo-aoc-zen-runner](https://github.com/proegssilb/aoc-zen-runner)**: An Advent of Code runner aiming to streamline a variety of repository layouts and tasks.
-- 🦀 **[rpg-chat-command-parser](https://github.com/Emril44/rpg-chat-command-parser)**: A command line parser for RPG-like chat commands.
-- 🦀 **[template-cli](https://github.com/hiddewie/template)**: CLI for templating based on JSON, YAML or HCL configuration.
+- 🦀 **[sollama](https://github.com/EsmaeelNabil/sollama)**: A CLI Tool to Search and summarize the results with Ollama models in your terminal.
+- 🦀 **[termcalc](https://github.com/rtbo/termcalc)**: a simple Terminal Calculator.
+- 🦀 **[clap-utils](https://github.com/tyrchen/clap-utils)**: A collection of utilities for building command line applications.
 - 🦀 **[dsntk-feel-temporal](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL temporal.
+- 🦀 **[lolcrab](https://github.com/mazznoer/lolcrab)**: Like lolcat but with noise and more colorful.
+- 🦀 **[ohmyalias](https://github.com/Andy2403/aliasman-rs)**: A simple tool for manage your aliasses.
+- 🦀 **[mtracker](https://github.com/r-unruh/mtracker)**: cli movie tracker - keep track of watched movies and series.
+- 🦀 **[rilis](https://github.com/ak9024/rilis)**: Local deployment tools built with Rust.
+- 🦀 **[yek](https://github.com/bodo-run/yek)**: A tool to serialize a repository into chunks of text files.
+- 🦀 **[television-channels](https://github.com/alexpasmantier/television)**: The revolution will be televised.
+- 🦀 **[hoicolor](https://github.com/tlm9201/hoicolor)**: convert hearts of iron colors -> ansi.
+- 🦀 **[mprs](https://github.com/abdellatif-temsamani/mprs)**: mpd written client rust.
+- 🦀 **[totpm](https://github.com/koditoriet/totpm)**: A TPM-backed command line TOTP/2FA client, using fprintd for user presence verification.
+- 🦀 **[rust-nrm](https://github.com/BQXBQX/rnrm)**: A Rust-based NPM Registry Manager for efficiently managing and switching between npm registries.
+- 🦀 **[fhc](https://github.com/qtfkwk/fhc)**: File hash checker (BLAKE3, SHA256, SHA512).
+- 🦀 **[altscr](https://github.com/ErichDonGubler/altscr)**: run a command in an ALTernate SCReen buffer.
 - 🦀 **[ethersync](https://github.com/ethersync/ethersync)**: Enables real-time co-editing of local text files.
-- 🦀 **[intrac](https://gitlab.com/interop2/intrac)**: Unofficial library to track Easypack24/InPost shipments and parcels via their Web API.
+- 🦀 **[cargo-aoc-zen-runner](https://github.com/proegssilb/aoc-zen-runner)**: An Advent of Code runner aiming to streamline a variety of repository layouts and tasks.
+- 🦀 **[terminal-velocity](https://github.com/systemsoverload/terminal-velocity)**: A blazingly fast static site generator for dorks.
+- 🦀 **[template-cli](https://github.com/hiddewie/template)**: CLI for templating based on JSON, YAML or HCL configuration.
+- 🦀 **[rpg-chat-command-parser](https://github.com/Emril44/rpg-chat-command-parser)**: A command line parser for RPG-like chat commands.
 - 🦀 **[utf8-console](https://github.com/mahkoh/utf8-console)**: Cross-platform enabling of UTF-8 console IO.
-- 🦀 **[xdomain](https://github.com/sitespotai/xdomain-package.git)**: xdomain name service package to interact with smart contracts.
+- 🦀 **[cargo-http-registry](https://github.com/d-e-s-o/cargo-http-registry.git)**: A cargo registry allowing for quick publishing of crates when using crates.
 - 🦀 **[ctgen](https://github.com/cytecbg/ctgen)**: Code Generator based on Handlebars Templates and Database Reflection.
 - 🦀 **[doist](https://github.com/chaosteil/doist)**: doist is an unofficial command line app for interacting with the Todoist API.
-- 🦀 **[s2png](https://github.com/dbohdan/s2png)**: Store any data in PNG images.
+- 🦀 **[intrac](https://gitlab.com/interop2/intrac)**: Unofficial library to track Easypack24/InPost shipments and parcels via their Web API.
+- 🦀 **[jql-parser](https://github.com/yamafaktory/jql)**: Parser for jql - the JSON Query Language tool.
+- 🦀 **[xdomain](https://github.com/sitespotai/xdomain-package.git)**: xdomain name service package to interact with smart contracts.
 - 🦀 **[crosup-types](https://github.com/tsirysndr/crosup)**: A simple CLI tool to quickly setup your development environment on Chomebook (ChromeOS) or any Linux Distribution.
 - 🦀 **[raw-stdio](https://github.com/mahkoh/raw-stdio)**: Cross-platform, unbuffered, direct STDIO access.
-- 🦀 **[sued](https://codeberg.org/AeriaVelocity/sued)**: shut up editor - a minimalist line-based text editor written in Rust.
-- 🦀 **[osstrtools-fix](https://github.com/heipiao233/osstrtools)**: Additional helper methods for OsStr.
-- 🦀 **[difftastic](https://github.com/wilfred/difftastic)**: A structural diff that understands syntax.
+- 🦀 **[s2png](https://github.com/dbohdan/s2png)**: Store any data in PNG images.
 - 🦀 **[mksls](https://github.com/yanns1/mksls)**: Make symlinks specified in files.
+- 🦀 **[osstrtools-fix](https://github.com/heipiao233/osstrtools)**: Additional helper methods for OsStr.
+- 🦀 **[sued](https://codeberg.org/AeriaVelocity/sued)**: shut up editor - a minimalist line-based text editor written in Rust.
 - 🦀 **[bndl_convert](https://github.com/segersniels/bndl/)**: Convert a tsconfig.
 - 🦀 **[hash-tag](https://github.com/pr4j3sh/hash-tag)**: Markdown to HTML parser.
+- 🦀 **[dsntk-feel](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL definitions.
 - 🦀 **[packbed](https://github.com/alejandrogzi/packbed)**: pack a .
-- 🦀 **[fhc](https://github.com/qtfkwk/fhc)**: File hash checker (BLAKE3, SHA256, SHA512).
-- 🦀 **[willdo](https://gitlab.com/BrightOpen/willdo)**: Task manager with DAG.
-- 🦀 **[doteur](https://github.com/nag763/doteur/)**: Tool to automate the visualisation of UML dependencies from a SQL input.
-- 🦀 **[jql-parser](https://github.com/yamafaktory/jql)**: Parser for jql - the JSON Query Language tool.
 - 🦀 **[cmdopts](https://github.com/pstolarz/cmdopts)**: GNU-like command line options parser.
+- 🦀 **[doteur](https://github.com/nag763/doteur/)**: Tool to automate the visualisation of UML dependencies from a SQL input.
+- 🦀 **[willdo](https://gitlab.com/BrightOpen/willdo)**: Task manager with DAG.
+- 🦀 **[serie](https://github.com/lusingander/serie)**: A rich git commit graph in your terminal, like magic.
+- 🦀 **[ccsort](https://github.com/yildirimmurat/ccsort)**: A simple clone of the Unix sort command, with multiple sorting algorithms.
+- 🦀 **[jql-runner](https://github.com/yamafaktory/jql)**: Runner for jql - the JSON Query Language tool.
 - 🦀 **[sitemap2urllist](https://github.com/lukehsiao/sitemap2urllist)**: Read a sitemap and output a list of URLs.
 - 🦀 **[term_tools](https://github.com/Syaw0/term_tools)**: Colorize Your Terminal with Term-Tools: A Rust-powered Formatting Tool.
-- 🦀 **[rldr](https://github.com/ammar-ahmed22/rldr)**: A simple command line utility to run and manage commands with keypress controls.
-- 🦀 **[television-previewers](https://github.com/alexpasmantier/television)**: The revolution will be televised.
-- 🦀 **[ccsort](https://github.com/yildirimmurat/ccsort)**: A simple clone of the Unix sort command, with multiple sorting algorithms.
+- 🦀 **[dsntk-feel-grammar](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL grammar.
 - 🦀 **[disktest-rawio](https://github.com/mbuesch/disktest)**: Raw disk I/O for the disktest crate.
+- 🦀 **[rldr](https://github.com/ammar-ahmed22/rldr)**: A simple command line utility to run and manage commands with keypress controls.
 - 🦀 **[awry](https://github.com/UM-Applied-Algorithms-Lab/AWRY_Index)**: Library for creating FM-indexes from FASTA/FASTQ files.
-- 🦀 **[jql-runner](https://github.com/yamafaktory/jql)**: Runner for jql - the JSON Query Language tool.
-- 🦀 **[rustyper](https://gitlab.com/flobsx/rustyper)**: CLI clone of monkeytype.
+- 🦀 **[babel_nar](https://github.com/ARCJ137442/BabelNAR.rs)**: Implementation and application supports of the NAVM model.
+- 🦀 **[television-previewers](https://github.com/alexpasmantier/television)**: The revolution will be televised.
+- 🦀 **[lintspec](https://github.com/beeb/lintspec)**: A blazingly fast linter for NatSpec comments in Solidity code.
+- 🦀 **[iay](https://github.com/aaqaishtyaq/iay)**: iay! The minimalistic, blazing-fast, and extendable prompt for bash and zsh.
 - 🦀 **[wholesum](https://github.com/dnaka91/wholesum)**: Wholesome collection of file hashing algorithms all bundled in a single tool.
 - 🦀 **[dbpulse](https://github.com/nbari/dbpulse)**: command line tool to monitor that database is available for read & write.
-- 🦀 **[serie](https://github.com/lusingander/serie)**: A rich git commit graph in your terminal, like magic.
+- 🦀 **[rustyper](https://gitlab.com/flobsx/rustyper)**: CLI clone of monkeytype.
 - 🦀 **[DPM-Core](https://github.com/Derrick-Program/DPM-Core)**: DPM-Core is for DPM-Server & DPM-Client.
-- 🦀 **[babel_nar](https://github.com/ARCJ137442/BabelNAR.rs)**: Implementation and application supports of the NAVM model.
 - 🦀 **[cnova](https://github.com/wetfloo/cnova)**: A command-line tool to download lyrics for music, quickly.
-- 🦀 **[dsntk-feel](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL definitions.
-- 🦀 **[hfile](https://github.com/nbari/hfile)**: Hfile is a command-line interface (CLI) tool for generating hash values of files.
-- 🦀 **[iay](https://github.com/aaqaishtyaq/iay)**: iay! The minimalistic, blazing-fast, and extendable prompt for bash and zsh.
-- 🦀 **[backup](https://github.com/nbari/backup)**: create encrypted backups.
 - 🦀 **[typeline_ext_utils](https://github.com/cmrschwarz/typeline)**: utility operators for typeline.
-- 🦀 **[snip-cli](null)**: A CLI tool (snip-cli) for managing Neovim and VSCode snippets.
+- 🦀 **[hfile](https://github.com/nbari/hfile)**: Hfile is a command-line interface (CLI) tool for generating hash values of files.
+- 🦀 **[backup](https://github.com/nbari/backup)**: create encrypted backups.
 - 🦀 **[ssg](https://github.com/sebastienrousseau/shokunin)**: A Content-First Open Source Static Site Generator (SSG) crafted in Rust.
-- 🦀 **[termenu](https://github.com/sshelll/termenu)**: A fzf-like library for terminal applications.
 - 🦀 **[fast_delete](https://github.com/Himasnhu-AT/frm.git)**: Faster file deletion written in Rust, alternative to rm.
 - 🦀 **[lectio-diei](https://github.com/Squidroot2/lectio-diei)**: CLI application for displaying the daily Catholic readings.
 - 🦀 **[murkdown](https://github.com/gamgi/murkdown)**: An experimental semantic markup language and static site generator for composing and decomposing hypertext documents.
-- 🦀 **[dsntk-feel-grammar](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL grammar.
+- 🦀 **[termenu](https://github.com/sshelll/termenu)**: A fzf-like library for terminal applications.
+- 🦀 **[snip-cli](null)**: A CLI tool (snip-cli) for managing Neovim and VSCode snippets.
 - 🦀 **[crosup-installers](https://github.com/tsirysndr/crosup)**: A simple CLI tool to quickly setup your development environment on Chomebook (ChromeOS) or any Linux Distribution.
+- 🦀 **[dsntk-feel-parser](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL parser.
 - 🦀 **[ecb-rates](https://github.com/lov3b/ecb-rates)**: Query exchange rates from the European Central Bank (ECB).
 - 🦀 **[sizr](https://github.com/trinhminhtriet/sizr)**: A fast, Rust-based tool to analyze file system usage with colorful output, file aggregation, exclusions, and directory comparisons.
-- 🦀 **[ayan-player-cli](https://github.com/AyanDas-99/rust-player-cli)**: A simple CLI tool to play videos from the current directory.
-- 🦀 **[mmft](https://github.com/tolkit/mmft)**: A minimal fasta toolkit.
-- 🦀 **[mtemp](https://git.midefos.com/midefos/temp/)**: CLI for monitoring temperatures.
-- 🦀 **[mapiproxy](https://github.com/MonetDBSolutions/mapiproxy)**: A proxy for debugging MonetDB's wire protocol.
-- 🦀 **[rusty_chess_clock](https://github.com/michaelbennett99/rusty_chess_clock)**: A simple chess clock implementation in Rust.
-- 🦀 **[stor-age](https://github.com/idiv-biodiversity/stor-age)**: show aging of directories.
-- 🦀 **[ai-digest](https://github.com/adityarb2003/ai-digest)**: A CLI tool that aggregates your codebase into a single Markdown file for use with Claude Projects or custom ChatGPTs.
-- 🦀 **[intspan](https://github.com/wang-q/intspan)**: Command line tools for IntSpan related bioinformatics operations.
-- 🦀 **[powerpack-detach](https://github.com/rossmacarthur/powerpack)**: ⚡ Detach a background process from your Alfred workflow.
-- 🦀 **[rip2](https://github.com/MilesCranmer/rip)**: rip: a safe and ergonomic alternative to rm.
-- 🦀 **[btrfs-backup](https://github.com/d-e-s-o/btrfs-backup.git)**: A program for backup & restoration of btrfs subvolumes.
 - 🦀 **[xml_schema_generator](https://github.com/Thomblin/xml_schema_generator)**: Create Rust struct for given XML file, that allows to deserliaze the given XML using serde or vice versa.
+- 🦀 **[ayan-player-cli](https://github.com/AyanDas-99/rust-player-cli)**: A simple CLI tool to play videos from the current directory.
+- 🦀 **[mapiproxy](https://github.com/MonetDBSolutions/mapiproxy)**: A proxy for debugging MonetDB's wire protocol.
+- 🦀 **[mmft](https://github.com/tolkit/mmft)**: A minimal fasta toolkit.
 - 🦀 **[aloe-content-sharer](https://github.com/klebs6/aloe-rs)**: Aloe Content Sharer facilitates cross-application content sharing in Rust, offering functionalities to share text, images, files, and data with callbacks for operation results.
-- 🦀 **[dsntk-feel-parser](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL parser.
+- 🦀 **[mtemp](https://git.midefos.com/midefos/temp/)**: CLI for monitoring temperatures.
+- 🦀 **[powerpack-detach](https://github.com/rossmacarthur/powerpack)**: ⚡ Detach a background process from your Alfred workflow.
+- 🦀 **[intspan](https://github.com/wang-q/intspan)**: Command line tools for IntSpan related bioinformatics operations.
+- 🦀 **[rusty_chess_clock](https://github.com/michaelbennett99/rusty_chess_clock)**: A simple chess clock implementation in Rust.
+- 🦀 **[ai-digest](https://github.com/adityarb2003/ai-digest)**: A CLI tool that aggregates your codebase into a single Markdown file for use with Claude Projects or custom ChatGPTs.
+- 🦀 **[rip2](https://github.com/MilesCranmer/rip)**: rip: a safe and ergonomic alternative to rm.
+- 🦀 **[stor-age](https://github.com/idiv-biodiversity/stor-age)**: show aging of directories.
+- 🦀 **[btrfs-backup](https://github.com/d-e-s-o/btrfs-backup.git)**: A program for backup & restoration of btrfs subvolumes.
+- 🦀 **[git2txt](https://github.com/EstebanBorai/git2txt)**: Converts a Git repository to a single TXT file.
+- 🦀 **[dsntk-recognizer](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | Decision table recognizer.
 - 🦀 **[optiepub](https://github.com/LunNova/optiepub)**: A tool for optimizing EPUB files by compressing images and removing unnecessary content.
 - 🦀 **[safeshell](https://github.com/trinhminhtriet/safeshell)**: SafeShell: A security tool for shell history management, designed to detect, stash, and clear sensitive commands, ensuring safer terminal sessions.
-- 🦀 **[git2txt](https://github.com/EstebanBorai/git2txt)**: Converts a Git repository to a single TXT file.
 - 🦀 **[chksum-cli](https://github.com/chksum-rs/cli)**: A simple checksum calculator.
-- 🦀 **[regexnight](https://gitlab.com/agateau/regexnight)**: Command-line tool to print syntax-highlighted versions of regular expressions and spot errors.
 - 🦀 **[bita](https://github.com/oll3/bita)**: Differential file synchronization over http(s).
+- 🦀 **[regexnight](https://gitlab.com/agateau/regexnight)**: Command-line tool to print syntax-highlighted versions of regular expressions and spot errors.
 - 🦀 **[blades](https://github.com/grego/blades)**: Blazing fast dead simple static site generator.
 - 🦀 **[pkmn-rom-extract](https://codeberg.org/ayashibox/pkmn-rom-extract)**: Extracts sprites and other assets from Pokémon games.
-- 🦀 **[television-screen](https://github.com/alexpasmantier/television)**: The revolution will be televised.
 - 🦀 **[dotkit](https://github.com/noffeecraft/dotkit)**: A Scaffolding Tool for Ink Smart Contracts.
 - 🦀 **[gta-img](https://github.com/connorhaigh/gta-img)**: gta-img is a library for reading IMG/DIR files from the 3D universe-era of Grand Theft Auto IMG/DIR games.
-- 🦀 **[note](https://github.com/EstebanBorai/note)**: Notes Manager System.
+- 🦀 **[blocks_iterator](https://github.com/RCasatta/blocks_iterator)**: Iterates Bitcoin blocks.
+- 🦀 **[television-screen](https://github.com/alexpasmantier/television)**: The revolution will be televised.
 - 🦀 **[mvm](https://github.com/chriswinterowd/minecraft-version-manager)**: A Minecraft Version Manager for Vanilla and Paper servers.
+- 🦀 **[note](https://github.com/EstebanBorai/note)**: Notes Manager System.
 - 🦀 **[cl_parse](https://github.com/exaxisllc/cl_parse)**: A library for defining and parsing commandline options and arguments.
-- 🦀 **[licensa](https://github.com/ekkolon/licensa)**: CLI tool for seamless source code license management, supporting 65+ file types.
-- 🦀 **[real-time-global-weather-tracker](https://github.com/Firespiko/weather-forecast-app)**: A CLI-based weather forecasting app.
 - 🦀 **[tina-mgr](https://gitlab.com/tina-mgr/tina-mgr.git)**: Helper functions for the tina personal information manager.
 - 🦀 **[ad_event](https://github.com/sminez/ad/crates/ad_event)**: A shared event format for ad and its clients.
+- 🦀 **[licensa](https://github.com/ekkolon/licensa)**: CLI tool for seamless source code license management, supporting 65+ file types.
 - 🦀 **[timecalc](https://github.com/granddave/timecalc-rs/)**: Calculate the total duration of a given set of intervals and durations.
+- 🦀 **[dsntk-examples](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | Examples.
 - 🦀 **[gen_alpha_dictionary](https://github.com/crnicholson/gen_alpha_dictionary)**: Gives you the description of common gen-alpha words.
-- 🦀 **[blocks_iterator](https://github.com/RCasatta/blocks_iterator)**: Iterates Bitcoin blocks.
+- 🦀 **[real-time-global-weather-tracker](https://github.com/Firespiko/weather-forecast-app)**: A CLI-based weather forecasting app.
 - 🦀 **[rsonpath](https://github.com/rsonquery/rsonpath)**: Blazing fast JSONPath CLI tool powered by SIMD.
-- 🦀 **[cargo-http-registry](https://github.com/d-e-s-o/cargo-http-registry.git)**: A cargo registry allowing for quick publishing of crates when using crates.
-- 🦀 **[dsntk-recognizer](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | Decision table recognizer.
+- 🦀 **[codesort](https://github.com/Canop/codesort)**: codesort sorts code.
+- 🦀 **[dsntk-model](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | DMN model and parser.
 - 🦀 **[playdate-symbolize](https://github.com/boozook/playdate.git)**: Tools for symbolise addresses from bin (pdex.
 - 🦀 **[bobr](https://github.com/cchexcode/bobr)**: A simple command multiplexer.
-- 🦀 **[tagctl](https://gitlab.com/KodyVB/tagctl)**: Adds or removes tags to given paths inside square brackets or to extended attributes.
+- 🦀 **[powerpack](https://github.com/rossmacarthur/powerpack)**: ⚡ Supercharge your Alfred workflows by building them in Rust!.
 - 🦀 **[disktest-lib](https://github.com/mbuesch/disktest)**: Tester for Solid State Disks, Non-Volatile Memory Storage, Hard Disks, USB Sticks, SD-Cards, etc.
 - 🦀 **[nu_plugin_from_sse](https://github.com/cablehead/nu_plugin_from_sse)**: Nushell plugin to convert a HTTP server sent event stream to structured data.
-- 🦀 **[powerpack](https://github.com/rossmacarthur/powerpack)**: ⚡ Supercharge your Alfred workflows by building them in Rust!.
-- 🦀 **[codesort](https://github.com/Canop/codesort)**: codesort sorts code.
-- 🦀 **[libaoc](https://github.com/jocades/libaoc)**: Advent of Code CLI.
-- 🦀 **[snippy](https://github.com/nikhil-pandey/snippy)**: A command-line tool for that makes using LLMs for code generation a breeze.
+- 🦀 **[powerpack-cache](https://github.com/rossmacarthur/powerpack)**: ⚡ Cache management for your Alfred workflow.
+- 🦀 **[tagctl](https://gitlab.com/KodyVB/tagctl)**: Adds or removes tags to given paths inside square brackets or to extended attributes.
+- 🦀 **[dsntk-feel-regex](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL regular expressions.
 - 🦀 **[tui-journal](https://github.com/ammarabouzor/tui-journal)**: Tui app allows writing and managing journals/notes from within the terminal With different local back-ends.
+- 🦀 **[libaoc](https://github.com/jocades/libaoc)**: Advent of Code CLI.
+- 🦀 **[gcenter](https://github.com/Ladme/gcenter)**: Center Any Group in a Gromacs Trajectory.
+- 🦀 **[snippy](https://github.com/nikhil-pandey/snippy)**: A command-line tool for that makes using LLMs for code generation a breeze.
 - 🦀 **[upnp-daemon](https://github.com/FloGa/upnp-daemon)**: A daemon for continuously opening ports via UPnP.
-- 🦀 **[toor](https://github.com/azzamsa/toor)**: Find project root.
 - 🦀 **[cndk8](https://github.com/foursixnine/cndk8)**: cndk8 is a collection of tools for my Second Brain.
 - 🦀 **[iwgenpass](https://github.com/optimistiCli/rgenpass)**: Generates random password(s).
-- 🦀 **[powerpack-cache](https://github.com/rossmacarthur/powerpack)**: ⚡ Cache management for your Alfred workflow.
-- 🦀 **[rusty-whsp](https://github.com/rusty-libraries/rusty-whsp)**: A Rust library designed to handle configuration parsing for command-line applications.
-- 🦀 **[gcenter](https://github.com/Ladme/gcenter)**: Center Any Group in a Gromacs Trajectory.
-- 🦀 **[torbridge-cli](https://github.com/zolagonano/torbridge-cli.git)**: A CLI tool to get Tor Bridges from BridgeDB.
+- 🦀 **[toor](https://github.com/azzamsa/toor)**: Find project root.
 - 🦀 **[clitrans](https://github.com/wfxr/clitrans)**: Yet another command-line translator.
+- 🦀 **[rusty-whsp](https://github.com/rusty-libraries/rusty-whsp)**: A Rust library designed to handle configuration parsing for command-line applications.
 - 🦀 **[crosup-core](https://github.com/tsirysndr/crosup)**: A simple CLI tool to quickly setup your development environment on Chomebook (ChromeOS) or any Linux Distribution.
-- 🦀 **[dsntk-examples](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | Examples.
+- 🦀 **[torbridge-cli](https://github.com/zolagonano/torbridge-cli.git)**: A CLI tool to get Tor Bridges from BridgeDB.
+- 🦀 **[wolfram-app-discovery](https://github.com/WolframResearch/wolfram-app-discovery-rs)**: Find local installations of the Wolfram Language.
+- 🦀 **[powerpack-logger](https://github.com/rossmacarthur/powerpack)**: ⚡ A simple logger for Alfred workflows.
 - 🦀 **[tinterm](https://github.com/bratish/Tinterm)**: A library for vibrant solid and gradient text in terminal outputs.
 - 🦀 **[toetactic](https://github.com/prawnydagrate/toetactic)**: A Tic Tac Toe game for your terminal.
-- 🦀 **[wolfram-app-discovery](https://github.com/WolframResearch/wolfram-app-discovery-rs)**: Find local installations of the Wolfram Language.
 - 🦀 **[easy_input_tools](https://github.com/maa28/easy_input_tools)**: A library for easy input tools.
-- 🦀 **[powerpack-logger](https://github.com/rossmacarthur/powerpack)**: ⚡ A simple logger for Alfred workflows.
-- 🦀 **[dsntk-model](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | DMN model and parser.
-- 🦀 **[raquet](https://github.com/bratish/raquet)**: A terminal-based HTTP client with TUI interface built in Rust.
 - 🦀 **[repvar](https://github.com/hoijui/repvar)**: A tiny CLI tool that replaces variables of the style `${KEY}` in text with their respective value.
+- 🦀 **[raquet](https://github.com/bratish/raquet)**: A terminal-based HTTP client with TUI interface built in Rust.
 - 🦀 **[zeeper](https://codeberg.org/Vulpesx/zeeper)**: manage mods and playlists for zeepkist.
-- 🦀 **[find-sqlite](https://github.com/xandkar/sqlite-finder)**: SQLite DB file finder.
 - 🦀 **[apple-notes-exporter](https://github.com/vacekj/apple-notes-exporter)**: A library and CLI tool for exporting Apple Notes to Markdown.
 - 🦀 **[cargo2meson](https://github.com/aatifsyed/cargo2meson)**: generate traits from C header files.
+- 🦀 **[find-sqlite](https://github.com/xandkar/sqlite-finder)**: SQLite DB file finder.
 - 🦀 **[mcpack](https://github.com/not-first/mcpack/)**: A CLI tool for managing minecraft datapacks.
-- 🦀 **[skyspell](https://github.com/your-tools/skyspell)**: Fast and handy spell checker for the command line.
 - 🦀 **[synd-o11y](https://github.com/ymgyt/syndicationd)**: syndicationd lib for tracing and opentelemetry ecosystem.
-- 🦀 **[dsntk-feel-regex](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL regular expressions.
-- 🦀 **[rejson](https://github.com/pseudomuto/rejson)**: A command line utility for managing secrets.
 - 🦀 **[typeline_ext_python](https://github.com/cmrschwarz/typeline)**: python integration for typeline.
+- 🦀 **[rejson](https://github.com/pseudomuto/rejson)**: A command line utility for managing secrets.
+- 🦀 **[skyspell](https://github.com/your-tools/skyspell)**: Fast and handy spell checker for the command line.
 - 🦀 **[git-find](https://github.com/davidB/git-find)**: A tool (cli & lib) to find local git repositories.
 - 🦀 **[subtile-ocr](https://github.com/gwen-lg/subtile-ocr)**: Converts DVD VOB subtitles to SRT subtitles with Tesseract OCR.
-- 🦀 **[secrets-cli](https://github.com/mpiorowski/secrets-cli)**: A CLI for managing secrets.
 - 🦀 **[i3wsr](https://github.com/roosta/i3wsr)**: A dynamic workspace renamer for i3 and Sway that updates names to reflect their active applications.
-- 🦀 **[text_analysis](https://github.com/LazyEmpiricist/text_analysis)**: Analyze text stored as *.
-- 🦀 **[greplite](https://github.com/JonWatkins/greplite)**: A simple implementation of the `grep` command.
 - 🦀 **[cag](https://github.com/iisulop/cag)**: Context aware pager.
+- 🦀 **[secrets-cli](https://github.com/mpiorowski/secrets-cli)**: A CLI for managing secrets.
+- 🦀 **[greplite](https://github.com/JonWatkins/greplite)**: A simple implementation of the `grep` command.
+- 🦀 **[text_analysis](https://github.com/LazyEmpiricist/text_analysis)**: Analyze text stored as *.
+- 🦀 **[tytanic-utils](https://github.com/tingerrr/tytanic)**: Helper functions, types and traits for the tytanic test runner.
 - 🦀 **[synd-term](https://github.com/ymgyt/syndicationd)**: terminal feed viewer.
 - 🦀 **[tuemensa](https://github.com/STRUCTiX/tuemensa)**: A simple command-line tool designed to retrieve the current meal plans for the canteens at Eberhard Karls Universität Tübingen.
 - 🦀 **[dionysos](https://github.com/dfir-dd/dionysos)**: Scanner for various IoCs.
-- 🦀 **[wkd-exporter](https://github.com/wiktor-k/wkd-exporter)**: Exports an OpenPGP keyring into an advanced WKD directory path.
+- 🦀 **[hext-boards](https://github.com/odilf/hext-boards/)**: A small library that renders hexagonal boards with text on the terminal.
 - 🦀 **[dotporter](https://github.com/hamzahasbi/dotporter)**: A CLI tool to manage your dotfiles.
-- 🦀 **[jxlconvert](https://github.com/jindalpratik/JXLconvert)**: A Rust CLI app that converts images in comic archives to JPEG XL format.
-- 🦀 **[netmito](https://github.com/stack-rs/mitosis)**: A Unified Distributed Transport Evaluation Framework.
-- 🦀 **[tytanic-utils](https://github.com/tingerrr/tytanic)**: Helper functions, types and traits for the tytanic test runner.
+- 🦀 **[wkd-exporter](https://github.com/wiktor-k/wkd-exporter)**: Exports an OpenPGP keyring into an advanced WKD directory path.
 - 🦀 **[charasay](https://github.com/latipun7/charasay)**: The future of cowsay 🐮! Colorful characters saying something 🗨️.
-- 🦀 **[lintspec](https://github.com/beeb/lintspec)**: A blazingly fast linter for NatSpec comments in Solidity code.
+- 🦀 **[netmito](https://github.com/stack-rs/mitosis)**: A Unified Distributed Transport Evaluation Framework.
+- 🦀 **[cp437-tools](https://git.k93.sh/kip/cp437-tools)**: Small collection of tools to handle CP437 files.
+- 🦀 **[jxlconvert](https://github.com/jindalpratik/JXLconvert)**: A Rust CLI app that converts images in comic archives to JPEG XL format.
 - 🦀 **[file-encrypt](https://github.com/cbass-d/file-encrypt)**: CLI tool for encrypting local files.
 - 🦀 **[cli_hooks](https://github.com/MCarlomagno/cli-hooks-rs)**: A procedural macro that enables dynamic execution of Rust code before and after function calls.
-- 🦀 **[cp437-tools](https://git.k93.sh/kip/cp437-tools)**: Small collection of tools to handle CP437 files.
-- 🦀 **[hext-boards](https://github.com/odilf/hext-boards/)**: A small library that renders hexagonal boards with text on the terminal.
+- 🦀 **[dsntk-feel-evaluator](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL expressions evaluator.
 - 🦀 **[paligned](https://github.com/varonroy/paligned)**: A simple macro for aligned printing.
 - 🦀 **[rs-avro2jsons](https://github.com/takanoriyanagitani/rs-avro2jsons)**: Converts AVRO rows to JSONs.
 - 🦀 **[git-mover](https://github.com/Its-Just-Nans/git-mover)**: Move git repositories to a new location.
+- 🦀 **[tytanic-filter](https://github.com/tingerrr/tytanic)**: A generic filtlering DSL for the tytanic test runner.
+- 🦀 **[dsntk-model-evaluator](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | DMN model evaluator.
 - 🦀 **[notion-cli-rs](https://github.com/CharlonTank/notion-cli-rs)**: A powerful command-line interface for managing Notion tasks.
 - 🦀 **[readstor](https://github.com/tnahs/readstor)**: A CLI for Apple Books annotations.
-- 🦀 **[tytanic-filter](https://github.com/tingerrr/tytanic)**: A generic filtlering DSL for the tytanic test runner.
 - 🦀 **[kubernetes-audit-log-explorer](https://github.com/karlpvoss/kubernetes-audit-log-explorer)**: TUI for viewing Kubernetes Audit Logs.
 - 🦀 **[stslayer](https://codeberg.org/lig/status-slayer)**: Status Slayer is a configurable implementation of status command for Sway WM using Swaybar Protocol.
-- 🦀 **[rtxtar](https://codeberg.org/binarycat/rtxtar)**: rust implementation of the txtar format.
-- 🦀 **[slpz](https://github.com/AlexanderHarrison/slpz)**: Compresses and decompresses between the slp and slpz Slippi replay formats.
-- 🦀 **[typeline_ext_sqlite](https://github.com/cmrschwarz/typeline)**: sqlite integration for typeline.
-- 🦀 **[mandown](https://gitlab.com/kornelski/mandown.git)**: Markdown to groff (man page) converter.
 - 🦀 **[gfold](https://github.com/nickgerace/gfold)**: CLI tool to help keep track of your Git repositories.
+- 🦀 **[mandown](https://gitlab.com/kornelski/mandown.git)**: Markdown to groff (man page) converter.
+- 🦀 **[rtxtar](https://codeberg.org/binarycat/rtxtar)**: rust implementation of the txtar format.
+- 🦀 **[typeline_ext_sqlite](https://github.com/cmrschwarz/typeline)**: sqlite integration for typeline.
+- 🦀 **[slpz](https://github.com/AlexanderHarrison/slpz)**: Compresses and decompresses between the slp and slpz Slippi replay formats.
 - 🦀 **[typeline_ext_http](https://github.com/cmrschwarz/typeline)**: http(s) tooling for typeline.
+- 🦀 **[wrkflw](https://github.com/bahdotsh/wrkflw)**: A GitHub Actions workflow validator and executor.
 - 🦀 **[typeline_ext_csv](https://github.com/cmrschwarz/typeline)**: csv parsing and serialization for typeline.
-- 🦀 **[dsntk-feel-evaluator](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL expressions evaluator.
 - 🦀 **[git-switch-branch](http://github.com/nlfmt/git-switch-branch)**: quickly switch git branches visually from the terminal.
 - 🦀 **[patchy-bin](https://github.com/nik-rev/patchy)**: A tool which makes it easy to declaratively manage personal forks by automatically merging pull requests.
-- 🦀 **[wrkflw](https://github.com/bahdotsh/wrkflw)**: A GitHub Actions workflow validator and executor.
 - 🦀 **[rustscout](https://github.com/willibrandon/rustscout)**: High-performance, concurrent code search tool written in Rust.
-- 🦀 **[dsntk-model-evaluator](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | DMN model evaluator.
+- 🦀 **[enc_file](https://github.com/LazyEmpiricist/enc_file)**: Encrypt / decrypt files or calculate hash from the command line.
+- 🦀 **[juliaup](https://github.com/julialang/juliaup)**: Julia installer and version multiplexer.
 - 🦀 **[rllvm](https://github.com/h1994st/rllvm)**: A tool to build whole-program LLVM bitcode files.
 - 🦀 **[synd-auth](https://github.com/ymgyt/syndicationd)**: syndicationd authentication lib.
-- 🦀 **[enc_file](https://github.com/LazyEmpiricist/enc_file)**: Encrypt / decrypt files or calculate hash from the command line.
-- 🦀 **[tcp-console](https://github.com/vnermolaev/tcp-console)**: A TCP console to send command to running applications.
 - 🦀 **[tytanic-core](https://github.com/tingerrr/tytanic)**: The core library of the tytanic test runner.
+- 🦀 **[blockchain-cli](https://github.com/slavik-pastushenko/blockchain-rs)**: An interface for interacting with a blockchain.
 - 🦀 **[ipify-rs](https://github.com/keltia/ipify-rs)**: Rust crate for the ipify.
-- 🦀 **[juliaup](https://github.com/julialang/juliaup)**: Julia installer and version multiplexer.
 - 🦀 **[swtchr](https://github.com/lostatc/swtchr)**: A Gnome-style window switcher for the Sway window manager.
+- 🦀 **[tcp-console](https://github.com/vnermolaev/tcp-console)**: A TCP console to send command to running applications.
 - 🦀 **[git-bump](https://github.com/FloGa/git-bump)**: Use Lua scripts to quickly bump versions in files.
 - 🦀 **[matchtigs](https://github.com/algbio/matchtigs)**: Different algorithms for computing small and minimum plain text representations of kmer sets.
 - 🦀 **[midas](https://github.com/ffimnsr/midas)**: Do painless migration 🦀.
 - 🦀 **[synd-feed](https://github.com/ymgyt/syndicationd)**: Library to handle syndication spec.
-- 🦀 **[newslookout](https://github.com/sandeep-sandhu/newslookout_rs)**: A web scraping platform built for news scanning, using LLMs for text processing, powered by Rust.
-- 🦀 **[blockchain-cli](https://github.com/slavik-pastushenko/blockchain-rs)**: An interface for interacting with a blockchain.
-- 🦀 **[memterm](https://github.com/orhanbalci/memterm.git)**: Inmemory terminal emulator.
+- 🦀 **[tuirealm_derive](https://github.com/veeso/tuirealm_derive)**: Derive macro which automatically implements the MockComponent trait.
+- 🦀 **[pe-parser](https://github.com/IsaacMarovitz/pe-parser)**: A blazing fast PE Parser with pretty print.
 - 🦀 **[ad-editor](https://github.com/sminez/ad)**: An adaptable text editor.
+- 🦀 **[memterm](https://github.com/orhanbalci/memterm.git)**: Inmemory terminal emulator.
+- 🦀 **[newslookout](https://github.com/sandeep-sandhu/newslookout_rs)**: A web scraping platform built for news scanning, using LLMs for text processing, powered by Rust.
 - 🦀 **[alevin-fry](https://github.com/COMBINE-lab/alevin-fry)**: A suite of tools for the rapid, accurate and memory-frugal processing single-cell and single-nucleus sequencing data.
-- 🦀 **[steamgriddb-dl](https://github.com/TheRealGLH/SteamGridDB-DL)**: A CLI utility for downloading content from www.
-- 🦀 **[scriptkeys](https://github.com/bigmstone/scriptkeys.git)**: ScriptKeys allows you to easily build macros (in Lua) on every key press for the supported devices.
-- 🦀 **[uair](https://github.com/metent/uair/)**: An extensible pomodoro timer.
+- 🦀 **[sftpman](https://github.com/spantaleev/sftpman-rs)**: A CLI application and library for managing and mounting sshfs (SFTP) filesystems.
+- 🦀 **[sula-alus](https://github.com/kristoferssolo/sula-alus)**: A CLI tool to encode strings and files using Sula-Alus encoding.
 - 🦀 **[crosup](https://github.com/tsirysndr/crosup)**: A simple CLI tool to quickly setup your development environment on Chomebook (ChromeOS) or any Linux Distribution.
+- 🦀 **[steamgriddb-dl](https://github.com/TheRealGLH/SteamGridDB-DL)**: A CLI utility for downloading content from www.
+- 🦀 **[uair](https://github.com/metent/uair/)**: An extensible pomodoro timer.
 - 🦀 **[rs-avro-transcode](https://github.com/takanoriyanagitani/rs-avro-transcode)**: Converts AVRO(e.
+- 🦀 **[scriptkeys](https://github.com/bigmstone/scriptkeys.git)**: ScriptKeys allows you to easily build macros (in Lua) on every key press for the supported devices.
+- 🦀 **[apksig](https://github.com/Its-Just-Nans/apksig)**: Decoding the APK Signing Block.
+- 🦀 **[aws-mfa](https://github.com/jhandguy/aws-mfa)**: Authenticate to AWS with MFA 🔐.
+- 🦀 **[epub2mdbook](https://github.com/cyborg42/epub2mdbook)**: A tool to convert EPUB files to MDBook format.
 - 🦀 **[grrs_clone](https://github.com/rsimon64-gh/grrs)**: A command-line search tool similar to grep.
+- 🦀 **[sql_from_models-cli](null)**: Command-line utility for SQLx, the Rust SQL toolkit.
 - 🦀 **[synd-stdx](https://github.com/ymgyt/syndicationd)**: syndicationd lib.
 - 🦀 **[zetty](https://github.com/luissimas/zetty)**: A command line tool to manage notes in a Zettelkasten.
-- 🦀 **[apksig](https://github.com/Its-Just-Nans/apksig)**: Decoding the APK Signing Block.
-- 🦀 **[sftpman](https://github.com/spantaleev/sftpman-rs)**: A CLI application and library for managing and mounting sshfs (SFTP) filesystems.
-- 🦀 **[skyspell_kak](https://github.com/your-tools/skyspell)**: skyspell - kakoune integration.
-- 🦀 **[sql_from_models-cli](null)**: Command-line utility for SQLx, the Rust SQL toolkit.
-- 🦀 **[epub2mdbook](https://github.com/cyborg42/epub2mdbook)**: A tool to convert EPUB files to MDBook format.
+- 🦀 **[cloop](https://github.com/tracel-ai/cloop/tree/main/crates/cloop)**: Cloop - Clap in a loop (easily create a shell integrated with Clap).
 - 🦀 **[i18nhero](https://github.com/i18nhero/cli)**: CLI tool for interacting with locales hosted on i18nhero.
-- 🦀 **[pe-parser](https://github.com/IsaacMarovitz/pe-parser)**: A blazing fast PE Parser with pretty print.
+- 🦀 **[skyspell_kak](https://github.com/your-tools/skyspell)**: skyspell - kakoune integration.
 - 🦀 **[snake_ladder](https://docs.rs/snake_ladder)**: A graphical implementation of the classic Snakes and Ladders game in Rust, featuring multiplayer support, interactive UI, and customizable snakes and ladders positions.
-- 🦀 **[aws-mfa](https://github.com/jhandguy/aws-mfa)**: Authenticate to AWS with MFA 🔐.
 - 🦀 **[synd-api](https://github.com/ymgyt/syndicationd)**: syndicationd backend api.
-- 🦀 **[sula-alus](https://github.com/kristoferssolo/sula-alus)**: A CLI tool to encode strings and files using Sula-Alus encoding.
+- 🦀 **[aim](https://github.com/mihaigalos/aim)**: 🎯 A command line download/upload tool with resume.
 - 🦀 **[tunein-cli](https://github.com/tsirysndr/tunein-cli)**: Browse and listen to thousands of radio stations across the globe right from your terminal 🌎 📻 🎵✨.
 - 🦀 **[flashed](https://gitlab.com/john_t/flashed/)**: A flashcard TUI.
 - 🦀 **[mdslides](https://github.com/ferrous-systems/mdslides/)**: A tool to convert markdown into reveal.
 - 🦀 **[mairu](https://github.com/sorah/mairu)**: on-memory AWS credentials agent and executor.
-- 🦀 **[rs-avro-schema-gen](https://github.com/takanoriyanagitani/rs-avro-schema-gen)**: Generates simple AVSC from input JSON.
-- 🦀 **[cloop](https://github.com/tracel-ai/cloop/tree/main/crates/cloop)**: Cloop - Clap in a loop (easily create a shell integrated with Clap).
-- 🦀 **[fish-oxide](https://github.com/ava-silver/fish-oxide)**: A port of fishdraw to rust.
 - 🦀 **[git-global](https://github.com/peap/git-global)**: Keep track of all the git repositories on your machine.
-- 🦀 **[utf8-locale](https://gitlab.com/ppentchev/utf8-locale)**: Detect a UTF-8-capable locale for running child processes in.
+- 🦀 **[krafna](https://github.com/7sedam7/krafna)**: Krafna is a terminal-based alternative to Obsidian's Dataview plugin, allowing you to query your Markdown files using standard SQL syntax.
+- 🦀 **[rs-avro-schema-gen](https://github.com/takanoriyanagitani/rs-avro-schema-gen)**: Generates simple AVSC from input JSON.
+- 🦀 **[fish-oxide](https://github.com/ava-silver/fish-oxide)**: A port of fishdraw to rust.
 - 🦀 **[ryna-language](https://github.com/Gabie-of-the-Bo/Ryna-Language)**: An extensible programming language with a strong type system.
-- 🦀 **[scream_cypher](https://github.com/icorbrey/scream_cypher)**: A CLI tool and library for encrypting and decrypting messages using the scream cypher.
 - 🦀 **[dock_sprout](https://github.com/Thompson-Jason/DockSprout)**: Rust CLI tool to bring up or down multiple docker-compose files from a parent directory.
-- 🦀 **[aim](https://github.com/mihaigalos/aim)**: 🎯 A command line download/upload tool with resume.
-- 🦀 **[yeehaw_tui](https://github.com/bogzbonny/yeehaw)**: Batteries Included Text Based Application Framework.
-- 🦀 **[ad_client](https://github.com/sminez/ad)**: A Rust client API for the ad text editor.
-- 🦀 **[flakysed](https://github.com/ernestoarbitrio/flakysed/)**: Clean CircleCI log files.
+- 🦀 **[scream_cypher](https://github.com/icorbrey/scream_cypher)**: A CLI tool and library for encrypting and decrypting messages using the scream cypher.
+- 🦀 **[utf8-locale](https://gitlab.com/ppentchev/utf8-locale)**: Detect a UTF-8-capable locale for running child processes in.
+- 🦀 **[csv2rdf](https://github.com/DeciSym/csv2rdf)**: Library for converting a CSV file to N-Triple RDF.
 - 🦀 **[mk](https://github.com/ffimnsr/mk-rs)**: Yet another simple task runner 🦀.
 - 🦀 **[ska](https://github.com/bacpop/ska.rust/)**: Split k-mer analysis.
-- 🦀 **[tuirealm_derive](https://github.com/veeso/tuirealm_derive)**: Derive macro which automatically implements the MockComponent trait.
-- 🦀 **[csv2rdf](https://github.com/DeciSym/csv2rdf)**: Library for converting a CSV file to N-Triple RDF.
-- 🦀 **[translocate](https://code.orbitsolutions.dev/orb-it-solutions/translocate)**: translocate is a high performance converter that takes CSV translation files and outputs corresponding JSON translation files.
-- 🦀 **[typeline](https://github.com/cmrschwarz/typeline)**: Efficient, Type-Safe Pipeline Processor.
-- 🦀 **[imageboard_downloader](https://gitlab.com/FerrahWolfeh/imageboard-downloader-rs)**: Cli utility to bulk download images from popular imageboard sites (Boorus) using their APIs.
-- 🦀 **[krafna](https://github.com/7sedam7/krafna)**: Krafna is a terminal-based alternative to Obsidian's Dataview plugin, allowing you to query your Markdown files using standard SQL syntax.
+- 🦀 **[ad_client](https://github.com/sminez/ad)**: A Rust client API for the ad text editor.
+- 🦀 **[flakysed](https://github.com/ernestoarbitrio/flakysed/)**: Clean CircleCI log files.
+- 🦀 **[yeehaw_tui](https://github.com/bogzbonny/yeehaw)**: Batteries Included Text Based Application Framework.
+- 🦀 **[dsntk-workspace](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | User workspace.
+- 🦀 **[spongebob](https://github.com/asasine/spongebob)**: A utility to convert text to spongebob case a.
 - 🦀 **[xt](https://github.com/ahamlinman/xt)**: Translate between serialized data formats.
-- 🦀 **[phlex_emmet_ls](https://github.com/lrangell/phlex-emmet-lsp)**: A language server for generating Phlex code from Emmet abbreviations.
+- 🦀 **[gnostr-crawler](https://github.com/gnostr-org/gnostr)**: gnostr:a git+nostr workflow utility.
+- 🦀 **[imageboard_downloader](https://gitlab.com/FerrahWolfeh/imageboard-downloader-rs)**: Cli utility to bulk download images from popular imageboard sites (Boorus) using their APIs.
+- 🦀 **[typeline](https://github.com/cmrschwarz/typeline)**: Efficient, Type-Safe Pipeline Processor.
 - 🦀 **[simple-encrypt](https://github.com/adityabaradwaj/simple-encrypt)**: A simple file encryption tool using AES-GCM.
-- 🦀 **[label_studio_yolo_datasets_converter](https://github.com/xsxz01/label_studio_yolo_datasets_converter)**: A tool for converting datasets from Label Studio to YOLO format.
+- 🦀 **[translocate](https://code.orbitsolutions.dev/orb-it-solutions/translocate)**: translocate is a high performance converter that takes CSV translation files and outputs corresponding JSON translation files.
+- 🦀 **[dsntk-evaluator](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL expressions and DMN™ model evaluator.
+- 🦀 **[headless_browser_lib](https://github.com/spider-rs/headless-browser)**: A library providing a Chrome proxy API for managing Chrome instances in cloud environments.
+- 🦀 **[phlex_emmet_ls](https://github.com/lrangell/phlex-emmet-lsp)**: A language server for generating Phlex code from Emmet abbreviations.
 - 🦀 **[epoch-cli](https://github.com/RedVoxInc/epoch-cli)**: A small command line utility for working with epoch timestamps.
+- 🦀 **[label_studio_yolo_datasets_converter](https://github.com/xsxz01/label_studio_yolo_datasets_converter)**: A tool for converting datasets from Label Studio to YOLO format.
+- 🦀 **[cargo-feature-combinations](https://github.com/romnn/cargo-feature-combinations)**: run cargo commands for all feature combinations.
+- 🦀 **[aloe-vst-note-expression](https://github.com/klebs6/aloe-rs)**: Rust crate providing tools for advanced VST plug-in development with a focus on note expression manipulation, key switch handling, and physical UI mapping.
+- 🦀 **[envset](https://github.com/schpet/envset)**: A command-line tool for setting environment variables in a .
 - 🦀 **[liveboat](https://github.com/exaroth/liveboat)**: Static page generator for Newsboat feeds.
 - 🦀 **[svfmt](https://github.com/oliverbunting/svfmt)**: SystemVerilog formatter.
-- 🦀 **[envset](https://github.com/schpet/envset)**: A command-line tool for setting environment variables in a .
-- 🦀 **[rob-vm](https://github.com/DawnMagnet/rust-ook-bf-intepreter)**: A cmdline tools to run brainfuck & ook & shortook code.
-- 🦀 **[spongebob](https://github.com/asasine/spongebob)**: A utility to convert text to spongebob case a.
-- 🦀 **[cargo-feature-combinations](https://github.com/romnn/cargo-feature-combinations)**: run cargo commands for all feature combinations.
-- 🦀 **[codl](https://github.com/jake-walker/codl)**: A CLI and Rust library for interacting with cobalt, a media downloader.
-- 🦀 **[randrepo](https://github.com/noau/randrepo.git)**: Cli tool to give you random repos from GitHub.
 - 🦀 **[x11docker-rs](https://github.com/STRUCTiX/x11docker-rs)**: A x11docker wrapper for Rust.
-- 🦀 **[dsntk-workspace](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | User workspace.
-- 🦀 **[grrs-masterbongo](https://gitlab.com/Masterbongo/grrs)**: A simple implementation of grep.
+- 🦀 **[rob-vm](https://github.com/DawnMagnet/rust-ook-bf-intepreter)**: A cmdline tools to run brainfuck & ook & shortook code.
+- 🦀 **[wizer](https://github.com/bytecodealliance/wizer)**: The WebAssembly Pre-Initializer.
+- 🦀 **[codl](https://github.com/jake-walker/codl)**: A CLI and Rust library for interacting with cobalt, a media downloader.
 - 🦀 **[xml2rdf](https://github.com/DeciSym/xml2rdf)**: Library for converting an XML file to N-Triple RDF.
-- 🦀 **[nvy](https://github.com/jcserv/nvy)**: A simple command line tool for managing multiple env files (profiles) in a project.
-- 🦀 **[sirang](https://github.com/icelain/sirang)**: A forward and reverse TCP tunnel over QUIC.
-- 🦀 **[dcap-retrieve-pckid](https://github.com/fortanix/rust-sgx)**: A retrieval tool for the SGX PCK ID that works with AESM.
-- 🦀 **[headless_browser_lib](https://github.com/spider-rs/headless-browser)**: A library providing a Chrome proxy API for managing Chrome instances in cloud environments.
+- 🦀 **[randrepo](https://github.com/noau/randrepo.git)**: Cli tool to give you random repos from GitHub.
+- 🦀 **[grrs-masterbongo](https://gitlab.com/Masterbongo/grrs)**: A simple implementation of grep.
 - 🦀 **[mariadb-mysql-kbs](https://github.com/williamdes/mariadb-mysql-kbs)**: An index of the MariaDB and MySQL Knowledge bases.
+- 🦀 **[nvy](https://github.com/jcserv/nvy)**: A simple command line tool for managing multiple env files (profiles) in a project.
 - 🦀 **[clouddns-nat-helper](https://github.com/spacebird-dev/clouddns-nat-helper)**: Autogenerate A records for NAT setups from AAAA records in cloud providers.
-- 🦀 **[dsntk-evaluator](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | FEEL expressions and DMN™ model evaluator.
-- 🦀 **[war3parser](https://github.com/wesleyel/war3parser)**: A extractor and parser for Warcraft 3 map files.
+- 🦀 **[dcap-retrieve-pckid](https://github.com/fortanix/rust-sgx)**: A retrieval tool for the SGX PCK ID that works with AESM.
 - 🦀 **[nfa](https://github.com/curtisknudson/nfa)**: A small CLI application for taking notes.
+- 🦀 **[sirang](https://github.com/icelain/sirang)**: A forward and reverse TCP tunnel over QUIC.
+- 🦀 **[war3parser](https://github.com/wesleyel/war3parser)**: A extractor and parser for Warcraft 3 map files.
+- 🦀 **[nbted](https://github.com/C4K3/nbted)**: Command-line NBT editor.
+- 🦀 **[nwn-lib-rs](https://gitlab.com/CromFr/nwn-lib-rs)**: Parsing library and command-line tools for Neverwinter Nights 1 and 2 data files.
 - 🦀 **[rs-ls-fast-raw](https://github.com/takanoriyanagitani/rs-ls-fast-raw)**: Faster ls(up to 10x faster on mac, 140% faster on linux).
 - 🦀 **[sp-variant](https://github.com/storpool/sp-variant.git)**: Detect the Linux distribution for the StorPool build system.
-- 🦀 **[aloe-vst-note-expression](https://github.com/klebs6/aloe-rs)**: Rust crate providing tools for advanced VST plug-in development with a focus on note expression manipulation, key switch handling, and physical UI mapping.
-- 🦀 **[nwn-lib-rs](https://gitlab.com/CromFr/nwn-lib-rs)**: Parsing library and command-line tools for Neverwinter Nights 1 and 2 data files.
 - 🦀 **[division_of_one](https://six-five-six-four.com/git/reactor/division_of_one)**: A diceware passphrase generator.
-- 🦀 **[erd_rs](https://github.com/psengrith/erd_rs)**: A command line utility that take Rust code as the source of truth to produce a entity relation diagram markdown file (e.
+- 🦀 **[dsntk-server](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | API server.
 - 🦀 **[fastq-generator](https://github.com/michaelbest55/fastq-generator)**: A fastq generator for generation of synthetic fastq files.
+- 🦀 **[fenir](https://gitlab.com/cyberactivity/tyr)**: Tyr tools for CVE managing about installed products and their weaknesses.
+- 🦀 **[rorm-cli](https://github.com/rorm-orm/rorm-cli)**: The cli tool for managing rorm applications.
+- 🦀 **[erd_rs](https://github.com/psengrith/erd_rs)**: A command line utility that take Rust code as the source of truth to produce a entity relation diagram markdown file (e.
 - 🦀 **[life-monitor](https://github.com/akamee666/life-monitor)**: A tool to track your daily activities.
 - 🦀 **[toddi](https://git.sr.ht/~ume_tantan/toddi)**: A TODO focuser built on top of todo.
-- 🦀 **[fenir](https://gitlab.com/cyberactivity/tyr)**: Tyr tools for CVE managing about installed products and their weaknesses.
-- 🦀 **[rskill](https://github.com/xsadia/rskill)**: npkill like cli utility for removing node_modules.
+- 🦀 **[dsntk-gendoc](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | Documentation generator.
 - 🦀 **[huffcomp](https://github.com/AlexRiosJ/huffcomp)**: Huffman coding program for compression and decompression of text files.
+- 🦀 **[rskill](https://github.com/xsadia/rskill)**: npkill like cli utility for removing node_modules.
 - 🦀 **[jaslog](https://github.com/jbruggem/jaslog)**: A colored log reader for JSON logs.
 - 🦀 **[rememberthemilk](https://github.com/jugglerchris/rememberthemilk-rs)**: Client library for the Remember The Milk todo list service.
 - 🦀 **[codstts](https://github.com/zheng0116/codstts)**: A code statistics tool that analyzes programming language distribution in projects.
+- 🦀 **[grss_clone](https://github.com/rsimon64-gh/grss)**: A command-line search tool similar to grep.
+- 🦀 **[ldt2_mc](https://github.com/cremofix/ldt2_mc.git)**: simple LDT class for German Health LDT2 standard (not implemented yet).
+- 🦀 **[pacaptr](https://github.com/rami3l/pacaptr)**: Pacman-like syntax wrapper for many package managers.
 - 🦀 **[wdym](https://github.com/rywng/wdym-rs)**: What Do You Mean: Look up definitions and translations online.
 - 🦀 **[huber-procmacro](https://github.com/innobead/huber)**: Internal package used by Huber.
-- 🦀 **[ldt2_mc](https://github.com/cremofix/ldt2_mc.git)**: simple LDT class for German Health LDT2 standard (not implemented yet).
-- 🦀 **[grss_clone](https://github.com/rsimon64-gh/grss)**: A command-line search tool similar to grep.
-- 🦀 **[rorm-cli](https://github.com/rorm-orm/rorm-cli)**: The cli tool for managing rorm applications.
+- 🦀 **[yozefu-app](https://github.com/MAIF/yozefu)**: The Kafka consumer of Yozefu.
 - 🦀 **[rs-seq](https://github.com/takanoriyanagitani/rs-seq)**: Prints numbers(like seq, but faster).
-- 🦀 **[pacaptr](https://github.com/rami3l/pacaptr)**: Pacman-like syntax wrapper for many package managers.
 - 🦀 **[samvadsetu](https://github.com/sandeep-sandhu/samvadsetu)**: Simple LLM API for commonly used LLM services including Gemini, ChatGPT, and Ollama.
+- 🦀 **[august-build](https://github.com/ScratchCat458/august-build)**: Task-based build system with a custom syntax and focus on paralellism for all your artifact construction needs.
 - 🦀 **[nbwipers](https://github.com/felixgwilliams/nbwipers)**: Wipe clean your Jupyter Notebooks!.
+- 🦀 **[rs-sort-uniq-count](https://github.com/takanoriyanagitani/rs-sort-uniq-count)**: fast sort & uniq & count(like sort | uniq -c) using 1/10 ram.
 - 🦀 **[sequoia-git](https://gitlab.com/sequoia-pgp/sequoia-git)**: A tool for managing and enforcing a commit signing policy.
 - 🦀 **[tmrz](https://github.com/Pakelz/tmrz)**: Just a very basic timer.
-- 🦀 **[august-build](https://github.com/ScratchCat458/august-build)**: Task-based build system with a custom syntax and focus on paralellism for all your artifact construction needs.
 - 🦀 **[dn-cli](https://github.com/mmibbetson/dn)**: A simple, minimal, and flexible command line utility for organising plaintext files.
-- 🦀 **[rs-sort-uniq-count](https://github.com/takanoriyanagitani/rs-sort-uniq-count)**: fast sort & uniq & count(like sort | uniq -c) using 1/10 ram.
+- 🦀 **[meli](https://git.meli-email.org/meli/meli.git)**: terminal e-mail client.
 - 🦀 **[slick](https://github.com/nbari/slick)**: async ZSH prompt.
-- 🦀 **[underdose](https://github.com/LighghtEeloo/underdose)**: May the dotfiles be with you.
-- 🦀 **[nbted](https://github.com/C4K3/nbted)**: Command-line NBT editor.
-- 🦀 **[yozefu-app](https://github.com/MAIF/yozefu)**: The Kafka consumer of Yozefu.
+- 🦀 **[aloe-vst-parameters](https://github.com/klebs6/aloe-rs)**: Aloe VST Parameters is a Rust crate facilitating advanced management of VST3 plugin parameters.
 - 🦀 **[cargo-extract](https://github.com/LimeEng/cargo-extract/)**: Cargo subcommand to extract information from Cargo.
-- 🦀 **[dsntk-server](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | API server.
-- 🦀 **[huber-common](https://github.com/innobead/huber)**: Internal package used by Huber.
-- 🦀 **[wasmshield-cli](https://github.com/TitusVM/wasmshield)**: A CLI Tool for verifying WebAssembly components.
-- 🦀 **[dsntk-gendoc](https://github.com/DecisionToolkit/dsntk-rs.git)**: dsntk | DecisionToolkit | Documentation generator.
+- 🦀 **[underdose](https://github.com/LighghtEeloo/underdose)**: May the dotfiles be with you.
+- 🦀 **[yozefu-tui](https://github.com/MAIF/yozefu)**: library for rendering the TUI of Yozefu.
 - 🦀 **[cmt](https://github.com/cliftonk/cmt)**: CLI tool that generates commit messages using AI.
+- 🦀 **[wasmshield-cli](https://github.com/TitusVM/wasmshield)**: A CLI Tool for verifying WebAssembly components.
+- 🦀 **[huber-common](https://github.com/innobead/huber)**: Internal package used by Huber.
 - 🦀 **[portredirect](https://github.com/unspezifisch/portredirect)**: PortRedirect is a tool that bridges your frontend and backend by redirecting TCP connections through a persistent QUIC connection.
+- 🦀 **[prompt-color-tool](https://github.com/pridkett/prompt-color-tool)**: A tool for generating terminal prompt colors based on machine hostname.
 - 🦀 **[fx](https://github.com/xandkar/fx)**: Filetree eXploratory analyzer.
 - 🦀 **[quartz-rs](https://github.com/informalsystems/cycles-quartz)**: A CLI tool to streamline development and deployment of Quartz applications.
 - 🦀 **[fast-command](https://github.com/rakivo/fast-command)**: Simple implementation of `Command` to avoid fork + exec overhead.
-- 🦀 **[prompt-color-tool](https://github.com/pridkett/prompt-color-tool)**: A tool for generating terminal prompt colors based on machine hostname.
-- 🦀 **[recurring-tasks](https://github.com/rogusdev/recurring-tasks)**: Define tasks and run them in an app forever, ala cronjobs.
-- 🦀 **[yozefu-tui](https://github.com/MAIF/yozefu)**: library for rendering the TUI of Yozefu.
-- 🦀 **[meli](https://git.meli-email.org/meli/meli.git)**: terminal e-mail client.
+- 🦀 **[zino-cli](https://github.com/zino-rs/zino)**: CLI tools for zino.
 - 🦀 **[pbcli](https://github.com/Mydayyy/pbcli)**: pbcli is a command line client which allows to upload and download pastes from privatebin directly from the command line.
-- 🦀 **[rustgenhash](https://github.com/vschwaberow/rustgenhash)**: A tool to generate hashes from the command line.
-- 🦀 **[aloe-vst-parameters](https://github.com/klebs6/aloe-rs)**: Aloe VST Parameters is a Rust crate facilitating advanced management of VST3 plugin parameters.
+- 🦀 **[recurring-tasks](https://github.com/rogusdev/recurring-tasks)**: Define tasks and run them in an app forever, ala cronjobs.
 - 🦀 **[gsqueal](https://github.com/errmayank/gsqueal)**: Minimal command line interface for Google Cloud SQL.
 - 🦀 **[horust](https://github.com/FedericoPonzi/horust)**: A complete supervisor and init system, designed for running in containers.
-- 🦀 **[zino-cli](https://github.com/zino-rs/zino)**: CLI tools for zino.
+- 🦀 **[rustgenhash](https://github.com/vschwaberow/rustgenhash)**: A tool to generate hashes from the command line.
 - 🦀 **[rustytag](https://github.com/sichang824/rustytag)**: A semantic version management tool built on Git tags.
 - 🦀 **[user-startup](https://github.com/lxl66566/user-startup-rs)**: Simple cross-platform tool to make your command auto run on startup.
 - 🦀 **[huber](https://github.com/innobead/huber)**: Huber, simplify GitHub package management.
-- 🦀 **[wizer](https://github.com/bytecodealliance/wizer)**: The WebAssembly Pre-Initializer.
 - 🦀 **[binkget](https://github.com/Binkersss/binkget)**: A simple command line tool for downloading files using HTTP(S) protocol.
-- 🦀 **[chap_grrs](https://github.com/Binkersss/GRRS)**: A simple command line tool for searching files, line-by-line, with a keyword.
 - 🦀 **[git-status-vars](https://github.com/danielparks/git-status-vars)**: Summarize git repo info into shell variables (for use in a prompt).
+- 🦀 **[chap_grrs](https://github.com/Binkersss/GRRS)**: A simple command line tool for searching files, line-by-line, with a keyword.
 - 🦀 **[gritty](https://github.com/benpueschel/gritty)**: A command line tool to manage your remote repositories on GitHub, GitLab and Gitea remotes.
+- 🦀 **[huffc](https://github.com/bwintertkb/huffman_compression)**: A CLI tool for Huffman compression and decompression.
+- 🦀 **[lazybar-types](https://github.com/Qelxiros/lazybar)**: Shared types for lazybar and lazybar-msg.
+- 🦀 **[aggligator-util](https://github.com/surban/aggligator)**: Aggligator command line utilities.
+- 🦀 **[aloe-player](https://github.com/klebs6/aloe-rs)**: Aloe Player is an advanced audio streaming and processing library for Rust, supporting audio and MIDI operations with high precision and flexibility.
+- 🦀 **[ascii-cli](https://github.com/AtleSkaanes/ascii-cli)**: A small CLI for quickly viewing the ASCII table in your terminal.
 - 🦀 **[json_preprocessor](https://github.com/haihala/jsonpp)**: JSON PreProcessor.
 - 🦀 **[progrex](https://github.com/dotandev/progrex)**: A simple and customizable CLI progress bar for Rust.
-- 🦀 **[aggligator-util](https://github.com/surban/aggligator)**: Aggligator command line utilities.
-- 🦀 **[lazybar-types](https://github.com/Qelxiros/lazybar)**: Shared types for lazybar and lazybar-msg.
-- 🦀 **[stamon](https://github.com/xandkar/stamon)**: Status monitors for textual status bars (such as barista, pista, etc.
-- 🦀 **[ascii-cli](https://github.com/AtleSkaanes/ascii-cli)**: A small CLI for quickly viewing the ASCII table in your terminal.
 - 🦀 **[cargo-exe-v2](https://github.com/sergeilem/cargo-exe)**: A Cargo plugin to print the path to the output executable from `cargo build`.
+- 🦀 **[xvc-logging](https://github.com/iesahin/xvc)**: Logging crate for Xvc.
+- 🦀 **[zp](https://github.com/bahdotsh/zp)**: Copy the contents of the source file or the standard output buffer to the clipboard, with support for maintaining a history of copied content, allowing users to easily paste into another file or program.
 - 🦀 **[castwright](https://github.com/PRO-2684/castwright)**: 🎥 Scripted terminal recording.
 - 🦀 **[dust_sweeper](https://github.com/IgnacioPorte/dust_sweeper)**: A Rust tool to identify and remove dust UTXOs in a privacy-preserving way.
-- 🦀 **[rsnip](https://github.com/sysid/rsnip)**: A universal command-line snippet manager.
+- 🦀 **[lcode](https://github.com/saying121/lcode)**: An application of terminal write leetcode.
+- 🦀 **[stamon](https://github.com/xandkar/stamon)**: Status monitors for textual status bars (such as barista, pista, etc.
 - 🦀 **[viro](https://codeberg.org/clarfonthey/viro)**: Loads your environment so you don't have to.
 - 🦀 **[chartodo](https://github.com/DashikiBulbasaur/chartodo)**: A CLI todo list program where you can create deadline tasks and repeating tasks.
-- 🦀 **[lcode](https://github.com/saying121/lcode)**: An application of terminal write leetcode.
-- 🦀 **[zp](https://github.com/bahdotsh/zp)**: Copy the contents of the source file or the standard output buffer to the clipboard, with support for maintaining a history of copied content, allowing users to easily paste into another file or program.
-- 🦀 **[aloe-player](https://github.com/klebs6/aloe-rs)**: Aloe Player is an advanced audio streaming and processing library for Rust, supporting audio and MIDI operations with high precision and flexibility.
-- 🦀 **[clighlighter](https://github.com/swizzard/clighlighter)**: simple command-line code highlighter.
-- 🦀 **[huffc](https://github.com/bwintertkb/huffman_compression)**: A CLI tool for Huffman compression and decompression.
 - 🦀 **[img_coords](https://github.com/magnusmanske/img_coords)**: Rust binary to scan a directory tree for images and collect their coordinates from EXIF.
+- 🦀 **[rsnip](https://github.com/sysid/rsnip)**: A universal command-line snippet manager.
+- 🦀 **[clighlighter](https://github.com/swizzard/clighlighter)**: simple command-line code highlighter.
 - 🦀 **[operator](https://github.com/mkantor/operator)**: A web server for static and dynamic content.
+- 🦀 **[modio-logger](https://gitlab.com/ModioAB/modio-logger/)**: modio-logger Dbus service.
 - 🦀 **[fdf](https://github.com/alexcu2718/fdf)**: A fast, multi-threaded filesystem search tool.
-- 🦀 **[cfspeedtest](https://github.com/code-inflation/cfspeedtest/)**: Unofficial CLI for speed.
-- 🦀 **[apt-swarm](https://github.com/kpcyrd/apt-swarm)**: 🥸 Experimental p2p gossip network for OpenPGP signature transparency 🥸.
-- 🦀 **[sscan](https://github.com/ctx400/sscan)**: A scriptable file/process/network scanner.
 - 🦀 **[yozefu-command](https://github.com/MAIF/yozefu)**: Clap commands of Yozefu.
+- 🦀 **[cfspeedtest](https://github.com/code-inflation/cfspeedtest/)**: Unofficial CLI for speed.
+- 🦀 **[cargo-playdate](https://github.com/boozook/playdate.git)**: Build tool for neat yellow console.
+- 🦀 **[sqlant](https://github.com/kurotych/sqlant)**: Generate PlantUML/Mermaid ER diagram textual description from SQL connection string.
+- 🦀 **[aloe-audio-plugin-format](https://github.com/klebs6/aloe-rs)**: A comprehensive Rust library to manage and interface with various audio plugin formats such as VST, AudioUnit, and LADSPA.
+- 🦀 **[apt-swarm](https://github.com/kpcyrd/apt-swarm)**: 🥸 Experimental p2p gossip network for OpenPGP signature transparency 🥸.
 - 🦀 **[heman](https://github.com/fleetingbytes/heman/)**: HTTP error manual.
+- 🦀 **[sscan](https://github.com/ctx400/sscan)**: A scriptable file/process/network scanner.
+- 🦀 **[adb-kit](https://github.com/later-design/adb-kit)**: 用于与 Android Debug Bridge (ADB) 交互.
 - 🦀 **[kube-anypod](https://github.com/frankwiles/kube-anypod)**: Command line utility to quickly get the name of a random pod from a Deployment, StatefulSet or DaemonSet.
 - 🦀 **[rustbam](https://github.com/shahcompbio/rustbam)**: Rust-powered BAM depth extraction with Python bindings.
 - 🦀 **[scanit](https://github.com/alexcu2718/scanit)**: A fast, multi-threaded filesystem search tool.
-- 🦀 **[checkalot](https://github.com/cpg314/checkalot)**: Run a series of check commands on a repository (e.
-- 🦀 **[rustdoc-text](https://github.com/lmmx/rustdoc-text)**: A lightweight library and CLI tool to view Rust documentation as plain text.
-- 🦀 **[ios](https://github.com/thevickypedia/iOS-backup)**: Light-weight CLI tool to extract iOS backup.
-- 🦀 **[adb-kit](https://github.com/later-design/adb-kit)**: 用于与 Android Debug Bridge (ADB) 交互.
 - 🦀 **[c2rust-asm-casts](https://github.com/immunant/c2rust/)**: Type cast helpers for use with C2Rust's inline assembly implementation.
-- 🦀 **[cargo-playdate](https://github.com/boozook/playdate.git)**: Build tool for neat yellow console.
-- 🦀 **[serde-bridge](https://github.com/Xuanwo/serde-bridge)**: Bridge between serde types.
+- 🦀 **[checkalot](https://github.com/cpg314/checkalot)**: Run a series of check commands on a repository (e.
+- 🦀 **[ios](https://github.com/thevickypedia/iOS-backup)**: Light-weight CLI tool to extract iOS backup.
 - 🦀 **[hanconv](https://github.com/fhluo/hanconv)**: Convert between Chinese characters variants.
-- 🦀 **[xvc-logging](https://github.com/iesahin/xvc)**: Logging crate for Xvc.
-- 🦀 **[aloe-audio-plugin-format](https://github.com/klebs6/aloe-rs)**: A comprehensive Rust library to manage and interface with various audio plugin formats such as VST, AudioUnit, and LADSPA.
+- 🦀 **[rustdoc-text](https://github.com/lmmx/rustdoc-text)**: A lightweight library and CLI tool to view Rust documentation as plain text.
+- 🦀 **[cargo-futhark](https://github.com/luleyleo/cargo-futhark)**: A library and cargo subcommand to integrate Futhark into Rust projects.
+- 🦀 **[serde-bridge](https://github.com/Xuanwo/serde-bridge)**: Bridge between serde types.
 - 🦀 **[cargo-group-imports](https://github.com/cpg314/cargo-group-imports)**: Group imports in Rust workspaces.
+- 🦀 **[env2bws](https://github.com/travipross/env2bws)**: A tool to help import variables from .
 - 🦀 **[unkr](https://github.com/ldicarlo/unkr)**: A tool to decrypt old school cyphers.
 - 🦀 **[cargo-depot](https://github.com/cpg314/cargo-depot)**: Alternative cargo registry with improved support for git/path dependencies.
-- 🦀 **[cargo-futhark](https://github.com/luleyleo/cargo-futhark)**: A library and cargo subcommand to integrate Futhark into Rust projects.
-- 🦀 **[env2bws](https://github.com/travipross/env2bws)**: A tool to help import variables from .
-- 🦀 **[gnostr-crawler](https://github.com/gnostr-org/gnostr)**: gnostr:a git+nostr workflow utility.
-- 🦀 **[rustgenpass](https://github.com/ollej/rustgenpass)**: Generate a hashed password similar to SuperGenPass.
 - 🦀 **[mdbook-langtabs](https://github.com/nx10/mdbook-langtabs)**: An mdbook preprocessor that adds language tabs for code blocks.
+- 🦀 **[rustgenpass](https://github.com/ollej/rustgenpass)**: Generate a hashed password similar to SuperGenPass.
+- 🦀 **[destination](https://github.com/grantspassoregon/destination)**: A library providing types and method for managing physical addresses in a municipality.
 - 🦀 **[ghciwatch](https://github.com/MercuryTechnologies/ghciwatch)**: Ghciwatch loads a GHCi session for a Haskell project and reloads it when source files change.
 - 🦀 **[lesspass](https://github.com/71/lesspass.rs)**: An efficient implementation of the LessPass password generator.
-- 🦀 **[modio-logger](https://gitlab.com/ModioAB/modio-logger/)**: modio-logger Dbus service.
-- 🦀 **[sqlant](https://github.com/kurotych/sqlant)**: Generate PlantUML/Mermaid ER diagram textual description from SQL connection string.
-- 🦀 **[tendrils-core](https://github.com/TendrilApps/tendrils-cli)**: Core library for Tendrils.
-- 🦀 **[destination](https://github.com/grantspassoregon/destination)**: A library providing types and method for managing physical addresses in a municipality.
-- 🦀 **[incredimo](https://github.com/incredimo/incredifont)**: just another font for your terminal.
-- 🦀 **[mdbook-typstpdf](https://github.com/xudesheng/mdbook-typstpdf)**: An mdBook backend that generates PDF output using Typst.
-- 🦀 **[qpak](https://github.com/cornmonger/qpak)**: An unofficial Quake PAK file manipulation tool.
-- 🦀 **[canvas-grading](https://github.com/grantlemons/canvas-grading/)**: CLI tool used to fetch submissions and upload grades to and from Canvas LMS.
-- 🦀 **[ccode_runner](https://github.com/rootCircle/cpast_mono)**: Run/compiles files and executes them efficiently.
 - 🦀 **[monk](https://github.com/daynin/monk)**: Monk is a simple Git hooks manager written in Rust.
-- 🦀 **[stv-rs](https://github.com/gendx/stv-rs)**: Single Transferable Vote implementation in Rust.
-- 🦀 **[vault-mgmt](https://github.com/nimbolus/vault-mgmt)**: Manage your vault installation in Kubernetes (upgrades, unseal, step-down, .
+- 🦀 **[tendrils-core](https://github.com/TendrilApps/tendrils-cli)**: Core library for Tendrils.
+- 🦀 **[jisho](https://github.com/eagleflo/jisho)**: Jisho is a CLI tool & Rust library that provides a Japanese-English dictionary.
+- 🦀 **[mdbook-typstpdf](https://github.com/xudesheng/mdbook-typstpdf)**: An mdBook backend that generates PDF output using Typst.
+- 🦀 **[spider_network_blocker](https://github.com/spider-rs/spider_network_blocker)**: Web crawler network blocking urls and patterns.
+- 🦀 **[cool-rust-input](https://github.com/ingobeans/cool-rust-input)**: Cross platform customizable multiline input.
+- 🦀 **[incredimo](https://github.com/incredimo/incredifont)**: just another font for your terminal.
+- 🦀 **[tuirealm](https://github.com/veeso/tui-realm)**: A tui-rs framework to build tui interfaces, inspired by React and Elm.
+- 🦀 **[canvas-grading](https://github.com/grantlemons/canvas-grading/)**: CLI tool used to fetch submissions and upload grades to and from Canvas LMS.
+- 🦀 **[qpak](https://github.com/cornmonger/qpak)**: An unofficial Quake PAK file manipulation tool.
+- 🦀 **[ccode_runner](https://github.com/rootCircle/cpast_mono)**: Run/compiles files and executes them efficiently.
 - 🦀 **[cutlie](https://github.com/kamilutkumavi0/cutlie)**: Cutlie is a short cut tool for you.
-- 🦀 **[war3parser-wasm](https://github.com/wesleyel/war3parser)**: A extractor and parser for Warcraft 3 map files.
+- 🦀 **[stv-rs](https://github.com/gendx/stv-rs)**: Single Transferable Vote implementation in Rust.
+- 🦀 **[cyagen](https://github.com/robinbreast/cyagen)**: Text file generator based on C file and templates.
 - 🦀 **[ja](https://github.com/joshka/ja)**: ja (just ask) is a small CLI / TUI app that allows you to work with AI tools.
 - 🦀 **[renom](https://github.com/UnrealisticDev/Renom)**: A simple program to rename Unreal Engine projects.
-- 🦀 **[cool-rust-input](https://github.com/ingobeans/cool-rust-input)**: Cross platform customizable multiline input.
-- 🦀 **[cyagen](https://github.com/robinbreast/cyagen)**: Text file generator based on C file and templates.
-- 🦀 **[push32_grrs](https://github.com/you/grrs)**: A tool to search files.
+- 🦀 **[vault-mgmt](https://github.com/nimbolus/vault-mgmt)**: Manage your vault installation in Kubernetes (upgrades, unseal, step-down, .
 - 🦀 **[args-extractor](https://github.com/skewnart/args-extractor)**: Args command line extractor library for Rust applications.
-- 🦀 **[ch-grafana-cache](https://github.com/cpg314/ch-grafana-cache)**: Extract Clickhouse SQL queries from a dashboard and execute them.
-- 🦀 **[displayz](https://github.com/michidk/displayz)**: A CLI tool and library to control display settings on Windows written in Rust.
-- 🦀 **[napa](https://codeberg.org/jwgarber/napa)**: A simple and secure command line password manager.
+- 🦀 **[war3parser-wasm](https://github.com/wesleyel/war3parser)**: A extractor and parser for Warcraft 3 map files.
 - 🦀 **[aspix](https://github.com/FANNYMU/aspix)**: Library Rust yang powerful untuk mengkonversi gambar menjadi ASCII art.
+- 🦀 **[displayz](https://github.com/michidk/displayz)**: A CLI tool and library to control display settings on Windows written in Rust.
+- 🦀 **[push32_grrs](https://github.com/you/grrs)**: A tool to search files.
+- 🦀 **[ch-grafana-cache](https://github.com/cpg314/ch-grafana-cache)**: Extract Clickhouse SQL queries from a dashboard and execute them.
+- 🦀 **[krapslog](https://github.com/acj/krapslog-rs)**: Visualize log files using sparklines.
+- 🦀 **[napa](https://codeberg.org/jwgarber/napa)**: A simple and secure command line password manager.
 - 🦀 **[ncase](https://codeberg.org/xmyst/ncase.git)**: Enforce a case style.
+- 🦀 **[chezmoi_modify_manager](https://github.com/VorpalBlade/chezmoi_modify_manager)**: Chezmoi addon to patch ini files with mixed settings and state (experimental rust branch).
+- 🦀 **[rsup_utils](https://github.com/ngd-b/rsup/tree/main/packages/utils)**: rsup 工具包.
 - 🦀 **[super_snoofer](https://github.com/rakki194/super_snoofer)**: A fuzzy command finder that suggests similar commands when a typo is made.
 - 🦀 **[up](https://github.com/gibfahn/up)**: up is a tool to help you keep your machine up to date.
-- 🦀 **[chezmoi_modify_manager](https://github.com/VorpalBlade/chezmoi_modify_manager)**: Chezmoi addon to patch ini files with mixed settings and state (experimental rust branch).
 - 🦀 **[console-menu](https://github.com/Bdeering1/console-menu)**: A simple yet powerful library for creating beautiful console menus in rust.
+- 🦀 **[customasm](https://github.com/hlorenzi/customasm)**: An assembler for custom, user-defined instruction sets!.
+- 🦀 **[jen](https://github.com/whitfin/jen)**: A simple CLI generation tool for creating large datasets.
 - 🦀 **[permsearch](https://github.com/twihno/permsearch)**: Simple search for finding mistakes in filesystem owner and permission settings.
-- 🦀 **[rsup_utils](https://github.com/ngd-b/rsup/tree/main/packages/utils)**: rsup 工具包.
-- 🦀 **[test-cli-grep](null)**: A simple CLI grep tool.
 - 🦀 **[putzen-cli](https://github.com/sassman/putzen-rs)**: helps keeping your disk clean of build and dependency artifacts safely.
 - 🦀 **[maelstrom-pytest](https://github.com/maelstrom-software/maelstrom)**: Python Test Runner for Maelstrom.
+- 🦀 **[test-cli-grep](null)**: A simple CLI grep tool.
+- 🦀 **[dia-args](null)**: .
 - 🦀 **[drosera](https://github.com/LimeEng/drosera/)**: SSH tarpit server.
 - 🦀 **[git2mail](https://github.com/extiop/git2mail)**: Pure Rust OSINT tool to find a GitHub user's email.
-- 🦀 **[cargonode](https://github.com/xosnrdev/cargonode)**: A simple build tool for Node.
-- 🦀 **[customasm](https://github.com/hlorenzi/customasm)**: An assembler for custom, user-defined instruction sets!.
-- 🦀 **[dia-args](null)**: .
-- 🦀 **[jen](https://github.com/whitfin/jen)**: A simple CLI generation tool for creating large datasets.
-- 🦀 **[projvar](https://github.com/hoijui/projvar)**: A tiny CLI tool that tries to gather project specific meta-data in different ways, to store them into key=value pairs in a file for later use by other tools.
-- 🦀 **[suru](https://github.com/DolphinGui/suru)**: A modern replacement for make.
+- 🦀 **[tui-realm-stdlib](https://github.com/veeso/tui-realm-stdlib)**: Standard components library for tui-realm.
 - 🦀 **[arse](https://github.com/anthonyjmartinez/arse.git)**: A Rust Site Engine.
-- 🦀 **[rasterkit](https://github.com/mauricemojito/rasterkit)**: TIFF/GeoTIFF file structure analysis and manipulation tool.
+- 🦀 **[xvc-walker](https://github.com/iesahin/xvc)**: Xvc parallel file system walker with ignore features.
+- 🦀 **[cargonode](https://github.com/xosnrdev/cargonode)**: A simple build tool for Node.
 - 🦀 **[dwfv](https://github.com/psurply/dwfv)**: A simple digital waveform viewer with vi-like key bindings.
-- 🦀 **[krapslog](https://github.com/acj/krapslog-rs)**: Visualize log files using sparklines.
+- 🦀 **[projvar](https://github.com/hoijui/projvar)**: A tiny CLI tool that tries to gather project specific meta-data in different ways, to store them into key=value pairs in a file for later use by other tools.
+- 🦀 **[rasterkit](https://github.com/mauricemojito/rasterkit)**: TIFF/GeoTIFF file structure analysis and manipulation tool.
 - 🦀 **[rdfoothills-base](https://github.com/hoijui/osh-dir-std-rs)**: Base utilities of rdfoothills, mostly to be used by the other crates in the workspace.
-- 🦀 **[tuirealm](https://github.com/veeso/tui-realm)**: A tui-rs framework to build tui interfaces, inspired by React and Elm.
-- 🦀 **[sqli](https://github.com/jcserv/sqli)**: A command line tool for interacting with Postgres databases.
-- 🦀 **[clonehunter](https://github.com/omkarium/clonehunter)**: A simple command line utility that identifies groups of identical files and displays them to the console.
+- 🦀 **[suru](https://github.com/DolphinGui/suru)**: A modern replacement for make.
 - 🦀 **[fallingblocks](https://github.com/rakki194/fallingblocks)**: A Tetris game implemented with ratatui and bevy_ecs.
 - 🦀 **[pipr](https://github.com/Elkowar/pipr)**: A commandline-utility to interactively build complex shell pipelines.
+- 🦀 **[sqli](https://github.com/jcserv/sqli)**: A command line tool for interacting with Postgres databases.
+- 🦀 **[bulloak-syntax](https://github.com/alexfertel/bulloak)**: A Solidity test generator based on the Branching Tree Technique.
+- 🦀 **[clonehunter](https://github.com/omkarium/clonehunter)**: A simple command line utility that identifies groups of identical files and displays them to the console.
 - 🦀 **[gmocli](https://github.com/duhdugg/gmocli/)**: gmocli provides a command-line interface for searching emoji characters with associated gitmoji descriptions.
-- 🦀 **[spytrap-adb](https://github.com/spytrap-org/spytrap-adb)**: Test a phone for stalkerware using adb and usb debugging to scan for suspicious apps and configuration.
+- 🦀 **[xvc-ecs](https://github.com/iesahin/xvc)**: Entity-Component System for Xvc.
+- 🦀 **[diffsitter](https://github.com/afnanenayet/diffsitter)**: An AST based difftool for meaningful diffs.
 - 🦀 **[elmio-cli](https://github.com/xosnrdev/elmio)**: CLI helper tool for working with elmio projects.
-- 🦀 **[yamori](https://github.com/nwiizo/yamori)**: A test runner and visualizer for command-line applications.
 - 🦀 **[ascii_renderer](https://github.com/EvanCMcPheron/ascii_renderer)**: A wireframe rendering engine that renders into ascii text, written for fun entirely in Rust.
+- 🦀 **[xvc-config](https://github.com/iesahin/xvc)**: Xvc configuration management.
 - 🦀 **[blackout](https://github.com/jandrus/)**: Encrypted totp and password/notes manager written in Rust.
 - 🦀 **[lazybar-core](https://github.com/Qelxiros/lazybar)**: A lightweight, event-driven X11 status bar.
+- 🦀 **[watchy](https://github.com/jdhouseholder/watchy)**: Watch a set of files for changes and run a command on change.
+- 🦀 **[yamori](https://github.com/nwiizo/yamori)**: A test runner and visualizer for command-line applications.
+- 🦀 **[clex_gen](https://github.com/rootCircle/cpast_mono)**: A generator for clex language.
+- 🦀 **[bf2s](https://github.com/splurf/bf2s)**: A simple Brainfuck interpreter that executes code from a string and returns the output as a string.
+- 🦀 **[mediatoascii](https://github.com/spoorn/media-to-ascii)**: Utilities for converting media files (images/videos) to ascii outputs (output media file or print to console).
+- 🦀 **[rdfoothills-mime](https://github.com/hoijui/osh-dir-std-rs)**: Provides RDF serialization format types (plus HTML), and code to identify them.
 - 🦀 **[skeletor](https://github.com/jasonnathan/skeletor)**: A blazing-fast Rust scaffolding tool with YAML-driven snapshots.
 - 🦀 **[tesohh-bricks](https://github.com/Tesohh/bricks)**: build system and package manager for C/C++.
-- 🦀 **[clex_gen](https://github.com/rootCircle/cpast_mono)**: A generator for clex language.
 - 🦀 **[unilog](https://github.com/Axnjr/unilog_rs)**: A lightweight Rust logging library supporting async/sync logging and colored logs.
-- 🦀 **[xvc-walker](https://github.com/iesahin/xvc)**: Xvc parallel file system walker with ignore features.
-- 🦀 **[bulloak-syntax](https://github.com/alexfertel/bulloak)**: A Solidity test generator based on the Branching Tree Technique.
-- 🦀 **[rdfoothills-mime](https://github.com/hoijui/osh-dir-std-rs)**: Provides RDF serialization format types (plus HTML), and code to identify them.
-- 🦀 **[tui-realm-stdlib](https://github.com/veeso/tui-realm-stdlib)**: Standard components library for tui-realm.
-- 🦀 **[diffsitter](https://github.com/afnanenayet/diffsitter)**: An AST based difftool for meaningful diffs.
-- 🦀 **[wca](https://github.com/Wandalen/wTools/tree/master/module/move/wca)**: The tool to make CLI ( commands user interface ).
-- 🦀 **[bf2s](https://github.com/splurf/bf2s)**: A simple Brainfuck interpreter that executes code from a string and returns the output as a string.
 - 🦀 **[image-anonymizer](https://github.com/katsuhirohonda/image-anonymizer)**: A command-line tool to detect and mask sensitive content in images.
+- 🦀 **[mkcmt](https://github.com/davehorner/mkcmt)**: mkcmt is make commit.
 - 🦀 **[superfold](https://github.com/0xCarbon/superfold)**: A multilingual Rust library and CLI to process UTF-8 strings to exclude diacritics and fold non-phonetic graphemes into their phonetic ASCII representation.
-- 🦀 **[vkfetch-rs](https://github.com/float3/vkfetch-rs)**: vkfetch-rs is a fetch-program that displays basic information about your vulkan-compatible graphic card(s)!.
 - 🦀 **[wints](https://github.com/rlespinasse/wints)**: wints is a fuzzy term-based URLs opener.
 - 🦀 **[bedrust](https://github.com/darko-mesaros/bedrust)**: A command line tool to invoke and work with Large Language models on AWS, using Amazon Bedrock.
-- 🦀 **[mkcmt](https://github.com/davehorner/mkcmt)**: mkcmt is make commit.
-- 🦀 **[xvc-ecs](https://github.com/iesahin/xvc)**: Entity-Component System for Xvc.
-- 🦀 **[hrx](https://github.com/nabijaczleweli/hrx.rs)**: Rust implementation of the HRX plain text archive format.
-- 🦀 **[hvertex](https://github.com/RustSandbox/Vertex-AI-Setup-Tool)**: A powerful command-line tool for setting up and testing Google Cloud Vertex AI integration.
-- 🦀 **[mediatoascii](https://github.com/spoorn/media-to-ascii)**: Utilities for converting media files (images/videos) to ascii outputs (output media file or print to console).
-- 🦀 **[petname](https://github.com/allenap/rust-petname)**: Generate human readable random names.
-- 🦀 **[crashfeishu](https://github.com/jukanntenn/crashfeishu)**: A Supervisor event listener that pushes Feishu notifications when managed processes crash.
-- 🦀 **[watchy](https://github.com/jdhouseholder/watchy)**: Watch a set of files for changes and run a command on change.
-- 🦀 **[aloe-system-tray](https://github.com/klebs6/aloe-rs)**: A Rust library to manage system tray icons across Windows, Linux, BSD, and macOS, allowing for event handling and dynamic icon configuration in the taskbar.
-- 🦀 **[sos](https://saveoursecrets.com)**: Distributed, encrypted database for private secrets.
-- 🦀 **[xvc-config](https://github.com/iesahin/xvc)**: Xvc configuration management.
-- 🦀 **[yes-or-no](https://github.com/AntoineRenaud91/yes-or-no)**: Very simple yes or no CLI tool.
-- 🦀 **[fatt](https://github.com/copyleftdev/fatt)**: Find All The Things - A high-performance, distributed security scanning tool.
 - 🦀 **[bulloak-foundry](https://github.com/alexfertel/bulloak)**: A Solidity test generator based on the Branching Tree Technique.
-- 🦀 **[cpast](https://github.com/rootCircle/cpast_mono)**: Run custom testcase with powerful clex language powered generated tool.
-- 🦀 **[dumpfiles](https://github.com/arbfay/dumpfiles)**: A CLI and library for generating structured YAML representations of directory contents, optimized for efficiently sharing codebases with LLMs.
+- 🦀 **[crashfeishu](https://github.com/jukanntenn/crashfeishu)**: A Supervisor event listener that pushes Feishu notifications when managed processes crash.
+- 🦀 **[hrx](https://github.com/nabijaczleweli/hrx.rs)**: Rust implementation of the HRX plain text archive format.
+- 🦀 **[petname](https://github.com/allenap/rust-petname)**: Generate human readable random names.
+- 🦀 **[vkfetch-rs](https://github.com/float3/vkfetch-rs)**: vkfetch-rs is a fetch-program that displays basic information about your vulkan-compatible graphic card(s)!.
+- 🦀 **[aloe-system-tray](https://github.com/klebs6/aloe-rs)**: A Rust library to manage system tray icons across Windows, Linux, BSD, and macOS, allowing for event handling and dynamic icon configuration in the taskbar.
+- 🦀 **[hvertex](https://github.com/RustSandbox/Vertex-AI-Setup-Tool)**: A powerful command-line tool for setting up and testing Google Cloud Vertex AI integration.
+- 🦀 **[fatt](https://github.com/copyleftdev/fatt)**: Find All The Things - A high-performance, distributed security scanning tool.
+- 🦀 **[jq](https://github.com/dryrust/jq.rs)**: jq.
+- 🦀 **[sos](https://saveoursecrets.com)**: Distributed, encrypted database for private secrets.
+- 🦀 **[yes-or-no](https://github.com/AntoineRenaud91/yes-or-no)**: Very simple yes or no CLI tool.
+- 🦀 **[mdbook-d2](https://github.com/danieleades/mdbook-d2)**: D2 diagram generator plugin for MdBook.
 - 🦀 **[axdl](https://github.com/ciniml/axdl-rs)**: Unofficial implementation of Axera SoC image download protocol.
+- 🦀 **[dumpfiles](https://github.com/arbfay/dumpfiles)**: A CLI and library for generating structured YAML representations of directory contents, optimized for efficiently sharing codebases with LLMs.
+- 🦀 **[cpast](https://github.com/rootCircle/cpast_mono)**: Run custom testcase with powerful clex language powered generated tool.
+- 🦀 **[xvc-core](https://github.com/iesahin/xvc)**: Xvc core for common elements for all commands.
+- 🦀 **[git-gamble](https://gitlab.com/pinage404/git-gamble)**: blend TDD + TCR to make sure to develop the right thing 😌, baby step by baby step 👶🦶.
+- 🦀 **[getopt](https://codeberg.org/dragonmaus/getopt.rs)**: A minimal, (essentially) POSIX-compliant option parser.
 - 🦀 **[mem-find](https://github.com/mkroening/mem-find)**: Searches the memory of a process (haystack) for a string (needle).
 - 🦀 **[devspace](https://github.com/thi8v/devspace)**: devspace helps you to quickly start all the programs you need to dev using Tmux and other tools.
-- 🦀 **[git-gamble](https://gitlab.com/pinage404/git-gamble)**: blend TDD + TCR to make sure to develop the right thing 😌, baby step by baby step 👶🦶.
 - 🦀 **[findtext_sheet](https://github.com/nabbisen/findtext-sheet-rs)**: Search text in SpreadSheet.
-- 🦀 **[host-rs](https://github.com/BiswajitThakur/host-rs)**: A CLI tool that manage website blocking, unblocking, redirection.
-- 🦀 **[wl-clipboard-rs-tools](https://github.com/YaLTeR/wl-clipboard-rs)**: Terminal utilities for accessing the Wayland clipboard.
-- 🦀 **[whatawhat](https://github.com/Anoromi/whatawhat)**: Application for monitoring user activity.
-- 🦀 **[bffextract](https://github.com/ponchofiesta/bffextract-rs)**: Extract content of BFF file (AIX Backup file format).
-- 🦀 **[folder-declutter](https://github.com/ricardodantas/folder-declutter)**: Folder Declutter is a command-line and library utility written in Rust that helps you free up disk space by automatically deleting files that haven't been modified in a specified number of days.
-- 🦀 **[rdfoothills-conversion](https://github.com/hoijui/osh-dir-std-rs)**: Allows to convert between different RDF serialization formats and to HTML.
-- 🦀 **[workspacer-check-publish-ready](null)**: A Rust crate providing async interfaces for checking if a workspace or crate is ready for publishing on crates.
-- 🦀 **[jq](https://github.com/dryrust/jq.rs)**: jq.
 - 🦀 **[mdbookkit](https://github.com/tonywu6/mdbookkit)**: toolkit for mdBook 📖.
-- 🦀 **[openring](https://github.com/lukehsiao/openring-rs)**: A webring for static site generators written in Rust.
-- 🦀 **[xvc-core](https://github.com/iesahin/xvc)**: Xvc core for common elements for all commands.
-- 🦀 **[sprinkles-rs](https://github.com/winpax/sprinkles)**: A Rust based abstraction layer for Scoop.
-- 🦀 **[yash-syntax](https://github.com/magicant/yash-rs)**: POSIX-compatible shell script syntax parser.
+- 🦀 **[whatawhat](https://github.com/Anoromi/whatawhat)**: Application for monitoring user activity.
+- 🦀 **[wl-clipboard-rs-tools](https://github.com/YaLTeR/wl-clipboard-rs)**: Terminal utilities for accessing the Wayland clipboard.
+- 🦀 **[folder-declutter](https://github.com/ricardodantas/folder-declutter)**: Folder Declutter is a command-line and library utility written in Rust that helps you free up disk space by automatically deleting files that haven't been modified in a specified number of days.
+- 🦀 **[host-rs](https://github.com/BiswajitThakur/host-rs)**: A CLI tool that manage website blocking, unblocking, redirection.
+- 🦀 **[bffextract](https://github.com/ponchofiesta/bffextract-rs)**: Extract content of BFF file (AIX Backup file format).
 - 🦀 **[bulloak](https://github.com/alexfertel/bulloak)**: A Solidity test generator based on the Branching Tree Technique.
-- 🦀 **[clienv](https://github.com/igmrrf/clienv)**: a tool to manage your env variables.
-- 🦀 **[rsup_config](https://github.com/ngd-b/rsup/tree/main/packages/config)**: rsup 配置包.
-- 🦀 **[changelog-md](https://github.com/kageurufu/changelog-md)**: Developer-friendly Changelog generation.
 - 🦀 **[garble_lang](https://github.com/sine-fdn/garble/)**: Turing-Incomplete Programming Language for Multi-Party Computation with Garbled Circuits.
+- 🦀 **[rdfoothills-conversion](https://github.com/hoijui/osh-dir-std-rs)**: Allows to convert between different RDF serialization formats and to HTML.
+- 🦀 **[sprinkles-rs](https://github.com/winpax/sprinkles)**: A Rust based abstraction layer for Scoop.
+- 🦀 **[workspacer-check-publish-ready](null)**: A Rust crate providing async interfaces for checking if a workspace or crate is ready for publishing on crates.
+- 🦀 **[openring](https://github.com/lukehsiao/openring-rs)**: A webring for static site generators written in Rust.
+- 🦀 **[yash-syntax](https://github.com/magicant/yash-rs)**: POSIX-compatible shell script syntax parser.
+- 🦀 **[garden-tools](https://gitlab.com/garden-rs/garden)**: Garden grows and cultivates collections of Git trees Garden lets you define and run commands over collections of configuration-defined multi-worktree Git environments.
+- 🦀 **[changelog-md](https://github.com/kageurufu/changelog-md)**: Developer-friendly Changelog generation.
+- 🦀 **[rsup_config](https://github.com/ngd-b/rsup/tree/main/packages/config)**: rsup 配置包.
+- 🦀 **[aloe-vst-plugin-client-vst](https://github.com/klebs6/aloe-rs)**: Aloe VST Plugin Client VST facilitates the creation of VST audio plugins for cross-platform, high-performance digital audio processing and seamless host interactions.
+- 🦀 **[clienv](https://github.com/igmrrf/clienv)**: a tool to manage your env variables.
+- 🦀 **[cobalt-config](https://github.com/cobalt-org/cobalt.rs)**: Static site generator written in Rust.
+- 🦀 **[dxm](https://github.com/D4isDAVID/dxm)**: A manager for FXServer artifacts & resources.
+- 🦀 **[console-utils](https://github.com/nwrenger/console-utils-rs)**: Simple CLI Input and Control Utilities.
+- 🦀 **[include_c2rust-transpile](https://github.com/immunant/c2rust/)**: C2Rust transpiler implementation.
 - 🦀 **[qmk-hid](https://github.com/luckasRanarison/qmk-hid)**: A simple CLI for bidirectional communication with QMK keyboards using raw HID.
 - 🦀 **[usnrs](https://github.com/airbus-cert/usnrs)**: A tool and library to parse USN Journal files.
-- 🦀 **[dxm](https://github.com/D4isDAVID/dxm)**: A manager for FXServer artifacts & resources.
-- 🦀 **[getopt](https://codeberg.org/dragonmaus/getopt.rs)**: A minimal, (essentially) POSIX-compliant option parser.
-- 🦀 **[garden-tools](https://gitlab.com/garden-rs/garden)**: Garden grows and cultivates collections of Git trees Garden lets you define and run commands over collections of configuration-defined multi-worktree Git environments.
-- 🦀 **[rdbkp2](https://github.com/yuniqueunic/rdbkp2)**: A CLI tool for backing up and restoring Docker container data.
-- 🦀 **[file-organizer](https://github.com/yourusername/file-organizer)**: A powerful, cross-platform file organization tool.
-- 🦀 **[include_c2rust-transpile](https://github.com/immunant/c2rust/)**: C2Rust transpiler implementation.
-- 🦀 **[rustsourcebundler](https://github.com/lpenz/rust-sourcebundler.git)**: Bundle the source code of a rust cargo crate in a single source file.
-- 🦀 **[spider_network_blocker](https://github.com/spider-rs/spider_network_blocker)**: Web crawler network blocking urls and patterns.
 - 🦀 **[workspacer-linting](null)**: Async Rust crate for linting workspaces using cargo clippy, capturing detailed reports and converting them to structured errors.
+- 🦀 **[xvc-storage](https://github.com/iesahin/xvc)**: Xvc remote and local storage management.
 - 🦀 **[coreminer](https://github.com/TalpaLabs/coreminer)**: A debugger which can be used to debug programs that do not want to be debugged.
-- 🦀 **[reedy](https://github.com/dorryspears/reedy)**: A terminal-based RSS reader with a clean TUI interface.
+- 🦀 **[file-organizer](https://github.com/yourusername/file-organizer)**: A powerful, cross-platform file organization tool.
+- 🦀 **[rdbkp2](https://github.com/yuniqueunic/rdbkp2)**: A CLI tool for backing up and restoring Docker container data.
+- 🦀 **[rustsourcebundler](https://github.com/lpenz/rust-sourcebundler.git)**: Bundle the source code of a rust cargo crate in a single source file.
 - 🦀 **[smolbar](https://github.com/ulahello/smolbar)**: smol status command for sway.
-- 🦀 **[aloe-vst-plugin-client-vst](https://github.com/klebs6/aloe-rs)**: Aloe VST Plugin Client VST facilitates the creation of VST audio plugins for cross-platform, high-performance digital audio processing and seamless host interactions.
-- 🦀 **[cobalt-config](https://github.com/cobalt-org/cobalt.rs)**: Static site generator written in Rust.
+- 🦀 **[aloe-chorus](https://github.com/klebs6/aloe-rs)**: Aloe Chorus is a DSP library for crafting customizable chorus audio effects through LFO-modulated delay lines and echo feedback with flexible parameters.
+- 🦀 **[libtlafmt](https://github.com/domodwyer/tlafmt)**: A formatter library for TLA+ specs, core of tlafmt.
+- 🦀 **[rust-logger](https://github.com/mrborghini/rust-logger)**: A simple logger.
+- 🦀 **[adb-rust](null)**: A common adb operation.
 - 🦀 **[findtext_doc](https://github.com/nabbisen/findtext-doc-rs)**: Search text in Document.
 - 🦀 **[findtext_pdf](https://github.com/nabbisen/findtext-pdf-rs)**: Search text in PDF.
-- 🦀 **[rust-logger](https://github.com/mrborghini/rust-logger)**: A simple logger.
-- 🦀 **[rustime](https://github.com/arjunomray/rustime)**: A pomodoro time in rust.
-- 🦀 **[aloe-chorus](https://github.com/klebs6/aloe-rs)**: Aloe Chorus is a DSP library for crafting customizable chorus audio effects through LFO-modulated delay lines and echo feedback with flexible parameters.
-- 🦀 **[console-utils](https://github.com/nwrenger/console-utils-rs)**: Simple CLI Input and Control Utilities.
-- 🦀 **[findtext_textfile](https://github.com/nabbisen/findtext-textfile-rs)**: Search text in text file.
-- 🦀 **[libtlafmt](https://github.com/domodwyer/tlafmt)**: A formatter library for TLA+ specs, core of tlafmt.
-- 🦀 **[workspacer-test-coverage](null)**: Facilitates test execution with code coverage gathering for cargo workspaces using cargo-tarpaulin.
-- 🦀 **[osynic_downloader](https://github.com/osynicite/osynic_downloader)**: A osu beatmapsets downloader lib & TUI application based on vielpork.
-- 🦀 **[r50](null)**: .
+- 🦀 **[hive_metastore](https://github.com/Xuanwo/hive_metastore_rs)**: Native hive metastore client for Rust, powered by Volo.
+- 🦀 **[reedy](https://github.com/dorryspears/reedy)**: A terminal-based RSS reader with a clean TUI interface.
 - 🦀 **[athena-cli](https://github.com/Andyhoang/athena-cli)**: A command-line interface for AWS Athena with interactive query execution and result management.
+- 🦀 **[r50](null)**: .
+- 🦀 **[rustime](https://github.com/arjunomray/rustime)**: A pomodoro time in rust.
+- 🦀 **[workspacer-test-coverage](null)**: Facilitates test execution with code coverage gathering for cargo workspaces using cargo-tarpaulin.
 - 🦀 **[maelstrom-go-test](https://github.com/maelstrom-software/maelstrom)**: Go Test Runner for Maelstrom.
-- 🦀 **[repo-analyzer](https://github.com/gokh4nozturk/repo-analyzer)**: A tool to analyze GitHub repositories and generate detailed reports with cloud storage upload capability.
-- 🦀 **[tmux-layout](https://github.com/dsmatter/tmux-layout-rs)**: A tool for managing tmux sessions with predefined layouts.
-- 🦀 **[jisho](https://github.com/eagleflo/jisho)**: Jisho is a CLI tool & Rust library that provides a Japanese-English dictionary.
-- 🦀 **[projets-indexer](https://github.com/RustSandbox/projets-indexer-public)**: A powerful command-line tool for indexing and organizing your projects with AI-powered tag generation.
-- 🦀 **[r1](null)**: .
-- 🦀 **[xvc-storage](https://github.com/iesahin/xvc)**: Xvc remote and local storage management.
+- 🦀 **[osynic_downloader](https://github.com/osynicite/osynic_downloader)**: A osu beatmapsets downloader lib & TUI application based on vielpork.
+- 🦀 **[findtext_textfile](https://github.com/nabbisen/findtext-textfile-rs)**: Search text in text file.
 - 🦀 **[git-iris](https://github.com/hyperb1iss/git-iris)**: AI-powered Git workflow assistant for smart commits, code reviews, changelogs, and release notes.
+- 🦀 **[r1](null)**: .
+- 🦀 **[uu_sync](https://github.com/uutils/coreutils/tree/main/src/uu/sync)**: sync ~ (uutils) synchronize cache writes to storage.
+- 🦀 **[tmux-layout](https://github.com/dsmatter/tmux-layout-rs)**: A tool for managing tmux sessions with predefined layouts.
+- 🦀 **[tu](https://github.com/ad-si/tu)**: CLI tool to convert a natural language date/time string to UTC.
+- 🦀 **[uu_arch](https://github.com/uutils/coreutils/tree/main/src/uu/arch)**: arch ~ (uutils) display machine architecture.
+- 🦀 **[dvb-gse](https://github.com/daniestevez/dvb-gse/)**: DVB-GSE (Digital Video Brodcast Generic Stream Encapsulation).
+- 🦀 **[nwr](https://github.com/wang-q/nwr)**: `nwr` is a command line tool for newick and taxonomy.
+- 🦀 **[projets-indexer](https://github.com/RustSandbox/projets-indexer-public)**: A powerful command-line tool for indexing and organizing your projects with AI-powered tag generation.
+- 🦀 **[repo-analyzer](https://github.com/gokh4nozturk/repo-analyzer)**: A tool to analyze GitHub repositories and generate detailed reports with cloud storage upload capability.
+- 🦀 **[uu_hostname](https://github.com/uutils/coreutils/tree/main/src/uu/hostname)**: hostname ~ (uutils) display or set the host name of the current host.
+- 🦀 **[hire-david-parker](https://github.com/davidparkercodes/hire-david-parker)**: Interactive terminal-based resume application with a TUI interface.
 - 🦀 **[mdbook-include-rs](https://github.com/bryncooke/mdbook-include-rs)**: An mdBook preprocessor that includes external Rust source files.
 - 🦀 **[nektar](https://github.com/DeaconDesperado/nektar)**: A fast, lightweight CLI for Hive Metastore.
 - 🦀 **[osynic_serializer](https://github.com/osynicite/osynic_serializer)**: A osu beatmapsets serializer lib & TUI application based on osynic_osudb.
 - 🦀 **[sql-schema](https://github.com/jvatic/sql-schema)**: Declarative SQL schema migrations.
-- 🦀 **[tu](https://github.com/ad-si/tu)**: CLI tool to convert a natural language date/time string to UTC.
 - 🦀 **[workspacer-publish](null)**: Enables asynchronous publishing of Rust workspace packages, managing dependencies and registry configurations.
-- 🦀 **[dvb-gse](https://github.com/daniestevez/dvb-gse/)**: DVB-GSE (Digital Video Brodcast Generic Stream Encapsulation).
-- 🦀 **[hire-david-parker](https://github.com/davidparkercodes/hire-david-parker)**: Interactive terminal-based resume application with a TUI interface.
-- 🦀 **[adb-rust](null)**: A common adb operation.
-- 🦀 **[logics-rs](https://github.com/viur-framework/logics)**: Logics is a user-friendly formula language with a subset of Python's expression syntax.
-- 🦀 **[nwr](https://github.com/wang-q/nwr)**: `nwr` is a command line tool for newick and taxonomy.
-- 🦀 **[plsync](https://github.com/guillermomolina/plsync)**: Parallel local only `rsync` implementation in Rust.
-- 🦀 **[lazybar](https://github.com/Qelxiros/lazybar)**: A lightweight, event-driven X11 status bar.
-- 🦀 **[license-system](https://gitee.com/eternalnight996)**: 授权协议框架.
-- 🦀 **[statusline](https://codeberg.org/yuki0iq/statusline)**: Simple and fast bash PS1 line with useful features.
-- 🦀 **[tbll](https://github.com/dhth/tbll)**: tbll outputs data in tabular format.
-- 🦀 **[workspacer-docs](null)**: Provides an async interface to run `cargo doc` within Cargo workspaces, facilitating Rust documentation generation.
-- 🦀 **[dia-hammer](null)**: .
-- 🦀 **[icentral-operation](null)**: A Rust crate that defines an enum for basic operations including insertion and deletion, with essential utilities for operation management.
-- 🦀 **[lumos-svm-rs](https://github.com/ffimnsr/lumos-svm-rs)**: A simple SVM test validator.
-- 🦀 **[maelstrom-run](https://github.com/maelstrom-software/maelstrom)**: Program for submitting jobs to Maelstrom clusters.
-- 🦀 **[deindent](https://github.com/adriangoransson/deindent)**: A command line utility and Rust library to format overly-indented text.
-- 🦀 **[nyandere](https://github.com/MultisampledNight/nyandere)**: i help with keeping track of purchases.
-- 🦀 **[am](https://github.com/ryanccn/am.git)**: A beautiful and feature-packed Apple Music CLI.
 - 🦀 **[cobalt-core](https://github.com/cobalt-org/cobalt.rs)**: Static site generator written in Rust.
-- 🦀 **[mdbook-d2](https://github.com/danieleades/mdbook-d2)**: D2 diagram generator plugin for MdBook.
-- 🦀 **[uu_arch](https://github.com/uutils/coreutils/tree/main/src/uu/arch)**: arch ~ (uutils) display machine architecture.
-- 🦀 **[uu_sync](https://github.com/uutils/coreutils/tree/main/src/uu/sync)**: sync ~ (uutils) synchronize cache writes to storage.
+- 🦀 **[maelstrom-run](https://github.com/maelstrom-software/maelstrom)**: Program for submitting jobs to Maelstrom clusters.
+- 🦀 **[bore-cli](https://github.com/ekzhang/bore)**: A modern, simple TCP tunnel in Rust that exposes local ports to a remote server, bypassing standard NAT connection firewalls.
+- 🦀 **[dia-hammer](null)**: .
+- 🦀 **[logics-rs](https://github.com/viur-framework/logics)**: Logics is a user-friendly formula language with a subset of Python's expression syntax.
+- 🦀 **[plsync](https://github.com/guillermomolina/plsync)**: Parallel local only `rsync` implementation in Rust.
+- 🦀 **[am](https://github.com/ryanccn/am.git)**: A beautiful and feature-packed Apple Music CLI.
+- 🦀 **[icentral-operation](null)**: A Rust crate that defines an enum for basic operations including insertion and deletion, with essential utilities for operation management.
+- 🦀 **[lazybar](https://github.com/Qelxiros/lazybar)**: A lightweight, event-driven X11 status bar.
+- 🦀 **[statusline](https://codeberg.org/yuki0iq/statusline)**: Simple and fast bash PS1 line with useful features.
+- 🦀 **[workspacer-docs](null)**: Provides an async interface to run `cargo doc` within Cargo workspaces, facilitating Rust documentation generation.
+- 🦀 **[deindent](https://github.com/adriangoransson/deindent)**: A command line utility and Rust library to format overly-indented text.
+- 🦀 **[gitscribe](https://github.com/Kade-Powell/gitscribe)**: A simple command line tool to generate a change log from a git repository and control the versioning of a project.
+- 🦀 **[license-system](https://gitee.com/eternalnight996)**: 授权协议框架.
+- 🦀 **[tbll](https://github.com/dhth/tbll)**: tbll outputs data in tabular format.
 - 🦀 **[aoss-curl](https://github.com/jhandguy/aoss-curl)**: Request to Amazon OpenSearch Service with SigV4 🔏.
 - 🦀 **[cicada](https://github.com/mitnk/cicada)**: A simple Bash-like Unix shell.
-- 🦀 **[gitscribe](https://github.com/Kade-Powell/gitscribe)**: A simple command line tool to generate a change log from a git repository and control the versioning of a project.
-- 🦀 **[tonysd-config-manager](https://github.com/TonySD/config-manager)**: Crate to build config from environment, command line and files.
-- 🦀 **[uu_hostname](https://github.com/uutils/coreutils/tree/main/src/uu/hostname)**: hostname ~ (uutils) display or set the host name of the current host.
 - 🦀 **[lla_plugin_interface](https://github.com/chaqchase/lla)**: Interface for lla plugins.
-- 🦀 **[rpgcpf](https://git.sr.ht/~absolutely-vivid/rpgcpf)**: GCPF archive compression and decompression library.
-- 🦀 **[rsfrac](https://github.com/SkwalExe/rsfrac)**: The Terminal-Based Fractal Explorer.
-- 🦀 **[rusty-ast](https://github.com/katsuhirohonda/rusty-ast)**: A tool that analyzes Rust code and visualizes its AST.
+- 🦀 **[lumos-svm-rs](https://github.com/ffimnsr/lumos-svm-rs)**: A simple SVM test validator.
+- 🦀 **[nyandere](https://github.com/MultisampledNight/nyandere)**: i help with keeping track of purchases.
+- 🦀 **[tvrank](https://github.com/fredmorcos/tvrank)**: Query and sort information about movies and series.
+- 🦀 **[uu_nproc](https://github.com/uutils/coreutils/tree/main/src/uu/nproc)**: nproc ~ (uutils) display the number of processing units available.
 - 🦀 **[cargo-leet](https://github.com/rust-practice/cargo-leet)**: Utility program to help with working on leetcode locally.
 - 🦀 **[genee](https://github.com/mfep/genee)**: A habit tracker app with command-line interface.
-- 🦀 **[hive_metastore](https://github.com/Xuanwo/hive_metastore_rs)**: Native hive metastore client for Rust, powered by Volo.
-- 🦀 **[roblox-studio-utils](https://github.com/filiptibell/roblox-studio-utils)**: Cross-platform library for interacting with Roblox Studio.
-- 🦀 **[rusty-react-flow](https://github.com/cargo-fob/rusty-react-flow)**: Parsing and analyzing React Components Flow code.
-- 🦀 **[tvrank](https://github.com/fredmorcos/tvrank)**: Query and sort information about movies and series.
-- 🦀 **[date_filter_search](https://github.com/IMprojtech/Date_Filter_Search)**: Date Filter Search is a Rust library that makes working with dates a breeze.
-- 🦀 **[filerefine](https://github.com/trinhminhtriet/filerefine)**: 🧹 FileRefine is a Rust-based CLI tool that renames files in a directory to remove unwanted or problematic characters from filenames.
-- 🦀 **[fs_rs](https://github.com/akshaybabloo/fs_rs)**: A simple file system information tool written in Rust.
+- 🦀 **[rsfrac](https://github.com/SkwalExe/rsfrac)**: The Terminal-Based Fractal Explorer.
+- 🦀 **[rusty-ast](https://github.com/katsuhirohonda/rusty-ast)**: A tool that analyzes Rust code and visualizes its AST.
 - 🦀 **[asimeow](https://github.com/mdnmdn/asimeow)**: A tool for managing macOS Time Machine exclusions for developer's workspaces.
+- 🦀 **[date_filter_search](https://github.com/IMprojtech/Date_Filter_Search)**: Date Filter Search is a Rust library that makes working with dates a breeze.
+- 🦀 **[fs_rs](https://github.com/akshaybabloo/fs_rs)**: A simple file system information tool written in Rust.
+- 🦀 **[roblox-studio-utils](https://github.com/filiptibell/roblox-studio-utils)**: Cross-platform library for interacting with Roblox Studio.
+- 🦀 **[rpgcpf](https://git.sr.ht/~absolutely-vivid/rpgcpf)**: GCPF archive compression and decompression library.
+- 🦀 **[rusty-react-flow](https://github.com/cargo-fob/rusty-react-flow)**: Parsing and analyzing React Components Flow code.
+- 🦀 **[tonysd-config-manager](https://github.com/TonySD/config-manager)**: Crate to build config from environment, command line and files.
+- 🦀 **[aloe-ladspa](https://github.com/klebs6/aloe-rs)**: A Rust crate for managing and interfacing with LADSPA audio plugins, supporting loading and operating plugins on Linux and BSD.
 - 🦀 **[auxiliaire](https://github.com/clechasseur/auxiliaire)**: Your friendly Exercism.
-- 🦀 **[cross-crypto-rs](https://github.com/acadyne/cross-crypto-rs)**: Librería de criptografía en Rust compatible con Python y JavaScript.
+- 🦀 **[filerefine](https://github.com/trinhminhtriet/filerefine)**: 🧹 FileRefine is a Rust-based CLI tool that renames files in a directory to remove unwanted or problematic characters from filenames.
 - 🦀 **[ftag](https://github.com/ranjeethmahankali/ftag)**: CLI tool for tagging and searching files.
 - 🦀 **[gitbox](https://github.com/asperan/gitbox)**: Git toolbox to simplify adoption of conventional commits and semantic version, among other things.
+- 🦀 **[xvc-file](https://github.com/iesahin/xvc)**: File tracking, versioning, upload and download functions for Xvc.
+- 🦀 **[cross-crypto-rs](https://github.com/acadyne/cross-crypto-rs)**: Librería de criptografía en Rust compatible con Python y JavaScript.
+- 🦀 **[dng](https://github.com/apertus-open-source-cinema/dng-rs)**: A pure rust library for reading / writing DNG files providing access to the raw data.
 - 🦀 **[dwipe](https://github.com/trinhminhtriet/dwipe)**: Fast, cross-platform disk cleanup tool with interactive UI.
-- 🦀 **[projector](https://github.com/chasinglogic/projector)**: A code repository manager.
-- 🦀 **[uu_nproc](https://github.com/uutils/coreutils/tree/main/src/uu/nproc)**: nproc ~ (uutils) display the number of processing units available.
-- 🦀 **[aloe-ladspa](https://github.com/klebs6/aloe-rs)**: A Rust crate for managing and interfacing with LADSPA audio plugins, supporting loading and operating plugins on Linux and BSD.
-- 🦀 **[http-nu](https://github.com/cablehead/http-nu)**: Serve a Nushell closure over HTTP.
-- 🦀 **[wpsr](https://github.com/jerus-org/wpsr)**: Command line program to help solve word puzzles.
-- 🦀 **[dofus-dmg-calculator](https://github.com/Patacode/dofus-dmg-calculator)**: A binary crate to estimate Dofus spells' output damage.
-- 🦀 **[neaten](https://github.com/abhinath84/neaten)**: An application to cleanup resources from hard drive.
-- 🦀 **[pathmut](https://github.com/rutrum/pathmut)**: Command line utility for manipulating path strings.
-- 🦀 **[xpg](https://github.com/qtfkwk/xpg)**: xkcd-style password generator.
+- 🦀 **[surrealdb-migrations](https://github.com/Odonno/surrealdb-migrations/)**: An awesome SurrealDB migration tool, with a user-friendly CLI and a versatile Rust library that enables seamless integration into any project.
 - 🦀 **[zebrad](https://github.com/ZcashFoundation/zebra)**: The Zcash Foundation's independent, consensus-compatible implementation of a Zcash node.
+- 🦀 **[http-nu](https://github.com/cablehead/http-nu)**: Serve a Nushell closure over HTTP.
+- 🦀 **[pathmut](https://github.com/rutrum/pathmut)**: Command line utility for manipulating path strings.
+- 🦀 **[dofus-dmg-calculator](https://github.com/Patacode/dofus-dmg-calculator)**: A binary crate to estimate Dofus spells' output damage.
 - 🦀 **[merka-vault](https://github.com/cosmicrocks/merka-vault)**: Vault provisioning and management crate integrating with merka-core.
-- 🦀 **[nlfmt-serve](https://github.com/nlfmt/serve)**: quickly serve files from a directory in your local network.
-- 🦀 **[entrust](https://github.com/hepptho/entrust)**: A CLI password manager.
+- 🦀 **[neaten](https://github.com/abhinath84/neaten)**: An application to cleanup resources from hard drive.
+- 🦀 **[projector](https://github.com/chasinglogic/projector)**: A code repository manager.
+- 🦀 **[wpsr](https://github.com/jerus-org/wpsr)**: Command line program to help solve word puzzles.
+- 🦀 **[xpg](https://github.com/qtfkwk/xpg)**: xkcd-style password generator.
 - 🦀 **[form_builder](https://github.com/vertyll/form-builder)**: A library for building forms with various fields and validation.
+- 🦀 **[nlfmt-serve](https://github.com/nlfmt/serve)**: quickly serve files from a directory in your local network.
+- 🦀 **[xvc](https://github.com/iesahin/xvc)**: An MLOps tool to manage data files and pipelines on top of Git.
+- 🦀 **[cargo-attribution](https://github.com/ameknite/cargo-attribution)**: A cargo subcommand to give credit to your dependencies.
+- 🦀 **[entrust](https://github.com/hepptho/entrust)**: A CLI password manager.
+- 🦀 **[animesh](https://github.com/Abhi-Gautam/animesh.git)**: A powerful CLI tool for anime fans to track their favorite shows and discover new anime.
+- 🦀 **[cobalt-bin](https://github.com/cobalt-org/cobalt.rs)**: Static site generator written in Rust.
 - 🦀 **[iroga](https://github.com/tangtang95/iroga)**: Command line app to pack a single directory into an IRO archive (FF7 mod manager format).
 - 🦀 **[semantic-search](https://github.com/PRO-2684/Semantic-Search)**: 🔎 Semantic search library.
-- 🦀 **[rsrusl](https://github.com/monitio/rusl/)**: A really simple useful library ported to Rust.
 - 🦀 **[adv_fs_utils](https://github.com/mohtashimnawaz/fs_utilities)**: A comprehensive library for file system operations with progress reporting and advanced search capabilities.
-- 🦀 **[animesh](https://github.com/Abhi-Gautam/animesh.git)**: A powerful CLI tool for anime fans to track their favorite shows and discover new anime.
 - 🦀 **[base1000](https://github.com/real-LiHua/Base1000QianZiWenCodec)**: A a text encoder based on the "Thousand Character Classic".
-- 🦀 **[cobalt-bin](https://github.com/cobalt-org/cobalt.rs)**: Static site generator written in Rust.
 - 🦀 **[cr-prep](https://github.com/kyuki3rain/cr-prep)**: A CLI tool for collecting code files for code review.
-- 🦀 **[dng](https://github.com/apertus-open-source-cinema/dng-rs)**: A pure rust library for reading / writing DNG files providing access to the raw data.
-- 🦀 **[thoughts](https://github.com/kalscium/thoughts)**: A simple cli for recording down any random thoughts you may have :D.
-- 🦀 **[xpic](https://github.com/fhluo/xpic)**: Save wallpapers from Windows Spotlight and Bing.
-- 🦀 **[xvc-file](https://github.com/iesahin/xvc)**: File tracking, versioning, upload and download functions for Xvc.
+- 🦀 **[rsrusl](https://github.com/monitio/rusl/)**: A really simple useful library ported to Rust.
 - 🦀 **[repro-env](https://github.com/kpcyrd/repro-env)**: Dependency lockfiles for reproducible build environments 📦🔒.
-- 🦀 **[cargo-attribution](https://github.com/ameknite/cargo-attribution)**: A cargo subcommand to give credit to your dependencies.
-- 🦀 **[workspacer-cli](null)**: A versatile command-line interface for Rust workspace management, providing comprehensive controls for crate analysis, import formatting, cleanup, dependency checks, and more.
-- 🦀 **[pricc](https://github.com/claeusdev/pricc)**: A very simple C project bootstrapper.
+- 🦀 **[xpic](https://github.com/fhluo/xpic)**: Save wallpapers from Windows Spotlight and Bing.
 - 🦀 **[gems](https://github.com/wiseaidev/gems)**: 💎 A cli, tui, and sdk for interacting with the Gemini API (WIP).
+- 🦀 **[thoughts](https://github.com/kalscium/thoughts)**: A simple cli for recording down any random thoughts you may have :D.
+- 🦀 **[pgdo-lib](https://github.com/allenap/pgdo)**: The convenience of SQLite – but with PostgreSQL (Library package).
+- 🦀 **[wol](https://codeberg.org/swsnr/wol)**: Wake up remote hosts with Wake On LAN magic packets.
+- 🦀 **[workspacer-cli](null)**: A versatile command-line interface for Rust workspace management, providing comprehensive controls for crate analysis, import formatting, cleanup, dependency checks, and more.
+- 🦀 **[altairsh](https://github.com/dcdms/altair)**: A simple Rust script to run multiple commands at the same time.
 - 🦀 **[pessoa](https://github.com/joao-conde/pessoa)**: Library for generating fake identities/user data in different languages.
+- 🦀 **[pricc](https://github.com/claeusdev/pricc)**: A very simple C project bootstrapper.
 - 🦀 **[telegram-raf](https://github.com/galeone/raf)**: RaF (Refer a Friend): bot for creating referral-based contests for your Telegram channels, groups and supergroups.
 - 🦀 **[ttfb](https://github.com/phip1611/ttfb)**: Library + CLI utility to measure the TTFB (time to first byte) of HTTP(S) requests.
-- 🦀 **[wol](https://codeberg.org/swsnr/wol)**: Wake up remote hosts with Wake On LAN magic packets.
-- 🦀 **[altairsh](https://github.com/dcdms/altair)**: A simple Rust script to run multiple commands at the same time.
-- 🦀 **[xvc](https://github.com/iesahin/xvc)**: An MLOps tool to manage data files and pipelines on top of Git.
+- 🦀 **[dmgwiz](https://github.com/citruz/dmgwiz)**: Extract filesystem data from DMG files.
 - 🦀 **[mechylang](https://github.com/Dutch-Raptor/mechylang)**: Mechylang is a toy language created for learning purposes.
 - 🦀 **[sweet-potator](https://github.com/tobx/sweet-potator)**: Static recipe site generator.
 - 🦀 **[dnacomb](https://github.com/allydunham/dnacomb)**: Count the occurances of structured sequence reads and compare to an expected library.
-- 🦀 **[vanikey](https://github.com/curtisknudson/vanikey)**: A simple command-line vanity npub generator for Nostr.
-- 🦀 **[bore-cli](https://github.com/ekzhang/bore)**: A modern, simple TCP tunnel in Rust that exposes local ports to a remote server, bypassing standard NAT connection firewalls.
-- 🦀 **[tidk](https://github.com/tolkit/telomeric-identifier)**: A toolkit for finding telomeric repeats in a genome.
 - 🦀 **[bumpversion](https://github.com/romnn/bumpversion)**: Update all version strings in your project and optionally commit and tag the changes.
+- 🦀 **[ez_netflow_lib](https://github.com/vektorprime/ez-netflow)**: EZ-Netflow is an all-in-one netflow server and library that's really easy to use.
+- 🦀 **[necronux_core](https://github.com/NayanTheSpaceGuy/necronux)**: Provides core business logic for Necronux.
+- 🦀 **[vanikey](https://github.com/curtisknudson/vanikey)**: A simple command-line vanity npub generator for Nostr.
 - 🦀 **[lperft](https://github.com/HansTibberio/lperft)**: A blazingly fast, multithreaded perft tool.
-- 🦀 **[parser-cli](https://github.com/excoffierleonard/parser)**: Command-line interface for extracting text from various file formats.
-- 🦀 **[pgdo-lib](https://github.com/allenap/pgdo)**: The convenience of SQLite – but with PostgreSQL (Library package).
 - 🦀 **[pratdiff](https://github.com/fowles/pratdiff)**: A colorfull diff tool based on the patience diff algorithm.
 - 🦀 **[presto-cli](https://github.com/amirhosseinghanipour/presto)**: Presto accelerates preprocessing with precision.
 - 🦀 **[rara](https://github.com/suquiya/rara)**: Rara is a password generator.
-- 🦀 **[filespooler](https://salsa.debian.org/jgoerzen/filespooler)**: Sequential, distributed, POSIX-style job queue processing.
-- 🦀 **[ez_netflow_lib](https://github.com/vektorprime/ez-netflow)**: EZ-Netflow is an all-in-one netflow server and library that's really easy to use.
-- 🦀 **[anne_terminal_input](https://github.com/annekitsune/anne_terminal_input)**: A terminal input handling library using crossterm for Rust.
-- 🦀 **[necronux_core](https://github.com/NayanTheSpaceGuy/necronux)**: Provides core business logic for Necronux.
-- 🦀 **[cargo-check-deadlock](https://github.com/hlisdero/cargo-check-deadlock)**: Detect deadlocks in Rust source code at compile time using Petri nets.
-- 🦀 **[ruswacipher](https://github.com/lonless9/ruswacipher)**: A Rust tool for encrypting and protecting WebAssembly modules.
-- 🦀 **[lezeh](https://github.com/sendyhalim/lezeh)**: Work specific productivity commands.
-- 🦀 **[libmrot](https://github.com/fleetingbytes/mrot/)**: Library for recording and planning meals.
-- 🦀 **[shapely-pretty](https://github.com/bearcove/shapely)**: Pretty-printing for types implementing the Shapely trait.
-- 🦀 **[nuts-tool-api](https://github.com/drobin/nuts.git)**: Code that helps you to implement a nuts tool plugin.
-- 🦀 **[surrealdb-migrations](https://github.com/Odonno/surrealdb-migrations/)**: An awesome SurrealDB migration tool, with a user-friendly CLI and a versatile Rust library that enables seamless integration into any project.
-- 🦀 **[workspacer-show-dependency-tree](null)**: Displays an intuitive dependency tree for Rust workspaces, enhancing dependency management and project structure understanding.
-- 🦀 **[crypto-cli](https://github.com/yourusername/crypto-cli)**: A command-line tool for crypto operations.
-- 🦀 **[cloudwatch_metrics_agent](https://github.com/theirix/cloudwatch_metrics_agent)**: An agent for sending custom CPU and memory metrics to Cloudwatch.
+- 🦀 **[tidk](https://github.com/tolkit/telomeric-identifier)**: A toolkit for finding telomeric repeats in a genome.
 - 🦀 **[disarm64](https://github.com/kromych/disarm64)**: disarm64 provides a tool and a library for decoding ARM64 instructions (at least 250 MiB/sec of the decoding speed is delivered on a laptop that is used for development).
+- 🦀 **[filespooler](https://salsa.debian.org/jgoerzen/filespooler)**: Sequential, distributed, POSIX-style job queue processing.
+- 🦀 **[parser-cli](https://github.com/excoffierleonard/parser)**: Command-line interface for extracting text from various file formats.
+- 🦀 **[xvc-pipeline](https://github.com/iesahin/xvc)**: Xvc data pipeline management.
+- 🦀 **[anne_terminal_input](https://github.com/annekitsune/anne_terminal_input)**: A terminal input handling library using crossterm for Rust.
+- 🦀 **[cargo-check-deadlock](https://github.com/hlisdero/cargo-check-deadlock)**: Detect deadlocks in Rust source code at compile time using Petri nets.
+- 🦀 **[libmrot](https://github.com/fleetingbytes/mrot/)**: Library for recording and planning meals.
 - 🦀 **[necronux_utils](https://github.com/NayanTheSpaceGuy/necronux)**: A collection of utils for Necronux.
+- 🦀 **[nuts-tool-api](https://github.com/drobin/nuts.git)**: Code that helps you to implement a nuts tool plugin.
+- 🦀 **[shapely-pretty](https://github.com/bearcove/shapely)**: Pretty-printing for types implementing the Shapely trait.
+- 🦀 **[git-task](https://github.com/jhspetersson/git-task)**: Local-first task manager/bug tracker within your git repository which can sync issues with remote sources.
+- 🦀 **[lezeh](https://github.com/sendyhalim/lezeh)**: Work specific productivity commands.
+- 🦀 **[ruswacipher](https://github.com/lonless9/ruswacipher)**: A Rust tool for encrypting and protecting WebAssembly modules.
+- 🦀 **[cloudwatch_metrics_agent](https://github.com/theirix/cloudwatch_metrics_agent)**: An agent for sending custom CPU and memory metrics to Cloudwatch.
+- 🦀 **[workspacer-show-dependency-tree](null)**: Displays an intuitive dependency tree for Rust workspaces, enhancing dependency management and project structure understanding.
+- 🦀 **[codebank](https://github.com/tyrchen/codebank)**: A powerful code documentation generator that creates structured markdown documentation from your codebase.
+- 🦀 **[crypto-cli](https://github.com/yourusername/crypto-cli)**: A command-line tool for crypto operations.
+- 🦀 **[smart-locker](https://github.com/WillIsback/smart-locker)**: A smart locker CLI tool.
+- 🦀 **[typope](https://github.com/ronnychevalier/typope)**: Pedantic source code checker for orthotypography mistakes and other typographical errors.
+- 🦀 **[awsm-env](https://github.com/affanshahid/awsm-env)**: A lightweight utility for syncing AWS Secrets Manager secrets to environment variables.
+- 🦀 **[gnostr-query](https://github.com/gnostr-org/gnostr-query.git)**: gnostr-query: retrieve nostr events.
 - 🦀 **[practicestuff](https://gitlab.com/bartekjaszczak/practicestuff)**: Simple CLI trainer for improving calculation and memorisation skills.
 - 🦀 **[semantic-search-cli](https://github.com/PRO-2684/Semantic-Search)**: 🔎 Semantic search cli.
 - 🦀 **[sh4d0wup](https://github.com/kpcyrd/sh4d0wup)**: Signing-key abuse and update exploitation framework.
-- 🦀 **[smart-locker](https://github.com/WillIsback/smart-locker)**: A smart locker CLI tool.
 - 🦀 **[sol2seq](https://github.com/sumitvekariya/sol2seq)**: Sequence diagram generator for Solidity contracts.
 - 🦀 **[treetags](https://github.com/jha-naman/treetags)**: Generate vi compatible tags for multiple languages.
-- 🦀 **[typope](https://github.com/ronnychevalier/typope)**: Pedantic source code checker for orthotypography mistakes and other typographical errors.
-- 🦀 **[awsm-env](https://github.com/affanshahid/awsm-env)**: A lightweight utility for syncing AWS Secrets Manager secrets to environment variables.
 - 🦀 **[workspacer-organize](null)**: A versatile crate for designing and managing workspace layouts, facilitating improved productivity and workflow optimization.
-- 🦀 **[gnostr-query](https://github.com/gnostr-org/gnostr-query.git)**: gnostr-query: retrieve nostr events.
-- 🦀 **[sessionizer](https://github.com/knutwalker/sessionizer)**: Tmux session manager.
-- 🦀 **[vectordb-cli](https://gitlab.com/amulvany/vectordb-cli)**: A CLI tool for semantic code search.
-- 🦀 **[xvc-pipeline](https://github.com/iesahin/xvc)**: Xvc data pipeline management.
+- 🦀 **[xvc-test-helper](https://github.com/iesahin/xvc)**: Test helper command for Xvc.
+- 🦀 **[necronux_cli_app](https://github.com/NayanTheSpaceGuy/necronux)**: Provides the CLI implementation for Necronux.
 - 🦀 **[not-tailwind](https://github.com/uros-5/not-tailwind)**: A tool for shortening css classes.
 - 🦀 **[procx](https://github.com/trinhminhtriet/procx)**: ProcX is an interactive command-line tool for quickly searching and terminating processes, offering a streamlined alternative to traditional kill.
-- 🦀 **[codebank](https://github.com/tyrchen/codebank)**: A powerful code documentation generator that creates structured markdown documentation from your codebase.
-- 🦀 **[calcula](https://github.com/caydenlund/calcula)**: A simple calculator library and command-line app.
-- 🦀 **[workspacer-ensure-git-clean](null)**: Asserts and enforces a clean Git workspace state prior to critical operations.
-- 🦀 **[git-task](https://github.com/jhspetersson/git-task)**: Local-first task manager/bug tracker within your git repository which can sync issues with remote sources.
-- 🦀 **[icentral](null)**: iCentral is a command-line interface development utility in Rust, providing argument parsing, subcommand management, dynamic flag implementation, and asynchronous operation support for efficient CLI application development.
+- 🦀 **[sessionizer](https://github.com/knutwalker/sessionizer)**: Tmux session manager.
+- 🦀 **[vectordb-cli](https://gitlab.com/amulvany/vectordb-cli)**: A CLI tool for semantic code search.
+- 🦀 **[anchors_aweigh](https://github.com/benfalk/anchors-aweigh)**: versatile include tag preprocessor for mdbook.
 - 🦀 **[jiu](https://github.com/PRO-2684/jiu)**: A minimal command runner.
-- 🦀 **[necronux_cli_app](https://github.com/NayanTheSpaceGuy/necronux)**: Provides the CLI implementation for Necronux.
 - 🦀 **[keg](https://github.com/keg-project/keg)**: A portable container without boilerplate.
+- 🦀 **[tindercrypt](https://github.com/apyrgio/tindercrypt)**: Data encryption with symmetric cryptographic keys or passwords/passphrases, and self-contained encryption metadata.
+- 🦀 **[workspacer-ensure-git-clean](null)**: Asserts and enforces a clean Git workspace state prior to critical operations.
+- 🦀 **[calcula](https://github.com/caydenlund/calcula)**: A simple calculator library and command-line app.
+- 🦀 **[icentral](null)**: iCentral is a command-line interface development utility in Rust, providing argument parsing, subcommand management, dynamic flag implementation, and asynchronous operation support for efficient CLI application development.
 - 🦀 **[novel-api](https://github.com/novel-rs/api)**: Novel APIs from various sources.
 - 🦀 **[poetry-udeps](https://github.com/lukehsiao/poetry-udeps)**: Find unused dependencies in pyproject.
+- 🦀 **[r3bl_tui](https://github.com/r3bl-org/r3bl-open-core/tree/main/tui)**: TUI library to build modern apps inspired by React, Elm, with Flexbox, CSS, editor component, emoji support, and more.
+- 🦀 **[codact](https://github.com/MahmoudESSE/codact)**: solutions to advent of code.
 - 🦀 **[refman](https://github.com/nrminor/refman)**: A command-line manager for bespoke reference datasets used in bioinformatic analyses.
-- 🦀 **[tindercrypt](https://github.com/apyrgio/tindercrypt)**: Data encryption with symmetric cryptographic keys or passwords/passphrases, and self-contained encryption metadata.
+- 🦀 **[dicgen](https://github.com/jhg/dicgen)**: Generate a list with all combinations for given characters, like in brute force attacks.
+- 🦀 **[png-rusty](https://github.com/Nathanahell/png-rusty)**: A library to parse, encode, decode, manipulate PNG chunks.
+- 🦀 **[rdfoothills-iri](https://github.com/hoijui/osh-dir-std-rs)**: Provides a few basic types to reference IRIs and ontologies.
 - 🦀 **[rdfoothills-vocabgen](https://github.com/hoijui/osh-dir-std-rs)**: Reads vocabularies (OWL) and generates shortcuts for their RDF terms to be used in Rust code (based on the `oxrdf` library).
 - 🦀 **[src2md](https://github.com/MatiasHiltunen/src2md)**: Turn source code into a Markdown document with syntax highlighting, or extract it back.
-- 🦀 **[codact](https://github.com/MahmoudESSE/codact)**: solutions to advent of code.
-- 🦀 **[png-rusty](https://github.com/Nathanahell/png-rusty)**: A library to parse, encode, decode, manipulate PNG chunks.
-- 🦀 **[r3bl_tui](https://github.com/r3bl-org/r3bl-open-core/tree/main/tui)**: TUI library to build modern apps inspired by React, Elm, with Flexbox, CSS, editor component, emoji support, and more.
-- 🦀 **[rdfoothills-iri](https://github.com/hoijui/osh-dir-std-rs)**: Provides a few basic types to reference IRIs and ontologies.
-- 🦀 **[dicgen](https://github.com/jhg/dicgen)**: Generate a list with all combinations for given characters, like in brute force attacks.
 - 🦀 **[umbrella](https://github.com/bitfield/umbrella)**: A simple weather client and CLI tool for the WeatherStack API.
 - 🦀 **[wincent](https://github.com/Hellager/wincent-rs)**: A library for handling windows quick access.
-- 🦀 **[dmgwiz](https://github.com/citruz/dmgwiz)**: Extract filesystem data from DMG files.
 - 🦀 **[gnostr-ngit](https://gnostr.org)**: gnostr: fork of ngit.
 - 🦀 **[lucky-point](https://github.com/HelloTomBruce/lucky-port)**: A cross-platform CLI tool to recommend lucky ports based on system usage.
-- 🦀 **[worterbuch-cli](https://github.com/babymotte/worterbuch)**: Command line clients for Wörterbuch.
 - 🦀 **[notox](https://github.com/Its-Just-Nans/notox)**: no toxic names anymore.
-- 🦀 **[simple-disk-benchmark](https://github.com/schwa/simple-disk-benchmark-rs)**: A simple disk benchmark tool.
-- 🦀 **[xvc-test-helper](https://github.com/iesahin/xvc)**: Test helper command for Xvc.
-- 🦀 **[youdusa](https://github.com/defi-wonderland/youdusa-rs)**: Take a Medusa trace as input, parse it and create Foundry reproducer function for every failing properties.
-- 🦀 **[rdfoothills-vocab](https://github.com/hoijui/osh-dir-std-rs)**: Provides shortcuts for common RDF ontologies/vocabularies, as an extension to what can be found in `oxrdf::vocab`.
-- 🦀 **[up2code](https://github.com/bitfield/up2code)**: up2code is a tool to check code listings in Markdown files against a GitHub repository.
+- 🦀 **[worterbuch-cli](https://github.com/babymotte/worterbuch)**: Command line clients for Wörterbuch.
 - 🦀 **[corrode-mcp](null)**: Corrode Code MCP Server for Rust.
-- 🦀 **[palette-bin](https://git.enoent.fr/kernald/palette)**: Apply an ACT palette to and optionally resize an image.
-- 🦀 **[parse-frequency](https://github.com/Daxanius/parse-frequency)**: A simple library to parse frequency strings into a frequency in Hz.
-- 🦀 **[anchors_aweigh](https://github.com/benfalk/anchors-aweigh)**: versatile include tag preprocessor for mdbook.
+- 🦀 **[youdusa](https://github.com/defi-wonderland/youdusa-rs)**: Take a Medusa trace as input, parse it and create Foundry reproducer function for every failing properties.
+- 🦀 **[brush-core](https://github.com/reubeno/brush)**: Reusable core of a POSIX/bash shell (used by brush-shell).
 - 🦀 **[count-lines](https://github.com/stringertheory/count-lines)**: Efficiently count lines in files or stdin with estimation for large files.
+- 🦀 **[parse-frequency](https://github.com/Daxanius/parse-frequency)**: A simple library to parse frequency strings into a frequency in Hz.
+- 🦀 **[simple-disk-benchmark](https://github.com/schwa/simple-disk-benchmark-rs)**: A simple disk benchmark tool.
+- 🦀 **[up2code](https://github.com/bitfield/up2code)**: up2code is a tool to check code listings in Markdown files against a GitHub repository.
+- 🦀 **[clipboard-history-core](https://github.com/SUPERCILEX/clipboard-history)**: The ringboard core library.
 - 🦀 **[git-z](https://github.com/ejpcmac/git-z)**: A Git extension to go beyond.
+- 🦀 **[globetrotter-model](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
+- 🦀 **[rdfoothills-vocab](https://github.com/hoijui/osh-dir-std-rs)**: Provides shortcuts for common RDF ontologies/vocabularies, as an extension to what can be found in `oxrdf::vocab`.
 - 🦀 **[knope](https://github.com/knope-dev/knope)**: A command line tool for automating common development tasks.
+- 🦀 **[palette-bin](https://git.enoent.fr/kernald/palette)**: Apply an ACT palette to and optionally resize an image.
 - 🦀 **[twars-url2md](https://github.com/twardoch/twars-url2md)**: A powerful CLI tool that fetches web pages and converts them to clean Markdown format using Monolith for content extraction and htmd for conversion.
 - 🦀 **[kerblam](https://github.com/MrHedmad/kerblam)**: A project management tool for data science and bioinformatics.
-- 🦀 **[warren](https://github.com/bitfield/warren)**: A tool for value investors.
-- 🦀 **[nmap-helper](https://github.com/net-shaper/nmap-helper)**: Some utilities for working with Nmap scan results (https://nmap.
 - 🦀 **[nuts-tool](https://github.com/drobin/nuts.git)**: A cmdline utility for the nuts container.
-- 🦀 **[pdf-perm](https://github.com/PRO-2684/PDF-Perm)**: Change the permissions of a PDF file.
 - 🦀 **[ssh-vault](https://github.com/ssh-vault/ssh-vault)**: encrypt/decrypt using ssh keys.
-- 🦀 **[bitcoin_de](https://github.com/holg/bitcoin_de.git)**: Implementation of the Bitcoin.
-- 🦀 **[globetrotter-model](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
-- 🦀 **[iqair](https://github.com/bend-n/iqair)**: IQAir api accessor crate.
-- 🦀 **[kitget](https://github.com/adamperkowski/kitget)**: Display and customize cat images in your terminal 😼.
-- 🦀 **[version-manager](https://github.com/annie444/version)**: A simple version manager for your projects.
-- 🦀 **[conceal](https://github.com/TD-Sky/conceal)**: Command line recycle bin.
-- 🦀 **[loggur](https://docs.rs/loggur)**: 로깅 크레이트.
-- 🦀 **[razel](https://github.com/reu-dev/razel)**: a command executor with caching for data processing pipelines.
-- 🦀 **[uu_chgrp](https://github.com/uutils/coreutils/tree/main/src/uu/chgrp)**: chgrp ~ (uutils) change the group ownership of FILE.
 - 🦀 **[uu_stdbuf_libstdbuf](https://github.com/uutils/coreutils/tree/main/src/uu/stdbuf)**: stdbuf/libstdbuf ~ (uutils); dynamic library required for stdbuf.
-- 🦀 **[arch-repro-status](https://gitlab.archlinux.org/archlinux/arch-repro-status)**: Check the reproducibility status of your Arch Linux packages.
-- 🦀 **[resolvething](null)**: A CLI tool to resolve syncthing conflicts and duplicate files.
+- 🦀 **[conceal](https://github.com/TD-Sky/conceal)**: Command line recycle bin.
+- 🦀 **[pdf-perm](https://github.com/PRO-2684/PDF-Perm)**: Change the permissions of a PDF file.
+- 🦀 **[uu_chgrp](https://github.com/uutils/coreutils/tree/main/src/uu/chgrp)**: chgrp ~ (uutils) change the group ownership of FILE.
 - 🦀 **[uu_chown](https://github.com/uutils/coreutils/tree/main/src/uu/chown)**: chown ~ (uutils) change the ownership of FILE.
+- 🦀 **[version-manager](https://github.com/annie444/version)**: A simple version manager for your projects.
+- 🦀 **[warren](https://github.com/bitfield/warren)**: A tool for value investors.
 - 🦀 **[atdf2svd](https://github.com/Rahix/atdf2svd)**: Tool to convert Atmel's ATDF files to SVD.
-- 🦀 **[brush-core](https://github.com/reubeno/brush)**: Reusable core of a POSIX/bash shell (used by brush-shell).
-- 🦀 **[mrot-test-utils](https://github.com/fleetingbytes/mrot/)**: Utilities for integration tests of the mrot app.
+- 🦀 **[brush-parser](https://github.com/reubeno/brush)**: POSIX/bash shell tokenizer and parsers (used by brush-shell).
+- 🦀 **[kitget](https://github.com/adamperkowski/kitget)**: Display and customize cat images in your terminal 😼.
+- 🦀 **[nmap-helper](https://github.com/net-shaper/nmap-helper)**: Some utilities for working with Nmap scan results (https://nmap.
+- 🦀 **[bitcoin_de](https://github.com/holg/bitcoin_de.git)**: Implementation of the Bitcoin.
+- 🦀 **[iqair](https://github.com/bend-n/iqair)**: IQAir api accessor crate.
+- 🦀 **[loggur](https://docs.rs/loggur)**: 로깅 크레이트.
 - 🦀 **[uu_chmod](https://github.com/uutils/coreutils/tree/main/src/uu/chmod)**: chmod ~ (uutils) change mode of FILE.
 - 🦀 **[uu_kill](https://github.com/uutils/coreutils/tree/main/src/uu/kill)**: kill ~ (uutils) send a signal to a process.
-- 🦀 **[mc-mcp](https://github.com/metacontract/mc-mcp)**: A Model Context Protocol (MCP) server for metacontract smart contract development.
+- 🦀 **[arch-repro-status](https://gitlab.archlinux.org/archlinux/arch-repro-status)**: Check the reproducibility status of your Arch Linux packages.
+- 🦀 **[mrot-test-utils](https://github.com/fleetingbytes/mrot/)**: Utilities for integration tests of the mrot app.
 - 🦀 **[necronux_internal](https://github.com/NayanTheSpaceGuy/necronux)**: An internal Necronux crate.
-- 🦀 **[threecpio](https://github.com/bdrung/3cpio)**: manage initrd cpio archives.
+- 🦀 **[razel](https://github.com/reu-dev/razel)**: a command executor with caching for data processing pipelines.
+- 🦀 **[resolvething](null)**: A CLI tool to resolve syncthing conflicts and duplicate files.
 - 🦀 **[geneos-toolkit](https://github.com/ITRS-Group/geneos-toolkit-rs)**: Rust library for building Geneos Toolkit compatible applications.
 - 🦀 **[mamegrep](https://github.com/sile/mamegrep)**: Git grep TUI frontend.
-- 🦀 **[loveletter](https://github.com/SilverRainZ/loveletter)**: 🐟 ← 💌 ← 📬 ← 💌 ← 🦢.
+- 🦀 **[mc-mcp](https://github.com/metacontract/mc-mcp)**: A Model Context Protocol (MCP) server for metacontract smart contract development.
 - 🦀 **[rletxtconv](https://github.com/LuMarans30/rletxtconv)**: Conway's Game of Life file format converter.
-- 🦀 **[mamediff](https://github.com/sile/mamediff)**: A TUI editor for managing unstaged and staged Git diffs.
+- 🦀 **[threecpio](https://github.com/bdrung/3cpio)**: manage initrd cpio archives.
 - 🦀 **[create-rust-github-repo](https://github.com/DenisGorbachev/create-rust-github-repo)**: `create-rust-github-repo` is a CLI program that creates a new repository on GitHub, clones it locally, initializes a Rust project, copies the configs from a pre-existing directory.
-- 🦀 **[pwgen2](https://github.com/nbari/pwgen2/)**: password generator.
-- 🦀 **[rustacean-roulette](https://github.com/PRO-2684/rustacean-roulette)**: A simple Russian Roulette Telegram bot implemented in Rust.
-- 🦀 **[termimage](https://github.com/nabijaczleweli/termimage)**: Display images in your terminal, kind of.
-- 🦀 **[dipr](https://github.com/bmgxyz/dipr)**: Converts the National Weather Service's (NWS) Digital Instantaneous Precipitation Rate (DIPR) radar product from its native data format into more common vector GIS formats.
-- 🦀 **[brush-parser](https://github.com/reubeno/brush)**: POSIX/bash shell tokenizer and parsers (used by brush-shell).
-- 🦀 **[rops-cli](https://github.com/gibbz00/rops)**: SOPS CLI alternative in pure Rust.
+- 🦀 **[mamediff](https://github.com/sile/mamediff)**: A TUI editor for managing unstaged and staged Git diffs.
 - 🦀 **[uu_id](https://github.com/uutils/coreutils/tree/main/src/uu/id)**: id ~ (uutils) display user and group information for USER.
+- 🦀 **[headtail](https://github.com/CleanCut/headtail)**: head and tail simultaneously.
+- 🦀 **[loveletter](https://github.com/SilverRainZ/loveletter)**: 🐟 ← 💌 ← 📬 ← 💌 ← 🦢.
 - 🦀 **[uu_stdbuf](https://github.com/uutils/coreutils/tree/main/src/uu/stdbuf)**: stdbuf ~ (uutils) run COMMAND with modified standard stream buffering.
-- 🦀 **[cktool](https://github.com/HermesMaker/cktool)**: coomer.
+- 🦀 **[rustacean-roulette](https://github.com/PRO-2684/rustacean-roulette)**: A simple Russian Roulette Telegram bot implemented in Rust.
 - 🦀 **[uu_chroot](https://github.com/uutils/coreutils/tree/main/src/uu/chroot)**: chroot ~ (uutils) run COMMAND under a new root directory.
-- 🦀 **[gtfsort](https://github.com/alejandrogzi/gtfsort)**: An optimized chr/pos/feature GTF/GFF sorter using a lexicographic-based index ordering algorithm written in Rust.
-- 🦀 **[todotxt-tui-macros](https://github.com/Fanteria/todotxt-tui)**: Todo.
 - 🦀 **[uu_uptime](https://github.com/uutils/coreutils/tree/main/src/uu/uptime)**: uptime ~ (uutils) display dynamic system information.
-- 🦀 **[globetrotter](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
-- 🦀 **[solana-optimizer](https://github.com/oldcwj/solana-optimizer)**: A tool to optimize Solana smart contract bytecode with eBPF transformations.
-- 🦀 **[tiny-dc](https://github.com/n1ghtmare/tiny-dc)**: A tiny but mighty TUI directory changer.
-- 🦀 **[uu_hostid](https://github.com/uutils/coreutils/tree/main/src/uu/hostid)**: hostid ~ (uutils) display the numeric identifier of the current host.
-- 🦀 **[uu_install](https://github.com/uutils/coreutils/tree/main/src/uu/install)**: install ~ (uutils) copy files from SOURCE to DESTINATION (with specified attributes).
-- 🦀 **[clipboard-history-core](https://github.com/SUPERCILEX/clipboard-history)**: The ringboard core library.
-- 🦀 **[r-gh-create-release](https://github.com/mass10/r-gh-create-release/)**: gh release wrapper CLI.
-- 🦀 **[rustypaste-cli](https://github.com/orhun/rustypaste-cli)**: A CLI tool for rustypaste.
+- 🦀 **[cktool](https://github.com/HermesMaker/cktool)**: coomer.
+- 🦀 **[dipr](https://github.com/bmgxyz/dipr)**: Converts the National Weather Service's (NWS) Digital Instantaneous Precipitation Rate (DIPR) radar product from its native data format into more common vector GIS formats.
+- 🦀 **[pwgen2](https://github.com/nbari/pwgen2/)**: password generator.
+- 🦀 **[termimage](https://github.com/nabijaczleweli/termimage)**: Display images in your terminal, kind of.
+- 🦀 **[todotxt-tui-macros](https://github.com/Fanteria/todotxt-tui)**: Todo.
 - 🦀 **[uu_stat](https://github.com/uutils/coreutils/tree/main/src/uu/stat)**: stat ~ (uutils) display FILE status.
 - 🦀 **[uu_users](https://github.com/uutils/coreutils/tree/main/src/uu/users)**: users ~ (uutils) display names of currently logged-in users.
 - 🦀 **[uu_who](https://github.com/uutils/coreutils/tree/main/src/uu/who)**: who ~ (uutils) display information about currently logged-in users.
-- 🦀 **[cargo-oci](https://github.com/clowdhaus/cargo-oci)**: Simple, fast container image builder for Rust applications.
-- 🦀 **[idears](https://github.com/octo-youcef/idears)**: A simple CLI to write and manage your ideas.
+- 🦀 **[uu_hostid](https://github.com/uutils/coreutils/tree/main/src/uu/hostid)**: hostid ~ (uutils) display the numeric identifier of the current host.
+- 🦀 **[uu_install](https://github.com/uutils/coreutils/tree/main/src/uu/install)**: install ~ (uutils) copy files from SOURCE to DESTINATION (with specified attributes).
 - 🦀 **[uu_stty](https://github.com/uutils/coreutils/tree/main/src/uu/stty)**: stty ~ (uutils) print or change terminal characteristics.
-- 🦀 **[headtail](https://github.com/CleanCut/headtail)**: head and tail simultaneously.
-- 🦀 **[hw](https://gitee.com/eternalnight996)**: 强大而统一的跨平台硬件监控工具.
-- 🦀 **[rawst_dl](https://github.com/Jupiee/rawst)**: Snag your files efficiently with Rawst downloader.
-- 🦀 **[superwhich](https://github.com/DarkCeptor44/superwhich)**: Cross-platform smart which alternative.
+- 🦀 **[globetrotter](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
+- 🦀 **[gtfsort](https://github.com/alejandrogzi/gtfsort)**: An optimized chr/pos/feature GTF/GFF sorter using a lexicographic-based index ordering algorithm written in Rust.
+- 🦀 **[rops-cli](https://github.com/gibbz00/rops)**: SOPS CLI alternative in pure Rust.
 - 🦀 **[uu_mkfifo](https://github.com/uutils/coreutils/tree/main/src/uu/mkfifo)**: mkfifo ~ (uutils) create FIFOs (named pipes).
 - 🦀 **[uu_pinky](https://github.com/uutils/coreutils/tree/main/src/uu/pinky)**: pinky ~ (uutils) display user information.
+- 🦀 **[cargo-oci](https://github.com/clowdhaus/cargo-oci)**: Simple, fast container image builder for Rust applications.
 - 🦀 **[imagineer](https://github.com/foresterre/sic)**: Accessible image processing and conversion from the terminal (and a front-end for the 'image' crate).
-- 🦀 **[namecom_ddns](https://github.com/myzhang1029/namecom_ddns)**: Query IP addresses and update DNS records with Name.
-- 🦀 **[simple-pub-sub](https://github.com/girish946/simple-pub-sub)**: simple message broker.
-- 🦀 **[oci2git](https://github.com/virviil/oci2git)**: A tool to convert OCI images to Git repositories.
-- 🦀 **[snipt-core](https://github.com/snipt/snipt)**: Core functionality for the Snipt application.
-- 🦀 **[uu_mknod](https://github.com/uutils/coreutils/tree/main/src/uu/mknod)**: mknod ~ (uutils) create special file NAME of TYPE.
+- 🦀 **[r-gh-create-release](https://github.com/mass10/r-gh-create-release/)**: gh release wrapper CLI.
+- 🦀 **[rustypaste-cli](https://github.com/orhun/rustypaste-cli)**: A CLI tool for rustypaste.
+- 🦀 **[solana-optimizer](https://github.com/oldcwj/solana-optimizer)**: A tool to optimize Solana smart contract bytecode with eBPF transformations.
+- 🦀 **[tiny-dc](https://github.com/n1ghtmare/tiny-dc)**: A tiny but mighty TUI directory changer.
 - 🦀 **[uu_timeout](https://github.com/uutils/coreutils/tree/main/src/uu/timeout)**: timeout ~ (uutils) run COMMAND with a DURATION time limit.
-- 🦀 **[kwaak](https://github.com/bosun-ai/kwaak)**: Run a team of autonomous agents on your code, right from your terminal.
-- 🦀 **[libsql_migration](https://github.com/prashant1k99/libsql_migration)**: A simple SQL migration tool for libsql databases.
-- 🦀 **[uu_groups](https://github.com/uutils/coreutils/tree/main/src/uu/groups)**: groups ~ (uutils) display group memberships for USERNAME.
-- 🦀 **[uu_logname](https://github.com/uutils/coreutils/tree/main/src/uu/logname)**: logname ~ (uutils) display the login name of the current user.
-- 🦀 **[uu_nice](https://github.com/uutils/coreutils/tree/main/src/uu/nice)**: nice ~ (uutils) run PROGRAM with modified scheduling priority.
 - 🦀 **[uu_tty](https://github.com/uutils/coreutils/tree/main/src/uu/tty)**: tty ~ (uutils) display the name of the terminal connected to standard input.
 - 🦀 **[pin](https://github.com/sp1ff/pin)**: Pinboard (and Instapaper) client.
+- 🦀 **[uu_groups](https://github.com/uutils/coreutils/tree/main/src/uu/groups)**: groups ~ (uutils) display group memberships for USERNAME.
+- 🦀 **[uu_logname](https://github.com/uutils/coreutils/tree/main/src/uu/logname)**: logname ~ (uutils) display the login name of the current user.
+- 🦀 **[uu_mknod](https://github.com/uutils/coreutils/tree/main/src/uu/mknod)**: mknod ~ (uutils) create special file NAME of TYPE.
+- 🦀 **[clipboard-history-client-sdk](https://github.com/SUPERCILEX/clipboard-history)**: API bindings to the ringboard server.
+- 🦀 **[hw](https://gitee.com/eternalnight996)**: 强大而统一的跨平台硬件监控工具.
+- 🦀 **[idears](https://github.com/octo-youcef/idears)**: A simple CLI to write and manage your ideas.
+- 🦀 **[kwaak](https://github.com/bosun-ai/kwaak)**: Run a team of autonomous agents on your code, right from your terminal.
+- 🦀 **[libsql_migration](https://github.com/prashant1k99/libsql_migration)**: A simple SQL migration tool for libsql databases.
+- 🦀 **[rawst_dl](https://github.com/Jupiee/rawst)**: Snag your files efficiently with Rawst downloader.
+- 🦀 **[snipt-core](https://github.com/snipt/snipt)**: Core functionality for the Snipt application.
+- 🦀 **[uu_nice](https://github.com/uutils/coreutils/tree/main/src/uu/nice)**: nice ~ (uutils) run PROGRAM with modified scheduling priority.
 - 🦀 **[uu_nohup](https://github.com/uutils/coreutils/tree/main/src/uu/nohup)**: nohup ~ (uutils) run COMMAND, ignoring hangup signals.
 - 🦀 **[uu_pathchk](https://github.com/uutils/coreutils/tree/main/src/uu/pathchk)**: pathchk ~ (uutils) diagnose invalid or non-portable PATHNAME.
-- 🦀 **[repo2prompt](https://github.com/atveit/repo2prompt)**: Extract repository content into XML, JSON, or plain text format.
-- 🦀 **[globetrotter-typescript](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
-- 🦀 **[globetrotter-rust](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
-- 🦀 **[solana-program-profiler](https://github.com/oldcwj/solana-program-profiler)**: A tool to profile Solana BPF programs for compute unit (CU) usage and optimization suggestions.
-- 🦀 **[todotxt-tui](https://github.com/Fanteria/todotxt-tui)**: Todo.
-- 🦀 **[anew](https://github.com/zer0yu/anew)**: A tool for adding new lines to files, skipping duplicates and write in Rust!.
+- 🦀 **[namecom_ddns](https://github.com/myzhang1029/namecom_ddns)**: Query IP addresses and update DNS records with Name.
+- 🦀 **[superwhich](https://github.com/DarkCeptor44/superwhich)**: Cross-platform smart which alternative.
+- 🦀 **[simple-pub-sub](https://github.com/girish946/simple-pub-sub)**: simple message broker.
 - 🦀 **[gengo-bin](https://github.com/spenserblack/gengo)**: Get the language distribution stats of your repository.
+- 🦀 **[globetrotter-typescript](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
+- 🦀 **[mdbook-anchors-aweigh](https://github.com/benfalk/anchors-aweigh)**: versatile include tag preprocessor for mdbook.
+- 🦀 **[globetrotter-rust](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
+- 🦀 **[repo2prompt](https://github.com/atveit/repo2prompt)**: Extract repository content into XML, JSON, or plain text format.
+- 🦀 **[solana-program-profiler](https://github.com/oldcwj/solana-program-profiler)**: A tool to profile Solana BPF programs for compute unit (CU) usage and optimization suggestions.
+- 🦀 **[anew](https://github.com/zer0yu/anew)**: A tool for adding new lines to files, skipping duplicates and write in Rust!.
+- 🦀 **[todotxt-tui](https://github.com/Fanteria/todotxt-tui)**: Todo.
+- 🦀 **[crab-net](https://github.com/newfla/crab-net)**: <TCP|UDP> + TLS packets generator.
 - 🦀 **[globetrotter-golang](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
+- 🦀 **[brush-shell](https://github.com/reubeno/brush)**: Rust-implemented shell focused on POSIX and bash compatibility.
+- 🦀 **[claudiofsr_lib](https://github.com/claudiofsr/claudiofsr_lib)**: General-purpose library used by my programs.
+- 🦀 **[krunker-maze-generator](https://github.com/Sorte1/krunker-maze-generator)**: Generates mazes for Krunker maps.
+- 🦀 **[Mademoiselle_Entropia](https://github.com/SarK0Y/Mademoiselle_Entropia)**: Extremely strong, stupidly simple and relatively fast symmetric cipher.
+- 🦀 **[gpg-tui](https://github.com/orhun/gpg-tui)**: Manage your GnuPG keys with ease!.
+- 🦀 **[near-facsimile](https://github.com/msuchane/near-facsimile/)**: Find similar or identical text files in a directory.
+- 🦀 **[musket](https://github.com/isfegu/musket)**: Musket is a command line interface to send a URL to several destinations.
 - 🦀 **[pswatch](https://git.blob42.xyz/blob42/pswatch)**: minimalist process monitoring and task scheduler.
 - 🦀 **[shellij](https://github.com/roycrippen4/shellij)**: Simplify using Zellij over SSH.
-- 🦀 **[clipboard-history-client-sdk](https://github.com/SUPERCILEX/clipboard-history)**: API bindings to the ringboard server.
-- 🦀 **[mdbook-anchors-aweigh](https://github.com/benfalk/anchors-aweigh)**: versatile include tag preprocessor for mdbook.
-- 🦀 **[musket](https://github.com/isfegu/musket)**: Musket is a command line interface to send a URL to several destinations.
-- 🦀 **[seq-here](https://github.com/bio-here/seq-here)**: A fast tool for bio-sequence file processing.
-- 🦀 **[brush-shell](https://github.com/reubeno/brush)**: Rust-implemented shell focused on POSIX and bash compatibility.
-- 🦀 **[bugstalker](https://github.com/godzie44/BugStalker)**: BugStalker is a modern and lightweight debugger for rust applications.
-- 🦀 **[gpg-tui](https://github.com/orhun/gpg-tui)**: Manage your GnuPG keys with ease!.
 - 🦀 **[snipt-cli](https://github.com/snipt/snipt)**: Command-line interface for the Snipt application.
+- 🦀 **[bugstalker](https://github.com/godzie44/BugStalker)**: BugStalker is a modern and lightweight debugger for rust applications.
+- 🦀 **[globetrotter-python](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
+- 🦀 **[seq-here](https://github.com/bio-here/seq-here)**: A fast tool for bio-sequence file processing.
+- 🦀 **[arti](https://gitlab.torproject.org/tpo/core/arti.git/)**: A rust implementation of the Tor privacy tools.
 - 🦀 **[dfkit](https://github.com/jsai28/dfkit)**: A command-line toolkit for querying and transforming CSV, JSON, Parquet, and Avro data.
 - 🦀 **[r3bl-cmdr](https://github.com/r3bl-org/r3bl-open-core)**: A TUI app suite for developers.
-- 🦀 **[claudiofsr_lib](https://github.com/claudiofsr/claudiofsr_lib)**: General-purpose library used by my programs.
-- 🦀 **[globetrotter-python](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
-- 🦀 **[prk_mdgen](https://github.com/prk-Jr/prk_mdgen)**: Generate and execute Rust projects from annotated Markdown files.
-- 🦀 **[krunker-maze-generator](https://github.com/Sorte1/krunker-maze-generator)**: Generates mazes for Krunker maps.
-- 🦀 **[ports](https://github.com/qrichert/ports.git)**: List listening ports.
 - 🦀 **[snipt-ui](https://github.com/snipt/snipt)**: User interface components for the Snipt application.
-- 🦀 **[crab-net](https://github.com/newfla/crab-net)**: <TCP|UDP> + TLS packets generator.
+- 🦀 **[prk_mdgen](https://github.com/prk-Jr/prk_mdgen)**: Generate and execute Rust projects from annotated Markdown files.
 - 🦀 **[snipt-server](https://github.com/snipt/snipt)**: Server component for the Snipt application.
-- 🦀 **[mdq](https://github.com/yshavit/mdq)**: Select and render specific elements in a Markdown document.
-- 🦀 **[snipt-daemon](https://github.com/snipt/snipt)**: Background daemon for the Snipt application.
 - 🦀 **[yolk_dots](https://github.com/elkowar/yolk)**: Templated dotfile management without template files.
 - 🦀 **[github-workflows-update](https://github.com/lpenz/github-workflows-update)**: Check github workflows for actions that can be updated.
-- 🦀 **[gornilo](https://github.com/IrvingWash/gornilo.git)**: Odin project manager.
-- 🦀 **[near-facsimile](https://github.com/msuchane/near-facsimile/)**: Find similar or identical text files in a directory.
-- 🦀 **[netperf](https://github.com/AhmedSoliman/netperf)**: A network performance measurement tool.
+- 🦀 **[ports](https://github.com/qrichert/ports.git)**: List listening ports.
+- 🦀 **[snipt-daemon](https://github.com/snipt/snipt)**: Background daemon for the Snipt application.
+- 🦀 **[tftpd](https://github.com/altugbakan/rs-tftpd)**: Multithreaded TFTP server daemon.
+- 🦀 **[wiremix](https://github.com/tsowell/wiremix)**: A TUI mixer for PipeWire.
 - 🦀 **[globetrotter-php](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
+- 🦀 **[gornilo](https://github.com/IrvingWash/gornilo.git)**: Odin project manager.
+- 🦀 **[mdq](https://github.com/yshavit/mdq)**: Select and render specific elements in a Markdown document.
+- 🦀 **[netperf](https://github.com/AhmedSoliman/netperf)**: A network performance measurement tool.
 - 🦀 **[pbrt-r3](https://github.com/ototoi/pbrt-r3)**: A Rust implementation of pbrt-v3.
+- 🦀 **[project-version](https://github.com/osteele/project-version)**: A cross-language project version bumper for multiple project types.
+- 🦀 **[qsolve](https://github.com/dschafer/qsolve)**: A command-line tool for solving Queens puzzles.
 - 🦀 **[novel-cli](https://github.com/novel-rs/cli)**: A set of tools for downloading novels from the web, manipulating text, and generating EPUB.
 - 🦀 **[depbank](https://github.com/tyrchen/depbank)**: A Rust CLI tool for generating AI-friendly code banks from dependencies.
-- 🦀 **[wiremix](https://github.com/tsowell/wiremix)**: A TUI mixer for PipeWire.
-- 🦀 **[Mademoiselle_Entropia](https://github.com/SarK0Y/Mademoiselle_Entropia)**: Extremely strong, stupidly simple and relatively fast symmetric cipher.
+- 🦀 **[neda-lib](https://github.com/abdelkadouss/neda)**: a siple adhan library with client written in rust.
+- 🦀 **[rk-primes](https://github.com/jeffs/rust-kart)**: Prime number generator.
+- 🦀 **[para-audit](https://github.com/jcranney/para-audit)**: A simple CLT for supervising/interfacing with a storage convention based on Tiago Forte's Second Brain - PARA principle.
 - 🦀 **[fuckmit](https://github.com/mingeme/fuckmit)**: AI-powered git commit message generator.
-- 🦀 **[qsolve](https://github.com/dschafer/qsolve)**: A command-line tool for solving Queens puzzles.
-- 🦀 **[slow-scan-print](https://github.com/Meow0x7E/slow-scan-print)**: Text is printed at fixed intervals by character or by line, and its name is inspired by SSTV (Slow Scan TV).
+- 🦀 **[pcu](https://github.com/jerus-org/pcu)**: A CI tool to update change log in a PR.
+- 🦀 **[brush-interactive](https://github.com/reubeno/brush)**: Interactive layer of brush-shell.
 - 🦀 **[ccarp](https://codeberg.org/ministry460/ccarp)**: (trans)Compile C And Rust Partially.
 - 🦀 **[globetrotter-zig](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
-- 🦀 **[neda-lib](https://github.com/abdelkadouss/neda)**: a siple adhan library with client written in rust.
-- 🦀 **[pcu](https://github.com/jerus-org/pcu)**: A CI tool to update change log in a PR.
-- 🦀 **[project-version](https://github.com/osteele/project-version)**: A cross-language project version bumper for multiple project types.
-- 🦀 **[globetrotter-dart](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
 - 🦀 **[rusty-penguin](https://github.com/myzhang1029/penguin-rs)**: A fast TCP/UDP tunnel, transported over HTTP WebSocket.
+- 🦀 **[slow-scan-print](https://github.com/Meow0x7E/slow-scan-print)**: Text is printed at fixed intervals by character or by line, and its name is inspired by SSTV (Slow Scan TV).
+- 🦀 **[websnap](https://github.com/canmi21/websnap)**: WebSnap is a command-line tool for capturing screenshots of websites.
 - 🦀 **[wukong](https://github.com/linux-china/wukong)**: Wukong is a command-line toolchain for Java with Rust.
-- 🦀 **[finders](https://github.com/ydkadri/finders)**: A tool to shortcut the find command.
+- 🦀 **[globetrotter-dart](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
+- 🦀 **[spider_fingerprint](https://github.com/spider-rs/spider_fingerprint)**: Fingerprint library for Rust.
 - 🦀 **[globetrotter-csharp](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
-- 🦀 **[holiday_checker](https://github.com/surenidh/rust/tree/holiday-crate/holiday_checker)**: A crate for managing and querying holiday data, including filtering by date, type, and category and whether date is a holiday from a JSON file.
+- 🦀 **[kalc-lib](https://github.com/bgkillas/kalc)**: a complex numbers, 2d/3d graphing, arbitrary precision, vector/matrix, cli calculator with real-time output and support for units.
 - 🦀 **[nightlight](https://github.com/smudge/nightlight)**: A CLI for configuring 'Night Shift' on macOS 🌕🌖🌗🌘🌑.
-- 🦀 **[shell-compose](https://github.com/pka/shell-compose)**: Lightweight background process runner for long-running or scheduled jobs.
-- 🦀 **[xlang_vm_core](https://github.com/sjrsjz/XLang-Rust)**: XLangVM for XLang-Rust.
+- 🦀 **[finders](https://github.com/ydkadri/finders)**: A tool to shortcut the find command.
 - 🦀 **[globetrotter-cpp](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
 - 🦀 **[globetrotter-swift](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
-- 🦀 **[para-audit](https://github.com/jcranney/para-audit)**: A simple CLT for supervising/interfacing with a storage convention based on Tiago Forte's Second Brain - PARA principle.
-- 🦀 **[zola_abridge_helper](https://github.com/c-git/zola_abridge_helper)**: Tool to facilitate working with abridge theme for zola and some simple SEO checks.
-- 🦀 **[brush-interactive](https://github.com/reubeno/brush)**: Interactive layer of brush-shell.
+- 🦀 **[holiday_checker](https://github.com/surenidh/rust/tree/holiday-crate/holiday_checker)**: A crate for managing and querying holiday data, including filtering by date, type, and category and whether date is a holiday from a JSON file.
+- 🦀 **[shell-compose](https://github.com/pka/shell-compose)**: Lightweight background process runner for long-running or scheduled jobs.
+- 🦀 **[xlang_vm_core](https://github.com/sjrsjz/XLang-Rust)**: XLangVM for XLang-Rust.
 - 🦀 **[deezconfigs](https://github.com/qrichert/deezconfigs.git)**: Manage deez config files.
 - 🦀 **[globetrotter-elixir](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
-- 🦀 **[websnap](https://github.com/canmi21/websnap)**: WebSnap is a command-line tool for capturing screenshots of websites.
-- 🦀 **[globetrotter-java](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
+- 🦀 **[zola_abridge_helper](https://github.com/c-git/zola_abridge_helper)**: Tool to facilitate working with abridge theme for zola and some simple SEO checks.
 - 🦀 **[globetrotter-lua](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
-- 🦀 **[rk-primes](https://github.com/jeffs/rust-kart)**: Prime number generator.
-- 🦀 **[normalize-punctuation](https://github.com/qrichert/normalize-punctuation.git)**: Normalize punctuation in Markdown files.
-- 🦀 **[smartui](https://github.com/monzeromer-lab/gm)**: A terminal utility that integrates with Google Gemini API.
+- 🦀 **[globetrotter-java](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
 - 🦀 **[globetrotter-kotlin](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
 - 🦀 **[globetrotter-ruby](https://github.com/LuupSystems/globetrotter)**: Polyglot, type-safe internationalization.
-- 🦀 **[kalc-lib](https://github.com/bgkillas/kalc)**: a complex numbers, 2d/3d graphing, arbitrary precision, vector/matrix, cli calculator with real-time output and support for units.
-- 🦀 **[tftpd](https://github.com/altugbakan/rs-tftpd)**: Multithreaded TFTP server daemon.
+- 🦀 **[normalize-punctuation](https://github.com/qrichert/normalize-punctuation.git)**: Normalize punctuation in Markdown files.
+- 🦀 **[smartui](https://github.com/monzeromer-lab/gm)**: A terminal utility that integrates with Google Gemini API.
 - 🦀 **[yash-env](https://github.com/magicant/yash-rs)**: Yash shell execution environment interface.
-- 🦀 **[arti](https://gitlab.torproject.org/tpo/core/arti.git/)**: A rust implementation of the Tor privacy tools.
-- 🦀 **[typos-git-commit](https://gitlab.com/delhomme/typos-git-commit/)**: This program analyzes a json file produced with `typos` and makes commits for each correction.
 - 🦀 **[agentctl](https://github.com/agentctl-dev/agentctl)**: Tiny control-plane primitives for AI agents.
-- 🦀 **[xlang_frontend](https://github.com/sjrsjz/XLang-Rust)**: Frontend for XLang-Rust.
 - 🦀 **[minitpr](https://github.com/Ladme/minitpr)**: Library for Reading Gromacs TPR Files.
 - 🦀 **[cc6502](https://github.com/steux/cc6502)**: a library for making C compilers for the 6502 8-bits processor.
-- 🦀 **[git-conform](https://github.com/ndr3www/git-conform)**: Keep track of your local git repositories.
-- 🦀 **[versatiles_core](https://github.com/versatiles-org/versatiles-rs)**: A toolbox for converting, checking and serving map tiles in various formats.
-- 🦀 **[yash-semantics](https://github.com/magicant/yash-rs)**: Yash shell language semantics.
-- 🦀 **[backpak](https://github.com/mrkline/backpak)**: A content-addressed backup system with deduplication and compression.
-- 🦀 **[git_extra](https://github.com/jlyonsmith/git_extra_rs)**: An extra useful set of Git related commands.
+- 🦀 **[typos-git-commit](https://gitlab.com/delhomme/typos-git-commit/)**: This program analyzes a json file produced with `typos` and makes commits for each correction.
+- 🦀 **[xlang_frontend](https://github.com/sjrsjz/XLang-Rust)**: Frontend for XLang-Rust.
 - 🦀 **[cloudmapper](https://github.com/tesserato/CloudMapper)**: Open-source tool to map and visualize your cloud storage landscape.
+- 🦀 **[git-conform](https://github.com/ndr3www/git-conform)**: Keep track of your local git repositories.
+- 🦀 **[yash-semantics](https://github.com/magicant/yash-rs)**: Yash shell language semantics.
+- 🦀 **[git_extra](https://github.com/jlyonsmith/git_extra_rs)**: An extra useful set of Git related commands.
+- 🦀 **[versatiles_core](https://github.com/versatiles-org/versatiles-rs)**: A toolbox for converting, checking and serving map tiles in various formats.
+- 🦀 **[backpak](https://github.com/mrkline/backpak)**: A content-addressed backup system with deduplication and compression.
 - 🦀 **[mod-cli](https://github.com/jamesgober/mod-cli)**: A fully customizable, feature-rich CLI framework for Rust.
 - 🦀 **[solana-validator-optimizer](https://github.com/0rlych1kk4/solana-validator-optimizer)**: Optimized Solana validator tool with snapshot prefetching, RPC caching, and Prometheus metrics.
-- 🦀 **[hostlist_iter](https://github.com/mrepper/hostlist_iter)**: A hostlist handling library.
 - 🦀 **[sketchlib](https://github.com/bacpop/sketchlib.rust)**: Genome and amino-acid sketching.
 - 🦀 **[generic_compression](https://github.com/TCA166/compression)**: A library providing generic implementations of common compression algorithms.
 - 🦀 **[hanko](https://github.com/srv6d/hanko)**: Keeps your Git allowed signers file up to date with signing keys configured on software development platforms like GitHub and GitLab.
+- 🦀 **[hostlist_iter](https://github.com/mrepper/hostlist_iter)**: A hostlist handling library.
 - 🦀 **[river_dreams](https://github.com/skippyr/river_dreams)**: A tribal looking ZSH shell theme made to help you craft your most ambitious software projects.
 - 🦀 **[row](https://github.com/glotzerlab/row)**: Row is a command line tool that helps you manage workflows on HPC resources.
-- 🦀 **[ssh-agent-mux](https://github.com/overhacked/ssh-agent-mux)**: Combine keys from multiple SSH agents into a single agent socket.
+- 🦀 **[television-derive](https://github.com/alexpasmantier/television)**: The revolution will be televised.
 - 🦀 **[chrome_password](https://github.com/justjavac/chrome_password.rs)**: Get username & password from Chrome.
+- 🦀 **[cot-cli](https://github.com/cot-rs/cot)**: The Rust web framework for lazy developers - CLI tool.
 - 🦀 **[hinoirisetr](https://git.vavakado.xyz/vavakado/hinoirisetr)**: A daemon to dim the screen at night.
+- 🦀 **[ssh-agent-mux](https://github.com/overhacked/ssh-agent-mux)**: Combine keys from multiple SSH agents into a single agent socket.
+- 🦀 **[svdtools](https://github.com/rust-embedded/svdtools/)**: Tool for modifying bugs in CMSIS SVD.
 - 🦀 **[yash-prompt](https://github.com/magicant/yash-rs)**: Command line prompt for yash shell.
 - 🦀 **[yash-env-test-helper](https://github.com/magicant/yash-rs)**: Test helper for yash-env crate.
-- 🦀 **[television-derive](https://github.com/alexpasmantier/television)**: The revolution will be televised.
 - 🦀 **[hyper_echo](https://github.com/kuznetsss/hyper_echo)**: Echo server supporting http and websocket.
+- 🦀 **[cargo-metask](https://github.com/kanarus/cargo-metask)**: Cargo task runner for package.
+- 🦀 **[excel-cli](https://github.com/fuhan666/excel-cli)**: A lightweight terminal-based Excel viewer with Vim-like navigation for viewing, editing, and exporting Excel data to JSON format.
 - 🦀 **[komitto](https://github.com/tsukuricase/komitto)**: AI-powered Conventional Commit Message Generator for Git.
 - 🦀 **[poodio](https://github.com/AsherJingkongChen/poopoo)**: Farts poo poo audio.
+- 🦀 **[ripcalc](https://gitlab.com/edneville/ripcalc)**: ripcalc, format and lookup IP addresses.
 - 🦀 **[todl](https://github.com/RuairidhWilliamson/todl)**: Tool for finding comment tags in source code.
-- 🦀 **[logbook_dy](https://github.com/yhwbach/logbook)**: Records observations in a logbook file, or lists previous observations.
 - 🦀 **[versatiles_image](https://github.com/versatiles-org/versatiles-rs)**: A toolbox for converting, checking and serving map tiles in various formats.
 - 🦀 **[yash-builtin](https://github.com/magicant/yash-rs)**: Implementation of the built-in utilities of yash.
-- 🦀 **[cargo-metask](https://github.com/kanarus/cargo-metask)**: Cargo task runner for package.
-- 🦀 **[grepster](https://github.com/MurtadaNazar/grepster)**: A simple command-line tool for searching text in files.
+- 🦀 **[freesound-credits](https://github.com/andreacfromtheapp/freesound-credits)**: A simple command line utility to credit Freesound samples in a usable markdown file.
+- 🦀 **[logbook_dy](https://github.com/yhwbach/logbook)**: Records observations in a logbook file, or lists previous observations.
+- 🦀 **[quad-gif](https://github.com/ollej/quad-gif)**: Display GIF animations with Macroquad.
 - 🦀 **[quagga](https://github.com/evgenyneu/quagga)**: Quagga: A CLI tool that combines multiple text files into a single prompt suitable for Large Language Models.
 - 🦀 **[quincy](https://github.com/M0dEx/quincy)**: QUIC-based VPN.
-- 🦀 **[ripcalc](https://gitlab.com/edneville/ripcalc)**: ripcalc, format and lookup IP addresses.
-- 🦀 **[svdtools](https://github.com/rust-embedded/svdtools/)**: Tool for modifying bugs in CMSIS SVD.
 - 🦀 **[warrah](https://github.com/evgenyneu/warrah)**: Warrah: A command-line utility and Rust library that sloppily removes code comments from a text file, supporting 60+ programming languages.
 - 🦀 **[apimokka](https://github.com/nabbisen/apimokka)**: API mock (apimock-rs) based visual mocking helper to handle HTTP/JSON req/res.
-- 🦀 **[excel-cli](https://github.com/fuhan666/excel-cli)**: A lightweight terminal-based Excel viewer with Vim-like navigation for viewing, editing, and exporting Excel data to JSON format.
-- 🦀 **[intercept-bounce](https://github.com/sinity/intercept-bounce)**: An Interception Tools filter to eliminate keyboard chatter (switch bounce).
-- 🦀 **[freesound-credits](https://github.com/andreacfromtheapp/freesound-credits)**: A simple command line utility to credit Freesound samples in a usable markdown file.
-- 🦀 **[html5-picture](https://github.com/emirror-de/html5-picture)**: Batch optimizes your images to wepb.
-- 🦀 **[memo128](https://github.com/haraldh/memo128)**: A library for encoding and decoding 128-bit data as mnemonic sentences.
-- 🦀 **[quad-gif](https://github.com/ollej/quad-gif)**: Display GIF animations with Macroquad.
-- 🦀 **[warp-directory](https://github.com/Data5tream/warp-directory-rs)**: A simple command line tool to quickly change directories.
-- 🦀 **[cot-cli](https://github.com/cot-rs/cot)**: The Rust web framework for lazy developers - CLI tool.
-- 🦀 **[spacecrab-core](https://github.com/serhii-pokrovskyi/space-crab)**: Core file-scanning library for SpaceCrab.
-- 🦀 **[srgn](https://github.com/alexpovel/srgn)**: A grep-like tool which understands source code syntax and allows for manipulation in addition to search.
-- 🦀 **[partymode](https://github.com/peppidesu/partymode)**: Keeps your system awake while playing media.
-- 🦀 **[fire-scope](https://github.com/Neuron-Grid/fire-scope)**: This tool is a CLI application and library that collects and aggregates corresponding IP addresses by specifying country codes and AS numbers, and outputs them to a file in TXT or nftables format.
-- 🦀 **[investments](https://github.com/KonishchevDmitry/investments)**: Helps you with managing your investments.
-- 🦀 **[occasion](https://github.com/itscrystalline/occasion)**: Shows one (or many) messages when run during a configured timeframe.
-- 🦀 **[yash-cli](https://github.com/magicant/yash-rs)**: Extended POSIX shell.
+- 🦀 **[grepster](https://github.com/MurtadaNazar/grepster)**: A simple command-line tool for searching text in files.
 - 🦀 **[cli-justify](https://github.com/kruserr/hygg)**: A CLI text justify tool.
-- 🦀 **[dela](https://github.com/aleyan/dela)**: A task runner that delegates the work to other tools.
-- 🦀 **[joa_lampela_todo_cli](https://github.com/JoaLampela/todo_cli)**: A minimal TODO CLI app I made while learning Rust.
+- 🦀 **[spacecrab-core](https://github.com/serhii-pokrovskyi/space-crab)**: Core file-scanning library for SpaceCrab.
+- 🦀 **[html5-picture](https://github.com/emirror-de/html5-picture)**: Batch optimizes your images to wepb.
+- 🦀 **[intercept-bounce](https://github.com/sinity/intercept-bounce)**: An Interception Tools filter to eliminate keyboard chatter (switch bounce).
+- 🦀 **[memo128](https://github.com/haraldh/memo128)**: A library for encoding and decoding 128-bit data as mnemonic sentences.
+- 🦀 **[occasion](https://github.com/itscrystalline/occasion)**: Shows one (or many) messages when run during a configured timeframe.
+- 🦀 **[srgn](https://github.com/alexpovel/srgn)**: A grep-like tool which understands source code syntax and allows for manipulation in addition to search.
+- 🦀 **[warp-directory](https://github.com/Data5tream/warp-directory-rs)**: A simple command line tool to quickly change directories.
+- 🦀 **[partymode](https://github.com/peppidesu/partymode)**: Keeps your system awake while playing media.
 - 🦀 **[cargo-preflight](https://github.com/supinie/cargo-preflight)**: A custom Cargo subcommand to run local 'CI' on certain Git actions.
 - 🦀 **[count-files](https://github.com/yinguobing/count-files)**: Count files by extension.
-- 🦀 **[garden-gui](https://gitlab.com/garden-rs/garden)**: Garden graphical user interface.
-- 🦀 **[versatiles_derive](https://github.com/versatiles-org/versatiles-rs)**: A toolbox for converting, checking and serving map tiles in various formats.
+- 🦀 **[dela](https://github.com/aleyan/dela)**: A task runner that delegates the work to other tools.
+- 🦀 **[fire-scope](https://github.com/Neuron-Grid/fire-scope)**: This tool is a CLI application and library that collects and aggregates corresponding IP addresses by specifying country codes and AS numbers, and outputs them to a file in TXT or nftables format.
 - 🦀 **[vista](https://github.com/FreddyWordingham/vista)**: A utility library for displaying and formatting arrays, matrices and tensors in the terminal.
-- 🦀 **[cli_grrs_rust_sample](https://github.com/lumosityfan/cli_grrs_rust_sample)**: A tool to search files.
+- 🦀 **[yash-cli](https://github.com/magicant/yash-rs)**: Extended POSIX shell.
+- 🦀 **[garden-gui](https://gitlab.com/garden-rs/garden)**: Garden graphical user interface.
 - 🦀 **[gxf2bed](https://github.com/alejandrogzi/gxf2bed)**: fastest GTF/GFF-to-BED converter chilling around.
-- 🦀 **[pji](https://github.com/zhanba/pji)**: A CLI for managing, finding, and opening Git repositories.
+- 🦀 **[joa_lampela_todo_cli](https://github.com/JoaLampela/todo_cli)**: A minimal TODO CLI app I made while learning Rust.
 - 🦀 **[git-slides](https://github.com/qrichert/git-slides.git)**: Navigate through Git commits like presentation slides.
+- 🦀 **[pji](https://github.com/zhanba/pji)**: A CLI for managing, finding, and opening Git repositories.
+- 🦀 **[versatiles_derive](https://github.com/versatiles-org/versatiles-rs)**: A toolbox for converting, checking and serving map tiles in various formats.
+- 🦀 **[cli_grrs_rust_sample](https://github.com/lumosityfan/cli_grrs_rust_sample)**: A tool to search files.
+- 🦀 **[spider_firewall](https://github.com/spider-rs/spider_firewall)**: Firewall to use for Spider Web Crawler.
+- 🦀 **[tpnote-lib](https://gitlab.com/getreu/tp-note)**: Minimalistic note-taking: save and edit your clipboard content as a note file.
+- 🦀 **[wash](https://github.com/wasmCloud/wasmCloud)**: wasmCloud Shell (wash) - CLI tool and library for wasmCloud development.
 - 🦀 **[pixelmosh](https://github.com/charlesrocket/pixelmosh)**: PNG corrupter.
 - 🦀 **[muffy](https://github.com/raviqqe/muffy)**: The static website validator.
-- 🦀 **[tivilsta](https://github.com/funilrys/tivilsta)**: A different whitelisting mechanism for blocklist maintainers.
-- 🦀 **[tpnote-lib](https://gitlab.com/getreu/tp-note)**: Minimalistic note-taking: save and edit your clipboard content as a note file.
 - 🦀 **[conda-env-inspect](https://github.com/DishankChauhan/conda-env-inspect)**: A CLI tool for inspecting Conda environment files.
 - 🦀 **[dsh](https://github.com/kpn-dsh/dsh-cli)**: Command line tool for DSH resource management API.
+- 🦀 **[tivilsta](https://github.com/funilrys/tivilsta)**: A different whitelisting mechanism for blocklist maintainers.
 - 🦀 **[icloudAlbum2hugo](https://github.com/harperreed/icloudAlbum2hugo)**: A command-line tool that syncs photos from iCloud Shared Albums to a Hugo site.
 - 🦀 **[versatiles_geometry](https://github.com/versatiles-org/versatiles-rs)**: A toolbox for converting, checking and serving map tiles in various formats.
 - 🦀 **[greenboot](https://github.com/fedora-iot/greenboot-rs)**: A Rust library and CLI for boot-time health checks on bootc-based systems.
 - 🦀 **[lngcnv](https://github.com/piotrbajdek/lngcnv)**: linguistics: display pronunciation, translate between dialects, convert between orthographies; support for multiple languages: English, Latin, Polish, Quechua, Spanish, Tikuna.
-- 🦀 **[url-cleaner](https://github.com/Scripter17/url-cleaner)**: A CLI tool and library for URL manipulation with a focus on stripping tracking garbage.
-- 🦀 **[wash](https://github.com/wasmCloud/wasmCloud)**: wasmCloud Shell (wash) - CLI tool and library for wasmCloud development.
 - 🦀 **[aud2txt](https://github.com/xandkar/aud2txt)**: Audio to text tool using ggerganov's whisper.
+- 🦀 **[url-cleaner](https://github.com/Scripter17/url-cleaner)**: A CLI tool and library for URL manipulation with a focus on stripping tracking garbage.
+- 🦀 **[tzbuddy](https://github.com/gbagnoli/tzbuddy.rs)**: tzbuddy simply diplays current date/time in several timezones, together with a few hours before and after.
 - 🦀 **[versatiles_pipeline](https://github.com/versatiles-org/versatiles-rs)**: A toolbox for converting, checking and serving map tiles in various formats.
 - 🦀 **[winproxy](https://github.com/fhluo/winproxy)**: Change Windows system proxy settings.
-- 🦀 **[hardly-working](https://github.com/benjamin-kruger/hardly-working)**: Working hard or hardly working - A simple todo list CLI.
-- 🦀 **[sd-switch](https://git.sr.ht/~rycee/sd-switch)**: A systemd unit reload/restart utility for Home Manager.
-- 🦀 **[tzbuddy](https://github.com/gbagnoli/tzbuddy.rs)**: tzbuddy simply diplays current date/time in several timezones, together with a few hours before and after.
 - 🦀 **[colprint](https://github.com/FreddyWordingham/colprint)**: A lightweight macro for neatly printing data in aligned columns with automatic width calculation and customisable separators.
+- 🦀 **[hardly-working](https://github.com/benjamin-kruger/hardly-working)**: Working hard or hardly working - A simple todo list CLI.
 - 🦀 **[lifegame](https://github.com/Lingxuan-Ye/lifegame)**: A simple implementation of the classic cellular automaton, Conway's Game of Life.
+- 🦀 **[sd-switch](https://git.sr.ht/~rycee/sd-switch)**: A systemd unit reload/restart utility for Home Manager.
+- 🦀 **[clipboard-history-watcher-utils](https://github.com/SUPERCILEX/clipboard-history)**: Shared utilities between ringboard watchers.
 - 🦀 **[mouce](https://github.com/emrebicer/mouce)**: A library that aims to help simulating and listening mouse actions across different platforms.
-- 🦀 **[github-inventions](https://github.com/xandkar/github-inventions)**: Retrieves and formats list of repos from GitHub for 'prior inventions' exhibits.
-- 🦀 **[npd](https://github.com/d-e-s-o/npd.git)**: Now Playing Daemon is a daemon showing notifications about songs played by MPD.
 - 🦀 **[pglockanalyze](https://github.com/agis/pglockanalyze)**: See what PostgreSQL locks your migrations acquired.
 - 🦀 **[versatiles_container](https://github.com/versatiles-org/versatiles-rs)**: A toolbox for converting, checking and serving map tiles in various formats.
-- 🦀 **[tenjin_sdn](https://github.com/Arikato111/Tenjin)**: Tenjin is The software-defined networking framework written in Rust, offering high performance and memory safety.
-- 🦀 **[blutils-proc-adapter](https://github.com/sgelias/blutils)**: A utility to make it easier to run and analyze Blast results.
-- 🦀 **[databoxer](https://github.com/duckysmacky/databoxer)**: Fast and easy to use CLI-based file encryption program.
-- 🦀 **[qitops](https://github.com/qitops/qitops-cli-tools)**: Software Quality Assurance CLI for API, Performance, Security, and Web Testing.
-- 🦀 **[bytary](https://github.com/Leawind/bytary)**: A simple CLI tool for binary data manipulation.
 - 🦀 **[cli-text-reader](https://github.com/kruserr/hygg)**: A less like CLI text reader.
-- 🦀 **[versatiles](https://github.com/versatiles-org/versatiles-rs)**: A toolbox for converting, checking and serving map tiles in various formats.
-- 🦀 **[cli-pdf-to-text](https://github.com/kruserr/hygg)**: A CLI pdf to plain text converter.
+- 🦀 **[github-inventions](https://github.com/xandkar/github-inventions)**: Retrieves and formats list of repos from GitHub for 'prior inventions' exhibits.
+- 🦀 **[npd](https://github.com/d-e-s-o/npd.git)**: Now Playing Daemon is a daemon showing notifications about songs played by MPD.
 - 🦀 **[gitql-ast](https://github.com/amrdeveloper/gql/tree/main/crates/gitql-ast)**: GitQL Abstract syntax tree (AST).
-- 🦀 **[tackler-tts-core](https://github.com/tackler-ng/tackler-tts)**: Core components for Tackler Time Tracking System.
-- 🦀 **[blutils-core](https://github.com/sgelias/blutils)**: A utility to make it easier to run and analyze Blast results.
 - 🦀 **[metapac](https://github.com/ripytide/metapac)**: multi-backend declarative package manager.
-- 🦀 **[moontool](https://github.com/qrichert/moontool.git)**: John Walker's moontool.
-- 🦀 **[cross-stream](https://github.com/cablehead/xs)**: An event stream store for personal, local-first use, specializing in event sourcing.
+- 🦀 **[blutils-proc-adapter](https://github.com/sgelias/blutils)**: A utility to make it easier to run and analyze Blast results.
+- 🦀 **[cli-pdf-to-text](https://github.com/kruserr/hygg)**: A CLI pdf to plain text converter.
+- 🦀 **[databoxer](https://github.com/duckysmacky/databoxer)**: Fast and easy to use CLI-based file encryption program.
+- 🦀 **[tenjin_sdn](https://github.com/Arikato111/Tenjin)**: Tenjin is The software-defined networking framework written in Rust, offering high performance and memory safety.
 - 🦀 **[pumas](https://github.com/graelo/pumas)**: A power usage monitor for Apple Silicon.
-- 🦀 **[clipboard-history-watcher-utils](https://github.com/SUPERCILEX/clipboard-history)**: Shared utilities between ringboard watchers.
+- 🦀 **[qitops](https://github.com/qitops/qitops-cli-tools)**: Software Quality Assurance CLI for API, Performance, Security, and Web Testing.
+- 🦀 **[blutils-core](https://github.com/sgelias/blutils)**: A utility to make it easier to run and analyze Blast results.
+- 🦀 **[cross-stream](https://github.com/cablehead/xs)**: An event stream store for personal, local-first use, specializing in event sourcing.
+- 🦀 **[versatiles](https://github.com/versatiles-org/versatiles-rs)**: A toolbox for converting, checking and serving map tiles in various formats.
+- 🦀 **[bytary](https://github.com/Leawind/bytary)**: A simple CLI tool for binary data manipulation.
+- 🦀 **[moontool](https://github.com/qrichert/moontool.git)**: John Walker's moontool.
+- 🦀 **[spider_transformations](https://github.com/spider-rs/spider_transformations)**: Transformation utils to use for spider.
+- 🦀 **[tackler-tts-core](https://github.com/tackler-ng/tackler-tts)**: Core components for Tackler Time Tracking System.
 - 🦀 **[git-ar](https://github.com/jordilin/gitar)**: Git all remotes.
-- 🦀 **[spider_firewall](https://github.com/spider-rs/spider_firewall)**: Firewall to use for Spider Web Crawler.
-- 🦀 **[tackler-tts-git](https://github.com/tackler-ng/tackler-tts)**: Git components (gix) for Tackler Time Tracking System.
-- 🦀 **[rfs-runner](https://github.com/rootfebri/rfs-runner)**: A simple UI Progress.
-- 🦀 **[ddup-bak](https://github.com/0x7d8/ddup-bak.git)**: An archive format that supports multiple compression algorithms at once.
+- 🦀 **[slint-lsp](https://github.com/slint-ui/slint)**: A language server protocol implementation for Slint.
 - 🦀 **[git-contribution-analyzer](https://github.com/yourusername/git-contribution-analyzer)**: A TUI-based tool for analyzing git repository contributions with detailed statistics.
+- 🦀 **[tackler-tts-git](https://github.com/tackler-ng/tackler-tts)**: Git components (gix) for Tackler Time Tracking System.
 - 🦀 **[uf](https://codeberg.org/darkfire/uf)**: Minimalistic file opener.
 - 🦀 **[cli-epub-to-text](https://github.com/kruserr/hygg)**: A CLI epub to plain text converter.
-- 🦀 **[tokay](https://github.com/tokay-lang/tokay/)**: Tokay is a programming language designed for ad-hoc parsing.
-- 🦀 **[heliocron](https://github.com/mfreeborn/heliocron)**: A simple program for calculating sunrise, sunset and related times, which can be integrated with cron to trigger other programs to run when these events occur.
-- 🦀 **[mcp-runner](https://github.com/Streamline-TS/mcp-runner)**: A Rust library for running and interacting with Model Context Protocol (MCP) servers locally.
-- 🦀 **[phraze](https://github.com/sts10/phraze)**: Random passphrase generator.
-- 🦀 **[redirect-stderr](https://github.com/kruserr/hygg)**: A cross platform lib to redirect std-err.
-- 🦀 **[taskfinder](https://codeberg.org/kdwarn/taskfinder)**: A terminal user interface that extracts and displays tasks from plain text files.
-- 🦀 **[unilang](https://github.com/Wandalen/wTools/tree/master/module/move/unilang)**: Define your command-line utility interface once and get consistent interaction across multiple modalities — CLI, GUI, TUI, AUI, Web APIs, and more—essentially for free.
 - 🦀 **[liboxen](https://github.com/Oxen-AI/Oxen)**: Oxen is a fast, unstructured data version control, to help version datasets, written in Rust.
-- 🦀 **[thwack](https://github.com/yykamei/thwack)**: Command line version of Go To File utility, similar to the one on GitHub.
+- 🦀 **[rfs-runner](https://github.com/rootfebri/rfs-runner)**: A simple UI Progress.
+- 🦀 **[tokay](https://github.com/tokay-lang/tokay/)**: Tokay is a programming language designed for ad-hoc parsing.
+- 🦀 **[mcp-runner](https://github.com/Streamline-TS/mcp-runner)**: A Rust library for running and interacting with Model Context Protocol (MCP) servers locally.
+- 🦀 **[redirect-stderr](https://github.com/kruserr/hygg)**: A cross platform lib to redirect std-err.
+- 🦀 **[cargo-scout-audit](https://github.com/coinfabrik/scout-audit)**: Scout is an extensible open-source tool intended to assist Ink! and Soroban smart contract developers and auditors detect common security issues and deviations from best practices.
+- 🦀 **[heliocron](https://github.com/mfreeborn/heliocron)**: A simple program for calculating sunrise, sunset and related times, which can be integrated with cron to trigger other programs to run when these events occur.
+- 🦀 **[phraze](https://github.com/sts10/phraze)**: Random passphrase generator.
+- 🦀 **[replay-rs](https://github.com/trozz/replay-rs)**: A Rust library for recording and replaying terminal sessions with timing data.
+- 🦀 **[taskfinder](https://codeberg.org/kdwarn/taskfinder)**: A terminal user interface that extracts and displays tasks from plain text files.
 - 🦀 **[xray-tui](https://github.com/h33333333/xray)**: A Docker (or any OCI-compliant) image layer inspector.
-- 🦀 **[keyden](https://github.com/vivsh/keyden)**: Keyden: a simple CLI and library for managing, rotating, and generating secret keys safely.
-- 🦀 **[paketkoll](https://github.com/VorpalBlade/paketkoll)**: Check installed distro files for changes.
-- 🦀 **[discord_rust_scraper](https://github.com/ehewes/DiscordRustScraper)**: DiscordRustScraper is a powerful Discord data scraper built in Rust, designed to extract and format channel data for further analysis.
 - 🦀 **[gitql-core](https://github.com/amrdeveloper/gql/tree/main/crates/gitql-cli)**: GitQL Core components.
-- 🦀 **[spider_fingerprint](https://github.com/spider-rs/spider_fingerprint)**: Fingerprint library for Rust.
+- 🦀 **[thwack](https://github.com/yykamei/thwack)**: Command line version of Go To File utility, similar to the one on GitHub.
+- 🦀 **[unilang](https://github.com/Wandalen/wTools/tree/master/module/move/unilang)**: Define your command-line utility interface once and get consistent interaction across multiple modalities — CLI, GUI, TUI, AUI, Web APIs, and more—essentially for free.
+- 🦀 **[discord_rust_scraper](https://github.com/ehewes/DiscordRustScraper)**: DiscordRustScraper is a powerful Discord data scraper built in Rust, designed to extract and format channel data for further analysis.
+- 🦀 **[keyden](https://github.com/vivsh/keyden)**: Keyden: a simple CLI and library for managing, rotating, and generating secret keys safely.
 - 🦀 **[cli-text-reader-online](https://github.com/kruserr/hygg)**: A less like CLI text reader.
+- 🦀 **[nexsh](https://github.com/M97Chahboun/nexsh)**: Next-generation AI-powered shell using Google Gemini.
+- 🦀 **[paketkoll](https://github.com/VorpalBlade/paketkoll)**: Check installed distro files for changes.
+- 🦀 **[termscp](https://github.com/veeso/termscp)**: termscp is a feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/Kube/S3/WebDAV.
 - 🦀 **[cronrunner](https://github.com/qrichert/cronrunner.git)**: Run cron jobs manually.
 - 🦀 **[gcli](https://github.com/gear-tech/gear)**: Gear program CLI.
-- 🦀 **[nexsh](https://github.com/M97Chahboun/nexsh)**: Next-generation AI-powered shell using Google Gemini.
 - 🦀 **[o-o](https://github.com/tos-kamiya/o-o)**: Enables commands that assume the standard input and output to read and write to files specified in the command line.
 - 🦀 **[scancode-rust](https://github.com/mstykow/scancode-rust)**: A Rust-based tool for scanning and analyzing code.
-- 🦀 **[arcula](https://github.com/ggagosh/arcula)**: Arcula - MongoDB database synchronization tool.
 - 🦀 **[agesafetch](https://gitlab.com/BVollmerhaus/agesafetch)**: A tool for obtaining your firmware's embedded AGESA version on Linux.
-- 🦀 **[alog](https://codeberg.org/thyrc/alog.git)**: Anonymize 'Combined Log Format' data.
+- 🦀 **[arcula](https://github.com/ggagosh/arcula)**: Arcula - MongoDB database synchronization tool.
 - 🦀 **[zserio-rs-build](https://github.com/Danaozhong/rust-zserio)**: zserio compiler.
-- 🦀 **[cargo-scout-audit](https://github.com/coinfabrik/scout-audit)**: Scout is an extensible open-source tool intended to assist Ink! and Soroban smart contract developers and auditors detect common security issues and deviations from best practices.
-- 🦀 **[catppuccin-purr](https://github.com/uncenter/purr)**: Unoffical CLI for developing Catppuccin ports.
+- 🦀 **[alog](https://codeberg.org/thyrc/alog.git)**: Anonymize 'Combined Log Format' data.
+- 🦀 **[mit-commit-message-lints](https://github.com/PurpleBooth/git-mit)**: Check the correctness of a specific commit message.
 - 🦀 **[cpubind-bash-builtin](https://github.com/dupgit/cpubind-bash-builtin)**: Bash builtin providing information about cpu affinity and some environment variables.
 - 🦀 **[jenkins](https://github.com/kairyou/jenkins-cli)**: A CLI tool for triggering Jenkins builds and monitoring job status.
-- 🦀 **[konfigkoll](https://github.com/VorpalBlade/paketkoll)**: Konfigkoll is a configuration management tool for Arch Linux and Debian (and derivatives).
 - 🦀 **[novem-tui](https://novem.no)**: TUI for the novem.
+- 🦀 **[catppuccin-purr](https://github.com/uncenter/purr)**: Unoffical CLI for developing Catppuccin ports.
 - 🦀 **[ggetrs](https://github.com/noamteyssier/ggetrs)**: Efficient querying of biological databases from the command line.
-- 🦀 **[termscp](https://github.com/veeso/termscp)**: termscp is a feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/Kube/S3/WebDAV.
-- 🦀 **[lesspass-client](https://gitlab.com/ogarcia/lesspass-client)**: LessPass API server client library and CLI written in Rust.
-- 🦀 **[pmdaemon](https://github.com/entrepeneur4lyf/pmdaemon)**: PMDaemon - A high-performance, cross-platform process manager built in Rust with advanced port management and monitoring capabilities.
-- 🦀 **[ferris_swarm](https://github.com/master-of-zen/ferris_swarm)**: Distributed Video Encoder.
+- 🦀 **[konfigkoll](https://github.com/VorpalBlade/paketkoll)**: Konfigkoll is a configuration management tool for Arch Linux and Debian (and derivatives).
 - 🦀 **[rpz](https://git.philomathiclife.com/repos/rpz/)**: RPZ file generator based on HTTP(S) URLs and local file paths entered into a config file.
-- 🦀 **[spider_transformations](https://github.com/spider-rs/spider_transformations)**: Transformation utils to use for spider.
-- 🦀 **[spiko](https://github.com/trinhminhtriet/spiko)**: 🚀 Spiko is a fast, Rust-based load testing tool with a beautiful TUI for real-time insights.
 - 🦀 **[aegean](https://github.com/gabrielbrunop/aegean)**: A fancy diagnostics & reporting crate.
+- 🦀 **[ferris_swarm](https://github.com/master-of-zen/ferris_swarm)**: Distributed Video Encoder.
+- 🦀 **[pmdaemon](https://github.com/entrepeneur4lyf/pmdaemon)**: PMDaemon - A high-performance, cross-platform process manager built in Rust with advanced port management and monitoring capabilities.
 - 🦀 **[c5_core](https://github.com/normano/c5store.git)**: Core utilities for c5store secret management CLI, providing cryptographic operations, key management, YAML parsing, and file I/O.
 - 🦀 **[crab-cryptor](https://github.com/lrkkr/crab-cryptor)**: A simple file cryptor.
-- 🦀 **[fmql](https://github.com/chriswmann/fmql)**: A fast and feature-rich file manager written in Rust.
-- 🦀 **[qbfrt](https://github.com/regulatedsyntax/qbfrt)**: Command line tool for working with qBittorrent's fastresume data.
+- 🦀 **[lesspass-client](https://gitlab.com/ogarcia/lesspass-client)**: LessPass API server client library and CLI written in Rust.
 - 🦀 **[ut325f-rs](https://github.com/charlieh0tel/ut325f-rs)**: Support for Uni-T UT325-F thermocouple meter.
-- 🦀 **[calc_rational](https://git.philomathiclife.com/repos/calc_rational/)**: CLI calculator for rational numbers.
 - 🦀 **[drawio-exporter](https://github.com/rlespinasse/drawio-exporter)**: Command Line Client To Enhance Files Export Using Draw.
-- 🦀 **[mnemossh](https://github.com/abkvme/mnemossh)**: A library and CLI tool for generating and managing Ed25519 SSH keys using BIP-39 mnemonic phrases.
-- 🦀 **[tomate](https://github.com/Cantido/tomate)**: A Pomodoro CLI tool.
-- 🦀 **[wolfpack](https://github.com/igankevich/wolfpack)**: A package manager and a build tool that supports major package formats (deb, RPM, ipk, pkg, MSIX).
-- 🦀 **[zst_compress](https://docs.rs/zst-compress)**: Batch compress to or decompress dir/*.
-- 🦀 **[file_encryptor](https://github.com/miladtsx/cipher_file)**: A simple libsodium-based file encryption/decryption CLI.
+- 🦀 **[fmql](https://github.com/chriswmann/fmql)**: A fast and feature-rich file manager written in Rust.
+- 🦀 **[libdoh](https://github.com/jedisct1/rust-doh)**: DoH and Oblivious DoH library for the rust-doh app.
+- 🦀 **[mdsf](https://github.com/hougesen/mdsf)**: Format, and lint, markdown code snippets using your favorite tools.
+- 🦀 **[spiko](https://github.com/trinhminhtriet/spiko)**: 🚀 Spiko is a fast, Rust-based load testing tool with a beautiful TUI for real-time insights.
 - 🦀 **[gitql-parser](https://github.com/amrdeveloper/gql/tree/main/crates/gitql-parser)**: GitQL parser.
+- 🦀 **[qbfrt](https://github.com/regulatedsyntax/qbfrt)**: Command line tool for working with qBittorrent's fastresume data.
+- 🦀 **[tomate](https://github.com/Cantido/tomate)**: A Pomodoro CLI tool.
+- 🦀 **[calc_rational](https://git.philomathiclife.com/repos/calc_rational/)**: CLI calculator for rational numbers.
+- 🦀 **[gitql-cli](https://github.com/amrdeveloper/gql/tree/main/crates/gitql-cli)**: GitQL Command line interface (CLI) components.
+- 🦀 **[asimov-location-module](https://github.com/asimov-modules/asimov-location-module)**: ASIMOV module for the current geographical location.
 - 🦀 **[holochain_cli_run_local_services](https://github.com/holochain/holochain)**: Run a holochain webrtc signal server and bootstrap server.
+- 🦀 **[mnemossh](https://github.com/abkvme/mnemossh)**: A library and CLI tool for generating and managing Ed25519 SSH keys using BIP-39 mnemonic phrases.
+- 🦀 **[scooter](https://github.com/thomasschafer/scooter)**: Interactive find and replace in the terminal.
+- 🦀 **[dedups](https://github.com/AtlasPilotPuppy/dedup)**: A fast and efficient file deduplication tool with support for media files.
+- 🦀 **[file_encryptor](https://github.com/miladtsx/cipher_file)**: A simple libsodium-based file encryption/decryption CLI.
 - 🦀 **[placecare](https://github.com/bio-here/placecare)**: A toolkit to quickly search for cis-acting regulatory elements using the PLACE database.
+- 🦀 **[wolfpack](https://github.com/igankevich/wolfpack)**: A package manager and a build tool that supports major package formats (deb, RPM, ipk, pkg, MSIX).
+- 🦀 **[yo](https://github.com/montekkundan/yo)**: Ask your terminal anything using AI (OpenAI or Ollama).
+- 🦀 **[zst_compress](https://docs.rs/zst-compress)**: Batch compress to or decompress dir/*.
+- 🦀 **[muxi](https://github.com/iovis/muxi)**: Create bookmarks for your tmux sessions on the fly! 🚀.
+- 🦀 **[netrunner_cli](https://github.com/sorinirimies/netrunner_cli)**: A feature-rich Rust-based CLI to test and analyze your internet connection.
 - 🦀 **[postit](https://github.com/kerudev/postit-rs)**: Task manager on your CLI.
 - 🦀 **[wasm-proc](https://github.com/gear-tech/gear)**: Gear wasm processor.
-- 🦀 **[asimov-location-module](https://github.com/asimov-modules/asimov-location-module)**: ASIMOV module for the current geographical location.
-- 🦀 **[dedups](https://github.com/AtlasPilotPuppy/dedup)**: A fast and efficient file deduplication tool with support for media files.
-- 🦀 **[flash-watcher](https://github.com/sage-scm/Flash)**: A blazingly fast file watcher that executes commands when files change.
-- 🦀 **[base116](https://github.com/taylordotfish/base116)**: Like Base85… but 31 more.
-- 🦀 **[gitql-cli](https://github.com/amrdeveloper/gql/tree/main/crates/gitql-cli)**: GitQL Command line interface (CLI) components.
-- 🦀 **[muxi](https://github.com/iovis/muxi)**: Create bookmarks for your tmux sessions on the fly! 🚀.
-- 🦀 **[replay-rs](https://github.com/trozz/replay-rs)**: A Rust library for recording and replaying terminal sessions with timing data.
-- 🦀 **[scooter](https://github.com/thomasschafer/scooter)**: Interactive find and replace in the terminal.
-- 🦀 **[netrunner_cli](https://github.com/sorinirimies/netrunner_cli)**: A feature-rich Rust-based CLI to test and analyze your internet connection.
-- 🦀 **[uu_chcon](https://github.com/uutils/coreutils/tree/main/src/uu/chcon)**: chcon ~ (uutils) change file security context.
-- 🦀 **[uu_runcon](https://github.com/uutils/coreutils/tree/main/src/uu/runcon)**: runcon ~ (uutils) run command with specified security context.
-- 🦀 **[yo](https://github.com/montekkundan/yo)**: Ask your terminal anything using AI (OpenAI or Ollama).
-- 🦀 **[libdoh](https://github.com/jedisct1/rust-doh)**: DoH and Oblivious DoH library for the rust-doh app.
-- 🦀 **[rusty-basic](https://github.com/plming/rusty-basic)**: Tiny BASIC interpreter written in Rust.
-- 🦀 **[sheets-diff](https://github.com/nabbisen/sheets-diff-rs)**: Collect diff between office sheets.
 - 🦀 **[ansi-color-codec](https://github.com/conqp/ansi-color-codec/)**: Encode bytes as ANSI background colors.
-- 🦀 **[asimov-file-module](https://github.com/asimov-modules/asimov-file-module)**: ASIMOV module for file system access.
+- 🦀 **[base116](https://github.com/taylordotfish/base116)**: Like Base85… but 31 more.
+- 🦀 **[cargo-list](https://github.com/qtfkwk/cargo-list)**: List and update installed crates.
+- 🦀 **[flash-watcher](https://github.com/sage-scm/Flash)**: A blazingly fast file watcher that executes commands when files change.
 - 🦀 **[gc_fst](https://github.com/AlexanderHarrison/gc_fst)**: Gamecube ISO unpacker and rebuilder.
-- 🦀 **[kuiper](https://github.com/ijagberg/kuiper)**: An easy-to-use HTTP integration testing tool.
-- 🦀 **[tarball](https://codeberg.org/dragonmaus/tarball.rs)**: A simple utility to easily archive directories.
+- 🦀 **[gitql-engine](https://github.com/amrdeveloper/gql/tree/main/crates/gitql-engine)**: GitQL Engine.
+- 🦀 **[uu_runcon](https://github.com/uutils/coreutils/tree/main/src/uu/runcon)**: runcon ~ (uutils) run command with specified security context.
+- 🦀 **[asimov-file-module](https://github.com/asimov-modules/asimov-file-module)**: ASIMOV module for file system access.
+- 🦀 **[crowbook](https://github.com/lise-henry/crowbook)**: Render a Markdown book in HTML, PDF or Epub.
+- 🦀 **[rusty-basic](https://github.com/plming/rusty-basic)**: Tiny BASIC interpreter written in Rust.
+- 🦀 **[uu_chcon](https://github.com/uutils/coreutils/tree/main/src/uu/chcon)**: chcon ~ (uutils) change file security context.
 - 🦀 **[asimov-host-module](https://github.com/asimov-modules/asimov-host-module)**: ASIMOV module for information about the current host.
-- 🦀 **[ineed](https://github.com/ahmadbky/ineed)**: Lightweight CLI prompting library.
-- 🦀 **[mdsf](https://github.com/hougesen/mdsf)**: Format, and lint, markdown code snippets using your favorite tools.
+- 🦀 **[facet-pretty](https://github.com/facet-rs/facet)**: Pretty-printing for types implementing the Facet trait.
+- 🦀 **[kuiper](https://github.com/ijagberg/kuiper)**: An easy-to-use HTTP integration testing tool.
+- 🦀 **[sheets-diff](https://github.com/nabbisen/sheets-diff-rs)**: Collect diff between office sheets.
 - 🦀 **[asimov-ollama-module](https://github.com/asimov-modules/asimov-ollama-module)**: ASIMOV module for local inference using the Ollama model runtime.
+- 🦀 **[ripsecrets](https://github.com/sirwart/ripsecrets)**: A command-line tool to prevent committing secret keys into your source code.
+- 🦀 **[tarball](https://codeberg.org/dragonmaus/tarball.rs)**: A simple utility to easily archive directories.
+- 🦀 **[cai](https://github.com/ad-si/cai)**: The fastest CLI tool for prompting LLMs.
 - 🦀 **[csv-slice](https://github.com/arrismo/csv-slice)**: Extract rows or columns from CSV files without loading the entire file.
 - 🦀 **[flag-rs](https://github.com/navicore/cobra-rs)**: A Cobra-inspired CLI framework with dynamic completions.
-- 🦀 **[gitql-engine](https://github.com/amrdeveloper/gql/tree/main/crates/gitql-engine)**: GitQL Engine.
-- 🦀 **[ripsecrets](https://github.com/sirwart/ripsecrets)**: A command-line tool to prevent committing secret keys into your source code.
+- 🦀 **[ineed](https://github.com/ahmadbky/ineed)**: Lightweight CLI prompting library.
 - 🦀 **[rocketmq-tools](https://github.com/mxsm/rocketmq-rust)**: Rust implementation of Apache RocketMQ tools.
-- 🦀 **[rust_unique_pass](https://github.com/Neuron-Grid/rust_unique_pass)**: A CLI tool for generating a strong password.
 - 🦀 **[srt-linter](https://github.com/furtidev/srt-linter)**: Look for issues inside SubRip text (.
-- 🦀 **[startled](https://github.com/dev7a/serverless-otlp-forwarder/tree/main/cli/startled)**: CLI tool for benchmarking Lambda functions.
-- 🦀 **[crowbook](https://github.com/lise-henry/crowbook)**: Render a Markdown book in HTML, PDF or Epub.
-- 🦀 **[lilac_aur](https://github.com/snoooooooope/lilac)**: a KISS AUR helper designed to smell good, and get out of the way.
-- 🦀 **[livetrace](https://github.com/dev7a/serverless-otlp-forwarder/tree/main/cli/livetrace)**: CLI tool for live tailing of OTLP traces and logs in the Serverless OTLP Forwarder architecture.
 - 🦀 **[asimov-apple-module](https://github.com/asimov-modules/asimov-apple-module)**: ASIMOV module for Apple devices.
-- 🦀 **[ec2hx](https://github.com/senekor/ec2hx)**: convert EditorConfig to Helix configuration.
-- 🦀 **[asimov-clock-module](https://github.com/asimov-modules/asimov-clock-module)**: ASIMOV module for the current date and time.
 - 🦀 **[asimov-obsidian-module](https://github.com/asimov-modules/asimov-obsidian-module)**: ASIMOV module for integration with the Obsidian note-taking app.
 - 🦀 **[asimov-telegram-module](https://github.com/asimov-modules/asimov-telegram-module)**: ASIMOV module for integration with the Telegram messaging service.
-- 🦀 **[fast-down-cli](https://github.com/share121/fast-down)**: 超级快的下载器命令行界面.
-- 🦀 **[putter](https://git.sr.ht/~rycee/putter)**: A tool to put files in the right place.
-- 🦀 **[asimov-huggingface-module](https://github.com/asimov-modules/asimov-huggingface-module)**: ASIMOV module for model downloads from the Hugging Face Hub platform.
-- 🦀 **[asimov-openai-module](https://github.com/asimov-modules/asimov-openai-module)**: ASIMOV module for cloud inference with OpenAI or compatible providers.
-- 🦀 **[grink](https://github.com/bitfield/grink)**: Grink is a tool to find and check web links in text files.
-- 🦀 **[ised](https://github.com/parksb/ised)**: An interactive tool for find-and-replace across many files.
+- 🦀 **[ec2hx](https://github.com/senekor/ec2hx)**: convert EditorConfig to Helix configuration.
+- 🦀 **[groan_rs](https://github.com/Ladme/groan_rs)**: Gromacs Analysis Library for Rust.
 - 🦀 **[librmo](https://github.com/samuelshiels/rmo)**: A library to manage media files and play them.
-- 🦀 **[magoo](https://github.com/Pistonite/magoo)**: A wrapper for git submodule that simplifies the workflows.
+- 🦀 **[rust_unique_pass](https://github.com/Neuron-Grid/rust_unique_pass)**: A CLI tool for generating a strong password.
+- 🦀 **[asimov-clock-module](https://github.com/asimov-modules/asimov-clock-module)**: ASIMOV module for the current date and time.
+- 🦀 **[asimov-huggingface-module](https://github.com/asimov-modules/asimov-huggingface-module)**: ASIMOV module for model downloads from the Hugging Face Hub platform.
+- 🦀 **[dcd](https://github.com/g1ibby/dcd)**: Docker Compose Deployment tool for remote servers.
+- 🦀 **[grink](https://github.com/bitfield/grink)**: Grink is a tool to find and check web links in text files.
+- 🦀 **[lilac_aur](https://github.com/snoooooooope/lilac)**: a KISS AUR helper designed to smell good, and get out of the way.
+- 🦀 **[livetrace](https://github.com/dev7a/serverless-otlp-forwarder/tree/main/cli/livetrace)**: CLI tool for live tailing of OTLP traces and logs in the Serverless OTLP Forwarder architecture.
 - 🦀 **[photohash](https://github.com/chadaustin/photohash)**: Tool for detecting duplicate photos and diffing directories.
-- 🦀 **[prgf](https://github.com/Noctismal/prgf)**: An easy to configure CLI tool that creates files with content that the user specifies.
+- 🦀 **[asimov-openai-module](https://github.com/asimov-modules/asimov-openai-module)**: ASIMOV module for cloud inference with OpenAI or compatible providers.
+- 🦀 **[fast-down-cli](https://github.com/share121/fast-down)**: 超级快的下载器命令行界面.
+- 🦀 **[pik](https://github.com/jacek-kurlit/pik)**: pik - process interactive kill.
+- 🦀 **[s3sync](https://github.com/nidor1998/s3sync)**: very fast, and powerful synchronization command line tool for S3.
+- 🦀 **[cargo-atomic](https://github.com/ExtremelyRyan/atomic)**: A CLI tool to help make local git commits easier.
+- 🦀 **[gloss-word](https://github.com/theodore-s-beers/gloss-word)**: A simple English dictionary lookup utility.
+- 🦀 **[ised](https://github.com/parksb/ised)**: An interactive tool for find-and-replace across many files.
+- 🦀 **[magoo](https://github.com/Pistonite/magoo)**: A wrapper for git submodule that simplifies the workflows.
 - 🦀 **[majima](https://git.sr.ht/~wq/majima)**: A simple username generator.
 - 🦀 **[nixpkgs-track](https://github.com/uncenter/nixpkgs-track)**: Track where Nixpkgs pull requests have reached.
+- 🦀 **[prgf](https://github.com/Noctismal/prgf)**: An easy to configure CLI tool that creates files with content that the user specifies.
+- 🦀 **[putter](https://git.sr.ht/~rycee/putter)**: A tool to put files in the right place.
 - 🦀 **[asimov-http-module](https://github.com/asimov-modules/asimov-http-module)**: ASIMOV module for HTTP and HTTPS protocol support.
-- 🦀 **[cai](https://github.com/ad-si/cai)**: The fastest CLI tool for prompting LLMs.
-- 🦀 **[cargo-atomic](https://github.com/ExtremelyRyan/atomic)**: A CLI tool to help make local git commits easier.
-- 🦀 **[dcd](https://github.com/g1ibby/dcd)**: Docker Compose Deployment tool for remote servers.
+- 🦀 **[gitql-std](https://github.com/amrdeveloper/gql/tree/main/crates/gitql-cli)**: GitQL Standard and Aggregation functions.
+- 🦀 **[kalc](https://github.com/bgkillas/kalc)**: a complex numbers, 2d/3d graphing, arbitrary precision, vector/matrix, cli calculator with real-time output and support for units.
+- 🦀 **[smbcloud-utils](https://github.com/smbcloudXYZ/smbcloud-cli)**: Command line tool for deploying NextJS app on the smbCloud platform.
+- 🦀 **[testtrim](https://codeberg.org/testtrim/testtrim)**: Intelligently select automated tests to run via code coverage analysis.
 - 🦀 **[discord-webhook-proxy](https://github.com/ehewes/DiscordRustScraper)**: DiscordWebhookProxy is a powerful Discord proxy service designed for Roblox, built to prevent abuse and provide secure relaying.
 - 🦀 **[dover](https://github.com/bferris413/dover)**: A CLI tool for summarizing git diffs of Rust code.
-- 🦀 **[s3sync](https://github.com/nidor1998/s3sync)**: very fast, and powerful synchronization command line tool for S3.
-- 🦀 **[slint-lsp](https://github.com/slint-ui/slint)**: A language server protocol implementation for Slint.
-- 🦀 **[testtrim](https://codeberg.org/testtrim/testtrim)**: Intelligently select automated tests to run via code coverage analysis.
-- 🦀 **[cargo-list](https://github.com/qtfkwk/cargo-list)**: List and update installed crates.
-- 🦀 **[gloss-word](https://github.com/theodore-s-beers/gloss-word)**: A simple English dictionary lookup utility.
-- 🦀 **[groan_rs](https://github.com/Ladme/groan_rs)**: Gromacs Analysis Library for Rust.
-- 🦀 **[kalc](https://github.com/bgkillas/kalc)**: a complex numbers, 2d/3d graphing, arbitrary precision, vector/matrix, cli calculator with real-time output and support for units.
-- 🦀 **[botcore](https://github.com/ss-sonic/botcore)**: Production-grade asynchronous bot engine with enterprise observability features.
 - 🦀 **[fifd-rs](https://github.com/zhaopengme/fifd-rs)**: This is a Rust implementation of the Go library [IncSW/fifd](https://github.
-- 🦀 **[gitql-std](https://github.com/amrdeveloper/gql/tree/main/crates/gitql-cli)**: GitQL Standard and Aggregation functions.
-- 🦀 **[solarboat](https://github.com/devqik/solarboat)**: A CLI tool for intelligent Terraform operations management with automatic dependency detection.
-- 🦀 **[casino](https://codeberg.org/cosmicrose/casino)**: A casino built right into your terminal.
-- 🦀 **[myrustscan](https://github.com/rustscan/rustscan)**: Faster Nmap Scanning with Rust.
-- 🦀 **[smbcloud-utils](https://github.com/smbcloudXYZ/smbcloud-cli)**: Command line tool for deploying NextJS app on the smbCloud platform.
-- 🦀 **[xquo](https://github.com/hankei6km/xquo)**: Quote null splited lines for Bash command line.
-- 🦀 **[lsdj-tools](https://github.com/stijnfrishert/lsdj-rs)**: A set of tools for working with LSDJ files.
-- 🦀 **[pwtool](https://gitlab.com/edneville/pwtool)**: pwtool, user account password tool.
-- 🦀 **[chmod_calculator](https://github.com/pilkch/chmod-calculator)**: A tool for calculating chmod octal values and rwx style valus.
 - 🦀 **[json2rdf](https://github.com/DeciSym/json2rdf)**: Library for converting a JSON file to N-Triple RDF.
-- 🦀 **[pik](https://github.com/jacek-kurlit/pik)**: pik - process interactive kill.
-- 🦀 **[wtr-watcher](https://github.com/e-dant/watcher)**: Filesystem watcher.
+- 🦀 **[solarboat](https://github.com/devqik/solarboat)**: A CLI tool for intelligent Terraform operations management with automatic dependency detection.
+- 🦀 **[botcore](https://github.com/ss-sonic/botcore)**: Production-grade asynchronous bot engine with enterprise observability features.
+- 🦀 **[casino](https://codeberg.org/cosmicrose/casino)**: A casino built right into your terminal.
+- 🦀 **[hex-patch](https://github.com/Etto48/HexPatch)**: HexPatch is a binary patcher and editor with terminal user interface (TUI), it's capable of disassembling instructions and assembling patches.
+- 🦀 **[lsdj-tools](https://github.com/stijnfrishert/lsdj-rs)**: A set of tools for working with LSDJ files.
+- 🦀 **[myrustscan](https://github.com/rustscan/rustscan)**: Faster Nmap Scanning with Rust.
+- 🦀 **[pwtool](https://gitlab.com/edneville/pwtool)**: pwtool, user account password tool.
+- 🦀 **[xquo](https://github.com/hankei6km/xquo)**: Quote null splited lines for Bash command line.
+- 🦀 **[arcconfig](https://github.com/massivebird/arcconfig)**: Facilitates querying of digital video game archives.
+- 🦀 **[chmod_calculator](https://github.com/pilkch/chmod-calculator)**: A tool for calculating chmod octal values and rwx style valus.
+- 🦀 **[txtlib](https://github.com/iamseol/txtlib)**: library for text file-based command line tools.
 - 🦀 **[drgrep](https://github.com/DoniLite/drgrep)**: A Rust implementation of the grep software with more support and features for args, workspace scanning and CLI.
 - 🦀 **[media_organizer](https://github.com/andrewgremlich/media_organizer)**: Organize media into one folder with a date-centric folder structure.
 - 🦀 **[pinix](https://github.com/remi-dupre/pinix)**: Progress In Nix - Pacman inspired frontend for Nix.
+- 🦀 **[wtr-watcher](https://github.com/e-dant/watcher)**: Filesystem watcher.
+- 🦀 **[biff](https://github.com/EngosSoftware/biff.git)**: Byte by byte file comparator.
+- 🦀 **[looneygrep](https://github.com/looneyrichie/looneygrep)**: A powerful command-line search tool with web page support and replace functionality.
 - 🦀 **[thoth-cli](https://github.com/jooaf/thoth)**: A terminal scratchpad akin to Heynote.
 - 🦀 **[ent-rs](https://github.com/chbtoys/ent-rs)**: Entropy and randomness analysis tool for binary files (Rust port of ent.
 - 🦀 **[kelora](https://github.com/dloss/kelora)**: A fast, extensible log parser.
-- 🦀 **[terrazzo-terminal](https://github.com/Terrazzo-Web/Terminal)**: A simple web-based terminal emulator built on Terrazzo.
-- 🦀 **[wonfy-tools](https://github.com/SalahaldinBilal/wonfy-tools)**: Collection of tools for personal use, provides library and CLI.
-- 🦀 **[biff](https://github.com/EngosSoftware/biff.git)**: Byte by byte file comparator.
-- 🦀 **[looneygrep](https://github.com/looneyrichie/looneygrep)**: A powerful command-line search tool with web page support and replace functionality.
-- 🦀 **[nsave](https://github.com/chunhuitrue/nsave)**: capturing and saving packets.
-- 🦀 **[arcconfig](https://github.com/massivebird/arcconfig)**: Facilitates querying of digital video game archives.
-- 🦀 **[hex-patch](https://github.com/Etto48/HexPatch)**: HexPatch is a binary patcher and editor with terminal user interface (TUI), it's capable of disassembling instructions and assembling patches.
-- 🦀 **[papercut](https://github.com/orhanbalci/papercut)**: A library and CLI tool for slicing and joining images.
-- 🦀 **[zk-prover](https://github.com/allelementary/zk-prover)**: Rust wrapper around Nargo and Barretenberg to generate and verify zero-knowledge proofs using Noir circuits.
-- 🦀 **[gffx](https://github.com/Baohua-Chen/GFFx)**: An ultra-fast and memory-efficient toolkit for querying GFF files, written with Rust.
-- 🦀 **[git-commit-sage](https://github.com/BonnardValentin/commit-sage)**: A smart Git commit message generator using AI.
-- 🦀 **[japan-dem](https://github.com/nokonoko1203/japan-dem)**: A CLI tool to convert Japan DEM XML to GeoTIFF.
-- 🦀 **[rustybam](https://github.com/mrvollger/rustybam)**: bioinformatics toolkit in rust.
-- 🦀 **[txtlib](https://github.com/iamseol/txtlib)**: library for text file-based command line tools.
-- 🦀 **[deepwash](https://github.com/Soluce-Technologies/deepwash.git)**: A Command Line Interface to clean your machine (docker.
-- 🦀 **[hxx](https://github.com/hmunye/hxx)**: Minimal re-implementation of the xxd command-line utility.
 - 🦀 **[marctk](https://github.com/kcls/evergreen-universe-rs)**: MARC21 Binary, Breaker, and XML Toolkit.
-- 🦀 **[monarch-rs](https://github.com/jwliles/monarch-rs)**: Advanced Git Management Suite for handling multiple repositories concurrently.
-- 🦀 **[node-cleaner](https://github.com/Breinss/rust-node-modules-cleaner)**: A tool for cleaning and managing node_modules directories.
-- 🦀 **[svd2pac](https://github.com/Infineon/svd2pac)**: Tool to generate peripheral access crates from SVD files.
-- 🦀 **[forge-pfx](https://github.com/nhudson/forge)**: Forge is a cli tool for converting PFX/P12 certificate files to PEM format.
-- 🦀 **[mytree](https://github.com/yokurang/mytree)**: A fast CLI tool to visualize directory structures with filtering and formatting.
-- 🦀 **[randyrand](https://github.com/dybucc/randy)**: A quick and AI-powered game to guess numbers and get answered by a cowboy.
+- 🦀 **[papercut](https://github.com/orhanbalci/papercut)**: A library and CLI tool for slicing and joining images.
+- 🦀 **[wonfy-tools](https://github.com/SalahaldinBilal/wonfy-tools)**: Collection of tools for personal use, provides library and CLI.
+- 🦀 **[gffx](https://github.com/Baohua-Chen/GFFx)**: An ultra-fast and memory-efficient toolkit for querying GFF files, written with Rust.
 - 🦀 **[blue-build-process-management](https://github.com/blue-build/cli)**: A CLI tool built for creating Containerfile templates for ostree based atomic distros.
+- 🦀 **[git-commit-sage](https://github.com/BonnardValentin/commit-sage)**: A smart Git commit message generator using AI.
+- 🦀 **[letmein-proto](https://github.com/mbuesch/letmein)**: Authenticated port knocking - Wire protocol.
+- 🦀 **[node-cleaner](https://github.com/Breinss/rust-node-modules-cleaner)**: A tool for cleaning and managing node_modules directories.
+- 🦀 **[nsave](https://github.com/chunhuitrue/nsave)**: capturing and saving packets.
+- 🦀 **[rustybam](https://github.com/mrvollger/rustybam)**: bioinformatics toolkit in rust.
+- 🦀 **[deepwash](https://github.com/Soluce-Technologies/deepwash.git)**: A Command Line Interface to clean your machine (docker.
 - 🦀 **[hlg](https://hlg.access-computing.com/)**: HLG, or HI, Let's Go!, is a powerful bookmark manager to keep track of your favorites both on the filesystem and the web.
+- 🦀 **[japan-dem](https://github.com/nokonoko1203/japan-dem)**: A CLI tool to convert Japan DEM XML to GeoTIFF.
+- 🦀 **[zk-prover](https://github.com/allelementary/zk-prover)**: Rust wrapper around Nargo and Barretenberg to generate and verify zero-knowledge proofs using Noir circuits.
+- 🦀 **[hxx](https://github.com/hmunye/hxx)**: Minimal re-implementation of the xxd command-line utility.
+- 🦀 **[letmein-conf](https://github.com/mbuesch/letmein)**: Authenticated port knocking - Configuration parser.
+- 🦀 **[letmein-seccomp](https://github.com/mbuesch/letmein)**: Authenticated port knocking - Seccomp wrapper.
+- 🦀 **[monarch-rs](https://github.com/jwliles/monarch-rs)**: Advanced Git Management Suite for handling multiple repositories concurrently.
+- 🦀 **[mytree](https://github.com/yokurang/mytree)**: A fast CLI tool to visualize directory structures with filtering and formatting.
+- 🦀 **[forge-pfx](https://github.com/nhudson/forge)**: Forge is a cli tool for converting PFX/P12 certificate files to PEM format.
+- 🦀 **[svd2pac](https://github.com/Infineon/svd2pac)**: Tool to generate peripheral access crates from SVD files.
+- 🦀 **[randyrand](https://github.com/dybucc/randy)**: A quick and AI-powered game to guess numbers and get answered by a cowboy.
 - 🦀 **[rataudio-meter](https://github.com/kaspernyhus/rataudio-meter.git)**: A ratatui widget for displaying audio meter data in the terminal.
-- 🦀 **[rsnote_cli](https://github.com/zhanshuyou/rsnote)**: A command-line note-taking app written in Rust.
-- 🦀 **[rust-commit-tracker](https://github.com/kWAYTV/rust-commit-tracker)**: A Rust application that monitors Facepunch's Rust game commits and sends Discord notifications.
 - 🦀 **[ffizer](https://github.com/ffizer/ffizer)**: ffizer is a files and folders initializer / generator.
-- 🦀 **[lean2md](https://github.com/fosterfarrell9/lean2md)**: Tool to convert Lean files to Markdown with special features for documentation.
+- 🦀 **[rsnote_cli](https://github.com/zhanshuyou/rsnote)**: A command-line note-taking app written in Rust.
 - 🦀 **[newdoc](https://github.com/redhat-documentation/newdoc/)**: Generate pre-populated module files formatted with AsciiDoc that are used in Red Hat and Fedora documentation.
-- 🦀 **[rusty-jvm](https://github.com/hextriclosan/rusty-jvm)**: An implementation of a Java Virtual Machine (JVM).
-- 🦀 **[terrazzo-pty](https://github.com/Terrazzo-Web/Terminal)**: Utility to run commands in a PTY.
-- 🦀 **[cacher](https://github.com/deanshub/cacher)**: A CLI tool for caching command outputs.
-- 🦀 **[generate-did](https://github.com/Stephen-Kimoi/generate-did)**: A tool to generate Candid (.
+- 🦀 **[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)**: A DNS utility for nushell.
+- 🦀 **[filkoll](https://github.com/VorpalBlade/filkoll)**: Find out what package owns a file.
+- 🦀 **[miden-cli](https://github.com/0xMiden/miden-client)**: CLI binary application that facilitates interaction with the Miden rollup.
 - 🦀 **[picleo](https://github.com/symplasma/picleo)**: A fuzzy picker similar to fzf and Skim using the Nucleo library.
+- 🦀 **[rust-commit-tracker](https://github.com/kWAYTV/rust-commit-tracker)**: A Rust application that monitors Facepunch's Rust game commits and sends Discord notifications.
+- 🦀 **[rusty-jvm](https://github.com/hextriclosan/rusty-jvm)**: An implementation of a Java Virtual Machine (JVM).
+- 🦀 **[generate-did](https://github.com/Stephen-Kimoi/generate-did)**: A tool to generate Candid (.
+- 🦀 **[lean2md](https://github.com/fosterfarrell9/lean2md)**: Tool to convert Lean files to Markdown with special features for documentation.
+- 🦀 **[cacher](https://github.com/deanshub/cacher)**: A CLI tool for caching command outputs.
 - 🦀 **[s3find](https://github.com/AnderEnder/s3find-rs)**: A command line utility to walk an Amazon S3 hierarchy.
 - 🦀 **[bookify_rs](https://github.com/wesleyel/bookify-rs)**: A PDF processing tool for booklet imposition and double-sided printing.
-- 🦀 **[filkoll](https://github.com/VorpalBlade/filkoll)**: Find out what package owns a file.
-- 🦀 **[nahpu_api](https://github.com/nahpu/nahpu_api)**: An CLI and API client for NAHPU scientific specimen cataloging application.
-- 🦀 **[tinyraytracer_rs](https://github.com/Houssem-Jarray/tinyraytracer_rs)**: A simple raytracer in pure Rust, converted from C++.
 - 🦀 **[omr-bumper](https://github.com/AndreasOM/omr-bumper)**: An opiniated version bumper for releases.
-- 🦀 **[Kget](https://github.com/davimf721/KGet)**: A powerful and versatile download manager and library.
+- 🦀 **[tinyraytracer_rs](https://github.com/Houssem-Jarray/tinyraytracer_rs)**: A simple raytracer in pure Rust, converted from C++.
 - 🦀 **[clean-dev-dirs](https://github.com/TomPlanche/clean-dev-dirs)**: A fast CLI tool for recursively cleaning Rust target/ and Node.
-- 🦀 **[gnostr](https://github.com/gnostr-org/gnostr)**: gnostr:a git+nostr workflow utility.
-- 🦀 **[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)**: A DNS utility for nushell.
-- 🦀 **[please-install](https://codeberg.org/cacilhas/please)**: A unified interface package manager for many OSes.
-- 🦀 **[miden-cli](https://github.com/0xMiden/miden-client)**: CLI binary application that facilitates interaction with the Miden rollup.
-- 🦀 **[asimov-nearai-module](https://github.com/asimov-modules/asimov-nearai-module)**: ASIMOV module for data import from the NEAR AI developer platform.
-- 🦀 **[cql_lsp](https://github.com/Akzestia/cql-lsp)**: CQL (Cassandra Query Language) LSP.
+- 🦀 **[Kget](https://github.com/davimf721/KGet)**: A powerful and versatile download manager and library.
+- 🦀 **[nahpu_api](https://github.com/nahpu/nahpu_api)**: An CLI and API client for NAHPU scientific specimen cataloging application.
 - 🦀 **[oliframe](https://github.com/calteran/oliframe)**: Add a simple border to one or more images.
-- 🦀 **[warcat](https://github.com/chfoo/warcat-rs)**: Command-line tool and library for handling Web ARChive (WARC) files.
+- 🦀 **[asimov-nearai-module](https://github.com/asimov-modules/asimov-nearai-module)**: ASIMOV module for data import from the NEAR AI developer platform.
+- 🦀 **[please-install](https://codeberg.org/cacilhas/please)**: A unified interface package manager for many OSes.
 - 🦀 **[aws-mfa-session](https://github.com/AnderEnder/aws-mfa-session)**: A command line utility to generate temporary AWS credentials with virtual MFA device.
+- 🦀 **[cql_lsp](https://github.com/Akzestia/cql-lsp)**: CQL (Cassandra Query Language) LSP.
+- 🦀 **[sculptor](https://github.com/LighghtEeloo/sculptor)**: (Placeholder of) an app framework that uses configuration files.
 - 🦀 **[source_viewer](https://github.com/nevakrien/SourceViewer)**: A CLI tool to inspect and analyze binary sources using DWARF debugging information.
 - 🦀 **[hookman](null)**: Add hooks to your Git repository using a TOML file.
-- 🦀 **[text-fx](https://github.com/enterprise-search/text-fx)**: A collection of text processing utilities for Rust.
+- 🦀 **[warcat](https://github.com/chfoo/warcat-rs)**: Command-line tool and library for handling Web ARChive (WARC) files.
 - 🦀 **[ocd](https://github.com/awkless/ocd.git)**: Organize current dotfiles.
-- 🦀 **[sculptor](https://github.com/LighghtEeloo/sculptor)**: (Placeholder of) an app framework that uses configuration files.
-- 🦀 **[smbcloud-networking](https://github.com/smbcloudXYZ/smbcloud-cli)**: Command line tool for deploying NextJS app on the smbCloud platform.
 - 🦀 **[asca](https://github.com/Girv98/asca-rust)**: A linguistic sound change applier.
-- 🦀 **[ck3-tiger](https://github.com/amtep/tiger)**: Validator that checks Crusader Kings 3 user mod files for mistakes and warns about them.
 - 🦀 **[cli-sky](https://github.com/Samarinara/cli-sky)**: A CLI AT protocol client.
-- 🦀 **[fasten](https://github.com/lskatz/fasten)**: A set of scripts to run basic analysis on fastq files.
-- 🦀 **[uast](https://github.com/dhruvildave/uast.rs)**: Unicode Aware Saṃskṛta Transliteration in Rust 🦀.
-- 🦀 **[xwin](https://github.com/Jake-Shadle/xwin)**: Allows downloading and repacking the MSVC CRT and Windows SDK for cross compilation.
-- 🦀 **[neocurl](https://github.com/LeviLovie/neocurl)**: A command line tool to test servers.
 - 🦀 **[openjlc](https://github.com/canmi21/openjlc)**: Ultra-fast Gerber conversion tool.
+- 🦀 **[fasten](https://github.com/lskatz/fasten)**: A set of scripts to run basic analysis on fastq files.
+- 🦀 **[neocurl](https://github.com/LeviLovie/neocurl)**: A command line tool to test servers.
+- 🦀 **[text-fx](https://github.com/enterprise-search/text-fx)**: A collection of text processing utilities for Rust.
+- 🦀 **[uast](https://github.com/dhruvildave/uast.rs)**: Unicode Aware Saṃskṛta Transliteration in Rust 🦀.
+- 🦀 **[dook](https://github.com/pteromys/dook)**: Look up definitions in your code.
 - 🦀 **[opensass](https://github.com/opensass/cli)**: 🧩 A CLI to interact with the OpenSASS ecosystem.
 - 🦀 **[avina-cli](https://github.com/LRZ-BADW/avina)**: Rust CLI client for the LRZ-specific features of the Openstack-based LRZ Compute Cloud.
-- 🦀 **[dook](https://github.com/pteromys/dook)**: Look up definitions in your code.
-- 🦀 **[imperator-tiger](https://github.com/amtep/tiger)**: Validator that checks Imperator: Rome user mod files for mistakes and warns about them.
+- 🦀 **[frep-core](https://github.com/thomasschafer/frep/tree/main/frep-core)**: Core functionality for find and replace operations.
+- 🦀 **[klvm_tools_rs](https://github.com/Chik-Network/klvm_tools_rs)**: tools for working with chiklisp language; compiler, repl, python and wasm bindings.
+- 🦀 **[letmein-fwproto](https://github.com/mbuesch/letmein)**: Authenticated port knocking - Firewall backend communication protocol.
+- 🦀 **[git-assist](https://github.com/regexident/git-assist)**: A suite of friendly assistive git commands.
 - 🦀 **[pandora_box](https://github.com/sydbox/sydbox-1)**: Syd's log inspector & profile writer.
 - 🦀 **[scrut](https://github.com/facebookincubator/scrut)**: A simple and powerful test framework for CLI applications.
-- 🦀 **[vic3-tiger](https://github.com/amtep/tiger)**: Validator that checks Victoria 3 user mod files for mistakes and warns about them.
-- 🦀 **[xml-log-scan](https://github.com/rust-utility/xml-log-scan)**: Extracts XMLs from log files or standard input.
 - 🦀 **[emojis-rs](https://github.com/dyncoch/emojis-rs)**: A collection of emoji constants for Rust applications.
-- 🦀 **[zarrs_tools](https://github.com/zarrs/zarrs_tools)**: Tools for creating and manipulating Zarr V3 data.
-- 🦀 **[gcs-rsync](https://github.com/cboudereau/gcs-rsync)**: rsync support for gcs with higher perf than gsutil rsync.
-- 🦀 **[git-assist](https://github.com/regexident/git-assist)**: A suite of friendly assistive git commands.
 - 🦀 **[jilu](https://github.com/rustic-games/jilu)**: Generate a change log based on conventional commits.
+- 🦀 **[letmein-systemd](https://github.com/mbuesch/letmein)**: Authenticated port knocking - Systemd support.
+- 🦀 **[xml-log-scan](https://github.com/rust-utility/xml-log-scan)**: Extracts XMLs from log files or standard input.
 - 🦀 **[sarchive](https://github.com/itkovian/sarchive)**: Archival tool for slurm job scripts.
+- 🦀 **[zarrs_tools](https://github.com/zarrs/zarrs_tools)**: Tools for creating and manipulating Zarr V3 data.
 - 🦀 **[xylo-lang](https://github.com/giraffekey/xylo)**: A functional programming language for generative art.
-- 🦀 **[humble-cli](https://github.com/smbl64/humble-cli)**: The missing CLI for downloading your Humble Bundle purchases.
-- 🦀 **[tracel-xtask-macros](https://github.com/tracel-ai/xtask/tree/main/crates/tracel-xtask-macros)**: Macros for tracel-xtask crate.
 - 🦀 **[cargo-nfpm](https://github.com/ragnarlab/cargo-nfpm)**: A simple and lightweight Cargo plugin for using nFPM from Any Rust project.
-- 🦀 **[codedebt](https://github.com/haasonsaas/codedebt)**: Ultra-fast code debt detection library and CLI.
-- 🦀 **[frep-core](https://github.com/thomasschafer/frep/tree/main/frep-core)**: Core functionality for find and replace operations.
-- 🦀 **[masm-formatter](https://github.com/partylikeits1983/masm-formatter)**: A formatter for Miden Assembly (.
+- 🦀 **[humble-cli](https://github.com/smbl64/humble-cli)**: The missing CLI for downloading your Humble Bundle purchases.
 - 🦀 **[rkit](https://github.com/imthor/rkit)**: Rust CLI Toolkit for Git Repo Management.
-- 🦀 **[txtweb](https://github.com/iamseol/txtweb)**: text file-based webpage generating tool.
-- 🦀 **[xcut](https://github.com/kyotalab/xcut)**: An extended cut command with regex filtering and formatting.
-- 🦀 **[project_cd](https://github.com/nivaldogmelo/project_cd)**: A CLI tool to help you switch between your projects folder.
 - 🦀 **[smbcloud-networking-project](https://github.com/smbcloudXYZ/smbcloud-cli)**: Command line tool for deploying NextJS app on the smbCloud platform.
+- 🦀 **[tracel-xtask-macros](https://github.com/tracel-ai/xtask/tree/main/crates/tracel-xtask-macros)**: Macros for tracel-xtask crate.
+- 🦀 **[masm-formatter](https://github.com/partylikeits1983/masm-formatter)**: A formatter for Miden Assembly (.
 - 🦀 **[smv](https://github.com/jwliles/smv)**: Smart Move - An enhanced mv command with transformation capabilities.
+- 🦀 **[xcut](https://github.com/kyotalab/xcut)**: An extended cut command with regex filtering and formatting.
+- 🦀 **[codedebt](https://github.com/haasonsaas/codedebt)**: Ultra-fast code debt detection library and CLI.
+- 🦀 **[txtweb](https://github.com/iamseol/txtweb)**: text file-based webpage generating tool.
 - 🦀 **[dwldutil](https://github.com/k3nder/dwldutil)**: A utility for parallel downloading.
-- 🦀 **[transaction-decoder](https://app.radicle.xyz/nodes/seed.radicle.garden/rad:z2zJ3dFpEWM4fea4KDaRpNqxJG48v)**: A CLI tool for decoding Ethereum transactions.
+- 🦀 **[project_cd](https://github.com/nivaldogmelo/project_cd)**: A CLI tool to help you switch between your projects folder.
 - 🦀 **[codebook-lsp](https://github.com/blopker/codebook)**: A code-aware spell checker with language server implementation, installable via cargo install.
+- 🦀 **[gitignore-template-generator](https://github.com/Patacode/gitignore-template-generator)**: A binary crate to generate templates for .
+- 🦀 **[mavspec](https://gitlab.com/mavka/libs/mavspec)**: A set of code generation utilities for MAVLink protocol.
 - 🦀 **[openstack_tui](https://github.com/gtema/openstack)**: OpenStack Terminal User interface.
 - 🦀 **[rust_az_wrapper](https://github.com/JohnGuih/rust_az_wrapper)**: Type-safe Rust wrapper for Azure CLI focused on Cosmos DB operations.
 - 🦀 **[srctrait-note-cli](https://github.com/sourcetrait/srctrait-note)**: A very, very simple Markdown notes manager.
-- 🦀 **[martinrepo-findr](https://github.com/MartinRepo/FindR)**: A tool to search files.
-- 🦀 **[martinrepo-grrs](https://github.com/MartinRepo/grrs)**: A tool to search files.
-- 🦀 **[ssec-cli](https://github.com/james-conn/ssec-cli)**: command-line interface for reading and writing the SSEC file format.
+- 🦀 **[tfmcp](https://github.com/nwiizo/tfmcp)**: Terraform Model Context Protocol Tool - A CLI tool to manage Terraform through MCP.
+- 🦀 **[transaction-decoder](https://app.radicle.xyz/nodes/seed.radicle.garden/rad:z2zJ3dFpEWM4fea4KDaRpNqxJG48v)**: A CLI tool for decoding Ethereum transactions.
+- 🦀 **[deacon](https://github.com/bede/deacon)**: Fast (host) DNA sequence filtering with minimizers.
+- 🦀 **[smbcloud-model](https://github.com/smbcloudXYZ/smbcloud-cli)**: Command line tool for deploying NextJS app on the smbCloud platform.
 - 🦀 **[tracel-xtask](https://github.com/tracel-ai/xtask/tree/main/crates/tracel-xtask)**: Reusable and Extensible xtask commands to manage repositories.
 - 🦀 **[vegas-lattice](https://github.com/odarbelaeze/vegas-lattice-rs)**: CLI and library to work with lattices.
-- 🦀 **[mal-cli-rs](https://github.com/L4z3x/mal-cli)**: CLI tool for myanimelist.
-- 🦀 **[pix2svg](https://github.com/LeSnow-Ye/pix2svg)**: Convert pixel art images to optimized SVG format.
-- 🦀 **[ahiru-tpm](https://gitlab.com/x3ro/tpm-rs)**: Drop-in replacement for the famous Tmux Plugin Manager (TPM), written in Rust.
 - 🦀 **[convfmt](https://github.com/oriontvv/convfmt/)**: cli tool which can convert different formats.
-- 🦀 **[deacon](https://github.com/bede/deacon)**: Fast (host) DNA sequence filtering with minimizers.
+- 🦀 **[mal-cli-rs](https://github.com/L4z3x/mal-cli)**: CLI tool for myanimelist.
+- 🦀 **[martinrepo-findr](https://github.com/MartinRepo/FindR)**: A tool to search files.
 - 🦀 **[rust_tree](https://github.com/peteretelej/tree)**: tree is a cross-platform tree application and library that produces an indented directory listing of files.
-- 🦀 **[xod](https://github.com/annie444/xod)**: A tiny REPL for bitwise arithmetic and expression evaluation.
-- 🦀 **[backlogr](https://github.com/lauacosta/backlogr)**: CLI for interacting with the Taiga REST API.
-- 🦀 **[bestool](https://github.com/beyondessential/bestool)**: BES Deployment tooling.
-- 🦀 **[gitignore-template-generator](https://github.com/Patacode/gitignore-template-generator)**: A binary crate to generate templates for .
-- 🦀 **[gorder](https://github.com/Ladme/gorder)**: Calculating lipid order parameters from Gromacs simulations.
-- 🦀 **[vertigo-cli](https://github.com/vertigo-web/vertigo/)**: Reactive Real-DOM library with SSR for Rust - packaging/serving tool.
-- 🦀 **[ccat](https://github.com/nwiizo/ccat)**: CLAUDE.
-- 🦀 **[fpas](https://github.com/Arikato111/fpas)**: fpas is command line software helps you create password from some text.
-- 🦀 **[smbcloud-model](https://github.com/smbcloudXYZ/smbcloud-cli)**: Command line tool for deploying NextJS app on the smbCloud platform.
+- 🦀 **[ssec-cli](https://github.com/james-conn/ssec-cli)**: command-line interface for reading and writing the SSEC file format.
+- 🦀 **[ahiru-tpm](https://gitlab.com/x3ro/tpm-rs)**: Drop-in replacement for the famous Tmux Plugin Manager (TPM), written in Rust.
+- 🦀 **[martinrepo-grrs](https://github.com/MartinRepo/grrs)**: A tool to search files.
+- 🦀 **[s3m](https://github.com/s3m/s3m)**: CLI for streams of data in S3 buckets.
 - 🦀 **[soar-core](https://github.com/pkgforge/soar)**: Core library for soar package manager.
 - 🦀 **[computorv1](https://github.com/LuisEd2094/computorv1)**: An educational computor project solving polynomial equations.
+- 🦀 **[gorder](https://github.com/Ladme/gorder)**: Calculating lipid order parameters from Gromacs simulations.
+- 🦀 **[pix2svg](https://github.com/LeSnow-Ye/pix2svg)**: Convert pixel art images to optimized SVG format.
+- 🦀 **[syd](https://gitlab.exherbo.org/sydbox/sydbox.git)**: rock-solid application kernel.
+- 🦀 **[xod](https://github.com/annie444/xod)**: A tiny REPL for bitwise arithmetic and expression evaluation.
+- 🦀 **[bestool](https://github.com/beyondessential/bestool)**: BES Deployment tooling.
+- 🦀 **[ccat](https://github.com/nwiizo/ccat)**: CLAUDE.
+- 🦀 **[fpas](https://github.com/Arikato111/fpas)**: fpas is command line software helps you create password from some text.
+- 🦀 **[magika](https://github.com/google/magika)**: Determines the content type of a file with deep-learning.
+- 🦀 **[backlogr](https://github.com/lauacosta/backlogr)**: CLI for interacting with the Taiga REST API.
 - 🦀 **[dprs](https://github.com/durableprogramming/dprs)**: dprs (Docker PRocesS viewer ) is a terminal user interface for managing Docker containers and monitoring their logs.
-- 🦀 **[lumina-cli](https://github.com/eigerco/lumina)**: Celestia data availability node implementation in Rust.
-- 🦀 **[opencrates](https://github.com/opencrates/opencrates)**: Enterprise-grade AI-powered Rust development companion with comprehensive automation, monitoring, and deployment capabilities.
-- 🦀 **[todotui](https://github.com/newfla/todotui)**: A simple todo terminal app.
+- 🦀 **[tinymist-query](https://github.com/Myriad-Dreamin/tinymist)**: Language queries for tinymist.
+- 🦀 **[vertigo-cli](https://github.com/vertigo-web/vertigo/)**: Reactive Real-DOM library with SSR for Rust - packaging/serving tool.
 - 🦀 **[weather_man](null)**: A feature-rich Rust-based CLI for weather forecasting with cyberpunk-themed animations.
 - 🦀 **[bc-envelope-cli](https://github.com/BlockchainCommons/bc-envelope-cli-rust)**: Gordian Envelope Command Line Tool.
 - 🦀 **[commitcraft](https://github.com/san0808/commitcraft)**: A fast, intelligent CLI tool that generates conventional commit messages using AI.
+- 🦀 **[lux-cli](https://github.com/nvim-neorocks/lux)**: A luxurious package manager for Lua.
+- 🦀 **[opencrates](https://github.com/opencrates/opencrates)**: Enterprise-grade AI-powered Rust development companion with comprehensive automation, monitoring, and deployment capabilities.
+- 🦀 **[todotui](https://github.com/newfla/todotui)**: A simple todo terminal app.
+- 🦀 **[txthttp](https://github.com/iamseol/txthttp)**: simple HTTP/1.
+- 🦀 **[vsd](https://github.com/clitic/vsd/tree/main/vsd)**: Download video streams served over HTTP from websites, DASH (.
 - 🦀 **[lm-rs](https://github.com/timrogers/lm)**: Control your La Marzocco espresso machine from the command line or a Rust application.
 - 🦀 **[renumber](https://github.com/EngosSoftware/renumber.git)**: Renumber tests or benchmarks.
-- 🦀 **[syd](https://gitlab.exherbo.org/sydbox/sydbox.git)**: rock-solid application kernel.
-- 🦀 **[txthttp](https://github.com/iamseol/txthttp)**: simple HTTP/1.
-- 🦀 **[zman](https://github.com/azzamsa/zman)**: a CLI year progress.
+- 🦀 **[vex2pdf](https://github.com/jurassicLizard/vex2pdf)**: A tool to convert CycloneDX(VEX) JSON or XML documents to PDF reports.
 - 🦀 **[compiledb](https://github.com/a5ehren/compiledb-rs)**: Clang's Compilation Database generator for make-based build systems.
 - 🦀 **[dsd-util](https://github.com/eldyl/dsd-util)**: A simple helper for managing your docker-stack-deploy containers.
-- 🦀 **[nixman](https://github.com/ofluffydev/nixman)**: Recreate the Nix package manager style of package management for Arch Linux.
+- 🦀 **[qcp](https://github.com/crazyscot/qcp/)**: Secure remote file copy utility which uses the QUIC protocol over UDP.
 - 🦀 **[randy-ng](https://github.com/dybucc/randy-ng)**: A new-gen randy; a game to guess numbers and get answered by a cowboy.
-- 🦀 **[tinymist-query](https://github.com/Myriad-Dreamin/tinymist)**: Language queries for tinymist.
-- 🦀 **[vex2pdf](https://github.com/jurassicLizard/vex2pdf)**: A tool to convert CycloneDX(VEX) JSON or XML documents to PDF reports.
 - 🦀 **[word-tally](https://github.com/havenwood/word-tally)**: Output a tally of the number of times unique words appear in source input.
+- 🦀 **[zman](https://github.com/azzamsa/zman)**: a CLI year progress.
 - 🦀 **[cargofetch](https://github.com/arjav0703/rust-fetch)**: A fetch utility for Rust projects.
-- 🦀 **[smbcloud-cli](https://github.com/smbcloudXYZ/smbcloud-cli)**: Command line tool for deploying NextJS app on the smbCloud platform.
-- 🦀 **[startt](https://github.com/davehorner/startt)**: Automate detection of HWND and real PID for apps launched through ShellExecuteEx (cmd start, Explorer, PowerShell).
 - 🦀 **[docker-image-pusher](https://github.com/yorelog/docker-image-pusher)**: High-performance command-line tool for pushing Docker image tar packages directly to Docker registries.
 - 🦀 **[fluxor_cli](https://github.com/dr-montasir/fluxor_cli)**: Fluxor CLI: a command-line tool that allows developers to quickly and efficiently create project starters for the Fluxor web framework.
+- 🦀 **[hf](https://github.com/sorairolake/hf)**: Cross-platform hidden file library and utility.
+- 🦀 **[nixman](https://github.com/ofluffydev/nixman)**: Recreate the Nix package manager style of package management for Arch Linux.
 - 🦀 **[garbagetruck](https://github.com/ronantakizawa/garbagetruck)**: A lease-based garbage collection sidecar for distributed systems with persistent storage and recovery.
-- 🦀 **[magika](https://github.com/google/magika)**: Determines the content type of a file with deep-learning.
-- 🦀 **[duoload](https://github.com/amarao/duoload)**: Export vocabulary from Duocards.
 - 🦀 **[grrs_sanjay](http://github.com/M-Sanjay12o52o/grrs)**: A tool to search files.
+- 🦀 **[haruspex](https://github.com/0xdea/haruspex)**: Vulnerability research assistant that extracts pseudo-code from IDA Hex-Rays decompiler.
+- 🦀 **[ssh-auth-common](https://github.com/epiphyte2/ssh-auth-cmd)**: Common types and utilities for ssh-auth-cmd suite.
+- 🦀 **[startt](https://github.com/davehorner/startt)**: Automate detection of HWND and real PID for apps launched through ShellExecuteEx (cmd start, Explorer, PowerShell).
+- 🦀 **[csv-txt-excel-parallel-toolkit](https://github.com/ribbondz/rsv)**: A parallel and fast command line toolkit for small and large (>10G) CSV, TXT, and EXCEL files, with a unified api.
+- 🦀 **[duoload](https://github.com/amarao/duoload)**: Export vocabulary from Duocards.
 - 🦀 **[leenfetch](https://github.com/drunkleen/leenfetch)**: Fast, minimal, customizable system info tool in Rust (Neofetch alternative).
-- 🦀 **[opengrep](https://github.com/opengrep-org/opengrep)**: Advanced AST-aware code search tool with tree-sitter parsing and AI integration capabilities.
-- 🦀 **[r2-uploader](https://github.com/ValidatorsDAO/solana-stream)**: A CLI tool for uploading compiled binaries to Cloudflare R2 storage.
 - 🦀 **[soop3](https://github.com/redthing1/soop3)**: the based http fileserver (rust port).
-- 🦀 **[vsd](https://github.com/clitic/vsd/tree/main/vsd)**: Download video streams served over HTTP from websites, DASH (.
 - 🦀 **[TerimalRtdm](https://github.com/had2020/TerimalRtdm)**: Lightwight, Simple, Easy to read, Ideomatic Rust Terimal Interface Library for CUIs.
 - 🦀 **[bilal](https://github.com/azzamsa/bilal)**: a CLI salah time.
-- 🦀 **[db-mover](https://github.com/Mrreadiness/db-mover)**: Tool to move data between databases.
 - 🦀 **[demtile](https://github.com/delihiros/demtile)**: GSI（国土地理院）DEMタイルPNG画像から標高値を取得するRustライブラリ.
-- 🦀 **[hf](https://github.com/sorairolake/hf)**: Cross-platform hidden file library and utility.
 - 🦀 **[maimai](https://codeberg.org/d-k-bo/maimai)**: Markup-based meme generator.
+- 🦀 **[opengrep](https://github.com/opengrep-org/opengrep)**: Advanced AST-aware code search tool with tree-sitter parsing and AI integration capabilities.
+- 🦀 **[r2-uploader](https://github.com/ValidatorsDAO/solana-stream)**: A CLI tool for uploading compiled binaries to Cloudflare R2 storage.
+- 🦀 **[soar-cli](https://github.com/pkgforge/soar)**: A modern package manager for Linux.
+- 🦀 **[atlas-cli](https://github.com/IntelLabs/atlas-cli)**: Machine Learning Lifecycle & Transparency Manager - Create and verify manifests for ML models and datasets.
+- 🦀 **[crab-http](https://github.com/arjav0703/http-server)**: A lightweight HTTP server for serving static files.
+- 🦀 **[docparser](https://github.com/LunaStev/docparser)**: A CLI tool to extract Rust doc comments and export them in JSON or WSON format.
 - 🦀 **[openserve](https://github.com/nikjois/openserve-rs)**: A modern, high-performance, AI-enhanced file server built in Rust.
 - 🦀 **[qbak](https://github.com/andreas-glaser/qbak)**: A single-command backup helper for Linux and POSIX systems.
-- 🦀 **[soar-cli](https://github.com/pkgforge/soar)**: A modern package manager for Linux.
-- 🦀 **[ssh-auth-common](https://github.com/epiphyte2/ssh-auth-cmd)**: Common types and utilities for ssh-auth-cmd suite.
-- 🦀 **[atlas-cli](https://github.com/IntelLabs/atlas-cli)**: Machine Learning Lifecycle & Transparency Manager - Create and verify manifests for ML models and datasets.
-- 🦀 **[docparser](https://github.com/LunaStev/docparser)**: A CLI tool to extract Rust doc comments and export them in JSON or WSON format.
-- 🦀 **[haruspex](https://github.com/0xdea/haruspex)**: Vulnerability research assistant that extracts pseudo-code from IDA Hex-Rays decompiler.
-- 🦀 **[huismanager](https://codeberg.org/IamPyu/huismanager)**: Dotfiles and system configuration manager for Linux.
-- 🦀 **[crab-http](https://github.com/arjav0703/http-server)**: A lightweight HTTP server for serving static files.
+- 🦀 **[crityp](https://github.com/Myriad-Dreamin/tinymist)**: Benchmark support for typst.
 - 🦀 **[cryptrsa](https://github.com/neuralsorcerer/cryptrsa)**: RSA encryption and signing CLI tool.
 - 🦀 **[podfeed](https://github.com/graelo/podfeed)**: A podcast feed-generator.
-- 🦀 **[rudolfs](https://github.com/jasonwhite/rudolfs)**: A high-performance, caching Git LFS server with an AWS S3 back-end.
+- 🦀 **[stdecor](https://github.com/lpenz/stdecor)**: Run a command with a decorated stdout/stderr.
 - 🦀 **[bedrockci](https://github.com/laurhinch/bedrockci)**: Core library for validating Minecraft Bedrock resource and behavior packs.
-- 🦀 **[crityp](https://github.com/Myriad-Dreamin/tinymist)**: Benchmark support for typst.
+- 🦀 **[rasn-compiler](https://github.com/librasn/compiler.git)**: An ASN.
+- 🦀 **[redu](https://github.com/drdo/redu)**: This is like ncdu for a restic repository.
+- 🦀 **[rudolfs](https://github.com/jasonwhite/rudolfs)**: A high-performance, caching Git LFS server with an AWS S3 back-end.
+- 🦀 **[cargo-doc2readme](https://codeberg.org/msrd0/cargo-doc2readme)**: cargo subcommand to create a readme file containing the rustdoc comments from your code.
+- 🦀 **[dot-linker](https://github.com/dijith-481/dot-linker)**: symlink your dotfiles.
+- 🦀 **[mdd_api](https://github.com/mammaldiversity/mdd_app)**: Rust API for Mammal Diversity Database.
 - 🦀 **[mixingcut](https://github.com/DKenefake/MixingCut/)**: A program to solve the MAXCUT SDP Relaxation.
-- 🦀 **[tokenize-cli](https://github.com/DefinitelyNotSimon13/tokenize)**: Tokenize your codebase blazingly fast into a single file for LLM Context 🚀🤖.
-- 🦀 **[reductstore](https://github.com/reductstore/reductstore)**: ReductStore is a time series database designed specifically for storing and managing large amounts of blob data.
 - 🦀 **[rew_runtime](https://github.com/kevinj045/rew)**: A mini runtime for coffeescript.
 - 🦀 **[sequoia-sop](https://gitlab.com/sequoia-pgp/sequoia-sop)**: An implementation of the Stateless OpenPGP Interface using Sequoia.
 - 🦀 **[sigul-pesign-bridge](https://github.com/jeremycline/siguldry)**: Drop-in replacement for pesign's daemon that bridges pesign-client requests to a Sigul server.
+- 🦀 **[tokenize-cli](https://github.com/DefinitelyNotSimon13/tokenize)**: Tokenize your codebase blazingly fast into a single file for LLM Context 🚀🤖.
 - 🦀 **[kelper](https://github.com/aliabbasjaffri/kelper)**: A CLI tool to serve as swiss-army knife for your operations on Kubernetes pods and nodes.
+- 🦀 **[libsemverator](https://github.com/jhheider/semverator)**: A library for working with semantic versioning (libpkgx implementation).
+- 🦀 **[mvx](https://github.com/junzh0u/mvx)**: Enhanced file and directory move utility with progress bars and cross-device support.
 - 🦀 **[openrunner-rs](https://github.com/openrunner-dev/openrunner-rs)**: A Rust library for running OpenScript.
-- 🦀 **[tfmcp](https://github.com/nwiizo/tfmcp)**: Terraform Model Context Protocol Tool - A CLI tool to manage Terraform through MCP.
-- 🦀 **[dot-linker](https://github.com/dijith-481/dot-linker)**: symlink your dotfiles.
+- 🦀 **[reductstore](https://github.com/reductstore/reductstore)**: ReductStore is a time series database designed specifically for storing and managing large amounts of blob data.
+- 🦀 **[dircat](https://github.com/romelium/dircat-rust)**: High-performance Rust utility that concatenates and displays directory contents, similar to the C++ DirCat.
 - 🦀 **[dotsec](https://github.com/junhsonjb/dotsec)**: a lightweight CLI tool for locally managing secrets.
+- 🦀 **[rumdl](https://github.com/rvben/rumdl)**: A fast Markdown linter written in Rust (Ru(st) MarkDown Linter).
+- 🦀 **[find-identical-files](https://github.com/claudiofsr/find-identical-files)**: find identical files according to their size and hashing algorithm.
+- 🦀 **[poof](https://github.com/pirafrank/poof)**: Easy to use zero-config, zero-install, zero-dependencies manager of pre-built software that works like magic.
+- 🦀 **[portsage](https://github.com/mei28/PortSage)**: A TUI tool to monitor processes and their listening ports.
+- 🦀 **[runtasktic](https://github.com/Joxit/runtasktic)**: Command-line task management tool for execution of regular long sequential or parallel tasks.
+- 🦀 **[street-cred](https://github.com/Endoze/street-cred)**: Manage encrypted secrets for your applications.
 - 🦀 **[termcinema-cli](https://github.com/pokeyaro/termcinema)**: 🎬 Animated terminal-to-SVG renderer CLI for the termcinema project.
 - 🦀 **[tinymist-l10n](https://github.com/Myriad-Dreamin/tinymist)**: Localization support for tinymist and typst.
-- 🦀 **[find-identical-files](https://github.com/claudiofsr/find-identical-files)**: find identical files according to their size and hashing algorithm.
-- 🦀 **[mvx](https://github.com/junzh0u/mvx)**: Enhanced file and directory move utility with progress bars and cross-device support.
-- 🦀 **[portsage](https://github.com/mei28/PortSage)**: A TUI tool to monitor processes and their listening ports.
 - 🦀 **[bacup](https://github.com/galeone/bacup)**: An easy-to-use backup tool designed for servers.
+- 🦀 **[leadr](https://github.com/ll-nick/leadr)**: Shell aliases on steroids.
+- 🦀 **[rona](https://github.com/tomplanche/rona)**: A simple CLI tool to help you with your git workflow.
+- 🦀 **[ghaction_version_gen](https://github.com/lpenz/ghaction-version-gen)**: Generate various version options as github action outputs.
 - 🦀 **[quercus](https://gitlab.com/jevgarrido/quercus)**: Easy to use CLI tree for your branchy info.
-- 🦀 **[s3m](https://github.com/s3m/s3m)**: CLI for streams of data in S3 buckets.
-- 🦀 **[letmein-proto](https://github.com/mbuesch/letmein)**: Authenticated port knocking - Wire protocol.
-- 🦀 **[letmein-seccomp](https://github.com/mbuesch/letmein)**: Authenticated port knocking - Seccomp wrapper.
-- 🦀 **[letmein-conf](https://github.com/mbuesch/letmein)**: Authenticated port knocking - Configuration parser.
-- 🦀 **[rust_code_obfuscator](https://github.com/GianIac/rustfuscator)**: A Rust library to easily obfuscate strings and control-flow using cryptify lib.
-- 🦀 **[virust-locator](https://github.com/ViralSeq/viRust-locator)**: A tool for generating sequence locators for HIV/SIV sequences, resembling the functionality of the LANL HIV-Locator tool.
+- 🦀 **[textalyzer](https://github.com/ad-si/textalyzer)**: Analyze key metrics like number of words, readability, and complexity of any kind of text.
 - 🦀 **[augur](https://github.com/0xdea/augur)**: Reverse engineering assistant that extracts strings and related pseudo-code from a binary file.
-- 🦀 **[lux-cli](https://github.com/nvim-neorocks/lux)**: A luxurious package manager for Lua.
-- 🦀 **[rhabdomancer](https://github.com/0xdea/rhabdomancer)**: Vulnerability research assistant that locates calls to potentially insecure API functions in a binary file.
-- 🦀 **[termgpu](https://github.com/yourusername/termgpu)**: A GPU-accelerated terminal graphics engine for Rust, enabling real-time 3D rendering in the terminal.
-- 🦀 **[nolo](https://github.com/a-kenji/nolo)**: A CLI tool for discovering and analyzing `TODO` comments across codebases.
+- 🦀 **[rust_code_obfuscator](https://github.com/GianIac/rustfuscator)**: A Rust library to easily obfuscate strings and control-flow using cryptify lib.
+- 🦀 **[gui](https://github.com/d-e-s-o/gui.git)**: A generic UI library/framework.
 - 🦀 **[jiggy](https://github.com/0xdea/jiggy)**: Minimalistic cross-platform mouse jiggler written in Rust.
-- 🦀 **[letmein-fwproto](https://github.com/mbuesch/letmein)**: Authenticated port knocking - Firewall backend communication protocol.
+- 🦀 **[virust-locator](https://github.com/ViralSeq/viRust-locator)**: A tool for generating sequence locators for HIV/SIV sequences, resembling the functionality of the LANL HIV-Locator tool.
+- 🦀 **[rhabdomancer](https://github.com/0xdea/rhabdomancer)**: Vulnerability research assistant that locates calls to potentially insecure API functions in a binary file.
+- 🦀 **[module](https://github.com/threadexio/module-rs)**: Modular NixOS-style configuration crate.
+- 🦀 **[nysm](https://github.com/Endoze/nysm)**: Manage secrets from Secrets Providers.
+- 🦀 **[semantic-release-cargo](https://github.com/semantic-release-cargo/semantic-release-cargo)**: A CLI to integrate Rust into a semantic-release workflow.
+- 🦀 **[termgpu](https://github.com/yourusername/termgpu)**: A GPU-accelerated terminal graphics engine for Rust, enabling real-time 3D rendering in the terminal.
+- 🦀 **[defaults-rs](https://github.com/hitblast/defaults-rs)**: Near drop-in replacement for the macOS defaults CLI with API bindings for Rust.
+- 🦀 **[diffsquare](https://github.com/Abhrankan-Chakrabarti/diffsquare)**: Fast and efficient Fermat factorization CLI.
+- 🦀 **[duat-core](https://github.com/AhoyISki/duat/tree/master/duat-core)**: The core of Duat, a highly customizable text editor.
+- 🦀 **[gfas-api](https://github.com/Resonaa/gfas)**: Sync GitHub followings to followers.
+- 🦀 **[nolo](https://github.com/a-kenji/nolo)**: A CLI tool for discovering and analyzing `TODO` comments across codebases.
 - 🦀 **[starknet-contract-verifier](https://github.com/NethermindEth/starknet-contract-verifier)**: Contract class verification tool that allows you to verify your starknet classes on a block explorer.
 - 🦀 **[dissect_rs](https://github.com/DissectDev)**: Reserved crate for Dissect – a matcher framework for behavior testing, moderation, and message structure validation.
-- 🦀 **[rumdl](https://github.com/rvben/rumdl)**: A fast Markdown linter written in Rust (Ru(st) MarkDown Linter).
-- 🦀 **[letmein-systemd](https://github.com/mbuesch/letmein)**: Authenticated port knocking - Systemd support.
-- 🦀 **[openfunctions-rs](https://github.com/user/openfunctions-rs)**: A universal framework for creating and managing LLM tools and agents.
-- 🦀 **[vapor-cli](https://github.com/ooyeku/vapor-cli)**: A command-line interface for SQLite database management with enhanced features for data manipulation, querying, and testing.
+- 🦀 **[gui-derive](https://github.com/d-e-s-o/gui.git)**: Custom derive macros for the gui crate.
 - 🦀 **[epazote](https://github.com/epazote/epazote/)**: Automated HTTP (microservices) supervisor 🌿.
-- 🦀 **[qcp](https://github.com/crazyscot/qcp/)**: Secure remote file copy utility which uses the QUIC protocol over UDP.
-- 🦀 **[sat-solver](https://github.com/jacobjedwards/rust_sat_solver)**: A SAT solver implemented in Rust, focusing on performance, efficiency and experimentation.
-- 🦀 **[wonok](https://github.com/lpenz/wonok)**: Atomically write the output of a command to a file depending on its exit value.
-- 🦀 **[csv-txt-excel-parallel-toolkit](https://github.com/ribbondz/rsv)**: A parallel and fast command line toolkit for small and large (>10G) CSV, TXT, and EXCEL files, with a unified api.
 - 🦀 **[kinetics](https://github.com/ottofeller/kinetics)**: Kinetics is a hosting platform for Rust applications that allows you to deploy all types of workloads by writing **only Rust code**.
-- 🦀 **[module](https://github.com/threadexio/module-rs)**: Modular NixOS-style configuration crate.
+- 🦀 **[openfunctions-rs](https://github.com/user/openfunctions-rs)**: A universal framework for creating and managing LLM tools and agents.
+- 🦀 **[termitype](https://github.com/emanuel2718/termitype.git)**: Terminal-based typing test inspired by a certain typing test you might know.
+- 🦀 **[bitcut](https://github.com/tochka-public/bitcut)**: Create and apply binary patches.
+- 🦀 **[rdfless](https://github.com/larsw/rdfless)**: A colorful pretty printer for RDF (Turtle/TriG/N-Triples/N-Quads) with ANSI colors.
+- 🦀 **[sat-solver](https://github.com/jacobjedwards/rust_sat_solver)**: A SAT solver implemented in Rust, focusing on performance, efficiency and experimentation.
+- 🦀 **[vapor-cli](https://github.com/ooyeku/vapor-cli)**: A command-line interface for SQLite database management with enhanced features for data manipulation, querying, and testing.
+- 🦀 **[ccswarm](https://github.com/nwiizo/ccswarm)**: AI-powered multi-agent orchestration system with session management.
 - 🦀 **[string_pipeline](https://github.com/lalvarezt/string_pipeline)**: A flexible, template-driven string transformation pipeline for Rust.
 - 🦀 **[twoken](https://codeberg.org/dustinlagoy/twoken)**: Generate One-Time Passwords from stored token secrets.
-- 🦀 **[semantic-release-cargo](https://github.com/semantic-release-cargo/semantic-release-cargo)**: A CLI to integrate Rust into a semantic-release workflow.
-- 🦀 **[duat-core](https://github.com/AhoyISki/duat/tree/master/duat-core)**: The core of Duat, a highly customizable text editor.
-- 🦀 **[gui](https://github.com/d-e-s-o/gui.git)**: A generic UI library/framework.
-- 🦀 **[cerberus-mergeguard](https://github.com/heathcliff26/cerberus-mergeguard)**: Block github pull request merges until all status checks have passed.
-- 🦀 **[gfas-api](https://github.com/Resonaa/gfas)**: Sync GitHub followings to followers.
-- 🦀 **[rasn-compiler](https://github.com/librasn/compiler.git)**: An ASN.
+- 🦀 **[vx-shim](https://github.com/loonghao/vx)**: Cross-platform shim executable for vx tool manager.
+- 🦀 **[wonok](https://github.com/lpenz/wonok)**: Atomically write the output of a command to a file depending on its exit value.
+- 🦀 **[duat-term](https://github.com/AhoyISki/duat/tree/master/duat-term)**: A frontend for Duat for the terminal.
+- 🦀 **[module-util](https://github.com/threadexio/module-rs)**: Utilities for working with module.
 - 🦀 **[rootftp](https://github.com/rajeev-k47/rootftp)**: A simple FTP server tool that allows you to play with files.
 - 🦀 **[rslack](https://github.com/kohbis/rslack)**: cli for posting slack message.
-- 🦀 **[ccswarm](https://github.com/nwiizo/ccswarm)**: AI-powered multi-agent orchestration system with session management.
-- 🦀 **[module-util](https://github.com/threadexio/module-rs)**: Utilities for working with module.
-- 🦀 **[openrunner](https://github.com/openrunner-dev/openrunner-rs)**: A Rust library for running OpenScript.
-- 🦀 **[zzz-arc](https://github.com/redthing1/zzz)**: A fast compression multitool supporting zst, tgz, txz, zip, and 7z formats with optional encryption.
-- 🦀 **[bitcut](https://github.com/tochka-public/bitcut)**: Create and apply binary patches.
-- 🦀 **[gui-derive](https://github.com/d-e-s-o/gui.git)**: Custom derive macros for the gui crate.
-- 🦀 **[nbt-sniffer](https://github.com/Lemonzyy/nbt-sniffer)**: A command-line tool designed to scan Minecraft Java Edition world data.
-- 🦀 **[oneiromancer](https://github.com/0xdea/oneiromancer)**: Reverse engineering assistant that uses a locally running LLM to aid with pseudo-code analysis.
-- 🦀 **[stdecor](https://github.com/lpenz/stdecor)**: Run a command with a decorated stdout/stderr.
-- 🦀 **[tokio-multi-proxy](https://github.com/ahmed-masud/tokio-multi-proxy)**: A modular async proxy with TLS/mTLS and multiple transport support.
-- 🦀 **[duat-term](https://github.com/AhoyISki/duat/tree/master/duat-term)**: A frontend for Duat for the terminal.
-- 🦀 **[redu](https://github.com/drdo/redu)**: This is like ncdu for a restic repository.
-- 🦀 **[vx-shim](https://github.com/loonghao/vx)**: Cross-platform shim executable for vx tool manager.
-- 🦀 **[appcui](https://github.com/gdt050579/AppCUI-rs)**: A feature-rich and cross-platform TUI/CUI framework for Rust, enabling modern terminal-based applications on Windows, Linux, and macOS.
-- 🦀 **[cargo-doc2readme](https://codeberg.org/msrd0/cargo-doc2readme)**: cargo subcommand to create a readme file containing the rustdoc comments from your code.
-- 🦀 **[duat](https://github.com/AhoyISki/duat)**: A Highly customizable text editor, configured through the use of a rust crate.
-- 🦀 **[duat-filetype](https://github.com/AhoyISki/duat-filetype)**: Filetype detection for the File widget from Duat.
-- 🦀 **[git-commit-helper](https://github.com/newdee/git-commit-helper.git)**: Git Commit Helper is a practical tool that leverages large language models (LLMs) to analyze changes in a Git repository.
-- 🦀 **[hledger-fmt](https://github.com/mondeja/hledger-fmt)**: An opinionated hledger's journal files formatter.
-- 🦀 **[street-cred](https://github.com/Endoze/street-cred)**: Manage encrypted secrets for your applications.
-- 🦀 **[vanity-ssh-rs](https://github.com/mogottsch/vanity-ssh-rs)**: Generate SSH key pairs with custom patterns in the public key.
 - 🦀 **[wof](https://github.com/Joxit/wof-cli)**: The Who's On First rust library and command line.
-- 🦀 **[defaults-rs](https://github.com/hitblast/defaults-rs)**: Near drop-in replacement for the macOS defaults CLI with API bindings for Rust.
-- 🦀 **[noob-commit](https://github.com/arthrod/noob-commit)**: 🤡 For devs who code like ninjas but commit like toddlers.
-- 🦀 **[error_snippet](https://github.com/lume-lang/error_snippet)**: Library for reporting fancy diagnostics to the console.
-- 🦀 **[libsemverator](https://github.com/jhheider/semverator)**: A library for working with semantic versioning (libpkgx implementation).
-- 🦀 **[poof](https://github.com/pirafrank/poof)**: Easy to use zero-config, zero-install, zero-dependencies manager of pre-built software that works like magic.
-- 🦀 **[rona](https://github.com/tomplanche/rona)**: A simple CLI tool to help you with your git workflow.
-- 🦀 **[runtasktic](https://github.com/Joxit/runtasktic)**: Command-line task management tool for execution of regular long sequential or parallel tasks.
-- 🦀 **[stellar_remit](https://github.com/0rlych1kk4/stellar_remit)**: A simple CLI and health/metrics server for sending payments on the Stellar network.
+- 🦀 **[cerberus-mergeguard](https://github.com/heathcliff26/cerberus-mergeguard)**: Block github pull request merges until all status checks have passed.
+- 🦀 **[duat](https://github.com/AhoyISki/duat)**: A Highly customizable text editor, configured through the use of a rust crate.
+- 🦀 **[nbt-sniffer](https://github.com/Lemonzyy/nbt-sniffer)**: A command-line tool designed to scan Minecraft Java Edition world data.
+- 🦀 **[duat-filetype](https://github.com/AhoyISki/duat-filetype)**: Filetype detection for the File widget from Duat.
+- 🦀 **[oneiromancer](https://github.com/0xdea/oneiromancer)**: Reverse engineering assistant that uses a locally running LLM to aid with pseudo-code analysis.
+- 🦀 **[tokio-multi-proxy](https://github.com/ahmed-masud/tokio-multi-proxy)**: A modular async proxy with TLS/mTLS and multiple transport support.
 - 🦀 **[convert2json](https://github.com/simonrupf/convert2json)**: CLI utilities to convert BSON, CBOR, CSV, INI, MessagePack, Plist, RSV, TOML, XML & YAML into JSON and for use with jaq or jq.
-- 🦀 **[mdd_api](https://github.com/mammaldiversity/mdd_app)**: Rust API for Mammal Diversity Database.
+- 🦀 **[git-commit-helper](https://github.com/newdee/git-commit-helper.git)**: Git Commit Helper is a practical tool that leverages large language models (LLMs) to analyze changes in a Git repository.
 - 🦀 **[nvrs](https://github.com/adamperkowski/nvrs)**: 🚦 fast new version checker for software releases 🦀.
-- 🦀 **[prompthive](https://prompthive.sh)**: Professional prompt manager for developers.
-- 🦀 **[duat-utils](https://github.com/AhoyISki/duat/tree/master/duat-utils)**: Basic components common in Duat, such as widgets and modes.
-- 🦀 **[odometer](https://github.com/levicook/odometer)**: A workspace version management tool that keeps package versions synchronized across projects.
-- 🦀 **[textalyzer](https://github.com/ad-si/textalyzer)**: Analyze key metrics like number of words, readability, and complexity of any kind of text.
-- 🦀 **[dircat](https://github.com/romelium/dircat-rust)**: High-performance Rust utility that concatenates and displays directory contents, similar to the C++ DirCat.
+- 🦀 **[openrunner](https://github.com/openrunner-dev/openrunner-rs)**: A Rust library for running OpenScript.
+- 🦀 **[vanity-ssh-rs](https://github.com/mogottsch/vanity-ssh-rs)**: Generate SSH key pairs with custom patterns in the public key.
+- 🦀 **[zzz-arc](https://github.com/redthing1/zzz)**: A fast compression multitool supporting zst, tgz, txz, zip, and 7z formats with optional encryption.
 - 🦀 **[duat-treesitter](https://github.com/AhoyISki/duat-treesitter)**: Plugin for tree-sitter bindings for Duat.
-- 🦀 **[ghaction_version_gen](https://github.com/lpenz/ghaction-version-gen)**: Generate various version options as github action outputs.
-- 🦀 **[leadr](https://github.com/ll-nick/leadr)**: Shell aliases on steroids.
-- 🦀 **[notnow](https://github.com/d-e-s-o/notnow.git)**: A terminal based task and TODO management software.
-- 🦀 **[duat-kak](https://github.com/AhoyISki/duat/tree/master/duat-kak)**: A Kakoune inspired editing mode for Parsec.
-- 🦀 **[img_hash_linker](https://github.com/TaylorHo/img-hash-linker)**: A tool for opening links from images using perceptual hashing.
-- 🦀 **[openscript_sdk](https://github.com/openscript-lang/openscript-rs)**: Standard library and AI integration for OpenScript.
-- 🦀 **[duat-catppuccin](https://github.com/AhoyISki/duat-catppuccin)**: The Catppuccin colorschemes for the Duat text editor.
-- 🦀 **[klvm_tools_rs](https://github.com/Chik-Network/klvm_tools_rs)**: tools for working with chiklisp language; compiler, repl, python and wasm bindings.
-- 🦀 **[knoll](https://github.com/gawashburn/knoll)**: A command-line tool for configuring macOS displays.
-- 🦀 **[mita](https://github.com/ControlNet/mita)**: Mita client - CLI and library for Mita monitoring system.
-- 🦀 **[nysm](https://github.com/Endoze/nysm)**: Manage secrets from Secrets Providers.
+- 🦀 **[duat-utils](https://github.com/AhoyISki/duat/tree/master/duat-utils)**: Basic components common in Duat, such as widgets and modes.
 - 🦀 **[obsidian-logging](https://github.com/ljantzen/obsidian-logging)**: A journaling/logging CLI that stores logs in Obsidian markdown files.
-- 🦀 **[scripty](https://github.com/h-zasu/scripty)**: Scripty - your Rust command toolkit for easy command execution and file operations.
-- 🦀 **[dbn-cli](https://github.com/databento/dbn)**: Command-line utility for converting Databento Binary Encoding (DBN) files to text-based formats.
-- 🦀 **[diffsquare](https://github.com/Abhrankan-Chakrabarti/diffsquare)**: Fast and efficient Fermat factorization CLI.
-- 🦀 **[yarig](https://github.com/TheClams/yarig)**: A register interface generator.
-- 🦀 **[infrarust](https://github.com/shadowner/infrarust)**: A Rust universal Minecraft proxy.
-- 🦀 **[rdfless](https://github.com/larsw/rdfless)**: A colorful pretty printer for RDF (Turtle/TriG/N-Triples/N-Quads) with ANSI colors.
-- 🦀 **[tally-cli](https://github.com/uhryniuk/tally)**: A persistent, inter-process counter for all your shell scripts.
-- 🦀 **[termitype](https://github.com/emanuel2718/termitype.git)**: Terminal-based typing test inspired by a certain typing test you might know.
-- 🦀 **[openscript](https://github.com/openscript-lang/openscript-rs)**: High-performance AI-powered scripting language runtime.
-- 🦀 **[tuinix](https://github.com/sile/tuinix)**: A library for building terminal user interface (TUI) applications on Unix systems with minimum dependencies.
-- 🦀 **[facet-pretty](https://github.com/facet-rs/facet)**: Pretty-printing for types implementing the Facet trait.
-- 🦀 **[mit-commit-message-lints](https://github.com/PurpleBooth/git-mit)**: Check the correctness of a specific commit message.
-- 🦀 **[jolokia](https://github.com/qrichert/jolokia.git)**: Simple, strong encryption.
+- 🦀 **[prompthive](https://prompthive.sh)**: Professional prompt manager for developers.
+- 🦀 **[duat-kak](https://github.com/AhoyISki/duat/tree/master/duat-kak)**: A Kakoune inspired editing mode for Parsec.
+- 🦀 **[noob-commit](https://github.com/arthrod/noob-commit)**: 🤡 For devs who code like ninjas but commit like toddlers.
+- 🦀 **[knoll](https://github.com/gawashburn/knoll)**: A command-line tool for configuring macOS displays.
 - 🦀 **[weaver-lib](https://github.com/davemackintosh/weaving/)**: static site generator as a library, markdown and liquid in, HTML out.
-- 🦀 **[test_report](https://github.com/sivasankar459/test_report)**: Generate an HTML report from Rust test results.
-- 🦀 **[vx-pm-npm](https://github.com/loonghao/vx)**: NPM package manager support for vx.
-- 🦀 **[buffrs](https://github.com/helsing-ai/buffrs)**: Modern protobuf package management.
-- 🦀 **[bkmr](https://github.com/sysid/bkmr)**: A Unified CLI Tool for Bookmark, Snippet, and Knowledge Management.
-- 🦀 **[evm-lens-core](https://github.com/andyrobert3/evm-lens)**: Fast EVM bytecode disassembler library.
-- 🦀 **[lose95-keygen-rs](https://app.radicle.xyz/nodes/ash.radicle.garden/rad:z2ADKLfsXMdsFt7vQq6qQDnbPD9b8)**: Simple Losedows 95 keygen.
+- 🦀 **[duat-catppuccin](https://github.com/AhoyISki/duat-catppuccin)**: The Catppuccin colorschemes for the Duat text editor.
+- 🦀 **[img_hash_linker](https://github.com/TaylorHo/img-hash-linker)**: A tool for opening links from images using perceptual hashing.
+- 🦀 **[mita](https://github.com/ControlNet/mita)**: Mita client - CLI and library for Mita monitoring system.
+- 🦀 **[stellar_remit](https://github.com/0rlych1kk4/stellar_remit)**: A simple CLI and health/metrics server for sending payments on the Stellar network.
+- 🦀 **[odometer](https://github.com/levicook/odometer)**: A workspace version management tool that keeps package versions synchronized across projects.
+- 🦀 **[notnow](https://github.com/d-e-s-o/notnow.git)**: A terminal based task and TODO management software.
 - 🦀 **[riptree2](https://github.com/bcheidemann/riptree2)**: riptree2 is a Rust rewrite of the Unix tree command.
 - 🦀 **[wallswitch](https://github.com/claudiofsr/wallswitch)**: randomly selects wallpapers for multiple monitors.
-- 🦀 **[gifmeta](https://github.com/madspaaskesen/gifmeta)**: A sacred tool for inspecting and editing GIF metadata.
-- 🦀 **[mit-hook-test-helper](https://github.com/PurpleBooth/git-mit)**: Testing help tools for git-mit.
-- 🦀 **[toiletcli](https://github.com/toiletbril/toiletcli)**: Framework for command line applications.
-- 🦀 **[pwrzv](https://github.com/kookyleo/pwrzv)**: A Rolls-Royce–inspired performance reserve meter for Linux systems.
-- 🦀 **[kutil-cli-macros](https://github.com/tliron/rust-kutil)**: Procedural macros for kutil-cli.
-- 🦀 **[cdrb-taskforge](https://www.cdrbsoftwares.com/)**: A lightweight, performance-oriented task management library for individuals and small groups.
-- 🦀 **[kutil-cli](https://github.com/tliron/rust-kutil)**: CLI utilities from Kutil.
 - 🦀 **[rasteroid](https://github.com/Skardyy/mcat)**: turn images / videos into inline content for you terminal (iterm / kitty / sixel).
-- 🦀 **[holochain_cli_bundle](https://github.com/holochain/holochain)**: DNA and hApp bundling functionality for the `hc` Holochain CLI utility.
-- 🦀 **[holochain_cli](https://github.com/holochain/holochain)**: Provides the `hc` binary, a helpful CLI tool for working with Holochain.
-- 🦀 **[holochain_cli_sandbox](https://github.com/holochain/holochain)**: A library and CLI to help create, run and interact with sandboxed Holochain conductor environments, for testing and development purposes.
-- 🦀 **[csvmd](https://github.com/timrogers/csvmd)**: Convert from CSV to a Markdown table.
-- 🦀 **[dqr](https://github.com/pepa65/dqr)**: Decode QR with Quircs.
-- 🦀 **[mavspec](https://gitlab.com/mavka/libs/mavspec)**: A set of code generation utilities for MAVLink protocol.
-- 🦀 **[n4n5](https://github.com/Its-Just-Nans/n4n5-crate)**: n4n5's utility crate.
-- 🦀 **[apimock](https://github.com/apimokka/apimock-rs)**: A developer-friendly, robust and functional HTTP mock server built in Rust.
-- 🦀 **[ogle](https://github.com/lpenz/ogle)**: Execute a command periodically, showing the output only when it changes.
-- 🦀 **[rataudio-rta](https://github.com/kaspernyhus/rataudio-rta.git)**: A ratatui widget for displaying an RTA audio meter in the terminal.
-- 🦀 **[caltemps](https://farga.eXO.cat/evilham/caltemps)**: A tool to query and report on your iCalendar data from vDirs.
+- 🦀 **[scripty](https://github.com/h-zasu/scripty)**: Scripty - your Rust command toolkit for easy command execution and file operations.
+- 🦀 **[dbn-cli](https://github.com/databento/dbn)**: Command-line utility for converting Databento Binary Encoding (DBN) files to text-based formats.
+- 🦀 **[buffrs](https://github.com/helsing-ai/buffrs)**: Modern protobuf package management.
+- 🦀 **[infrarust](https://github.com/shadowner/infrarust)**: A Rust universal Minecraft proxy.
+- 🦀 **[openscript_sdk](https://github.com/openscript-lang/openscript-rs)**: Standard library and AI integration for OpenScript.
+- 🦀 **[tuinix](https://github.com/sile/tuinix)**: A library for building terminal user interface (TUI) applications on Unix systems with minimum dependencies.
 - 🦀 **[hooksmith](https://github.com/TomPlanche/hooksmith)**: Trivial git hook management tool.
-- 🦀 **[atproto-identity](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: AT Protocol identity management - DID resolution, handle resolution, and cryptographic operations.
+- 🦀 **[openscript](https://github.com/openscript-lang/openscript-rs)**: High-performance AI-powered scripting language runtime.
+- 🦀 **[vx-pm-npm](https://github.com/loonghao/vx)**: NPM package manager support for vx.
+- 🦀 **[n4n5](https://github.com/Its-Just-Nans/n4n5-crate)**: n4n5's utility crate.
+- 🦀 **[bkmr](https://github.com/sysid/bkmr)**: A Unified CLI Tool for Bookmark, Snippet, and Knowledge Management.
+- 🦀 **[lose95-keygen-rs](https://app.radicle.xyz/nodes/ash.radicle.garden/rad:z2ADKLfsXMdsFt7vQq6qQDnbPD9b8)**: Simple Losedows 95 keygen.
+- 🦀 **[test_report](https://github.com/sivasankar459/test_report)**: Generate an HTML report from Rust test results.
+- 🦀 **[toiletcli](https://github.com/toiletbril/toiletcli)**: Framework for command line applications.
 - 🦀 **[git-mob-tool](https://github.com/Mubashwer/git-mob)**: A CLI tool which can help users automatically add co-author(s) to git commits for pair/mob programming.
+- 🦀 **[parallel-disk-usage](https://github.com/KSXGitHub/parallel-disk-usage.git)**: Highly parallelized, blazing fast directory tree analyzer.
+- 🦀 **[kutil-cli-macros](https://github.com/tliron/rust-kutil)**: Procedural macros for kutil-cli.
+- 🦀 **[mit-hook-test-helper](https://github.com/PurpleBooth/git-mit)**: Testing help tools for git-mit.
+- 🦀 **[kutil-cli](https://github.com/tliron/rust-kutil)**: CLI utilities from Kutil.
 - 🦀 **[mpatch](https://github.com/romelium/mpatch)**: A smart, context-aware patch tool that applies diffs using fuzzy matching, ideal for AI-generated code.
-- 🦀 **[atproto-record](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: AT Protocol record signature operations - cryptographic signing and verification for AT Protocol records.
-- 🦀 **[atproto-oauth](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: OAuth workflow implementation for AT Protocol - PKCE, DPoP, and secure authentication flows.
-- 🦀 **[ngit](https://codeberg.org/DanConwayDev/ngit-cli)**: nostr plugin for git.
-- 🦀 **[ebi](https://github.com/BPM-Research-Group/Ebi)**: A stochastic process mining utility.
-- 🦀 **[ebi_derive](https://github.com/BPM-Research-Group/Ebi_derive)**: A stochastic process mining utility - derive macros.
-- 🦀 **[asciidocr](https://github.com/delfanbaum/asciidocr)**: A CLI and library for processing and converting asciidoc files.
-- 🦀 **[chicago_project_zero_fatalities_parser](https://github.com/diegoEnriquezSerrano/chicago_project_zero_fatalities_parser)**: A parser for json data found at 'Vision Zero Chicago Traffic Fatalities | Chicago Data Portal' into GeoJson without unecessary properties.
-- 🦀 **[ferrisup](https://github.com/Jitpomi/ferrisup)**: A versatile Rust project bootstrapping tool - start anywhere, scale anywhere.
-- 🦀 **[f_log](null)**: Simple fast logger.
-- 🦀 **[atproto-client](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: HTTP client for AT Protocol services with OAuth and identity integration.
-- 🦀 **[atproto-oauth-axum](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: Axum web framework integration for AT Protocol OAuth workflows.
-- 🦀 **[atproto-xrpcs](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: Core building blocks for implementing AT Protocol XRPC services with JWT authorization.
-- 🦀 **[atproto-jetstream](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: AT Protocol Jetstream event consumer library with WebSocket streaming and compression support.
-- 🦀 **[avif-info-rust](https://github.com/simplespace-cat/avif-info-rust)**: A CLI wrapper for the Rust-based libavifinfo, designed for simple validation and extraction.
-- 🦀 **[subx-cli](https://github.com/jim60105/subx-cli)**: AI subtitle processing CLI tool, which automatically matches, renames, and converts subtitle files.
-- 🦀 **[taxonomy](https://github.com/onecodex/taxonomy)**: Routines for loading, saving, and manipulating taxonomic trees.
-- 🦀 **[atproto-oauth-aip](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: ATProtocol AIP OAuth tools.
-- 🦀 **[ifyer](https://app.radicle.xyz/nodes/seed.radicle.garden/rad:z2opTwvPN4iBpG92Cbq3nhxL9RWqq)**: Thing that does stuff.
-- 🦀 **[dokosa](https://github.com/sile/dokosa)**: A command-line semantic search tool that indexes and searches local Git repositories using vector embeddings.
-- 🦀 **[safe-find](https://github.com/masinc/safe-find)**: Safe wrappers for find and fd commands that block dangerous execution options.
-- 🦀 **[jobshell](https://github.com/angelplusultra/job-shell)**: A CLI tool for job searching and scraping job boards.
-- 🦀 **[mevlog](https://github.com/pawurb/mevlog-rs)**: EVM transactions monitoring and querying CLI powered by Revm.
-- 🦀 **[grox](https://gitlab.com/nickeldan/grox)**: Command-line tool that searches for regex matches in a file tree.
-- 🦀 **[rek2_nntp](https://git.sr.ht/~rek2/rek2_nntp)**: This is a Rust library that provides a way to interact with NNTP servers, compliant with RFC 3977 and RFC 4643.
 - 🦀 **[vx-core](https://github.com/loonghao/vx)**: Core traits and interfaces for vx tool manager.
-- 🦀 **[vx-config](https://github.com/loonghao/vx)**: Configuration management for vx - Universal Development Tool Manager.
-- 🦀 **[vx-installer](https://github.com/loonghao/vx)**: Installation utilities and helpers for the vx universal tool manager.
 - 🦀 **[vx-tool-standard](https://github.com/loonghao/vx)**: Standard interfaces and utilities for vx tool implementations.
 - 🦀 **[daberu](https://github.com/sile/daberu)**: ChatGPT / Claude client tool that reads your message from stdin and writes the response to stdout.
-- 🦀 **[tarantool-test](https://git.picodata.io/picodata/picodata/tarantool-test)**: CLI test framework for tarantool-based Rust applications.
-- 🦀 **[shimexe-core](https://github.com/loonghao/shimexe)**: Core library for shimexe - executable shim manager.
-- 🦀 **[vx-tool-go](https://github.com/loonghao/vx)**: Go tool support for vx.
-- 🦀 **[cargo-e](https://github.com/davehorner/cargo-e)**: e is for Example.
-- 🦀 **[vx-tool-npm](https://github.com/loonghao/vx)**: NPM package manager support for vx.
-- 🦀 **[vx-cli](https://github.com/loonghao/vx)**: CLI interface for vx tool manager.
-- 🦀 **[vx-tool-node](https://github.com/loonghao/vx)**: Node.
-- 🦀 **[vx-tool-rust](https://github.com/loonghao/vx)**: Rust tool support for vx.
-- 🦀 **[versio](https://github.com/chaaz/versio/)**: Versio is a tool to manage and publish project versions.
-- 🦀 **[vx-tool-uv](https://github.com/loonghao/vx)**: UV tool support for vx.
-- 🦀 **[upnp-client](https://github.com/tsirysndr/upnp-client-rs)**: A simple UPnP client written in Rust.
-- 🦀 **[worm_hole](https://gitlab.com/Rignchen/worm_hole)**: CLI tool to easily jump between directories.
-- 🦀 **[mcp-discovery](https://github.com/rust-mcp-stack/mcp-discovery)**: A command-line tool written in Rust for discovering and documenting MCP Server capabilities.
-- 🦀 **[ntdsextract2](https://github.com/janstarke/ntdsextract2)**: Display contents of Active Directory database files (ntds.
-- 🦀 **[cryptr](https://github.com/sebadob/cryptr)**: simple encrypted (streaming) values.
-- 🦀 **[okh-scraper](https://github.com/iop-alliance/okh-scraper)**: A scraper of Open Source Hardware (OSH) projects.
-- 🦀 **[similarity-ts](https://github.com/mizchi/similarity-ts)**: CLI tool for detecting code duplication in TypeScript/JavaScript projects.
-- 🦀 **[vx-tool-pnpm](https://github.com/loonghao/vx)**: PNPM package manager support for vx.
-- 🦀 **[buru](https://github.com/zen-en-tonal/buru)**: A Rust application with both CLI and Web interface for data/image processing.
-- 🦀 **[trinja](https://codeberg.org/Taganak/trinja)**: HTML templating / SSG for RDF(S) resources.
-- 🦀 **[vx](https://github.com/loonghao/vx)**: Universal Development Tool Manager.
-- 🦀 **[askr](https://github.com/gfranxman/askr)**: Interactive CLI input tool with real-time validation and choice menus.
-- 🦀 **[crab-clean](https://github.com/adithya-adee/crab-clean)**: A CLI tool to crabclean your file system by finding and managing duplicate and unused files.
-- 🦀 **[okh-tool](https://github.com/OPEN-NEXT/LOSH-OKH-tool)**: A CLI tool to deal with Open Know-How (OKH) data files.
-- 🦀 **[vx-tool-bun](https://github.com/loonghao/vx)**: Bun package manager support for vx.
-- 🦀 **[kraban-config](https://github.com/TadoTheMiner/kraban)**: Configuration for kraban.
+- 🦀 **[vx-config](https://github.com/loonghao/vx)**: Configuration management for vx - Universal Development Tool Manager.
+- 🦀 **[vx-installer](https://github.com/loonghao/vx)**: Installation utilities and helpers for the vx universal tool manager.
+- 🦀 **[cdrb-taskforge](https://www.cdrbsoftwares.com/)**: A lightweight, performance-oriented task management library for individuals and small groups.
+- 🦀 **[ebi_derive](https://github.com/BPM-Research-Group/Ebi_derive)**: A stochastic process mining utility - derive macros.
 - 🦀 **[spider](https://github.com/spider-rs/spider)**: A web crawler and scraper, building blocks for data curation workloads.
-- 🦀 **[vx-dependency](https://github.com/loonghao/vx)**: Dependency resolution and management for vx tools.
-- 🦀 **[vx-tool-yarn](https://github.com/loonghao/vx)**: Yarn package manager support for vx.
+- 🦀 **[shimexe-core](https://github.com/loonghao/shimexe)**: Core library for shimexe - executable shim manager.
+- 🦀 **[similarity-ts](https://github.com/mizchi/similarity-ts)**: CLI tool for detecting code duplication in TypeScript/JavaScript projects.
+- 🦀 **[worm_hole](https://gitlab.com/Rignchen/worm_hole)**: CLI tool to easily jump between directories.
+- 🦀 **[holochain_cli_bundle](https://github.com/holochain/holochain)**: DNA and hApp bundling functionality for the `hc` Holochain CLI utility.
+- 🦀 **[holochain_cli_sandbox](https://github.com/holochain/holochain)**: A library and CLI to help create, run and interact with sandboxed Holochain conductor environments, for testing and development purposes.
+- 🦀 **[vx-tool-go](https://github.com/loonghao/vx)**: Go tool support for vx.
+- 🦀 **[holochain_cli](https://github.com/holochain/holochain)**: Provides the `hc` binary, a helpful CLI tool for working with Holochain.
+- 🦀 **[vx-cli](https://github.com/loonghao/vx)**: CLI interface for vx tool manager.
+- 🦀 **[vx-tool-npm](https://github.com/loonghao/vx)**: NPM package manager support for vx.
+- 🦀 **[asciidocr](https://github.com/delfanbaum/asciidocr)**: A CLI and library for processing and converting asciidoc files.
+- 🦀 **[ebi](https://github.com/BPM-Research-Group/Ebi)**: A stochastic process mining utility.
+- 🦀 **[rataudio-rta](https://github.com/kaspernyhus/rataudio-rta.git)**: A ratatui widget for displaying an RTA audio meter in the terminal.
+- 🦀 **[vx-tool-node](https://github.com/loonghao/vx)**: Node.
+- 🦀 **[ogle](https://github.com/lpenz/ogle)**: Execute a command periodically, showing the output only when it changes.
+- 🦀 **[rek2_nntp](https://git.sr.ht/~rek2/rek2_nntp)**: This is a Rust library that provides a way to interact with NNTP servers, compliant with RFC 3977 and RFC 4643.
+- 🦀 **[upnp-client](https://github.com/tsirysndr/upnp-client-rs)**: A simple UPnP client written in Rust.
+- 🦀 **[vx-tool-rust](https://github.com/loonghao/vx)**: Rust tool support for vx.
+- 🦀 **[vx-tool-uv](https://github.com/loonghao/vx)**: UV tool support for vx.
+- 🦀 **[avif-info-rust](https://github.com/simplespace-cat/avif-info-rust)**: A CLI wrapper for the Rust-based libavifinfo, designed for simple validation and extraction.
+- 🦀 **[create-tailyew-app](https://github.com/apjames93/tailyew)**: CLI to scaffold a new Tailyew Yew+Tailwind project.
+- 🦀 **[kraban-config](https://github.com/TadoTheMiner/kraban)**: Configuration for kraban.
+- 🦀 **[subx-cli](https://github.com/jim60105/subx-cli)**: AI subtitle processing CLI tool, which automatically matches, renames, and converts subtitle files.
+- 🦀 **[ferrisup](https://github.com/Jitpomi/ferrisup)**: A versatile Rust project bootstrapping tool - start anywhere, scale anywhere.
+- 🦀 **[tarantool-test](https://git.picodata.io/picodata/picodata/tarantool-test)**: CLI test framework for tarantool-based Rust applications.
+- 🦀 **[caltemps](https://farga.eXO.cat/evilham/caltemps)**: A tool to query and report on your iCalendar data from vDirs.
+- 🦀 **[cargo-e](https://github.com/davehorner/cargo-e)**: e is for Example.
 - 🦀 **[asimov-near-module](https://github.com/asimov-modules/asimov-near-module)**: ASIMOV module for data import from the NEAR Protocol blockchain network.
-- 🦀 **[atar](https://github.com/x71c9/atar)**: Ephemeral Terraform runner: applies on start, auto-destroys on exit or failure.
+- 🦀 **[chicago_project_zero_fatalities_parser](https://github.com/diegoEnriquezSerrano/chicago_project_zero_fatalities_parser)**: A parser for json data found at 'Vision Zero Chicago Traffic Fatalities | Chicago Data Portal' into GeoJson without unecessary properties.
 - 🦀 **[kraban-state](https://github.com/TadoTheMiner/kraban)**: State management for kraban.
 - 🦀 **[kraban-ui](https://github.com/TadoTheMiner/kraban)**: Kraban's user interface.
-- 🦀 **[tooka-core](https://github.com/tooka-org/core)**: The internal engine powering Tooka.
-- 🦀 **[asimov-jq-module](https://github.com/asimov-modules/asimov-jq-module)**: ASIMOV module for JSON transformation using the jq filter language.
-- 🦀 **[muv](https://github.com/vineel7871/muv)**: Global environment management tool using uv.
-- 🦀 **[pixelbomber](https://github.com/fabi321/pixelbomber)**: Insanely fast pixelflut client for images and animations.
-- 🦀 **[kraban-lib](https://github.com/TadoTheMiner/kraban)**: Items shared between components of the kraban app.
+- 🦀 **[cryptr](https://github.com/sebadob/cryptr)**: simple encrypted (streaming) values.
+- 🦀 **[e_midi](https://github.com/davehorner/e_midi/)**: An interactive/CLI/library MIDI player with advanced playback options, looping, and scan modes.
 - 🦀 **[angreal_mcp](https://github.com/colliery-io/angreal-mcp)**: MCP (Model Context Protocol) server for angreal project discovery and automation.
+- 🦀 **[jobshell](https://github.com/angelplusultra/job-shell)**: A CLI tool for job searching and scraping job boards.
+- 🦀 **[kraban-lib](https://github.com/TadoTheMiner/kraban)**: Items shared between components of the kraban app.
+- 🦀 **[trinja](https://codeberg.org/Taganak/trinja)**: HTML templating / SSG for RDF(S) resources.
+- 🦀 **[versio](https://github.com/chaaz/versio/)**: Versio is a tool to manage and publish project versions.
+- 🦀 **[asimov-jq-module](https://github.com/asimov-modules/asimov-jq-module)**: ASIMOV module for JSON transformation using the jq filter language.
+- 🦀 **[oha](https://github.com/hatoo/oha)**: Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation.
+- 🦀 **[safe-find](https://github.com/masinc/safe-find)**: Safe wrappers for find and fd commands that block dangerous execution options.
+- 🦀 **[vx](https://github.com/loonghao/vx)**: Universal Development Tool Manager.
+- 🦀 **[vx-tool-pnpm](https://github.com/loonghao/vx)**: PNPM package manager support for vx.
 - 🦀 **[asimov-apify-module](https://github.com/asimov-modules/asimov-apify-module)**: ASIMOV module for data import powered by the Apify web automation platform.
-- 🦀 **[spider_utils](https://github.com/spider-rs/spider)**: Utilities to use for Spider Web Crawler.
+- 🦀 **[buru](https://github.com/zen-en-tonal/buru)**: A Rust application with both CLI and Web interface for data/image processing.
+- 🦀 **[okh-scraper](https://github.com/iop-alliance/okh-scraper)**: A scraper of Open Source Hardware (OSH) projects.
+- 🦀 **[asimov-serpapi-module](https://github.com/asimov-modules/asimov-serpapi-module)**: ASIMOV module for data import powered by the SerpApi search data platform.
+- 🦀 **[ntdsextract2](https://github.com/janstarke/ntdsextract2)**: Display contents of Active Directory database files (ntds.
+- 🦀 **[asimov-brightdata-module](https://github.com/asimov-modules/asimov-brightdata-module)**: ASIMOV module for data import powered by the Bright Data web data platform.
 - 🦀 **[asimov-jinja-module](https://github.com/asimov-modules/asimov-jinja-module)**: ASIMOV module for prompt templating using the Jinja templating language.
 - 🦀 **[asimov-nexus-module](https://github.com/asimov-modules/asimov-nexus-module)**: ASIMOV module for knowledge import powered by the ASIMOV.
-- 🦀 **[asimov-serpapi-module](https://github.com/asimov-modules/asimov-serpapi-module)**: ASIMOV module for data import powered by the SerpApi search data platform.
-- 🦀 **[asimov-brightdata-module](https://github.com/asimov-modules/asimov-brightdata-module)**: ASIMOV module for data import powered by the Bright Data web data platform.
-- 🦀 **[cutler](https://github.com/hitblast/cutler)**: Powerful, declarative settings management for your Mac, with speed.
-- 🦀 **[exiftool](https://github.com/ruurdbijlsma/exiftool_rs)**: A Rust wrapper for ExifTool.
-- 🦀 **[create-tailyew-app](https://github.com/apjames93/tailyew)**: CLI to scaffold a new Tailyew Yew+Tailwind project.
-- 🦀 **[hbackup](https://github.com/asthetik/hbackup)**: hbackup is a sample, high-performance, cross-platform backup tool written in Rust.
-- 🦀 **[catbox-ng](https://github.com/APT37/catbox)**: Implementation of Catbox.
-- 🦀 **[hteapot](https://github.com/az107/HTeaPot)**: HTeaPot is a lightweight HTTP server library designed to be easy to use and extend.
-- 🦀 **[mtr-ng](https://github.com/edejong-dbc/mtr-ng)**: A modern, feature-rich implementation of My Traceroute (MTR) with real-time network path visualization.
-- 🦀 **[syncable-cli](https://github.com/syncable-dev/syncable-cli)**: A Rust-based CLI that analyzes code repositories and generates Infrastructure as Code configurations.
-- 🦀 **[cargo-deb](https://github.com/kornelski/cargo-deb)**: Make Debian packages (.
-- 🦀 **[e_midi](https://github.com/davehorner/e_midi/)**: An interactive/CLI/library MIDI player with advanced playback options, looping, and scan modes.
-- 🦀 **[jsonrpc-debugger](https://github.com/shanejonas/jsonrpc-debugger)**: A terminal-based JSON-RPC debugger with interception capabilities.
+- 🦀 **[mevlog](https://github.com/pawurb/mevlog-rs)**: EVM transactions monitoring and querying CLI powered by Revm.
+- 🦀 **[tsync](https://github.com/Wulf/tsync)**: Generate typescript types from rust code.
 - 🦀 **[vkteams-bot](https://github.com/bug-ops/vkteams-bot/tree/master)**: High-performance VK Teams Bot API toolkit with CLI and MCP server support.
+- 🦀 **[vx-tool-bun](https://github.com/loonghao/vx)**: Bun package manager support for vx.
+- 🦀 **[terrazzo-pty](https://github.com/Terrazzo-Web/Terminal)**: Utility to run commands in a PTY.
+- 🦀 **[vx-tool-yarn](https://github.com/loonghao/vx)**: Yarn package manager support for vx.
+- 🦀 **[crab-clean](https://github.com/adithya-adee/crab-clean)**: A CLI tool to tidy your file system by finding and managing duplicate and unused files.
+- 🦀 **[vx-dependency](https://github.com/loonghao/vx)**: Dependency resolution and management for vx tools.
+- 🦀 **[atar](https://github.com/x71c9/atar)**: Ephemeral Terraform runner: applies on start, auto-destroys on exit or failure.
 - 🦀 **[vkteams-bot-cli](https://github.com/bug-ops/vkteams-bot/tree/master/crates/vkteams-bot-cli)**: High-performance VK Teams Bot API toolkit with CLI and MCP server support.
+- 🦀 **[pwrzv](https://github.com/kookyleo/pwrzv)**: A Rolls-Royce–inspired performance reserve meter for Linux and macOS systems.
+- 🦀 **[terrazzo-terminal](https://github.com/Terrazzo-Web/Terminal)**: A simple web-based terminal emulator built on Terrazzo.
+- 🦀 **[ck3-tiger](https://github.com/amtep/tiger)**: Validator that checks Crusader Kings 3 user mod files for mistakes and warns about them.
+- 🦀 **[jsonrpc-debugger](https://github.com/shanejonas/jsonrpc-debugger)**: A terminal-based JSON-RPC debugger with interception capabilities.
+- 🦀 **[okh-tool](https://github.com/OPEN-NEXT/LOSH-OKH-tool)**: A CLI tool to deal with Open Know-How (OKH) data files.
+- 🦀 **[atproto-identity](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: AT Protocol identity management - DID resolution, handle resolution, and cryptographic operations.
+- 🦀 **[cargo-deb](https://github.com/kornelski/cargo-deb)**: Make Debian packages (.
+- 🦀 **[catbox-ng](https://github.com/APT37/catbox)**: Implementation of Catbox.
+- 🦀 **[plyg](https://github.com/2teez/plyg)**: A Playground to safely try out different programming languages in a single file.
+- 🦀 **[taxonomy](https://github.com/onecodex/taxonomy)**: Routines for loading, saving, and manipulating taxonomic trees.
+- 🦀 **[askr](https://github.com/gfranxman/askr)**: Interactive CLI input tool with real-time validation and choice menus.
+- 🦀 **[imperator-tiger](https://github.com/amtep/tiger)**: Validator that checks Imperator: Rome user mod files for mistakes and warns about them.
+- 🦀 **[atproto-record](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: AT Protocol record signature operations - cryptographic signing and verification for AT Protocol records.
+- 🦀 **[claco](https://github.com/kaichen/claco)**: Claude Code CLI Inspector - inspect Claude Code sessions and project data.
+- 🦀 **[ngit](https://codeberg.org/DanConwayDev/ngit-cli)**: nostr plugin for git.
+- 🦀 **[atproto-oauth](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: OAuth workflow implementation for AT Protocol - PKCE, DPoP, and secure authentication flows.
+- 🦀 **[atproto-oauth-axum](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: Axum web framework integration for AT Protocol OAuth workflows.
+- 🦀 **[coursepointer](https://github.com/mshroyer/coursepointer/)**: Converts waypoints into Garmin FIT course points.
+- 🦀 **[gcs-rsync](https://github.com/cboudereau/gcs-rsync)**: rsync support for gcs with higher perf than gsutil rsync.
+- 🦀 **[hteapot](https://github.com/az107/HTeaPot)**: HTeaPot is a lightweight HTTP server library designed to be easy to use and extend.
+- 🦀 **[f_log](null)**: Simple fast logger.
+- 🦀 **[spider_utils](https://github.com/spider-rs/spider)**: Utilities to use for Spider Web Crawler.
+- 🦀 **[vic3-tiger](https://github.com/amtep/tiger)**: Validator that checks Victoria 3 user mod files for mistakes and warns about them.
+- 🦀 **[clapi-cli](https://github.com/clapi/clapi)**: Any API, One Command Away™ - Turn any API into simple CLI commands.
+- 🦀 **[atproto-client](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: HTTP client for AT Protocol services with OAuth and identity integration.
+- 🦀 **[lumina-cli](https://github.com/eigerco/lumina)**: Celestia data availability node implementation in Rust.
+- 🦀 **[yarig](https://github.com/TheClams/yarig)**: A register interface generator.
+- 🦀 **[alan-von-palladium](https://github.com/labforadvancedstudy/palladium-a)**: The Alan von Palladium Programming Language - A systems programming language combining Turing's correctness with von Neumann's performance.
+- 🦀 **[atproto-xrpcs](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: Core building blocks for implementing AT Protocol XRPC services with JWT authorization.
+- 🦀 **[atproto-oauth-aip](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: ATProtocol AIP OAuth tools.
+- 🦀 **[huismanager](https://codeberg.org/IamPyu/huismanager)**: Dotfiles and system configuration manager for Linux.
+- 🦀 **[pokerbot](https://github.com/czy-29/pokerbot)**: 🚧 A Texas Hold'em Heads up pokerbot game binary and library abstraction (WIP, nothing usable for now).
+- 🦀 **[gifmeta](https://github.com/madspaaskesen/gifmeta)**: A sacred tool for inspecting and editing GIF metadata from the command line.
+- 🦀 **[atproto-jetstream](https://tangled.sh/@smokesignal.events/atproto-identity-rs)**: AT Protocol Jetstream event consumer library with WebSocket streaming and compression support.
+- 🦀 **[syncable-cli](https://github.com/syncable-dev/syncable-cli)**: A Rust-based CLI that analyzes code repositories and generates Infrastructure as Code configurations.
+- 🦀 **[mtr-ng](https://github.com/edejong-dbc/mtr-ng)**: A modern, feature-rich implementation of My Traceroute (MTR) with real-time network path visualization.
+- 🦀 **[livemarkdown](https://github.com/yourusername/livemarkdown)**: A live markdown renderer that watches files and serves HTML over HTTP.
+- 🦀 **[mcp-probe-core](https://github.com/conikeec/mcp-probe)**: Core MCP (Model Context Protocol) types, traits, and transport implementations.
+- 🦀 **[dokosa](https://github.com/sile/dokosa)**: A command-line semantic search tool that indexes and searches local Git repositories using vector embeddings.
+- 🦀 **[grox](https://gitlab.com/nickeldan/grox)**: Command-line tool that searches for regex matches in a file tree.
+- 🦀 **[cical](https://github.com/sdb-replica/cical)**: A comprehensive compound interest calculator library and CLI for Rust, supporting advanced scenarios including weekly compounding, contributions, and capital gains tax.
+- 🦀 **[apimock](https://github.com/apimokka/apimock-rs)**: A developer-friendly, robust and functional HTTP mock server built in Rust.
+- 🦀 **[hbackup](https://github.com/asthetik/hbackup)**: hbackup is a sample, high-performance, cross-platform backup tool written in Rust.
+- 🦀 **[investments](https://github.com/KonishchevDmitry/investments)**: Helps you with managing your investments.
+- 🦀 **[cargo-acj](https://github.com/k-ohnuma/cargo-acj)**: Automatically test AtCoder sample cases.
+- 🦀 **[muv](https://github.com/vineel7871/muv)**: Global environment management tool using uv.
+- 🦀 **[pixelbomber](https://github.com/fabi321/pixelbomber)**: Insanely fast pixelflut client for images and animations.
+- 🦀 **[wca](https://github.com/Wandalen/wTools/tree/master/module/move/wca)**: The tool to make CLI ( commands user interface ).
+- 🦀 **[ddup-bak](https://github.com/0x7d8/ddup-bak.git)**: An archive format that supports multiple compression algorithms at once.
+- 🦀 **[appcui](https://github.com/gdt050579/AppCUI-rs)**: A feature-rich and cross-platform TUI/CUI framework for Rust, enabling modern terminal-based applications on Windows, Linux, and macOS.
+- 🦀 **[exiftool](https://github.com/ruurdbijlsma/exiftool_rs)**: A Rust wrapper for ExifTool.
+- 🦀 **[db-mover](https://github.com/Mrreadiness/db-mover)**: Tool to move data between databases.
+- 🦀 **[dqr](https://github.com/pepa65/dqr)**: Decode QR with Quircs.
+- 🦀 **[evm-lens-core](https://github.com/andyrobert3/evm-lens)**: Fast EVM bytecode disassembler library.
+- 🦀 **[oci2git](https://github.com/virviil/oci2git)**: A tool to convert OCI images to Git repositories.
+- 🦀 **[turbo-cdn](https://github.com/loonghao/turbo-cdn)**: Revolutionary global download accelerator for open-source software with AI optimization, multi-CDN routing, and P2P acceleration.
+- 🦀 **[aws-assume-role](https://github.com/holdennguyen/aws-assume-role)**: Simple CLI tool to easily switch between AWS IAM roles across different accounts.
+- 🦀 **[claude-code-toolkit](https://github.com/deepbrainspace/goodiebag)**: Claude Code management tool for credential sync, session monitoring, and GitHub integration.
+- 🦀 **[csvmd](https://github.com/timrogers/csvmd)**: Convert from CSV to a Markdown table.
+- 🦀 **[cutler](https://github.com/hitblast/cutler)**: Powerful, declarative settings management for your Mac, with speed.
+- 🦀 **[error_snippet](https://github.com/lume-lang/error_snippet)**: Library for reporting fancy diagnostics to the console.
+- 🦀 **[mcp-discovery](https://github.com/rust-mcp-stack/mcp-discovery)**: A command-line tool written in Rust for discovering and documenting MCP Server capabilities.
+- 🦀 **[hledger-fmt](https://github.com/mondeja/hledger-fmt)**: An opinionated hledger's journal files formatter.
+- 🦀 **[smbcloud-networking](https://github.com/smbcloudXYZ/smbcloud-cli)**: Command line tool for deploying NextJS app on the smbCloud platform.
+- 🦀 **[jimage-rs](https://github.com/hextriclosan/rusty-jvm)**: A fast and efficient Rust library for working with jimage files used by the Java Platform Module System.
+- 🦀 **[smbcloud-cli](https://github.com/smbcloudXYZ/smbcloud-cli)**: Command line tool for deploying NextJS app on the smbCloud platform.
+- 🦀 **[jolokia](https://github.com/qrichert/jolokia.git)**: Simple, strong encryption.
+- 🦀 **[smn_term](null)**: A small, plugin-driven terminal UI framework in Rust, built on crossterm.
+- 🦀 **[tally-cli](https://github.com/uhryniuk/tally)**: A persistent, inter-process counter for all your shell scripts.
+- 🦀 **[this-me](https://github.com/neurons-me/this.me)**: Encrypted identity store CLI tool (this.
+- 🦀 **[spytrap-adb](https://github.com/spytrap-org/spytrap-adb)**: Test a phone for stalkerware using adb and usb debugging to scan for suspicious apps and configuration.
+- 🦀 **[claude-sdk-rs](https://github.com/bredmond1019/claude-sdk-rust)**: Rust SDK for Claude AI with CLI integration - type-safe async API for Claude Code and direct SDK usage.
+- 🦀 **[tooka-core](https://github.com/tooka-org/core)**: The internal engine powering Tooka.
+- 🦀 **[rsnaker](https://github.com/FromTheRags/rsnake)**: A good old retro Snake in terminal UI.
+- 🦀 **[cappie](https://github.com/DitzDev/Cappie)**: A fast JSON logger for Rust.
+- 🦀 **[qudag-cli](https://github.com/ruvnet/QuDAG)**: Command-line interface for QuDAG - Manage nodes, peers, and dark addresses.
+- 🦀 **[startled](https://github.com/dev7a/serverless-otlp-forwarder/tree/main/cli/startled)**: CLI tool for benchmarking Lambda functions.
