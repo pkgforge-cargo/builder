@@ -30,7 +30,7 @@ fi
  jq \
  '
     .[] | 
-    select(.yanked == false and (.categories[]? == "command-line-utilities")) |
+    select(.yanked == false and ((.categories[]? == "command-line-utilities") or .has_bins == true)) |
     def clean_strings: walk(if type == "string" then gsub("\\n|\\r|\\t"; " ") | gsub("\\s+"; " ") | gsub("^\\s+|\\s+$"; "") else . end);
     {
         bin_names: .bin_names? // [],
