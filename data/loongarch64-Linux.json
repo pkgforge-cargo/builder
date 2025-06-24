@@ -275343,6 +275343,74 @@
   },
   {
     "_disabled": "false",
+    "bsum": "f92aa2985b690872fd814df24137baf3f74757dd288d559c5413a4697d1be5ab",
+    "build_date": "2025-06-24T01:23:14Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15838823486",
+    "build_id": "15838823486",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unreal_log_parser/stable/unreal_log_parser?tag=1.1.1-loongarch64-Linux&download=unreal_log_parser.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple log parser for Unreal Engine logs, which can be used to extract useful information from logs.",
+    "desktop_integration": "false",
+    "download_count": "573",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unreal_log_parser/stable/unreal_log_parser?tag=1.1.1-loongarch64-Linux&download=unreal_log_parser",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/unreal_log_parser/stable/unreal_log_parser:1.1.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/unreal_log_parser/stable/unreal_log_parser",
+    "homepage": [
+      "https://github.com/KyrylSydorov/UE_LOG_Parser"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/unreal_log_parser/stable/unreal_log_parser?tag=1.1.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "unreal_log_parser",
+    "pkg_family": "unreal_log_parser",
+    "pkg_id": "pkgforge-cargo.unreal_log_parser.stable",
+    "pkg_name": "unreal_log_parser",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/unreal_log_parser",
+    "portable": "true",
+    "provides": [
+      "unreal_log_parser"
+    ],
+    "rank": "1630",
+    "recurse_provides": "false",
+    "shasum": "5134d8c6beed28f713dd2c3b44d28b7de98c5187b0558af9cc5b8f2ee6b40fc0",
+    "size": "900 KB",
+    "size_raw": "921360",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/unreal_log_parser/1.1.1/download"
+    ],
+    "tag": [
+      "log",
+      "log-parser",
+      "parser",
+      "ue5",
+      "unreal-engine"
+    ],
+    "trusted": "true",
+    "version": "1.1.1",
+    "version_upstream": "1.1.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "8e5726c545aa60659da58162d36391055f7d5971f97b7b64693a29554be16197",
     "build_date": "2025-06-19T09:46:05Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15754308475",
@@ -275388,7 +275456,7 @@
     "provides": [
       "unreferenced_files"
     ],
-    "rank": "1630",
+    "rank": "1631",
     "recurse_provides": "false",
     "shasum": "7787375fadc33575bcdfcbe0a31c09f820310719a872d3ca9d76019a21689cce",
     "size": "2.2 MB",
@@ -275455,7 +275523,7 @@
     "provides": [
       "unwx"
     ],
-    "rank": "1631",
+    "rank": "1632",
     "recurse_provides": "false",
     "shasum": "02a62eb4ffa0c17db572bd31252c4c16001063f55d866fbce45213b479e114a4",
     "size": "580 KB",
@@ -275519,7 +275587,7 @@
     "provides": [
       "up"
     ],
-    "rank": "1632",
+    "rank": "1633",
     "recurse_provides": "false",
     "shasum": "54d0264a6965220a39e22f6b1703679a15a1345bceafd12fbe557d4cd6fdef29",
     "size": "12 MB",
@@ -275584,7 +275652,7 @@
     "provides": [
       "up"
     ],
-    "rank": "1633",
+    "rank": "1634",
     "recurse_provides": "false",
     "shasum": "63bafce3d87a3e366ed781a0f3531d91ca2f2c5f796225fc4a75501916cf05ec",
     "size": "12 MB",
@@ -275649,7 +275717,7 @@
     "provides": [
       "updpkg"
     ],
-    "rank": "1634",
+    "rank": "1635",
     "recurse_provides": "false",
     "shasum": "ff7f785eb710165b19796e780bd9206b056ed380fd9d837ae6b45c2b34684052",
     "size": "1.8 MB",
@@ -275713,7 +275781,7 @@
     "provides": [
       "upextract"
     ],
-    "rank": "1635",
+    "rank": "1636",
     "recurse_provides": "false",
     "shasum": "797ebda040b1cbe5553e18bd2100de689d925662794a7a263caa3c4db68c23f4",
     "size": "980 KB",
@@ -275779,7 +275847,7 @@
     "provides": [
       "uplite"
     ],
-    "rank": "1636",
+    "rank": "1637",
     "recurse_provides": "false",
     "shasum": "d71b8875a7dae45c3fc3e8a4ee4bced6984e9ff75321584aa698d7753b0b76b2",
     "size": "7.2 MB",
@@ -275847,7 +275915,7 @@
     "provides": [
       "upload-to-s3"
     ],
-    "rank": "1637",
+    "rank": "1638",
     "recurse_provides": "false",
     "shasum": "25653bb0537bbdf2883f117ef59250672d806ba0bc05d27f53b381853a7a8bf6",
     "size": "2.4 MB",
@@ -275913,7 +275981,7 @@
     "provides": [
       "upnp-daemon"
     ],
-    "rank": "1638",
+    "rank": "1639",
     "recurse_provides": "false",
     "shasum": "876d8e823d1d6aee630d80e5fb708860aaaf5b7369b02529cbe5c3cd29542475",
     "size": "3.0 MB",
@@ -275977,7 +276045,7 @@
     "provides": [
       "upt"
     ],
-    "rank": "1639",
+    "rank": "1640",
     "recurse_provides": "false",
     "shasum": "d764d0d413ab858d170b3a6f38df0ed3f92c257ad105bad5264d3d2889b05800",
     "size": "596 KB",
@@ -276043,7 +276111,7 @@
     "provides": [
       "upv"
     ],
-    "rank": "1640",
+    "rank": "1641",
     "recurse_provides": "false",
     "shasum": "6e273492abfa065cf03dc5fe0563fe8e22315b0cd61c1ce2dcdeb0766a358f98",
     "size": "420 KB",
@@ -276113,7 +276181,7 @@
     "provides": [
       "url-cli-tool"
     ],
-    "rank": "1641",
+    "rank": "1642",
     "recurse_provides": "false",
     "shasum": "14855067bd476b9632929cd98b3faf757ea6d595934b17cdbe2d766c7920935c",
     "size": "868 KB",
@@ -276181,7 +276249,7 @@
     "provides": [
       "url"
     ],
-    "rank": "1642",
+    "rank": "1643",
     "recurse_provides": "false",
     "shasum": "7a19e153a65227ae58ca98ea918db4d107273b3d9af059b066bc30c64b45da8a",
     "size": "3.2 MB",
@@ -276246,7 +276314,7 @@
     "provides": [
       "urm-sim"
     ],
-    "rank": "1643",
+    "rank": "1644",
     "recurse_provides": "false",
     "shasum": "30cbbf3f888fd033f159d45c9340ae731a8b143062ad5215d22de651697c3e0e",
     "size": "1.3 MB",
@@ -276378,7 +276446,7 @@
     "provides": [
       "user-startup"
     ],
-    "rank": "1644",
+    "rank": "1645",
     "recurse_provides": "false",
     "shasum": "4cc91ce0891a0323cfdeecf23df37c7a28b2fb3b04963ce8346d83da9e72c47f",
     "size": "1.9 MB",
@@ -276446,7 +276514,7 @@
     "provides": [
       "userkit"
     ],
-    "rank": "1645",
+    "rank": "1646",
     "recurse_provides": "false",
     "shasum": "8ede8494095dcf22d15cfc2eec1c221ae645f90c400c35b3a331b365d8921ef6",
     "size": "1.4 MB",
@@ -276513,7 +276581,7 @@
     "provides": [
       "usnrs-cli"
     ],
-    "rank": "1646",
+    "rank": "1647",
     "recurse_provides": "false",
     "shasum": "970011201cf0a4b20a92c6a648c1ca5afe5de927e4e2e648f418b1905cb941af",
     "size": "900 KB",
@@ -276577,7 +276645,7 @@
     "provides": [
       "usv-to-asv"
     ],
-    "rank": "1647",
+    "rank": "1648",
     "recurse_provides": "false",
     "shasum": "57337070ce1b7f046335ea47d14aec5e8708eee8bc3ae134c469b2dbaeccb4a9",
     "size": "820 KB",
@@ -276645,7 +276713,7 @@
     "provides": [
       "usv-to-csv"
     ],
-    "rank": "1648",
+    "rank": "1649",
     "recurse_provides": "false",
     "shasum": "d85d8e17b45f8310f8be9b29ae43cefadc120a67f6081b3239097acd767d4553",
     "size": "836 KB",
@@ -276713,7 +276781,7 @@
     "provides": [
       "usv-to-json"
     ],
-    "rank": "1649",
+    "rank": "1650",
     "recurse_provides": "false",
     "shasum": "71d7fc6aed5b9b4c7bd0963dfb420bed59b6102ee908463adf52df87058b9092",
     "size": "852 KB",
@@ -276781,7 +276849,7 @@
     "provides": [
       "usv-to-xlsx"
     ],
-    "rank": "1650",
+    "rank": "1651",
     "recurse_provides": "false",
     "shasum": "69ed8ca913f9dd9ab0ff86772f9a13c68dcc51450c3f27d008f3de57db0636fe",
     "size": "2.9 MB",
@@ -276849,7 +276917,7 @@
     "provides": [
       "u8loc"
     ],
-    "rank": "1651",
+    "rank": "1652",
     "recurse_provides": "false",
     "shasum": "958d64edcec0b52ef59c18337c45da731ee55ec7b0d3758ca5daf754b2d2fc4d",
     "size": "2.2 MB",
@@ -277049,7 +277117,7 @@
     "provides": [
       "uwu"
     ],
-    "rank": "1652",
+    "rank": "1653",
     "recurse_provides": "false",
     "shasum": "4e0e4e21270c3412e6136d99df9fd0b1efd9d02b972a8195df123e0c4b856b6d",
     "size": "1.2 MB",
@@ -277179,7 +277247,7 @@
     "provides": [
       "vach"
     ],
-    "rank": "1653",
+    "rank": "1654",
     "recurse_provides": "false",
     "shasum": "9beffd8ee987cae5de92c0b19680e22ab3bf55cdd5f2cb9434c0a4ef06ec9f0f",
     "size": "2.9 MB",
@@ -277247,7 +277315,7 @@
     "provides": [
       "vmm"
     ],
-    "rank": "1654",
+    "rank": "1655",
     "recurse_provides": "false",
     "shasum": "26919303f116dc3fb48e825f07552dce919fc15fd4eb83ad6a34f8fd47607a58",
     "size": "7.1 MB",
@@ -277317,7 +277385,7 @@
     "provides": [
       "vanikey"
     ],
-    "rank": "1655",
+    "rank": "1656",
     "recurse_provides": "false",
     "shasum": "1d3b691990bf859b8acf8cf97bb8703be2e2d9f1fdfb4cc0bb2adaed36b7bf20",
     "size": "996 KB",
@@ -277381,7 +277449,7 @@
     "provides": [
       "vanish"
     ],
-    "rank": "1656",
+    "rank": "1657",
     "recurse_provides": "false",
     "shasum": "7f180f188b64a66632efe816b8bd8a72d2a51faae87ca62ae6001d29ce874bd8",
     "size": "4.0 MB",
@@ -277449,7 +277517,7 @@
     "provides": [
       "vanitysol"
     ],
-    "rank": "1657",
+    "rank": "1658",
     "recurse_provides": "false",
     "shasum": "02a254d04b826345cce8c1a2e9bd5c9b37b33388c82d2ddb153ee2104c2faf76",
     "size": "900 KB",
@@ -277515,7 +277583,7 @@
     "provides": [
       "vault-tasks"
     ],
-    "rank": "1658",
+    "rank": "1659",
     "recurse_provides": "false",
     "shasum": "d92504b6a6fc960500442e385b13131d3ad5dce9a59748201807fc271ea31bfc",
     "size": "8.2 MB",
@@ -277583,7 +277651,7 @@
     "provides": [
       "vegas-lattice"
     ],
-    "rank": "1659",
+    "rank": "1660",
     "recurse_provides": "false",
     "shasum": "10e21ebd81ca4ac85bb45276b49135a4b79a52e46a03ae5ab8d5f863f1116ffb",
     "size": "2.5 MB",
@@ -277650,7 +277718,7 @@
     "provides": [
       "vers-cli"
     ],
-    "rank": "1660",
+    "rank": "1661",
     "recurse_provides": "false",
     "shasum": "25b6eaa947922adfde475b1234e600e610c506fe029d198360c56c0b7ac625f0",
     "size": "1012 KB",
@@ -277718,7 +277786,7 @@
     "provides": [
       "versatiles"
     ],
-    "rank": "1661",
+    "rank": "1662",
     "recurse_provides": "false",
     "shasum": "ecb3227d5d8d4c07049ac54d4c0def5ae336d814f8f4f05afe9de830b5e6c07b",
     "size": "12 MB",
@@ -277786,7 +277854,7 @@
       "version",
       "version-manager"
     ],
-    "rank": "1662",
+    "rank": "1663",
     "recurse_provides": "false",
     "shasum": "c1022d8196840fbeacdb307397dda4a95c2656ff077a0127b086d7a455f024c0",
     "size": "2.8 MB",
@@ -277854,7 +277922,7 @@
       "recto",
       "verso"
     ],
-    "rank": "1665",
+    "rank": "1666",
     "recurse_provides": "false",
     "shasum": "ca5cebe155d1cd621efb3252dc235d06266f4af978a2fad92871aa68a5887c79",
     "size": "468 KB",
@@ -278242,7 +278310,7 @@
     "provides": [
       "view-img"
     ],
-    "rank": "1666",
+    "rank": "1667",
     "recurse_provides": "false",
     "shasum": "19679f966e6ef7d882b7489c0056497075e7ccee88196ccca8ea3800237c388f",
     "size": "3.3 MB",
@@ -278309,7 +278377,7 @@
     "provides": [
       "viewercount"
     ],
-    "rank": "1667",
+    "rank": "1668",
     "recurse_provides": "false",
     "shasum": "92818e6685cd0e83b55711990515bf510a8af395ec211da23ce9ddf1635cceb3",
     "size": "8.2 MB",
@@ -278375,7 +278443,7 @@
     "provides": [
       "vim_terminal"
     ],
-    "rank": "1668",
+    "rank": "1669",
     "recurse_provides": "false",
     "shasum": "faef0e5600a8f818edf2d8fea87b5f98878b42021e60ac0d47a31022f32a5ee5",
     "size": "740 KB",
@@ -278441,7 +278509,7 @@
     "provides": [
       "vimcats"
     ],
-    "rank": "1669",
+    "rank": "1670",
     "recurse_provides": "false",
     "shasum": "e73b3b6edb542b46864d1943f825b176cf24fb302ee0e8871bf443c170ae23ad",
     "size": "1.6 MB",
@@ -278509,7 +278577,7 @@
     "provides": [
       "viro"
     ],
-    "rank": "1670",
+    "rank": "1671",
     "recurse_provides": "false",
     "shasum": "b817249267668601bb210f315264a985a72cb33b27c936d186d300170aee58b9",
     "size": "452 KB",
@@ -278573,7 +278641,7 @@
     "provides": [
       "virtio-info"
     ],
-    "rank": "1671",
+    "rank": "1672",
     "recurse_provides": "false",
     "shasum": "6946532a76b9fdff703f7484a331b6cffcb5ee1e76ffcf4e97d474b396458426",
     "size": "836 KB",
@@ -278641,7 +278709,7 @@
     "provides": [
       "virust-locator"
     ],
-    "rank": "1672",
+    "rank": "1673",
     "recurse_provides": "false",
     "shasum": "c43fc3b8927d12a4d0b11e3c8a23e26fe491597e9ec1eae84ca2b789a48a55f2",
     "size": "1.1 MB",
@@ -278708,7 +278776,7 @@
     "provides": [
       "vitrine"
     ],
-    "rank": "1673",
+    "rank": "1674",
     "recurse_provides": "false",
     "shasum": "d657208dcb533ac6313dbca7ad3a2a744897d79571681c713c9b85ec8d409432",
     "size": "39 MB",
@@ -278774,7 +278842,7 @@
     "provides": [
       "vivid"
     ],
-    "rank": "1674",
+    "rank": "1675",
     "recurse_provides": "false",
     "shasum": "8a45149da5c16f3a4f9832d62262a6a0312afc9306f0b34568fb94e3199ef149",
     "size": "1.2 MB",
@@ -278838,7 +278906,7 @@
     "provides": [
       "vivo"
     ],
-    "rank": "1675",
+    "rank": "1676",
     "recurse_provides": "false",
     "shasum": "7666092f90e8392f668cb14dc51554b60333651490084992758d355bd68ecb38",
     "size": "2.9 MB",
@@ -278906,7 +278974,7 @@
     "provides": [
       "vmp"
     ],
-    "rank": "1676",
+    "rank": "1677",
     "recurse_provides": "false",
     "shasum": "71b4ddef6c540c35c55e20776d560aa7dd18c7a81b40eb8b87455298086826f9",
     "size": "3.9 MB",
@@ -278972,7 +279040,7 @@
     "provides": [
       "volaris-cli"
     ],
-    "rank": "1677",
+    "rank": "1678",
     "recurse_provides": "false",
     "shasum": "af0114801a8985cd6986c2e6b939ecfdcfe281df2309435b6c850b697789ebc5",
     "size": "2.2 MB",
@@ -279176,7 +279244,7 @@
     "provides": [
       "voxel-tiler-cli"
     ],
-    "rank": "1678",
+    "rank": "1679",
     "recurse_provides": "false",
     "shasum": "aaf94363797588df1c893a0948e48c4f9b78c6ed0e51a766fd278b22131e598d",
     "size": "3.9 MB",
@@ -279244,7 +279312,7 @@
     "provides": [
       "vsb"
     ],
-    "rank": "1679",
+    "rank": "1680",
     "recurse_provides": "false",
     "shasum": "9b8aaa7c03fd496db16a8aadb75c302bf167bde293d7edda264fad13130f3bf8",
     "size": "10 MB",
@@ -279309,7 +279377,7 @@
     "provides": [
       "vscli"
     ],
-    "rank": "1680",
+    "rank": "1681",
     "recurse_provides": "false",
     "shasum": "ec91eb45b347d2a02c442fc552fffaa65113e0ec985b721ce8671465a262b789",
     "size": "3.5 MB",
@@ -279440,7 +279508,7 @@
     "provides": [
       "vsvg"
     ],
-    "rank": "1681",
+    "rank": "1682",
     "recurse_provides": "false",
     "shasum": "4a0da35dbe91f051d60ea8f8a4c40e8737ea1e1713c37cf57f05143f00ea2ad2",
     "size": "19 MB",
@@ -279504,7 +279572,7 @@
     "provides": [
       "vx-shim"
     ],
-    "rank": "1682",
+    "rank": "1683",
     "recurse_provides": "false",
     "shasum": "994fe8df36daaed5b8175d12333e145b7beef40289b10b3dfcc1e58fc5f3d5d5",
     "size": "884 KB",
@@ -279572,7 +279640,7 @@
     "provides": [
       "vx"
     ],
-    "rank": "1683",
+    "rank": "1684",
     "recurse_provides": "false",
     "shasum": "a67a6dfdcc5c8fbaf8c0b5c0f9e7c55fa02521009cd49d62fdd3a86ab7bc117c",
     "size": "6.6 MB",
@@ -279640,7 +279708,7 @@
     "provides": [
       "waitstat"
     ],
-    "rank": "1684",
+    "rank": "1685",
     "recurse_provides": "false",
     "shasum": "aff56211d146facec3bca0727cbf66736cec1fbe636f78a091941ae26196cb9d",
     "size": "900 KB",
@@ -279772,7 +279840,7 @@
     "provides": [
       "wall-a"
     ],
-    "rank": "1685",
+    "rank": "1686",
     "recurse_provides": "false",
     "shasum": "16037bc81f7b0f55d1875c8082f5559ec7b2aed7c5a90eb7bcd8709ab8126cb6",
     "size": "2.0 MB",
@@ -279838,7 +279906,7 @@
     "provides": [
       "wallpaper-dl"
     ],
-    "rank": "1686",
+    "rank": "1687",
     "recurse_provides": "false",
     "shasum": "0cd24ee33277fd58af1a65b5b91d91db5c466129fe9b44e67f27544c90fe8a28",
     "size": "3.8 MB",
@@ -279903,7 +279971,7 @@
     "provides": [
       "wallpaper-manager"
     ],
-    "rank": "1687",
+    "rank": "1688",
     "recurse_provides": "false",
     "shasum": "ea3aa55b6d72a0f0d098cf5b64de2fb9c1e1d900e477ae5897bdc815537089e8",
     "size": "12 MB",
@@ -280038,7 +280106,7 @@
     "provides": [
       "wallswitch"
     ],
-    "rank": "1688",
+    "rank": "1689",
     "recurse_provides": "false",
     "shasum": "09494e5bc47124df78bf9633e48ecd2c94e4f95cff873c98ec3ac7fdcb7b62c6",
     "size": "820 KB",
@@ -280175,7 +280243,7 @@
     "provides": [
       "wambo"
     ],
-    "rank": "1689",
+    "rank": "1690",
     "recurse_provides": "false",
     "shasum": "608beb95fe92a54f13e7d6f88d45e4e53c9c820b423b62d7e58419ebd53f3322",
     "size": "2.1 MB",
@@ -280243,7 +280311,7 @@
     "provides": [
       "war3parser-cli"
     ],
-    "rank": "1690",
+    "rank": "1691",
     "recurse_provides": "false",
     "shasum": "8baf73c5b0c89d2be7fee3ebb13ed621f204995eedd1c125529cb292dd64bdf9",
     "size": "4.6 MB",
@@ -280309,7 +280377,7 @@
     "provides": [
       "warcat"
     ],
-    "rank": "1691",
+    "rank": "1692",
     "recurse_provides": "false",
     "shasum": "10d04a38902046a5118d2e3c1c993d3a1eeaef4f08ebbfd4cb2c8adeb7d51f1a",
     "size": "7.3 MB",
@@ -280374,7 +280442,7 @@
     "provides": [
       "warp-directory"
     ],
-    "rank": "1692",
+    "rank": "1693",
     "recurse_provides": "false",
     "shasum": "9386111d475287d6c82849194e463773c3199f4d76c104505d72a1394ebd9e5e",
     "size": "948 KB",
@@ -280438,7 +280506,7 @@
     "provides": [
       "warrah"
     ],
-    "rank": "1693",
+    "rank": "1694",
     "recurse_provides": "false",
     "shasum": "cb7481749b5518157cdb89257087729467d7ee1abd2f416e34038b4828b2cdcb",
     "size": "484 KB",
@@ -280504,7 +280572,7 @@
     "provides": [
       "warren"
     ],
-    "rank": "1694",
+    "rank": "1695",
     "recurse_provides": "false",
     "shasum": "e72ea9c5b36284f6f50c3610bd55a7353c81225aaf44251fa82be6c496bb813c",
     "size": "3.2 MB",
@@ -280702,7 +280770,7 @@
     "provides": [
       "wasm-proc"
     ],
-    "rank": "1695",
+    "rank": "1696",
     "recurse_provides": "false",
     "shasum": "06864785b802a48a26f80e4ad0f0436415e5fe5b35ad6edbb0494e0388646402",
     "size": "3.7 MB",
@@ -280835,7 +280903,7 @@
     "provides": [
       "wasm2usharp"
     ],
-    "rank": "1696",
+    "rank": "1697",
     "recurse_provides": "false",
     "shasum": "f4bc6728f1cf0f1e91ae3cb392d83458954b31e9beec5d7b49845bb54451c8d0",
     "size": "2.9 MB",
@@ -280902,7 +280970,7 @@
     "provides": [
       "wasm_hex_dump"
     ],
-    "rank": "1697",
+    "rank": "1698",
     "recurse_provides": "false",
     "shasum": "b762496d96edcae9bed81519aae475eabc2be3599f68d9ff67e3737bf22a65cb",
     "size": "820 KB",
@@ -280970,7 +281038,7 @@
     "provides": [
       "wasmadder"
     ],
-    "rank": "1698",
+    "rank": "1699",
     "recurse_provides": "false",
     "shasum": "98b3dfd2c52a446991c7bc0c742a32b517a64c1c638bdefb74b1ac6a1ec276cb",
     "size": "836 KB",
@@ -281034,7 +281102,7 @@
     "provides": [
       "cargo-wasmcov"
     ],
-    "rank": "1699",
+    "rank": "1700",
     "recurse_provides": "false",
     "shasum": "8d69382a2b68d309c57cdd8b42ea90d4d2c20396760c4d1745373e6113ec293f",
     "size": "2.3 MB",
@@ -281102,7 +281170,7 @@
     "provides": [
       "wasmshield"
     ],
-    "rank": "1700",
+    "rank": "1701",
     "recurse_provides": "false",
     "shasum": "5245992cbd83b3365f73face328b3775312414941963047e0efa53c6cc4f062a",
     "size": "9.5 MB",
@@ -281166,7 +281234,7 @@
     "provides": [
       "watchy"
     ],
-    "rank": "1701",
+    "rank": "1702",
     "recurse_provides": "false",
     "shasum": "1b3949ed2a8c356efa551e4be703ccf48aad5d8a176ea0d2bb1af973cb3883b9",
     "size": "964 KB",
@@ -281231,7 +281299,7 @@
       "gen_wav",
       "wav2c"
     ],
-    "rank": "1703",
+    "rank": "1704",
     "recurse_provides": "false",
     "shasum": "4ec2971adbb1913f14e6a79bfda136df044f1c12d7298c5e137a5b300ff83c1c",
     "size": "1.8 MB",
@@ -281364,7 +281432,7 @@
     "provides": [
       "wcount"
     ],
-    "rank": "1704",
+    "rank": "1705",
     "recurse_provides": "false",
     "shasum": "190d47e0fd2318ccff04f68ef727a2db23fad33a7c7e1c9cda739dd2ac07e517",
     "size": "2.1 MB",
@@ -281431,7 +281499,7 @@
     "provides": [
       "weaving"
     ],
-    "rank": "1705",
+    "rank": "1706",
     "recurse_provides": "false",
     "shasum": "0ce13cfd07d7c8e37fb1cc3098cdb943853c2cdf02b0c855badcef47141424c6",
     "size": "7.4 MB",
@@ -281566,7 +281634,7 @@
     "provides": [
       "webcomp"
     ],
-    "rank": "1706",
+    "rank": "1707",
     "recurse_provides": "false",
     "shasum": "fe8b7d05fd33493657d1a5e8b05e134bab52040a4d319aaeffcf89cbc2bae9bf",
     "size": "4.5 MB",
@@ -281832,7 +281900,7 @@
     "provides": [
       "wechsel"
     ],
-    "rank": "1707",
+    "rank": "1708",
     "recurse_provides": "false",
     "shasum": "c30f54146c415953e63bd2fbd188419fe4f19e62daed0502736b67bb9ab71d86",
     "size": "1.4 MB",
@@ -281897,7 +281965,7 @@
     "provides": [
       "j"
     ],
-    "rank": "1708",
+    "rank": "1709",
     "recurse_provides": "false",
     "shasum": "de9a0ca6d7049ac7c07e8654980c037ddb42163974825e117a1eac63a9229861",
     "size": "452 KB",
@@ -281962,7 +282030,7 @@
     "provides": [
       "wenmoon"
     ],
-    "rank": "1709",
+    "rank": "1710",
     "recurse_provides": "false",
     "shasum": "dfaec510575e5f3e424928ce62c00206485d02faffdf6123467f5031c1bf2e6a",
     "size": "6.8 MB",
@@ -282030,7 +282098,7 @@
     "provides": [
       "what-rs"
     ],
-    "rank": "1710",
+    "rank": "1711",
     "recurse_provides": "false",
     "shasum": "de9875fc373a348389f05a56dd5d53d8ec23798e5e12ded7651474e7482bc2e7",
     "size": "3.8 MB",
@@ -282098,7 +282166,7 @@
     "provides": [
       "whattime"
     ],
-    "rank": "1711",
+    "rank": "1712",
     "recurse_provides": "false",
     "shasum": "a1cbbbd3ea94d270987ead17c97f79c2291f11650da899f0ee40034b2cd5ca22",
     "size": "484 KB",
@@ -282163,7 +282231,7 @@
     "provides": [
       "whattimeisit"
     ],
-    "rank": "1712",
+    "rank": "1713",
     "recurse_provides": "false",
     "shasum": "a934e7c6b5eb91b5ddab24553d939ec978b3e2fe6dfc558f4ac9821752bf8fc9",
     "size": "916 KB",
@@ -282498,7 +282566,7 @@
     "provides": [
       "whitespace-format"
     ],
-    "rank": "1713",
+    "rank": "1714",
     "recurse_provides": "false",
     "shasum": "170364a4332c4e3ffa7ffa9edbd00bc4dfab1b806f8adeac6198f786c7af318c",
     "size": "2.2 MB",
@@ -282564,7 +282632,7 @@
     "provides": [
       "wholesum"
     ],
-    "rank": "1714",
+    "rank": "1715",
     "recurse_provides": "false",
     "shasum": "a3c6c1526a0c059a37406a36a41228ed14251bc738e08ba43dcc5c5e271ecb5f",
     "size": "1.9 MB",
@@ -282630,7 +282698,7 @@
     "provides": [
       "whome"
     ],
-    "rank": "1715",
+    "rank": "1716",
     "recurse_provides": "false",
     "shasum": "095a58ac87d0ff064b5707b617a7cc0a46c58d5ebaa61cd0983c1ba37c5d1cf0",
     "size": "468 KB",
@@ -282698,7 +282766,7 @@
     "provides": [
       "yq"
     ],
-    "rank": "1716",
+    "rank": "1717",
     "recurse_provides": "false",
     "shasum": "cbfd40686710c46cb7fffdbbf75f94485fcbe1926858aae81cf2c41000f52c94",
     "size": "2.9 MB",
@@ -282762,7 +282830,7 @@
     "provides": [
       "wo"
     ],
-    "rank": "1717",
+    "rank": "1718",
     "recurse_provides": "false",
     "shasum": "b351862f5b11fea579d8919e4a4879848927d3ad44e5cf7347b537762691bd08",
     "size": "916 KB",
@@ -282829,7 +282897,7 @@
     "provides": [
       "wildpath-cli"
     ],
-    "rank": "1718",
+    "rank": "1719",
     "recurse_provides": "false",
     "shasum": "5d14bf5d63151ecd2612dd4d024ad2fc0140f1949a5768640763ae69bd43a012",
     "size": "1.7 MB",
@@ -282895,7 +282963,7 @@
     "provides": [
       "willdo"
     ],
-    "rank": "1719",
+    "rank": "1720",
     "recurse_provides": "false",
     "shasum": "fb3130baa587503fa917a21664fd4a4783798c9020c4e51d281a783ce6c6ce92",
     "size": "2.6 MB",
@@ -282959,7 +283027,7 @@
     "provides": [
       "win_path_mgr"
     ],
-    "rank": "1720",
+    "rank": "1721",
     "recurse_provides": "false",
     "shasum": "7e2575fe377c59da0309eb38dc692bc139dd60226f56f16185b4130402f1f78f",
     "size": "436 KB",
@@ -283025,7 +283093,7 @@
     "provides": [
       "wints"
     ],
-    "rank": "1721",
+    "rank": "1722",
     "recurse_provides": "false",
     "shasum": "15fda84c959244ad943be3fbc1b2f05952e8b2e0539dc9a7dae484526d6adedc",
     "size": "3.4 MB",
@@ -283091,7 +283159,7 @@
     "provides": [
       "wiresmith"
     ],
-    "rank": "1722",
+    "rank": "1723",
     "recurse_provides": "false",
     "shasum": "271d9aac2f7134781119ca27e235788f90f7441267b0db29d67fa341a51c4463",
     "size": "5.6 MB",
@@ -283220,7 +283288,7 @@
     "provides": [
       "with-proxy"
     ],
-    "rank": "1723",
+    "rank": "1724",
     "recurse_provides": "false",
     "shasum": "4cd5ca210c04c52dc7179ef7b7a32ffa7b0c3d9f40afc2559899834f95dfc655",
     "size": "516 KB",
@@ -283353,7 +283421,7 @@
     "provides": [
       "wkd-exporter"
     ],
-    "rank": "1724",
+    "rank": "1725",
     "recurse_provides": "false",
     "shasum": "594ecb11d9b6db91788033e7487d4207bc16b95235e6eb5a9c9e413ac2296d36",
     "size": "1.4 MB",
@@ -283418,7 +283486,7 @@
     "provides": [
       "wl-client-builder"
     ],
-    "rank": "1725",
+    "rank": "1726",
     "recurse_provides": "false",
     "shasum": "27d8ea6af7aa5c21d0d4bd148f28c6195303e30bbc3ac95a2868a81e16fe8d0a",
     "size": "1.1 MB",
@@ -283487,7 +283555,7 @@
       "wl-copy",
       "wl-paste"
     ],
-    "rank": "1728",
+    "rank": "1729",
     "recurse_provides": "false",
     "shasum": "6994578fa5a5b61ba0ecfab0bad130cce06e0947cc76a13aecc7f8cf8aed64f0",
     "size": "1.4 MB",
@@ -283552,7 +283620,7 @@
     "provides": [
       "wltile"
     ],
-    "rank": "1729",
+    "rank": "1730",
     "recurse_provides": "false",
     "shasum": "6b104b69748322d4f182d4c8624dd069c621acbf32e8d4d02f974c8f0eb53c4e",
     "size": "2.5 MB",
@@ -283617,7 +283685,7 @@
     "provides": [
       "wol"
     ],
-    "rank": "1730",
+    "rank": "1731",
     "recurse_provides": "false",
     "shasum": "ae636b42d29cb53bc5315747abe8236300818cddad809b624995f7a0a3f221f0",
     "size": "1.1 MB",
@@ -283684,7 +283752,7 @@
     "provides": [
       "wolfpack"
     ],
-    "rank": "1731",
+    "rank": "1732",
     "recurse_provides": "false",
     "shasum": "4d2c5423409966331cc182eebc551b2d94aba48b7273752bd539cbcbb0dcf5e4",
     "size": "19 MB",
@@ -283752,7 +283820,7 @@
     "provides": [
       "wonfy-tools-cli"
     ],
-    "rank": "1732",
+    "rank": "1733",
     "recurse_provides": "false",
     "shasum": "b8f2bc94688151237e5a515223153a62dbc539d5581494805771e344c4e16481",
     "size": "4.1 MB",
@@ -283818,7 +283886,7 @@
     "provides": [
       "wonok"
     ],
-    "rank": "1733",
+    "rank": "1734",
     "recurse_provides": "false",
     "shasum": "ae3ad3f854bce9fdd694ec653d2ef72afa95daa495398dc31e24ccdcf6d6618e",
     "size": "2.6 MB",
@@ -283882,7 +283950,7 @@
     "provides": [
       "words"
     ],
-    "rank": "1734",
+    "rank": "1735",
     "recurse_provides": "false",
     "shasum": "fe57060aef1e48aa56eb99a98447477427802cf04770c405590e9ea0e4a76bf3",
     "size": "484 KB",
@@ -283949,7 +284017,7 @@
     "provides": [
       "word-tally"
     ],
-    "rank": "1735",
+    "rank": "1736",
     "recurse_provides": "false",
     "shasum": "a81eca2db6c3b071cbd280be9cee7dfae39623251b29de237b45fd53b823c4bc",
     "size": "6.2 MB",
@@ -284016,7 +284084,7 @@
     "provides": [
       "word_warden"
     ],
-    "rank": "1736",
+    "rank": "1737",
     "recurse_provides": "false",
     "shasum": "9d29664775c3c0d2f6c92c09a2c618fa04d78a00f53cd90ec85c3c46c32e5a4d",
     "size": "1.7 MB",
@@ -284216,7 +284284,7 @@
     "provides": [
       "worm_hole"
     ],
-    "rank": "1737",
+    "rank": "1738",
     "recurse_provides": "false",
     "shasum": "e7372fb0125c46aaa9b91b4344bef3466e5ab577163007bbb33a09a485d3b781",
     "size": "2.3 MB",
@@ -284300,7 +284368,7 @@
       "wbspub",
       "wbsub"
     ],
-    "rank": "1752",
+    "rank": "1753",
     "recurse_provides": "false",
     "shasum": "f52936226a22211cf3da4c54bd68a3343343054a3a9898aa050940f7beb7518c",
     "size": "5.0 MB",
@@ -284368,7 +284436,7 @@
     "provides": [
       "wpa-psk"
     ],
-    "rank": "1753",
+    "rank": "1754",
     "recurse_provides": "false",
     "shasum": "ac4019c0b4fa724311ca301d67a04315092de50c4587eb9da453f274f3653e6e",
     "size": "852 KB",
@@ -284435,7 +284503,7 @@
     "provides": [
       "wpsr"
     ],
-    "rank": "1754",
+    "rank": "1755",
     "recurse_provides": "false",
     "shasum": "0e5fdcde95365989ec44b51d6fc0a7dc2e038a6db602993ed757678301505f7a",
     "size": "3.1 MB",
@@ -284502,7 +284570,7 @@
     "provides": [
       "wrdlist"
     ],
-    "rank": "1755",
+    "rank": "1756",
     "recurse_provides": "false",
     "shasum": "d1a6f44a55f2d0416bf7793c30682140c4c35b292de3cd380a93bace8bd1c42e",
     "size": "868 KB",
@@ -284568,7 +284636,7 @@
     "provides": [
       "wretch"
     ],
-    "rank": "1756",
+    "rank": "1757",
     "recurse_provides": "false",
     "shasum": "d77bb4f6de8379091220e8792362b4a369e6ed239ff0b7b6b8868a7df0358ed5",
     "size": "1.2 MB",
@@ -284637,7 +284705,7 @@
       "ws",
       "ws-cli"
     ],
-    "rank": "1757",
+    "rank": "1758",
     "recurse_provides": "false",
     "shasum": "1795ca43e075ef0e65e2e9c12276c3c42fd0938436b07db7ceb558f089f98d21",
     "size": "1.2 MB",
@@ -284771,7 +284839,7 @@
     "provides": [
       "x-cc"
     ],
-    "rank": "1759",
+    "rank": "1760",
     "recurse_provides": "false",
     "shasum": "1376fc2bb3d30b9556857b207a4fecc4bedbf5a023be20e3c0debfb81d7cdd1c",
     "size": "1.8 MB",
@@ -284837,7 +284905,7 @@
     "provides": [
       "x4"
     ],
-    "rank": "1760",
+    "rank": "1761",
     "recurse_provides": "false",
     "shasum": "7ddd9789d7fb2a531eede8cef4a21f42f0a4bc6466f7cee31adca327817cbe37",
     "size": "4.0 MB",
@@ -284903,7 +284971,7 @@
     "provides": [
       "x86-instruction-set-analyzer"
     ],
-    "rank": "1761",
+    "rank": "1762",
     "recurse_provides": "false",
     "shasum": "3214d18f081e4e2f594818b50e89a65a2bc14f19479f2124dd7e53dbf36a4af0",
     "size": "677 KB",
@@ -285035,7 +285103,7 @@
     "provides": [
       "xash3d-admin"
     ],
-    "rank": "1762",
+    "rank": "1763",
     "recurse_provides": "false",
     "shasum": "6b228f2faecadaf7bf69a94eb44e66dfe1f419970933ecb6c422fc2229be5e44",
     "size": "644 KB",
@@ -285099,7 +285167,7 @@
     "provides": [
       "xash3d-master"
     ],
-    "rank": "1763",
+    "rank": "1764",
     "recurse_provides": "false",
     "shasum": "2857e95b1e87ca661a10484e6a9be58009a32e9f65a093bd62d7ed4c78fb49eb",
     "size": "1.1 MB",
@@ -285163,7 +285231,7 @@
     "provides": [
       "xash3d-query"
     ],
-    "rank": "1764",
+    "rank": "1765",
     "recurse_provides": "false",
     "shasum": "1333335b764639ea415e4146ba6f6f2d2b3775daea2aaece5be6f46283311005",
     "size": "660 KB",
@@ -285227,7 +285295,7 @@
     "provides": [
       "xcut"
     ],
-    "rank": "1765",
+    "rank": "1766",
     "recurse_provides": "false",
     "shasum": "40e36f5e18ae57507a251fa417157da98f71e85a8b397f4b0607683fd132b39d",
     "size": "2.3 MB",
@@ -285294,7 +285362,7 @@
     "provides": [
       "xer_minigrep"
     ],
-    "rank": "1766",
+    "rank": "1767",
     "recurse_provides": "false",
     "shasum": "bc1faf7115037e7cd42435df98fb6bd7abf95b7c05628b1907425d1c2fe20486",
     "size": "452 KB",
@@ -285362,7 +285430,7 @@
     "provides": [
       "xiny"
     ],
-    "rank": "1767",
+    "rank": "1768",
     "recurse_provides": "false",
     "shasum": "9bcb67ec2c51aaac14bef284f0757df1c72e5da99e43499bde1b7a0110cb1453",
     "size": "420 KB",
@@ -285430,7 +285498,7 @@
     "provides": [
       "xlsx-to-usv"
     ],
-    "rank": "1768",
+    "rank": "1769",
     "recurse_provides": "false",
     "shasum": "a2fc514116c27ed57a4b36f6a4c0d6130fc41a67906c0cab93e0bc733f6fafbc",
     "size": "1.3 MB",
@@ -285498,7 +285566,7 @@
     "provides": [
       "xml-log-scan"
     ],
-    "rank": "1769",
+    "rank": "1770",
     "recurse_provides": "false",
     "shasum": "08657057a16f01826f89174b961c28fa56182542bd094fe5141ecdce8b543c43",
     "size": "2.6 MB",
@@ -285566,7 +285634,7 @@
     "provides": [
       "xml-pretty"
     ],
-    "rank": "1770",
+    "rank": "1771",
     "recurse_provides": "false",
     "shasum": "22cb3d876e63f0191934e8d79222207d37d4eae5cc4ac00bd19f91315565f80d",
     "size": "660 KB",
@@ -285632,7 +285700,7 @@
     "provides": [
       "xml2rdf"
     ],
-    "rank": "1771",
+    "rank": "1772",
     "recurse_provides": "false",
     "shasum": "2625233410bf368c6871892254d3f1df4a460d1dfd1476f5edef3e2fccfc673a",
     "size": "948 KB",
@@ -285700,7 +285768,7 @@
     "provides": [
       "xml_magic"
     ],
-    "rank": "1772",
+    "rank": "1773",
     "recurse_provides": "false",
     "shasum": "b8d2a8eacafa6bf49ef187fe001a4b3ae792793ac449a57bf1a4e81505e4205a",
     "size": "964 KB",
@@ -285766,7 +285834,7 @@
     "provides": [
       "xml_schema_generator"
     ],
-    "rank": "1773",
+    "rank": "1774",
     "recurse_provides": "false",
     "shasum": "9c355677b35a6cfecff9745ec41b7763c8050fe439e68dd30e40bc5ef9c3eeeb",
     "size": "1.9 MB",
@@ -285834,7 +285902,7 @@
     "provides": [
       "xpg"
     ],
-    "rank": "1774",
+    "rank": "1775",
     "recurse_provides": "false",
     "shasum": "d3f02b49a4d2bd424e04be18890600558640c099d0f84a3fe3c143c0945561c5",
     "size": "1.4 MB",
@@ -285966,7 +286034,7 @@
     "provides": [
       "xrc_cli"
     ],
-    "rank": "1775",
+    "rank": "1776",
     "recurse_provides": "false",
     "shasum": "af5222fd1a8f183f8f229d49d502982efe91146b3dc5948de9bf21db555cbb0a",
     "size": "1.2 MB",
@@ -286034,7 +286102,7 @@
     "provides": [
       "xrun"
     ],
-    "rank": "1776",
+    "rank": "1777",
     "recurse_provides": "false",
     "shasum": "87b091eec46ab7f50ec2cfebd6e5f26811ecf277943297b2cf29e909c3ae4da5",
     "size": "2.1 MB",
@@ -286102,7 +286170,7 @@
     "provides": [
       "xt"
     ],
-    "rank": "1777",
+    "rank": "1778",
     "recurse_provides": "false",
     "shasum": "895ee03f7f963bc1646bcdbc89a26fa708ef471d092e7063adbd30e78b2d49eb",
     "size": "1.6 MB",
@@ -286232,7 +286300,7 @@
     "provides": [
       "xvc-test-helper"
     ],
-    "rank": "1778",
+    "rank": "1779",
     "recurse_provides": "false",
     "shasum": "fed9a443966c576c26e1f336181b94ea72963af42b43f1899b09c9d6835d13b5",
     "size": "1.1 MB",
@@ -286300,7 +286368,7 @@
     "provides": [
       "xwin"
     ],
-    "rank": "1779",
+    "rank": "1780",
     "recurse_provides": "false",
     "shasum": "6cceefbd9121d01ba32033ebbbecaf25569c0852b60c797dbc58a3854193f2da",
     "size": "11 MB",
@@ -286367,7 +286435,7 @@
     "provides": [
       "xzcheck"
     ],
-    "rank": "1780",
+    "rank": "1781",
     "recurse_provides": "false",
     "shasum": "2614289c4523e35bcfec8b31c0a8a060bd93b5044444fb8d1c77d7017546a0e5",
     "size": "516 KB",
@@ -286433,7 +286501,7 @@
     "provides": [
       "yadf"
     ],
-    "rank": "1781",
+    "rank": "1782",
     "recurse_provides": "false",
     "shasum": "36adf54b653b97882d4fe2b88ef67c2eb29b6c6b7338f7b6eb4b98fbee8e5a77",
     "size": "3.4 MB",
@@ -286501,7 +286569,7 @@
     "provides": [
       "yahvim"
     ],
-    "rank": "1782",
+    "rank": "1783",
     "recurse_provides": "false",
     "shasum": "8367605bab1bdbb4d3f417d25abfb6b7e55e901312305f8d0fc7a8e5bf0ca2b5",
     "size": "532 KB",
@@ -286567,7 +286635,7 @@
     "provides": [
       "yambar-hyprland-wses"
     ],
-    "rank": "1783",
+    "rank": "1784",
     "recurse_provides": "false",
     "shasum": "54551012de84190dcb2b12123398630e9cd708f4cedf6da7cf79845edf8b35e9",
     "size": "1.9 MB",
@@ -286633,7 +286701,7 @@
     "provides": [
       "yamori"
     ],
-    "rank": "1784",
+    "rank": "1785",
     "recurse_provides": "false",
     "shasum": "a85e0f3bc75f11f3e435385a5cedb86da04e1575641ff69f3553e80810c9c684",
     "size": "1.8 MB",
@@ -286700,7 +286768,7 @@
     "provides": [
       "yamusic"
     ],
-    "rank": "1785",
+    "rank": "1786",
     "recurse_provides": "false",
     "shasum": "4712856387a7b9ae85ae917108cb3be698dad1e203b1e5301e0e671ca86223f7",
     "size": "420 KB",
@@ -286834,7 +286902,7 @@
     "provides": [
       "yarl"
     ],
-    "rank": "1786",
+    "rank": "1787",
     "recurse_provides": "false",
     "shasum": "d1cc2d1f3ea630b77382b04bf9d38bbc7e2400df8dec4ec3cb69cef88a09bf3e",
     "size": "2.0 MB",
@@ -286902,7 +286970,7 @@
     "provides": [
       "yarn-why"
     ],
-    "rank": "1787",
+    "rank": "1788",
     "recurse_provides": "false",
     "shasum": "c59dcb44de7234a11036501ea4f12299bdecdbd2a4a70a766d04813ce8afdbad",
     "size": "612 KB",
@@ -286966,7 +287034,7 @@
     "provides": [
       "yash3"
     ],
-    "rank": "1788",
+    "rank": "1789",
     "recurse_provides": "false",
     "shasum": "dcf45f9c2f7d89e323c135556de3eb744330dcbf4dde5f3a7f2adbda6c8a2de1",
     "size": "4.7 MB",
@@ -287161,7 +287229,7 @@
     "provides": [
       "ycwd"
     ],
-    "rank": "1789",
+    "rank": "1790",
     "recurse_provides": "false",
     "shasum": "7914412b1bbf6aaf16bbb4ae97e64733ce55e6d51008acf9256d83e06afb3a1a",
     "size": "484 KB",
@@ -287225,7 +287293,7 @@
     "provides": [
       "yek"
     ],
-    "rank": "1790",
+    "rank": "1791",
     "recurse_provides": "false",
     "shasum": "17bd80badc997d747ef242e21026ee4ed735b0fb3f474859561d671c4d78a7ee",
     "size": "16 MB",
@@ -287293,7 +287361,7 @@
     "provides": [
       "yes-rs"
     ],
-    "rank": "1791",
+    "rank": "1792",
     "recurse_provides": "false",
     "shasum": "41f20a2dac78531aabf1b897373fa140c16ccd571396b470299747e2bd7c390c",
     "size": "2.9 MB",
@@ -287361,7 +287429,7 @@
     "provides": [
       "todo"
     ],
-    "rank": "1792",
+    "rank": "1793",
     "recurse_provides": "false",
     "shasum": "c456cff3fa657fea1a322ccbda7c7646a78b8139587023f49e99291af673c6ed",
     "size": "884 KB",
@@ -287429,7 +287497,7 @@
     "provides": [
       "yexp"
     ],
-    "rank": "1793",
+    "rank": "1794",
     "recurse_provides": "false",
     "shasum": "178c476466b0295fd2e8207bfcc299c8de11dda8bb60fd9d522a0f7fd024842a",
     "size": "1.2 MB",
@@ -287495,7 +287563,7 @@
     "provides": [
       "yitizi"
     ],
-    "rank": "1794",
+    "rank": "1795",
     "recurse_provides": "false",
     "shasum": "5b14e2aac878e94391059394ce6029d9b3fad5bf9ecba18038188be069f2f56c",
     "size": "644 KB",
@@ -287563,7 +287631,7 @@
     "provides": [
       "yj"
     ],
-    "rank": "1795",
+    "rank": "1796",
     "recurse_provides": "false",
     "shasum": "ad090be0f41f26a159bbd8d679a93a34a5c70a3a49744a8df97ea79337da2892",
     "size": "1.4 MB",
@@ -287629,7 +287697,7 @@
     "provides": [
       "rcli"
     ],
-    "rank": "1796",
+    "rank": "1797",
     "recurse_provides": "false",
     "shasum": "f700418d9b6021d812f88c054bdadebf8be486ffbb54845f333655d4a52273ac",
     "size": "420 KB",
@@ -287694,7 +287762,7 @@
     "provides": [
       "youdusa"
     ],
-    "rank": "1797",
+    "rank": "1798",
     "recurse_provides": "false",
     "shasum": "9e377f705c8cecc2dbcb44fc74378e40aa16c32fbaff17ea4d37d51c6d66f542",
     "size": "932 KB",
@@ -287762,7 +287830,7 @@
     "provides": [
       "yfc"
     ],
-    "rank": "1798",
+    "rank": "1799",
     "recurse_provides": "false",
     "shasum": "f976b890851df4ba0f970be807301f202e1dbda6e592d44dbd84e307813d3c2c",
     "size": "4.7 MB",
@@ -287827,7 +287895,7 @@
     "provides": [
       "ysfed"
     ],
-    "rank": "1799",
+    "rank": "1800",
     "recurse_provides": "false",
     "shasum": "07e36a7e0b8d3dab0baaa9d47291cc649b12629fe424a72e3115863e4e984ded",
     "size": "916 KB",
@@ -287895,7 +287963,7 @@
     "provides": [
       "ytsub"
     ],
-    "rank": "1800",
+    "rank": "1801",
     "recurse_provides": "false",
     "shasum": "c656f49dd3e84dfbf7427c3b275b0751f04c9aaad563e1ad0833c381990cdf13",
     "size": "6.1 MB",
@@ -287962,7 +288030,7 @@
     "provides": [
       "yu"
     ],
-    "rank": "1801",
+    "rank": "1802",
     "recurse_provides": "false",
     "shasum": "22bb75b87c986fdee119c1723d0ccc63c105099598d42412c337acb4ab1beda3",
     "size": "852 KB",
@@ -288028,7 +288096,7 @@
     "provides": [
       "zar"
     ],
-    "rank": "1802",
+    "rank": "1803",
     "recurse_provides": "false",
     "shasum": "04f87d64a3aaabb9f3bedff5ef595e19f7336bdc5effe254fea02d051b896d80",
     "size": "1.9 MB",
@@ -288103,7 +288171,7 @@
       "zarrs_reencode",
       "zarrs_validate"
     ],
-    "rank": "1811",
+    "rank": "1812",
     "recurse_provides": "false",
     "shasum": "081e8ae015c816bbb8c21576787955d490dfa497a015fc2a4e1736ed929e1443",
     "size": "6.6 MB",
@@ -288168,7 +288236,7 @@
     "provides": [
       "zb"
     ],
-    "rank": "1812",
+    "rank": "1813",
     "recurse_provides": "false",
     "shasum": "8b7ebc439e77f6621b5878a89e9555d8dd6e66f2a97018132b488ca760cf9f46",
     "size": "4.4 MB",
@@ -288233,7 +288301,7 @@
     "provides": [
       "zcp-lang"
     ],
-    "rank": "1813",
+    "rank": "1814",
     "recurse_provides": "false",
     "shasum": "619837718b0f56c7a42ec9487d7aa821e2bc8afd6981549135a123e6a65d38fd",
     "size": "420 KB",
@@ -288299,7 +288367,7 @@
     "provides": [
       "zdump"
     ],
-    "rank": "1814",
+    "rank": "1815",
     "recurse_provides": "false",
     "shasum": "a93fb8bc9e011a0b62bf9a9c89ff3720ded5122ff46d1afb59484883dca1600f",
     "size": "532 KB",
@@ -288367,7 +288435,7 @@
     "provides": [
       "zeeper"
     ],
-    "rank": "1815",
+    "rank": "1816",
     "recurse_provides": "false",
     "shasum": "ff84da91c67fe1aea23b960ccb05c9a974cad277ae75d82765edff9a805a31cf",
     "size": "4.0 MB",
@@ -288434,7 +288502,7 @@
     "provides": [
       "zeitr"
     ],
-    "rank": "1816",
+    "rank": "1817",
     "recurse_provides": "false",
     "shasum": "45b744929c5abfddc4499191f701b232ef2d9f89257260d00c0caf5f4eda0a37",
     "size": "2.1 MB",
@@ -288502,7 +288570,7 @@
     "provides": [
       "zelt"
     ],
-    "rank": "1817",
+    "rank": "1818",
     "recurse_provides": "false",
     "shasum": "4712856387a7b9ae85ae917108cb3be698dad1e203b1e5301e0e671ca86223f7",
     "size": "420 KB",
@@ -288567,7 +288635,7 @@
     "provides": [
       "zenn2press"
     ],
-    "rank": "1818",
+    "rank": "1819",
     "recurse_provides": "false",
     "shasum": "e64bab08aeaab1ed2538e9ee13a024b658f369fd8701efd386a0c3a970810e3b",
     "size": "1.6 MB",
@@ -288633,7 +288701,7 @@
     "provides": [
       "zeox"
     ],
-    "rank": "1819",
+    "rank": "1820",
     "recurse_provides": "false",
     "shasum": "7f3e7752f9164d6bc7ce79a4b0697405e870364c2d2d57c2e3cec32562ae8172",
     "size": "1.2 MB",
@@ -288763,7 +288831,7 @@
     "provides": [
       "denote"
     ],
-    "rank": "1820",
+    "rank": "1821",
     "recurse_provides": "false",
     "shasum": "c10590fd398c6ea861bc58fe05e7555417c2881f666da6d0224874b678b49fff",
     "size": "2.3 MB",
@@ -288893,7 +288961,7 @@
     "provides": [
       "zetty"
     ],
-    "rank": "1821",
+    "rank": "1822",
     "recurse_provides": "false",
     "shasum": "fad66a1cbd77d37fbe0eeb70170d43fb204bcceb9390fbfb7f83b19118945561",
     "size": "1.9 MB",
@@ -288960,7 +289028,7 @@
     "provides": [
       "zhobo"
     ],
-    "rank": "1822",
+    "rank": "1823",
     "recurse_provides": "false",
     "shasum": "7a468f3c4c024acc520ee3062d36fac8966969e120f2ded9cabb336e216a5041",
     "size": "7.3 MB",
@@ -289028,7 +289096,7 @@
     "provides": [
       "zine"
     ],
-    "rank": "1823",
+    "rank": "1824",
     "recurse_provides": "false",
     "shasum": "4712856387a7b9ae85ae917108cb3be698dad1e203b1e5301e0e671ca86223f7",
     "size": "420 KB",
@@ -289096,7 +289164,7 @@
     "provides": [
       "zip-blitz"
     ],
-    "rank": "1824",
+    "rank": "1825",
     "recurse_provides": "false",
     "shasum": "673909e9fa6f308d45aa2b02b1b96fb3a91d7e3b345e6a5132be3391207fc075",
     "size": "1.2 MB",
@@ -289162,7 +289230,7 @@
     "provides": [
       "zip2arx"
     ],
-    "rank": "1825",
+    "rank": "1826",
     "recurse_provides": "false",
     "shasum": "9d5217c05b0ebe0d4609dbb245943e3539131576775f09442a2879b14b893ffa",
     "size": "3.5 MB",
@@ -289295,7 +289363,7 @@
       "debug",
       "ziyy"
     ],
-    "rank": "1827",
+    "rank": "1828",
     "recurse_provides": "false",
     "shasum": "76f7b5c0d7728049d962c1d379973cf9c388c67c6b2a62e1197b235c47c84001",
     "size": "468 KB",
@@ -289564,7 +289632,7 @@
     "provides": [
       "zrs"
     ],
-    "rank": "1828",
+    "rank": "1829",
     "recurse_provides": "false",
     "shasum": "6205e694b6820722fa87d56846011377ee89219cecc1b799c955ff9a624dbf55",
     "size": "2.2 MB",
@@ -289628,7 +289696,7 @@
     "provides": [
       "zserio-rs-build"
     ],
-    "rank": "1829",
+    "rank": "1830",
     "recurse_provides": "false",
     "shasum": "fec52593f279e21bc8760bc84d0c405c9c5cc1a33458fac0cc04cd299a1f0351",
     "size": "4.3 MB",
@@ -289695,7 +289763,7 @@
     "provides": [
       "zspell"
     ],
-    "rank": "1830",
+    "rank": "1831",
     "recurse_provides": "false",
     "shasum": "3ca92c7be5eb86ae1ef88205e743673ca6c23a4e4e5620c81a85f06b220c8eca",
     "size": "2.3 MB",
@@ -289761,7 +289829,7 @@
     "provides": [
       "zst_compress"
     ],
-    "rank": "1831",
+    "rank": "1832",
     "recurse_provides": "false",
     "shasum": "5e330eecdbd9821963e382a14b5c5424b664b420df8f0593728da69ac033f056",
     "size": "2.0 MB",
@@ -289825,7 +289893,7 @@
     "provides": [
       "ztl-cli"
     ],
-    "rank": "1832",
+    "rank": "1833",
     "recurse_provides": "false",
     "shasum": "612d1b31d511aa2c96038d54eb01816cef5bea1f455bd5699024569bbab1f9f5",
     "size": "948 KB",
@@ -289892,7 +289960,7 @@
     "provides": [
       "zuoti_initer"
     ],
-    "rank": "1833",
+    "rank": "1834",
     "recurse_provides": "false",
     "shasum": "09646ed533136b60fa6f37f0916d28e4b4fa6ef3354e3f350821e2ec58f547af",
     "size": "820 KB",
@@ -289956,7 +290024,7 @@
     "provides": [
       "zzz"
     ],
-    "rank": "1834",
+    "rank": "1835",
     "recurse_provides": "false",
     "shasum": "94c51a4f8addf1fd39bfebf845fd77b20693d252e97e699bc324370f621063ee",
     "size": "3.4 MB",
