@@ -5,7 +5,7 @@
 
 
 #A future rewrite in a programming language would use data from:
-# https://github.com/rust-lang/crates.io-index
+# https://github.com/rust-lang/crates.io-index | https://crates.io/data-access
 # https://static.crates.io/db-dump.tar.gz
 # See Also: https://rust-lang.github.io/rfcs/3463-crates-io-policy-update.html#data-access
 
