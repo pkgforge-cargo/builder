@@ -93370,6 +93370,73 @@
   },
   {
     "_disabled": "false",
+    "bsum": "24c57d17ce3e35a6806681cb669b30b660d33afe56f0adb7c69596dfd1467440",
+    "build_date": "2025-06-30T03:58:28Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15963460161",
+    "build_id": "15963460161",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/circuitpython-deploy/stable/cpd?tag=0.1.2-riscv64-Linux&download=cpd.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Fast, reliable CircuitPython project deployment tool.",
+    "desktop_integration": "false",
+    "download_count": "221",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/circuitpython-deploy/stable/cpd?tag=0.1.2-riscv64-Linux&download=cpd",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/circuitpython-deploy/stable/cpd:0.1.2-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/circuitpython-deploy/stable/cpd",
+    "homepage": [
+      "https://github.com/shantanugoel/circuitpython-deploy"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/circuitpython-deploy/stable/cpd?tag=0.1.2-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "cpd",
+    "pkg_family": "circuitpython-deploy",
+    "pkg_id": "pkgforge-cargo.circuitpython-deploy.stable",
+    "pkg_name": "cpd",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/circuitpython-deploy",
+    "portable": "true",
+    "provides": [
+      "cpd"
+    ],
+    "rank": "13",
+    "recurse_provides": "false",
+    "shasum": "84df876e80b548653b0aa166b5213b1dd50a57fe016f2419726ab7cc6290802a",
+    "size": "1.7 MB",
+    "size_raw": "1761376",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/circuitpython-deploy/0.1.2/download"
+    ],
+    "tag": [
+      "circuitpython",
+      "deployment",
+      "embedded",
+      "microcontroller"
+    ],
+    "trusted": "true",
+    "version": "0.1.2",
+    "version_upstream": "0.1.2"
+  },
+  {
+    "_disabled": "false",
     "bsum": "a73f31e7b5d2235bd37cd5fac370639e89cced2003c74acc755494ee40fbc47b",
     "build_date": "2025-06-16T17:01:09Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15686346267",
@@ -100945,6 +101012,71 @@
     "trusted": "true",
     "version": "0.10.0",
     "version_upstream": "0.10.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "b41435360c0b74bace646fc9c75ce3cd2b83b751a2227513ec5c3ebd8793deb3",
+    "build_date": "2025-06-30T03:57:54Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15963460267",
+    "build_id": "15963460267",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/corre/stable/corre?tag=1.0.3-riscv64-Linux&download=corre.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Execute shell scripts embedded within text.",
+    "desktop_integration": "false",
+    "download_count": "338",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/corre/stable/corre?tag=1.0.3-riscv64-Linux&download=corre",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/corre/stable/corre:1.0.3-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/corre/stable/corre",
+    "homepage": [
+      "https://github.com/mdvorak340/corre"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/corre/stable/corre?tag=1.0.3-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "corre",
+    "pkg_family": "corre",
+    "pkg_id": "pkgforge-cargo.corre.stable",
+    "pkg_name": "corre",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/corre",
+    "portable": "true",
+    "provides": [
+      "corre"
+    ],
+    "rank": "14",
+    "recurse_provides": "false",
+    "shasum": "834c305bf6755172ce26c5437b7aaa73503a088e9e6c4809c604540429fa0ed1",
+    "size": "1.8 MB",
+    "size_raw": "1818680",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/corre/1.0.3/download"
+    ],
+    "tag": [
+      "scripts",
+      "shell"
+    ],
+    "trusted": "true",
+    "version": "1.0.3",
+    "version_upstream": "1.0.3"
   },
   {
     "_disabled": "false",
@@ -113953,7 +114085,7 @@
     "provides": [
       "difference_rs"
     ],
-    "rank": "13",
+    "rank": "15",
     "recurse_provides": "false",
     "shasum": "20be396bdd1affee5af6431b651489e4d247b68ce1bea5ae5faa732893448388",
     "size": "408 KB",
@@ -115759,7 +115891,7 @@
     "provides": [
       "ditdah"
     ],
-    "rank": "14",
+    "rank": "16",
     "recurse_provides": "false",
     "shasum": "83460e915636b6d51b8e86df78255639dc9bf56d53c33e94577f954a52afe194",
     "size": "1.9 MB",
@@ -118367,7 +118499,7 @@
     "provides": [
       "domino_cli"
     ],
-    "rank": "15",
+    "rank": "17",
     "recurse_provides": "false",
     "shasum": "2fa0df27ebd55f42320c06d23893da4915accba294ce629612a3c3720d9429fa",
     "size": "9.2 MB",
@@ -169238,7 +169370,7 @@
     "provides": [
       "httpageboy"
     ],
-    "rank": "16",
+    "rank": "18",
     "recurse_provides": "false",
     "shasum": "048bc3cc7e9e8355f7b490ff19f7b6462b2a1dd33036f4f0078bedf60a3efb37",
     "size": "509 KB",
@@ -170025,7 +170157,7 @@
     "provides": [
       "husk"
     ],
-    "rank": "17",
+    "rank": "19",
     "recurse_provides": "false",
     "shasum": "9aaff74e0c0b9588ccb8fe32a4b03e7d18e30cf7a170623e058faf4eaf32af6b",
     "size": "2.5 MB",
@@ -174259,7 +174391,7 @@
     "provides": [
       "imgc"
     ],
-    "rank": "18",
+    "rank": "20",
     "recurse_provides": "false",
     "shasum": "0113151bf40a4b4c07eb6abcc726e2a0c5cbd4d58428330e3736df4893b27a09",
     "size": "3.3 MB",
@@ -176516,7 +176648,7 @@
     "provides": [
       "iroh-ssh"
     ],
-    "rank": "19",
+    "rank": "21",
     "recurse_provides": "false",
     "shasum": "1fc73db4fa6b55952e8409008db83179c5ed1ae3d7f394576d2925fac5b5bc67",
     "size": "9.7 MB",
@@ -177044,7 +177176,7 @@
     "provides": [
       "isin-tool"
     ],
-    "rank": "20",
+    "rank": "22",
     "recurse_provides": "false",
     "shasum": "cf73e1c1a133b6f4defb05c313353360ac2e7c3dbfb437a7f9dbaeac9efdc1e1",
     "size": "380 KB",
@@ -181052,6 +181184,74 @@
   },
   {
     "_disabled": "false",
+    "bsum": "90d578a05ce593f4db0667fafdaff35dcfe9e073be9f7509a100070bfa076fd8",
+    "build_date": "2025-06-30T04:03:41Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15963461726",
+    "build_id": "15963461726",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/json-mcp-server/stable/json-mcp-server?tag=0.1.0-riscv64-Linux&download=json-mcp-server.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A high-performance Model Context Protocol (MCP) server for comprehensive JSON file operations optimized for LLM interactions.",
+    "desktop_integration": "false",
+    "download_count": "62",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/json-mcp-server/stable/json-mcp-server?tag=0.1.0-riscv64-Linux&download=json-mcp-server",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/json-mcp-server/stable/json-mcp-server:0.1.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/json-mcp-server/stable/json-mcp-server",
+    "homepage": [
+      "https://github.com/ciresnave/json-mcp-server"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/json-mcp-server/stable/json-mcp-server?tag=0.1.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "json-mcp-server",
+    "pkg_family": "json-mcp-server",
+    "pkg_id": "pkgforge-cargo.json-mcp-server.stable",
+    "pkg_name": "json-mcp-server",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/json-mcp-server",
+    "portable": "true",
+    "provides": [
+      "json-mcp-server"
+    ],
+    "rank": "23",
+    "recurse_provides": "false",
+    "shasum": "44024d16a2a74f060f1926e6a489f5b6a1eb6b5903debb2539aabceb7d593f41",
+    "size": "2.5 MB",
+    "size_raw": "2551960",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/json-mcp-server/0.1.0/download"
+    ],
+    "tag": [
+      "json",
+      "jsonpath",
+      "llm",
+      "mcp",
+      "protocol"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "73b4937c30bf7b5a6fa63fed169134ab2bd99e32e528ddd5ea38f8c6642c1c3c",
     "build_date": "2025-06-17T07:46:09Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15700089515",
@@ -181843,6 +182043,72 @@
     "trusted": "true",
     "version": "0.3.4",
     "version_upstream": "0.3.4"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "e4b41efb361e6b8227b8e3ec12f7a2cdd6fb472a2646367de414d1fe1a82ab3f",
+    "build_date": "2025-06-30T04:00:50Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15963460485",
+    "build_id": "15963460485",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/jsondiffpatch/stable/jsondiffpatch?tag=0.1.0-riscv64-Linux&download=jsondiffpatch.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "JSON diff & patch (object and array diff, text diff, multiple output formats).",
+    "desktop_integration": "false",
+    "download_count": "81",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/jsondiffpatch/stable/jsondiffpatch?tag=0.1.0-riscv64-Linux&download=jsondiffpatch",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/jsondiffpatch/stable/jsondiffpatch:0.1.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/jsondiffpatch/stable/jsondiffpatch",
+    "homepage": [
+      "https://github.com/soraxas/jsondiffpatch"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/jsondiffpatch/stable/jsondiffpatch?tag=0.1.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "jsondiffpatch",
+    "pkg_family": "jsondiffpatch",
+    "pkg_id": "pkgforge-cargo.jsondiffpatch.stable",
+    "pkg_name": "jsondiffpatch",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/jsondiffpatch",
+    "portable": "true",
+    "provides": [
+      "jsondiffpatch"
+    ],
+    "rank": "24",
+    "recurse_provides": "false",
+    "shasum": "6fd0d7e9fb7f6850c8c66ce9fe29499e901fbb2a2b63017a7e09bd2cbd2c9aa3",
+    "size": "1.7 MB",
+    "size_raw": "1773736",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/jsondiffpatch/0.1.0/download"
+    ],
+    "tag": [
+      "diff",
+      "json",
+      "patch"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
   },
   {
     "_disabled": "false",
@@ -184813,7 +185079,7 @@
     "provides": [
       "kv3-cli"
     ],
-    "rank": "21",
+    "rank": "25",
     "recurse_provides": "false",
     "shasum": "2ca09e4a410be2fa524fe66eaa45b723fce1957a627e4395e6d6159c49f55bfd",
     "size": "812 KB",
@@ -192141,7 +192407,7 @@
     "provides": [
       "lexper"
     ],
-    "rank": "22",
+    "rank": "26",
     "recurse_provides": "false",
     "shasum": "8e38768e102acfdfa9e790fddbfa4cd9421b93e1767a4f138c81e487e9ade784",
     "size": "448 KB",
@@ -196716,7 +196982,7 @@
       "lowmc",
       "lowmc-rs"
     ],
-    "rank": "24",
+    "rank": "28",
     "recurse_provides": "false",
     "shasum": "49dbb78e25e1125468f0f806ef92191b20f1a126e4c8788bd279cf45d0e2afab",
     "size": "401 KB",
@@ -198713,7 +198979,7 @@
     "provides": [
       "example"
     ],
-    "rank": "26",
+    "rank": "30",
     "recurse_provides": "false",
     "shasum": "78191321c2e8b7deb765a7306a484eed20da5e360754826635b400e3dad872ef",
     "size": "512 KB",
@@ -202638,7 +202904,7 @@
     "provides": [
       "maskit"
     ],
-    "rank": "27",
+    "rank": "31",
     "recurse_provides": "false",
     "shasum": "eb2cbc40f54bb65d6e0633695647a416f6a19c842c0ef78971bed997874567e0",
     "size": "1.2 MB",
@@ -211743,7 +212009,7 @@
     "provides": [
       "minivault"
     ],
-    "rank": "28",
+    "rank": "32",
     "recurse_provides": "false",
     "shasum": "ded3bd166edf38a07f1f9c139d8c4bd837d20ed6db25f21b31483a481d03ffe6",
     "size": "2.6 MB",
@@ -223122,6 +223388,74 @@
   },
   {
     "_disabled": "false",
+    "bsum": "d0a6ba3e9e02cc4da2c47d96ca16f07a6d82e25ed85aa4de2dd27fb7e35c0a0b",
+    "build_date": "2025-06-30T03:58:14Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15963460205",
+    "build_id": "15963460205",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ngdp-client/stable/ngdp?tag=0.1.1-riscv64-Linux&download=ngdp.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "NGDP client CLI for Cascette.",
+    "desktop_integration": "false",
+    "download_count": "175",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ngdp-client/stable/ngdp?tag=0.1.1-riscv64-Linux&download=ngdp",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/ngdp-client/stable/ngdp:0.1.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/ngdp-client/stable/ngdp",
+    "homepage": [
+      "https://github.com/wowemulation-dev/cascette-rs"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ngdp-client/stable/ngdp?tag=0.1.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "ngdp",
+    "pkg_family": "ngdp-client",
+    "pkg_id": "pkgforge-cargo.ngdp-client.stable",
+    "pkg_name": "ngdp",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/ngdp-client",
+    "portable": "true",
+    "provides": [
+      "ngdp"
+    ],
+    "rank": "33",
+    "recurse_provides": "false",
+    "shasum": "b703adbf417972ac511acc4c6592f776516ca61e97c0a442abf9e7d52336ce75",
+    "size": "4.9 MB",
+    "size_raw": "5104288",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/ngdp-client/0.1.1/download"
+    ],
+    "tag": [
+      "blizzard",
+      "casc",
+      "cli",
+      "ngdp",
+      "wow"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "bd617b8ee5521459c3656f7bb7d6bb8e91d766859c7575c1fc75621ef1d9cfc5",
     "build_date": "2025-06-17T14:50:55Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15709262728",
@@ -229602,7 +229936,7 @@
     "provides": [
       "octomind"
     ],
-    "rank": "29",
+    "rank": "34",
     "recurse_provides": "false",
     "shasum": "bdf54cb86b36f7727967652b95eefd64b99bd4c1b71aeadcbf0b2e796c93a837",
     "size": "15 MB",
@@ -230469,7 +230803,7 @@
     "provides": [
       "main"
     ],
-    "rank": "30",
+    "rank": "35",
     "recurse_provides": "false",
     "shasum": "85d10b00ff3c2310975539e1c1196f33de818e46755f53d3f73d3e6375b2efb7",
     "size": "424 KB",
@@ -234450,7 +234784,7 @@
     "provides": [
       "oxidendron"
     ],
-    "rank": "31",
+    "rank": "36",
     "recurse_provides": "false",
     "shasum": "5b3c199c80a58678845ce0d3bfdacac4a0046d097187fc61e680c9fa5f244890",
     "size": "416 KB",
@@ -242933,6 +243267,71 @@
     "trusted": "true",
     "version": "0.24.0",
     "version_upstream": "0.24.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "bcaf2fe4c5b9bc158506ad919596e011c2162899dd3adf5d1bfc66a2f79b6f74",
+    "build_date": "2025-06-30T04:05:28Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15963463527",
+    "build_id": "15963463527",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/pinenote-service/stable/pinenote-service?tag=1.0.0-riscv64-Linux&download=pinenote-service.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Management dervice for Pine64s PineNote device.",
+    "desktop_integration": "false",
+    "download_count": "80",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/pinenote-service/stable/pinenote-service?tag=1.0.0-riscv64-Linux&download=pinenote-service",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/pinenote-service/stable/pinenote-service:1.0.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/pinenote-service/stable/pinenote-service",
+    "homepage": [
+      "https://git.sr.ht/~phantomas/pinenote-service"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0-or-later"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/pinenote-service/stable/pinenote-service?tag=1.0.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "pinenote-service",
+    "pkg_family": "pinenote-service",
+    "pkg_id": "pkgforge-cargo.pinenote-service.stable",
+    "pkg_name": "pinenote-service",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/pinenote-service",
+    "portable": "true",
+    "provides": [
+      "pinenote-service"
+    ],
+    "rank": "37",
+    "recurse_provides": "false",
+    "shasum": "fa6e07812363fcf5d345786f54aeead63333ca75f7d993ab5af8c42c492df3b7",
+    "size": "4.2 MB",
+    "size_raw": "4403392",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/pinenote-service/1.0.0/download"
+    ],
+    "tag": [
+      "pine64",
+      "pinenote"
+    ],
+    "trusted": "true",
+    "version": "1.0.0",
+    "version_upstream": "1.0.0"
   },
   {
     "_disabled": "false",
@@ -257974,7 +258373,7 @@
     "provides": [
       "qwk"
     ],
-    "rank": "32",
+    "rank": "38",
     "recurse_provides": "false",
     "shasum": "2e285c4473f31196e85b3afd0096407dce0698da71aa929113a6ff1a7540d57a",
     "size": "852 KB",
@@ -264532,6 +264931,74 @@
   },
   {
     "_disabled": "false",
+    "bsum": "f3b6dca5305c1b3e9c8e66932ad79f0d2c9f6bc4e8dc5ddd43437097a780e3bd",
+    "build_date": "2025-06-30T04:00:26Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15963460415",
+    "build_id": "15963460415",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/rek2_httpserver/stable/rek2_httpserver?tag=0.1.1-riscv64-Linux&download=rek2_httpserver.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "HTTP server that accepts POST data to exfiltrate files from remote servers to local computer during hacking and penetration testing.",
+    "desktop_integration": "false",
+    "download_count": "62",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/rek2_httpserver/stable/rek2_httpserver?tag=0.1.1-riscv64-Linux&download=rek2_httpserver",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/rek2_httpserver/stable/rek2_httpserver:0.1.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/rek2_httpserver/stable/rek2_httpserver",
+    "homepage": [
+      "https://git.sr.ht/~rek2/rek2_httpserver"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/rek2_httpserver/stable/rek2_httpserver?tag=0.1.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "rek2_httpserver",
+    "pkg_family": "rek2_httpserver",
+    "pkg_id": "pkgforge-cargo.rek2_httpserver.stable",
+    "pkg_name": "rek2_httpserver",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/rek2_httpserver",
+    "portable": "true",
+    "provides": [
+      "rek2_httpserver"
+    ],
+    "rank": "39",
+    "recurse_provides": "false",
+    "shasum": "3628bd641afe873f17e470afc901ea25c436cb0e13be0725485c8972c7c65360",
+    "size": "1.7 MB",
+    "size_raw": "1770288",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/rek2_httpserver/0.1.1/download"
+    ],
+    "tag": [
+      "exfiltration",
+      "file-upload",
+      "hacking",
+      "penetration-testing",
+      "security"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "7e27e3b31bfc85cbc65b052841bd6c66c2b562ac0a166f548b4444b2bf94af19",
     "build_date": "2025-06-23T20:24:20Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15832767092",
@@ -267572,7 +268039,7 @@
     "provides": [
       "rez-lsp-server"
     ],
-    "rank": "33",
+    "rank": "40",
     "recurse_provides": "false",
     "shasum": "6aecabd9f14604f036f4c0a832c58d9160cfafeb6ae1d60bb2b692a934ce77bc",
     "size": "3.9 MB",
@@ -278615,7 +279082,7 @@
       "bench_operations",
       "generate_test_binaries"
     ],
-    "rank": "36",
+    "rank": "43",
     "recurse_provides": "false",
     "shasum": "b87f1263f020d01aa7ab6a41a56b4090622f2a00bfee641c31f444af6c2538fb",
     "size": "416 KB",
@@ -279284,7 +279751,7 @@
     "provides": [
       "ruscrypt"
     ],
-    "rank": "37",
+    "rank": "44",
     "recurse_provides": "false",
     "shasum": "63935d715d176d763a5cc627adaacf8c672e088a7bbc7c1d5670d50b19ab1284",
     "size": "925 KB",
@@ -280811,7 +281278,7 @@
     "provides": [
       "grrs_vaishnav"
     ],
-    "rank": "38",
+    "rank": "45",
     "recurse_provides": "false",
     "shasum": "2236eeb9a5ef0cfda49d4fb28c73fc12abd548c2755612fa39212b113c4c5a17",
     "size": "672 KB",
@@ -296000,7 +296467,7 @@
     "provides": [
       "similarity-py"
     ],
-    "rank": "39",
+    "rank": "46",
     "recurse_provides": "false",
     "shasum": "2e5dc58de44cf31954fbec9a03e98495da37737feed98a22289131e06e064fd5",
     "size": "2.7 MB",
@@ -296068,7 +296535,7 @@
     "provides": [
       "similarity-rs"
     ],
-    "rank": "40",
+    "rank": "47",
     "recurse_provides": "false",
     "shasum": "558f986655380663d94b69a61026242d66a69bc9adfcd833f6f4805d50fbe2e5",
     "size": "3.3 MB",
@@ -299600,7 +300067,7 @@
     "provides": [
       "snake3"
     ],
-    "rank": "41",
+    "rank": "48",
     "recurse_provides": "false",
     "shasum": "a792d3e31d9add0d48d04ea5f3c67aa139a27f0851114fb53c494f239b2de266",
     "size": "525 KB",
@@ -304260,7 +304727,7 @@
       "spragga",
       "throughput_test"
     ],
-    "rank": "43",
+    "rank": "50",
     "recurse_provides": "false",
     "shasum": "b58ec785415feb36e867e499b022f5aeaa6ba1709a4b0a9baee709b9eb13a062",
     "size": "437 KB",
@@ -312714,7 +313181,7 @@
     "provides": [
       "td"
     ],
-    "rank": "44",
+    "rank": "51",
     "recurse_provides": "false",
     "shasum": "7a930e126d96afd957a1d9d5c8aab5d8aec9f5d9e55526786c3db603e98c39ec",
     "size": "2.8 MB",
@@ -319980,7 +320447,7 @@
       "tcrs_tidal_ghci",
       "tidalcycles-rs"
     ],
-    "rank": "52",
+    "rank": "59",
     "recurse_provides": "false",
     "shasum": "502ea7293c1436d730c3b395de768982951c9775ca379659df2a7a32e21058e3",
     "size": "1.2 MB",
@@ -320249,7 +320716,7 @@
     "provides": [
       "tilr"
     ],
-    "rank": "53",
+    "rank": "60",
     "recurse_provides": "false",
     "shasum": "bf13400eb02ab4946a4b7966613c535f5e27fee05b3f738fe8472bc6d4370a0f",
     "size": "3.3 MB",
@@ -320313,7 +320780,7 @@
     "provides": [
       "tim-cli"
     ],
-    "rank": "54",
+    "rank": "61",
     "recurse_provides": "false",
     "shasum": "6ca94383d14aff196a3dc402385172bf3aad2c599d65b0036d94bd067104fbf1",
     "size": "541 KB",
@@ -320448,7 +320915,7 @@
     "provides": [
       "timed_release_crypto"
     ],
-    "rank": "55",
+    "rank": "62",
     "recurse_provides": "false",
     "shasum": "ebe480b3c59e1f196669eb1e82e06f0f37266f0d4e18cd8eac29f173a8d141c9",
     "size": "356 KB",
@@ -320973,7 +321440,7 @@
     "provides": [
       "tinted-builder-rust"
     ],
-    "rank": "56",
+    "rank": "63",
     "recurse_provides": "false",
     "shasum": "f2b04010fb8f578b7b7a7c3b69daeed4a0a364c3a9f7c7c499fcdb5dde0e5ae0",
     "size": "2.3 MB",
@@ -321174,7 +321641,7 @@
     "provides": [
       "tiny_twilio_stripe"
     ],
-    "rank": "57",
+    "rank": "64",
     "recurse_provides": "false",
     "shasum": "0d1015936cd1611c8d7f7e377a4729b3580696e58deb89c080ceb1207be58de8",
     "size": "5.1 MB",
@@ -322436,7 +322903,7 @@
     "provides": [
       "tmuxrs"
     ],
-    "rank": "58",
+    "rank": "65",
     "recurse_provides": "false",
     "shasum": "766d96c629459f1c3b6f77982c7bd40d244b1b2043877394fe792eb5ad9d6681",
     "size": "900 KB",
@@ -322635,7 +323102,7 @@
     "provides": [
       "tocken"
     ],
-    "rank": "59",
+    "rank": "66",
     "recurse_provides": "false",
     "shasum": "a8e9573acb2f9996c603481f45ff30656818bc2881c5a174296d4e01ae83edbd",
     "size": "1.7 MB",
@@ -323026,7 +323493,7 @@
     "provides": [
       "todoctl"
     ],
-    "rank": "60",
+    "rank": "67",
     "recurse_provides": "false",
     "shasum": "8155e728627e1b9313fc36dac31dd4d529ac9146c26649a7363456be6f9ec583",
     "size": "2.6 MB",
@@ -323554,7 +324021,7 @@
       "client",
       "server"
     ],
-    "rank": "62",
+    "rank": "69",
     "recurse_provides": "false",
     "shasum": "80ad68a58fb05fe5420e98b4a0badb244daab0d496236f604eec87731fe3911d",
     "size": "1.2 MB",
@@ -324225,7 +324692,7 @@
     "provides": [
       "test_fixture"
     ],
-    "rank": "63",
+    "rank": "70",
     "recurse_provides": "false",
     "shasum": "6ce42b9e95f7011df3607722db437e6bcb9af9e2919cdf8da4dd97c6dd6aece3",
     "size": "493 KB",
@@ -324752,7 +325219,7 @@
     "provides": [
       "tooka"
     ],
-    "rank": "64",
+    "rank": "71",
     "recurse_provides": "false",
     "shasum": "3486f4d299270958672b96b132a14bdb5e54f5e4b240691412986926a0eabb4c",
     "size": "3.4 MB",
@@ -325149,7 +325616,7 @@
     "provides": [
       "tor-cli"
     ],
-    "rank": "65",
+    "rank": "72",
     "recurse_provides": "false",
     "shasum": "1aedaf84770308098bdc4f5a971eef0ad7f9d3b8e412f1ac70537510ad3d11d7",
     "size": "2.3 MB",
@@ -325677,7 +326144,7 @@
     "provides": [
       "html2md"
     ],
-    "rank": "66",
+    "rank": "73",
     "recurse_provides": "false",
     "shasum": "b00450d83f5ec278e11a873879903c8dfb9a28460dde46b92a875d8e384c9ff9",
     "size": "2.1 MB",
@@ -325873,7 +326340,7 @@
     "provides": [
       "plot"
     ],
-    "rank": "67",
+    "rank": "74",
     "recurse_provides": "false",
     "shasum": "7cc72574f7803924bcf329c174334cf03da8d1125be4e8f64306db5a65159c3e",
     "size": "940 KB",
@@ -325937,7 +326404,7 @@
     "provides": [
       "tracing-surreal"
     ],
-    "rank": "68",
+    "rank": "75",
     "recurse_provides": "false",
     "shasum": "7ec8e65435934f7d74524d9b9dee61df4099626f3f7ecbd83a57ffe5e7635130",
     "size": "356 KB",
@@ -326005,7 +326472,7 @@
     "provides": [
       "generate_sample_invoice"
     ],
-    "rank": "69",
+    "rank": "76",
     "recurse_provides": "false",
     "shasum": "5ef50c4c359a3f322cf99917f614f9f6741afdd334d26792ae0fb34ff8a81f06",
     "size": "572 KB",
@@ -326136,7 +326603,7 @@
     "provides": [
       "tramex"
     ],
-    "rank": "70",
+    "rank": "77",
     "recurse_provides": "false",
     "shasum": "0b6ccc52c4fa3558f06ed76edbe0e55b96d8afb711cb6056d65f073bc43fdcae",
     "size": "14 MB",
@@ -326202,7 +326669,7 @@
     "provides": [
       "release"
     ],
-    "rank": "71",
+    "rank": "78",
     "recurse_provides": "false",
     "shasum": "88c1bf37cefc43960d7935e8d8c4c2b8e6ef1e53b31941a8525be040db91e8c5",
     "size": "628 KB",
@@ -326734,7 +327201,7 @@
     "provides": [
       "tree-sitter-cql"
     ],
-    "rank": "72",
+    "rank": "79",
     "recurse_provides": "false",
     "shasum": "1d0e8b5263b8fee3c3135856253e64cd1edfc87588282a998a4348efae7deec1",
     "size": "1.7 MB",
@@ -327134,7 +327601,7 @@
     "provides": [
       "treq"
     ],
-    "rank": "73",
+    "rank": "80",
     "recurse_provides": "false",
     "shasum": "b8c52aac97e97ecaa1c756f42eeaa05f90bf0d7d986c776b5636a37cacc1cfb0",
     "size": "4.7 MB",
@@ -327533,7 +328000,7 @@
       "mem_check_tetgen_build",
       "mem_check_triangle_build"
     ],
-    "rank": "75",
+    "rank": "82",
     "recurse_provides": "false",
     "shasum": "106c70ce8fe0dae3eb83775c8a2af2f3c0486e5c3a45ac8f46520f130e262f23",
     "size": "517 KB",
@@ -327736,7 +328203,7 @@
     "provides": [
       "trot"
     ],
-    "rank": "76",
+    "rank": "83",
     "recurse_provides": "false",
     "shasum": "14b67d704f3c234bbb8ba3c2e78ccc8eb6842b7c0b0931e0758512ca3d79cacb",
     "size": "4.5 MB",
@@ -327934,7 +328401,7 @@
     "provides": [
       "trustmebro"
     ],
-    "rank": "77",
+    "rank": "84",
     "recurse_provides": "false",
     "shasum": "e339d4bd4e6c7030eaa30fefbdecfcb8dec1e0433bbfc1e301528df3808319b6",
     "size": "352 KB",
@@ -328003,7 +328470,7 @@
       "bin-fixture",
       "trycmd-schema"
     ],
-    "rank": "79",
+    "rank": "86",
     "recurse_provides": "false",
     "shasum": "02068daf07e390e884379732706917f0ab83fc1f55fe36b03b499dbe11c976e3",
     "size": "592 KB",
@@ -328139,7 +328606,7 @@
       "cargo-ts-sqlx",
       "ts-sqlx"
     ],
-    "rank": "81",
+    "rank": "88",
     "recurse_provides": "false",
     "shasum": "75035acd514130d5ceac3eb38edbe3c7321eccb5357beff1f87bb5f02b0ad934",
     "size": "7.2 MB",
@@ -328207,7 +328674,7 @@
     "provides": [
       "tsc-trace"
     ],
-    "rank": "82",
+    "rank": "89",
     "recurse_provides": "false",
     "shasum": "b9d3e86822a79a7bf34f52c0d306bb3cc6f38978495a6f0b2698ed51abf15ae7",
     "size": "368 KB",
@@ -328341,7 +328808,7 @@
       "example_v1",
       "example_v2"
     ],
-    "rank": "84",
+    "rank": "91",
     "recurse_provides": "false",
     "shasum": "011a18e34b11dbbf1fee324158f6fbffd52e3724344847ae0bce0623f8e1f329",
     "size": "400 KB",
@@ -328609,7 +329076,7 @@
     "provides": [
       "ttrpc_rust_plugin"
     ],
-    "rank": "85",
+    "rank": "92",
     "recurse_provides": "false",
     "shasum": "fe73250a3a65583cd565e05ca6f67f4f69cc6dd8a1f884c4812eda204271c772",
     "size": "1.1 MB",
@@ -329342,7 +329809,7 @@
     "provides": [
       "tulisp"
     ],
-    "rank": "86",
+    "rank": "93",
     "recurse_provides": "false",
     "shasum": "9cdaca927190eff20fbc47d33f4b486d5870b91eb4f803fcc505ecc9481a26cf",
     "size": "948 KB",
@@ -329473,7 +329940,7 @@
     "provides": [
       "turn-server"
     ],
-    "rank": "87",
+    "rank": "94",
     "recurse_provides": "false",
     "shasum": "643090974d56690a6da3d776aec8d17f618e12eaa7d03d47aa2c65840c9fbcf6",
     "size": "3.1 MB",
@@ -329806,7 +330273,7 @@
     "provides": [
       "pre-commit"
     ],
-    "rank": "88",
+    "rank": "95",
     "recurse_provides": "false",
     "shasum": "ec1671ba24b5fc021a0dcba08b7aa92cbc28656043f4eb524a893703bc9caa7a",
     "size": "400 KB",
@@ -329874,7 +330341,7 @@
     "provides": [
       "tx5-online"
     ],
-    "rank": "89",
+    "rank": "96",
     "recurse_provides": "false",
     "shasum": "a27046e7ee111b78a8b92de40efb2be91ac3e510925cf8cbfd48c2a0fb7a5703",
     "size": "1.8 MB",
@@ -329942,7 +330409,7 @@
     "provides": [
       "txtpp"
     ],
-    "rank": "90",
+    "rank": "97",
     "recurse_provides": "false",
     "shasum": "ee3da5ff1632f911214142644cf86673341da393968dd606a9c0a3dbcc23e99f",
     "size": "1.8 MB",
@@ -330076,7 +330543,7 @@
     "provides": [
       "tyche"
     ],
-    "rank": "91",
+    "rank": "98",
     "recurse_provides": "false",
     "shasum": "136abad20d2a16dd5d5e39900a6a6dc33633afd916310596296db0fcadde8751",
     "size": "577 KB",
@@ -330998,7 +331465,7 @@
     "provides": [
       "uasset"
     ],
-    "rank": "92",
+    "rank": "99",
     "recurse_provides": "false",
     "shasum": "c2254d671a6e7d0d14b393fb5c6db8b8b14df097885a39767430d59c8d64f40e",
     "size": "993 KB",
@@ -332128,7 +332595,7 @@
       "profiler",
       "ulog-rs"
     ],
-    "rank": "94",
+    "rank": "101",
     "recurse_provides": "false",
     "shasum": "f205ec501bc9fddf7ecebc512656467b9973c3ab7701c9fff78f167e9e96c74f",
     "size": "856 KB",
@@ -332529,7 +332996,7 @@
     "provides": [
       "unchained_web"
     ],
-    "rank": "95",
+    "rank": "102",
     "recurse_provides": "false",
     "shasum": "b884ad1fd11a5b216634ed3fed1d84a46a7afc95ac654ca99794806ee81f31c1",
     "size": "461 KB",
@@ -332728,7 +333195,7 @@
     "provides": [
       "unda"
     ],
-    "rank": "96",
+    "rank": "103",
     "recurse_provides": "false",
     "shasum": "57e3decae0de113d89d202c7f01c8ce760bff5428769ed0e39419302bb8e7d99",
     "size": "352 KB",
@@ -332999,7 +333466,7 @@
       "generate_layout",
       "generate_likelysubtags"
     ],
-    "rank": "98",
+    "rank": "105",
     "recurse_provides": "false",
     "shasum": "a0b806820e33306f1a854e5bc4a59638ddb6879a3b0f9479c0453749d9cb8bb9",
     "size": "484 KB",
@@ -333263,7 +333730,7 @@
     "provides": [
       "unimotion-rs"
     ],
-    "rank": "99",
+    "rank": "106",
     "recurse_provides": "false",
     "shasum": "900c7b4953a88dfa1cb2cf28583da7847f10175d903cb5bd7236bc91b9c40516",
     "size": "573 KB",
@@ -333653,7 +334120,7 @@
     "provides": [
       "unnest-ndjson"
     ],
-    "rank": "100",
+    "rank": "107",
     "recurse_provides": "false",
     "shasum": "82b449161b3ced3df33f346c1b78d1b1564d929634ccf119df95ee674598c33b",
     "size": "413 KB",
@@ -333717,7 +334184,7 @@
     "provides": [
       "unreal_log_parser"
     ],
-    "rank": "101",
+    "rank": "108",
     "recurse_provides": "false",
     "shasum": "058aa9938d13cebb04db45e9bbb688e334d08e7247a65e055a0dab8ea5507fe2",
     "size": "744 KB",
@@ -333852,7 +334319,7 @@
     "provides": [
       "untools"
     ],
-    "rank": "102",
+    "rank": "109",
     "recurse_provides": "false",
     "shasum": "866b167a96cf670cdea64e83e4d6c4f23b285d7a353c1f10ab9be7820974e735",
     "size": "740 KB",
@@ -334506,7 +334973,7 @@
     "provides": [
       "uptime-rs"
     ],
-    "rank": "103",
+    "rank": "110",
     "recurse_provides": "false",
     "shasum": "11d75a1791de7da968add25004b45ff922b238fb0bf3ca60cd0d90d7ade5e1f6",
     "size": "372 KB",
@@ -335104,7 +335571,7 @@
     "provides": [
       "usf"
     ],
-    "rank": "104",
+    "rank": "111",
     "recurse_provides": "false",
     "shasum": "0e88fb0ed6a2cdf09b08f33aa888f95ea3d6b2ba5a0a22d8cea35de813d25508",
     "size": "2.8 MB",
@@ -335508,7 +335975,7 @@
     "provides": [
       "usvg"
     ],
-    "rank": "105",
+    "rank": "112",
     "recurse_provides": "false",
     "shasum": "e270165f6b8e95b9d6613102daf876a75901bc7d2d7ac422c95b549bd3184168",
     "size": "2.0 MB",
@@ -335572,7 +336039,7 @@
     "provides": [
       "usvgr"
     ],
-    "rank": "106",
+    "rank": "113",
     "recurse_provides": "false",
     "shasum": "7e9407ddb7e94da95b16975865242c9c808a990f78c167a86c9aee04a199809f",
     "size": "1.9 MB",
@@ -335769,7 +336236,7 @@
     "provides": [
       "utiles"
     ],
-    "rank": "107",
+    "rank": "114",
     "recurse_provides": "false",
     "shasum": "1f1fd86808ea9ffda2c26dedf58b9bbbb247dad113a17ed87526960ef5f14782",
     "size": "9.8 MB",
@@ -335837,7 +336304,7 @@
     "provides": [
       "utrace-capture"
     ],
-    "rank": "108",
+    "rank": "115",
     "recurse_provides": "false",
     "shasum": "6a9d64bb361662f62c7229cb88a2cc8371d7d01b7186c25988073a4349988f88",
     "size": "1.5 MB",
@@ -335971,7 +336438,7 @@
     "provides": [
       "main"
     ],
-    "rank": "109",
+    "rank": "116",
     "recurse_provides": "false",
     "shasum": "faebf45d2c91f664da37b5457160dfda03c44ed9c34b211cc10c8aa955c7c20e",
     "size": "1.2 MB",
@@ -336039,7 +336506,7 @@
     "provides": [
       "uuid32"
     ],
-    "rank": "110",
+    "rank": "117",
     "recurse_provides": "false",
     "shasum": "06ab8dba7695e1c0502e273c1740cc000d82ecd312bf5765c6fe00c31f443f67",
     "size": "384 KB",
@@ -336437,7 +336904,7 @@
     "provides": [
       "vader-sentimental"
     ],
-    "rank": "111",
+    "rank": "118",
     "recurse_provides": "false",
     "shasum": "b301a6d847fcd04b6db218747674d1be30ca6fb76e02bb04303c5dbd182aab0b",
     "size": "2.4 MB",
@@ -336503,7 +336970,7 @@
     "provides": [
       "val"
     ],
-    "rank": "112",
+    "rank": "119",
     "recurse_provides": "false",
     "shasum": "87f63dc13fba3e7cad0b68ef70d6ec8705d08986534efc54b4f749f94d857fc9",
     "size": "2.9 MB",
@@ -336638,7 +337105,7 @@
     "provides": [
       "validate_directory_structure"
     ],
-    "rank": "113",
+    "rank": "120",
     "recurse_provides": "false",
     "shasum": "720fbef61a23ee469c9def32e5bd26f8fa4cfbd815868ce64488a846e209a44e",
     "size": "476 KB",
@@ -337038,7 +337505,7 @@
     "provides": [
       "vcd-reformat"
     ],
-    "rank": "114",
+    "rank": "121",
     "recurse_provides": "false",
     "shasum": "4a7fe0cfb2490adda2b40bb1ecb7d9afb1a04468016bc2ce9cd36b0ac957ad9c",
     "size": "436 KB",
@@ -337104,7 +337571,7 @@
     "provides": [
       "vcontrol"
     ],
-    "rank": "115",
+    "rank": "122",
     "recurse_provides": "false",
     "shasum": "765bb163e7dc000064fa4d485a6df5daad2723f9bbd0c60124ec8770efe3b9ed",
     "size": "9.7 MB",
@@ -337505,7 +337972,7 @@
     "provides": [
       "verusfmt"
     ],
-    "rank": "116",
+    "rank": "123",
     "recurse_provides": "false",
     "shasum": "4b8cfaa0ad032e7ef466681b6d3dd4aa36fcd04bdd81441d583fa05517452035",
     "size": "5.5 MB",
@@ -337571,7 +338038,7 @@
     "provides": [
       "veryl"
     ],
-    "rank": "117",
+    "rank": "124",
     "recurse_provides": "false",
     "shasum": "2322c97ef752bcc44c710450db2c36d2a2edd4c7c80689a775828eb57689008d",
     "size": "25 MB",
@@ -337833,7 +338300,7 @@
     "provides": [
       "vhost-device-sound"
     ],
-    "rank": "118",
+    "rank": "125",
     "recurse_provides": "false",
     "shasum": "c8329a505a8b349bc03cf9992b2dfdd4936c0434d9977313a533152179908486",
     "size": "1.7 MB",
@@ -338030,7 +338497,7 @@
     "provides": [
       "lipi"
     ],
-    "rank": "119",
+    "rank": "126",
     "recurse_provides": "false",
     "shasum": "1a84f7b3cb78905895e2a12dc3b0b29084d605035681782635dbe39e4be48763",
     "size": "1.1 MB",
@@ -338094,7 +338561,7 @@
     "provides": [
       "vielpork"
     ],
-    "rank": "120",
+    "rank": "127",
     "recurse_provides": "false",
     "shasum": "14b6ec28935681c76e2b1291e1af69203474bc2927b37d95ad170f3aaed2a393",
     "size": "356 KB",
@@ -338692,7 +339159,7 @@
     "provides": [
       "tag"
     ],
-    "rank": "121",
+    "rank": "128",
     "recurse_provides": "false",
     "shasum": "de5cb4cfe6ca1a911f1b2faa266a7f3a84629f9efe0ce2e332013335bf6654d2",
     "size": "384 KB",
@@ -338957,7 +339424,7 @@
     "provides": [
       "vlazba"
     ],
-    "rank": "122",
+    "rank": "129",
     "recurse_provides": "false",
     "shasum": "078c176e7636b9ef521f71780f7f46f80695fc8f1d745d8cb952a29ae2e05b89",
     "size": "2.1 MB",
@@ -339023,7 +339490,7 @@
     "provides": [
       "vmonitor"
     ],
-    "rank": "123",
+    "rank": "130",
     "recurse_provides": "false",
     "shasum": "5f574824a6115a63b5bfb57682be10855dcbafdc0be88e5d6ee21644fe232382",
     "size": "4.6 MB",
@@ -339224,7 +339691,7 @@
     "provides": [
       "vp"
     ],
-    "rank": "124",
+    "rank": "131",
     "recurse_provides": "false",
     "shasum": "97fc6a6c501e8e1b0f0f63acd3304d485c737ff8468ace66a8fafc116befc2cc",
     "size": "356 KB",
@@ -339505,7 +339972,7 @@
       "simple_protocol_test",
       "simple_test"
     ],
-    "rank": "134",
+    "rank": "141",
     "recurse_provides": "false",
     "shasum": "e1054e0cf0172a1b24fef32f8c00afedddf781311d3a73aa2d32827fe6ce3941",
     "size": "1.6 MB",
@@ -339572,7 +340039,7 @@
     "provides": [
       "vom_rs"
     ],
-    "rank": "135",
+    "rank": "142",
     "recurse_provides": "false",
     "shasum": "a4a958feaa4c012f74fd55c867adf2d2dfb9b07dcce16514f4f0bb25106bc645",
     "size": "529 KB",
@@ -339715,7 +340182,7 @@
       "utils",
       "vq-examples"
     ],
-    "rank": "144",
+    "rank": "151",
     "recurse_provides": "false",
     "shasum": "95fd13be172b5e031d19ffb068a013c54e44b285cc3f0ae084455d256e12be24",
     "size": "842 KB",
@@ -339783,7 +340250,7 @@
     "provides": [
       "vrc-mpv"
     ],
-    "rank": "145",
+    "rank": "152",
     "recurse_provides": "false",
     "shasum": "178a733f762f922faafee1704a973c39c568e1ae5cd628d80839a9a03320ef28",
     "size": "1.9 MB",
@@ -339848,7 +340315,7 @@
     "provides": [
       "vrd"
     ],
-    "rank": "146",
+    "rank": "153",
     "recurse_provides": "false",
     "shasum": "bbe7bab741dfcd5f2f77db8cfe6ead01e524b6d2591b18593d69af3e966f7874",
     "size": "677 KB",
@@ -340310,7 +340777,7 @@
     "provides": [
       "vuefinder"
     ],
-    "rank": "147",
+    "rank": "154",
     "recurse_provides": "false",
     "shasum": "f2be0bece02a4485ef7fc7c474c06c13d956d81c43bc5dbef730110b83471584",
     "size": "5.4 MB",
@@ -340580,7 +341047,7 @@
     "provides": [
       "wait-on"
     ],
-    "rank": "148",
+    "rank": "155",
     "recurse_provides": "false",
     "shasum": "ab945dba4bd2ca79c44c0062c546b7baea2231f4f3ff18842b255c66ae0ef16d",
     "size": "2.7 MB",
@@ -340650,7 +341117,7 @@
       "reader",
       "sleep"
     ],
-    "rank": "151",
+    "rank": "158",
     "recurse_provides": "false",
     "shasum": "ea5f686ce24fa2f079eb9d6030c112294615566c3fe80487b8c86c5bcc99ab66",
     "size": "356 KB",
@@ -340846,7 +341313,7 @@
     "provides": [
       "wakatime-ls"
     ],
-    "rank": "152",
+    "rank": "159",
     "recurse_provides": "false",
     "shasum": "1bd34abdeeaf52c86c0d1cab84752c7a2a963caa38758d628a01a4184d3fb0c9",
     "size": "3.7 MB",
@@ -340978,7 +341445,7 @@
     "provides": [
       "signpass"
     ],
-    "rank": "153",
+    "rank": "160",
     "recurse_provides": "false",
     "shasum": "1682eed8306a2236b035fac31142029dbddb5fda212638db01f0b9cb54f60a29",
     "size": "4.1 MB",
@@ -341045,7 +341512,7 @@
     "provides": [
       "wallet-wizard"
     ],
-    "rank": "154",
+    "rank": "161",
     "recurse_provides": "false",
     "shasum": "07e32bb084d3cc07ce98bfbc2c4c9da2cb075c5f035531ce454245bd757ab9d5",
     "size": "2.3 MB",
@@ -341519,7 +341986,7 @@
       "to_kana",
       "to_romaji"
     ],
-    "rank": "156",
+    "rank": "163",
     "recurse_provides": "false",
     "shasum": "4024a5a05feb0d6d98d26c5762f9bccd86035e40775ba719c7e25c224b9939b2",
     "size": "416 KB",
@@ -341670,6 +342137,74 @@
     "trusted": "true",
     "version": "0.3.4",
     "version_upstream": "0.3.4"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "a7eb175645892220547e19dd00ce5256c26f3f612c3813e90458526463445e05",
+    "build_date": "2025-06-30T04:03:08Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15963460895",
+    "build_id": "15963460895",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/warcraft-rs/stable/warcraft-rs?tag=0.2.0-riscv64-Linux&download=warcraft-rs.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Command-line tools for World of Warcraft file formats.",
+    "desktop_integration": "false",
+    "download_count": "91",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/warcraft-rs/stable/warcraft-rs?tag=0.2.0-riscv64-Linux&download=warcraft-rs",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/warcraft-rs/stable/warcraft-rs:0.2.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/warcraft-rs/stable/warcraft-rs",
+    "homepage": [
+      "https://github.com/wowemulation-dev/warcraft-rs"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/warcraft-rs/stable/warcraft-rs?tag=0.2.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "warcraft-rs",
+    "pkg_family": "warcraft-rs",
+    "pkg_id": "pkgforge-cargo.warcraft-rs.stable",
+    "pkg_name": "warcraft-rs",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/warcraft-rs",
+    "portable": "true",
+    "provides": [
+      "warcraft-rs"
+    ],
+    "rank": "164",
+    "recurse_provides": "false",
+    "shasum": "51a4b45280503c30044171a1241f1ef5794818f7fc3a3beabe1c5954ee1a0bd8",
+    "size": "7.8 MB",
+    "size_raw": "8175760",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/warcraft-rs/0.2.0/download"
+    ],
+    "tag": [
+      "blp",
+      "dbc",
+      "mpq",
+      "warcraft",
+      "wow"
+    ],
+    "trusted": "true",
+    "version": "0.2.0",
+    "version_upstream": "0.2.0"
   },
   {
     "_disabled": "false",
@@ -342377,7 +342912,7 @@
     "provides": [
       "wasm2glulx"
     ],
-    "rank": "157",
+    "rank": "165",
     "recurse_provides": "false",
     "shasum": "74badbba67fba20f7873585145ec19a38d0655a5f3fed2fc0dc5b6cdc9e4ea8d",
     "size": "2.4 MB",
@@ -342708,7 +343243,7 @@
     "provides": [
       "generate-core-schemas"
     ],
-    "rank": "158",
+    "rank": "166",
     "recurse_provides": "false",
     "shasum": "1c16fd57e4159ef8b0e30aa7c984c9cd8460130364df175cbb0e3b948593b5a3",
     "size": "728 KB",
@@ -342774,7 +343309,7 @@
     "provides": [
       "wasmgo"
     ],
-    "rank": "159",
+    "rank": "167",
     "recurse_provides": "false",
     "shasum": "e8047347d07a79b690bd48710f0ab028a8aa8997f3f50e117f118309900bd164",
     "size": "1016 KB",
@@ -342842,7 +343377,7 @@
     "provides": [
       "wasmi_cli"
     ],
-    "rank": "160",
+    "rank": "168",
     "recurse_provides": "false",
     "shasum": "ca86300d23c336ee30ddb9469404dae33ecc81a62aa8be81532e8e0cd46e6405",
     "size": "3.5 MB",
@@ -342909,7 +343444,7 @@
     "provides": [
       "wasmio"
     ],
-    "rank": "161",
+    "rank": "169",
     "recurse_provides": "false",
     "shasum": "5a152b035a21b10b2bca4b097c4a88d77987b8b6f74cf9c9799140126864060e",
     "size": "3.3 MB",
@@ -343039,7 +343574,7 @@
     "provides": [
       "wasmsign2"
     ],
-    "rank": "162",
+    "rank": "170",
     "recurse_provides": "false",
     "shasum": "4489555f86b5f3d22044d60a38e4297f8a18e1094476f69e1d61bc0cd0bd59d9",
     "size": "3.5 MB",
@@ -343170,7 +343705,7 @@
     "provides": [
       "wast2json-rs"
     ],
-    "rank": "163",
+    "rank": "171",
     "recurse_provides": "false",
     "shasum": "dfffed3b52625948a1f1ce4d6b6bb7f294c6b24602a3beb301f1c728b363d99f",
     "size": "2.4 MB",
@@ -343300,7 +343835,7 @@
     "provides": [
       "watchmen"
     ],
-    "rank": "164",
+    "rank": "172",
     "recurse_provides": "false",
     "shasum": "73a1624aa0d6ba84fd7c5205c73dc674d7cc1fafb04b20272809ec2d69bd0717",
     "size": "2.7 MB",
@@ -343568,7 +344103,7 @@
     "provides": [
       "wavup"
     ],
-    "rank": "165",
+    "rank": "173",
     "recurse_provides": "false",
     "shasum": "5aec247d078866a974a6f10ec5a7795291ad734289a512577755a07ad3b4bb40",
     "size": "2.0 MB",
@@ -343901,7 +344436,7 @@
     "provides": [
       "web-static-pack-packer"
     ],
-    "rank": "166",
+    "rank": "174",
     "recurse_provides": "false",
     "shasum": "c6e7229659d5ffc031120b89e6def584d65aee1fcec05e557849a4f5db158bca",
     "size": "1.9 MB",
@@ -343969,7 +344504,7 @@
     "provides": [
       "web-terminal"
     ],
-    "rank": "167",
+    "rank": "175",
     "recurse_provides": "false",
     "shasum": "cb550f446a560d5fea16c5869cebac8e52a287ab5f9ddb77e72c472c20365cd4",
     "size": "2.9 MB",
@@ -344235,7 +344770,7 @@
     "provides": [
       "webrtc-signal-server"
     ],
-    "rank": "168",
+    "rank": "176",
     "recurse_provides": "false",
     "shasum": "bbd867a4032c980ce41addad0b037f2b7f98f97502ef16e82b33f3b10e3a1475",
     "size": "977 KB",
@@ -344437,7 +344972,7 @@
     "provides": [
       "websocket_toolkit"
     ],
-    "rank": "169",
+    "rank": "177",
     "recurse_provides": "false",
     "shasum": "5faaf61bf9b6781033d6241d88a1f09fec0a39a11d0a73e141dbf4c63eceb565",
     "size": "2.1 MB",
@@ -344505,7 +345040,7 @@
     "provides": [
       "webui"
     ],
-    "rank": "170",
+    "rank": "178",
     "recurse_provides": "false",
     "shasum": "904f5f75f1ec24e96c74b97e02c3d17635f55d779b53c5f0114a39804c82b916",
     "size": "388 KB",
@@ -344700,7 +345235,7 @@
     "provides": [
       "welly-parser"
     ],
-    "rank": "171",
+    "rank": "179",
     "recurse_provides": "false",
     "shasum": "2ef35aa15c667e7519944b7b5ba77273fd3520caea6eb07175dd4d0cf15527ad",
     "size": "564 KB",
@@ -344897,7 +345432,7 @@
     "provides": [
       "selection-wgpu-3dgs-viewer"
     ],
-    "rank": "172",
+    "rank": "180",
     "recurse_provides": "false",
     "shasum": "802c09dda4d4d1281e9dcd6b850212cd72decf46e5441c88b0d5cd9724e196da",
     "size": "7.5 MB",
@@ -344965,7 +345500,7 @@
     "provides": [
       "wgsl-minifier"
     ],
-    "rank": "173",
+    "rank": "181",
     "recurse_provides": "false",
     "shasum": "433c48c134686c4d08e779a9ed2147931842b4978531bc1d4d4d68a13cc4f72e",
     "size": "1.9 MB",
@@ -345829,7 +346364,7 @@
     "provides": [
       "whitespace-sifter"
     ],
-    "rank": "174",
+    "rank": "182",
     "recurse_provides": "false",
     "shasum": "be2c76bb47d3047378466d95507e855bc950659c7b836d210197f4e4fc5a435a",
     "size": "648 KB",
@@ -346095,7 +346630,7 @@
     "provides": [
       "wifi-rs"
     ],
-    "rank": "175",
+    "rank": "183",
     "recurse_provides": "false",
     "shasum": "3910482c9d144c05a93d36f5fcc3d91a8e4b84b5842429f24ce0677a93b681a6",
     "size": "412 KB",
@@ -346296,7 +346831,7 @@
       "will",
       "willbe"
     ],
-    "rank": "178",
+    "rank": "186",
     "recurse_provides": "false",
     "shasum": "3c1ae571e3cd142d1eb0701262fbdc96b021cb418229ff748f52abad1b11fbed",
     "size": "5.3 MB",
@@ -346881,7 +347416,7 @@
     "provides": [
       "wit"
     ],
-    "rank": "179",
+    "rank": "187",
     "recurse_provides": "false",
     "shasum": "c375a1fedee26e4da48aff0323454dd4e1a595f3d4a86c488ee85c10e658d32c",
     "size": "13 MB",
@@ -347081,7 +347616,7 @@
     "provides": [
       "witx-codegen"
     ],
-    "rank": "180",
+    "rank": "188",
     "recurse_provides": "false",
     "shasum": "8cc8320b3eaec2e6745af95fd96a56dfabfaa197098a8208cf6ef3bda37564c2",
     "size": "1.2 MB",
@@ -347412,7 +347947,7 @@
     "provides": [
       "wlink"
     ],
-    "rank": "181",
+    "rank": "189",
     "recurse_provides": "false",
     "shasum": "be22bd6d9241747a55bfb91634e4e202f12b1401168a584a0f35b439af92f70b",
     "size": "1.4 MB",
@@ -347608,7 +348143,7 @@
     "provides": [
       "wol"
     ],
-    "rank": "182",
+    "rank": "190",
     "recurse_provides": "false",
     "shasum": "f6b4843cb9a119081243cf71c8e0caac96a8bfc5bcd46ad0672556e35701a8b4",
     "size": "1.8 MB",
@@ -347938,7 +348473,7 @@
     "provides": [
       "wood_parse"
     ],
-    "rank": "183",
+    "rank": "191",
     "recurse_provides": "false",
     "shasum": "0acab750e54b22b98a7e58fc50cc720c9c09520133f051f136ad16729e76a75a",
     "size": "372 KB",
@@ -348004,7 +348539,7 @@
     "provides": [
       "wop"
     ],
-    "rank": "184",
+    "rank": "192",
     "recurse_provides": "false",
     "shasum": "cca8be292cfe7d212f9d5f242119ed9a9e424d54a1b1d89c54be0ef9866619a0",
     "size": "672 KB",
@@ -348202,7 +348737,7 @@
     "provides": [
       "word_search"
     ],
-    "rank": "185",
+    "rank": "193",
     "recurse_provides": "false",
     "shasum": "ccee2bed5fadf547ea1690a8b20a09ab743e3c3720ee12efca452d3db1a0fc15",
     "size": "389 KB",
@@ -348468,7 +349003,7 @@
     "provides": [
       "workbloom"
     ],
-    "rank": "186",
+    "rank": "194",
     "recurse_provides": "false",
     "shasum": "f45e03de161fcc42ce78fe35e7bca9e17b186da90130aa5deeff356fe61bf016",
     "size": "977 KB",
@@ -348887,7 +349422,7 @@
     "provides": [
       "worterbuch-cluster-orchestrator"
     ],
-    "rank": "187",
+    "rank": "195",
     "recurse_provides": "false",
     "shasum": "4a083e66138e18b419459eec365e48859491c29aa5a9f1a5f105b3bbf12dc596",
     "size": "7.4 MB",
@@ -348957,7 +349492,7 @@
       "dbc_tool",
       "dbd_to_yaml"
     ],
-    "rank": "190",
+    "rank": "198",
     "recurse_provides": "false",
     "shasum": "ff76f8e63fa138f3c599eb4b34c433461333706725475aa82c013da41d8241c3",
     "size": "1.5 MB",
@@ -349552,7 +350087,7 @@
       "wit-bindgen-wrpc",
       "wrpc-wasmtime"
     ],
-    "rank": "192",
+    "rank": "200",
     "recurse_provides": "false",
     "shasum": "7356543d62a05f5312e7b119bd4a342835f86dbb89317539d45f00eb646ac0cb",
     "size": "25 MB",
@@ -349683,7 +350218,7 @@
     "provides": [
       "wsa"
     ],
-    "rank": "193",
+    "rank": "201",
     "recurse_provides": "false",
     "shasum": "002e63316f98443755f205f2af4b2ba0b7f695e471b3b2fd001292cd72c923f3",
     "size": "352 KB",
@@ -349749,7 +350284,7 @@
     "provides": [
       "wsm"
     ],
-    "rank": "194",
+    "rank": "202",
     "recurse_provides": "false",
     "shasum": "ad1069433fe1c9e35d8e5235d5a944353296b3c0505c41efd54093f6903df98f",
     "size": "372 KB",
@@ -349952,7 +350487,7 @@
     "provides": [
       "wumpus-hunter"
     ],
-    "rank": "195",
+    "rank": "203",
     "recurse_provides": "false",
     "shasum": "c9612794de98952c56b3463d71ae0ec9e5933ca061dcd0d62b203e2d9053d8d5",
     "size": "2.6 MB",
@@ -350280,7 +350815,7 @@
     "provides": [
       "usage"
     ],
-    "rank": "196",
+    "rank": "204",
     "recurse_provides": "false",
     "shasum": "e0258393260455f431c404635b64ddf83457096ecb259a06b888eff20f8b2488",
     "size": "392 KB",
@@ -350536,7 +351071,7 @@
     "provides": [
       "xcframework"
     ],
-    "rank": "197",
+    "rank": "205",
     "recurse_provides": "false",
     "shasum": "0962809bb1e3e94e93916ff7ce31d352f1cd07c71cf1c1241985c494c726dabd",
     "size": "925 KB",
@@ -350667,7 +351202,7 @@
     "provides": [
       "xensieve"
     ],
-    "rank": "198",
+    "rank": "206",
     "recurse_provides": "false",
     "shasum": "3da430a52ec639f9b71767cfa482519b0ba1903ecc0cf82cce3f106a14931328",
     "size": "356 KB",
@@ -350803,7 +351338,7 @@
     "provides": [
       "xicor"
     ],
-    "rank": "199",
+    "rank": "207",
     "recurse_provides": "false",
     "shasum": "e48bb3d7c340752a4f1cbc783741d6c8367d6030c6e9a935ed6137f19f151529",
     "size": "400 KB",
@@ -351004,7 +351539,7 @@
     "provides": [
       "xmas_elf"
     ],
-    "rank": "200",
+    "rank": "208",
     "recurse_provides": "false",
     "shasum": "9eeb5fb7718334696c644518e256e64a21779faf12250597f56db5bc61e51e1a",
     "size": "388 KB",
@@ -351070,7 +351605,7 @@
     "provides": [
       "xmenu"
     ],
-    "rank": "201",
+    "rank": "209",
     "recurse_provides": "false",
     "shasum": "44845d0074c73bcdf7e46d8240c038f72ffa356b03c8a3c4aeb16524cdcbf243",
     "size": "501 KB",
@@ -351272,7 +351807,7 @@
     "provides": [
       "xml-analyze"
     ],
-    "rank": "202",
+    "rank": "210",
     "recurse_provides": "false",
     "shasum": "cf15f3ca81a3266ced53f356d22f8c97bf62dde4bdad46b3a7df69c7a2a2ca97",
     "size": "488 KB",
@@ -351542,7 +352077,7 @@
     "provides": [
       "xmltv"
     ],
-    "rank": "203",
+    "rank": "211",
     "recurse_provides": "false",
     "shasum": "1653719569d0ebead9d0b66cb6766c34912cc9c2716228d6f0b581cc7a6f52c4",
     "size": "1.2 MB",
@@ -352010,7 +352545,7 @@
     "provides": [
       "xsynth-render"
     ],
-    "rank": "204",
+    "rank": "212",
     "recurse_provides": "false",
     "shasum": "c9809e3e93880bc985c7400595bc564c348604dfc225ea6b99dd12ec08951096",
     "size": "3.0 MB",
@@ -352272,7 +352807,7 @@
     "provides": [
       "device-server"
     ],
-    "rank": "205",
+    "rank": "213",
     "recurse_provides": "false",
     "shasum": "86348a1652052ae6c64ab339d7b09c76a941b48b4191a06c657b963511ee0dd5",
     "size": "1.4 MB",
@@ -352476,7 +353011,7 @@
       "unxz-rs",
       "xz-rs"
     ],
-    "rank": "207",
+    "rank": "215",
     "recurse_provides": "false",
     "shasum": "002e63316f98443755f205f2af4b2ba0b7f695e471b3b2fd001292cd72c923f3",
     "size": "352 KB",
@@ -352743,7 +353278,7 @@
     "provides": [
       "yali"
     ],
-    "rank": "208",
+    "rank": "216",
     "recurse_provides": "false",
     "shasum": "3160b2c571fe15fb96dd8e2ea5a9b077ac1a1dd620ea05c042f3c60bf6c3a3cd",
     "size": "364 KB",
@@ -352809,7 +353344,7 @@
     "provides": [
       "yamaha-rcp"
     ],
-    "rank": "209",
+    "rank": "217",
     "recurse_provides": "false",
     "shasum": "3f5b4be432bd6eb94c8c3e539424a3af2a990ee78f50ad87b785eb0c854a859c",
     "size": "765 KB",
@@ -352942,7 +353477,7 @@
     "provides": [
       "yamlbase"
     ],
-    "rank": "210",
+    "rank": "218",
     "recurse_provides": "false",
     "shasum": "14f532a89e3b05488121e260d79024fe5b13636d44f388179488aa2969c701c1",
     "size": "7.0 MB",
@@ -353010,7 +353545,7 @@
     "provides": [
       "yamldap"
     ],
-    "rank": "211",
+    "rank": "219",
     "recurse_provides": "false",
     "shasum": "73bb2a7f664b899ba1830f37d400b9c695c5a1b299ab85e6120361b9c8a05c14",
     "size": "2.8 MB",
@@ -353281,7 +353816,7 @@
     "provides": [
       "yarer"
     ],
-    "rank": "212",
+    "rank": "220",
     "recurse_provides": "false",
     "shasum": "4199d10cc427d1e2df70ff0a0e4357949c471b93ebec08b1efdcf40f03c545fb",
     "size": "2.3 MB",
@@ -353613,7 +354148,7 @@
     "provides": [
       "generate_proto"
     ],
-    "rank": "213",
+    "rank": "221",
     "recurse_provides": "false",
     "shasum": "d98c6a7daa704e46575c0f7d5791546c2ba2e70d9881ba8a5268532b1c18adf0",
     "size": "2.5 MB",
@@ -353743,7 +354278,7 @@
       "gen_goldens",
       "tws_snoop"
     ],
-    "rank": "215",
+    "rank": "223",
     "recurse_provides": "false",
     "shasum": "4293964f19de596d39b1c0b577ff967bb0d8dd9453bd76ae03bb75af37a7aeba",
     "size": "1.5 MB",
@@ -354539,7 +355074,7 @@
     "provides": [
       "yo_netwatch"
     ],
-    "rank": "216",
+    "rank": "224",
     "recurse_provides": "false",
     "shasum": "4ca2afd939163f07f7689c2a2a9c79a5e3b263f18e85f7890a53f50a50d3ab93",
     "size": "8.1 MB",
@@ -354805,7 +355340,7 @@
     "provides": [
       "demo"
     ],
-    "rank": "217",
+    "rank": "225",
     "recurse_provides": "false",
     "shasum": "a881d104d0cbd54aff9db61387d8361cb1941e0c07da93564bce4c93fd16048b",
     "size": "372 KB",
@@ -355072,7 +355607,7 @@
     "provides": [
       "zahuyach"
     ],
-    "rank": "218",
+    "rank": "226",
     "recurse_provides": "false",
     "shasum": "56394ac02f8c853c2e5c77da4788af20905a874283743913db67437ee41e05ea",
     "size": "2.2 MB",
@@ -355139,7 +355674,7 @@
     "provides": [
       "zalgo_codec"
     ],
-    "rank": "219",
+    "rank": "227",
     "recurse_provides": "false",
     "shasum": "f0e5dd3efdf4589c11b3ef7f274e78caaa8463833914d4ea392ac5595d387a06",
     "size": "7.8 MB",
@@ -355411,7 +355946,7 @@
     "provides": [
       "zbus-xmlgen"
     ],
-    "rank": "220",
+    "rank": "228",
     "recurse_provides": "false",
     "shasum": "6f5c933321468aa7bf82b50209347a8338bee657e5c283ba28568883207132ce",
     "size": "2.5 MB",
@@ -355945,7 +356480,7 @@
     "provides": [
       "testbin"
     ],
-    "rank": "221",
+    "rank": "229",
     "recurse_provides": "false",
     "shasum": "1191766bf3e9143d7e3e081953b029d20698f6ac4ee53d44314f4c11d8ceffa6",
     "size": "360 KB",
@@ -356403,7 +356938,7 @@
     "provides": [
       "zhconv"
     ],
-    "rank": "222",
+    "rank": "230",
     "recurse_provides": "false",
     "shasum": "875c9a95c214e684648ba4104e9598c54786ff5ced543c7384fe628e621ef4e7",
     "size": "4.7 MB",
@@ -356603,7 +357138,7 @@
     "provides": [
       "main"
     ],
-    "rank": "223",
+    "rank": "231",
     "recurse_provides": "false",
     "shasum": "7332d06f5e8e8b371c311bfd1a56603c686fcaf5ae31dd531281d031723ad5de",
     "size": "557 KB",
@@ -356735,7 +357270,7 @@
     "provides": [
       "zip-password-finder"
     ],
-    "rank": "224",
+    "rank": "232",
     "recurse_provides": "false",
     "shasum": "73dc5970198c8ef762bdd4ed941ae4b455862957ec8966c37a9e21536f2ff369",
     "size": "1.3 MB",
@@ -356871,7 +357406,7 @@
     "provides": [
       "zipimgzip"
     ],
-    "rank": "225",
+    "rank": "233",
     "recurse_provides": "false",
     "shasum": "6782aa6f4fc158de34d0f22395887f66c8af99b164dfd0162245d954ffc8ad33",
     "size": "4.5 MB",
@@ -357206,7 +357741,7 @@
     "provides": [
       "reader"
     ],
-    "rank": "226",
+    "rank": "234",
     "recurse_provides": "false",
     "shasum": "b43a70bda03e929cfa74b5ba3ca321c351a5c3d933135045f4ce4c0e50b9fed9",
     "size": "1.8 MB",
@@ -357271,7 +357806,7 @@
     "provides": [
       "circuit_pricing_generator"
     ],
-    "rank": "227",
+    "rank": "235",
     "recurse_provides": "false",
     "shasum": "9e23bccf5474735b22c745432b8ab2f70e08a42010be56d04a14694c1fcbc0d8",
     "size": "368 KB",
@@ -357402,7 +357937,7 @@
     "provides": [
       "gen-params"
     ],
-    "rank": "228",
+    "rank": "236",
     "recurse_provides": "false",
     "shasum": "2756e3524088f581485b1e45acfe6a013efe9f79fb97a233634be4d13a6b30bc",
     "size": "2.9 MB",
@@ -357420,6 +357955,73 @@
     "trusted": "true",
     "version": "0.1.2",
     "version_upstream": "0.1.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "1232a1ad044b688f53aa434105a097d8c4a4b523729f53bc176d9c94787ce62e",
+    "build_date": "2025-06-30T04:01:32Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15963460856",
+    "build_id": "15963460856",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/zod-rs/stable/demo?tag=0.1.0-riscv64-Linux&download=demo.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "TypeScript Zod-inspired schema validation library for Rust with static type inference.",
+    "desktop_integration": "false",
+    "download_count": "84",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/zod-rs/stable/demo?tag=0.1.0-riscv64-Linux&download=demo",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/zod-rs/stable/demo:0.1.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/zod-rs/stable/demo",
+    "homepage": [
+      "https://github.com/maulanasdqn/zod-rs"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/zod-rs/stable/demo?tag=0.1.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "demo",
+    "pkg_family": "zod-rs",
+    "pkg_id": "pkgforge-cargo.zod-rs.stable",
+    "pkg_name": "demo",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/zod-rs",
+    "portable": "true",
+    "provides": [
+      "demo"
+    ],
+    "rank": "237",
+    "recurse_provides": "false",
+    "shasum": "0c907e4e3472599f2a8cce68df9106f45b34445ce80fbd5f37c476a179b9fe9e",
+    "size": "1.5 MB",
+    "size_raw": "1511384",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/zod-rs/0.1.0/download"
+    ],
+    "tag": [
+      "schema",
+      "type-safety",
+      "validation",
+      "zod"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
   },
   {
     "_disabled": "false",
@@ -357469,7 +358071,7 @@
       "zonecount",
       "zonediff"
     ],
-    "rank": "230",
+    "rank": "239",
     "recurse_provides": "false",
     "shasum": "e4c858253fde951d1a35753444836cb191f8eb89bb7037da125098ae8da3fc32",
     "size": "468 KB",
@@ -357535,7 +358137,7 @@
     "provides": [
       "zopfli"
     ],
-    "rank": "231",
+    "rank": "240",
     "recurse_provides": "false",
     "shasum": "8e43d05cd7274c47687e15af671acf7bcf5db951a00d3914cf97a3831e99dac4",
     "size": "460 KB",
@@ -357866,7 +358468,7 @@
     "provides": [
       "gen-params"
     ],
-    "rank": "232",
+    "rank": "241",
     "recurse_provides": "false",
     "shasum": "6afdc2b960aea66eff7bb2ac0bdc0f81805a401f04fffee2835ae503b8819e0b",
     "size": "7.1 MB",
@@ -358257,7 +358859,7 @@
     "provides": [
       "tux"
     ],
-    "rank": "233",
+    "rank": "242",
     "recurse_provides": "false",
     "shasum": "61b96951a7b61235c60ed3244e83462458d41aed0dbaadd440394f32b7ad4dfb",
     "size": "1.4 MB",
