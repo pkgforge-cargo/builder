@@ -391,6 +391,7 @@ jobs:
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/ouch" -o "/usr/local/bin/ouch" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/rsync" -o "/usr/local/bin/rsync" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/trufflehog" -o "/usr/local/bin/trufflehog" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/tss" -o "/usr/local/bin/tss" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/xq" -o "/usr/local/bin/xq" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/xz" -o "/usr/local/bin/xz" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/yq" -o "/usr/local/bin/yq" &
@@ -414,6 +415,7 @@ jobs:
           "/usr/local/bin/ouch" \
           "/usr/local/bin/rsync" \
           "/usr/local/bin/trufflehog" \
+          "/usr/local/bin/tss" \
           "/usr/local/bin/xq" \
           "/usr/local/bin/xz" \
           "/usr/local/bin/yq" \
