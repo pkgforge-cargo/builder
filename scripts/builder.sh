@@ -206,21 +206,24 @@ CB_VERSION="0.0.3" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
     cargo clean &>/dev/null
     cross clean &>/dev/null
     #Default features
+     BUILD_I=""
      cross +nightly build --target "${RUST_TARGET}" -Z unstable-options \
       --artifact-dir="${C_ARTIFACT_DIR}" \
       --jobs="$(($(nproc)+1))" \
       --release \
-      --verbose
+      --verbose || BUILD_I="FAILED"
     #All Features  
-     if ! check_artifacts; then
-       echo -e "\n[-] WARN: Failed to find any Executables... (Retrying with --all-features)\n"
-       cargo clean &>/dev/null ; cross clean &>/dev/null
-       cross +nightly build --target "${RUST_TARGET}" -Z unstable-options \
-        --all-features \
-        --artifact-dir="${C_ARTIFACT_DIR}" \
-        --jobs="$(($(nproc)+1))" \
-        --release \
-        --verbose
+     if [[ "${BUILD_I}" != "FAILED" ]]; then
+        if ! check_artifacts; then
+          echo -e "\n[-] WARN: Failed to find any Executables... (Retrying with --all-features)\n"
+          cargo clean &>/dev/null ; cross clean &>/dev/null
+          cross +nightly build --target "${RUST_TARGET}" -Z unstable-options \
+           --all-features \
+           --artifact-dir="${C_ARTIFACT_DIR}" \
+           --jobs="$(($(nproc)+1))" \
+           --release \
+           --verbose
+        fi
      fi
    #License
     ( askalono --format "json" crawl --follow "$(realpath .)" | jq -r ".. | objects | .path? // empty" | head -n 1 | xargs -I "{}" cp -fv "{}" "${C_ARTIFACT_DIR}/LICENSE" ) 2>/dev/null
