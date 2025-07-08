@@ -7,7 +7,7 @@
 
 #-------------------------------------------------------#
 ##Version
-CB_VERSION="0.0.2" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset CB_VERSION
+CB_VERSION="0.0.3" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset CB_VERSION
 ##Enable Debug 
  if [[ "${DEBUG}" = "1" ]] || [[ "${DEBUG}" = "ON" ]]; then
     set -x
@@ -97,7 +97,7 @@ CB_VERSION="0.0.2" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
  PATH="$(echo "${PATH}" | awk 'BEGIN{RS=":";ORS=":"}{gsub(/\n/,"");if(!a[$0]++)print}' | sed 's/:*$//')" ; export PATH
  hash -r &>/dev/null
  ##Check Needed CMDs
- for DEP_CMD in cross dasel oras ts zstd; do
+ for DEP_CMD in cross dasel oras tss zstd; do
     case "$(command -v "${DEP_CMD}" 2>/dev/null)" in
         "") echo -e "\n[✗] FATAL: ${DEP_CMD} is NOT INSTALLED\n"
            build_fail_gh
@@ -168,6 +168,27 @@ CB_VERSION="0.0.2" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
    export RUSTFLAGS="${RUST_FLAGS[*]}"
   }
   export -f set_rustflags
+ #Check Artifact Dir
+  check_artifacts()
+  {
+    if [[ -d "${C_ARTIFACT_DIR}" ]]; then
+      PROGS=()
+      mapfile -t PROGS < <(find "${C_ARTIFACT_DIR}" -maxdepth 1 -type f ! -name "*.d" -exec file -i "{}" \; | \
+                     grep -Ei "application/.*executable" | \
+                     cut -d":" -f1 | \
+                     xargs realpath --no-symlinks | \
+                     xargs -I "{}" basename "{}")
+      if [[ ${#PROGS[@]} -le 0 ]]; then
+        return 1
+      else
+        export PROGS_SERIALIZED
+        PROGS_SERIALIZED="$(declare -p PROGS)"
+      fi
+    else
+      return 1
+    fi
+  }
+  export -f check_artifacts
  #Set Build Flags
   cross_build()
   {
@@ -184,12 +205,23 @@ CB_VERSION="0.0.2" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
    #Build
     cargo clean &>/dev/null
     cross clean &>/dev/null
-    cross +nightly build --target "${RUST_TARGET}" -Z unstable-options \
-     --all-features \
-     --artifact-dir="${C_ARTIFACT_DIR}" \
-     --jobs="$(($(nproc)+1))" \
-     --release \
-     --verbose
+    #Default features
+     cross +nightly build --target "${RUST_TARGET}" -Z unstable-options \
+      --artifact-dir="${C_ARTIFACT_DIR}" \
+      --jobs="$(($(nproc)+1))" \
+      --release \
+      --verbose
+    #All Features  
+     if ! check_artifacts; then
+       echo -e "\n[-] WARN: Failed to find any Executables... (Retrying with --all-features)\n"
+       cargo clean &>/dev/null ; cross clean &>/dev/null
+       cross +nightly build --target "${RUST_TARGET}" -Z unstable-options \
+        --all-features \
+        --artifact-dir="${C_ARTIFACT_DIR}" \
+        --jobs="$(($(nproc)+1))" \
+        --release \
+        --verbose
+     fi
    #License
     ( askalono --format "json" crawl --follow "$(realpath .)" | jq -r ".. | objects | .path? // empty" | head -n 1 | xargs -I "{}" cp -fv "{}" "${C_ARTIFACT_DIR}/LICENSE" ) 2>/dev/null
    #List
@@ -261,7 +293,8 @@ CB_VERSION="0.0.2" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
      echo -e "\n==> [+] Started Building at :: $(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC\n"
      set_rustflags && cross_build
      echo -e "\n==> [+] Finished Building at :: $(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC\n"
-   } |& ts -s '[%H:%M:%S]➜ ' | tee "${C_ARTIFACT_DIR}/BUILD.log"
+   #} |& ts -s '[%H:%M:%S]➜ ' | tee "${C_ARTIFACT_DIR}/BUILD.log"
+   } |& tss --format "[%H:%M:%S.%3f]➜ " --relative --output "${C_ARTIFACT_DIR}/BUILD.log" --force-overwrite
   #Check Dir
    if [[ "$(du -s --exclude='*.log' "${C_ARTIFACT_DIR}" | cut -f1)" -lt 10 ]]; then
       echo -e "\n[✗] FATAL: ${C_ARTIFACT_DIR} seems broken\n"
@@ -270,20 +303,14 @@ CB_VERSION="0.0.2" && echo -e "[+] Cargo Builder Version: ${CB_VERSION}" ; unset
       build_fail_gh
      exit 1
    else
-      PROGS=()
-      mapfile -t PROGS < <(find "${C_ARTIFACT_DIR}" -maxdepth 1 -type f -exec file -i "{}" \; | \
-                     grep -Ei "application/.*executable" | \
-                     cut -d":" -f1 | \
-                     xargs realpath --no-symlinks | \
-                     xargs -I "{}" basename "{}")
-      if [[ ${#PROGS[@]} -le 0 ]]; then
+      if ! check_artifacts; then
          echo -e "\n[✗] FATAL: Failed to find any Executables\n"
          build_fail_gh
         exit 1
       fi
    fi
   #Gen Metadata
-   cd "${C_ARTIFACT_DIR}"
+   cd "${C_ARTIFACT_DIR}" ; eval "${PROGS_SERIALIZED}"
    for PROG in "${PROGS[@]}"; do
     #clean
      unset BUILD_GHACTIONS BUILD_ID BUILD_LOG DOWNLOAD_URL GHCRPKG_TAG GHCRPKG_URL ghcr_push_cmd PKG_BSUM PKG_CATEGORY PKG_DATE PKG_DATETMP PKG_DESCRIPTION PKG_DOWNLOAD_COUNT PKG_FAMILY PKG_HOMEPAGE PKG_JSON PKG_ID PKG_LICENSE PKG_NAME PKG_PROVIDES PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRC_URL PKG_TAGS PKG_TYPE PKG_VERSION PKG_WEBPAGE SNAPSHOT_JSON SNAPSHOT_TAGS TAG_URL
