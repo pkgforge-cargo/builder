@@ -24304,6 +24304,74 @@
   },
   {
     "_disabled": "false",
+    "bsum": "707c4733142bbb56d28faa76180b769ca91e014c029cdb67618d9a6748b8016d",
+    "build_date": "2025-07-17T04:03:44Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16335845832",
+    "build_id": "16335845832",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/asimov-outlook-module/stable/asimov-outlook-reader?tag=0.0.0-loongarch64-Linux&download=asimov-outlook-reader.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "ASIMOV module for Outlook email access.",
+    "desktop_integration": "false",
+    "download_count": "117",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/asimov-outlook-module/stable/asimov-outlook-reader?tag=0.0.0-loongarch64-Linux&download=asimov-outlook-reader",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/asimov-outlook-module/stable/asimov-outlook-reader:0.0.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/asimov-outlook-module/stable/asimov-outlook-reader",
+    "homepage": [
+      "https://github.com/asimov-modules/asimov-outlook-module"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "Unlicense"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/asimov-outlook-module/stable/asimov-outlook-reader?tag=0.0.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "asimov-outlook-reader",
+    "pkg_family": "asimov-outlook-module",
+    "pkg_id": "pkgforge-cargo.asimov-outlook-module.stable",
+    "pkg_name": "asimov-outlook-reader",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/asimov-outlook-module",
+    "portable": "true",
+    "provides": [
+      "asimov-outlook-cataloger",
+      "asimov-outlook-fetcher",
+      "asimov-outlook-reader"
+    ],
+    "rank": "4",
+    "recurse_provides": "false",
+    "shasum": "a57863357a1a8f9e643a9e3abd839a1e71626054539aedc157087ee65058692c",
+    "size": "982 KB",
+    "size_raw": "1004816",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/asimov-outlook-module/0.0.0/download"
+    ],
+    "tag": [
+      "ai",
+      "asimov",
+      "asimov-module"
+    ],
+    "trusted": "true",
+    "version": "0.0.0",
+    "version_upstream": "0.0.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "c8bfc9e3b66219bbce9813acc1f4c8ea70b81984b1038c6fbbd567fc72388d70",
     "build_date": "2025-06-15T16:21:06Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15664785530",
@@ -28449,7 +28517,7 @@
     "provides": [
       "amoji"
     ],
-    "rank": "2",
+    "rank": "5",
     "recurse_provides": "false",
     "shasum": "a8fb820f899d79b5dcd5b74e568e5ae256386a04649559574830e78529e76449",
     "size": "1012 KB",
@@ -51735,7 +51803,7 @@
     "provides": [
       "bubblesort-ifyer"
     ],
-    "rank": "3",
+    "rank": "6",
     "recurse_provides": "false",
     "shasum": "e5123194a5d3e80ba7c634560cc260fe98e2c8727d004fb3a347908fbbc542da",
     "size": "436 KB",
@@ -76792,7 +76860,7 @@
     "provides": [
       "claude-launcher"
     ],
-    "rank": "4",
+    "rank": "7",
     "recurse_provides": "false",
     "shasum": "f308acf08a550bd7285dc0aea65478fec33bf14032d90a76f98a302505c22955",
     "size": "884 KB",
@@ -76860,7 +76928,7 @@
     "provides": [
       "claude-token-monitor"
     ],
-    "rank": "5",
+    "rank": "8",
     "recurse_provides": "false",
     "shasum": "50ec3d533e6c5a055d5037a5c595eb88f150b22b0322fc54e7071589b9e2a502",
     "size": "3.0 MB",
@@ -77333,7 +77401,7 @@
     "provides": [
       "cleansh"
     ],
-    "rank": "6",
+    "rank": "9",
     "recurse_provides": "false",
     "shasum": "d7f29b4655720443fa7cf82e4e5f8ac2642ba34775876b2728edf02b7020dffe",
     "size": "2.7 MB",
@@ -80993,7 +81061,7 @@
     "provides": [
       "code-digest"
     ],
-    "rank": "7",
+    "rank": "10",
     "recurse_provides": "false",
     "shasum": "d4f5a90fa3d33086c8ad87f539af49c73cad844c6e73eab87e8c9904c31eb4ed",
     "size": "4.7 MB",
@@ -81925,7 +81993,7 @@
     "provides": [
       "colap"
     ],
-    "rank": "8",
+    "rank": "11",
     "recurse_provides": "false",
     "shasum": "3cf89ec45e07833372b809a0a208bd0ef2187d2f0779160dc0999fcfcc0fe104",
     "size": "3.1 MB",
@@ -82783,7 +82851,7 @@
     "provides": [
       "construstor"
     ],
-    "rank": "9",
+    "rank": "12",
     "recurse_provides": "false",
     "shasum": "dd80079421e8f1ea0691b7a29e25f45429e9ae56de728ca41884c8d0b37ff45c",
     "size": "2.1 MB",
@@ -84775,7 +84843,7 @@
     "provides": [
       "crain"
     ],
-    "rank": "10",
+    "rank": "13",
     "recurse_provides": "false",
     "shasum": "d00ec710f951f7fb8d17f1cf2dcab8fbe8434776b19de5bda2804974ae13896a",
     "size": "804 KB",
@@ -87585,7 +87653,7 @@
     "provides": [
       "cuda2rust"
     ],
-    "rank": "11",
+    "rank": "14",
     "recurse_provides": "false",
     "shasum": "008283e7eb2dce49d5407f55e21672392b08feacf4141ba1e2f8a9dea76fe85a",
     "size": "1.9 MB",
@@ -103278,7 +103346,7 @@
     "provides": [
       "edisonprompt"
     ],
-    "rank": "12",
+    "rank": "15",
     "recurse_provides": "false",
     "shasum": "b594b752613a1cb8011dd965cc0c5d9aa9dc6d73be07c521e88c44525fa204e8",
     "size": "5.8 MB",
@@ -104476,7 +104544,7 @@
     "provides": [
       "emmylua_doc_cli"
     ],
-    "rank": "13",
+    "rank": "16",
     "recurse_provides": "false",
     "shasum": "4eb48a08fdd8107ad53630d9dd1385a698f2fb0c4f76a186d84b4f8dedb3fc52",
     "size": "7.7 MB",
@@ -104901,6 +104969,73 @@
     "trusted": "true",
     "version": "1.1.7",
     "version_upstream": "1.1.7"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "9ef7cabb2d7753038839b48acb548b33cb78136e6d8de444603024dec520ec46",
+    "build_date": "2025-07-17T04:00:37Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16335844030",
+    "build_id": "16335844030",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/end-of-month/stable/end-of-month?tag=0.1.0-loongarch64-Linux&download=end-of-month.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Returns the end of the month for a given date.",
+    "desktop_integration": "false",
+    "download_count": "108",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/end-of-month/stable/end-of-month?tag=0.1.0-loongarch64-Linux&download=end-of-month",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/end-of-month/stable/end-of-month:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/end-of-month/stable/end-of-month",
+    "homepage": [
+      "https://github.com/siswoyo-dev/end-of-month-rs"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/end-of-month/stable/end-of-month?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "end-of-month",
+    "pkg_family": "end-of-month",
+    "pkg_id": "pkgforge-cargo.end-of-month.stable",
+    "pkg_name": "end-of-month",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/end-of-month",
+    "portable": "true",
+    "provides": [
+      "end-of-month"
+    ],
+    "rank": "17",
+    "recurse_provides": "false",
+    "shasum": "fecb6496e328a066ea691fe97b49ea203ceeddfb58ffdca04b154a499681bf15",
+    "size": "516 KB",
+    "size_raw": "528312",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/end-of-month/0.1.0/download"
+    ],
+    "tag": [
+      "calendar",
+      "chrono",
+      "date",
+      "eom"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
   },
   {
     "_disabled": "false",
@@ -115018,7 +115153,7 @@
     "provides": [
       "firewall_audit"
     ],
-    "rank": "14",
+    "rank": "18",
     "recurse_provides": "false",
     "shasum": "c0843ba2a6fdab90938ab4627d25add24ae0c053ce7cf9dd8bf39f14d3c48084",
     "size": "2.6 MB",
@@ -137846,7 +137981,7 @@
     "provides": [
       "hawk"
     ],
-    "rank": "15",
+    "rank": "19",
     "recurse_provides": "false",
     "shasum": "33329fa40ecc05b12590b42b3644bce87d29e4335105608692f3889fc68dda9a",
     "size": "1.2 MB",
@@ -141781,7 +141916,7 @@
     "provides": [
       "howmany"
     ],
-    "rank": "16",
+    "rank": "20",
     "recurse_provides": "false",
     "shasum": "5a80260933ff6de1708d15931fead11adc802a0f5e9dd7ab05957ca6ca04f8cb",
     "size": "3.0 MB",
@@ -144101,7 +144236,7 @@
     "provides": [
       "sonic-stl"
     ],
-    "rank": "17",
+    "rank": "21",
     "recurse_provides": "false",
     "shasum": "c19e9b0fdc074806d985486b0289a48b5fab497c91b75c5f6ec7bb838a3a5888",
     "size": "6.7 MB",
@@ -153863,7 +153998,7 @@
     "provides": [
       "jumplist_parser"
     ],
-    "rank": "18",
+    "rank": "22",
     "recurse_provides": "false",
     "shasum": "d3378fa3520fc2f08976da7dc25ca18d695aa254a8c16b651ffadd6cd707cadd",
     "size": "1.4 MB",
@@ -156533,7 +156668,7 @@
     "provides": [
       "kimi-analyzer"
     ],
-    "rank": "19",
+    "rank": "23",
     "recurse_provides": "false",
     "shasum": "9a929d7bdfc09a131eede98eed02727e9cff977d3eda866aeee5f1ac9dcc174e",
     "size": "2.5 MB",
@@ -156601,7 +156736,7 @@
     "provides": [
       "kimi"
     ],
-    "rank": "20",
+    "rank": "24",
     "recurse_provides": "false",
     "shasum": "510f21391e3032de5e856e6e39094b81b45dfc35e0868cd03ccde882336a548e",
     "size": "612 KB",
@@ -157207,7 +157342,7 @@
     "provides": [
       "kmcp"
     ],
-    "rank": "21",
+    "rank": "25",
     "recurse_provides": "false",
     "shasum": "b8c53b45008f67454dabac644495a1e1478c7169a93ec9024842f131c3cda208",
     "size": "420 KB",
@@ -162741,7 +162876,7 @@
     "provides": [
       "lgx-runtime"
     ],
-    "rank": "22",
+    "rank": "26",
     "recurse_provides": "false",
     "shasum": "6e24f00228e75d7337799c3361f421930706d0ccd9a89ce17c2eb18e74adacc6",
     "size": "1.7 MB",
@@ -162809,7 +162944,7 @@
     "provides": [
       "dryrun"
     ],
-    "rank": "23",
+    "rank": "27",
     "recurse_provides": "false",
     "shasum": "f3ece3194ec7ac1597fdfb7623082e3da0fbca1f3dc2b04bbbb03e72388885e0",
     "size": "4.7 MB",
@@ -162942,7 +163077,7 @@
     "provides": [
       "las2json"
     ],
-    "rank": "24",
+    "rank": "28",
     "recurse_provides": "false",
     "shasum": "1d28cd3abe15cf7c8aa21538e20d391b8e6070c1a7bacc15b3ad6c22ff409ca9",
     "size": "548 KB",
@@ -163599,7 +163734,7 @@
     "provides": [
       "lineguard"
     ],
-    "rank": "25",
+    "rank": "29",
     "recurse_provides": "false",
     "shasum": "bb875d0f65e133605492548c9a4f6325562303aa9539791efc85f8c39950c745",
     "size": "1.5 MB",
@@ -170668,7 +170803,7 @@
     "provides": [
       "maram"
     ],
-    "rank": "26",
+    "rank": "30",
     "recurse_provides": "false",
     "shasum": "6094782d6e78a7e33d02c18ed3fbc2093ffa564281529b71114419564fce2020",
     "size": "2.7 MB",
@@ -172665,7 +172800,7 @@
     "provides": [
       "matchete"
     ],
-    "rank": "27",
+    "rank": "31",
     "recurse_provides": "false",
     "shasum": "396e27ee8539e8df96f4a8320c5bf8e8fa0e0ab4bd351f4868263ef9f389116b",
     "size": "404 KB",
@@ -177344,7 +177479,7 @@
     "provides": [
       "mct"
     ],
-    "rank": "28",
+    "rank": "32",
     "recurse_provides": "false",
     "shasum": "df8e29276e5d2941524ad4e4dab67a3649aabba10d10727a902283b0593cd4a3",
     "size": "1.1 MB",
@@ -178568,7 +178703,7 @@
     "provides": [
       "metis-docs-core"
     ],
-    "rank": "29",
+    "rank": "33",
     "recurse_provides": "false",
     "shasum": "16a9a9c00c623a4ea179a79ebfc3570868ba665049b6a484f6faef8d1ededd74",
     "size": "420 KB",
@@ -178636,7 +178771,7 @@
     "provides": [
       "metis-tui"
     ],
-    "rank": "30",
+    "rank": "34",
     "recurse_provides": "false",
     "shasum": "1e68c32e2864bc0eb753930b880cf5a332441b00a8a33815674d499f9b0f8606",
     "size": "8.1 MB",
@@ -179374,7 +179509,7 @@
     "provides": [
       "miden-client"
     ],
-    "rank": "31",
+    "rank": "35",
     "recurse_provides": "false",
     "shasum": "e4f9d2e848f6c5b442b76b4a8a4643de591f478c9fb763ec186d5b61125338da",
     "size": "20 MB",
@@ -182714,7 +182849,7 @@
     "provides": [
       "mocksmith"
     ],
-    "rank": "32",
+    "rank": "36",
     "recurse_provides": "false",
     "shasum": "e723acdfc827784cac2a35ce734af679e7db50f19713d4b5f04df294c80d5aed",
     "size": "1.7 MB",
@@ -187908,6 +188043,72 @@
   },
   {
     "_disabled": "false",
+    "bsum": "44363bf04b31b09119dcc4724a88b07becc79645e316e2b14c252e806b6871b5",
+    "build_date": "2025-07-17T04:02:57Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16335844255",
+    "build_id": "16335844255",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/nbis-rs/stable/uniffi-bindgen?tag=0.1.0-loongarch64-Linux&download=uniffi-bindgen.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A Rust binding to the NIST Biometric Image Software (NBIS) library, which is used for processing biometric images, particularly in the context of fingerprint recognition.",
+    "desktop_integration": "false",
+    "download_count": "115",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/nbis-rs/stable/uniffi-bindgen?tag=0.1.0-loongarch64-Linux&download=uniffi-bindgen",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/nbis-rs/stable/uniffi-bindgen:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/nbis-rs/stable/uniffi-bindgen",
+    "homepage": [
+      "https://github.com/Seventh-Sense-Artificial-Intelligence/nbis-rs"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/nbis-rs/stable/uniffi-bindgen?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "uniffi-bindgen",
+    "pkg_family": "nbis-rs",
+    "pkg_id": "pkgforge-cargo.nbis-rs.stable",
+    "pkg_name": "uniffi-bindgen",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/nbis-rs",
+    "portable": "true",
+    "provides": [
+      "uniffi-bindgen"
+    ],
+    "rank": "37",
+    "recurse_provides": "false",
+    "shasum": "b4bb76d0044c237e6a29fb0def386a54f745eea9138362e2909bd47839c821c3",
+    "size": "5.5 MB",
+    "size_raw": "5673080",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/nbis-rs/0.1.0/download"
+    ],
+    "tag": [
+      "biometrics",
+      "fingerprint",
+      "nbis"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "01fba7151585481d236909d3122533bc72165f03d04d852aa48f64ce171b516c",
     "build_date": "2025-06-17T14:12:33Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15708478609",
@@ -190877,7 +191078,7 @@
     "provides": [
       "niho"
     ],
-    "rank": "33",
+    "rank": "38",
     "recurse_provides": "false",
     "shasum": "bbfeebf3566da9e0853574c2bb716b1798581be9b03430550b02361d7cca4749",
     "size": "564 KB",
@@ -197701,7 +197902,7 @@
     "provides": [
       "omg"
     ],
-    "rank": "34",
+    "rank": "39",
     "recurse_provides": "false",
     "shasum": "0010bfeef356e255e5dcc0f337bcea8152681dbcc83c289ad202c4478ddd6207",
     "size": "2.4 MB",
@@ -213165,7 +213366,7 @@
     "provides": [
       "prepare_fasta"
     ],
-    "rank": "35",
+    "rank": "40",
     "recurse_provides": "false",
     "shasum": "65e489982824da93dbad49344a90b0f26251b75d741b26f6615611847062d8d6",
     "size": "1.5 MB",
@@ -215040,7 +215241,7 @@
     "provides": [
       "prollytree"
     ],
-    "rank": "36",
+    "rank": "41",
     "recurse_provides": "false",
     "shasum": "ada0342703812b400aa42c99c4268d514e6a14b38b3e1c90e1e797d866859fef",
     "size": "612 KB",
@@ -228965,7 +229166,7 @@
     "provides": [
       "rgb-interfaces-stl"
     ],
-    "rank": "37",
+    "rank": "42",
     "recurse_provides": "false",
     "shasum": "8f7ef080f40e1948f64929afe427fd5acd382602451974d694be8a5f3f0ce383",
     "size": "3.3 MB",
@@ -237947,7 +238148,7 @@
     "provides": [
       "rudu"
     ],
-    "rank": "38",
+    "rank": "43",
     "recurse_provides": "false",
     "shasum": "12a54476a039fb249a646845cec3778c502cc9789d7934df28021d985c843ec3",
     "size": "1.2 MB",
@@ -265427,7 +265628,7 @@
     "provides": [
       "main"
     ],
-    "rank": "39",
+    "rank": "44",
     "recurse_provides": "false",
     "shasum": "8374e4e6373ec720b152c5461746723b210076f0b9ab8c1eba9b5b35cbbfdec0",
     "size": "1.1 MB",
@@ -267153,7 +267354,7 @@
     "provides": [
       "synaptic-mesh"
     ],
-    "rank": "40",
+    "rank": "45",
     "recurse_provides": "false",
     "shasum": "09e2edbe4aadd2164845e5e47c6d6937ec09ea285481b5610deda1dd239426d3",
     "size": "3.6 MB",
@@ -284792,7 +284993,7 @@
     "provides": [
       "ultrasonic-stl"
     ],
-    "rank": "41",
+    "rank": "46",
     "recurse_provides": "false",
     "shasum": "f4b9d27fd89829df4798523764b1cceef8a98d4370ed91c41ca5426df86b0048",
     "size": "5.2 MB",
@@ -292641,7 +292842,7 @@
     "provides": [
       "walnut-dns"
     ],
-    "rank": "42",
+    "rank": "47",
     "recurse_provides": "false",
     "shasum": "36e0a38bb0a67150c7fdc30ee85d6fdba4d8f94e117b807285368c1660933aca",
     "size": "6.3 MB",
