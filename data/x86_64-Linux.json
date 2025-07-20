@@ -221204,6 +221204,71 @@
   },
   {
     "_disabled": "false",
+    "bsum": "68f4e8f9e5861b061dbc6037978de7e365afe8c29fb2ae589949894c6b1d109e",
+    "build_date": "2025-07-20T15:21:13Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16401336052",
+    "build_id": "16401336052",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/matdb/stable/matdb?tag=0.1.0-x86_64-Linux&download=matdb.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "An experimental embedded SQL-like DBMS.",
+    "desktop_integration": "false",
+    "download_count": "110",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/matdb/stable/matdb?tag=0.1.0-x86_64-Linux&download=matdb",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/matdb/stable/matdb:0.1.0-x86_64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/matdb/stable/matdb",
+    "homepage": [
+      "https://gitlab.com/vizdun/matdb"
+    ],
+    "host": "x86_64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/matdb/stable/matdb?tag=0.1.0-x86_64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "matdb",
+    "pkg_family": "matdb",
+    "pkg_id": "pkgforge-cargo.matdb.stable",
+    "pkg_name": "matdb",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/matdb",
+    "portable": "true",
+    "provides": [
+      "matdb"
+    ],
+    "rank": "29",
+    "recurse_provides": "false",
+    "shasum": "0476652d20655d8e209f759da35e6c141a75210b6d7c75597c264ef6583d86ec",
+    "size": "1.9 MB",
+    "size_raw": "1934032",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/matdb/0.1.0/download"
+    ],
+    "tag": [
+      "database",
+      "embedded"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "72853d4d2753fe58cc95b5e671eb1c9b9770b9b43383545f8a19c3cc1803897d",
     "build_date": "2025-06-17T11:14:03Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15704664922",
@@ -223146,6 +223211,74 @@
       "monte",
       "project",
       "schedules"
+    ],
+    "trusted": "true",
+    "version": "0.3.0",
+    "version_upstream": "0.3.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "c91cba3effce9b5b4b8b536d38275fb888a958a5f8d266de88a5242e3d0e5bc0",
+    "build_date": "2025-07-20T15:23:55Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16401336099",
+    "build_id": "16401336099",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/mcpsec/stable/mcpsec?tag=0.3.0-x86_64-Linux&download=mcpsec.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Security scanner for Model Context Protocol (MCP) servers.",
+    "desktop_integration": "false",
+    "download_count": "294",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/mcpsec/stable/mcpsec?tag=0.3.0-x86_64-Linux&download=mcpsec",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/mcpsec/stable/mcpsec:0.3.0-x86_64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/mcpsec/stable/mcpsec",
+    "homepage": [
+      "https://github.com/augmnt/mcpsec"
+    ],
+    "host": "x86_64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/mcpsec/stable/mcpsec?tag=0.3.0-x86_64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "mcpsec",
+    "pkg_family": "mcpsec",
+    "pkg_id": "pkgforge-cargo.mcpsec.stable",
+    "pkg_name": "mcpsec",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/mcpsec",
+    "portable": "true",
+    "provides": [
+      "mcpsec"
+    ],
+    "rank": "30",
+    "recurse_provides": "false",
+    "shasum": "4246765ffa0661cc82f9d9e3c719a105a992f3a36484af65bdcf5ea7770ab701",
+    "size": "3.8 MB",
+    "size_raw": "3929112",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/mcpsec/0.3.0/download"
+    ],
+    "tag": [
+      "cli",
+      "mcp",
+      "scanner",
+      "security",
+      "static-analysis"
     ],
     "trusted": "true",
     "version": "0.3.0",
@@ -226924,7 +227057,7 @@
     "provides": [
       "mct"
     ],
-    "rank": "29",
+    "rank": "31",
     "recurse_provides": "false",
     "shasum": "d1ae7ad8defa64f7107b3d2d32d141d32567e5fc3cf819f9e4b817c68abedac5",
     "size": "1.1 MB",
@@ -229157,7 +229290,7 @@
     "provides": [
       "midas_processor"
     ],
-    "rank": "30",
+    "rank": "32",
     "recurse_provides": "false",
     "shasum": "c147fce74add8775445b622a9a0207a84121720461031fd62652db3c95c31f17",
     "size": "50 MB",
@@ -234282,7 +234415,7 @@
     "provides": [
       "monkeysort"
     ],
-    "rank": "31",
+    "rank": "33",
     "recurse_provides": "false",
     "shasum": "374ea8fe4fb4e40b6d26435b76cce63b1967121e98273fcd75268b323bbf6de4",
     "size": "437 KB",
@@ -239988,7 +240121,7 @@
     "provides": [
       "uniffi-bindgen"
     ],
-    "rank": "32",
+    "rank": "34",
     "recurse_provides": "false",
     "shasum": "97fb5484f00e4f04f2ce4f2877bea38ca1993eb946f7172c8b985a68b5ca4c82",
     "size": "5.7 MB",
@@ -241648,7 +241781,7 @@
     "provides": [
       "nerdicons-gen-rs"
     ],
-    "rank": "33",
+    "rank": "35",
     "recurse_provides": "false",
     "shasum": "09d70c4bb771c320c56fa6789eb3f7067cd6a5df9e79b0fb9d0b6f2ca2e17c5d",
     "size": "501 KB",
@@ -243646,7 +243779,7 @@
     "provides": [
       "niho"
     ],
-    "rank": "34",
+    "rank": "36",
     "recurse_provides": "false",
     "shasum": "1204daf1760c3631493235d5531731397ad39fcf49bb04a2276b8b492baca335",
     "size": "553 KB",
@@ -252148,7 +252281,7 @@
     "provides": [
       "omg"
     ],
-    "rank": "35",
+    "rank": "37",
     "recurse_provides": "false",
     "shasum": "e2167b43873c1d7598e06ccbfeb9cf940f3efd7b5476f3af367f2fde9888e32c",
     "size": "2.4 MB",
@@ -270194,7 +270327,7 @@
     "provides": [
       "prepare_fasta"
     ],
-    "rank": "36",
+    "rank": "38",
     "recurse_provides": "false",
     "shasum": "84a0eb2efa33be1badcdd1aa0fce971d81e4faf92867c645ef2613fa41c01a1f",
     "size": "1.6 MB",
@@ -283954,6 +284087,72 @@
   },
   {
     "_disabled": "false",
+    "bsum": "6127dbe1f4454c05916a701a2a6f69dc7ac9f1146abac7faaef74bbe0af3d0ab",
+    "build_date": "2025-07-20T15:19:45Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16401335995",
+    "build_id": "16401335995",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/readcon-core/stable/readcon-core?tag=0.1.1-x86_64-Linux&download=readcon-core.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "An oxidized single and multiple CON file reader with FFI bindings for ergonomic C/C++ usage.",
+    "desktop_integration": "false",
+    "download_count": "213",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/readcon-core/stable/readcon-core?tag=0.1.1-x86_64-Linux&download=readcon-core",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/readcon-core/stable/readcon-core:0.1.1-x86_64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/readcon-core/stable/readcon-core",
+    "homepage": [
+      "https://github.com/lode-org/readcon-rs"
+    ],
+    "host": "x86_64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/readcon-core/stable/readcon-core?tag=0.1.1-x86_64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "readcon-core",
+    "pkg_family": "readcon-core",
+    "pkg_id": "pkgforge-cargo.readcon-core.stable",
+    "pkg_name": "readcon-core",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/readcon-core",
+    "portable": "true",
+    "provides": [
+      "readcon-core"
+    ],
+    "rank": "39",
+    "recurse_provides": "false",
+    "shasum": "565643a26e0078a75adee23202c57c8f7ea80648f4ee082c53ebaced231ac570",
+    "size": "473 KB",
+    "size_raw": "483880",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/readcon-core/0.1.1/download"
+    ],
+    "tag": [
+      "comp-chem",
+      "file-format",
+      "parser"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "a0baa5a12ddcd5c93b2283f89b9869547ba97d9027b61158e67213c4430b2bee",
     "build_date": "2025-06-17T23:45:53Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15719923735",
@@ -289208,6 +289407,71 @@
   },
   {
     "_disabled": "false",
+    "bsum": "68c0dcf1f172d492cc4bdc3c6cd13d6842dc5b7d8edc3d96d715f664fd8126f8",
+    "build_date": "2025-07-20T15:24:26Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16401336619",
+    "build_id": "16401336619",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/rext-tui/stable/rext-tui?tag=0.1.0-x86_64-Linux&download=rext-tui.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "The Rext TUI for building Fullstack Web Apps.",
+    "desktop_integration": "false",
+    "download_count": "109",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/rext-tui/stable/rext-tui?tag=0.1.0-x86_64-Linux&download=rext-tui",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/rext-tui/stable/rext-tui:0.1.0-x86_64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/rext-tui/stable/rext-tui",
+    "homepage": [
+      "https://github.com/RextStack/rext-tui"
+    ],
+    "host": "x86_64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/rext-tui/stable/rext-tui?tag=0.1.0-x86_64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "rext-tui",
+    "pkg_family": "rext-tui",
+    "pkg_id": "pkgforge-cargo.rext-tui.stable",
+    "pkg_name": "rext-tui",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/rext-tui",
+    "portable": "true",
+    "provides": [
+      "rext-tui"
+    ],
+    "rank": "40",
+    "recurse_provides": "false",
+    "shasum": "bf458c39fce1b00c24db32251199c591495820e3c7109003c51ebf5f83c250c0",
+    "size": "697 KB",
+    "size_raw": "713520",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/rext-tui/0.1.0/download"
+    ],
+    "tag": [
+      "development-tools",
+      "tui"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "7d91ccac75fc0ffa3693bbdaad267d2209231d930b5d72423485040ff0339473",
     "build_date": "2025-06-18T01:50:51Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15721585168",
@@ -293341,6 +293605,74 @@
   },
   {
     "_disabled": "false",
+    "bsum": "5a254c86cbfb388c93cddd384deb83fed17594a1c8bf76293930812cc2d6d043",
+    "build_date": "2025-07-20T15:24:11Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16401336121",
+    "build_id": "16401336121",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/rmtree/stable/rmtree?tag=1.2.0-x86_64-Linux&download=rmtree.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "rmtree is a faster rm -rf.",
+    "desktop_integration": "false",
+    "download_count": "170",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/rmtree/stable/rmtree?tag=1.2.0-x86_64-Linux&download=rmtree",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/rmtree/stable/rmtree:1.2.0-x86_64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/rmtree/stable/rmtree",
+    "homepage": [
+      "https://gitlab.com/davvid/rmtree"
+    ],
+    "host": "x86_64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/rmtree/stable/rmtree?tag=1.2.0-x86_64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "rmtree",
+    "pkg_family": "rmtree",
+    "pkg_id": "pkgforge-cargo.rmtree.stable",
+    "pkg_name": "rmtree",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/rmtree",
+    "portable": "true",
+    "provides": [
+      "rmtree"
+    ],
+    "rank": "41",
+    "recurse_provides": "false",
+    "shasum": "8a47f82af6e0e119471051caed295a27a3b76d3e8deb34a7b34a4198e55b2103",
+    "size": "965 KB",
+    "size_raw": "987832",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/rmtree/1.2.0/download"
+    ],
+    "tag": [
+      "cli",
+      "filesystem",
+      "rm",
+      "rmtree",
+      "utility"
+    ],
+    "trusted": "true",
+    "version": "1.2.0",
+    "version_upstream": "1.2.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "76cd9ffac6f3eab0cdeab078ab60404f61dd17477f2ee8f6ea01a7ea71b73ee9",
     "build_date": "2025-06-14T16:17:48Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15653580226",
@@ -297188,7 +297520,7 @@
     "provides": [
       "rs_abieos_gf"
     ],
-    "rank": "37",
+    "rank": "42",
     "recurse_provides": "false",
     "shasum": "1c23b052f6f05eb616ff16ebbc34604f1ee09f622eff9f8fa3792c724cad9850",
     "size": "837 KB",
@@ -301035,7 +301367,7 @@
     "provides": [
       "rudu"
     ],
-    "rank": "38",
+    "rank": "43",
     "recurse_provides": "false",
     "shasum": "bfe619339c329051cf98118788663cd2b345507aeaface88a7addd78b6ccc3e7",
     "size": "1.2 MB",
@@ -301309,7 +301641,7 @@
     "provides": [
       "rumk"
     ],
-    "rank": "39",
+    "rank": "44",
     "recurse_provides": "false",
     "shasum": "d4d26571c3bfceaf5dc3d3d27c72d2157b0615bce862e5c5d6464512df704753",
     "size": "1.4 MB",
@@ -307856,7 +308188,7 @@
     "provides": [
       "server"
     ],
-    "rank": "40",
+    "rank": "45",
     "recurse_provides": "false",
     "shasum": "0158236e50550c8d10aa5d871ac4a25a5ca5ade9d99306943155208a9b251923",
     "size": "3.0 MB",
@@ -310325,7 +310657,7 @@
     "provides": [
       "sales"
     ],
-    "rank": "41",
+    "rank": "46",
     "recurse_provides": "false",
     "shasum": "0daae871baa8c6d5fbf52a35516a6f33d4032dcd3d1baa57f7d2c139bee2e670",
     "size": "2.5 MB",
@@ -311120,7 +311452,7 @@
     "provides": [
       "sassy"
     ],
-    "rank": "42",
+    "rank": "47",
     "recurse_provides": "false",
     "shasum": "7ecd7dd47c3b97d90335246ae3052e73a76d66b0118224067633cc34b0e73b6c",
     "size": "2.8 MB",
@@ -314365,7 +314697,7 @@
       "generate_gutenberg_sentences",
       "seams"
     ],
-    "rank": "45",
+    "rank": "50",
     "recurse_provides": "false",
     "shasum": "ffd794215048a98e0ec1eb6dde5550bc8b37ab9bb5b964faa5c6a4c43b972f29",
     "size": "3.9 MB",
@@ -321901,7 +322233,7 @@
     "provides": [
       "sizelint"
     ],
-    "rank": "46",
+    "rank": "51",
     "recurse_provides": "false",
     "shasum": "a077ba270965d63e6c662d6fdea4c2447634d7faec43df5f50bc2dc5d9102f82",
     "size": "4.6 MB",
@@ -326201,6 +326533,74 @@
     "trusted": "true",
     "version": "0.1.0",
     "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "f9f3c42033353f9c7407df540de2e3715eadfd69e447abb0808a7102cbaf030b",
+    "build_date": "2025-07-20T15:27:39Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16401336676",
+    "build_id": "16401336676",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/solidmcp/stable/solidmcp-server?tag=0.3.0-alpha.2-x86_64-Linux&download=solidmcp-server.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A high-level Rust toolkit for building Model Context Protocol (MCP) servers with type safety and minimal boilerplate.",
+    "desktop_integration": "false",
+    "download_count": "449",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/solidmcp/stable/solidmcp-server?tag=0.3.0-alpha.2-x86_64-Linux&download=solidmcp-server",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/solidmcp/stable/solidmcp-server:0.3.0-alpha.2-x86_64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/solidmcp/stable/solidmcp-server",
+    "homepage": [
+      "https://github.com/jupitersoftco/solidmcp"
+    ],
+    "host": "x86_64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/solidmcp/stable/solidmcp-server?tag=0.3.0-alpha.2-x86_64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "solidmcp-server",
+    "pkg_family": "solidmcp",
+    "pkg_id": "pkgforge-cargo.solidmcp.stable",
+    "pkg_name": "solidmcp-server",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/solidmcp",
+    "portable": "true",
+    "provides": [
+      "solidmcp-server"
+    ],
+    "rank": "52",
+    "recurse_provides": "false",
+    "shasum": "82b41d4512a0ad8f8e24dbbbe958adf7c65e3e7fde662291f60ffc0994e360ba",
+    "size": "5.3 MB",
+    "size_raw": "5482040",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/solidmcp/0.3.0-alpha.2/download"
+    ],
+    "tag": [
+      "ai",
+      "llm",
+      "mcp",
+      "protocol",
+      "server"
+    ],
+    "trusted": "true",
+    "version": "0.3.0-alpha.2",
+    "version_upstream": "0.3.0-alpha.2"
   },
   {
     "_disabled": "false",
@@ -335288,7 +335688,7 @@
     "provides": [
       "main"
     ],
-    "rank": "47",
+    "rank": "53",
     "recurse_provides": "false",
     "shasum": "af014524c86ffe8676b862f08658644381352d3fc12eb31e3c22f596e1020fdf",
     "size": "1.2 MB",
@@ -336615,7 +337015,7 @@
     "provides": [
       "svg2ipe"
     ],
-    "rank": "48",
+    "rank": "54",
     "recurse_provides": "false",
     "shasum": "97fbaaf61f656d5391aed019f24f946cfb79eaf1afffd86ccf4621256ded0f73",
     "size": "605 KB",
@@ -337670,7 +338070,7 @@
     "provides": [
       "synaptic-mesh"
     ],
-    "rank": "49",
+    "rank": "55",
     "recurse_provides": "false",
     "shasum": "208c554fca343d6d1ca182034b4e5fc0d21461e9243e726aeb8c7ad70bb0fcee",
     "size": "3.5 MB",
@@ -355971,7 +356371,7 @@
     "provides": [
       "tusk-rust"
     ],
-    "rank": "50",
+    "rank": "56",
     "recurse_provides": "false",
     "shasum": "0afbafcbbcb1e4315cb3536e41418e7b0d6aec792cc5956e0b8e980b0e61127f",
     "size": "3.6 MB",
@@ -368417,7 +368817,7 @@
     "provides": [
       "walnut-dns"
     ],
-    "rank": "51",
+    "rank": "57",
     "recurse_provides": "false",
     "shasum": "9b3b6fc48daad860a093bf6e9d2503ef4081d37a7e510917ec6a4743bd16fe59",
     "size": "6.5 MB",
@@ -376312,7 +376712,7 @@
       "wormsign",
       "wormsign-confgen"
     ],
-    "rank": "52",
+    "rank": "58",
     "recurse_provides": "false",
     "shasum": "119c82494dde1a7fda50d6aba16a46c4790cb19439b5aae382d75acd76198d8a",
     "size": "405 KB",
