@@ -159334,6 +159334,71 @@
   },
   {
     "_disabled": "false",
+    "bsum": "4f261b1f532ede7f21177cbeb3b4efa72da3087279380604baa79c12330309f5",
+    "build_date": "2025-08-10T15:22:43Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16863171783",
+    "build_id": "16863171783",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/jvmvm-api/stable/jvmvm-api?tag=0.1.0-loongarch64-Linux&download=jvmvm-api.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "The API for the JVMVM.",
+    "desktop_integration": "false",
+    "download_count": "98",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/jvmvm-api/stable/jvmvm-api?tag=0.1.0-loongarch64-Linux&download=jvmvm-api",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/jvmvm-api/stable/jvmvm-api:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/jvmvm-api/stable/jvmvm-api",
+    "homepage": [
+      "https://git.sr.ht/~ragreener1/jvmvm"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "BSD-3-Clause"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/jvmvm-api/stable/jvmvm-api?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "jvmvm-api",
+    "pkg_family": "jvmvm-api",
+    "pkg_id": "pkgforge-cargo.jvmvm-api.stable",
+    "pkg_name": "jvmvm-api",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/jvmvm-api",
+    "portable": "true",
+    "provides": [
+      "jvmvm-api"
+    ],
+    "rank": "22",
+    "recurse_provides": "false",
+    "shasum": "759f356807aecf6e26c85298c378c0e5ab5435bfd9907c98d059f91b05cd7b14",
+    "size": "3.6 MB",
+    "size_raw": "3722376",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/jvmvm-api/0.1.0/download"
+    ],
+    "tag": [
+      "api",
+      "java"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "9186ee824dfbdcf3bfa18bccfa961fa62a84a945bf8d050b5391309723ca4957",
     "build_date": "2025-06-17T08:05:26Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15700965458",
@@ -181136,7 +181201,7 @@
       "debug_preprocessor",
       "mdbook-lint"
     ],
-    "rank": "23",
+    "rank": "24",
     "recurse_provides": "false",
     "shasum": "023ca3278903e8ce7b05a3eb4685dd19f83ee0da294aeb09dc10229203671e74",
     "size": "2.3 MB",
@@ -190439,7 +190504,7 @@
     "provides": [
       "mqtt-system-monitor"
     ],
-    "rank": "24",
+    "rank": "25",
     "recurse_provides": "false",
     "shasum": "05073840f596f93a64cafd6b610b94ee6195827198a13e38cc499a7e4bdda023",
     "size": "2.3 MB",
@@ -193618,7 +193683,7 @@
     "provides": [
       "nano-web"
     ],
-    "rank": "25",
+    "rank": "26",
     "recurse_provides": "false",
     "shasum": "d5409bdf008be2425899872feda80b7b31ce66c3c7b83b59d47f907db4a4f94f",
     "size": "6.2 MB",
@@ -201773,7 +201838,7 @@
     "provides": [
       "test_example"
     ],
-    "rank": "26",
+    "rank": "27",
     "recurse_provides": "false",
     "shasum": "e44577e964779703d1e269e9530a626da1b4f3ea292469b4eaef2c60affb4a8b",
     "size": "997 KB",
@@ -211295,7 +211360,7 @@
     "provides": [
       "perfume"
     ],
-    "rank": "27",
+    "rank": "28",
     "recurse_provides": "false",
     "shasum": "eaefacab6ab06b1a447e104ada1dfd02fc1a374915eee743837f9decdc02cef8",
     "size": "404 KB",
@@ -214902,7 +214967,7 @@
     "provides": [
       "pirohxy"
     ],
-    "rank": "28",
+    "rank": "29",
     "recurse_provides": "false",
     "shasum": "fdce7b7e7e4fb7e4947fbdb18c5d765785ec449dd1bd883b19193633f148c88c",
     "size": "16 MB",
@@ -216561,7 +216626,7 @@
     "provides": [
       "pluggable"
     ],
-    "rank": "29",
+    "rank": "30",
     "recurse_provides": "false",
     "shasum": "97f5f9377df29a815730b3ba17e48e6d4cb5453f6425d92f6d5e80239fa14b4d",
     "size": "420 KB",
@@ -217621,7 +217686,7 @@
     "provides": [
       "poetry-pass"
     ],
-    "rank": "30",
+    "rank": "31",
     "recurse_provides": "false",
     "shasum": "c60145b05dd3ece888194e7721492e57c0f5a545054a5dae175ceffac6d61b5f",
     "size": "1012 KB",
@@ -219634,7 +219699,7 @@
     "provides": [
       "power-rules-daemon"
     ],
-    "rank": "31",
+    "rank": "32",
     "recurse_provides": "false",
     "shasum": "9912591daa703b076833ef77690762738a502c06164eddbfc7fdc5d127edf3ee",
     "size": "1.1 MB",
@@ -223843,7 +223908,7 @@
       "pfiles",
       "ptree"
     ],
-    "rank": "35",
+    "rank": "36",
     "recurse_provides": "false",
     "shasum": "1ecd664a116b166a2b810b4ec4fb601b793c163c50031d158cf254235aabbf52",
     "size": "820 KB",
@@ -224645,7 +224710,7 @@
     "provides": [
       "purger-cli"
     ],
-    "rank": "36",
+    "rank": "37",
     "recurse_provides": "false",
     "shasum": "fa60fbf07da7b0bc844cf242ac75f0bb606804056c0a4fb1657a8025fb3077eb",
     "size": "3.5 MB",
@@ -225506,7 +225571,7 @@
     "provides": [
       "pysentry"
     ],
-    "rank": "37",
+    "rank": "38",
     "recurse_provides": "false",
     "shasum": "bba52df1284b86530bbcf086b017e03216dc4c2f294731a38fd8dd11a760dfb2",
     "size": "6.3 MB",
@@ -231846,7 +231911,7 @@
     "provides": [
       "generate_types"
     ],
-    "rank": "38",
+    "rank": "39",
     "recurse_provides": "false",
     "shasum": "464ffada715e64f80cf9c3546b92475498cf89bf6a8355a558b7e1d0c0211e71",
     "size": "420 KB",
@@ -233047,7 +233112,7 @@
     "provides": [
       "redacta"
     ],
-    "rank": "39",
+    "rank": "40",
     "recurse_provides": "false",
     "shasum": "1344fa337c850ac6030183fa257d812fc57aac775ba37f6acc03d7acb4bc86fc",
     "size": "1.3 MB",
@@ -253059,7 +253124,7 @@
     "provides": [
       "rustysquid"
     ],
-    "rank": "40",
+    "rank": "41",
     "recurse_provides": "false",
     "shasum": "b50113d9d0d0e216b62005e3fc8875b1ecad5c29c8da6ae9657ca94becb07ca6",
     "size": "2.2 MB",
@@ -255278,6 +255343,74 @@
     "trusted": "true",
     "version": "0.2.1",
     "version_upstream": "0.2.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "87ed127c0997fd9fa75482fbdba4effafcadacf7d663ea7a16a5d6c09a76545c",
+    "build_date": "2025-08-10T15:21:05Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16863171721",
+    "build_id": "16863171721",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/satch/stable/satch?tag=0.1.0-loongarch64-Linux&download=satch.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A high-performance Rust implementation of picomatch/micromatch pattern matching.",
+    "desktop_integration": "false",
+    "download_count": "99",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/satch/stable/satch?tag=0.1.0-loongarch64-Linux&download=satch",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/satch/stable/satch:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/satch/stable/satch",
+    "homepage": [
+      "https://github.com/ushironoko/satch"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/satch/stable/satch?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "satch",
+    "pkg_family": "satch",
+    "pkg_id": "pkgforge-cargo.satch.stable",
+    "pkg_name": "satch",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/satch",
+    "portable": "true",
+    "provides": [
+      "satch"
+    ],
+    "rank": "42",
+    "recurse_provides": "false",
+    "shasum": "e26c99fd32ef2ba768677f843e165859cff280fa5b877187457453b3c8a24103",
+    "size": "804 KB",
+    "size_raw": "823192",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/satch/0.1.0/download"
+    ],
+    "tag": [
+      "glob",
+      "matching",
+      "micromatch",
+      "pattern",
+      "picomatch"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
   },
   {
     "_disabled": "false",
@@ -264262,7 +264395,7 @@
     "provides": [
       "single-variable-algebra-compiler"
     ],
-    "rank": "41",
+    "rank": "43",
     "recurse_provides": "false",
     "shasum": "aa1a48c217350977c0a3b80c7fe190f977d400ee1c9523f26b9ff391096e9ef8",
     "size": "532 KB",
@@ -275390,7 +275523,7 @@
     "provides": [
       "simd_test"
     ],
-    "rank": "42",
+    "rank": "44",
     "recurse_provides": "false",
     "shasum": "585d4d877650db50c4169964b69649828e3477eba957917008e23c2284ed959b",
     "size": "644 KB",
@@ -277385,7 +277518,7 @@
     "provides": [
       "switchgear-migration"
     ],
-    "rank": "43",
+    "rank": "45",
     "recurse_provides": "false",
     "shasum": "649fd2cb2be9931ceaf1659537a2aa3d01f19aeae0c78535fe9e0024c9d77853",
     "size": "11 MB",
@@ -292364,7 +292497,7 @@
     "provides": [
       "tsef"
     ],
-    "rank": "44",
+    "rank": "46",
     "recurse_provides": "false",
     "shasum": "5a949f918b6078374c19ceee0adbbf1e00aa0e8095df3ea39df6d9c9bb981b03",
     "size": "820 KB",
@@ -298203,7 +298336,7 @@
     "provides": [
       "uroman-rs"
     ],
-    "rank": "45",
+    "rank": "47",
     "recurse_provides": "false",
     "shasum": "0f32f3de2bd0348b884fcb7982415cf56dcf4877c4183cc80698b185e2a01f61",
     "size": "5.7 MB",
@@ -299073,7 +299206,7 @@
     "provides": [
       "utsusu"
     ],
-    "rank": "46",
+    "rank": "48",
     "recurse_provides": "false",
     "shasum": "08299900a7cf27149cded97922513e0a95e6f3056674827046f9d24a8826792a",
     "size": "5.2 MB",
@@ -311228,6 +311361,73 @@
   },
   {
     "_disabled": "false",
+    "bsum": "044d65d83cde11a070a1a99403516f083a760967620423e6d5a71a1d61622a58",
+    "build_date": "2025-08-10T15:24:33Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16863173057",
+    "build_id": "16863173057",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/wx-uploader/stable/wx-uploader?tag=0.5.0-loongarch64-Linux&download=wx-uploader.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A tool to upload articles to WeChat Official Account.",
+    "desktop_integration": "false",
+    "download_count": "868",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/wx-uploader/stable/wx-uploader?tag=0.5.0-loongarch64-Linux&download=wx-uploader",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/wx-uploader/stable/wx-uploader:0.5.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/wx-uploader/stable/wx-uploader",
+    "homepage": [
+      "https://github.com/tyrchen/wx-uploader"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/wx-uploader/stable/wx-uploader?tag=0.5.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "wx-uploader",
+    "pkg_family": "wx-uploader",
+    "pkg_id": "pkgforge-cargo.wx-uploader.stable",
+    "pkg_name": "wx-uploader",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/wx-uploader",
+    "portable": "true",
+    "provides": [
+      "wx-uploader"
+    ],
+    "rank": "49",
+    "recurse_provides": "false",
+    "shasum": "fb110142b094964aff6ed7a496687257195c64d29d2a069750ac29a09e6c60e5",
+    "size": "8.6 MB",
+    "size_raw": "8957536",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/wx-uploader/0.5.0/download"
+    ],
+    "tag": [
+      "official-account",
+      "uploader",
+      "wechat",
+      "weixin"
+    ],
+    "trusted": "true",
+    "version": "0.5.0",
+    "version_upstream": "0.5.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "e943a895a6849840d666cf6832cc38e2391fa1f0d40b8ffbd11ae1dc90d0eb0c",
     "build_date": "2025-06-19T13:48:09Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15758465105",
@@ -315490,6 +315690,75 @@
     "trusted": "true",
     "version": "1.2.4",
     "version_upstream": "1.2.4"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "e50a06c7489494751784692026d8305cc0ba612c4e732503f88fd9990bd71407",
+    "build_date": "2025-08-10T15:25:02Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16863173305",
+    "build_id": "16863173305",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/yks_converter/stable/yks_converter?tag=0.1.0-loongarch64-Linux&download=yks_converter.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A Rust library for converting MML (Music Macro Language) to MIDI format.",
+    "desktop_integration": "false",
+    "download_count": "93",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/yks_converter/stable/yks_converter?tag=0.1.0-loongarch64-Linux&download=yks_converter",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/yks_converter/stable/yks_converter:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/yks_converter/stable/yks_converter",
+    "homepage": [
+      "https://github.com/rajephon/YKSConverter"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "BSD-2-Clause"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/yks_converter/stable/yks_converter?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "yks_converter",
+    "pkg_family": "yks_converter",
+    "pkg_id": "pkgforge-cargo.yks_converter.stable",
+    "pkg_name": "yks_converter",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/yks_converter",
+    "portable": "true",
+    "provides": [
+      "test_baseline",
+      "yks_converter"
+    ],
+    "rank": "51",
+    "recurse_provides": "false",
+    "shasum": "cb3e63ef79877103626bad33c8bd8e6cb201033250fb0d75b4dbc07c411bc7a1",
+    "size": "1.7 MB",
+    "size_raw": "1740648",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/yks_converter/0.1.0/download"
+    ],
+    "tag": [
+      "audio",
+      "converter",
+      "midi",
+      "mml",
+      "music"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
   },
   {
     "_disabled": "false",
