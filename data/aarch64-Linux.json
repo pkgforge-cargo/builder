@@ -2193,7 +2193,7 @@
     "provides": [
       "janus"
     ],
-    "rank": "37",
+    "rank": "41",
     "recurse_provides": "false",
     "shasum": "2ae7f5cbbd3269e175e2f9e88f69538e6e8c3e5fc3e1e58f199f1b8edf703a33",
     "size": "2.5 MB",
@@ -67979,6 +67979,72 @@
   },
   {
     "_disabled": "false",
+    "bsum": "06eca30284ca778bb74d9142c8cd8022939c2385a3c7f463bff832d1d5f9c3b4",
+    "build_date": "2025-08-14T15:21:35Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16969346359",
+    "build_id": "16969346359",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/bn-curves/stable/bnparamgen?tag=0.1.1-aarch64-Linux&download=bnparamgen.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A pure Rust framework for pairing-based cryptography using BN curves.",
+    "desktop_integration": "false",
+    "download_count": "699",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/bn-curves/stable/bnparamgen?tag=0.1.1-aarch64-Linux&download=bnparamgen",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/bn-curves/stable/bnparamgen:0.1.1-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/bn-curves/stable/bnparamgen",
+    "homepage": [
+      "https://github.com/pbarreto-crypto/bn-curves"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/bn-curves/stable/bnparamgen?tag=0.1.1-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "bnparamgen",
+    "pkg_family": "bn-curves",
+    "pkg_id": "pkgforge-cargo.bn-curves.stable",
+    "pkg_name": "bnparamgen",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/bn-curves",
+    "portable": "true",
+    "provides": [
+      "bnparamgen"
+    ],
+    "rank": "3",
+    "recurse_provides": "false",
+    "shasum": "505f26e1b36fd2477ac4f9ede6b6895f68f1711b3b4164832d7fecfe38588df5",
+    "size": "420 KB",
+    "size_raw": "430032",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/bn-curves/0.1.1/download"
+    ],
+    "tag": [
+      "barreto-naehrig",
+      "bilinear-pairings",
+      "bn-curves"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "36be14dad6ab2541855193b776b109db0ad3d23fb71a2cc8c92155e94a5e6a8f",
     "build_date": "2025-06-16T03:19:42Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15670541664",
@@ -99430,7 +99496,7 @@
       "caxton",
       "generate_test_wasm"
     ],
-    "rank": "4",
+    "rank": "5",
     "recurse_provides": "false",
     "shasum": "68b760114be83b5974ecfc51d7527a58a4f2bc09e7d890c9cc44583dc5463dc7",
     "size": "1.4 MB",
@@ -102448,7 +102514,7 @@
     "provides": [
       "chaf"
     ],
-    "rank": "5",
+    "rank": "6",
     "recurse_provides": "false",
     "shasum": "ac04c259cbb2c6cfcd158b4a30bfbda0c32896f8df22f1bab1b535beec0cfadb",
     "size": "736 KB",
@@ -107008,7 +107074,7 @@
     "provides": [
       "claudecode"
     ],
-    "rank": "6",
+    "rank": "7",
     "recurse_provides": "false",
     "shasum": "cf1966f5e18ea67b796572a5eced34904eabe1086b4415bba2ef5ec99a8561ba",
     "size": "352 KB",
@@ -115852,7 +115918,7 @@
     "provides": [
       "coursemap"
     ],
-    "rank": "7",
+    "rank": "8",
     "recurse_provides": "false",
     "shasum": "a1e44cee74de30c751ea178f123c1ff54fa17c21ce34f201c91fc4658dd05ce1",
     "size": "2.1 MB",
@@ -120999,7 +121065,7 @@
     "provides": [
       "cu"
     ],
-    "rank": "8",
+    "rank": "9",
     "recurse_provides": "false",
     "shasum": "5d2232d735369bfb2a6b217012eeec81c710153bea8e137f67fde8bc793de824",
     "size": "3.4 MB",
@@ -124639,7 +124705,7 @@
     "provides": [
       "debtmap"
     ],
-    "rank": "9",
+    "rank": "10",
     "recurse_provides": "false",
     "shasum": "f2265762c8338fff10f5f47855961877e28c674fbc8e4245caeeacc2f12e2846",
     "size": "8.5 MB",
@@ -141357,7 +141423,7 @@
     "provides": [
       "enchanter"
     ],
-    "rank": "10",
+    "rank": "11",
     "recurse_provides": "false",
     "shasum": "335c63951a9a01dd1b84cbd5059905e105294db725987189a66de5be0d3896be",
     "size": "604 KB",
@@ -143357,7 +143423,7 @@
     "provides": [
       "eqdraw"
     ],
-    "rank": "11",
+    "rank": "12",
     "recurse_provides": "false",
     "shasum": "60b5ff9fa4727b4edd40180c19ce1cd57424cfce4db41bbdea26c1be3a3806c4",
     "size": "2.0 MB",
@@ -152318,7 +152384,7 @@
     "provides": [
       "file-identify"
     ],
-    "rank": "12",
+    "rank": "13",
     "recurse_provides": "false",
     "shasum": "c0984ac57699c9b00703f3a891b317ba801a957a7a012c3aa5d81db58c566765",
     "size": "765 KB",
@@ -168567,7 +168633,7 @@
     "provides": [
       "get_dir_hash"
     ],
-    "rank": "13",
+    "rank": "14",
     "recurse_provides": "false",
     "shasum": "febc80e8e185bd528cf2f73b260e494c1958742e4482d3ac3aa8bd996337e28c",
     "size": "1.3 MB",
@@ -175197,7 +175263,7 @@
     "provides": [
       "gload"
     ],
-    "rank": "14",
+    "rank": "15",
     "recurse_provides": "false",
     "shasum": "ec0eb347d0379b9019a8476f3ac7a512800267fcd9bc889e7127531c754e8e1c",
     "size": "3.9 MB",
@@ -186316,7 +186382,7 @@
     "provides": [
       "hojicha"
     ],
-    "rank": "15",
+    "rank": "16",
     "recurse_provides": "false",
     "shasum": "a7d243cd8537cfaf559356edf4420e0bb6903c341b072ca6d8225a742a3fec85",
     "size": "352 KB",
@@ -194997,6 +195063,142 @@
   },
   {
     "_disabled": "false",
+    "bsum": "7fd815b7e5b68d5b498c6224eedaeb6055f1c5a63eb8a63e606d6ebe9e4ccf48",
+    "build_date": "2025-08-14T15:25:11Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16969346037",
+    "build_id": "16969346037",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/innernet-publicip/stable/innernet-publicip?tag=1.7.0-aarch64-Linux&download=innernet-publicip.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple library to get your public IP (IPv4 and/or IPv6).",
+    "desktop_integration": "false",
+    "download_count": "109",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/innernet-publicip/stable/innernet-publicip?tag=1.7.0-aarch64-Linux&download=innernet-publicip",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/innernet-publicip/stable/innernet-publicip:1.7.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/innernet-publicip/stable/innernet-publicip",
+    "homepage": [
+      "https://github.com/tonarino/innernet"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/innernet-publicip/stable/innernet-publicip?tag=1.7.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "innernet-publicip",
+    "pkg_family": "innernet-publicip",
+    "pkg_id": "pkgforge-cargo.innernet-publicip.stable",
+    "pkg_name": "innernet-publicip",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/innernet-publicip",
+    "portable": "true",
+    "provides": [
+      "innernet-publicip"
+    ],
+    "rank": "17",
+    "recurse_provides": "false",
+    "shasum": "c0f26da0f7379d78aeb404055fafad1610955a7e1308ea673744a51479e46023",
+    "size": "364 KB",
+    "size_raw": "372688",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/innernet-publicip/1.7.0/download"
+    ],
+    "tag": [
+      "innernet",
+      "networking",
+      "overlay",
+      "vpn",
+      "wireguard"
+    ],
+    "trusted": "true",
+    "version": "1.7.0",
+    "version_upstream": "1.7.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "fd7d8abe36d8226077e714289f1f40a91d60853a3296add448b9cf75c36f1a21",
+    "build_date": "2025-08-14T15:23:00Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16969346907",
+    "build_id": "16969346907",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/innernet-server/stable/innernet-server?tag=1.7.0-aarch64-Linux&download=innernet-server.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A server to coordinate innernet networks.",
+    "desktop_integration": "false",
+    "download_count": "105",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/innernet-server/stable/innernet-server?tag=1.7.0-aarch64-Linux&download=innernet-server",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/innernet-server/stable/innernet-server:1.7.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/innernet-server/stable/innernet-server",
+    "homepage": [
+      "https://github.com/tonarino/innernet"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/innernet-server/stable/innernet-server?tag=1.7.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "innernet-server",
+    "pkg_family": "innernet-server",
+    "pkg_id": "pkgforge-cargo.innernet-server.stable",
+    "pkg_name": "innernet-server",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/innernet-server",
+    "portable": "true",
+    "provides": [
+      "innernet-server"
+    ],
+    "rank": "18",
+    "recurse_provides": "false",
+    "shasum": "83229ad84cad88fbe0e1f6aed6a07007468d565831cd8cd88651233209b575d9",
+    "size": "6.3 MB",
+    "size_raw": "6568176",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/innernet-server/1.7.0/download"
+    ],
+    "tag": [
+      "innernet",
+      "networking",
+      "overlay",
+      "vpn",
+      "wireguard"
+    ],
+    "trusted": "true",
+    "version": "1.7.0",
+    "version_upstream": "1.7.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "8f4d1fb83f0381bdb3fbe4649dc2bffdb21a208ff7a590b7fc2276607d886b26",
     "build_date": "2025-06-17T06:53:10Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15699855172",
@@ -203066,7 +203268,7 @@
     "provides": [
       "jvmvm-api"
     ],
-    "rank": "16",
+    "rank": "19",
     "recurse_provides": "false",
     "shasum": "8f5ed902288730914f70283362f1ed7f66bd204c4528e9adbe2c78c1b4026dc0",
     "size": "3.1 MB",
@@ -209283,6 +209485,74 @@
   },
   {
     "_disabled": "false",
+    "bsum": "52f8f77b9296e5d5ff0171b4589a8d484bcc7bce6fd963d720f87a6c676f614c",
+    "build_date": "2025-08-14T15:27:29Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16969348104",
+    "build_id": "16969348104",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/kuwahara-filter/stable/kf?tag=0.1.0-aarch64-Linux&download=kf.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Fast Kuwahara filter implementation for artistic image effects.",
+    "desktop_integration": "false",
+    "download_count": "102",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/kuwahara-filter/stable/kf?tag=0.1.0-aarch64-Linux&download=kf",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/kuwahara-filter/stable/kf:0.1.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/kuwahara-filter/stable/kf",
+    "homepage": [
+      "https://github.com/petamorikei/kuwahara-filter"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/kuwahara-filter/stable/kf?tag=0.1.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "kf",
+    "pkg_family": "kuwahara-filter",
+    "pkg_id": "pkgforge-cargo.kuwahara-filter.stable",
+    "pkg_name": "kf",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/kuwahara-filter",
+    "portable": "true",
+    "provides": [
+      "kf"
+    ],
+    "rank": "20",
+    "recurse_provides": "false",
+    "shasum": "c01660143dfed83cdd0cc4385accb785305c8ecaeb6214466fe81288c6a1c396",
+    "size": "1.7 MB",
+    "size_raw": "1769568",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/kuwahara-filter/0.1.0/download"
+    ],
+    "tag": [
+      "artistic",
+      "filter",
+      "image-processing",
+      "kuwahara",
+      "painterly"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "5c3e2508cffc58a5c90820c701a787104cdc42a5caaa772d045d888c147d022c",
     "build_date": "2025-06-17T08:54:19Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15701478061",
@@ -211524,7 +211794,7 @@
     "provides": [
       "lc"
     ],
-    "rank": "17",
+    "rank": "21",
     "recurse_provides": "false",
     "shasum": "829fa84bd4de907e9a6b5ce13f5f7309c79a5945efb6f16a2685f5d6b6dc9974",
     "size": "33 MB",
@@ -217391,7 +217661,7 @@
     "provides": [
       "loctok"
     ],
-    "rank": "18",
+    "rank": "22",
     "recurse_provides": "false",
     "shasum": "03ba3896013a1fa53860d65b40da128a024aa6df747b440f0332149149434738",
     "size": "9.5 MB",
@@ -230861,7 +231131,7 @@
     "provides": [
       "medi"
     ],
-    "rank": "19",
+    "rank": "23",
     "recurse_provides": "false",
     "shasum": "02881db5980fd2783c7f15b3b3621df3168eaa3b5b9c3c8304c7e0b8dbc552e0",
     "size": "1.6 MB",
@@ -243861,7 +244131,7 @@
     "provides": [
       "nano-web"
     ],
-    "rank": "20",
+    "rank": "24",
     "recurse_provides": "false",
     "shasum": "3a333c4e9470157ac129f07dcb566cb84be5e7b35e11f58f2202d48080cf2471",
     "size": "5.6 MB",
@@ -259220,7 +259490,7 @@
     "provides": [
       "outline-mcp"
     ],
-    "rank": "21",
+    "rank": "25",
     "recurse_provides": "false",
     "shasum": "950d671a855edbeff668728623ec34e76889092ae41bf153a70b6ad7633ed602",
     "size": "5.0 MB",
@@ -265348,7 +265618,7 @@
     "provides": [
       "perfume"
     ],
-    "rank": "22",
+    "rank": "26",
     "recurse_provides": "false",
     "shasum": "b42bb9b16a622aa423401b81f920ef1689571b10271d435a3179a4cbb666b289",
     "size": "348 KB",
@@ -271133,7 +271403,7 @@
     "provides": [
       "snapshots"
     ],
-    "rank": "23",
+    "rank": "27",
     "recurse_provides": "false",
     "shasum": "ca050f8cb2160263025418ee93143df11714687adce51e1e3c5eea60a338e536",
     "size": "8.2 MB",
@@ -272259,7 +272529,7 @@
     "provides": [
       "poetry-pass"
     ],
-    "rank": "24",
+    "rank": "28",
     "recurse_provides": "false",
     "shasum": "fcb61623c489b58b7ba6415ef778f3d470076189e0eb58b79f9831886a463590",
     "size": "953 KB",
@@ -273800,7 +274070,7 @@
     "provides": [
       "data_generation"
     ],
-    "rank": "25",
+    "rank": "29",
     "recurse_provides": "false",
     "shasum": "1ae68be46d840e04361f3ae4dd44fc87f169cb0c13091c19511509c364164a1c",
     "size": "1.2 MB",
@@ -280081,7 +280351,7 @@
       "pfiles",
       "ptree"
     ],
-    "rank": "29",
+    "rank": "33",
     "recurse_provides": "false",
     "shasum": "da7272e937b471aa66bac22397aaf29a5bf8c1620ea403330b59c4d8d872432c",
     "size": "704 KB",
@@ -282010,7 +282280,7 @@
     "provides": [
       "pysentry"
     ],
-    "rank": "30",
+    "rank": "34",
     "recurse_provides": "false",
     "shasum": "0c17f16f698ba8ad06d5d3d2633d95989cf75d605a313adb4cffb8308aa43bae",
     "size": "5.8 MB",
@@ -282141,7 +282411,7 @@
     "provides": [
       "python-proto-importer"
     ],
-    "rank": "31",
+    "rank": "35",
     "recurse_provides": "false",
     "shasum": "5425bcf22ccd50d8399ce4b5e916c33d29ecb1d88973047f55dcc2ad620b573b",
     "size": "3.8 MB",
@@ -285344,7 +285614,7 @@
     "provides": [
       "qvm"
     ],
-    "rank": "32",
+    "rank": "36",
     "recurse_provides": "false",
     "shasum": "b31dee1c1466c02669569d44a300c84e8b049a1163aaaa6883ac8d0a538e36a6",
     "size": "789 KB",
@@ -290295,7 +290565,7 @@
     "provides": [
       "readmdict"
     ],
-    "rank": "33",
+    "rank": "37",
     "recurse_provides": "false",
     "shasum": "4ed8a6aaeb3524bd516d963ffae6a3edba6db5f7dac1095f5a4c0a43bff9426c",
     "size": "2.1 MB",
@@ -291227,7 +291497,7 @@
     "provides": [
       "redacta"
     ],
-    "rank": "34",
+    "rank": "38",
     "recurse_provides": "false",
     "shasum": "5ee2344df3cc2c5342526155889bc073076c12c88f1295574b7bcfd8a694769d",
     "size": "1.1 MB",
@@ -301815,7 +302085,7 @@
     "provides": [
       "rosu-pattern-detector"
     ],
-    "rank": "35",
+    "rank": "39",
     "recurse_provides": "false",
     "shasum": "211b3fbf3acb539c00eff25a026ffc0e81fb5aeb5b873bbf4731f87f585d1bc2",
     "size": "620 KB",
@@ -305683,7 +305953,7 @@
     "provides": [
       "rship-govee"
     ],
-    "rank": "36",
+    "rank": "40",
     "recurse_provides": "false",
     "shasum": "b0ec121d9781fc072c70520643ef24871a5a96a1e67c1d2951733f272a1af122",
     "size": "8.2 MB",
@@ -315562,7 +315832,7 @@
     "provides": [
       "rustysquid"
     ],
-    "rank": "38",
+    "rank": "42",
     "recurse_provides": "false",
     "shasum": "ee44b44e5da94aaded98a00330db484e045d5d5757aeb1a96f94ce194261b37d",
     "size": "2.0 MB",
@@ -318695,7 +318965,7 @@
     "provides": [
       "satch"
     ],
-    "rank": "39",
+    "rank": "43",
     "recurse_provides": "false",
     "shasum": "e8e3c8ceb3e7626d8e8a6bef8fda71d4858588228c144c499042a06d5e1a0c60",
     "size": "697 KB",
@@ -318827,7 +319097,7 @@
     "provides": [
       "sayo"
     ],
-    "rank": "40",
+    "rank": "44",
     "recurse_provides": "false",
     "shasum": "5ec4fc24f69ec256acbee439af08ad7796cc638cc1375bff6e143eb16ce2d399",
     "size": "1.7 MB",
@@ -320495,7 +320765,7 @@
       "schema-validator",
       "test-coverage-analyzer"
     ],
-    "rank": "42",
+    "rank": "46",
     "recurse_provides": "false",
     "shasum": "54db18df83ce2527cd1b1e1baf0514432a66c2edd5282d869361eab4baddce9e",
     "size": "408 KB",
@@ -323015,7 +323285,7 @@
     "provides": [
       "sekrit"
     ],
-    "rank": "43",
+    "rank": "47",
     "recurse_provides": "false",
     "shasum": "5a5cc81f29868bd13c5c9db86be137fa3a2eef62bd4de9811dd88e91b91e9843",
     "size": "845 KB",
@@ -328644,6 +328914,74 @@
   },
   {
     "_disabled": "false",
+    "bsum": "c48c7950cb88f3184cbc0b1da3240e9904cae2aa3789ad721d490e42d6ed9c4a",
+    "build_date": "2025-08-14T15:29:38Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16969348947",
+    "build_id": "16969348947",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/similarity-elixir/stable/similarity-elixir?tag=0.4.1-aarch64-Linux&download=similarity-elixir.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "CLI tool for detecting code duplication in Elixir projects.",
+    "desktop_integration": "false",
+    "download_count": "93",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/similarity-elixir/stable/similarity-elixir?tag=0.4.1-aarch64-Linux&download=similarity-elixir",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/similarity-elixir/stable/similarity-elixir:0.4.1-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/similarity-elixir/stable/similarity-elixir",
+    "homepage": [
+      "https://github.com/mizchi/similarity"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/similarity-elixir/stable/similarity-elixir?tag=0.4.1-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "similarity-elixir",
+    "pkg_family": "similarity-elixir",
+    "pkg_id": "pkgforge-cargo.similarity-elixir.stable",
+    "pkg_name": "similarity-elixir",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/similarity-elixir",
+    "portable": "true",
+    "provides": [
+      "similarity-elixir"
+    ],
+    "rank": "48",
+    "recurse_provides": "false",
+    "shasum": "4c93377caef25e987b0655c7f49c2e3246ec2d8387f8f05a6a25203452ea2d7b",
+    "size": "3.8 MB",
+    "size_raw": "3918784",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/similarity-elixir/0.4.1/download"
+    ],
+    "tag": [
+      "cli",
+      "detection",
+      "duplicate",
+      "elixir",
+      "similarity"
+    ],
+    "trusted": "true",
+    "version": "0.4.1",
+    "version_upstream": "0.4.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "68212da591289cd281f16ee63973546bc3ff13673d243cb115aa7ef31ea24260",
     "build_date": "2025-07-02T18:41:27Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/16032852504",
@@ -330090,7 +330428,7 @@
     "provides": [
       "single-variable-algebra-compiler"
     ],
-    "rank": "44",
+    "rank": "49",
     "recurse_provides": "false",
     "shasum": "bbec4aaddc6b2b89fa886b913687ee8e0fd953f2b937878c54823fb4577eb5ab",
     "size": "453 KB",
@@ -343338,7 +343676,7 @@
     "provides": [
       "simd_test"
     ],
-    "rank": "45",
+    "rank": "50",
     "recurse_provides": "false",
     "shasum": "bcd15e342f93eaf77386a73bbb4cc1192344be34f61b46cef3ac3ffb149d9337",
     "size": "597 KB",
@@ -355801,7 +356139,7 @@
     "provides": [
       "timeout"
     ],
-    "rank": "46",
+    "rank": "51",
     "recurse_provides": "false",
     "shasum": "852e6aaa13f35532e4bce862fcba4591e06422e214a145fed840b2a5849e5845",
     "size": "801 KB",
@@ -387315,7 +387653,7 @@
     "provides": [
       "wx-uploader"
     ],
-    "rank": "47",
+    "rank": "52",
     "recurse_provides": "false",
     "shasum": "c35936ff1cc0c178da9dd88e1a3a5763bc389ad13b2f2d3d45ed11916d016f1d",
     "size": "8.1 MB",
@@ -390713,7 +391051,7 @@
     "provides": [
       "yaml-edit"
     ],
-    "rank": "48",
+    "rank": "53",
     "recurse_provides": "false",
     "shasum": "dd1bedc5b386332d88338f0147340b6aed82f3d92d75d25ec4cc1027d615f6ae",
     "size": "412 KB",
@@ -392309,7 +392647,7 @@
       "test_baseline",
       "yks_converter"
     ],
-    "rank": "50",
+    "rank": "55",
     "recurse_provides": "false",
     "shasum": "7636ec1da4525e7d36cfe8b99d2078773c931c7938792257f2deb9675ce1052e",
     "size": "1.6 MB",
@@ -394308,7 +394646,7 @@
     "provides": [
       "zerv"
     ],
-    "rank": "51",
+    "rank": "56",
     "recurse_provides": "false",
     "shasum": "119c24b5555863d43a364ea7196013cbd8bb2184dc7762099a27105fb8f43ecd",
     "size": "684 KB",
