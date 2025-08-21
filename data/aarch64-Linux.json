@@ -144667,6 +144667,109 @@
   },
   {
     "_disabled": "false",
+    "bsum": "1eb72dd14a582749df2e8e9dca187448cd2b508c718fc20e4dfa1ef3cecf0ba2",
+    "build_date": "2025-08-21T18:33:58Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/17135590878",
+    "build_id": "17135590878",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/erfa-rust/stable/t_erfa_c_extra_safe?tag=1.0.0-aarch64-Linux&download=t_erfa_c_extra_safe.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Essential Routines for Fundamental Astronomy Rust.",
+    "desktop_integration": "false",
+    "download_count": "110",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/erfa-rust/stable/t_erfa_c_extra_safe?tag=1.0.0-aarch64-Linux&download=t_erfa_c_extra_safe",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/erfa-rust/stable/t_erfa_c_extra_safe:1.0.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/erfa-rust/stable/t_erfa_c_extra_safe",
+    "homepage": [
+      "https://github.com/simplespace-cat/erfa-rust"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "BSD-3-Clause"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/erfa-rust/stable/t_erfa_c_extra_safe?tag=1.0.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "t_erfa_c_extra_safe",
+    "pkg_family": "erfa-rust",
+    "pkg_id": "pkgforge-cargo.erfa-rust.stable",
+    "pkg_name": "t_erfa_c_extra_safe",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/erfa-rust",
+    "portable": "true",
+    "provides": [
+      "G10_tests_safe",
+      "G11_tests_safe",
+      "G12_tests_safe",
+      "G13_tests_safe",
+      "G14_tests_safe",
+      "G15_tests_safe",
+      "G16_tests_safe",
+      "G17_tests_safe",
+      "G18_tests_safe",
+      "G19_tests_safe",
+      "G1_tests_safe",
+      "G20_tests_safe",
+      "G21_tests_safe",
+      "G22_tests_safe",
+      "G23_tests_safe",
+      "G24_tests_safe",
+      "G25_tests_safe",
+      "G26_tests_safe",
+      "G27_tests_safe",
+      "G28_tests_safe",
+      "G29_tests_safe",
+      "G2_tests_safe",
+      "G30_tests_safe",
+      "G31_tests_safe",
+      "G32_tests_safe",
+      "G33_tests_safe",
+      "G34_tests_safe",
+      "G35_tests_safe",
+      "G3_tests_safe",
+      "G4_tests_safe",
+      "G5_tests_safe",
+      "G6_tests_safe",
+      "G7_tests_safe",
+      "G8_tests_safe",
+      "G9_tests_safe",
+      "t_erfa_c_extra_safe"
+    ],
+    "rank": "55",
+    "recurse_provides": "false",
+    "shasum": "2218b834b0feff72da055327ac0b432d2fb1145a2f61122f79adaad08581936c",
+    "size": "364 KB",
+    "size_raw": "372736",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/erfa-rust/1.0.0/download"
+    ],
+    "tag": [
+      "astrometry",
+      "astronomy",
+      "erfa",
+      "sofa",
+      "timekeeping"
+    ],
+    "trusted": "true",
+    "version": "1.0.0",
+    "version_upstream": "1.0.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "584d42109682a825b6f34cb02a43c41c77fa51871dc7f8849d64e342623e7933",
     "build_date": "2025-06-23T09:45:34Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15820494861",
@@ -145910,7 +146013,7 @@
     "provides": [
       "evenframe"
     ],
-    "rank": "20",
+    "rank": "56",
     "recurse_provides": "false",
     "shasum": "b2cddfacc390e1af841bfb5d21c5f47ef0db8f161eec8ecf91d6714b81396684",
     "size": "35 MB",
@@ -149314,7 +149417,7 @@
     "provides": [
       "fastats"
     ],
-    "rank": "21",
+    "rank": "57",
     "recurse_provides": "false",
     "shasum": "b3c37fff3b3c87b399a5c513064d7c9134c412addf3d5006bb582587bd1b0b8c",
     "size": "2.0 MB",
@@ -157993,7 +158096,7 @@
     "provides": [
       "flyer"
     ],
-    "rank": "22",
+    "rank": "58",
     "recurse_provides": "false",
     "shasum": "cfdc61048033d5fc961f50f5a3273170a0fc8bc3a8d0fd85771c62946d18d6bf",
     "size": "4.0 MB",
@@ -167468,7 +167571,7 @@
       "test-build",
       "test-build-matrix"
     ],
-    "rank": "23",
+    "rank": "59",
     "recurse_provides": "false",
     "shasum": "0546c9f964ff15b707d7dfb0c7d92470c09067edf4f80c5028ba931b27e71143",
     "size": "529 KB",
@@ -169405,6 +169508,71 @@
   },
   {
     "_disabled": "false",
+    "bsum": "a6a77502af723726a446427f07a7f1dc80b3d6662efc43c3d56f3f676059768a",
+    "build_date": "2025-08-21T18:30:03Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/17135589719",
+    "build_id": "17135589719",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/gerber2svg/stable/gerber2svg?tag=0.3.0-aarch64-Linux&download=gerber2svg.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Gerber2Svg is a library and utility, used to convert a Gerber (x2 or x3) file into an SVG file.",
+    "desktop_integration": "false",
+    "download_count": "703",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/gerber2svg/stable/gerber2svg?tag=0.3.0-aarch64-Linux&download=gerber2svg",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/gerber2svg/stable/gerber2svg:0.3.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/gerber2svg/stable/gerber2svg",
+    "homepage": [
+      "https://github.com/jnthbdn/rs-gerber2svg"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "Apache-2.0 OR MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/gerber2svg/stable/gerber2svg?tag=0.3.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "gerber2svg",
+    "pkg_family": "gerber2svg",
+    "pkg_id": "pkgforge-cargo.gerber2svg.stable",
+    "pkg_name": "gerber2svg",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/gerber2svg",
+    "portable": "true",
+    "provides": [
+      "gerber2svg"
+    ],
+    "rank": "61",
+    "recurse_provides": "false",
+    "shasum": "86097585a1432d63b0e6700e4036283ad38f595af06056269a51f1d7da39215c",
+    "size": "2.3 MB",
+    "size_raw": "2361064",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/gerber2svg/0.3.0/download"
+    ],
+    "tag": [
+      "gerber",
+      "svg"
+    ],
+    "trusted": "true",
+    "version": "0.3.0",
+    "version_upstream": "0.3.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "1f7cf4a591ce26648a00d96edcbac5f273fcfdfe7eb88f19022a2b57af7f039d",
     "build_date": "2025-06-17T02:37:18Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15696244858",
@@ -170253,6 +170421,70 @@
     "soar_syms": "false",
     "src_url": [
       "https://crates.io/api/v1/crates/gfwc/0.1.1/download"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "132aec5023e5acf197e27d474a7cb4a2cd7e7db017cf72b48d105ee610aa3409",
+    "build_date": "2025-08-21T18:32:09Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/17135590705",
+    "build_id": "17135590705",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/gg_namecard_gen/stable/gg_namecard_gen?tag=0.1.1-aarch64-Linux&download=gg_namecard_gen.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "genarate ggst namecard form puddlefarm.",
+    "desktop_integration": "false",
+    "download_count": "239",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/gg_namecard_gen/stable/gg_namecard_gen?tag=0.1.1-aarch64-Linux&download=gg_namecard_gen",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/gg_namecard_gen/stable/gg_namecard_gen:0.1.1-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/gg_namecard_gen/stable/gg_namecard_gen",
+    "homepage": [
+      "https://github.com/meipeter/gg_namecard_gen"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/gg_namecard_gen/stable/gg_namecard_gen?tag=0.1.1-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "gg_namecard_gen",
+    "pkg_family": "gg_namecard_gen",
+    "pkg_id": "pkgforge-cargo.gg_namecard_gen.stable",
+    "pkg_name": "gg_namecard_gen",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/gg_namecard_gen",
+    "portable": "true",
+    "provides": [
+      "gg_namecard_gen"
+    ],
+    "rank": "62",
+    "recurse_provides": "false",
+    "shasum": "c5e34c863c6775ff3144ae112d91d92ed08f1ca5464a43b67b0b1a5cdad5872c",
+    "size": "12 MB",
+    "size_raw": "11591920",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/gg_namecard_gen/0.1.1/download"
     ],
     "tag": [
       "Utility"
@@ -176343,7 +176575,7 @@
     "provides": [
       "gliders"
     ],
-    "rank": "25",
+    "rank": "63",
     "recurse_provides": "false",
     "shasum": "137cc8e7762179fd0d01e01c6e0782931d2fc151ef9d310ff99361a3ed28c18e",
     "size": "348 KB",
@@ -178274,7 +178506,7 @@
     "provides": [
       "gpo"
     ],
-    "rank": "26",
+    "rank": "64",
     "recurse_provides": "false",
     "shasum": "553669da07bedf4c43641a41a1baaacf7611f173585676bf642221f6a930e341",
     "size": "389 KB",
@@ -181073,7 +181305,7 @@
     "provides": [
       "culture-ship"
     ],
-    "rank": "27",
+    "rank": "65",
     "recurse_provides": "false",
     "shasum": "3bf9b22cc42bc886a22ce2845ad857a87c803da5002195f397df4ef7180c0d0b",
     "size": "373 KB",
@@ -183600,7 +183832,7 @@
     "provides": [
       "hashstream"
     ],
-    "rank": "28",
+    "rank": "66",
     "recurse_provides": "false",
     "shasum": "05165214710dca0bce1efed846ddc27aa49aba19ecf3053c98de32f3d238fb26",
     "size": "793 KB",
@@ -194718,7 +194950,7 @@
     "provides": [
       "image-collage"
     ],
-    "rank": "29",
+    "rank": "67",
     "recurse_provides": "false",
     "shasum": "ed5231da225bd5042fc3f90520adf587e994853be0e243257ccace6d5b3a0858",
     "size": "5.4 MB",
@@ -198112,7 +198344,7 @@
     "provides": [
       "ironcrypt"
     ],
-    "rank": "30",
+    "rank": "68",
     "recurse_provides": "false",
     "shasum": "e6eb94f1c79441b910c289256bd99a6bcb4fde6ee936470c26e57fc05d121468",
     "size": "5.0 MB",
@@ -203821,7 +204053,7 @@
     "provides": [
       "jg"
     ],
-    "rank": "31",
+    "rank": "69",
     "recurse_provides": "false",
     "shasum": "3ce31230c5de0be690a6be41a539ad5d1eb05f89cf8aad237302fde098f7fc5e",
     "size": "1.2 MB",
@@ -207884,7 +208116,7 @@
     "provides": [
       "clstr-diff"
     ],
-    "rank": "32",
+    "rank": "70",
     "recurse_provides": "false",
     "shasum": "db3af4f68152040ee206c9067a5b64fba5fe5324b93688c3234fb0b4f515df4a",
     "size": "396 KB",
@@ -207950,7 +208182,7 @@
     "provides": [
       "kdx-build"
     ],
-    "rank": "33",
+    "rank": "71",
     "recurse_provides": "false",
     "shasum": "96df203848b5ff8fd3a9360c178c1b8b81a72ceae82b0ec86108d80b5c03e20d",
     "size": "929 KB",
@@ -217272,7 +217504,7 @@
     "provides": [
       "lisensor"
     ],
-    "rank": "34",
+    "rank": "72",
     "recurse_provides": "false",
     "shasum": "4a65b647f55ab37bd9f60347a8fc1f524890d0b6696bd21c3f1eeb13cd659836",
     "size": "2.2 MB",
@@ -223471,7 +223703,7 @@
     "provides": [
       "magstripe-decode"
     ],
-    "rank": "35",
+    "rank": "73",
     "recurse_provides": "false",
     "shasum": "f5a1c30c50f746876a9d1e31f8923442047ba92abd5c922ac52eb7c4b4e89b41",
     "size": "2.0 MB",
@@ -226466,7 +226698,7 @@
     "provides": [
       "mq"
     ],
-    "rank": "36",
+    "rank": "74",
     "recurse_provides": "false",
     "shasum": "e3fa07ece094bf6cb6c08703fba2f8b6579fd5ebc81f1e48f5e8f12e292a15f8",
     "size": "589 KB",
@@ -235306,7 +235538,7 @@
     "provides": [
       "mi_primera_lib"
     ],
-    "rank": "37",
+    "rank": "75",
     "recurse_provides": "false",
     "shasum": "8b154d3de524c0d64cbeed64fa678a93c07f896537489b508ee94d3199499b6e",
     "size": "352 KB",
@@ -252791,7 +253023,7 @@
     "provides": [
       "novagrep"
     ],
-    "rank": "38",
+    "rank": "76",
     "recurse_provides": "false",
     "shasum": "a0678d572a5af38d7cc37ec77d40cdaea8255a0676e2b6554241c3f78f0031dd",
     "size": "1.6 MB",
@@ -255318,7 +255550,7 @@
     "provides": [
       "nvim-mcp"
     ],
-    "rank": "39",
+    "rank": "77",
     "recurse_provides": "false",
     "shasum": "8792e9b279bf9f104f64866933abae6041163b21dd1a86fce890c065213daf65",
     "size": "5.7 MB",
@@ -272898,7 +273130,7 @@
     "provides": [
       "play-polaris"
     ],
-    "rank": "40",
+    "rank": "78",
     "recurse_provides": "false",
     "shasum": "f047b4d39659bfe3c8580ed42f93b2a5fadfca582b822a39edb915c4d2cf4bda",
     "size": "1015 KB",
@@ -276223,7 +276455,7 @@
     "provides": [
       "data_generation"
     ],
-    "rank": "41",
+    "rank": "79",
     "recurse_provides": "false",
     "shasum": "33ae8268f31256f6aae041aec950455f83952510537125bf788d18b43159f614",
     "size": "1.2 MB",
@@ -279297,7 +279529,7 @@
     "provides": [
       "printer_monitor"
     ],
-    "rank": "42",
+    "rank": "80",
     "recurse_provides": "false",
     "shasum": "3343d19fdfdbc062be21998f37a3738290a8deaf2f9d149f8efd7b68990fc5d5",
     "size": "1.7 MB",
@@ -279566,7 +279798,7 @@
     "provides": [
       "prmt"
     ],
-    "rank": "43",
+    "rank": "81",
     "recurse_provides": "false",
     "shasum": "a0779af568baeec9d4893dfc55afd92071ffaa2fa3366196173d3339c5f2f281",
     "size": "1.7 MB",
@@ -284433,7 +284665,7 @@
     "provides": [
       "pydep-mapper"
     ],
-    "rank": "44",
+    "rank": "82",
     "recurse_provides": "false",
     "shasum": "906073c5c2090c19c1198cb70c0c1ef614861a798d771d6ea21cfabefb6696aa",
     "size": "3.7 MB",
@@ -286500,7 +286732,7 @@
     "provides": [
       "qsi"
     ],
-    "rank": "45",
+    "rank": "83",
     "recurse_provides": "false",
     "shasum": "64e2e0e6fd8b8247a49ab28f4c8ee28000984c8e9486e41700d3ab85a63b5050",
     "size": "7.2 MB",
@@ -287238,7 +287470,7 @@
     "provides": [
       "test_examples"
     ],
-    "rank": "46",
+    "rank": "84",
     "recurse_provides": "false",
     "shasum": "8c8001dfefc88de9b503d4940c6fbac7b50e76e4822d705990bc0afbb2ffa281",
     "size": "420 KB",
@@ -303914,7 +304146,7 @@
       "diagnostics",
       "rocksmap-cli"
     ],
-    "rank": "48",
+    "rank": "86",
     "recurse_provides": "false",
     "shasum": "c457023aa5a1bf673dd89ee23b37439edb99b20a2f84b49783d032d15a508e5d",
     "size": "7.1 MB",
@@ -304178,7 +304410,7 @@
     "provides": [
       "rollpoly"
     ],
-    "rank": "49",
+    "rank": "87",
     "recurse_provides": "false",
     "shasum": "3f7fd517e0a23a3f795694906839f48184a56e7df8ad358944a500403e56354b",
     "size": "1.1 MB",
@@ -311712,7 +311944,7 @@
     "provides": [
       "macro_debug"
     ],
-    "rank": "50",
+    "rank": "88",
     "recurse_provides": "false",
     "shasum": "18a8891e4e91be18ee63c2ccbc4dd999ce8c2c70c553ec5a44e0e053de1a28fa",
     "size": "352 KB",
@@ -313248,7 +313480,7 @@
     "provides": [
       "rust-guardian"
     ],
-    "rank": "51",
+    "rank": "89",
     "recurse_provides": "false",
     "shasum": "29911fc920515e8ac09e0b61c0e8119b57434c21c2b01c35790d5418d54219fd",
     "size": "5.2 MB",
@@ -313715,7 +313947,7 @@
     "provides": [
       "rust-relations-explorer"
     ],
-    "rank": "52",
+    "rank": "90",
     "recurse_provides": "false",
     "shasum": "40c2c62884494aba30408ea8916306e8582bbd79f6ae2c659bc1d990f0e10731",
     "size": "3.0 MB",
@@ -314112,7 +314344,7 @@
     "provides": [
       "rust-yaml"
     ],
-    "rank": "53",
+    "rank": "91",
     "recurse_provides": "false",
     "shasum": "eea346ef7717afe087f62499f2336ce9214b4da43ee933237d2f474249ef4307",
     "size": "624 KB",
@@ -316061,7 +316293,7 @@
     "provides": [
       "rustleaf"
     ],
-    "rank": "54",
+    "rank": "92",
     "recurse_provides": "false",
     "shasum": "513e3caaacb0416c9f5e75cc3bdf31ab7a2db8c8723445bb35543b7f04a9589b",
     "size": "2.5 MB",
@@ -348436,7 +348668,7 @@
     "provides": [
       "susumu"
     ],
-    "rank": "55",
+    "rank": "93",
     "recurse_provides": "false",
     "shasum": "8c0691388342f570f7c603047431b9c78ad37086f932596dda37bbd97eb6e5e7",
     "size": "3.5 MB",
@@ -356378,6 +356610,74 @@
   },
   {
     "_disabled": "false",
+    "bsum": "8ebb69e7bb3df3dd730b4c45ba20b5c4295af3129ba8877404bc9e310ee573dc",
+    "build_date": "2025-08-21T18:36:24Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/17135593348",
+    "build_id": "17135593348",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/textcon/stable/textcon?tag=0.1.0-aarch64-Linux&download=textcon.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Template text files with file/directory references for AI/LLM consumption.",
+    "desktop_integration": "false",
+    "download_count": "106",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/textcon/stable/textcon?tag=0.1.0-aarch64-Linux&download=textcon",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/textcon/stable/textcon:0.1.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/textcon/stable/textcon",
+    "homepage": [
+      "https://github.com/0x484558/textcon"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "EUPL-1.2"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/textcon/stable/textcon?tag=0.1.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "textcon",
+    "pkg_family": "textcon",
+    "pkg_id": "pkgforge-cargo.textcon.stable",
+    "pkg_name": "textcon",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/textcon",
+    "portable": "true",
+    "provides": [
+      "textcon"
+    ],
+    "rank": "94",
+    "recurse_provides": "false",
+    "shasum": "e77b16f9cf0bb43f8d418ee995086de22578a50cf12eafe268d03eef44db5cdd",
+    "size": "2.0 MB",
+    "size_raw": "2023448",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/textcon/0.1.0/download"
+    ],
+    "tag": [
+      "ai",
+      "cli",
+      "llm",
+      "template",
+      "text-processing"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "088ab1ae6a8f161316c7acad909af56da08a37d654be02a4819dfadfdc2452fd",
     "build_date": "2025-06-23T23:56:40Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15837021236",
@@ -361026,7 +361326,7 @@
     "provides": [
       "tango"
     ],
-    "rank": "56",
+    "rank": "95",
     "recurse_provides": "false",
     "shasum": "7987ba15d960b0781982ab18df112e846ed739e12ab1bc7a45a40dcec8c78ffd",
     "size": "1.3 MB",
@@ -364073,7 +364373,7 @@
     "provides": [
       "tortilla"
     ],
-    "rank": "57",
+    "rank": "96",
     "recurse_provides": "false",
     "shasum": "e213c0ccc36f22543ae66bd7e630b734bcf2517dd1837651315adcfc80031628",
     "size": "412 KB",
@@ -368733,7 +369033,7 @@
     "provides": [
       "twas"
     ],
-    "rank": "58",
+    "rank": "97",
     "recurse_provides": "false",
     "shasum": "083e18b81ce7a997d42512e3448a9e1164ed05c180d7cb58bfc517fd3f67c2ff",
     "size": "2.6 MB",
@@ -368929,7 +369229,7 @@
     "provides": [
       "twin"
     ],
-    "rank": "59",
+    "rank": "98",
     "recurse_provides": "false",
     "shasum": "e22bb803481a2ce914fe8f73647e4ee41469ce7a8fa9a815b3860727d87d2922",
     "size": "7.3 MB",
@@ -380313,7 +380613,7 @@
     "provides": [
       "vsix"
     ],
-    "rank": "60",
+    "rank": "99",
     "recurse_provides": "false",
     "shasum": "fbfd157cad699e4ec28a8fb15b1fadb822b5900f5eadd780717090aa65cbb998",
     "size": "3.8 MB",
@@ -380981,7 +381281,7 @@
     "provides": [
       "waitup"
     ],
-    "rank": "61",
+    "rank": "100",
     "recurse_provides": "false",
     "shasum": "2af6f76413b642a97df0ab47097eb34de195cbd6972a2970f491fffdc695f95d",
     "size": "3.5 MB",
@@ -384393,6 +384693,74 @@
     "trusted": "true",
     "version": "0.11.0",
     "version_upstream": "0.11.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "8c95b4cadd661e295af003ded373fedecd0dffa6301df390752a793bf2081090",
+    "build_date": "2025-08-21T18:37:34Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/17135595762",
+    "build_id": "17135595762",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/wbi-rs/stable/wbi?tag=0.1.4-aarch64-Linux&download=wbi.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A Rust library + CLI to fetch, store, visualize, and summarize World Bank indicator data.",
+    "desktop_integration": "false",
+    "download_count": "118",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/wbi-rs/stable/wbi?tag=0.1.4-aarch64-Linux&download=wbi",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/wbi-rs/stable/wbi:0.1.4-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/wbi-rs/stable/wbi",
+    "homepage": [
+      "https://github.com/ArdentEmpiricist/wbi-rs"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/wbi-rs/stable/wbi?tag=0.1.4-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "wbi",
+    "pkg_family": "wbi-rs",
+    "pkg_id": "pkgforge-cargo.wbi-rs.stable",
+    "pkg_name": "wbi",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/wbi-rs",
+    "portable": "true",
+    "provides": [
+      "wbi"
+    ],
+    "rank": "101",
+    "recurse_provides": "false",
+    "shasum": "b1e982c29f08f445c341f3ec70bf17a653dbeb7147be9c319a8a99f15d8dfc64",
+    "size": "4.6 MB",
+    "size_raw": "4751776",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/wbi-rs/0.1.4/download"
+    ],
+    "tag": [
+      "data",
+      "plotting",
+      "science",
+      "visualization",
+      "worldbank"
+    ],
+    "trusted": "true",
+    "version": "0.1.4",
+    "version_upstream": "0.1.4"
   },
   {
     "_disabled": "false",
@@ -389743,7 +390111,7 @@
     "provides": [
       "world_bank_data_rust"
     ],
-    "rank": "62",
+    "rank": "102",
     "recurse_provides": "false",
     "shasum": "b53f78854f248944309e5ed361df4e6cf53356d1dd673ec67eb12532350f90ee",
     "size": "4.6 MB",
@@ -392216,7 +392584,7 @@
     "provides": [
       "xkcd-wallpaper"
     ],
-    "rank": "63",
+    "rank": "103",
     "recurse_provides": "false",
     "shasum": "adfc9d694e4766d28c3d72aa2cccd7b3f38e85c5dcb80cadd4d17636608068ad",
     "size": "7.0 MB",
@@ -396486,7 +396854,7 @@
     "provides": [
       "codegen"
     ],
-    "rank": "64",
+    "rank": "104",
     "recurse_provides": "false",
     "shasum": "d1cd9d08facb1bd0c3ec1a3c97acacd030d5bf801acc497f5af1bebdf7c018df",
     "size": "689 KB",
@@ -396950,7 +397318,7 @@
     "provides": [
       "zackstrap"
     ],
-    "rank": "65",
+    "rank": "105",
     "recurse_provides": "false",
     "shasum": "e9f1269dd8aa9b3ee8de1909c23268289e3d7f3f27fb0e3b58013ba866bf8799",
     "size": "1.1 MB",
@@ -397508,6 +397876,72 @@
     "trusted": "true",
     "version": "1.3.6",
     "version_upstream": "1.3.6"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "1bce9b83874b669a4fdc90cc06f366153e2c460fd273734ebe05ba6381a35d78",
+    "build_date": "2025-08-21T18:39:00Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/17135593126",
+    "build_id": "17135593126",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/zebo/stable/zebo-inspect?tag=0.4.5-aarch64-Linux&download=zebo-inspect.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Write data on FS in a performance way.",
+    "desktop_integration": "false",
+    "download_count": "2198",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/zebo/stable/zebo-inspect?tag=0.4.5-aarch64-Linux&download=zebo-inspect",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/zebo/stable/zebo-inspect:0.4.5-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/zebo/stable/zebo-inspect",
+    "homepage": [
+      "https://github.com/oramasearch/zebo"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/zebo/stable/zebo-inspect?tag=0.4.5-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "zebo-inspect",
+    "pkg_family": "zebo",
+    "pkg_id": "pkgforge-cargo.zebo.stable",
+    "pkg_name": "zebo-inspect",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/zebo",
+    "portable": "true",
+    "provides": [
+      "zebo-inspect"
+    ],
+    "rank": "106",
+    "recurse_provides": "false",
+    "shasum": "85b3847f3c8359fff9c95ca47d32e324590967097f535251bec86d11415b3280",
+    "size": "716 KB",
+    "size_raw": "733152",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/zebo/0.4.5/download"
+    ],
+    "tag": [
+      "datastorage",
+      "filesystem",
+      "performance"
+    ],
+    "trusted": "true",
+    "version": "0.4.5",
+    "version_upstream": "0.4.5"
   },
   {
     "_disabled": "false",
@@ -399418,7 +399852,7 @@
     "provides": [
       "zlink-codegen"
     ],
-    "rank": "66",
+    "rank": "107",
     "recurse_provides": "false",
     "shasum": "ba4dab28a9ebcf645d780b395057c8bf175c884acf43f6bf1392cf8a0ca74bea",
     "size": "888 KB",
