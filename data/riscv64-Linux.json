@@ -45446,6 +45446,74 @@
   },
   {
     "_disabled": "false",
+    "bsum": "c79bf7940855b023289439d1225ac173fe351befa6b6e61b6d66441865995ae9",
+    "build_date": "2025-09-25T15:22:14Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18012290477",
+    "build_id": "18012290477",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/basexx/stable/basexx?tag=0.1.1-riscv64-Linux&download=basexx.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "basexx utilities.",
+    "desktop_integration": "false",
+    "download_count": "116",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/basexx/stable/basexx?tag=0.1.1-riscv64-Linux&download=basexx",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/basexx/stable/basexx:0.1.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/basexx/stable/basexx",
+    "homepage": [
+      "https://github.com/aki-akaguma/basexx"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/basexx/stable/basexx?tag=0.1.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "basexx",
+    "pkg_family": "basexx",
+    "pkg_id": "pkgforge-cargo.basexx.stable",
+    "pkg_name": "basexx",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/basexx",
+    "portable": "true",
+    "provides": [
+      "basexx"
+    ],
+    "rank": "4",
+    "recurse_provides": "false",
+    "shasum": "7f7524a88630f2dd1cb4234caf1a5d4a7670e7cfd5ca181dbb44e3143d986bba",
+    "size": "417 KB",
+    "size_raw": "426008",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/basexx/0.1.1/download"
+    ],
+    "tag": [
+      "base32",
+      "base56",
+      "base58",
+      "base64",
+      "no_std"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "a16a2d079caf230286153b3a6976f00be6de31d2668a104b5423ba1cc3d0926c",
     "build_date": "2025-06-15T20:58:27Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15667042609",
@@ -52668,7 +52736,7 @@
     "provides": [
       "bgone"
     ],
-    "rank": "4",
+    "rank": "5",
     "recurse_provides": "false",
     "shasum": "1ad91b7fe5b845babc4fc23a75dedaa74ec4d2b80d4314ef21b0bad3c3ae1850",
     "size": "4.6 MB",
@@ -59229,7 +59297,7 @@
       "decode",
       "encode"
     ],
-    "rank": "6",
+    "rank": "7",
     "recurse_provides": "false",
     "shasum": "cfe1d4a3674b7f77e749edcd02a7089041c595b397369f00965756ea55e28f17",
     "size": "353 KB",
@@ -60740,7 +60808,7 @@
     "provides": [
       "bls24paramgen"
     ],
-    "rank": "7",
+    "rank": "8",
     "recurse_provides": "false",
     "shasum": "0f43b2a99bf13685084453c46f6f9f3bf6591c15eba3e20cff39f89d41721416",
     "size": "449 KB",
@@ -78102,7 +78170,7 @@
     "provides": [
       "cargo-caps"
     ],
-    "rank": "8",
+    "rank": "9",
     "recurse_provides": "false",
     "shasum": "d2e267b420e389c49cefba0bbe76cbce82ece203f637d75d75bb645382023ce3",
     "size": "2.1 MB",
@@ -96726,7 +96794,7 @@
       "normalizer",
       "performance"
     ],
-    "rank": "10",
+    "rank": "11",
     "recurse_provides": "false",
     "shasum": "119e1e39b9a0e2ba5701fcc32b98745234a6b6b03b35f40fdc08b93221392ce9",
     "size": "3.6 MB",
@@ -126710,7 +126778,7 @@
     "provides": [
       "dns-resolver-rs"
     ],
-    "rank": "11",
+    "rank": "12",
     "recurse_provides": "false",
     "shasum": "f1f8e47b57cf40915cba3b4b209e1a63a2113c6cbf3fe47241ebf6834d0ab1b0",
     "size": "1.8 MB",
@@ -131056,7 +131124,7 @@
     "provides": [
       "droidid"
     ],
-    "rank": "12",
+    "rank": "13",
     "recurse_provides": "false",
     "shasum": "e38c7ede25a962e4ccc726292d51d050b245b7b982561e47ad7e6967c69191c9",
     "size": "353 KB",
@@ -134851,7 +134919,7 @@
     "provides": [
       "eenv"
     ],
-    "rank": "13",
+    "rank": "14",
     "recurse_provides": "false",
     "shasum": "5e65e422135efa2f6615b4d8c4507b1c30c8376c293db9626262eae147a5df66",
     "size": "1.9 MB",
@@ -137992,7 +138060,7 @@
     "provides": [
       "env-sync"
     ],
-    "rank": "14",
+    "rank": "15",
     "recurse_provides": "false",
     "shasum": "b01a65754df032a5f035aa60cf3296c66cae72475cee9d37965efdc3be3ffa65",
     "size": "1.3 MB",
@@ -144198,7 +144266,7 @@
     "provides": [
       "benchmark"
     ],
-    "rank": "15",
+    "rank": "16",
     "recurse_provides": "false",
     "shasum": "1505dc7e6253f2c5ade78d0e1a1d97e3629c982891fc4e7f806c6450f1339602",
     "size": "649 KB",
@@ -144943,7 +145011,7 @@
     "provides": [
       "fastq_rs"
     ],
-    "rank": "16",
+    "rank": "17",
     "recurse_provides": "false",
     "shasum": "3e0d9a9667afd803b6fc41803bac634ec98107c05adc4930686a3dfcf2965e24",
     "size": "2.8 MB",
@@ -157662,7 +157730,7 @@
     "provides": [
       "fur"
     ],
-    "rank": "17",
+    "rank": "18",
     "recurse_provides": "false",
     "shasum": "81a880d6d5b3f994fcf63531c05f70e1c941e9f5b701aeb86114ab09e4ceaa85",
     "size": "1.3 MB",
@@ -164938,7 +165006,7 @@
     "provides": [
       "geospec"
     ],
-    "rank": "18",
+    "rank": "19",
     "recurse_provides": "false",
     "shasum": "4e148ef2858a6a96cbc1726c906f2278d938b7eaddfec5278b1c6ca45e0d74cd",
     "size": "353 KB",
@@ -166260,7 +166328,7 @@
     "provides": [
       "gh-stats"
     ],
-    "rank": "19",
+    "rank": "20",
     "recurse_provides": "false",
     "shasum": "dc58de83b71546a9ee5fceece24da33e1dd932a0b963a9886ee230eb0d7882d3",
     "size": "4.5 MB",
@@ -167259,7 +167327,7 @@
     "provides": [
       "gistory"
     ],
-    "rank": "20",
+    "rank": "21",
     "recurse_provides": "false",
     "shasum": "8fcb5af23d98b9a43c7055d991a16ee375674c0aa514f6a36c21ab3be2bc1877",
     "size": "3.2 MB",
@@ -169115,7 +169183,7 @@
     "provides": [
       "git-insights"
     ],
-    "rank": "21",
+    "rank": "22",
     "recurse_provides": "false",
     "shasum": "8097c1ddcca68668f006a48914b92f364a686fd57822c46c780f4fde3b8e8d82",
     "size": "573 KB",
@@ -177635,7 +177703,7 @@
     "provides": [
       "grug-ls"
     ],
-    "rank": "22",
+    "rank": "23",
     "recurse_provides": "false",
     "shasum": "a389166fb53ac657d128ba7b66f4792bf81ff3f684f181e1b1a82636be7e3c0f",
     "size": "1.7 MB",
@@ -178232,7 +178300,7 @@
     "provides": [
       "gungraun-runner"
     ],
-    "rank": "23",
+    "rank": "24",
     "recurse_provides": "false",
     "shasum": "f935a83eaa6bc4e6c544dc3d4d25d8c18104f3d8aeb301e6d51e603702fbcd79",
     "size": "3.5 MB",
@@ -188418,7 +188486,7 @@
     "provides": [
       "hypryaml"
     ],
-    "rank": "24",
+    "rank": "25",
     "recurse_provides": "false",
     "shasum": "7fa701157626a6fc7c07d33abc3dbfee0607397933f02fdcf01a3188da14a650",
     "size": "909 KB",
@@ -190608,7 +190676,7 @@
     "provides": [
       "ignix"
     ],
-    "rank": "25",
+    "rank": "26",
     "recurse_provides": "false",
     "shasum": "d4eb5ddc1a02a3bca6624239cf526a0b7c006fb7882ea67480bd0fa57c707a61",
     "size": "1.3 MB",
@@ -197320,7 +197388,7 @@
     "provides": [
       "jirun"
     ],
-    "rank": "26",
+    "rank": "27",
     "recurse_provides": "false",
     "shasum": "c6973b20241b00a7714809830164fd56198171f476e3a6878b09697fbba36cd0",
     "size": "3.0 MB",
@@ -206106,7 +206174,7 @@
     "provides": [
       "kotoba-build"
     ],
-    "rank": "27",
+    "rank": "28",
     "recurse_provides": "false",
     "shasum": "f4282b91b15b063492129e541bcae89f3f19b5ae0250f61c66547a844b710fb9",
     "size": "1.3 MB",
@@ -206174,7 +206242,7 @@
     "provides": [
       "kotoba"
     ],
-    "rank": "28",
+    "rank": "29",
     "recurse_provides": "false",
     "shasum": "7934e20776d5934ad19c430171b7dab423b7214365baf949bb549f5969a9cc9c",
     "size": "985 KB",
@@ -206242,7 +206310,7 @@
     "provides": [
       "kotoba"
     ],
-    "rank": "29",
+    "rank": "30",
     "recurse_provides": "false",
     "shasum": "2c5fb9679750f53b90e4358415c2cd57ede7f1a70d06afecd0c1d811b39d78ed",
     "size": "1.4 MB",
@@ -206310,7 +206378,7 @@
     "provides": [
       "kotoba-server"
     ],
-    "rank": "30",
+    "rank": "31",
     "recurse_provides": "false",
     "shasum": "404fe30f7c55f7fe5c82cc1b9d8734c200420b2e3811453336593381ccf4a9a8",
     "size": "2.3 MB",
@@ -206378,7 +206446,7 @@
     "provides": [
       "kotoba-storage-rocksdb"
     ],
-    "rank": "31",
+    "rank": "32",
     "recurse_provides": "false",
     "shasum": "b5aa33f1fe5963a98e9a0abf38a58128ce6d29c5d7289d12cda90d31f9048ede",
     "size": "353 KB",
@@ -216650,7 +216718,7 @@
     "provides": [
       "logbook_test_baby"
     ],
-    "rank": "32",
+    "rank": "33",
     "recurse_provides": "false",
     "shasum": "d3d460331489ee54d29a8b2107d1fca26945422e58aed483a33b8e33b4c9eb03",
     "size": "389 KB",
@@ -216915,7 +216983,7 @@
     "provides": [
       "logrotate"
     ],
-    "rank": "33",
+    "rank": "34",
     "recurse_provides": "false",
     "shasum": "ec68c83d59e5caa438e9488d0cfca17c7789f32b4e9e4e155a86e648f1f30cbf",
     "size": "1.9 MB",
@@ -219303,7 +219371,7 @@
     "provides": [
       "lsv"
     ],
-    "rank": "34",
+    "rank": "35",
     "recurse_provides": "false",
     "shasum": "533d9558c8a942b55636ced50241a07c9f2fef3fbed41d15be1f0bab96fcc7b2",
     "size": "1.5 MB",
@@ -219370,7 +219438,7 @@
     "provides": [
       "lsx86features"
     ],
-    "rank": "35",
+    "rank": "36",
     "recurse_provides": "false",
     "shasum": "d09e99a97a00d7c8ec39a8cd79430611dff6a32dc81e4164801da1e89e2e5654",
     "size": "1.4 MB",
@@ -227984,7 +228052,7 @@
     "provides": [
       "testbin"
     ],
-    "rank": "36",
+    "rank": "37",
     "recurse_provides": "false",
     "shasum": "0ac1782f8b165c24829b32cf555d83f4e197574888eb7a4547477336e771e743",
     "size": "753 KB",
@@ -234547,7 +234615,7 @@
     "provides": [
       "minesweeper-server"
     ],
-    "rank": "37",
+    "rank": "38",
     "recurse_provides": "false",
     "shasum": "843f5b73ccd7af939f728c617282513cda3c7a226c486ecc9462f360cdebc5fc",
     "size": "4.9 MB",
@@ -235012,7 +235080,7 @@
     "provides": [
       "minibit"
     ],
-    "rank": "38",
+    "rank": "39",
     "recurse_provides": "false",
     "shasum": "e38c7ede25a962e4ccc726292d51d050b245b7b982561e47ad7e6967c69191c9",
     "size": "353 KB",
@@ -238357,7 +238425,7 @@
     "provides": [
       "mokaccino"
     ],
-    "rank": "39",
+    "rank": "40",
     "recurse_provides": "false",
     "shasum": "197cf1c33cc14664efb4c3f39673f5c4b16dcf7eda9faa85530d2269ffaafaf2",
     "size": "353 KB",
@@ -239941,7 +240009,7 @@
     "provides": [
       "server"
     ],
-    "rank": "40",
+    "rank": "41",
     "recurse_provides": "false",
     "shasum": "d7500d5970da27a95b5ff1bb60caf2c9e38ed740c45fb4d72ee8c1f6258e3d51",
     "size": "921 KB",
@@ -255822,7 +255890,7 @@
     "provides": [
       "oi4-dnp-encoding-cli"
     ],
-    "rank": "41",
+    "rank": "42",
     "recurse_provides": "false",
     "shasum": "e1af457a0504d7c025bee76c8d3655ef6a6e445b32d289e73355dda80036afb6",
     "size": "365 KB",
@@ -274400,7 +274468,7 @@
     "provides": [
       "cvss-score"
     ],
-    "rank": "42",
+    "rank": "43",
     "recurse_provides": "false",
     "shasum": "2d4c69d22e1f07477f74a879142340ac293d7c2f67928668ccd1a86631c27245",
     "size": "405 KB",
@@ -275229,10 +275297,10 @@
   },
   {
     "_disabled": "false",
-    "bsum": "0123146b5e1751d4d5fd1d96e2278bc31bb41e9f8806575878241243e9940213",
-    "build_date": "2025-09-25T12:38:15Z",
-    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18007585233",
-    "build_id": "18007585233",
+    "bsum": "240b24f9335bed90001a39ee574421fa971ab3e638f1f22d79a742447c64f11d",
+    "build_date": "2025-09-25T15:22:49Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18012290164",
+    "build_id": "18012290164",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/portmatching/stable/data_generation?tag=0.3.3-riscv64-Linux&download=data_generation.log",
     "bundle": "false",
     "category": [
@@ -275274,9 +275342,9 @@
     "provides": [
       "data_generation"
     ],
-    "rank": "43",
+    "rank": "44",
     "recurse_provides": "false",
-    "shasum": "e921814d204f3502f7b92b4cf6c28f75679e1d1ab8fdf0ce4a7916fe730e75d0",
+    "shasum": "f267c9e29c319bd09dfbb1113115225898268d5a2906d20f15e1a9a2c78aacf4",
     "size": "1.2 MB",
     "size_raw": "1175960",
     "snapshots": [
@@ -283295,7 +283363,7 @@
     "provides": [
       "py-license-auditor"
     ],
-    "rank": "44",
+    "rank": "45",
     "recurse_provides": "false",
     "shasum": "1d5761d52be1a4639f44ab6e8b323f7909bcec28717209f65d5b379d0479d3bc",
     "size": "1.1 MB",
@@ -286301,7 +286369,7 @@
     "provides": [
       "quantsim_ui"
     ],
-    "rank": "45",
+    "rank": "46",
     "recurse_provides": "false",
     "shasum": "bf11e8dbe4aa82a29cdeb7066e488b678d0851364143470e371c7ebe253c242c",
     "size": "12 MB",
@@ -286503,7 +286571,7 @@
     "provides": [
       "quantus"
     ],
-    "rank": "46",
+    "rank": "47",
     "recurse_provides": "false",
     "shasum": "906cb775e3fb068e4ab20043352185638fa0cf805cdcc039e9ec86970484b9c9",
     "size": "8.5 MB",
@@ -287175,7 +287243,7 @@
     "provides": [
       "stub_gen"
     ],
-    "rank": "47",
+    "rank": "48",
     "recurse_provides": "false",
     "shasum": "bd86ed3c2aefd9458af965cc2390f1073da99c8ca7f0741f6a9dcb18f238c1c1",
     "size": "353 KB",
@@ -290729,6 +290797,74 @@
     "trusted": "true",
     "version": "2.1.0",
     "version_upstream": "2.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "d95a57b7df2becf230cc8ac80748d36c5506461a3ea5012cbd04d76d8e60eeda",
+    "build_date": "2025-09-25T15:28:10Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18012291010",
+    "build_id": "18012291010",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/rat_memcache/stable/rat_memcached?tag=0.2.1-riscv64-Linux&download=rat_memcached.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "高性能 Memcached 协议兼容服务器，支持双层缓存和持久化存储.",
+    "desktop_integration": "false",
+    "download_count": "118",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/rat_memcache/stable/rat_memcached?tag=0.2.1-riscv64-Linux&download=rat_memcached",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/rat_memcache/stable/rat_memcached:0.2.1-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/rat_memcache/stable/rat_memcached",
+    "homepage": [
+      "https://github.com/0ldm0s/rat_memcache"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "LGPL-3.0-or-later"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/rat_memcache/stable/rat_memcached?tag=0.2.1-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "rat_memcached",
+    "pkg_family": "rat_memcache",
+    "pkg_id": "pkgforge-cargo.rat_memcache.stable",
+    "pkg_name": "rat_memcached",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/rat_memcache",
+    "portable": "true",
+    "provides": [
+      "rat_memcached"
+    ],
+    "rank": "49",
+    "recurse_provides": "false",
+    "shasum": "9fd23c0248001ab2fec59b10db4bd48b8f175275e69c4e3405f63a7d7cf04d4e",
+    "size": "4.0 MB",
+    "size_raw": "4188344",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/rat_memcache/0.2.1/download"
+    ],
+    "tag": [
+      "cache",
+      "database",
+      "memcached",
+      "performance",
+      "server"
+    ],
+    "trusted": "true",
+    "version": "0.2.1",
+    "version_upstream": "0.2.1"
   },
   {
     "_disabled": "false",
@@ -304459,7 +304595,7 @@
       "params",
       "topics"
     ],
-    "rank": "49",
+    "rank": "51",
     "recurse_provides": "false",
     "shasum": "1f7de05887e14d9636c911add0dcf5e5dd7f10269f30d0a98172bb632cfa6fa2",
     "size": "2.6 MB",
@@ -315065,7 +315201,7 @@
       "rustchain",
       "rustchain-pretty"
     ],
-    "rank": "50",
+    "rank": "52",
     "recurse_provides": "false",
     "shasum": "8aa0cfe4c79e259ca6dc27d35ead7c8be8cb9282a2ffd39641bb5de07a2b7fd2",
     "size": "1.2 MB",
@@ -318751,7 +318887,7 @@
     "provides": [
       "rustyclip"
     ],
-    "rank": "52",
+    "rank": "54",
     "recurse_provides": "false",
     "shasum": "585713ab2f4592b83f2696cbe098aecd9a6f75e9cced2b181749e7b7dba5d13c",
     "size": "957 KB",
@@ -321879,7 +322015,7 @@
     "provides": [
       "sarif_rust"
     ],
-    "rank": "53",
+    "rank": "55",
     "recurse_provides": "false",
     "shasum": "5dfd84f718d0d5786432fc4b594c73414aee5851cbedfd44c0a82cd06e6a4355",
     "size": "1.6 MB",
@@ -346740,7 +346876,7 @@
     "provides": [
       "strange_loop_cli"
     ],
-    "rank": "54",
+    "rank": "56",
     "recurse_provides": "false",
     "shasum": "586402b89fafca8d84980c3e65005e0f062699aea1eb829bc5b226c8dd3591e3",
     "size": "597 KB",
@@ -349946,7 +350082,7 @@
     "provides": [
       "sxurl"
     ],
-    "rank": "55",
+    "rank": "57",
     "recurse_provides": "false",
     "shasum": "20b91d896ae26be71fb7064a454c0a17bc88d22a4c62597d13ce502551532cfc",
     "size": "1.6 MB",
@@ -350481,7 +350617,7 @@
     "provides": [
       "syncbox"
     ],
-    "rank": "56",
+    "rank": "58",
     "recurse_provides": "false",
     "shasum": "9f5a3ca2dd2a815ca75c8797d282d5eb7c2028a98c86b9efc7498b3feec8202e",
     "size": "3.0 MB",
@@ -351153,7 +351289,7 @@
     "provides": [
       "tallyhawk"
     ],
-    "rank": "57",
+    "rank": "59",
     "recurse_provides": "false",
     "shasum": "d65f5b45f2e61e9ae2886d19f18cbfff613eea14dab387da7590ced88fe792ff",
     "size": "1.7 MB",
@@ -353348,7 +353484,7 @@
     "provides": [
       "update_readme"
     ],
-    "rank": "58",
+    "rank": "60",
     "recurse_provides": "false",
     "shasum": "0014615a9afbafc1ded10a75fb563a6268a62a106c32434e7d0762443c5e9782",
     "size": "3.6 MB",
@@ -361086,7 +361222,7 @@
     "provides": [
       "tinysm"
     ],
-    "rank": "59",
+    "rank": "61",
     "recurse_provides": "false",
     "shasum": "f500b2e0bc6b6f476072ec7c74996d787aaa5c2b29a4ad38fd62a16ecb2d46df",
     "size": "369 KB",
@@ -376889,7 +377025,7 @@
     "provides": [
       "utomid-rs"
     ],
-    "rank": "60",
+    "rank": "62",
     "recurse_provides": "false",
     "shasum": "8bb49eb2da9c05229d64f97bf8e2a273c27e4cfa577da5a4d314ae1e6b50a4e7",
     "size": "353 KB",
@@ -377558,7 +377694,7 @@
     "provides": [
       "uvoxid"
     ],
-    "rank": "61",
+    "rank": "63",
     "recurse_provides": "false",
     "shasum": "47895653b311066026f58fb65893802750bdd8ddb9add6302360497279b0e20a",
     "size": "357 KB",
@@ -377626,7 +377762,7 @@
     "provides": [
       "uvoxxyz"
     ],
-    "rank": "62",
+    "rank": "64",
     "recurse_provides": "false",
     "shasum": "4e148ef2858a6a96cbc1726c906f2278d938b7eaddfec5278b1c6ca45e0d74cd",
     "size": "353 KB",
@@ -381012,7 +381148,7 @@
     "provides": [
       "vlog_vs_lmdb_shootout"
     ],
-    "rank": "63",
+    "rank": "65",
     "recurse_provides": "false",
     "shasum": "f84c9497699f85a2e5a2063132f11d9e0068a0af88f68ac421871e898fb5ac1a",
     "size": "1.1 MB",
@@ -382571,7 +382707,7 @@
     "provides": [
       "vtracer"
     ],
-    "rank": "64",
+    "rank": "66",
     "recurse_provides": "false",
     "shasum": "8bca0cf3b103aa1bc727fd0adc3c08af40bbba1b69f263fc11a33e2ef56977d7",
     "size": "1.5 MB",
@@ -394694,6 +394830,73 @@
   },
   {
     "_disabled": "false",
+    "bsum": "648105dc0d011ef51010b7153b5543bf44fb85d99c6d1b6e81b3d9e8784f0c33",
+    "build_date": "2025-09-25T15:24:28Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18012291368",
+    "build_id": "18012291368",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/xlg-sqlfmt/stable/xlg-sqlfmt?tag=0.2.0-riscv64-Linux&download=xlg-sqlfmt.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A command-line SQL formatter that reads SQL from stdin and writes formatted SQL to stdout.",
+    "desktop_integration": "false",
+    "download_count": "315",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/xlg-sqlfmt/stable/xlg-sqlfmt?tag=0.2.0-riscv64-Linux&download=xlg-sqlfmt",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/xlg-sqlfmt/stable/xlg-sqlfmt:0.2.0-riscv64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/xlg-sqlfmt/stable/xlg-sqlfmt",
+    "homepage": [
+      "https://github.com/xlgmokha/sqlfmt"
+    ],
+    "host": "riscv64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/xlg-sqlfmt/stable/xlg-sqlfmt?tag=0.2.0-riscv64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "xlg-sqlfmt",
+    "pkg_family": "xlg-sqlfmt",
+    "pkg_id": "pkgforge-cargo.xlg-sqlfmt.stable",
+    "pkg_name": "xlg-sqlfmt",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/xlg-sqlfmt",
+    "portable": "true",
+    "provides": [
+      "xlg-sqlfmt"
+    ],
+    "rank": "67",
+    "recurse_provides": "false",
+    "shasum": "c996b40badad12cfd1178c4a75c68c0d7fa2cf2155444c9358b9aa80f06467a0",
+    "size": "1.6 MB",
+    "size_raw": "1626192",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/xlg-sqlfmt/0.2.0/download"
+    ],
+    "tag": [
+      "cli",
+      "database",
+      "formatter",
+      "sql"
+    ],
+    "trusted": "true",
+    "version": "0.2.0",
+    "version_upstream": "0.2.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "c1a14ecbedd9e753d0639d0e30b01c099d99c8cfb35bf72d16fe6fb6daa371eb",
     "build_date": "2025-06-19T13:55:21Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15758819212",
@@ -400949,7 +401152,7 @@
     "provides": [
       "zeta"
     ],
-    "rank": "65",
+    "rank": "68",
     "recurse_provides": "false",
     "shasum": "4ebdc3190623a34e9bc00ccf2ce116d8f3f072fcd932197db47bac3249a99bfb",
     "size": "1.5 MB",
