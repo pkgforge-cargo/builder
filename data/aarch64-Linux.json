@@ -255040,6 +255040,71 @@
   },
   {
     "_disabled": "false",
+    "bsum": "642ca9d47c0b78303a0ff46a24446bf7b5b2943ea859330810e89defe6737348",
+    "build_date": "2025-09-28T03:45:26Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18068837193",
+    "build_id": "18068837193",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/mux-media/stable/mux-media?tag=0.15.0-aarch64-Linux&download=mux-media.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple automated utility for muxing media (e.",
+    "desktop_integration": "false",
+    "download_count": "3407",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/mux-media/stable/mux-media?tag=0.15.0-aarch64-Linux&download=mux-media",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/mux-media/stable/mux-media:0.15.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/mux-media/stable/mux-media",
+    "homepage": [
+      "https://github.com/nujievik/mux-media"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/mux-media/stable/mux-media?tag=0.15.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "mux-media",
+    "pkg_family": "mux-media",
+    "pkg_id": "pkgforge-cargo.mux-media.stable",
+    "pkg_name": "mux-media",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/mux-media",
+    "portable": "true",
+    "provides": [
+      "mux-media"
+    ],
+    "rank": "31",
+    "recurse_provides": "false",
+    "shasum": "688762fe4df0e2efc6eb045211b095a06e7ba3ff18b3044dca8dc4143b10d94e",
+    "size": "4.4 MB",
+    "size_raw": "4563544",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/mux-media/0.15.0/download"
+    ],
+    "tag": [
+      "cli",
+      "utility"
+    ],
+    "trusted": "true",
+    "version": "0.15.0",
+    "version_upstream": "0.15.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "2b36dadb1b8e7334a8c1a047faa82069847a49cf5cfea3772e19d40fea5da6f9",
     "build_date": "2025-06-23T16:44:41Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15828795388",
@@ -266908,7 +266973,7 @@
     "provides": [
       "nvs-packer"
     ],
-    "rank": "31",
+    "rank": "32",
     "recurse_provides": "false",
     "shasum": "6fe1e6d536013982fe0f46a5add06c0bf1823ed6b07c721b60740f37f0612c76",
     "size": "1.8 MB",
@@ -276415,7 +276480,7 @@
     "provides": [
       "parser-proxy-ws"
     ],
-    "rank": "32",
+    "rank": "33",
     "recurse_provides": "false",
     "shasum": "1fb83e641122ce31f33a654df5b596b4b69e486b049e29c405d32921a5dfb9b0",
     "size": "5.7 MB",
@@ -280805,6 +280870,74 @@
     "trusted": "true",
     "version": "1.0.1",
     "version_upstream": "1.0.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "295ffd4baa5e4d5f9aa78e5d945de139adb4239356d8a118b526909f83f2efe8",
+    "build_date": "2025-09-28T03:46:38Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18068837198",
+    "build_id": "18068837198",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/pg_exporter/stable/pg_exporter?tag=0.1.1-aarch64-Linux&download=pg_exporter.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "PostgreSQL metric exporter for Prometheus.",
+    "desktop_integration": "false",
+    "download_count": "136",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/pg_exporter/stable/pg_exporter?tag=0.1.1-aarch64-Linux&download=pg_exporter",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/pg_exporter/stable/pg_exporter:0.1.1-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/pg_exporter/stable/pg_exporter",
+    "homepage": [
+      "https://docs.rs/postgres_rexporter/latest/postgres_rexporter/"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "BSD-3-Clause"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/pg_exporter/stable/pg_exporter?tag=0.1.1-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "pg_exporter",
+    "pkg_family": "pg_exporter",
+    "pkg_id": "pkgforge-cargo.pg_exporter.stable",
+    "pkg_name": "pg_exporter",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/pg_exporter",
+    "portable": "true",
+    "provides": [
+      "pg_exporter"
+    ],
+    "rank": "34",
+    "recurse_provides": "false",
+    "shasum": "97c2af6125629c7f6ddc5067b53430f24b69d1dd931c99f3bdebf52d86b8de72",
+    "size": "5.5 MB",
+    "size_raw": "5700784",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/pg_exporter/0.1.1/download"
+    ],
+    "tag": [
+      "exporter",
+      "metrics",
+      "observability",
+      "postgresql",
+      "prometheus"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
   },
   {
     "_disabled": "false",
@@ -287692,7 +287825,7 @@
     "provides": [
       "cvss-score"
     ],
-    "rank": "33",
+    "rank": "35",
     "recurse_provides": "false",
     "shasum": "89801d26a6d346ee63a6c62f9eead46ce201dea7e95451bfad9320b27f0b1ed3",
     "size": "404 KB",
@@ -288521,10 +288654,10 @@
   },
   {
     "_disabled": "false",
-    "bsum": "389098294e234771d30182a90c9eb760e4f7131240444520ef25d882dd8805ce",
-    "build_date": "2025-09-28T01:19:58Z",
-    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18067332938",
-    "build_id": "18067332938",
+    "bsum": "f5dd750e1adacf7f6455f9c4492e23a4b7443ff067ba2308c5f3ef33c0440315",
+    "build_date": "2025-09-28T03:47:02Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18068837622",
+    "build_id": "18068837622",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/portmatching/stable/data_generation?tag=0.3.3-aarch64-Linux&download=data_generation.log",
     "bundle": "false",
     "category": [
@@ -288566,9 +288699,9 @@
     "provides": [
       "data_generation"
     ],
-    "rank": "34",
+    "rank": "36",
     "recurse_provides": "false",
-    "shasum": "18c0cc648f2f6eb21ed48225cde407e4d60571eb1f6b052dcd5b667a939b1ffb",
+    "shasum": "b6f5d00753bf41a4686dfb3e38474b91accbe03831e3f1b95fd8d900f7aa85ab",
     "size": "1.2 MB",
     "size_raw": "1179984",
     "snapshots": [
@@ -296914,7 +297047,7 @@
     "provides": [
       "py-license-auditor"
     ],
-    "rank": "35",
+    "rank": "37",
     "recurse_provides": "false",
     "shasum": "6c53e12186d704dd0ac3a41706768a75c0e41b7cb59675db27062cabdd6fec8e",
     "size": "1.1 MB",
@@ -298982,7 +299115,7 @@
     "provides": [
       "qrism"
     ],
-    "rank": "36",
+    "rank": "38",
     "recurse_provides": "false",
     "shasum": "137ffab17e0b90b5a651734bd7ad83b4349c5866537c29b3f6e8797deaef7c43",
     "size": "4.5 MB",
@@ -299988,7 +300121,7 @@
     "provides": [
       "quantsim_ui"
     ],
-    "rank": "37",
+    "rank": "39",
     "recurse_provides": "false",
     "shasum": "6f85237840bf076da5fbad84d1100e754d1ef21995ccd5d4534e5b27f7ea2152",
     "size": "12 MB",
@@ -302398,7 +302531,7 @@
     "provides": [
       "gist"
     ],
-    "rank": "38",
+    "rank": "40",
     "recurse_provides": "false",
     "shasum": "2dc1545782f3b4555adfc8ff9134df359ca877779f8c57ff141c4af6ac0c0f14",
     "size": "693 KB",
@@ -304733,7 +304866,7 @@
     "provides": [
       "rat_memcached"
     ],
-    "rank": "39",
+    "rank": "41",
     "recurse_provides": "false",
     "shasum": "eca62ab8d44d63eebdc5cc35d3c983ae1a424f022ff4ac6676d0b8c301d8becf",
     "size": "3.9 MB",
@@ -331100,7 +331233,7 @@
     "provides": [
       "rustpatcher"
     ],
-    "rank": "40",
+    "rank": "42",
     "recurse_provides": "false",
     "shasum": "5fd9f75b29a2dd7308178f533cf1a15d74f922d069d469ed7fcd47ca110b6a37",
     "size": "801 KB",
@@ -341502,7 +341635,7 @@
       "sudoku_baseline_comparison",
       "sudoku_benchmark"
     ],
-    "rank": "42",
+    "rank": "44",
     "recurse_provides": "false",
     "shasum": "ac5c0a46a5af012469e27395be1905f6fe59e02e8605b4c515bb510b26263be1",
     "size": "544 KB",
@@ -342392,6 +342525,72 @@
     "trusted": "true",
     "version": "0.1.0",
     "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "b9f51db01d021de06b567ba724da1a8564f20f379b3c3f03e22c85994e1441f4",
+    "build_date": "2025-09-28T03:43:25Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18068837431",
+    "build_id": "18068837431",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/serde-saphyr/stable/serde-saphyr?tag=0.0.2-aarch64-Linux&download=serde-saphyr.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "YAML deserializer for Serde with an emphasis on panic-free parsing on the top of Saphyr.",
+    "desktop_integration": "false",
+    "download_count": "120",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/serde-saphyr/stable/serde-saphyr?tag=0.0.2-aarch64-Linux&download=serde-saphyr",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/serde-saphyr/stable/serde-saphyr:0.0.2-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/serde-saphyr/stable/serde-saphyr",
+    "homepage": [
+      "https://github.com/bourumir-wyngs/serde-saphyr"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/serde-saphyr/stable/serde-saphyr?tag=0.0.2-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "serde-saphyr",
+    "pkg_family": "serde-saphyr",
+    "pkg_id": "pkgforge-cargo.serde-saphyr.stable",
+    "pkg_name": "serde-saphyr",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/serde-saphyr",
+    "portable": "true",
+    "provides": [
+      "serde-saphyr"
+    ],
+    "rank": "45",
+    "recurse_provides": "false",
+    "shasum": "9275c0c3a27b81dce131269e22de678a745b1a9339fea753c9070dcabb572179",
+    "size": "572 KB",
+    "size_raw": "585688",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/serde-saphyr/0.0.2/download"
+    ],
+    "tag": [
+      "serde",
+      "serialization",
+      "yaml"
+    ],
+    "trusted": "true",
+    "version": "0.0.2",
+    "version_upstream": "0.0.2"
   },
   {
     "_disabled": "false",
@@ -357774,7 +357973,7 @@
     "provides": [
       "sql-json-path"
     ],
-    "rank": "43",
+    "rank": "46",
     "recurse_provides": "false",
     "shasum": "952cc34c4fc23535acf8127900b6593cbf27cb21f3b5f2ef35ade7dcfe4e8731",
     "size": "1.7 MB",
@@ -360367,7 +360566,7 @@
     "provides": [
       "stalkr"
     ],
-    "rank": "44",
+    "rank": "47",
     "recurse_provides": "false",
     "shasum": "b8a01deb44f706286f5783800e4b93ceea2adf3c0c32824c05ecf493c8788f52",
     "size": "3.5 MB",
@@ -362427,7 +362626,7 @@
     "provides": [
       "strange_loop_cli"
     ],
-    "rank": "45",
+    "rank": "48",
     "recurse_provides": "false",
     "shasum": "af764fb864c23d3c8eb3c9d9e825bd3a029c84d9c51532a976247deac42c8d76",
     "size": "593 KB",
@@ -367427,7 +367626,7 @@
     "provides": [
       "tallyhawk"
     ],
-    "rank": "46",
+    "rank": "49",
     "recurse_provides": "false",
     "shasum": "5dde5a5e5e72045bc72e4bae6f3afa93c164d58625748112742613177f48dd41",
     "size": "1.8 MB",
@@ -370174,6 +370373,76 @@
     "trusted": "true",
     "version": "0.10.0",
     "version_upstream": "0.10.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "7ead4885a96057c2975a922752d7bae0586c3c96c73cede4f5634cb0c4b2e877",
+    "build_date": "2025-09-28T03:45:03Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18068837303",
+    "build_id": "18068837303",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/temporal-attractor-studio/stable/tas-cli?tag=0.1.0-aarch64-Linux&download=tas-cli.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Temporal Attractor Studio - Real FTLE calculation and temporal dynamics prediction with VP-tree optimization.",
+    "desktop_integration": "false",
+    "download_count": "73",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/temporal-attractor-studio/stable/tas-cli?tag=0.1.0-aarch64-Linux&download=tas-cli",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/temporal-attractor-studio/stable/tas-cli:0.1.0-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/temporal-attractor-studio/stable/tas-cli",
+    "homepage": [
+      "https://github.com/ruvnet/sublinear-time-solver"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/temporal-attractor-studio/stable/tas-cli?tag=0.1.0-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tas-cli",
+    "pkg_family": "temporal-attractor-studio",
+    "pkg_id": "pkgforge-cargo.temporal-attractor-studio.stable",
+    "pkg_name": "tas-cli",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/temporal-attractor-studio",
+    "portable": "true",
+    "provides": [
+      "lyapfit",
+      "performance-test",
+      "tas-cli"
+    ],
+    "rank": "52",
+    "recurse_provides": "false",
+    "shasum": "a04897a49681f8292d607cbc466fab294a3a1a53368cba5b417118f2654c288e",
+    "size": "1.6 MB",
+    "size_raw": "1591352",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/temporal-attractor-studio/0.1.0/download"
+    ],
+    "tag": [
+      "attractor",
+      "chaos",
+      "dynamics",
+      "lyapunov",
+      "temporal"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
   },
   {
     "_disabled": "false",
@@ -394110,7 +394379,7 @@
     "provides": [
       "uvoxxyz"
     ],
-    "rank": "47",
+    "rank": "53",
     "recurse_provides": "false",
     "shasum": "605cc0fbc1f3e4a0666098c1e83e774e2d0f8e3d972d32587291281b6333a0ff",
     "size": "352 KB",
@@ -399190,7 +399459,7 @@
     "provides": [
       "vtracer"
     ],
-    "rank": "48",
+    "rank": "54",
     "recurse_provides": "false",
     "shasum": "18915cbad198295b76fae9c3589bb79046ee806aa3d24e1ec979f68c20e596f2",
     "size": "1.6 MB",
@@ -411696,7 +411965,7 @@
     "provides": [
       "xlg-sqlfmt"
     ],
-    "rank": "49",
+    "rank": "55",
     "recurse_provides": "false",
     "shasum": "3fa7d6aaa5e750485e3416d7bf001accde7ff62266660e20dd8393420f91dd50",
     "size": "1.6 MB",
@@ -412505,7 +412774,7 @@
     "provides": [
       "xmlformat"
     ],
-    "rank": "50",
+    "rank": "56",
     "recurse_provides": "false",
     "shasum": "18ca76f72b34574116ee258131ec90ec07229fcadd8a1ee225956ff3126bf1da",
     "size": "352 KB",
@@ -413523,6 +413792,74 @@
     "trusted": "true",
     "version": "1.2.1",
     "version_upstream": "1.2.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "6f71b05efa3f8c57f6cf30fe753392b1d4f35c7f526f51196e83af2b3fff7c45",
+    "build_date": "2025-09-28T03:48:24Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18068837574",
+    "build_id": "18068837574",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/xtrakcad_parser/stable/xtrakcad_parser?tag=0.1.1-aarch64-Linux&download=xtrakcad_parser.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Parser for XTrackCAD layout files.",
+    "desktop_integration": "false",
+    "download_count": "65",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/xtrakcad_parser/stable/xtrakcad_parser?tag=0.1.1-aarch64-Linux&download=xtrakcad_parser",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/xtrakcad_parser/stable/xtrakcad_parser:0.1.1-aarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/xtrakcad_parser/stable/xtrakcad_parser",
+    "homepage": [
+      "https://github.com/RobertPHeller/xtrakcad_parser"
+    ],
+    "host": "aarch64-Linux",
+    "installable": "true",
+    "license": [
+      "GPL-2.0-only"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/xtrakcad_parser/stable/xtrakcad_parser?tag=0.1.1-aarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "xtrakcad_parser",
+    "pkg_family": "xtrakcad_parser",
+    "pkg_id": "pkgforge-cargo.xtrakcad_parser.stable",
+    "pkg_name": "xtrakcad_parser",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/xtrakcad_parser",
+    "portable": "true",
+    "provides": [
+      "xtrakcad_parser"
+    ],
+    "rank": "57",
+    "recurse_provides": "false",
+    "shasum": "2ed911a4cc874d7a81f3a922c8261bec5a1b977f111fb126989461b242ece626",
+    "size": "892 KB",
+    "size_raw": "913368",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/xtrakcad_parser/0.1.1/download"
+    ],
+    "tag": [
+      "cad",
+      "model-railroad",
+      "model-railway",
+      "parser",
+      "railroad"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
   },
   {
     "_disabled": "false",
@@ -418166,7 +418503,7 @@
     "provides": [
       "zeta"
     ],
-    "rank": "51",
+    "rank": "58",
     "recurse_provides": "false",
     "shasum": "964b18fd843c8a4b6e2bca8a91ffc4d2a7ba81c6c7e56eb54e57f5cceedf9c9f",
     "size": "1.5 MB",
