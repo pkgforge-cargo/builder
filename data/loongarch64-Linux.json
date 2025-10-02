@@ -2918,7 +2918,7 @@
     "provides": [
       "TypeScript-Rust-Compiler"
     ],
-    "rank": "32",
+    "rank": "37",
     "recurse_provides": "false",
     "shasum": "6d881d5d527c7e1e3c5593a62d382781c3ffb0aeab75b649df1556692297874c",
     "size": "1.5 MB",
@@ -15863,6 +15863,74 @@
     "trusted": "true",
     "version": "2025.5.16",
     "version_upstream": "2025.5.16"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "429ca558462dd75a20b31822793584e21f150dc897260d0b655413c72408cdad",
+    "build_date": "2025-10-02T03:37:24Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18182568795",
+    "build_id": "18182568795",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ansimage/stable/ansimage?tag=0.1.3-loongarch64-Linux&download=ansimage.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Converting images into colorful terminal ANSI art.",
+    "desktop_integration": "false",
+    "download_count": "474",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ansimage/stable/ansimage?tag=0.1.3-loongarch64-Linux&download=ansimage",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/ansimage/stable/ansimage:0.1.3-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/ansimage/stable/ansimage",
+    "homepage": [
+      "https://github.com/xangelix/ansimage"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/ansimage/stable/ansimage?tag=0.1.3-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "ansimage",
+    "pkg_family": "ansimage",
+    "pkg_id": "pkgforge-cargo.ansimage.stable",
+    "pkg_name": "ansimage",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/ansimage",
+    "portable": "true",
+    "provides": [
+      "ansimage"
+    ],
+    "rank": "1",
+    "recurse_provides": "false",
+    "shasum": "c58fec6f414d3f97ec8f1cb9d36f3bbd564d0d9d6807bc246c362697066551ea",
+    "size": "2.5 MB",
+    "size_raw": "2576392",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/ansimage/0.1.3/download"
+    ],
+    "tag": [
+      "ansi",
+      "art",
+      "ascii-art",
+      "image",
+      "terminal"
+    ],
+    "trusted": "true",
+    "version": "0.1.3",
+    "version_upstream": "0.1.3"
   },
   {
     "_disabled": "false",
@@ -32693,7 +32761,7 @@
     "provides": [
       "axumate"
     ],
-    "rank": "1",
+    "rank": "2",
     "recurse_provides": "false",
     "shasum": "3640ca64e6b5011edc8272f21e867b6a86e4cd0debc8677fcea70dac0bfce16d",
     "size": "932 KB",
@@ -53107,7 +53175,7 @@
     "provides": [
       "file-id"
     ],
-    "rank": "2",
+    "rank": "3",
     "recurse_provides": "false",
     "shasum": "5f97b7ab1900adc7a885c4e4099d33c6f8d938154238f18836a926c0cb9e5fe2",
     "size": "420 KB",
@@ -60336,7 +60404,7 @@
     "provides": [
       "cantirust"
     ],
-    "rank": "3",
+    "rank": "4",
     "recurse_provides": "false",
     "shasum": "451f9b31828bbf4d2ef760eb0c3266a075d1f7cf40448b175fed8ab42632eb86",
     "size": "4.0 MB",
@@ -60541,7 +60609,7 @@
       "example-server",
       "typescript-interop-server"
     ],
-    "rank": "6",
+    "rank": "7",
     "recurse_provides": "false",
     "shasum": "9b62f49691d21e386a3f5dd5e06cda3325989c735ee8e3138b384f1b3d353e8b",
     "size": "2.2 MB",
@@ -69134,7 +69202,7 @@
     "provides": [
       "cargo-mold"
     ],
-    "rank": "7",
+    "rank": "8",
     "recurse_provides": "false",
     "shasum": "ed8fcfcafc97ae5360919d03ef571c1fb613390783ffba64428b65eb474c013b",
     "size": "1.2 MB",
@@ -87722,6 +87790,73 @@
   },
   {
     "_disabled": "false",
+    "bsum": "ed8fdeda8ef888101ac2dc59b9fd1d65911b03f47f4b3044e538645c0be5c350",
+    "build_date": "2025-10-02T03:40:48Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18182569383",
+    "build_id": "18182569383",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/commitfmt/stable/commitfmt?tag=0.0.1-loongarch64-Linux&download=commitfmt.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A git commit message formatter.",
+    "desktop_integration": "false",
+    "download_count": "123",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/commitfmt/stable/commitfmt?tag=0.0.1-loongarch64-Linux&download=commitfmt",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/commitfmt/stable/commitfmt:0.0.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/commitfmt/stable/commitfmt",
+    "homepage": [
+      "https://github.com/jfernandez/commitfmt"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/commitfmt/stable/commitfmt?tag=0.0.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "commitfmt",
+    "pkg_family": "commitfmt",
+    "pkg_id": "pkgforge-cargo.commitfmt.stable",
+    "pkg_name": "commitfmt",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/commitfmt",
+    "portable": "true",
+    "provides": [
+      "commitfmt"
+    ],
+    "rank": "9",
+    "recurse_provides": "false",
+    "shasum": "56b989203e5738ea5029e76211fb94c528f4ef72417346f2b853a20db3e1dbbd",
+    "size": "1.1 MB",
+    "size_raw": "1085336",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/commitfmt/0.0.1/download"
+    ],
+    "tag": [
+      "cli",
+      "commit",
+      "formatter",
+      "git"
+    ],
+    "trusted": "true",
+    "version": "0.0.1",
+    "version_upstream": "0.0.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "49763a155d7afeb39458774b9b6c37d59eeed462ef58a8258aa026cd794659f2",
     "build_date": "2025-06-23T08:13:42Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15818088359",
@@ -90890,7 +91025,7 @@
     "provides": [
       "crate-checker"
     ],
-    "rank": "8",
+    "rank": "10",
     "recurse_provides": "false",
     "shasum": "9e7dd36366fd4538c171be2485e0a8c181a136895ffcffac9490ddad3a983836",
     "size": "7.3 MB",
@@ -96298,7 +96433,7 @@
     "provides": [
       "data-proc"
     ],
-    "rank": "9",
+    "rank": "11",
     "recurse_provides": "false",
     "shasum": "4b49e630a3ee6b1fb151af78aac0ff3c4d1bfba63350fc17668e8d2f7f0937b3",
     "size": "420 KB",
@@ -97029,7 +97164,7 @@
     "provides": [
       "dcan-db"
     ],
-    "rank": "10",
+    "rank": "12",
     "recurse_provides": "false",
     "shasum": "dbaf50f43e848ef83808f7d2058d40c485e9cc0822e8aafe545f6289960bbca7",
     "size": "692 KB",
@@ -110810,7 +110945,7 @@
     "provides": [
       "easy-http-proxy-server"
     ],
-    "rank": "11",
+    "rank": "13",
     "recurse_provides": "false",
     "shasum": "cc9437b6469d37b7e7e16a38eed4ae66fa8bedef116894bd36977a4e9aa31bf2",
     "size": "2.4 MB",
@@ -121777,7 +121912,7 @@
     "provides": [
       "ferric"
     ],
-    "rank": "12",
+    "rank": "14",
     "recurse_provides": "false",
     "shasum": "a165c322f76b854729f843dfc168a9e390078341864cd671c0ade3a6d1a15007",
     "size": "2.8 MB",
@@ -140886,7 +141021,7 @@
     "provides": [
       "git-ignore"
     ],
-    "rank": "13",
+    "rank": "15",
     "recurse_provides": "false",
     "shasum": "211d52ea41478ac9cb3528574b1bfb786e03922e1a2b09a8e3b3b595d50fcbb8",
     "size": "900 KB",
@@ -151343,7 +151478,7 @@
     "provides": [
       "heck-string"
     ],
-    "rank": "14",
+    "rank": "16",
     "recurse_provides": "false",
     "shasum": "8740dd1ad474a4f2bf0797edd49c366100e38c0833c49021edcaeeb8d5c3d358",
     "size": "916 KB",
@@ -158869,7 +159004,7 @@
     "provides": [
       "iconography"
     ],
-    "rank": "15",
+    "rank": "17",
     "recurse_provides": "false",
     "shasum": "c17353b98d101b8a6176aed88fb5629dc59be1453697beb183b93cfdc3ddbdb6",
     "size": "14 MB",
@@ -160664,7 +160799,7 @@
     "provides": [
       "inapt"
     ],
-    "rank": "16",
+    "rank": "18",
     "recurse_provides": "false",
     "shasum": "e172868279eedab93253e8f7e2adc81d46fae951eb23a201a3f834041dde7e35",
     "size": "7.0 MB",
@@ -168046,7 +168181,7 @@
     "provides": [
       "parse_junit"
     ],
-    "rank": "17",
+    "rank": "19",
     "recurse_provides": "false",
     "shasum": "650ff6f753dd5708af89419ac1d1fb673d5838bd860737c60be57a8cca8a2f8c",
     "size": "724 KB",
@@ -181397,7 +181532,7 @@
     "provides": [
       "logiq"
     ],
-    "rank": "18",
+    "rank": "20",
     "recurse_provides": "false",
     "shasum": "334fd06dfbd5258f62f909edc1ed1a86248fb8d7b7922892505c85ce3dc1ad4e",
     "size": "1.2 MB",
@@ -191944,7 +192079,7 @@
     "provides": [
       "mdbook-gitinfo"
     ],
-    "rank": "19",
+    "rank": "21",
     "recurse_provides": "false",
     "shasum": "47055b11ef91f41f3261918f3ba5c8f63446c96e712f99ecc152fdb6edd23450",
     "size": "1.2 MB",
@@ -203979,7 +204114,7 @@
     "provides": [
       "mux-media"
     ],
-    "rank": "20",
+    "rank": "22",
     "recurse_provides": "false",
     "shasum": "edca2e7807e6e018c6f499741e29bab8d3c54aafec4f9d825d5486285f3019db",
     "size": "4.8 MB",
@@ -221495,7 +221630,7 @@
     "provides": [
       "parsql"
     ],
-    "rank": "21",
+    "rank": "23",
     "recurse_provides": "false",
     "shasum": "2ba4551c3ab4d94b81e7a01c04f360191943bd7cdb808de18cfd9eb0ae8e3122",
     "size": "5.1 MB",
@@ -225534,7 +225669,7 @@
     "provides": [
       "pg_exporter"
     ],
-    "rank": "22",
+    "rank": "24",
     "recurse_provides": "false",
     "shasum": "15f0b1450f1f37bbdc6707f2d4151b4c54d8201c52eb38127bd22156d67f31ef",
     "size": "5.9 MB",
@@ -240739,7 +240874,7 @@
     "provides": [
       "qrism"
     ],
-    "rank": "23",
+    "rank": "25",
     "recurse_provides": "false",
     "shasum": "1f0426722215de1e2f4c28ff75a37b378ed6d6c6141d61570dbe81dafed79199",
     "size": "5.2 MB",
@@ -243415,7 +243550,7 @@
     "provides": [
       "gist"
     ],
-    "rank": "24",
+    "rank": "26",
     "recurse_provides": "false",
     "shasum": "14e6fd30f368be791943000ccf29b6afd24cb62af88981ea09f78274bbc534c4",
     "size": "788 KB",
@@ -275405,7 +275540,7 @@
       "sudoku_baseline_comparison",
       "sudoku_benchmark"
     ],
-    "rank": "26",
+    "rank": "28",
     "recurse_provides": "false",
     "shasum": "3826371c99be9131b997a66184c73d10b155b018490c04c2a390d9ecb11ec25c",
     "size": "628 KB",
@@ -276280,7 +276415,7 @@
     "provides": [
       "serde-saphyr"
     ],
-    "rank": "27",
+    "rank": "29",
     "recurse_provides": "false",
     "shasum": "2598e9fa639111c0f79dc03cf2f0ca340057c9f3a6dc9449954ac4fcfc2d1ef9",
     "size": "660 KB",
@@ -288892,7 +289027,7 @@
     "provides": [
       "sql-json-path"
     ],
-    "rank": "28",
+    "rank": "30",
     "recurse_provides": "false",
     "shasum": "ac264b862ac71ee8fbd8fde233e24703852be1559c7e7df77ef7365b5481379e",
     "size": "1.9 MB",
@@ -299228,7 +299363,7 @@
       "performance-test",
       "tas-cli"
     ],
-    "rank": "31",
+    "rank": "33",
     "recurse_provides": "false",
     "shasum": "1130c25e1716bf5914a9dd6be98b3741531badc84ec2228792e693bb719daeea",
     "size": "1.8 MB",
@@ -308846,6 +308981,71 @@
   },
   {
     "_disabled": "false",
+    "bsum": "785569e6a0149ca07e5eb721fe1724ef2454d082d15364116a0600b1c7f640f3",
+    "build_date": "2025-10-02T03:42:08Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18182569835",
+    "build_id": "18182569835",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toodoux/stable/td?tag=0.4.1-loongarch64-Linux&download=td.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A modern task management tool.",
+    "desktop_integration": "false",
+    "download_count": "1867",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toodoux/stable/td?tag=0.4.1-loongarch64-Linux&download=td",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/toodoux/stable/td:0.4.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/toodoux/stable/td",
+    "homepage": [
+      "https://git.sr.ht/~hadronized/toodoux"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "BSD-3-Clause"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/toodoux/stable/td?tag=0.4.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "td",
+    "pkg_family": "toodoux",
+    "pkg_id": "pkgforge-cargo.toodoux.stable",
+    "pkg_name": "td",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/toodoux",
+    "portable": "true",
+    "provides": [
+      "td"
+    ],
+    "rank": "34",
+    "recurse_provides": "false",
+    "shasum": "f1e749c7ba8bc60791524ea2f8b338bdfa0a1b94d86425061558fc6c9299df62",
+    "size": "2.5 MB",
+    "size_raw": "2609184",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/toodoux/0.4.1/download"
+    ],
+    "tag": [
+      "task",
+      "todo"
+    ],
+    "trusted": "true",
+    "version": "0.4.1",
+    "version_upstream": "0.4.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "302e72959d01fbadd56883a49c8156488f5035b07d36b59ba705bcaacc0c4624",
     "build_date": "2025-06-29T18:27:05Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15958111897",
@@ -310625,6 +310825,74 @@
     "trusted": "true",
     "version": "0.3.2",
     "version_upstream": "0.3.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "e518a4152ce963e6dcc5ae7fdc0d1f327c403fdc8f18cc36732b1b8b2d76f16c",
+    "build_date": "2025-10-02T03:44:06Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18182570375",
+    "build_id": "18182570375",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tree-sitter-query-formatter/stable/tree-sitter-query-formatter?tag=0.2.1-loongarch64-Linux&download=tree-sitter-query-formatter.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Format Tree-sitter queries.",
+    "desktop_integration": "false",
+    "download_count": "291",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tree-sitter-query-formatter/stable/tree-sitter-query-formatter?tag=0.2.1-loongarch64-Linux&download=tree-sitter-query-formatter",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tree-sitter-query-formatter/stable/tree-sitter-query-formatter:0.2.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tree-sitter-query-formatter/stable/tree-sitter-query-formatter",
+    "homepage": [
+      "https://github.com/agentcooper/tree-sitter-query-formatter"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tree-sitter-query-formatter/stable/tree-sitter-query-formatter?tag=0.2.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tree-sitter-query-formatter",
+    "pkg_family": "tree-sitter-query-formatter",
+    "pkg_id": "pkgforge-cargo.tree-sitter-query-formatter.stable",
+    "pkg_name": "tree-sitter-query-formatter",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tree-sitter-query-formatter",
+    "portable": "true",
+    "provides": [
+      "tree-sitter-query-formatter"
+    ],
+    "rank": "35",
+    "recurse_provides": "false",
+    "shasum": "445d6039e6b690add906c2b548af930d12f6191c9c185f02776b49c02c3e7c3f",
+    "size": "964 KB",
+    "size_raw": "987048",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tree-sitter-query-formatter/0.2.1/download"
+    ],
+    "tag": [
+      "formatter",
+      "prettier",
+      "syntax",
+      "tree-sitter",
+      "tree-sitter-query"
+    ],
+    "trusted": "true",
+    "version": "0.2.1",
+    "version_upstream": "0.2.1"
   },
   {
     "_disabled": "false",
@@ -312632,6 +312900,74 @@
     "trusted": "true",
     "version": "0.11.2",
     "version_upstream": "0.11.2"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "cd56ce69c8c1ef48a769835271c9752ec3f5a6d138f02152d235c249c3ee2a93",
+    "build_date": "2025-10-02T03:45:21Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/18182570259",
+    "build_id": "18182570259",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tudiff/stable/tudiff?tag=0.1.0-loongarch64-Linux&download=tudiff.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A high-performance terminal directory comparison tool written in Rust - bringing Beyond Compares intuitive interface to the command line.",
+    "desktop_integration": "false",
+    "download_count": "131",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tudiff/stable/tudiff?tag=0.1.0-loongarch64-Linux&download=tudiff",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/tudiff/stable/tudiff:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/tudiff/stable/tudiff",
+    "homepage": [
+      "https://github.com/withoutsalsu/tudiff"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/tudiff/stable/tudiff?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "tudiff",
+    "pkg_family": "tudiff",
+    "pkg_id": "pkgforge-cargo.tudiff.stable",
+    "pkg_name": "tudiff",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/tudiff",
+    "portable": "true",
+    "provides": [
+      "tudiff"
+    ],
+    "rank": "36",
+    "recurse_provides": "false",
+    "shasum": "35dc1d1c422e954d41104bf77e287c5dfa03f11a263c8a622f8efd9e7b5e52bf",
+    "size": "1.6 MB",
+    "size_raw": "1593464",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/tudiff/0.1.0/download"
+    ],
+    "tag": [
+      "comparison",
+      "diff",
+      "directory",
+      "file",
+      "tui"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
   },
   {
     "_disabled": "false",
@@ -334131,7 +334467,7 @@
     "provides": [
       "xmlformat"
     ],
-    "rank": "33",
+    "rank": "38",
     "recurse_provides": "false",
     "shasum": "e9b62eed29f414fdf8d0cbf46d934f5bb0cbd2155b61ef8f80f935e1c99176da",
     "size": "420 KB",
@@ -334863,7 +335199,7 @@
     "provides": [
       "xtrakcad_parser"
     ],
-    "rank": "34",
+    "rank": "39",
     "recurse_provides": "false",
     "shasum": "3bd63cae0eb1780ea10531d90927de25651074d50b025a5cfb5b8bb491853c8c",
     "size": "980 KB",
@@ -340401,7 +340737,7 @@
     "provides": [
       "zhc"
     ],
-    "rank": "35",
+    "rank": "40",
     "recurse_provides": "false",
     "shasum": "350d2bbb487ef85db2b4217a4637ffc4e8264224a618fb721b4e208b963f6818",
     "size": "2.1 MB",
