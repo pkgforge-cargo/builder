@@ -1604,7 +1604,7 @@
     "provides": [
       "packet_analyzer"
     ],
-    "rank": "54",
+    "rank": "65",
     "recurse_provides": "false",
     "shasum": "d4bd551945f42983cd6661b548bb70a3ab65804a3593e2c2849946c2f33ccbc7",
     "size": "2.6 MB",
@@ -14246,6 +14246,144 @@
   },
   {
     "_disabled": "false",
+    "bsum": "446795400920e94e8de439e86dd55b82a761d89fe412ec1ebc39818400bba273",
+    "build_date": "2025-11-10T18:34:01Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241853104",
+    "build_id": "19241853104",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/amble_engine/stable/regenerate_snippets?tag=0.62.1-loongarch64-Linux&download=regenerate_snippets.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Data-first interactive fiction engine and REPL for worlds authored in the Amble DSL.",
+    "desktop_integration": "false",
+    "download_count": "34",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/amble_engine/stable/regenerate_snippets?tag=0.62.1-loongarch64-Linux&download=regenerate_snippets",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/amble_engine/stable/regenerate_snippets:0.62.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/amble_engine/stable/regenerate_snippets",
+    "homepage": [
+      "https://github.com/pygmy-twylyte/amble"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/amble_engine/stable/regenerate_snippets?tag=0.62.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "regenerate_snippets",
+    "pkg_family": "amble_engine",
+    "pkg_id": "pkgforge-cargo.amble_engine.stable",
+    "pkg_name": "regenerate_snippets",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/amble_engine",
+    "portable": "true",
+    "provides": [
+      "amble_engine",
+      "regenerate_snippets"
+    ],
+    "rank": "4",
+    "recurse_provides": "false",
+    "shasum": "661a53e5abdcbc8a023d0fda905997b06a1099539c78a2ed3dfd681c88fde3f6",
+    "size": "516 KB",
+    "size_raw": "528208",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/amble_engine/0.62.1/download"
+    ],
+    "tag": [
+      "cli",
+      "dsl",
+      "game-engine",
+      "interactive-fiction",
+      "text-adventure"
+    ],
+    "trusted": "true",
+    "version": "0.62.1",
+    "version_upstream": "0.62.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "981fca2b6a247b561ce887f865aaae418249557f4e3c8e9a35559b3629298f19",
+    "build_date": "2025-11-10T18:27:25Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241852467",
+    "build_id": "19241852467",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/amble_script/stable/rev_engine_to_dsl?tag=0.62.1-loongarch64-Linux&download=rev_engine_to_dsl.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Authoring-focused DSL, parser, and compiler that produces Amble engine TOML data.",
+    "desktop_integration": "false",
+    "download_count": "31",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/amble_script/stable/rev_engine_to_dsl?tag=0.62.1-loongarch64-Linux&download=rev_engine_to_dsl",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/amble_script/stable/rev_engine_to_dsl:0.62.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/amble_script/stable/rev_engine_to_dsl",
+    "homepage": [
+      "https://github.com/pygmy-twylyte/amble"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/amble_script/stable/rev_engine_to_dsl?tag=0.62.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "rev_engine_to_dsl",
+    "pkg_family": "amble_script",
+    "pkg_id": "pkgforge-cargo.amble_script.stable",
+    "pkg_name": "rev_engine_to_dsl",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/amble_script",
+    "portable": "true",
+    "provides": [
+      "amble_script",
+      "rev_engine_to_dsl"
+    ],
+    "rank": "6",
+    "recurse_provides": "false",
+    "shasum": "d00473dcec68585a853983971178e9e403cfc1590bf18a64c725335a89a71ead",
+    "size": "708 KB",
+    "size_raw": "724832",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/amble_script/0.62.1/download"
+    ],
+    "tag": [
+      "cli",
+      "compiler",
+      "dsl",
+      "interactive-fiction",
+      "parser"
+    ],
+    "trusted": "true",
+    "version": "0.62.1",
+    "version_upstream": "0.62.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "df66612b7bbe720f51523717ac4ac8485b5ac20f16b49ee9d09c7716a765b91c",
     "build_date": "2025-06-15T11:58:04Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15662521846",
@@ -25125,7 +25263,7 @@
     "provides": [
       "asimov-anthropic-prompter"
     ],
-    "rank": "3",
+    "rank": "7",
     "recurse_provides": "false",
     "shasum": "e8169a428186120eeaf2c0957ca55e50c2a2c7b29d2f29a4284d7a97d5be5c9e",
     "size": "3.0 MB",
@@ -25788,7 +25926,7 @@
     "provides": [
       "asimov-gemini-prompter"
     ],
-    "rank": "4",
+    "rank": "8",
     "recurse_provides": "false",
     "shasum": "c08b3db1508e47059095671e02d5321d1cedcb6575ee51d7c77adffe440e4923",
     "size": "3.0 MB",
@@ -26382,7 +26520,7 @@
     "provides": [
       "asimov-linkup-fetcher"
     ],
-    "rank": "5",
+    "rank": "9",
     "recurse_provides": "false",
     "shasum": "da1f3909bc5a27a3f50e22f0fcd73911fc594924cf8dfdfbf29734adace3890d",
     "size": "4.2 MB",
@@ -26449,7 +26587,7 @@
       "asimov-luma-fetcher",
       "asimov-luma-module"
     ],
-    "rank": "7",
+    "rank": "11",
     "recurse_provides": "false",
     "shasum": "a370ccaf401caca372165c7d2d91d35d1e2cf6da90ba93b1070d3ac2368c17c7",
     "size": "4.3 MB",
@@ -26647,7 +26785,7 @@
     "provides": [
       "asimov-mlx-prompter"
     ],
-    "rank": "8",
+    "rank": "12",
     "recurse_provides": "false",
     "shasum": "c5a96fc41a159698906c365231215a291095710f800e08078f13dbe542f6af7d",
     "size": "1.3 MB",
@@ -27244,7 +27382,7 @@
       "asimov-readwise-fetcher",
       "asimov-readwise-importer"
     ],
-    "rank": "10",
+    "rank": "14",
     "recurse_provides": "false",
     "shasum": "83b75584d4d8c30a2aa951fb098c1ce5e0e5e5d5f6d1d26333d179ee41906cda",
     "size": "4.2 MB",
@@ -27511,7 +27649,7 @@
       "asimov-valkey-reader",
       "asimov-valkey-writer"
     ],
-    "rank": "13",
+    "rank": "17",
     "recurse_provides": "false",
     "shasum": "e6b0a39fc0c7f41e5bb8e8779db6dc8231161349986a4d38fc7814771049e653",
     "size": "1.5 MB",
@@ -27643,7 +27781,7 @@
     "provides": [
       "asimov-x-cataloger"
     ],
-    "rank": "14",
+    "rank": "18",
     "recurse_provides": "false",
     "shasum": "ee84904018c5c46030ce8bafad48e5fccfa3fec391354306a811d11930067250",
     "size": "4.1 MB",
@@ -27709,7 +27847,7 @@
     "provides": [
       "asimov-xai-prompter"
     ],
-    "rank": "15",
+    "rank": "19",
     "recurse_provides": "false",
     "shasum": "20820e72bf02481f9660b77f8f50cca083faf97724641dbff05bbf8d17c95643",
     "size": "3.0 MB",
@@ -29177,7 +29315,7 @@
     "provides": [
       "asterism"
     ],
-    "rank": "16",
+    "rank": "20",
     "recurse_provides": "false",
     "shasum": "c0f8314f3219da0a283ba5566da821dcca24a1d8964eadc57f08efc03b674e76",
     "size": "5.2 MB",
@@ -31749,7 +31887,7 @@
     "provides": [
       "auth-middleware-pkg"
     ],
-    "rank": "17",
+    "rank": "21",
     "recurse_provides": "false",
     "shasum": "b80115c4f51fa938f416bffaaa5c500614ce2d8e93d22f9fc8c4c860f165cd6a",
     "size": "404 KB",
@@ -50760,7 +50898,7 @@
     "provides": [
       "blue-noise"
     ],
-    "rank": "18",
+    "rank": "22",
     "recurse_provides": "false",
     "shasum": "2009efce8997eb415ce542f6d45d5767073854e400247a5926aeada39c8cd884",
     "size": "5.8 MB",
@@ -52445,7 +52583,7 @@
     "provides": [
       "book2pdf"
     ],
-    "rank": "19",
+    "rank": "23",
     "recurse_provides": "false",
     "shasum": "364298ba21f6051b7cbd5af3b1d4977786f5aa7a4a1c82821443f380a374fce2",
     "size": "9.3 MB",
@@ -59096,7 +59234,7 @@
     "provides": [
       "bunkr-client"
     ],
-    "rank": "20",
+    "rank": "24",
     "recurse_provides": "false",
     "shasum": "c8c3eaca38ae91545b7590619b834bb7b405003c83f4937e4794a27734f320dc",
     "size": "4.4 MB",
@@ -61419,7 +61557,7 @@
     "provides": [
       "cachefetch"
     ],
-    "rank": "21",
+    "rank": "25",
     "recurse_provides": "false",
     "shasum": "7b5bda201c357363e48a8c2d543b99a1ad640fc9801e40cd00b07653b7fcdc2f",
     "size": "468 KB",
@@ -77182,7 +77320,7 @@
     "provides": [
       "cargo-verctl"
     ],
-    "rank": "22",
+    "rank": "26",
     "recurse_provides": "false",
     "shasum": "d32010a8c9b307807eb57e2352d6024900d6d7e04413c6be7532865d834d65da",
     "size": "1.1 MB",
@@ -81530,7 +81668,7 @@
     "provides": [
       "cgx"
     ],
-    "rank": "23",
+    "rank": "27",
     "recurse_provides": "false",
     "shasum": "d3a18f6f56b31adb541d4d5c327552d8490543e4fdf0268cc73b6268ef8ed339",
     "size": "12 MB",
@@ -86554,7 +86692,7 @@
     "provides": [
       "claude-priority"
     ],
-    "rank": "24",
+    "rank": "28",
     "recurse_provides": "false",
     "shasum": "d7168d87b84ba8bc619c7204e8e6fd2c43b2ff31e652f8e8941dbdcb2f496561",
     "size": "2.3 MB",
@@ -94292,7 +94430,7 @@
       "gti",
       "sl"
     ],
-    "rank": "26",
+    "rank": "30",
     "recurse_provides": "false",
     "shasum": "6e295ab180edc699eb6d66055045d9ebe2a4ac9c5beecc7cbdb025584777d1e7",
     "size": "613 KB",
@@ -94360,7 +94498,7 @@
     "provides": [
       "corge-rs"
     ],
-    "rank": "27",
+    "rank": "31",
     "recurse_provides": "false",
     "shasum": "aa4d339603549834f06a82adb2e4cb3ae0cd239406fe52160d09ec343f54a900",
     "size": "1.4 MB",
@@ -97361,7 +97499,7 @@
     "provides": [
       "crompt"
     ],
-    "rank": "28",
+    "rank": "32",
     "recurse_provides": "false",
     "shasum": "cc6a6120b48c0b6b2fa7296a05497fef81d76608df4f5dfaec2dc8f4624591f3",
     "size": "404 KB",
@@ -97381,6 +97519,74 @@
     "trusted": "true",
     "version": "0.1.0",
     "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "c5fcc6a8f02dffcad280f10f09e11a3e905f3617d2499ac6f280b37e4b47f4af",
+    "build_date": "2025-11-10T18:32:19Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241853107",
+    "build_id": "19241853107",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/cron-when/stable/cron-when?tag=0.3.0-loongarch64-Linux&download=cron-when.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A CLI tool to parse cron expressions and display next execution times with human-readable durations.",
+    "desktop_integration": "false",
+    "download_count": "35",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/cron-when/stable/cron-when?tag=0.3.0-loongarch64-Linux&download=cron-when",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/cron-when/stable/cron-when:0.3.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/cron-when/stable/cron-when",
+    "homepage": [
+      "https://github.com/nbari/cron-when"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "BSD-3-Clause"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/cron-when/stable/cron-when?tag=0.3.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "cron-when",
+    "pkg_family": "cron-when",
+    "pkg_id": "pkgforge-cargo.cron-when.stable",
+    "pkg_name": "cron-when",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/cron-when",
+    "portable": "true",
+    "provides": [
+      "cron-when"
+    ],
+    "rank": "33",
+    "recurse_provides": "false",
+    "shasum": "2764d279b9650642175bd3adfbda35381728ee1db6001bf761aca2ce0583b570",
+    "size": "4.8 MB",
+    "size_raw": "4930368",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/cron-when/0.3.0/download"
+    ],
+    "tag": [
+      "cli",
+      "cron",
+      "crontab",
+      "parser",
+      "scheduler"
+    ],
+    "trusted": "true",
+    "version": "0.3.0",
+    "version_upstream": "0.3.0"
   },
   {
     "_disabled": "false",
@@ -101040,7 +101246,7 @@
     "provides": [
       "cws"
     ],
-    "rank": "29",
+    "rank": "34",
     "recurse_provides": "false",
     "shasum": "b031487e7f731641121de5fcd7c017aa44638b9055fc29ca4299a4fc4cf4d9b1",
     "size": "1.6 MB",
@@ -101385,6 +101591,74 @@
     "trusted": "true",
     "version": "0.5.4",
     "version_upstream": "0.5.4"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "3a32223c5379d92db20832763ac7162b47af75b493f8ded2c681f86b1fb41159",
+    "build_date": "2025-11-10T18:28:22Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241852280",
+    "build_id": "19241852280",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/czkawka-dupes-to-symlinks/stable/czkawka-dupes-to-symlinks?tag=0.1.1-loongarch64-Linux&download=czkawka-dupes-to-symlinks.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Safely turn Czkawka duplicate reports into space-saving symlinks.",
+    "desktop_integration": "false",
+    "download_count": "31",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/czkawka-dupes-to-symlinks/stable/czkawka-dupes-to-symlinks?tag=0.1.1-loongarch64-Linux&download=czkawka-dupes-to-symlinks",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/czkawka-dupes-to-symlinks/stable/czkawka-dupes-to-symlinks:0.1.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/czkawka-dupes-to-symlinks/stable/czkawka-dupes-to-symlinks",
+    "homepage": [
+      "https://github.com/KnotFalse/czkawka-dupes-to-symlinks"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/czkawka-dupes-to-symlinks/stable/czkawka-dupes-to-symlinks?tag=0.1.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "czkawka-dupes-to-symlinks",
+    "pkg_family": "czkawka-dupes-to-symlinks",
+    "pkg_id": "pkgforge-cargo.czkawka-dupes-to-symlinks.stable",
+    "pkg_name": "czkawka-dupes-to-symlinks",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/czkawka-dupes-to-symlinks",
+    "portable": "true",
+    "provides": [
+      "czkawka-dupes-to-symlinks"
+    ],
+    "rank": "35",
+    "recurse_provides": "false",
+    "shasum": "33b150ea4171a2762ae874d820ee1ed838fd5eb9b83e3b49e01c0c2e678c8674",
+    "size": "5.0 MB",
+    "size_raw": "5216792",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/czkawka-dupes-to-symlinks/0.1.1/download"
+    ],
+    "tag": [
+      "cli",
+      "czkawka",
+      "deduplication",
+      "filesystem",
+      "symlink"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
   },
   {
     "_disabled": "false",
@@ -108707,6 +108981,73 @@
   },
   {
     "_disabled": "false",
+    "bsum": "d4eb845519d937f3860a97cb12c381d39abc8409c0873a70b85f22d04bf59fca",
+    "build_date": "2025-11-10T18:28:23Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241852211",
+    "build_id": "19241852211",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/dijkstra-adjacency-list/stable/dijkstra-adjacency-list?tag=0.1.0-loongarch64-Linux&download=dijkstra-adjacency-list.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Dijkstra algorithm implmentation using adjacency list.",
+    "desktop_integration": "false",
+    "download_count": "12",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/dijkstra-adjacency-list/stable/dijkstra-adjacency-list?tag=0.1.0-loongarch64-Linux&download=dijkstra-adjacency-list",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/dijkstra-adjacency-list/stable/dijkstra-adjacency-list:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/dijkstra-adjacency-list/stable/dijkstra-adjacency-list",
+    "homepage": [
+      "https://crates.io/crates/dijkstra-adjacency-list"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/dijkstra-adjacency-list/stable/dijkstra-adjacency-list?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "dijkstra-adjacency-list",
+    "pkg_family": "dijkstra-adjacency-list",
+    "pkg_id": "pkgforge-cargo.dijkstra-adjacency-list.stable",
+    "pkg_name": "dijkstra-adjacency-list",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/dijkstra-adjacency-list",
+    "portable": "true",
+    "provides": [
+      "dijkstra-adjacency-list"
+    ],
+    "rank": "36",
+    "recurse_provides": "false",
+    "shasum": "fbede4e7e1c5dbcd1f0188df460652e6201d3c677580859c7e749fc2e947caf0",
+    "size": "484 KB",
+    "size_raw": "495512",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/dijkstra-adjacency-list/0.1.0/download"
+    ],
+    "tag": [
+      "dijkstra",
+      "graph",
+      "pathfinding",
+      "shortest-path"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "e28d79a53280c8c7ecf1ac9ad70c7f4d921ffd63ed9260bd26e8600298283a4a",
     "build_date": "2025-06-16T20:43:35Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15690732023",
@@ -108884,7 +109225,7 @@
     "provides": [
       "dinosay"
     ],
-    "rank": "30",
+    "rank": "37",
     "recurse_provides": "false",
     "shasum": "2b2b794aae3e6f1532ec4123b0e6d85c4269a73db235582d7ec681a78efc52c4",
     "size": "420 KB",
@@ -111419,7 +111760,7 @@
     "provides": [
       "doc2quarto"
     ],
-    "rank": "31",
+    "rank": "38",
     "recurse_provides": "false",
     "shasum": "3d43bc65965ab894e59bfdd8661c3d4a05b77c41149a8c21abbd38e40d082975",
     "size": "2.2 MB",
@@ -112649,6 +112990,74 @@
     "trusted": "true",
     "version": "0.1.0",
     "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "f49c5ca818a2b67989c3e85e5d2db085f48fd349805a2914b8daab5d0bcdb6d9",
+    "build_date": "2025-11-10T18:36:31Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241855805",
+    "build_id": "19241855805",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/doom-2038/stable/doom-2038?tag=1.0.1-loongarch64-Linux&download=doom-2038.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "doom is impending, be happy while you still can.",
+    "desktop_integration": "false",
+    "download_count": "27",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/doom-2038/stable/doom-2038?tag=1.0.1-loongarch64-Linux&download=doom-2038",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/doom-2038/stable/doom-2038:1.0.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/doom-2038/stable/doom-2038",
+    "homepage": [
+      "https://github.com/SDEdward/2038-doom"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "Unlicense"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/doom-2038/stable/doom-2038?tag=1.0.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "doom-2038",
+    "pkg_family": "doom-2038",
+    "pkg_id": "pkgforge-cargo.doom-2038.stable",
+    "pkg_name": "doom-2038",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/doom-2038",
+    "portable": "true",
+    "provides": [
+      "doom-2038"
+    ],
+    "rank": "39",
+    "recurse_provides": "false",
+    "shasum": "a85b65d99d7f35055329622d78b07a63379e150cfd659f34d03a7b52c2bd9406",
+    "size": "436 KB",
+    "size_raw": "446288",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/doom-2038/1.0.1/download"
+    ],
+    "tag": [
+      "2038",
+      "cli",
+      "countdown",
+      "fun",
+      "unix"
+    ],
+    "trusted": "true",
+    "version": "1.0.1",
+    "version_upstream": "1.0.1"
   },
   {
     "_disabled": "false",
@@ -116977,6 +117386,74 @@
   },
   {
     "_disabled": "false",
+    "bsum": "ae55b7afeb6c1549477439456e81bc5795f0547ea2a0cb0018ddd44962aa7e05",
+    "build_date": "2025-11-10T18:35:45Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241854535",
+    "build_id": "19241854535",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/dwrs/stable/dwrs?tag=0.1.5-loongarch64-Linux&download=dwrs.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "CLI tool for parallel file downloads with progress bar and i18n support.",
+    "desktop_integration": "false",
+    "download_count": "529",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/dwrs/stable/dwrs?tag=0.1.5-loongarch64-Linux&download=dwrs",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/dwrs/stable/dwrs:0.1.5-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/dwrs/stable/dwrs",
+    "homepage": [
+      "https://github.com/Bircoder432/dwrs"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/dwrs/stable/dwrs?tag=0.1.5-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "dwrs",
+    "pkg_family": "dwrs",
+    "pkg_id": "pkgforge-cargo.dwrs.stable",
+    "pkg_name": "dwrs",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/dwrs",
+    "portable": "true",
+    "provides": [
+      "dwrs"
+    ],
+    "rank": "40",
+    "recurse_provides": "false",
+    "shasum": "5be83001b2755aa723e0afdedb6c39d093fad2848807ae79cce13daee50a4570",
+    "size": "6.2 MB",
+    "size_raw": "6459784",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/dwrs/0.1.5/download"
+    ],
+    "tag": [
+      "cli",
+      "download",
+      "i18n",
+      "parallel",
+      "progress"
+    ],
+    "trusted": "true",
+    "version": "0.1.5",
+    "version_upstream": "0.1.5"
+  },
+  {
+    "_disabled": "false",
     "bsum": "667bf53ba5856ce0a8f78def84931805ed1b363d7e605fecfd86e30f554204bf",
     "build_date": "2025-06-14T20:09:12Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15655336467",
@@ -118888,7 +119365,7 @@
     "provides": [
       "pgrx_embed"
     ],
-    "rank": "32",
+    "rank": "41",
     "recurse_provides": "false",
     "shasum": "2ece36c44fead62aa757c5b1672528f6c5d5f08e8d03387643186b5326889e26",
     "size": "404 KB",
@@ -124529,6 +125006,71 @@
     "trusted": "true",
     "version": "0.5.3",
     "version_upstream": "0.5.3"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "2e1a4c110d4a0c548a5247e3ab5fc6130126f7d66f069f40ab6b68792575209c",
+    "build_date": "2025-11-10T18:34:16Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241855174",
+    "build_id": "19241855174",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/expense-tracker/stable/expense-tracker?tag=0.6.0-loongarch64-Linux&download=expense-tracker.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "expense-tracker is a cli based tool to track expenses.",
+    "desktop_integration": "false",
+    "download_count": "51",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/expense-tracker/stable/expense-tracker?tag=0.6.0-loongarch64-Linux&download=expense-tracker",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/expense-tracker/stable/expense-tracker:0.6.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/expense-tracker/stable/expense-tracker",
+    "homepage": [
+      "https://github.com/purnamahesh/expense-tracker"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "non-standard"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/expense-tracker/stable/expense-tracker?tag=0.6.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "expense-tracker",
+    "pkg_family": "expense-tracker",
+    "pkg_id": "pkgforge-cargo.expense-tracker.stable",
+    "pkg_name": "expense-tracker",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/expense-tracker",
+    "portable": "true",
+    "provides": [
+      "expense-tracker"
+    ],
+    "rank": "42",
+    "recurse_provides": "false",
+    "shasum": "629e021e64f75630b0544195278452f5efeb9cbfea8e9d254e9c8123acbf0651",
+    "size": "964 KB",
+    "size_raw": "986960",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/expense-tracker/0.6.0/download"
+    ],
+    "tag": [
+      "expense",
+      "tracker"
+    ],
+    "trusted": "true",
+    "version": "0.6.0",
+    "version_upstream": "0.6.0"
   },
   {
     "_disabled": "false",
@@ -134705,7 +135247,7 @@
       "flowmark",
       "flowmark-rs"
     ],
-    "rank": "33",
+    "rank": "43",
     "recurse_provides": "false",
     "shasum": "cda320559e23245a737fb638c5e8c1655e2aae9364e9b6b53d2ba72e99c8c80d",
     "size": "3.3 MB",
@@ -139908,7 +140450,7 @@
     "provides": [
       "fwon-rs-bench"
     ],
-    "rank": "35",
+    "rank": "45",
     "recurse_provides": "false",
     "shasum": "7c55400367b456a2a942ee7ec0632ecf96eff084011a0fe77de79f00d28711dc",
     "size": "948 KB",
@@ -154233,7 +154775,7 @@
     "provides": [
       "compliance_harness"
     ],
-    "rank": "36",
+    "rank": "46",
     "recurse_provides": "false",
     "shasum": "796cd476726b24287377b944a3da43d988b38b3aa746dcc9d6d6dda9520a273c",
     "size": "1.6 MB",
@@ -155323,6 +155865,73 @@
   },
   {
     "_disabled": "false",
+    "bsum": "d611d1cf87b7d39f12747d05b3475c8f677a8ad61b1bf1ae75750e3879ecf384",
+    "build_date": "2025-11-10T18:42:12Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241856447",
+    "build_id": "19241856447",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/greentic-demo/stable/greentic-demo?tag=0.3.1-loongarch64-Linux&download=greentic-demo.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "NATS-to-Greentic runner bridge that powers the greentic-demo messaging flow.",
+    "desktop_integration": "false",
+    "download_count": "12",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/greentic-demo/stable/greentic-demo?tag=0.3.1-loongarch64-Linux&download=greentic-demo",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/greentic-demo/stable/greentic-demo:0.3.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/greentic-demo/stable/greentic-demo",
+    "homepage": [
+      "https://github.com/greentic-ai/greentic-demo"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/greentic-demo/stable/greentic-demo?tag=0.3.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "greentic-demo",
+    "pkg_family": "greentic-demo",
+    "pkg_id": "pkgforge-cargo.greentic-demo.stable",
+    "pkg_name": "greentic-demo",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/greentic-demo",
+    "portable": "true",
+    "provides": [
+      "greentic-demo"
+    ],
+    "rank": "47",
+    "recurse_provides": "false",
+    "shasum": "f1755f3b2e33fc203171aba17f87f124c20c3eadb407ffe407f886080db19fcf",
+    "size": "18 MB",
+    "size_raw": "18040120",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/greentic-demo/0.3.1/download"
+    ],
+    "tag": [
+      "bot",
+      "greentic",
+      "nats",
+      "runner"
+    ],
+    "trusted": "true",
+    "version": "0.3.1",
+    "version_upstream": "0.3.1"
+  },
+  {
+    "_disabled": "false",
     "bsum": "27617848aba0b160473e5855086fe45975d25aed6c6a45783e1bd56b5975199c",
     "build_date": "2025-11-05T03:54:50Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19090568804",
@@ -155368,7 +155977,7 @@
     "provides": [
       "greentic-runner"
     ],
-    "rank": "37",
+    "rank": "48",
     "recurse_provides": "false",
     "shasum": "c470402585ede3fc6fd41ddf84a93f2c7fd3abc6c13ac2f41b92a40fa3a73515",
     "size": "15 MB",
@@ -155571,7 +156180,7 @@
     "provides": [
       "export-schemas"
     ],
-    "rank": "38",
+    "rank": "49",
     "recurse_provides": "false",
     "shasum": "af8f853cc7755408373671dc58d45d67f0bc0847381046d03df2219bfc10ebf6",
     "size": "740 KB",
@@ -157098,7 +157707,7 @@
     "provides": [
       "grrs3"
     ],
-    "rank": "39",
+    "rank": "50",
     "recurse_provides": "false",
     "shasum": "42c933265967d01684930365c0d6c5afddcf4d09359374ad2d58eac93bc2cace",
     "size": "452 KB",
@@ -157567,7 +158176,7 @@
     "provides": [
       "gsc-fq"
     ],
-    "rank": "40",
+    "rank": "51",
     "recurse_provides": "false",
     "shasum": "e6ee6798d9078c7792f5dc9fbf150506848bcc26d39c54ddb53ec12faf04f5f2",
     "size": "2.2 MB",
@@ -169443,7 +170052,7 @@
     "provides": [
       "icookforms"
     ],
-    "rank": "41",
+    "rank": "52",
     "recurse_provides": "false",
     "shasum": "4d1b767db9ad55d617f2c72253ebbb96d8d3db6544807cd1b2444152e741ded4",
     "size": "8.3 MB",
@@ -170572,7 +171181,7 @@
     "provides": [
       "imagedit"
     ],
-    "rank": "42",
+    "rank": "53",
     "recurse_provides": "false",
     "shasum": "d26bfd8688c3fa987b70c0299e9bcb88f542bdd574df82921bf4da3af1e41e66",
     "size": "4.3 MB",
@@ -172655,7 +173264,7 @@
     "provides": [
       "intent-engine"
     ],
-    "rank": "43",
+    "rank": "54",
     "recurse_provides": "false",
     "shasum": "91b51dbd615ac698e74311217f8fe1486de29e8e680077771723074650da4f66",
     "size": "4.2 MB",
@@ -173186,7 +173795,7 @@
     "provides": [
       "ipchat"
     ],
-    "rank": "44",
+    "rank": "55",
     "recurse_provides": "false",
     "shasum": "9fa00a330f48d5ba83f204caeeea088fca93fa9616919066681e88a6dd03f015",
     "size": "3.0 MB",
@@ -175037,7 +175646,7 @@
       "jacquard-codegen",
       "lex-fetch"
     ],
-    "rank": "47",
+    "rank": "58",
     "recurse_provides": "false",
     "shasum": "872ce98e5006f35941a96d4551b287008a855179ab9618d1137ce674e2cf942d",
     "size": "11 MB",
@@ -175307,7 +175916,7 @@
     "provides": [
       "jan"
     ],
-    "rank": "48",
+    "rank": "59",
     "recurse_provides": "false",
     "shasum": "24c9ea7ce4b87d9a3cb60161ba3b0ef38ab242d9584d34669df22eb30176cbd8",
     "size": "2.1 MB",
@@ -176308,7 +176917,7 @@
     "provides": [
       "jgpg"
     ],
-    "rank": "49",
+    "rank": "60",
     "recurse_provides": "false",
     "shasum": "a85fd4bef4688c6c0f6d2d3fdd4df8781690432afb6f998a661a29b3e94d783a",
     "size": "580 KB",
@@ -179116,7 +179725,7 @@
     "provides": [
       "json_sift_parser"
     ],
-    "rank": "50",
+    "rank": "61",
     "recurse_provides": "false",
     "shasum": "080cb5d0f0327e4d315c8d36c0655afa49812c135deae1a2b5a1c9086871eb4c",
     "size": "420 KB",
@@ -182307,7 +182916,7 @@
     "provides": [
       "keyrex"
     ],
-    "rank": "51",
+    "rank": "62",
     "recurse_provides": "false",
     "shasum": "628fdc49826967060314728bf4ff0117920c1ce81b9cbd436b32930cf5641209",
     "size": "2.4 MB",
@@ -196540,7 +197149,7 @@
     "provides": [
       "lad-lls"
     ],
-    "rank": "52",
+    "rank": "63",
     "recurse_provides": "false",
     "shasum": "3c8aa67db28f9522dc2f7ca6675e3ff731bcb565ab22bd95ec52091743782da9",
     "size": "5.2 MB",
@@ -204829,7 +205438,7 @@
     "provides": [
       "mdbook-betterlink"
     ],
-    "rank": "53",
+    "rank": "64",
     "recurse_provides": "false",
     "shasum": "a4de096bb7f20cd868261fc486875a1cfcf31de2780ec8274515aa4bd6b3c104",
     "size": "2.8 MB",
@@ -211462,7 +212071,7 @@
     "provides": [
       "mini_myers"
     ],
-    "rank": "55",
+    "rank": "66",
     "recurse_provides": "false",
     "shasum": "850de906eca820c57a0cb8cf7e28f6eb62448d26d94bd86f98004a6cf3f63433",
     "size": "420 KB",
@@ -211545,6 +212154,74 @@
       "rust",
       "shell",
       "terminal"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "7bbdaaefa7d8d34cb9faddf0fb48e919abd687684867e9bebfea31a3ac4d051f",
+    "build_date": "2025-11-10T18:41:26Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241857293",
+    "build_id": "19241857293",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/miniagent/stable/miniagent?tag=0.1.0-loongarch64-Linux&download=miniagent.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Minimal single agent demo with basic file tools and MCP support.",
+    "desktop_integration": "false",
+    "download_count": "15",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/miniagent/stable/miniagent?tag=0.1.0-loongarch64-Linux&download=miniagent",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/miniagent/stable/miniagent:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/miniagent/stable/miniagent",
+    "homepage": [
+      "https://github.com/Latias94/miniagent"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/miniagent/stable/miniagent?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "miniagent",
+    "pkg_family": "miniagent",
+    "pkg_id": "pkgforge-cargo.miniagent.stable",
+    "pkg_name": "miniagent",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/miniagent",
+    "portable": "true",
+    "provides": [
+      "miniagent"
+    ],
+    "rank": "67",
+    "recurse_provides": "false",
+    "shasum": "a157b6af6cfadb5b279ba83a60dfecf0adb89ba85ea8ec619b35f295819aaa1b",
+    "size": "13 MB",
+    "size_raw": "13170752",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/miniagent/0.1.0/download"
+    ],
+    "tag": [
+      "agent",
+      "ai",
+      "cli",
+      "llm",
+      "mcp"
     ],
     "trusted": "true",
     "version": "0.1.0",
@@ -213944,7 +214621,7 @@
     "provides": [
       "mni"
     ],
-    "rank": "56",
+    "rank": "68",
     "recurse_provides": "false",
     "shasum": "39b42834b82e697cc014467d8684ea7a5db91ae9119da1a6a369f08b18d710d7",
     "size": "13 MB",
@@ -215033,6 +215710,82 @@
   },
   {
     "_disabled": "false",
+    "bsum": "adb1443f77cd2d172554ab60f3b4a492cb38b6329ca470d930b0e922b8f2e019",
+    "build_date": "2025-11-10T18:50:19Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241858987",
+    "build_id": "19241858987",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/monerochan-prover/stable/test_shape_fixing?tag=5.2.8-loongarch64-Linux&download=test_shape_fixing.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Monero-Chan, The Open-Source Privacy Platform (OSPP).",
+    "desktop_integration": "false",
+    "download_count": "93",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/monerochan-prover/stable/test_shape_fixing?tag=5.2.8-loongarch64-Linux&download=test_shape_fixing",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/monerochan-prover/stable/test_shape_fixing:5.2.8-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/monerochan-prover/stable/test_shape_fixing",
+    "homepage": [
+      "https://github.com/monero-chan-foundation/monerochan-rs"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/monerochan-prover/stable/test_shape_fixing?tag=5.2.8-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "test_shape_fixing",
+    "pkg_family": "monerochan-prover",
+    "pkg_id": "pkgforge-cargo.monerochan-prover.stable",
+    "pkg_name": "test_shape_fixing",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/monerochan-prover",
+    "portable": "true",
+    "provides": [
+      "build_groth16_bn254",
+      "build_plonk_bn254",
+      "build_recursion_vks",
+      "find_maximal_shapes",
+      "find_oom_shapes",
+      "find_recursion_shapes",
+      "find_small_shapes",
+      "post_trusted_setup",
+      "test_shape_fixing"
+    ],
+    "rank": "77",
+    "recurse_provides": "false",
+    "shasum": "fa8cba73be9d23a491571c2559fba7a20837111a3d89a39cab2364c6600a2ad1",
+    "size": "6.7 MB",
+    "size_raw": "6952824",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/monerochan-prover/5.2.8/download"
+    ],
+    "tag": [
+      "monerochan",
+      "ospp",
+      "privacy",
+      "riscv",
+      "runtime"
+    ],
+    "trusted": "true",
+    "version": "5.2.8",
+    "version_upstream": "5.2.8"
+  },
+  {
+    "_disabled": "false",
     "bsum": "7f80ce3edea9887c9b886225ae82b62662b0062777f8437b9c9336d272e1d1a6",
     "build_date": "2025-06-17T13:09:50Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15707455978",
@@ -215671,7 +216424,7 @@
     "provides": [
       "mortar_lsp"
     ],
-    "rank": "57",
+    "rank": "78",
     "recurse_provides": "false",
     "shasum": "cee9e3c60d6cf0dc21008b0423d75bcdf05234b6f8ce5a29dd5f52738f62bce0",
     "size": "3.0 MB",
@@ -225365,7 +226118,7 @@
     "provides": [
       "northroot-cli"
     ],
-    "rank": "58",
+    "rank": "79",
     "recurse_provides": "false",
     "shasum": "9956e3d49d720d83b52e5249e97b4924486e410dc58c2e64c2a4d6e71f99425a",
     "size": "1.4 MB",
@@ -239414,7 +240167,7 @@
       "validate_dataset",
       "validate_structured"
     ],
-    "rank": "66",
+    "rank": "87",
     "recurse_provides": "false",
     "shasum": "808719f6f54ccdbb8ff28baa9dbf9cae7cbfc69519876517c74d611fa334bee2",
     "size": "2.5 MB",
@@ -243368,7 +244121,7 @@
     "provides": [
       "pico-otp"
     ],
-    "rank": "67",
+    "rank": "88",
     "recurse_provides": "false",
     "shasum": "9a10f27b5d29341522395002bce9796b32ce2369341738fef2656911783fd9ae",
     "size": "1.1 MB",
@@ -243517,6 +244270,74 @@
     "trusted": "true",
     "version": "0.1.0",
     "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "ee448148129f529120d87024f4a3db10b185f3a6639661e19f16b74b55aa37e6",
+    "build_date": "2025-11-10T18:44:26Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241858784",
+    "build_id": "19241858784",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/picoblog/stable/picoblog?tag=0.0.0-loongarch64-Linux&download=picoblog.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A minimalistic static site generator written in Rust.",
+    "desktop_integration": "false",
+    "download_count": "16",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/picoblog/stable/picoblog?tag=0.0.0-loongarch64-Linux&download=picoblog",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/picoblog/stable/picoblog:0.0.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/picoblog/stable/picoblog",
+    "homepage": [
+      "https://github.com/orbitalremnant/picoblog"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/picoblog/stable/picoblog?tag=0.0.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "picoblog",
+    "pkg_family": "picoblog",
+    "pkg_id": "pkgforge-cargo.picoblog.stable",
+    "pkg_name": "picoblog",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/picoblog",
+    "portable": "true",
+    "provides": [
+      "picoblog"
+    ],
+    "rank": "89",
+    "recurse_provides": "false",
+    "shasum": "5db828399984baad563c42e2ee990d02d570d84cf64fe011fbb09450e08a7889",
+    "size": "8.1 MB",
+    "size_raw": "8475024",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/picoblog/0.0.0/download"
+    ],
+    "tag": [
+      "chart",
+      "cli",
+      "data",
+      "plot",
+      "visualization"
+    ],
+    "trusted": "true",
+    "version": "0.0.0",
+    "version_upstream": "0.0.0"
   },
   {
     "_disabled": "false",
@@ -247248,6 +248069,74 @@
   },
   {
     "_disabled": "false",
+    "bsum": "1bae15fe2a58ecae0e641e30ff987606fb03be4a739952139c3a4cf5219d4bbd",
+    "build_date": "2025-11-10T18:43:30Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241858802",
+    "build_id": "19241858802",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/pngv/stable/pngv?tag=0.1.0-loongarch64-Linux&download=pngv.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A library and CLI tool for converting PNG images to color matrices and reconstructing them as PNG or SVG.",
+    "desktop_integration": "false",
+    "download_count": "18",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/pngv/stable/pngv?tag=0.1.0-loongarch64-Linux&download=pngv",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/pngv/stable/pngv:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/pngv/stable/pngv",
+    "homepage": [
+      "https://github.com/vmaspad/pngv"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT OR Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/pngv/stable/pngv?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "pngv",
+    "pkg_family": "pngv",
+    "pkg_id": "pkgforge-cargo.pngv.stable",
+    "pkg_name": "pngv",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/pngv",
+    "portable": "true",
+    "provides": [
+      "pngv"
+    ],
+    "rank": "90",
+    "recurse_provides": "false",
+    "shasum": "36e09023949b9df0482b954775ca429aff2181fe775d1901e2ed80e417c2cd9a",
+    "size": "2.2 MB",
+    "size_raw": "2281440",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/pngv/0.1.0/download"
+    ],
+    "tag": [
+      "converter",
+      "image",
+      "matrix",
+      "png",
+      "svg"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "cb10c1da21581336c6ef23eb028febfc3778018fd7eeb39372d4171fe63674e6",
     "build_date": "2025-06-17T18:35:21Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15714315967",
@@ -248493,7 +249382,7 @@
     "provides": [
       "pomsky"
     ],
-    "rank": "68",
+    "rank": "91",
     "recurse_provides": "false",
     "shasum": "e29585ea1697af129b9af46dd75fe07d5d7b54f5851ccff29e3d1f7c00573a05",
     "size": "3.4 MB",
@@ -249906,7 +250795,7 @@
     "provides": [
       "powerlaw"
     ],
-    "rank": "69",
+    "rank": "92",
     "recurse_provides": "false",
     "shasum": "02056d6e42e0514fdb3e55a1e66e861d7534b7f28203f6010382a060bdc9ac9f",
     "size": "1.1 MB",
@@ -250303,7 +251192,7 @@
     "provides": [
       "pqc_bridge"
     ],
-    "rank": "70",
+    "rank": "93",
     "recurse_provides": "false",
     "shasum": "194f59137b9801f0d6c96d2d64fb4c37516058026db0a524b42fb5d5bfcc109c",
     "size": "964 KB",
@@ -253807,6 +254696,74 @@
     "trusted": "true",
     "version": "0.1.0",
     "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "c9ed47c683ad6602d906f9698888b8ef083ece3466e00fd828c4605fc0584eee",
+    "build_date": "2025-11-10T18:44:35Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241858771",
+    "build_id": "19241858771",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/proto-sign/stable/proto-sign?tag=0.1.1-loongarch64-Linux&download=proto-sign.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "Semantic protocol buffer analysis tool for detecting breaking changes.",
+    "desktop_integration": "false",
+    "download_count": "19",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/proto-sign/stable/proto-sign?tag=0.1.1-loongarch64-Linux&download=proto-sign",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/proto-sign/stable/proto-sign:0.1.1-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/proto-sign/stable/proto-sign",
+    "homepage": [
+      "https://github.com/actor-rtc/proto-sign"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/proto-sign/stable/proto-sign?tag=0.1.1-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "proto-sign",
+    "pkg_family": "proto-sign",
+    "pkg_id": "pkgforge-cargo.proto-sign.stable",
+    "pkg_name": "proto-sign",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/proto-sign",
+    "portable": "true",
+    "provides": [
+      "proto-sign"
+    ],
+    "rank": "94",
+    "recurse_provides": "false",
+    "shasum": "c36225d85bdb8339b620f82c962432f2d3c01cd6b4fbe62148f61d7a57fdb198",
+    "size": "3.1 MB",
+    "size_raw": "3186584",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/proto-sign/0.1.1/download"
+    ],
+    "tag": [
+      "analysis",
+      "breaking-changes",
+      "compatibility",
+      "protobuf",
+      "protocol"
+    ],
+    "trusted": "true",
+    "version": "0.1.1",
+    "version_upstream": "0.1.1"
   },
   {
     "_disabled": "false",
@@ -257788,7 +258745,7 @@
     "provides": [
       "ct_bench"
     ],
-    "rank": "71",
+    "rank": "95",
     "recurse_provides": "false",
     "shasum": "689988510080c85fde416b47a51b8cf4b45cae09a91ace1c69418c8b15b2d355",
     "size": "1.1 MB",
@@ -271220,7 +272177,7 @@
     "provides": [
       "rhask"
     ],
-    "rank": "72",
+    "rank": "96",
     "recurse_provides": "false",
     "shasum": "273ee2507a74367164c74be35ba3ade06d0e757bf9cbb3b8828499210b005329",
     "size": "4.2 MB",
@@ -271884,7 +272841,7 @@
     "provides": [
       "rill_json_bin"
     ],
-    "rank": "73",
+    "rank": "97",
     "recurse_provides": "false",
     "shasum": "82d402cceebeb5435f27f80777c59c923d586e37c65d38e0cd1cfa5dc77bc7c1",
     "size": "500 KB",
@@ -273622,7 +274579,7 @@
     "provides": [
       "rmbrr"
     ],
-    "rank": "74",
+    "rank": "98",
     "recurse_provides": "false",
     "shasum": "18bb160193d05dcb03578499d3cb301a21c60ef64ee3120b0cc574536d04685a",
     "size": "1013 KB",
@@ -278316,7 +279273,7 @@
     "provides": [
       "rs-docker-volumes2arrow-ipc"
     ],
-    "rank": "75",
+    "rank": "99",
     "recurse_provides": "false",
     "shasum": "88f0e93cbb6ce1c6f6f53691c399f3b57077158d51aa0901f27e8dfbff017c1f",
     "size": "2.8 MB",
@@ -278516,7 +279473,7 @@
     "provides": [
       "jsonl2x"
     ],
-    "rank": "76",
+    "rank": "100",
     "recurse_provides": "false",
     "shasum": "84bc19b2414178a08944080d21d40ef5552473b8f46bf04cbd5b27d6f4626308",
     "size": "2.1 MB",
@@ -292235,7 +293192,7 @@
     "provides": [
       "sapling"
     ],
-    "rank": "77",
+    "rank": "101",
     "recurse_provides": "false",
     "shasum": "8ec376c70c1f780dd77b485662c72ea7ebbc8196ca918cd6651ad2e4f94225b8",
     "size": "948 KB",
@@ -295431,7 +296388,7 @@
     "provides": [
       "sdc4-validate"
     ],
-    "rank": "78",
+    "rank": "102",
     "recurse_provides": "false",
     "shasum": "36cb13a272a6d893723ad9425a52a3f60da3dd686ba97b551e5e2b75e6306ee2",
     "size": "420 KB",
@@ -295652,6 +296609,72 @@
     "trusted": "true",
     "version": "0.1.1",
     "version_upstream": "0.1.1"
+  },
+  {
+    "_disabled": "false",
+    "bsum": "1fdcbcae1f2a64a2fa54ff3cfbe6f5fc5d632f652cde9dd40166fed1649a6e97",
+    "build_date": "2025-11-10T18:41:47Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241858741",
+    "build_id": "19241858741",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/secr/stable/secr?tag=1.2.2-loongarch64-Linux&download=secr.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "A simple secret manager.",
+    "desktop_integration": "false",
+    "download_count": "88",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/secr/stable/secr?tag=1.2.2-loongarch64-Linux&download=secr",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/secr/stable/secr:1.2.2-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/secr/stable/secr",
+    "homepage": [
+      "https://github.com/zacharysiegel/secr"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/secr/stable/secr?tag=1.2.2-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "secr",
+    "pkg_family": "secr",
+    "pkg_id": "pkgforge-cargo.secr.stable",
+    "pkg_name": "secr",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/secr",
+    "portable": "true",
+    "provides": [
+      "secr"
+    ],
+    "rank": "103",
+    "recurse_provides": "false",
+    "shasum": "c6cbd2339f179a6f988a6ac69dd353f83cbb7b300cd883780e157134444d68a4",
+    "size": "1012 KB",
+    "size_raw": "1036160",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/secr/1.2.2/download"
+    ],
+    "tag": [
+      "cli",
+      "secret",
+      "secrets_manager"
+    ],
+    "trusted": "true",
+    "version": "1.2.2",
+    "version_upstream": "1.2.2"
   },
   {
     "_disabled": "false",
@@ -297251,7 +298274,7 @@
     "provides": [
       "seqwish"
     ],
-    "rank": "79",
+    "rank": "104",
     "recurse_provides": "false",
     "shasum": "36c5f37d5541810b53ca29ab9127061acca4986648088aa95f3baa59abfc5d6d",
     "size": "1.3 MB",
@@ -308684,7 +309707,7 @@
     "provides": [
       "srctrait"
     ],
-    "rank": "80",
+    "rank": "105",
     "recurse_provides": "false",
     "shasum": "a9981ca6ff1f4195ea617cf2e610c9085d826f47ff8abfa6903595a2b6e179b6",
     "size": "1.6 MB",
@@ -313612,7 +314635,7 @@
     "provides": [
       "standby"
     ],
-    "rank": "81",
+    "rank": "106",
     "recurse_provides": "false",
     "shasum": "1e9ec380ce1d77387339b9de6fac1192974b58b33be20ab67b51cf5003ce191f",
     "size": "932 KB",
@@ -332295,7 +333318,7 @@
     "provides": [
       "toon"
     ],
-    "rank": "82",
+    "rank": "107",
     "recurse_provides": "false",
     "shasum": "9c4af2edeb14ce7f7b47deb2aa17282e5a8ad28d8b171248c512efba998f01f0",
     "size": "4.4 MB",
@@ -334347,7 +335370,7 @@
     "provides": [
       "treemd"
     ],
-    "rank": "83",
+    "rank": "108",
     "recurse_provides": "false",
     "shasum": "9a07ca91afd2b69cd31a9cb7b63d18457bea43693f938bd5d520550038784fe1",
     "size": "3.7 MB",
@@ -336758,7 +337781,7 @@
     "provides": [
       "rust_editor"
     ],
-    "rank": "84",
+    "rank": "109",
     "recurse_provides": "false",
     "shasum": "26e7bfe5887ea1b8aab711e892a5222d7e1f12e90cfcbd8e7659cd03a26ad2ba",
     "size": "965 KB",
@@ -345210,7 +346233,7 @@
     "provides": [
       "vest"
     ],
-    "rank": "85",
+    "rank": "110",
     "recurse_provides": "false",
     "shasum": "cf6b580d56dc40f2abcb51264e67d107ec5fff7641273e94b775e3263f05962b",
     "size": "1.7 MB",
@@ -350107,6 +351130,75 @@
   },
   {
     "_disabled": "false",
+    "bsum": "e692da5bf864c6286e6f11638ec621b31d4aafd9fc8db5103259a4d17f81b451",
+    "build_date": "2025-11-10T18:47:16Z",
+    "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19241860602",
+    "build_id": "19241860602",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/wasm-slim/stable/wasm-slim?tag=0.1.0-loongarch64-Linux&download=wasm-slim.log",
+    "bundle": "false",
+    "category": [
+      "Utility"
+    ],
+    "deprecated": "false",
+    "description": "WASM bundle size optimizer.",
+    "desktop_integration": "false",
+    "download_count": "16",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/wasm-slim/stable/wasm-slim?tag=0.1.0-loongarch64-Linux&download=wasm-slim",
+    "external": "true",
+    "ghcr_pkg": "ghcr.io/pkgforge-cargo/wasm-slim/stable/wasm-slim:0.1.0-loongarch64-Linux",
+    "ghcr_url": "https://ghcr.io/pkgforge-cargo/wasm-slim/stable/wasm-slim",
+    "homepage": [
+      "https://github.com/vitalratel/wasm-slim"
+    ],
+    "host": "loongarch64-Linux",
+    "installable": "true",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+    ],
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/wasm-slim/stable/wasm-slim?tag=0.1.0-loongarch64-Linux&manifest",
+    "note": [
+      "[EXTERNAL] (This is an Official but externally maintained repository)",
+      "This package was automatically built from crates.io using cargo-cross",
+      "Provided by: https://github.com/pkgforge-cargo/builder",
+      "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+    ],
+    "pkg": "wasm-slim",
+    "pkg_family": "wasm-slim",
+    "pkg_id": "pkgforge-cargo.wasm-slim.stable",
+    "pkg_name": "wasm-slim",
+    "pkg_type": "static",
+    "pkg_webpage": "https://crates.io/crates/wasm-slim",
+    "portable": "true",
+    "provides": [
+      "bench-tracker",
+      "wasm-slim"
+    ],
+    "rank": "112",
+    "recurse_provides": "false",
+    "shasum": "d871bdd5738a9aa0ee1483ca4d5c611ebf469f76949f5ed62532df4d2cd29b6a",
+    "size": "4.6 MB",
+    "size_raw": "4755656",
+    "snapshots": [],
+    "soar_syms": "false",
+    "src_url": [
+      "https://crates.io/api/v1/crates/wasm-slim/0.1.0/download"
+    ],
+    "tag": [
+      "bundle-size",
+      "cli",
+      "optimization",
+      "wasm",
+      "webassembly"
+    ],
+    "trusted": "true",
+    "version": "0.1.0",
+    "version_upstream": "0.1.0"
+  },
+  {
+    "_disabled": "false",
     "bsum": "1e6d1bbec01bfdf3a58eaaf92bac00e4c0b3fa62bc868d5118235f8708566fb4",
     "build_date": "2025-06-14T14:16:34Z",
     "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/15652561125",
@@ -353282,7 +354374,7 @@
     "provides": [
       "which-terminal"
     ],
-    "rank": "86",
+    "rank": "113",
     "recurse_provides": "false",
     "shasum": "843e097fcab454401a0de2b5d688b0f23bb7498af6c8568157ec792572dba1b4",
     "size": "484 KB",
@@ -353752,7 +354844,7 @@
     "provides": [
       "whois-cli"
     ],
-    "rank": "87",
+    "rank": "114",
     "recurse_provides": "false",
     "shasum": "70f56b04301fce34c529f63af981a09afdcc1fd414236253d8e5f55c3f69ffde",
     "size": "4.6 MB",
@@ -354217,7 +355309,7 @@
     "provides": [
       "wiki_extractor"
     ],
-    "rank": "88",
+    "rank": "115",
     "recurse_provides": "false",
     "shasum": "963141b320b2c69bce9ffa282622c10c274deb5894a4b9ab82c191aaba7230cd",
     "size": "1.1 MB",
@@ -361101,7 +362193,7 @@
     "provides": [
       "yamllint-rs"
     ],
-    "rank": "89",
+    "rank": "116",
     "recurse_provides": "false",
     "shasum": "bab6eb7c4ab36d7124e78a146fa9f29c5e51187640b6565e368b95640c99bee4",
     "size": "3.1 MB",
