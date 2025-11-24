@@ -1,0 +1,71 @@
+{
+  "_disabled": "false",
+  "host": "loongarch64-Linux",
+  "rank": "",
+  "pkg": "network_server",
+  "pkg_family": "zeropool",
+  "pkg_id": "pkgforge-cargo.zeropool.stable",
+  "pkg_name": "network_server",
+  "pkg_type": "static",
+  "pkg_webpage": "https://crates.io/crates/zeropool",
+  "bundle": "false",
+  "category": [
+    "Utility"
+  ],
+  "description": "High-performance buffer pool with constant-time allocation, thread-safe operations, and 5x speedup over bytes crate.",
+  "homepage": [
+    "https://github.com/botirk38/zeropool"
+  ],
+  "license": [
+    "MIT OR Apache-2.0"
+  ],
+  "maintainer": [
+    "pkgforge-cargo (https://github.com/pkgforge-cargo/builder)"
+  ],
+  "provides": [
+    "file_pipeline",
+    "ml_checkpoint_loader",
+    "network_server",
+    "stress_test"
+  ],
+  "note": [
+    "[EXTERNAL] (This is an Official but externally maintained repository)",
+    "This package was automatically built from crates.io using cargo-cross",
+    "Provided by: https://github.com/pkgforge-cargo/builder",
+    "Learn More: https://docs.pkgforge.dev/repositories/external/pkgforge-cargo"
+  ],
+  "src_url": [
+    "https://crates.io/api/v1/crates/zeropool/0.3.1/download"
+  ],
+  "tag": [
+    "buffer",
+    "io",
+    "performance",
+    "pool",
+    "zero-copy"
+  ],
+  "version": "0.3.1",
+  "version_upstream": "0.3.1",
+  "bsum": "b694bb8bf5d86dcaab668401fffa09829020ec9e02a4e9cadea7bf7f4712a977",
+  "build_date": "2025-11-24T04:12:01Z",
+  "build_gha": "https://github.com/pkgforge-cargo/builder/actions/runs/19622828412",
+  "build_id": "19622828412",
+  "build_log": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/zeropool/stable/network_server?tag=0.3.1-loongarch64-Linux&download=network_server.log",
+  "deprecated": "false",
+  "desktop_integration": "false",
+  "download_count": "733",
+  "download_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/zeropool/stable/network_server?tag=0.3.1-loongarch64-Linux&download=network_server",
+  "external": "true",
+  "ghcr_pkg": "ghcr.io/pkgforge-cargo/zeropool/stable/network_server:0.3.1-loongarch64-Linux",
+  "ghcr_url": "https://ghcr.io/pkgforge-cargo/zeropool/stable/network_server",
+  "installable": "true",
+  "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge-cargo/zeropool/stable/network_server?tag=0.3.1-loongarch64-Linux&manifest",
+  "portable": "true",
+  "recurse_provides": "false",
+  "shasum": "4c93d567507f5eee90195c8a91b3b319c4fbd8ccf3267831ee44486e32fd739c",
+  "size": "516 KB",
+  "size_raw": "528320",
+  "soar_syms": "false",
+  "snapshots": [],
+  "trusted": "true"
+}
